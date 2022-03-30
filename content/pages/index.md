@@ -134,7 +134,7 @@ sections:
   - type: FeaturedItemsSection
     colors: colors-c
     elementId: ''
-    title: Key value propositions
+    title: Latest Events
     subtitle: ''
     items:
       - type: FeaturedItem
