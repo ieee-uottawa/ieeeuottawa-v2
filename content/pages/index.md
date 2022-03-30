@@ -96,10 +96,10 @@ sections:
             textAlign: left
       - type: FeaturedItem
         title: Curated textbook selection
-        text: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
-          lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
-          pharetra ipsum dolor, et iaculis elit ornare ac.
+        text: >
+          Need to borrow a textbook for one of your courses? Our office contains
+          a carefully curated selection of textbooks covering a wide variety of
+          EECS subjects. The best part? You can borrow them at no cost!
         actions:
           - type: Button
             label: Learn more
