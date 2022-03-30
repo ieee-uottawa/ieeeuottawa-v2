@@ -80,10 +80,10 @@ sections:
             textAlign: left
       - type: FeaturedItem
         title: Homework Help
-        text: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
-          lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
-          pharetra ipsum dolor, et iaculis elit ornare ac.
+        text: >
+          Need to study with your friends in a quiet environment to prepare for
+          your midterm? Our office is the perfect place for that. Plus, you can
+          also seek academic help from our executives during their office hours.
         actions:
           - type: Button
             label: Learn more
