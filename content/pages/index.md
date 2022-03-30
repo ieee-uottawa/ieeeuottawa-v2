@@ -106,8 +106,7 @@ sections:
             textAlign: left
         featuredImage:
           type: ImageBlock
-          url: >-
-            https://assets.stackbit.com/components/images/default/default-image.png
+          url: /images/books.svg
           altText: Textbooks illustration
           caption: Caption of the image
           elementId: ''
