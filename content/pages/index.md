@@ -32,7 +32,7 @@ sections:
     backgroundImage:
       type: BackgroundImage
       url: /images/image_3.JPEG
-      backgroundSize: contain
+      backgroundSize: cover
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 25
