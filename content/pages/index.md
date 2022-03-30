@@ -170,7 +170,7 @@ sections:
         styles:
           self:
             textAlign: left
-        subtitle: March 25
+        subtitle: March 25th - March
       - type: FeaturedItem
         title: Focused
         text: >-
