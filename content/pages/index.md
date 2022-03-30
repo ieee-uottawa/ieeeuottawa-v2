@@ -31,7 +31,7 @@ sections:
         showIcon: true
     backgroundImage:
       type: BackgroundImage
-      url: /images/hackathon-staff.png
+      url: /images/image_3.JPEG
       backgroundSize: cover
       backgroundPosition: center
       backgroundRepeat: no-repeat
