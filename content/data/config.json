@@ -47,7 +47,7 @@
         },
         "logo": {
             "type": "ImageBlock",
-            "url": "/images/LOGO_NO_TEXT.svg",
+            "url": "/images/LOGO_BLUE.svg",
             "altText": "IEEE uOttawa Logo",
             "caption": "Caption of the image",
             "elementId": ""
