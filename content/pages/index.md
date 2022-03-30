@@ -95,7 +95,7 @@ sections:
           self:
             textAlign: left
       - type: FeaturedItem
-        title: Curated textbook selection
+        title: Lecture Textbook
         text: >
           Need to borrow a textbook for one of your courses? Our office contains
           a carefully curated selection of textbooks covering a wide variety of
