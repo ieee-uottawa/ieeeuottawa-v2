@@ -63,7 +63,7 @@ sections:
     subtitle: ''
     items:
       - type: FeaturedItem
-        title: Purchase lab supplies
+        title: Purchase Lab Supplies
         text: >
           Need to buy a breadboard, wire strippers or CD-Rs? Need to use an
           Altera DE2 Board or an oscilloscope for a project? Look no further. We
