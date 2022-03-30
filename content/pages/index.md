@@ -33,7 +33,7 @@ sections:
       type: BackgroundImage
       url: /images/image_3.JPEG
       backgroundSize: cover
-      backgroundPosition: left
+      backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 25
     styles:
