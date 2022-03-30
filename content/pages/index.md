@@ -75,7 +75,7 @@ sections:
         featuredImage:
           type: ImageBlock
           url: /images/circuit.svg
-          altText: Breadboard image
+          altText: Circuit illustration
           caption: Caption of the image
           elementId: ''
       - type: FeaturedItem
