@@ -79,7 +79,7 @@ sections:
           caption: Caption of the image
           elementId: ''
       - type: FeaturedItem
-        title: Homework Help
+        title: Get Homework Help
         text: >
           Need to study with your friends in a quiet environment to prepare for
           your midterm? Our office is the perfect place for that. Plus, you can
