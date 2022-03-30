@@ -88,13 +88,7 @@ sections:
           Need to borrow a textbook for one of your courses? Our office contains
           a carefully curated selection of textbooks covering a wide variety of
           EECS subjects. The best part? You can borrow them at no cost!
-        actions:
-          - type: Button
-            label: Learn more
-            showIcon: true
-            icon: arrowRight
-            url: /
-            style: secondary
+        actions: []
         styles:
           self:
             textAlign: left
