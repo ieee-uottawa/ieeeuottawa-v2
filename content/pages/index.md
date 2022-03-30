@@ -134,7 +134,7 @@ sections:
   - type: FeaturedItemsSection
     colors: colors-c
     elementId: ''
-    title: Latest Events
+    title: Upcoming Events
     subtitle: ''
     items:
       - type: FeaturedItem
