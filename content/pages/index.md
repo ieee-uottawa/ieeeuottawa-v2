@@ -95,7 +95,7 @@ sections:
           self:
             textAlign: left
       - type: FeaturedItem
-        title: Lecture Textbook
+        title: Borrow Textbooks
         text: >
           Need to borrow a textbook for one of your courses? Our office contains
           a carefully curated selection of textbooks covering a wide variety of
