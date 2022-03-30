@@ -223,7 +223,7 @@ sections:
         icon: arrowRight
     backgroundImage:
       type: BackgroundImage
-      url: /images/hero-3.webp
+      url: /images/SITE.jpeg
       backgroundSize: cover
       backgroundPosition: center
       backgroundRepeat: no-repeat
