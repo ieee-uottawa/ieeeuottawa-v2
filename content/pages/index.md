@@ -155,7 +155,7 @@ sections:
             textAlign: left
         subtitle: 'April 1st, 2022 @7PM-10PM'
       - type: FeaturedItem
-        title: Smarter
+        title: Terra Hackathon
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
           lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
