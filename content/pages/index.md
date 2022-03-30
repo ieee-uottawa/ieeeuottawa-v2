@@ -68,13 +68,7 @@ sections:
           Need to buy a breadboard, wire strippers or CD-Rs? Need to use an
           Altera DE2 Board or an oscilloscope for a project? Look no further. We
           got you covered. Visit our office to get all the equipment you need.
-        actions:
-          - type: Button
-            label: Learn more
-            showIcon: true
-            icon: arrowRight
-            url: /
-            style: secondary
+        actions: []
         styles:
           self:
             textAlign: left
