@@ -223,7 +223,7 @@ sections:
         icon: arrowRight
     backgroundImage:
       type: BackgroundImage
-      url: /images/SITE.jpeg
+      url: /images/bg.jpg
       backgroundSize: cover
       backgroundPosition: center
       backgroundRepeat: no-repeat
