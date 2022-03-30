@@ -64,10 +64,10 @@ sections:
     items:
       - type: FeaturedItem
         title: Purchase lab supplies
-        text: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
-          lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
-          pharetra ipsum dolor, et iaculis elit ornare ac.
+        text: >
+          Need to buy a breadboard, wire strippers or CD-Rs? Need to use an
+          Altera DE2 Board or an oscilloscope for a project? Look no further. We
+          got you covered. Visit our office to get all the equipment you need.
         actions:
           - type: Button
             label: Learn more
