@@ -20,7 +20,7 @@ sections:
     colors: colors-d
     backgroundSize: inset
     title: Powering Your Student Experience.
-    subtitle: Fresh. Better. Faster.
+    subtitle: Brought to you by the best uOttawa sub-association on campus.
     actions:
       - type: Button
         label: Get Started
