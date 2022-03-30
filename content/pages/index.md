@@ -153,7 +153,7 @@ sections:
         styles:
           self:
             textAlign: left
-        subtitle: 'April 1st, 2022 @'
+        subtitle: 'April 1st, 2022 @7PM-10PM'
       - type: FeaturedItem
         title: Smarter
         text: >-
