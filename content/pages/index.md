@@ -78,6 +78,7 @@ sections:
           altText: Circuit illustration
           caption: Caption of the image
           elementId: ''
+        subtitle: Learn more
       - type: FeaturedItem
         title: Homework Help
         text: >
