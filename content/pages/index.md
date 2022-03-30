@@ -78,13 +78,7 @@ sections:
           Need to study with your friends in a quiet environment to prepare for
           your midterm? Our office is the perfect place for that. Plus, you can
           also seek academic help from our executives during their office hours.
-        actions:
-          - type: Button
-            label: Learn more
-            showIcon: true
-            icon: arrowRight
-            url: /
-            style: secondary
+        actions: []
         styles:
           self:
             textAlign: left
