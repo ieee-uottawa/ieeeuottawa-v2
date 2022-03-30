@@ -79,7 +79,7 @@ sections:
           self:
             textAlign: left
       - type: FeaturedItem
-        title: Smarter
+        title: Homework Help
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
           lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
