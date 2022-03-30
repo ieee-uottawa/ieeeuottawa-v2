@@ -59,7 +59,7 @@ sections:
   - type: FeaturedItemsSection
     colors: colors-d
     elementId: ''
-    title: Key value propositions
+    title: Come to our office
     subtitle: ''
     items:
       - type: FeaturedItem
