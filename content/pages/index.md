@@ -31,7 +31,7 @@ sections:
         showIcon: true
     backgroundImage:
       type: BackgroundImage
-      url: /images/hero.webp
+      url: /images/hackathon-staff.png
       backgroundSize: cover
       backgroundPosition: center
       backgroundRepeat: no-repeat
