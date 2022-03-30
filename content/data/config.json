@@ -7,7 +7,7 @@
         "primaryColors": "colors-d",
         "secondaryColors": "colors-d",
         "title": "IEEE uOttawa",
-        "isTitleVisible": false,
+        "isTitleVisible": true,
         "primaryLinks": [
             {
                 "type": "Link",
