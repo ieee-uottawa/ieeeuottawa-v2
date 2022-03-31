@@ -256,8 +256,7 @@ sections:
     title: Get in touch
     text: >
       Got a question? Event suggestions? Feedback? We want to hear it! Send us a
-      message and we will do our best to get back to you you within 2 (two)
-      business days
+      message and we will get back to you shortly.
     form:
       type: FormBlock
       elementId: sign-up-form
