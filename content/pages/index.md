@@ -257,7 +257,7 @@ sections:
     colors: colors-d
     elementId: ''
     backgroundSize: full
-    title: Time to leave your desk. Let’s go flying
+    title: Meet Women In Engineering (WIE)
     subtitle: ''
     text: 'We’re local, seasonal fisherman, supporting fishing restrictions.'
     actions:
