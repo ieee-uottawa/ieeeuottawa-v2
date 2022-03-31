@@ -45,6 +45,44 @@ sections:
         textAlign: left
       text:
         textAlign: left
+  - type: FeatureHighlightSection
+    colors: colors-d
+    elementId: ''
+    backgroundSize: full
+    title: Time to leave your desk. Let’s go flying
+    subtitle: ''
+    text: 'We’re local, seasonal fisherman, supporting fishing restrictions.'
+    actions:
+      - type: Button
+        label: Get started
+        showIcon: true
+        icon: arrowRight
+        style: primary
+        url: /
+    backgroundImage:
+      type: ImageBlock
+      url: /images/hero-4.jpg
+      backgroundSize: cover
+      backgroundPosition: center
+      opacity: 100
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-36
+          - pb-72
+          - pl-4
+          - pr-4
+        justifyContent: center
+      title:
+        textAlign: center
+      subtitle:
+        textAlign: center
+      text:
+        textAlign: center
+      actions:
+        justifyContent: center
   - elementId: ''
     variant: variant-c
     colors: colors-c
