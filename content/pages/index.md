@@ -260,9 +260,8 @@ sections:
     title: Meet IEEE WIE
     subtitle: ''
     text: >
-      The largest international professional organization dedicated to promoting
-      women engineers and scientists and inspiring girls around the world to
-      follow their academic interests to a career in engineering.
+      The mission of the IEEE uOttawa Women In Engineering is to inspire,
+      engage, encourage, and empower women to pursue the engineering field.
     actions:
       - type: Button
         label: Get started
