@@ -86,7 +86,7 @@ sections:
       actions:
         justifyContent: center
   - elementId: ''
-    variant: variant-c
+    variant: variant-a
     colors: colors-c
     title: Our Team
     subtitle: >-
