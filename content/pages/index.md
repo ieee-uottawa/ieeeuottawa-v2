@@ -302,7 +302,7 @@ sections:
           hideLabel: false
           defaultValue: Please choose...
           options:
-            - New York
+            - Electrical
             - San Francisco
           isRequired: false
           width: full
