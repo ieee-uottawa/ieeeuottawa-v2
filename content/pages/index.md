@@ -214,7 +214,7 @@ sections:
     backgroundSize: full
     title: Did you know?
     text: |
-      We’re local, seasonal fisherman, supporting fishing restrictions.
+      IEEE uOttawa was first established in 1990!
     actions:
       - type: Link
         label: Join adventure
