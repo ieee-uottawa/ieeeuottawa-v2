@@ -75,6 +75,7 @@ sections:
       seas and sharing our experiences with the world.
     people:
       - content/data/team/desmond-eagle.json
+      - content/data/team/person-bw7qe01y6.json
       - content/data/team/dianne-ameter.json
       - content/data/team/hugh-saturation.json
       - content/data/team/hilary-ouse.json
