@@ -287,7 +287,7 @@ sections:
         - name: Message
           label: Message
           hideLabel: true
-          placeholder: Address
+          placeholder: Write message
           isRequired: true
           width: full
           type: TextFormControl
