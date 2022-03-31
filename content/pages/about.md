@@ -46,44 +46,6 @@ sections:
       text:
         textAlign: left
   - elementId: ''
-    colors: colors-b
-    quote: >-
-      “This is someone else, not from our team, but she also loves fishing, so
-      we thought we should highlight her.”
-    backgroundImage:
-      type: BackgroundImage
-      url: /images/bg.webp
-      backgroundSize: cover
-      backgroundPosition: center
-      backgroundRepeat: no-repeat
-      opacity: 70
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
-        padding:
-          - pt-96
-          - pb-10
-          - pl-4
-          - pr-4
-        justifyContent: center
-      quote:
-        textAlign: left
-      name:
-        fontWeight: '400'
-        fontStyle: normal
-        textAlign: left
-      title:
-        fontWeight: '400'
-        fontStyle: normal
-        textAlign: left
-    type: QuoteSection
-  - elementId: ''
     variant: variant-c
     colors: colors-c
     title: Our Team
