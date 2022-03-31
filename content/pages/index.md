@@ -60,7 +60,7 @@ sections:
     colors: colors-d
     elementId: ''
     title: Come to our office
-    subtitle: ''
+    subtitle: IEEE
     items:
       - type: FeaturedItem
         title: Purchase Lab Supplies
