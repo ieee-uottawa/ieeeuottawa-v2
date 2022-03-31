@@ -51,7 +51,9 @@ sections:
     backgroundSize: full
     title: WIE Affinity Group
     subtitle: ''
-    text: 'We’re local, seasonal fisherman, supporting fishing restrictions.'
+    text: >
+      The mission of the IEEE uOttawa Women In Engineering is to inspire,
+      engage, encourage, and empower women to pursue the engineering field.
     actions:
       - type: Button
         label: Get started
