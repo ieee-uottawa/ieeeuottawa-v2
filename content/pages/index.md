@@ -212,7 +212,7 @@ sections:
   - type: FeatureHighlightSection
     colors: colors-d
     backgroundSize: full
-    title: Did you know?
+    title: Shop our merch
     text: |
       IEEE uOttawa was first established in 1990!
     actions:
