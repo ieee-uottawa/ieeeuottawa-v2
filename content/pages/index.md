@@ -257,7 +257,7 @@ sections:
     colors: colors-d
     elementId: ''
     backgroundSize: full
-    title: Meet Women In Engineering (WIE)
+    title: Meet IEEE WIE
     subtitle: ''
     text: >
       The largest international professional organization dedicated to promoting
