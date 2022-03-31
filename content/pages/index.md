@@ -298,7 +298,7 @@ sections:
           type: CheckboxFormControl
         - type: SelectFormControl
           name: Program
-          label: City
+          label: Program
           hideLabel: false
           defaultValue: Please choose...
           options:
