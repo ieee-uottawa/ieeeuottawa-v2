@@ -60,7 +60,7 @@ sections:
     colors: colors-d
     elementId: ''
     title: Come to our office
-    subtitle: 800 King Edward
+    subtitle: '800 King Edward Ave, Ottawa, ON K1N 6N5'
     items:
       - type: FeaturedItem
         title: Purchase Lab Supplies
