@@ -257,7 +257,7 @@ sections:
     colors: colors-d
     elementId: ''
     backgroundSize: full
-    title: Meet Women in Engineering Affinity Group
+    title: Meet IEEE WIE Affinity Group
     subtitle: ''
     text: >
       The mission of the IEEE uOttawa Women In Engineering is to inspire,
