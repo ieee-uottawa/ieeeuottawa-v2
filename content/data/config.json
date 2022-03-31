@@ -50,7 +50,6 @@
                 "type": "Link",
                 "label": "Store",
                 "altText": "Store",
-                "url": "/",
                 "showIcon": false,
                 "icon": "arrowRight",
                 "iconPosition": "right",
