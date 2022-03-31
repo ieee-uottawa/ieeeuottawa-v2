@@ -63,7 +63,7 @@ sections:
         url: /
     backgroundImage:
       type: ImageBlock
-      url: /images/hero-4.jpg
+      url: /images/IEEE WIE.png
       backgroundSize: cover
       backgroundPosition: center
       opacity: 100
