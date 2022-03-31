@@ -133,7 +133,7 @@
         },
         "logo": {
             "type": "ImageBlock",
-            "url": "/images/LOGO_BLUE.svg",
+            "url": "/images/LOGO_BLUE 2.svg",
             "altText": "altText of the image",
             "caption": "Caption of the image",
             "elementId": ""
