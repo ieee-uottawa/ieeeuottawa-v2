@@ -299,7 +299,7 @@ sections:
           isRequired: true
           width: full
         - name: updatesConsent
-          label: Sign me up to recieve updates
+          label: I consent t
           isRequired: false
           width: full
           type: CheckboxFormControl
