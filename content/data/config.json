@@ -30,7 +30,7 @@
                 "type": "Link",
                 "label": "Documents",
                 "altText": "",
-                "url": "/",
+                "url": "/documents",
                 "showIcon": false,
                 "icon": "arrowRight",
                 "iconPosition": "right",
