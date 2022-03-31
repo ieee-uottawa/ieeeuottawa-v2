@@ -39,7 +39,7 @@
             {
                 "type": "Link",
                 "label": "Gallery",
-                "altText": "",
+                "altText": "Gallery",
                 "url": "/",
                 "showIcon": false,
                 "icon": "arrowRight",
