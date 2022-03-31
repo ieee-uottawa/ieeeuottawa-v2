@@ -260,10 +260,9 @@ sections:
     title: Meet Women In Engineering (WIE)
     subtitle: ''
     text: >
-      IEEE Women in Engineering (WIE) is the largest international professional
-      organization dedicated to promoting women engineers and scientists and
-      inspiring girls around the world to follow their academic interests to a
-      career in engineering.
+      The largest international professional organization dedicated to promoting
+      women engineers and scientists and inspiring girls around the world to
+      follow their academic interests to a career in engineering.
     actions:
       - type: Button
         label: Get started
