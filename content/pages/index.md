@@ -223,7 +223,7 @@ sections:
         icon: arrowRight
     backgroundImage:
       type: BackgroundImage
-      url: /images/bg.jpg
+      url: /images/pexels-andrea-piacquadio-845434.jpg
       backgroundSize: cover
       backgroundPosition: center
       backgroundRepeat: no-repeat
