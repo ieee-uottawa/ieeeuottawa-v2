@@ -212,7 +212,7 @@ sections:
   - type: FeatureHighlightSection
     colors: colors-d
     backgroundSize: full
-    title: Fun fact
+    title: Did you know?
     text: |
       We’re local, seasonal fisherman, supporting fishing restrictions.
     actions:
