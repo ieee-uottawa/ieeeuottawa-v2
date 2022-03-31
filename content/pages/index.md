@@ -60,7 +60,7 @@ sections:
     colors: colors-d
     elementId: ''
     title: Come to our office
-    subtitle: IEEE
+    subtitle: 800 King Edward
     items:
       - type: FeaturedItem
         title: Purchase Lab Supplies
