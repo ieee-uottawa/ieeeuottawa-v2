@@ -55,16 +55,6 @@
                 "iconPosition": "right",
                 "elementId": "",
                 "url": "https://ieee-uottawa.square.site/"
-            },
-            {
-                "type": "Link",
-                "label": "Office Hours",
-                "altText": "",
-                "url": "/office-hours",
-                "showIcon": false,
-                "icon": "arrowRight",
-                "iconPosition": "right",
-                "elementId": ""
             }
         ],
         "secondaryLinks": [
