@@ -219,7 +219,7 @@ sections:
     actions:
       - type: Link
         label: Shop now
-        url: 'https://www.stackbit.com/'
+        url: 'https://ieee-uottawa.square.site/'
         showIcon: true
         icon: arrowRight
         altText: Shop now button
