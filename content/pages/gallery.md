@@ -80,6 +80,7 @@ sections:
       - content/data/team/hugh-saturation.json
       - content/data/team/hilary-ouse.json
       - content/data/team/person-ndnxto9r8.json
+      - content/data/team/person-yxx2e8n4y.json
     styles:
       self:
         height: auto
