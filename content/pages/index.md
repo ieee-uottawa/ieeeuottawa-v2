@@ -296,16 +296,6 @@ sections:
           isRequired: false
           width: full
           type: CheckboxFormControl
-        - type: SelectFormControl
-          name: Program
-          label: Program
-          hideLabel: false
-          defaultValue: Please choose...
-          options:
-            - Electrical
-            - San Francisco
-          isRequired: false
-          width: full
       submitLabel: Submit form
       styles:
         submitLabel:
