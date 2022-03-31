@@ -60,7 +60,7 @@
                 "type": "Link",
                 "label": "Office Hours",
                 "altText": "",
-                "url": "/",
+                "url": "/office-hours",
                 "showIcon": false,
                 "icon": "arrowRight",
                 "iconPosition": "right",
