@@ -298,11 +298,6 @@ sections:
           placeholder: This is the beginning of your message
           isRequired: true
           width: full
-        - name: updatesConsent
-          label: I acknowledge
-          isRequired: false
-          width: full
-          type: CheckboxFormControl
       submitLabel: Submit form
       styles:
         submitLabel:
