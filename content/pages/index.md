@@ -268,7 +268,6 @@ sections:
         showIcon: true
         icon: arrowRight
         style: primary
-        url: /
     backgroundImage:
       type: ImageBlock
       url: /images/IEEE WIE.png
