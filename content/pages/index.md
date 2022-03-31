@@ -268,6 +268,7 @@ sections:
         showIcon: true
         icon: arrowRight
         style: primary
+        url: 'https://www.celebratewie.ca/'
     backgroundImage:
       type: ImageBlock
       url: /images/IEEE WIE.png
