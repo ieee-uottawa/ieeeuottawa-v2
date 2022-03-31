@@ -301,7 +301,7 @@ sections:
           label: Message
           hideLabel: false
           placeholder: This is the beginning of your message
-          isRequired: false
+          isRequired: true
           width: full
       submitLabel: Submit form
       styles:
