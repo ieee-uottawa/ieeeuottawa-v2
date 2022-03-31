@@ -29,7 +29,7 @@
             {
                 "type": "Link",
                 "label": "Documents",
-                "altText": "",
+                "altText": "Documents",
                 "url": "/documents",
                 "showIcon": false,
                 "icon": "arrowRight",
