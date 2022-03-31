@@ -81,6 +81,7 @@ sections:
       - content/data/team/hilary-ouse.json
       - content/data/team/person-ndnxto9r8.json
       - content/data/team/person-yxx2e8n4y.json
+      - content/data/team/person-bdeu58fvf.json
     styles:
       self:
         height: auto
