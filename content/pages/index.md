@@ -298,7 +298,7 @@ sections:
           type: CheckboxFormControl
         - type: TextareaFormControl
           name: Message
-          label: Description
+          label: Message
           hideLabel: false
           placeholder: Please describe
           isRequired: false
