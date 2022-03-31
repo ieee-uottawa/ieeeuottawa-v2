@@ -284,7 +284,7 @@ sections:
           isRequired: true
           width: full
           type: EmailFormControl
-        - name: address
+        - name: Message
           label: Address
           hideLabel: true
           placeholder: Address
