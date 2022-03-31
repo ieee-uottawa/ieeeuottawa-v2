@@ -218,7 +218,7 @@ sections:
       fiercely represent your IEEE-ness!
     actions:
       - type: Link
-        label: Join adventure
+        label: Shop now
         url: 'https://www.stackbit.com/'
         showIcon: true
         icon: arrowRight
