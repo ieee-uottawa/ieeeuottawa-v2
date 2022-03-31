@@ -222,6 +222,7 @@ sections:
         url: 'https://www.stackbit.com/'
         showIcon: true
         icon: arrowRight
+        altText: Shop now button
     backgroundImage:
       type: BackgroundImage
       url: /images/pexels-andrea-piacquadio-845434.jpg
