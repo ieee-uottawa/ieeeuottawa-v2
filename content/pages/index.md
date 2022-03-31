@@ -213,8 +213,9 @@ sections:
     colors: colors-d
     backgroundSize: full
     title: Shop our merch
-    text: |
-      IEEE uOttawa was first established in 1990!
+    text: >
+      Shop our embroidered hoodies, crew necks, t-shirts and stickers to
+      fiercely represent your IEEE-ness!
     actions:
       - type: Link
         label: Join adventure
