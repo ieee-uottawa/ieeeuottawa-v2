@@ -291,11 +291,6 @@ sections:
           isRequired: true
           width: full
           type: TextFormControl
-        - name: updatesConsent
-          label: Sign me up to recieve updates
-          isRequired: false
-          width: full
-          type: CheckboxFormControl
         - type: TextareaFormControl
           name: Message
           label: Message
@@ -303,6 +298,11 @@ sections:
           placeholder: This is the beginning of your message
           isRequired: true
           width: full
+        - name: updatesConsent
+          label: Sign me up to recieve updates
+          isRequired: false
+          width: full
+          type: CheckboxFormControl
       submitLabel: Submit form
       styles:
         submitLabel:
