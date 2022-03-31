@@ -56,7 +56,7 @@ sections:
       engage, encourage, and empower women to pursue the engineering field.
     actions:
       - type: Button
-        label: Get started
+        label: Learn More
         showIcon: true
         icon: arrowRight
         style: primary
