@@ -289,7 +289,7 @@ sections:
           hideLabel: true
           placeholder: Address
           isRequired: true
-          width: full
+          width: 1/2
           type: TextFormControl
         - name: updatesConsent
           label: Sign me up to recieve updates
