@@ -297,7 +297,7 @@ sections:
           width: full
           type: CheckboxFormControl
         - type: TextareaFormControl
-          name: description
+          name: Message
           label: Description
           hideLabel: false
           placeholder: Please describe
