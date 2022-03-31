@@ -297,7 +297,7 @@ sections:
           width: full
           type: CheckboxFormControl
         - type: SelectFormControl
-          name: city
+          name: Program
           label: City
           hideLabel: false
           defaultValue: Please choose...
