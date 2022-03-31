@@ -19,13 +19,16 @@ sections:
     colors: colors-d
     variant: variant-a
     title: About our business
-    text: >-
-      For us fishing is a life style. The connection to the waters is what makes
-      us friends, and what makes us a family and it what makes us a business.
+    text: >
+      The IEEE uOttawa Student Branch is the official student branch for the
+      University of Ottawa and the official Sub-Association for ELG/CEG/SEG
+      under the ESS.
 
 
-      We believe there’s a better, more sustainable way to live out of what the
-      sea has to offer, while  keeping our products fresh and delicious.
+      The University of Ottawa’s IEEE Student Branch was established to provide
+      professional services to improve each student’s experience on campus. This
+      includes accommodating students with access to up-to-date equipment,
+      internet access, textbooks and a quiet work environment.
     styles:
       self:
         height: auto
