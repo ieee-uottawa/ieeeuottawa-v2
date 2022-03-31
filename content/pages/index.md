@@ -296,6 +296,13 @@ sections:
           isRequired: false
           width: full
           type: CheckboxFormControl
+        - type: TextareaFormControl
+          name: description
+          label: Description
+          hideLabel: false
+          placeholder: Please describe
+          isRequired: false
+          width: full
       submitLabel: Submit form
       styles:
         submitLabel:
