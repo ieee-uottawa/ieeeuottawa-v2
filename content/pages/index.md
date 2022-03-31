@@ -255,8 +255,9 @@ sections:
     colors: colors-d
     title: Get in touch
     text: >
-      We will notify you every time a shipment is heading to your neighborhood,
-      and you could immediatly let us know if you want in or not
+      Got a question? Event suggestions? Feedback? We want to hear it! Send us a
+      message and we will do our best to get back to you you within 2 (two)
+      business days
     form:
       type: FormBlock
       elementId: sign-up-form
