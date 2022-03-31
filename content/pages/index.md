@@ -300,7 +300,7 @@ sections:
           name: Message
           label: Message
           hideLabel: false
-          placeholder: Message
+          placeholder: This is the beginning of your message
           isRequired: false
           width: full
       submitLabel: Submit form
