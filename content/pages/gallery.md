@@ -67,7 +67,7 @@ sections:
       title:
         textAlign: left
   - type: FeaturedPeopleSection
-    variant: variant-c
+    variant: variant-a
     colors: colors-c
     title: Our Team
     subtitle: >-
