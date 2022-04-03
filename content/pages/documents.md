@@ -92,9 +92,9 @@ sections:
     title: Meeting Minutes
     subtitle: >-
       Ever wonder what the IEEE execs discuss every other week? Do you find
-      yourself reflecting on IEEE's decisions, and why they were made? Check out
-      the Internal Meeting Minutes to catch a glimpse of the discussions that
-      drive what we do.
+      yourself reflecting on the branch's decisions, and why they were made?
+      Check out the Internal Meeting Minutes to catch a glimpse of the
+      discussions that drive what we do.
     items:
       - type: FeaturedItem
         title: IEEE Executive Meeting Minutes
