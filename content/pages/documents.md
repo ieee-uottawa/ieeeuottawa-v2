@@ -45,7 +45,6 @@ sections:
     colors: colors-d
     elementId: ''
     title: General Documents
-    subtitle: General IEEE documents
     items:
       - type: FeaturedItem
         title: Constitution
