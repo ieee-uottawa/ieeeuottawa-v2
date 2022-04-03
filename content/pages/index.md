@@ -225,7 +225,7 @@ sections:
         showIcon: true
         icon: arrowRight
         style: secondary
-        url: /
+        url: /mcnaughton-lab
     backgroundImage:
       type: ImageBlock
       url: /images/hero-3.png
