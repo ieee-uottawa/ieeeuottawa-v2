@@ -69,7 +69,7 @@
             {
                 "type": "Link",
                 "label": "Lab",
-                "altText": "mcnaughton",
+                "altText": "mcnlab",
                 "url": "/",
                 "showIcon": false,
                 "icon": "arrowRight",
