@@ -213,7 +213,7 @@ sections:
     colors: colors-c
     elementId: ''
     backgroundSize: full
-    title: Time to leave your desk. Let’s go flying
+    title: Take advantage of our McNaughton Lab
     subtitle: ''
     text: 'We’re local, seasonal fisherman, supporting fishing restrictions.'
     actions:
