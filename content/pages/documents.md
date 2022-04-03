@@ -110,7 +110,7 @@ sections:
             textAlign: left
         subtitle: '2022-03-20'
       - type: FeaturedItem
-        title: Smarter
+        title: IEEE Executive Meeting Minutes
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
           lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
