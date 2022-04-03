@@ -130,7 +130,7 @@ sections:
       opportunities for volunteering!
     actions:
       - type: Button
-        label: Try it now
+        label: Form
         showIcon: true
         icon: arrowRight
         url: /
