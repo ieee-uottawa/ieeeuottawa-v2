@@ -215,7 +215,10 @@ sections:
     backgroundSize: full
     title: Take advantage of our McNaughton Lab
     subtitle: ''
-    text: 'We’re local, seasonal fisherman, supporting fishing restrictions.'
+    text: >
+      The McNaughton Centre is a dry lab section intended to accommodate
+      students with technical equipment such as oscilloscopes, FGPAs,
+      multimeters, micro-controllers and more.
     actions:
       - type: Button
         label: Join adventure
