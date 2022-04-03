@@ -12,7 +12,6 @@ sections:
     elementId: ''
     backgroundSize: full
     title: Documents
-    subtitle: Documentation
     text: >
       On this page, you will find proper documentation that powers the branch's
       operation. This includes the branch's constitution, the regularly updated
