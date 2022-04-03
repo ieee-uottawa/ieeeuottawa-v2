@@ -149,7 +149,7 @@ sections:
         styles:
           self:
             textAlign: left
-        subtitle: February
+        subtitle: 'February, 2'
       - type: FeaturedItem
         title: Focused
         text: >-
