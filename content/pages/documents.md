@@ -11,7 +11,7 @@ sections:
     colors: colors-d
     elementId: ''
     title: General Documents
-    subtitle: Below you wil
+    subtitle: General IEEE documents
     items:
       - type: FeaturedItem
         title: Constitution
