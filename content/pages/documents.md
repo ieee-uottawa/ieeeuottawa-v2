@@ -108,6 +108,7 @@ sections:
         styles:
           self:
             textAlign: left
+        subtitle: 2022-03-20).pdf
       - type: FeaturedItem
         title: Smarter
         text: >-
