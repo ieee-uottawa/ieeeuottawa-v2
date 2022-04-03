@@ -88,7 +88,7 @@ sections:
         styles:
           self:
             textAlign: left
-        subtitle: March 11
+        subtitle: 'March 11th, 2022'
     actions: []
     columns: 2
     spacingX: 16
