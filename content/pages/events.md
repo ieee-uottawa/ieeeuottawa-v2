@@ -16,13 +16,7 @@ sections:
     text: >
       On this page, you will find all the upcoming and past events organized by
       IEEE.
-    actions:
-      - type: Button
-        label: Join adventure
-        showIcon: true
-        icon: arrowRight
-        style: secondary
-        url: /
+    actions: []
     backgroundImage:
       type: ImageBlock
       url: /images/pexels-pixabay-39578.jpg
