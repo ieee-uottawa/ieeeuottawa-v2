@@ -221,7 +221,7 @@ sections:
       multimeters, micro-controllers and more.
     actions:
       - type: Button
-        label: Join adventure
+        label: Learn More
         showIcon: true
         icon: arrowRight
         style: secondary
