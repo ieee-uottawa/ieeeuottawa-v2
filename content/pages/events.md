@@ -33,7 +33,7 @@ sections:
       text:
         textAlign: left
   - type: FeaturedItemsSection
-    colors: colors-d
+    colors: colors-c
     elementId: ''
     title: Key value propositions
     subtitle: ''
