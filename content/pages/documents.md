@@ -36,7 +36,7 @@ sections:
       text:
         textAlign: left
   - type: TextSection
-    colors: colors-b
+    colors: colors-e
     elementId: ''
     variant: variant-a
     title: Code of conduct
