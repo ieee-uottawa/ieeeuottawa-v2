@@ -149,7 +149,7 @@ sections:
         styles:
           self:
             textAlign: left
-        subtitle: April 20
+        subtitle: February
       - type: FeaturedItem
         title: Focused
         text: >-
