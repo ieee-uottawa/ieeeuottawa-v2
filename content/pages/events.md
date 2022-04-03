@@ -23,7 +23,7 @@ sections:
         url: /
     backgroundImage:
       type: ImageBlock
-      url: /images/hero-3.png
+      url: /images/pexels-pixabay-39578.jpg
       backgroundSize: cover
       backgroundPosition: center
       opacity: 100
