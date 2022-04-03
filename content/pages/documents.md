@@ -38,7 +38,7 @@ sections:
   - type: TextSection
     colors: colors-d
     elementId: ''
-    variant: variant-a
+    variant: variant-b
     title: Code of conduct
     subtitle: ''
     text: |-
