@@ -89,9 +89,6 @@ sections:
     variant: variant-a
     colors: colors-c
     title: Our Team
-    subtitle: >-
-      We’re a group of proffesional fisherman & friends, who love exploring the
-      seas and sharing our experiences with the world.
     people:
       - content/data/team/hilary-ouse.json
       - content/data/team/dianne-ameter.json
