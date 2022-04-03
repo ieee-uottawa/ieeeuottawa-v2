@@ -17,13 +17,7 @@ sections:
       On this page, you will find proper documentation that powers the branch's
       operation. This includes the branch's constitution, the regularly updated
       budget and meeting minutes.
-    actions:
-      - type: Button
-        label: Join adventure
-        showIcon: true
-        icon: arrowRight
-        style: secondary
-        url: /
+    actions: []
     backgroundImage:
       type: ImageBlock
       url: /images/hero-3.png
