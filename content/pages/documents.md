@@ -22,7 +22,7 @@ sections:
       url: /images/pexels-lukas-590037.jpg
       backgroundSize: cover
       backgroundPosition: center
-      opacity: 62
+      opacity: 61
     styles:
       self:
         height: auto
