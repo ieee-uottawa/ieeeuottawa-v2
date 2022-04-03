@@ -52,11 +52,10 @@ sections:
       - type: FeaturedItem
         title: Budget
         text: >
-          The constitution is a document by which the branch operations are
-          governed. Updated every other year, this document provides detailed
-          mandates and eligibility for each officer of the society, election
-          policies, committee roles, financial matters, IEEE services, and
-          accountability procedures.
+          Wondering how IEEE spends their money? Curious how much it costs to
+          keep the branch going? In this section, you can find live, detailed
+          budgets for each academic year, to get a sense of how student money
+          comes back around to benefit their university experience.
         actions:
           - type: Button
             label: Learn more
