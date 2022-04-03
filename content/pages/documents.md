@@ -10,7 +10,7 @@ sections:
   - type: FeaturedItemsSection
     colors: colors-d
     elementId: ''
-    title: Key value propositions
+    title: General Documents
     subtitle: ''
     items:
       - type: FeaturedItem
