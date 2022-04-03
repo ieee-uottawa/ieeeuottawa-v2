@@ -13,7 +13,9 @@ sections:
     backgroundSize: full
     title: Events
     subtitle: ''
-    text: 'We’re local, seasonal fisherman, supporting fishing restrictions.'
+    text: >
+      On this page, you will find all the upcoming and past events organized by
+      IEEE.
     actions:
       - type: Button
         label: Join adventure
