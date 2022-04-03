@@ -33,10 +33,12 @@ sections:
             textAlign: left
       - type: FeaturedItem
         title: Code of conduct
-        text: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
-          lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
-          pharetra ipsum dolor, et iaculis elit ornare ac.
+        text: >
+          The constitution is a document by which the branch operations are
+          governed. Updated every other year, this document provides detailed
+          mandates and eligibility for each officer of the society, election
+          policies, committee roles, financial matters, IEEE services, and
+          accountability procedures.
         actions:
           - type: Button
             label: Learn more
