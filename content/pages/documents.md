@@ -90,7 +90,11 @@ sections:
     colors: colors-c
     elementId: ''
     title: Meeting Minutes
-    subtitle: ''
+    subtitle: >-
+      Ever wonder what the ESS officers discuss every other week? Do you find
+      yourself reflecting on ESS’ decisions, and why they were made? Check out
+      the Internal Meeting Minutes to catch a glimpse of the discussions that
+      drive what we do.
     items:
       - type: FeaturedItem
         title: IEEE Executive Meeting Minutes
