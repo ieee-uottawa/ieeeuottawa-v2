@@ -95,7 +95,7 @@ sections:
           caption: Caption of the image
           elementId: ''
       - type: FeaturedItem
-        title: Borrow Textbooks
+        title: Borrow textbooks
         text: >
           Need to borrow a textbook for one of your courses? Our office contains
           a carefully curated selection of textbooks covering a wide variety of
