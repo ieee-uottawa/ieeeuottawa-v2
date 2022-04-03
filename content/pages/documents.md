@@ -122,13 +122,6 @@ sections:
           self:
             textAlign: left
         subtitle: '2022-02-02'
-        featuredImage:
-          type: ImageBlock
-          url: >-
-            https://assets.stackbit.com/components/images/default/default-image.png
-          altText: altText of the image
-          caption: Caption of the image
-          elementId: ''
       - type: FeaturedItem
         title: Focused
         text: >-
