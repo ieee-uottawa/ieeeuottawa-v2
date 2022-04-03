@@ -63,7 +63,7 @@ sections:
     subtitle: '800 King Edward Ave, Ottawa, ON K1N 6N5, Room 4026'
     items:
       - type: FeaturedItem
-        title: Purchase Lab Supplies
+        title: Purchase lab supplies
         text: >
           Need to buy a breadboard, wire strippers or CD-Rs? Need to use an
           Altera DE2 Board or an oscilloscope for a project? Look no further. We
