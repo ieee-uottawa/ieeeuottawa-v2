@@ -110,7 +110,7 @@ sections:
   - type: FeaturedItemsSection
     colors: colors-d
     elementId: ''
-    title: Key value propositions
+    title: Past Events
     subtitle: ''
     items:
       - type: FeaturedItem
