@@ -134,7 +134,7 @@ sections:
             textAlign: left
         subtitle: 'November 28th, 2021'
       - type: FeaturedItem
-        title: Smarter
+        title: IEEE Movie Night
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
           lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
