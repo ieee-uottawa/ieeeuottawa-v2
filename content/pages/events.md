@@ -73,7 +73,7 @@ sections:
             textAlign: left
         subtitle: 'March 25th, 2022'
       - type: FeaturedItem
-        title: Focused
+        title: Battle Royale
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
           lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
