@@ -133,7 +133,8 @@ sections:
         label: Form
         showIcon: true
         icon: arrowRight
-        url: /
+        url: >-
+          https://docs.google.com/forms/d/e/1FAIpQLSfIdHz-ORmtsCgjEp2WpOV5ssXaC60nNpFzAY_qeRH4f7uX1w/viewform
         style: primary
     backgroundImage: null
     styles:
