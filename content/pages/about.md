@@ -124,7 +124,7 @@ sections:
     colors: colors-d
     elementId: ''
     backgroundSize: full
-    title: Interested in volunteering?
+    title: Want to get involved with the IEEE?
     text: >
       Fill out this form and an executive will email you when there are
       opportunities for volunteering!
