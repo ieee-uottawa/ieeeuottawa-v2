@@ -26,7 +26,7 @@ sections:
       url: /images/pexels-pixabay-39578.jpg
       backgroundSize: cover
       backgroundPosition: center
-      opacity: 63
+      opacity: 60
     styles:
       self:
         height: auto
