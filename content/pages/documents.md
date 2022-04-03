@@ -124,7 +124,7 @@ sections:
         subtitle: '2022-02-02'
       - type: FeaturedItem
         title: IEEE Executive Meeting Minutes
-        text: >-
+        text: >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
           lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
           pharetra ipsum dolor, et iaculis elit ornare ac.
