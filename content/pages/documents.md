@@ -19,7 +19,7 @@ sections:
     actions: []
     backgroundImage:
       type: ImageBlock
-      url: /images/hero-3.png
+      url: /images/pexels-pixabay-261621.jpg
       backgroundSize: cover
       backgroundPosition: center
       opacity: 100
