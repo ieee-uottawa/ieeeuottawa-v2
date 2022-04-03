@@ -60,7 +60,7 @@
                 "type": "Link",
                 "label": "Elections",
                 "altText": "",
-                "url": "/",
+                "url": "/elections",
                 "showIcon": false,
                 "icon": "arrowRight",
                 "iconPosition": "right",
