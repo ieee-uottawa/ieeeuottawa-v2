@@ -35,7 +35,7 @@ sections:
   - type: FeaturedItemsSection
     colors: colors-c
     elementId: ''
-    title: Key value propositions
+    title: Upcoming Events
     subtitle: ''
     items:
       - type: FeaturedItem
