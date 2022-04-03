@@ -11,9 +11,12 @@ sections:
     colors: colors-d
     variant: variant-a
     title: Constitution
-    text: >-
-      Start adding sections by clicking the + button on the page or through the
-      sidebar.
+    text: >
+      The IEEE uOttawa Student Branch's constitution is a document by which the
+      branch operations are governed. Updated every other year, this document
+      provides detailed mandates and eligibility for each officer of the
+      society, election policies, committee roles, financial matters, IEEE
+      services, and accountability procedures.
     styles:
       self:
         height: auto
