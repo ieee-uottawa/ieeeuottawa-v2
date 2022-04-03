@@ -138,6 +138,7 @@ sections:
         styles:
           self:
             textAlign: left
+        subtitle: '2022'
     actions: []
     columns: 1
     spacingX: 16
