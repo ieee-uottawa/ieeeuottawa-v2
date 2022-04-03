@@ -89,7 +89,7 @@ sections:
   - type: FeaturedItemsSection
     colors: colors-c
     elementId: ''
-    title: Key value propositions
+    title: Meeting Minutes
     subtitle: ''
     items:
       - type: FeaturedItem
