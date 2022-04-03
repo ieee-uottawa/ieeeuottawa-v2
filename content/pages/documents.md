@@ -37,7 +37,7 @@ sections:
           The IEEE Code of Conduct describes IEEE members' and staff's
           commitment to the highest standards of integrity, responsible
           behaviour, and ethical and professional conduct. The code of conduct
-          must be followed at all times.
+          must be followed at all times in and out of IEEE premises.
         actions:
           - type: Button
             label: Learn more
