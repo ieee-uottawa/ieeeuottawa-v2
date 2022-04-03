@@ -19,7 +19,7 @@ sections:
     actions: []
     backgroundImage:
       type: ImageBlock
-      url: /images/pexels-pixabay-261621.jpg
+      url: /images/pexels-isabella-mendes-2440970.jpg
       backgroundSize: cover
       backgroundPosition: center
       opacity: 100
