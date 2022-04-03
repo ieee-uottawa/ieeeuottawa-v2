@@ -23,7 +23,7 @@ sections:
     subtitle: Brought to you by the best uOttawa sub-association on campus.
     actions:
       - type: Button
-        label: Get Started
+        label: Learn More
         url: 'https://www.stackbit.com/'
         style: primary
         iconPosition: right
