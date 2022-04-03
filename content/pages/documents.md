@@ -93,7 +93,7 @@ sections:
     subtitle: ''
     items:
       - type: FeaturedItem
-        title: ' IEEE Executive Meeting Minutes (2021-09-19).pdf'
+        title: ' IEEE Executive Meeting Minutes'
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
           lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
