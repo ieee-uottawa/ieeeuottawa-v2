@@ -132,6 +132,7 @@ sections:
         styles:
           self:
             textAlign: left
+        subtitle: 'November 28th, 2021'
       - type: FeaturedItem
         title: Smarter
         text: >-
