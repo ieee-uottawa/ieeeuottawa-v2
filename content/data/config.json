@@ -58,7 +58,7 @@
             },
             {
                 "type": "Link",
-                "label": "Learn more",
+                "label": "Link",
                 "altText": "",
                 "url": "/",
                 "showIcon": false,
