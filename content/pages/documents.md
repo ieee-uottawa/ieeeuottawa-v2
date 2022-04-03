@@ -126,7 +126,7 @@ sections:
         title: IEEE Executive Meeting Minutes
         actions:
           - type: Button
-            label: Learn more
+            label: View
             showIcon: true
             icon: arrowRight
             url: /
