@@ -136,6 +136,7 @@ sections:
         url: >-
           https://docs.google.com/forms/d/e/1FAIpQLSfIdHz-ORmtsCgjEp2WpOV5ssXaC60nNpFzAY_qeRH4f7uX1w/viewform
         style: primary
+        altText: Link to volunteer signup google form
     backgroundImage: null
     styles:
       self:
