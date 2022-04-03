@@ -125,9 +125,9 @@ sections:
     elementId: ''
     backgroundSize: full
     title: Interested in volunteering?
-    text: >-
-      The Stackbit theme is flexible and scalable to every need. It can manage
-      any layout and any screen.
+    text: >
+      Fill out this form and an executive will email you when there are
+      opportunities for volunteering!
     actions:
       - type: Button
         label: Try it now
