@@ -34,11 +34,9 @@ sections:
       - type: FeaturedItem
         title: Code of conduct
         text: >
-          The constitution is a document by which the branch operations are
-          governed. Updated every other year, this document provides detailed
-          mandates and eligibility for each officer of the society, election
-          policies, committee roles, financial matters, IEEE services, and
-          accountability procedures.
+          The IEEE Code of Conduct describes IEEE members' and staff's
+          commitment to the highest standards of integrity, responsible
+          behaviour, and ethical and professional conduct.
         actions:
           - type: Button
             label: Learn more
