@@ -19,7 +19,7 @@ sections:
     actions: []
     backgroundImage:
       type: ImageBlock
-      url: /images/pexels-lukas-590037.jpg
+      url: /images/pexels-pixabay-261621.jpg
       backgroundSize: cover
       backgroundPosition: center
       opacity: 45
