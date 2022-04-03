@@ -45,19 +45,6 @@ bottomSections:
       actions:
         justifyContent: center
     type: RecentPostsSection
-  - type: DividerSection
-    colors: colors-d
-    styles:
-      self:
-        width: wide
-        padding:
-          - pt-4
-          - pb-4
-          - pl-4
-          - pr-4
-        justifyContent: center
-        borderWidth: 1
-        borderStyle: solid
 metaDescription: >-
   Sunset fishing is a beautiful time of day to relax and get in touch with
   nature
