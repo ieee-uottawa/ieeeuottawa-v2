@@ -90,7 +90,7 @@ sections:
             textAlign: left
         featuredImage:
           type: ImageBlock
-          url: /images/bulb-856c66ca.svg
+          url: /images/bulb.svg
           altText: altText of the image
           caption: Caption of the image
           elementId: ''
