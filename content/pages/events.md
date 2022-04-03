@@ -11,7 +11,7 @@ sections:
     colors: colors-c
     elementId: ''
     backgroundSize: full
-    title: Time to leave your desk. Let’s go flying
+    title: Events
     subtitle: ''
     text: 'We’re local, seasonal fisherman, supporting fishing restrictions.'
     actions:
