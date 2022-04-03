@@ -13,7 +13,10 @@ sections:
     backgroundSize: full
     title: Documents
     subtitle: ''
-    text: 'We’re local, seasonal fisherman, supporting fishing restrictions.'
+    text: >
+      On this page, you will find proper documentation that powers the branch's
+      operation. This includes the branch's constitution, the regularly updated
+      budget and meeting minutes.
     actions:
       - type: Button
         label: Join adventure
