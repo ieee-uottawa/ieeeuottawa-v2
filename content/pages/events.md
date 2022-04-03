@@ -53,6 +53,7 @@ sections:
         styles:
           self:
             textAlign: left
+        title: 13th Annual Wine & Cheese
       - type: FeaturedItem
         title: Smarter
         text: >-
