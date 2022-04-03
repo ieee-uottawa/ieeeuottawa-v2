@@ -56,7 +56,7 @@ sections:
         title: 13th Annual IEEE WIE Wine & Cheese
         subtitle: 'April 1st, 2022'
       - type: FeaturedItem
-        title: Smarter
+        title: Defi The Conventional
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
           lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
