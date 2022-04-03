@@ -54,6 +54,7 @@ sections:
           self:
             textAlign: left
         title: 13th Annual IEEE WIE Wine & Cheese
+        subtitle: 'April 1st, 2022'
       - type: FeaturedItem
         title: Smarter
         text: >-
