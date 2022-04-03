@@ -123,7 +123,7 @@ sections:
             textAlign: left
         subtitle: '2022-02-02'
       - type: FeaturedItem
-        title: Focused
+        title: IEEE Executive Meeting Minutes
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
           lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
