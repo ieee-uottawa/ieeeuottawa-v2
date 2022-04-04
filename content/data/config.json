@@ -91,7 +91,7 @@
         ],
         "styles": {
             "self": {
-                "width": "wide"
+                "width": "narrow"
             }
         },
         "logo": {
