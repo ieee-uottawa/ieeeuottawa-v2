@@ -70,7 +70,7 @@
                 "type": "Link",
                 "label": "Resources",
                 "altText": "Resources",
-                "url": "/mcnaughton-lab",
+                "url": "/resources",
                 "showIcon": false,
                 "icon": "arrowRight",
                 "iconPosition": "right",
