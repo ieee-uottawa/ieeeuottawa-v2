@@ -260,7 +260,7 @@ sections:
     title: WIE Finally Meet!
     subtitle: ''
     text: >
-      The mission of the IEEE uOttawa Women In Engineering is to inspire,
+      The mission of the IEEE uOttawa Women In Engineering (WIE) is to inspire,
       engage, encourage, and empower women to pursue the engineering field.
     actions:
       - type: Button
