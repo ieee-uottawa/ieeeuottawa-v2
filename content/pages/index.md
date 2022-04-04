@@ -210,47 +210,6 @@ sections:
       actions:
         justifyContent: flex-start
   - type: FeatureHighlightSection
-    colors: colors-c
-    elementId: ''
-    backgroundSize: full
-    title: Take advantage of our McNaughton Lab
-    subtitle: ''
-    text: >
-      The McNaughton Centre is a dry lab section intended to accommodate
-      students with technical equipment such as oscilloscopes, FGPAs,
-      multimeters, micro-controllers and more.
-    actions:
-      - type: Button
-        label: Learn More
-        showIcon: true
-        icon: arrowRight
-        style: secondary
-        url: /mcnaughton-lab
-    backgroundImage:
-      type: ImageBlock
-      url: /images/hero-3.png
-      backgroundSize: cover
-      backgroundPosition: center
-      opacity: 100
-    styles:
-      self:
-        height: auto
-        width: wide
-        padding:
-          - pt-36
-          - pb-72
-          - pl-4
-          - pr-4
-        justifyContent: flex-start
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
-      text:
-        textAlign: left
-      actions:
-        justifyContent: flex-start
-  - type: FeatureHighlightSection
     colors: colors-d
     backgroundSize: full
     title: Shop our merch
