@@ -1,7 +1,7 @@
 ---
 title: Terra Hackathon
 layout: PostLayout
-date: '2022-01-01'
+date: '2022-03-01'
 colors: colors-c
 author: content/data/team/hilary-ouse.json
 excerpt: >-
