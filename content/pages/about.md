@@ -137,6 +137,7 @@ sections:
       - content/data/team/hilary-ouse.json
       - content/data/team/person-4wh9bbhsn.json
       - content/data/team/person-h244c4p9i.json
+      - content/data/team/person-cu9bt8qp0.json
     styles:
       self:
         height: auto
