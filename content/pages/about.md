@@ -98,6 +98,7 @@ sections:
       - content/data/team/person-6w6x0j8gu.json
       - content/data/team/person-rps5urml4.json
       - content/data/team/person-jcjwtlm1c.json
+      - content/data/team/person-cyuw1nkbh.json
     styles:
       self:
         height: auto
