@@ -133,7 +133,6 @@ sections:
     subtitle: Featured people section example
     actions: []
     people:
-      - content/data/team/dianne-ameter.json
       - content/data/team/hilary-ouse.json
       - content/data/team/person-4wh9bbhsn.json
       - content/data/team/person-h244c4p9i.json
