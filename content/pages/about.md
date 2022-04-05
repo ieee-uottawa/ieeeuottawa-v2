@@ -103,7 +103,6 @@ sections:
       - content/data/team/person-g5lkknzco.json
       - content/data/team/person-a6yhgc2zf.json
       - content/data/team/person-enq89r225.json
-      - content/data/team/person-xnuz2b1sc.json
     styles:
       self:
         height: auto
