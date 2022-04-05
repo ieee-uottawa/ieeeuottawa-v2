@@ -127,7 +127,7 @@ sections:
     type: FeaturedPeopleSection
     subtitle: Execs
   - type: FeaturedPeopleSection
-    colors: colors-d
+    colors: colors-c
     elementId: ''
     variant: variant-a
     subtitle: Commissioners
