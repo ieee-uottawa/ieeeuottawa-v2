@@ -126,21 +126,6 @@ sections:
     type: FeaturedPeopleSection
     subtitle: Execs
     variant: variant-a
-  - type: DividerSection
-    colors: colors-c
-    elementId: ''
-    title: Divider
-    styles:
-      self:
-        width: full
-        padding:
-          - pt-12
-          - pb-12
-          - pl-0
-          - pr-0
-        justifyContent: center
-        borderWidth: 1
-        borderStyle: solid
   - type: FeaturedPeopleSection
     colors: colors-c
     elementId: ''
