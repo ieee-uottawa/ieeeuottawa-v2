@@ -125,6 +125,7 @@ sections:
       actions:
         justifyContent: center
     type: FeaturedPeopleSection
+    subtitle: Execs
   - type: CtaSection
     colors: colors-d
     elementId: ''
