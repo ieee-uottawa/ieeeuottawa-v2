@@ -42,7 +42,7 @@ sections:
       actions:
         justifyContent: flex-start
   - type: RecentPostsSection
-    colors: colors-d
+    colors: colors-a
     elementId: ''
     showDate: true
     showAuthor: false
