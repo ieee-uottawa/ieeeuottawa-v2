@@ -137,7 +137,7 @@ sections:
           - pt-12
           - pb-12
           - pl-4
-          - pr-4
+          - pr-0
         justifyContent: center
         borderWidth: 1
         borderStyle: solid
