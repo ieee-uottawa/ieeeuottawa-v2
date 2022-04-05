@@ -4,7 +4,8 @@
     "lastName": "Smrtka",
     "image": {
         "type": "ImageBlock",
-        "altText": "Dianne Ameter photo"
+        "altText": "Dianne Ameter photo",
+        "url": "/images/hugh-saturation.png"
     },
     "role": "Vice Chair",
     "bio": "<vice-chair@ieeeuottawa.ca>\n\n"
