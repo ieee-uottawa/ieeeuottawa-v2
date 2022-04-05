@@ -135,6 +135,7 @@ sections:
     people:
       - content/data/team/dianne-ameter.json
       - content/data/team/hilary-ouse.json
+      - content/data/team/person-4wh9bbhsn.json
     styles:
       self:
         height: auto
