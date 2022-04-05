@@ -90,7 +90,6 @@ sections:
     title: Our Team
     people:
       - content/data/team/hilary-ouse.json
-      - content/data/team/person-bw7qe01y6.json
       - content/data/team/dianne-ameter.json
       - content/data/team/desmond-eagle.json
       - content/data/team/hugh-saturation.json
@@ -98,6 +97,7 @@ sections:
       - content/data/team/person-rps5urml4.json
       - content/data/team/person-jcjwtlm1c.json
       - content/data/team/person-cyuw1nkbh.json
+      - content/data/team/person-bw7qe01y6.json
       - content/data/team/person-4vlx6pbsp.json
       - content/data/team/person-g5lkknzco.json
       - content/data/team/person-a6yhgc2zf.json
