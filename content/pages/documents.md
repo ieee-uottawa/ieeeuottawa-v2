@@ -171,7 +171,7 @@ sections:
     actions: []
     columns: 1
     spacingX: 16
-    spacingY: 24
+    spacingY: 22
     enableHover: false
     styles:
       self:
