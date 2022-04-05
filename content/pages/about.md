@@ -130,7 +130,7 @@ sections:
     colors: colors-e
     elementId: ''
     variant: variant-a
-    subtitle: Featured people section example
+    subtitle: Commissioners
     actions: []
     people:
       - content/data/team/person-4wh9bbhsn.json
