@@ -130,7 +130,6 @@ sections:
     colors: colors-e
     elementId: ''
     variant: variant-a
-    title: About us
     subtitle: Featured people section example
     actions: []
     people:
