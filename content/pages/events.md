@@ -50,11 +50,7 @@ sections:
     showReadMoreLink: false
     readMoreLinkLabel: ''
     variant: variant-a
-    actions:
-      - type: Button
-        label: View all
-        url: /
-        style: primary
+    actions: []
     styles:
       self:
         height: auto
