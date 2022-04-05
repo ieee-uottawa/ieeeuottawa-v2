@@ -37,7 +37,7 @@ sections:
           - pt-32
           - pb-56
           - pr-4
-          - pl-0
+          - pl-4
         justifyContent: center
       title:
         textAlign: left
