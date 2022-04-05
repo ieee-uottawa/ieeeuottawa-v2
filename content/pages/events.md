@@ -44,7 +44,7 @@ sections:
   - type: RecentPostsSection
     colors: colors-d
     elementId: ''
-    showDate: false
+    showDate: true
     showAuthor: false
     showExcerpt: true
     showReadMoreLink: false
