@@ -2,7 +2,6 @@
     "type": "Person",
     "firstName": "Madison",
     "lastName": "Smrtka",
-    "role": "Senior fisherwoman",
     "image": {
         "type": "ImageBlock",
         "url": "/images/dianne-ameter.png",
