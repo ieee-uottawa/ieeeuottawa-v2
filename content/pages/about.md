@@ -126,6 +126,33 @@ sections:
         justifyContent: center
     type: FeaturedPeopleSection
     subtitle: Execs
+  - type: FeaturedPeopleSection
+    colors: colors-e
+    elementId: ''
+    variant: variant-a
+    title: About us
+    subtitle: Featured people section example
+    actions: []
+    people:
+      - content/data/team/desmond-eagle.json
+      - content/data/team/dianne-ameter.json
+      - content/data/team/hilary-ouse.json
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-12
+          - pb-12
+          - pl-4
+          - pr-4
+        justifyContent: center
+      title:
+        textAlign: center
+      subtitle:
+        textAlign: center
+      actions:
+        justifyContent: center
   - type: CtaSection
     colors: colors-d
     elementId: ''
