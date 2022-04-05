@@ -99,6 +99,7 @@ sections:
       - content/data/team/person-rps5urml4.json
       - content/data/team/person-jcjwtlm1c.json
       - content/data/team/person-cyuw1nkbh.json
+      - content/data/team/person-4vlx6pbsp.json
     styles:
       self:
         height: auto
