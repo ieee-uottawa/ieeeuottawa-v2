@@ -55,6 +55,16 @@
                 "iconPosition": "right",
                 "elementId": "",
                 "url": "https://ieee-uottawa.square.site/"
+            },
+            {
+                "type": "Link",
+                "label": "Learn more",
+                "altText": "",
+                "url": "/",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "elementId": ""
             }
         ],
         "secondaryLinks": [
