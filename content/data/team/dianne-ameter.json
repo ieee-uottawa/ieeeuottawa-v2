@@ -4,7 +4,6 @@
     "lastName": "Smrtka",
     "image": {
         "type": "ImageBlock",
-        "url": "/images/dianne-ameter.png",
         "altText": "Dianne Ameter photo"
     },
     "role": "Vice Chair",
