@@ -46,7 +46,7 @@ sections:
     elementId: ''
     showDate: true
     showAuthor: false
-    showExcerpt: true
+    showExcerpt: false
     showReadMoreLink: false
     readMoreLinkLabel: ''
     variant: variant-b
