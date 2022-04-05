@@ -127,7 +127,7 @@ sections:
     type: FeaturedPeopleSection
     subtitle: Execs
   - type: DividerSection
-    colors: colors-d
+    colors: colors-c
     elementId: ''
     title: Divider
     styles:
