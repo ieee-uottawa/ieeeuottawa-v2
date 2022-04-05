@@ -139,6 +139,7 @@ sections:
       - content/data/team/person-h244c4p9i.json
       - content/data/team/person-cu9bt8qp0.json
       - content/data/team/person-9tj6kubga.json
+      - content/data/team/person-1896ox26u.json
     styles:
       self:
         height: auto
