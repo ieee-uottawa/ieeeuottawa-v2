@@ -95,6 +95,7 @@ sections:
       - content/data/team/dianne-ameter.json
       - content/data/team/desmond-eagle.json
       - content/data/team/hugh-saturation.json
+      - content/data/team/person-6w6x0j8gu.json
     styles:
       self:
         height: auto
