@@ -102,6 +102,7 @@ sections:
       - content/data/team/person-4vlx6pbsp.json
       - content/data/team/person-g5lkknzco.json
       - content/data/team/person-a6yhgc2zf.json
+      - content/data/team/person-enq89r225.json
     styles:
       self:
         height: auto
