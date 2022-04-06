@@ -126,6 +126,7 @@ sections:
     type: FeaturedPeopleSection
     subtitle: Execs
     variant: variant-a
+    showBio: true
   - type: FeaturedPeopleSection
     colors: colors-c
     elementId: ''
