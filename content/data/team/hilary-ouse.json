@@ -2,7 +2,7 @@
     "type": "Person",
     "firstName": "Vlad",
     "lastName": "Jidkov",
-    "role": "Chair\n",
+    "role": "Chair\nchair@ieeeuottawa.ca",
     "image": {
         "type": "ImageBlock",
         "url": "/images/execs-2021-2022/chair.jpg",
