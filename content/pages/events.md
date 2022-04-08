@@ -78,7 +78,7 @@ sections:
         textAlign: center
       actions:
         justifyContent: center
-    title: Recent Posts
+    title: Upcoming Events
     subtitle: Latest blog posts section example
     recentCount: 6
   - type: FeaturedItemsSection
