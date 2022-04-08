@@ -79,7 +79,7 @@ sections:
       actions:
         justifyContent: center
     title: Upcoming Events
-    subtitle: Latest blog posts section example
+    subtitle: Check out our upcoming events!
     recentCount: 6
   - type: FeaturedItemsSection
     colors: colors-d
