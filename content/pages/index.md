@@ -72,6 +72,7 @@ sections:
         styles:
           self:
             textAlign: left
+            justify-center: center
         featuredImage:
           type: ImageBlock
           url: /images/circuit.svg
