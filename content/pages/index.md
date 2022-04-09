@@ -71,7 +71,7 @@ sections:
         actions: []
         styles:
           self:
-            textAlign: center
+            textAlign: left
         featuredImage:
           type: ImageBlock
           url: /images/circuit.svg
