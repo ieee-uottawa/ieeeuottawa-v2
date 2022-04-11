@@ -8,7 +8,7 @@ excerpt: >-
   could ever have.
 featuredImage:
   type: ImageBlock
-  url: /images/hero.webp
+  url: /images/events/events-2021-2022/w&c.jpeg
   altText: Post Image
 media:
   type: ImageBlock
