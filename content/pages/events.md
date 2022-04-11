@@ -49,7 +49,7 @@ sections:
     showExcerpt: false
     showReadMoreLink: false
     readMoreLinkLabel: ''
-    variant: variant-c
+    variant: variant-d
     actions: []
     styles:
       self:
