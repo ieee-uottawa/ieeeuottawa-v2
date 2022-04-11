@@ -8,7 +8,7 @@ excerpt: >-
   condimentum dignissim justo vel faucibus.
 featuredImage:
   type: ImageBlock
-  url: /images/post-2.jpg
+  url: /images/events/events-2021-2022/blockchain-workshop-2.jpeg
   altText: Post Image
 bottomSections:
   - elementId: ''
