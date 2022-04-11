@@ -8,7 +8,7 @@ excerpt: >-
   condimentum dignissim justo vel faucibus.
 featuredImage:
   type: ImageBlock
-  url: /images/bg.webp
+  url: /images/events/events-2021-2022/pancake-breakfast.jpeg
   altText: Post Image
 media:
   type: ImageBlock
