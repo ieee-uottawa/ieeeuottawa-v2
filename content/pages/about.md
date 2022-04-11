@@ -86,7 +86,7 @@ sections:
       actions:
         justifyContent: center
   - elementId: ''
-    colors: colors-e
+    colors: colors-c
     title: Our Team
     people:
       - content/data/team/hilary-ouse.json
