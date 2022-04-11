@@ -206,7 +206,7 @@ sections:
         styles:
           self:
             textAlign: left
-        subtitle: '2022-02-02'
+        subtitle: '2022-01-23'
       - type: FeaturedItem
         title: IEEE Executive Meeting Minutes
         actions:
