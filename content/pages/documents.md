@@ -246,7 +246,45 @@ sections:
           self:
             textAlign: left
         subtitle: '2021-11-03'
-                      
+      - type: FeaturedItem
+        title: IEEE Executive Meeting Minutes
+        actions:
+          - type: Button
+            label: View
+            showIcon: true
+            icon: arrowRight
+            url: /
+            style: primary
+        styles:
+          self:
+            textAlign: left
+        subtitle: '2021-12-01'
+      - type: FeaturedItem
+        title: IEEE Executive Meeting Minutes
+        actions:
+          - type: Button
+            label: View
+            showIcon: true
+            icon: arrowRight
+            url: /
+            style: primary
+        styles:
+          self:
+            textAlign: left
+        subtitle: '2021-11-21'
+      - type: FeaturedItem
+        title: IEEE Executive Meeting Minutes
+        actions:
+          - type: Button
+            label: View
+            showIcon: true
+            icon: arrowRight
+            url: /
+            style: primary
+        styles:
+          self:
+            textAlign: left
+        subtitle: '2021-11-03'                      
     actions: []
     columns: 1
     spacingX: 16
