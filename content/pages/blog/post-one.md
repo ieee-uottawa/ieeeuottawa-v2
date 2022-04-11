@@ -8,7 +8,7 @@ excerpt: >-
   eget egestas tortor pretium id. Sed imperdiet mattis eleifend.
 featuredImage:
   type: ImageBlock
-  url: /images/post-1.jpg
+  url: /images/events/events-2021-2022/battle-royale.jpeg
   altText: Post thumbnail image
 media:
   type: ImageBlock
