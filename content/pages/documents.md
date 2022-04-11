@@ -258,7 +258,7 @@ sections:
         styles:
           self:
             textAlign: left
-        subtitle: '2021-12-01'
+        subtitle: '2021-10-24'
       - type: FeaturedItem
         title: IEEE Executive Meeting Minutes
         actions:
