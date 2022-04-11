@@ -168,7 +168,45 @@ sections:
           self:
             textAlign: left
         subtitle: '2022-02-02'
-      
+      - type: FeaturedItem
+        title: IEEE Executive Meeting Minutes
+        actions:
+          - type: Button
+            label: View
+            showIcon: true
+            icon: arrowRight
+            url: /
+            style: primary
+        styles:
+          self:
+            textAlign: left
+        subtitle: '2022-03-20'
+      - type: FeaturedItem
+        title: IEEE Executive Meeting Minutes
+        actions:
+          - type: Button
+            label: View
+            showIcon: true
+            icon: arrowRight
+            url: /
+            style: primary
+        styles:
+          self:
+            textAlign: left
+        subtitle: '2022-02-02'
+      - type: FeaturedItem
+        title: IEEE Executive Meeting Minutes
+        actions:
+          - type: Button
+            label: View
+            showIcon: true
+            icon: arrowRight
+            url: /
+            style: primary
+        styles:
+          self:
+            textAlign: left
+        subtitle: '2022-02-02'      
     actions: []
     columns: 1
     spacingX: 16
