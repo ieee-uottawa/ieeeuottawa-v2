@@ -288,7 +288,7 @@ sections:
     actions: []
     columns: 1
     spacingX: 16
-    spacingY: 28
+    spacingY: 31
     enableHover: false
     styles:
       self:
