@@ -284,11 +284,11 @@ sections:
         styles:
           self:
             textAlign: left
-        subtitle: '2021-09-19'                      
+        subtitle: '2021-09-19'
     actions: []
     columns: 1
     spacingX: 16
-    spacingY: 22
+    spacingY: 28
     enableHover: false
     styles:
       self:
