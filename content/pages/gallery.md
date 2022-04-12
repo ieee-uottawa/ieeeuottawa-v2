@@ -361,7 +361,7 @@ sections:
       - type: ImageBlock
         url: /images/gallery/0108.jpg
         caption: Gallery Image
-        altText: Gallery Image 
+        altText: Gallery Image
     spacing: 16
     columns: 4
     aspectRatio: '1:1'
