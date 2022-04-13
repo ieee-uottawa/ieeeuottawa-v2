@@ -126,7 +126,7 @@
             },
             {
                 "type": "Link",
-                "label": "Learn more",
+                "label": "Events",
                 "altText": "",
                 "url": "/",
                 "showIcon": false,
