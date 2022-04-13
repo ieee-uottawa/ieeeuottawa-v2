@@ -11,13 +11,18 @@ sections:
     colors: colors-d
     variant: variant-a
     title: McNaughton Centre
-    text: >-
-      For us fishing is a life style. The connection to the waters is what makes
-      us friends, and what makes us a family and it what makes us a business.
+    text: >
+      Located in SITE 4026, the McNaughton Centre is intended to enhance the
+      learning experiences of IEEE student members at Canadian Universities and
+      Colleges, as well as encouraging IEEE membership and activities, and
+      interaction between the Student Branch and the Ottawa Section. Ted Glass
+      (in 1979) created the first centre at the University of Manitoba in memory
+      of General Andrew G. L. McNaughton, one of Canada’s most distinguished
+      electrical engineers.
 
 
-      We believe there’s a better, more sustainable way to live out of what the
-      sea has to offer, while  keeping our products fresh and delicious.
+      The McNaughton Centre at uOttawa is proud to announce services available
+      to all students.
     styles:
       self:
         height: auto
