@@ -35,7 +35,7 @@ sections:
       backgroundSize: cover
       backgroundPosition: center
       backgroundRepeat: no-repeat
-      opacity: 41
+      opacity: 40
     styles:
       self:
         height: auto
