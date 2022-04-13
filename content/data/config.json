@@ -104,7 +104,7 @@
             "address": "800 King Edward Avenue, Room 4026",
             "addressAltText": "Our address"
         },
-        "copyrightText": "Copyright © 2022 IEEE uOttawa Student Branch. View site source code.",
+        "copyrightText": "Powered by [Stackbit](https://www.stackbit.com/)",
         "primaryLinks": [
             {
                 "type": "Link",
