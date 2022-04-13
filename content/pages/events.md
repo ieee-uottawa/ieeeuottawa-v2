@@ -7,40 +7,6 @@ socialImage: null
 metaTags: []
 title: Events
 sections:
-  - type: FeatureHighlightSection
-    colors: colors-c
-    elementId: ''
-    backgroundSize: full
-    title: Events
-    subtitle: ''
-    text: >
-      On this page, you will find all the upcoming and past events organized by
-      IEEE.
-    actions: []
-    backgroundImage:
-      type: ImageBlock
-      url: /images/pexels-pixabay-39578.jpg
-      backgroundSize: cover
-      backgroundPosition: center
-      opacity: 60
-    styles:
-      self:
-        height: auto
-        width: wide
-        padding:
-          - pt-36
-          - pb-72
-          - pl-4
-          - pr-4
-        justifyContent: flex-start
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
-      text:
-        textAlign: left
-      actions:
-        justifyContent: flex-start
   - type: RecentPostsSection
     colors: colors-c
     elementId: ''
