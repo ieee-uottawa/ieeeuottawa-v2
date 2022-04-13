@@ -8,7 +8,7 @@ metaTags: []
 title: Gallery
 sections:
   - type: MediaGallerySection
-    colors: colors-c
+    colors: colors-d
     elementId: ''
     title: Gallery
     images:
