@@ -93,7 +93,7 @@
         }
     },
     "footer": {
-        "variant": "variant-b",
+        "variant": "variant-a",
         "colors": "colors-e",
         "contacts": {
             "title": "Contact details",
