@@ -3,7 +3,7 @@ title: Home
 layout: PageLayout
 sections:
   - type: DividerSection
-    colors: colors-c
+    colors: colors-d
     styles:
       self:
         width: full
