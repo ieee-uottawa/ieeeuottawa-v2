@@ -127,7 +127,7 @@
             {
                 "type": "Link",
                 "label": "Events",
-                "altText": "Events Link",
+                "altText": "Link to events page",
                 "url": "/events",
                 "showIcon": false,
                 "icon": "arrowRight",
