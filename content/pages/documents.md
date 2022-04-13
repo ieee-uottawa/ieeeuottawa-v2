@@ -7,40 +7,6 @@ socialImage: null
 metaTags: []
 title: Documents
 sections:
-  - type: FeatureHighlightSection
-    colors: colors-c
-    elementId: ''
-    backgroundSize: full
-    title: Documents
-    text: >
-      On this page, you will find proper documentation that powers the branch's
-      operation. This includes the branch's constitution, the regularly updated
-      budget and meeting minutes.
-    actions: []
-    backgroundImage:
-      type: ImageBlock
-      url: /images/pexels-pixabay-261621.jpg
-      backgroundSize: cover
-      backgroundPosition: center
-      opacity: 45
-    styles:
-      self:
-        height: auto
-        width: wide
-        padding:
-          - pt-36
-          - pb-72
-          - pl-4
-          - pr-4
-        justifyContent: flex-start
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
-      text:
-        textAlign: left
-      actions:
-        justifyContent: flex-start
   - type: FeaturedItemsSection
     colors: colors-d
     elementId: ''
