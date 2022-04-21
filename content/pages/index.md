@@ -155,23 +155,6 @@ sections:
             textAlign: left
         subtitle: 'April 1st, 2022 @7PM-10PM'
       - type: FeaturedItem
-        title: Terra Hackathon
-        text: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
-          lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
-          pharetra ipsum dolor, et iaculis elit ornare ac.
-        actions:
-          - type: Button
-            label: Learn more
-            showIcon: true
-            icon: arrowRight
-            url: /
-            style: primary
-        styles:
-          self:
-            textAlign: left
-        subtitle: 'March 25th, 2022 @5PM EST - March 27th, 2022 @2PM'
-      - type: FeaturedItem
         title: Battle Royale
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
