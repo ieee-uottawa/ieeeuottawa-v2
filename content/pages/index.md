@@ -138,7 +138,7 @@ sections:
     subtitle: ''
     items:
       - type: FeaturedItem
-        title: 13th Annual IEEE WIE Wine and Cheese
+        title: Annual General Meeting
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
           lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
