@@ -144,6 +144,8 @@ sections:
           Student Branch in impacting ways. All STEM students and IEEE members
           are encouraged to participate in this year's AGM by:
 
+
+
           \- Providing feedback during executive accountability presentations
 
           \- Putting forward amendment suggestions to the branch's constitution
