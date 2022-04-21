@@ -140,9 +140,15 @@ sections:
       - type: FeaturedItem
         title: Annual General Meeting
         text: >
-          The IEEE Ottawa Annual General Meeting for the year 2022 will be
-          taking place in a hybrid format (both at SITE4026 and online via Zoom)
-          on April 30th at 10:00am EST.
+          Now's the chance to meaningfully contribute to the IEEE uOttawa
+          Student Branch in impacting ways. All STEM students and IEEE members
+          are encouraged to participate in this year's AGM by:
+
+          \- Providing feedback during executive accountability presentations
+
+          \- Putting forward amendment suggestions to the branch's constitution
+
+          \- Running for vacant positions during by-elections
         actions:
           - type: Button
             label: Learn more
