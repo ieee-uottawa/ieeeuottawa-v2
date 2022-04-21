@@ -139,10 +139,10 @@ sections:
     items:
       - type: FeaturedItem
         title: Annual General Meeting
-        text: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
-          lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
-          pharetra ipsum dolor, et iaculis elit ornare ac.
+        text: >
+          The IEEE Ottawa Annual General Meeting for the year 2022 will be
+          taking place in a hybrid format (both at SITE4026 and online via Zoom)
+          on April 30th at 10:00am EST.
         actions:
           - type: Button
             label: Learn more
