@@ -139,18 +139,23 @@ sections:
     items:
       - type: FeaturedItem
         title: Annual General Meeting
-        text: >
+        text: >-
           Now's the chance to meaningfully contribute to the IEEE uOttawa
           Student Branch in impacting ways. All STEM students and IEEE members
           are encouraged to participate in this year's AGM by:
 
 
+          <ul>
 
-          \- Providing feedback during executive accountability presentations
+          <li>Providing feedback during executive accountability
+          presentations</li>
 
-          \- Putting forward amendment suggestions to the branch's constitution
+          <li>Putting forward amendment suggestions to the branch's
+          constitution</li>
 
-          \- Running for vacant positions during by-elections
+          <li>Running for vacant positions during by-elections</li>
+
+          </ul>
         actions:
           - type: Button
             label: Learn more
