@@ -153,7 +153,7 @@ sections:
         styles:
           self:
             textAlign: left
-        subtitle: 'April 1st, 2022 @7PM-10PM'
+        subtitle: 'April 30th, 2022 @7PM-10PM'
     actions: []
     columns: 1
     spacingX: 16
