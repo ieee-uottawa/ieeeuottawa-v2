@@ -139,7 +139,7 @@ sections:
     items:
       - type: FeaturedItem
         title: Annual General Meeting
-        text: >-
+        text: >+
           Now's the chance to meaningfully contribute to the IEEE uOttawa
           Student Branch in impacting ways. All STEM students and IEEE members
           are encouraged to participate in this year's AGM by:
@@ -156,6 +156,22 @@ sections:
           <li>Running for vacant positions during by-elections</li>
 
           </ul>
+
+
+
+
+          The positions that are up for election are:
+
+          ➤Vice President of Academic Affairs
+
+          ➤WIE Chair
+
+          ➤WIE Vice-Chair
+
+          ➤Photonics Chair
+
+          ➤Photonics Vice-Chair
+
         actions:
           - type: Button
             label: Learn more
