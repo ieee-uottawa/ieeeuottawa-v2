@@ -57,7 +57,7 @@ sections:
       actions:
         justifyContent: flex-start
   - type: FeaturedItemsSection
-    colors: colors-a
+    colors: colors-d
     elementId: ''
     title: Come to our office
     subtitle: '800 King Edward Ave, Ottawa, ON K1N 6N5, Room 4026'
