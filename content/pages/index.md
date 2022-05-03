@@ -182,7 +182,6 @@ sections:
         styles:
           self:
             textAlign: left
-        subtitle: 'April 30th, 2022 @10AM EST'
     actions: []
     columns: 1
     spacingX: 16
