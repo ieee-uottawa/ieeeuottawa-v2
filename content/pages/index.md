@@ -139,39 +139,8 @@ sections:
     items:
       - type: FeaturedItem
         text: >
-          Now's the chance to meaningfully contribute to the IEEE uOttawa
-          Student Branch in impacting ways. All STEM students and IEEE members
-          are encouraged to participate in this year's AGM by:
-
-
-          <ul>
-
-          <li>Providing feedback during executive accountability
-          presentations</li>
-
-          <li>Putting forward amendment suggestions to the branch's
-          constitution</li>
-
-          <li>Running for vacant positions during by-elections</li>
-
-          </ul>
-
-
-
-
-          The positions that are up for election are:
-
-
-
-          - Vice President of Academic Affairs
-
-          - WIE Chair
-
-          - WIE Vice-Chair
-
-          - Photonics Chair
-
-          - Photonics Vice-Chair 
+          There are no events planned for the coming weeks. Check back another
+          time :)
         actions:
           - type: Button
             label: Learn more
