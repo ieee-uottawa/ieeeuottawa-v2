@@ -138,7 +138,6 @@ sections:
     subtitle: ''
     items:
       - type: FeaturedItem
-        title: Annual General Meeting
         text: >
           Now's the chance to meaningfully contribute to the IEEE uOttawa
           Student Branch in impacting ways. All STEM students and IEEE members
