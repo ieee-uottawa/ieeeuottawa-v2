@@ -44,7 +44,7 @@ sections:
           - pt-20
           - pb-96
           - pr-0
-          - pl-0
+          - pl-12
         alignItems: center
         justifyContent: center
         flexDirection: row
