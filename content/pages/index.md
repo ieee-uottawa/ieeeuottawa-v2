@@ -42,7 +42,7 @@ sections:
         width: full
         padding:
           - pt-20
-          - pb-60
+          - pb-96
           - pr-12
           - pl-12
         alignItems: center
