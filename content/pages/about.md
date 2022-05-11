@@ -87,7 +87,7 @@ sections:
         justifyContent: center
   - elementId: ''
     colors: colors-c
-    title: Our Team
+    title: Our Team (2021-2022)
     people:
       - content/data/team/hilary-ouse.json
       - content/data/team/dianne-ameter.json
