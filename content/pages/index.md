@@ -18,7 +18,7 @@ sections:
   - type: HeroSection
     elementId: homepage-hero-1
     colors: colors-b
-    backgroundSize: inset
+    backgroundSize: full
     title: Powering Your Student Experience.
     subtitle: Brought to you by the best uOttawa sub-association on campus.
     actions:
