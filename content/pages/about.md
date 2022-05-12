@@ -6,7 +6,7 @@ sections:
     colors: colors-d
     styles:
       self:
-        width: wide
+        width: full
         padding:
           - pt-0
           - pb-4
