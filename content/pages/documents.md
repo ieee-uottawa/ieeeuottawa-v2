@@ -252,7 +252,7 @@ sections:
             textAlign: left
         subtitle: '2021-09-19'
     actions: []
-    columns: 1
+    columns: 3
     spacingX: 16
     spacingY: 32
     enableHover: false
