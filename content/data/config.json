@@ -78,13 +78,13 @@
                 "primaryLinks": [
                     {
                         "type": "Link",
-                "label": "McN Centre",
-                "altText": "",
-                "url": "/",
-                "showIcon": false,
-                "icon": "arrowRight",
-                "iconPosition": "right",
-                "elementId": ""
+                        "label": "McN Centre",
+                        "altText": "",
+                        "url": "/",
+                        "showIcon": false,
+                        "icon": "arrowRight",
+                        "iconPosition": "right",
+                        "elementId": ""
                     }
                 ]
             }
