@@ -18,10 +18,14 @@ fields:
     description: Alternative text for screen readers
     default: ''
   - type: list
-    name: links
-    label: Links
-    default: '/'
-    required: true
+    name: defaultMetaTags
+    label: Default additional meta tags
+    description: 'Additional meta tags to set as default in all pages. Tags defined here are low-priority: they may be overriden by page-level settings.'
+    group: seo
+    items:
+      type: model
+      models:
+        - MetaTag
   - type: boolean
     name: showIcon
     group: styles
