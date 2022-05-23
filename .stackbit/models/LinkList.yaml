@@ -19,7 +19,7 @@ fields:
     default: ''
   - type: list
     name: groupLinks
-    label: Group
+    label: Group Links
     description: 'Additional meta tags to set as default in all pages. Tags defined here are low-priority: they may be overriden by page-level settings.'
     group: seo
     items:
