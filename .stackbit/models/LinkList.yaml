@@ -17,6 +17,11 @@ fields:
     label: Alt text
     description: Alternative text for screen readers
     default: ''
+    - type: string
+    name: url
+    label: URL
+    default: '/'
+    required: true
   - type: boolean
     name: showIcon
     group: styles
