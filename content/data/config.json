@@ -75,7 +75,11 @@
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "elementId": "",
-                "primaryLinks":
+                "primaryLinks": [
+                    {
+                        
+                    }
+                ]
             }
         ],
         "secondaryLinks": [
