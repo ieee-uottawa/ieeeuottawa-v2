@@ -67,7 +67,6 @@ export default function Action(props) {
     if (type === "LinkList") {
         return (
             <label for="pet-select">Choose a pet:</label>
-
 <select name="pets" id="pet-select">
     <option value="">--Please choose an option--</option>
     <option value="dog">Dog</option>
