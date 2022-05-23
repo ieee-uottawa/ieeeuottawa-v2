@@ -76,36 +76,7 @@
                 "iconPosition": "right",
                 "elementId": "",
                 "primaryLinks": [
-                    {
-                        "type": "Link",
-                        "label": "2022-2023",
-                        "altText": "",
-                        "url": "/execs-2022-2023",
-                        "showIcon": false,
-                        "icon": "arrowRight",
-                        "iconPosition": "right",
-                        "elementId": ""
-                    },
-                    {
-                        "type": "Link",
-                        "label": "2021-2022",
-                        "altText": "",
-                        "url": "/execs-2021-2022",
-                        "showIcon": false,
-                        "icon": "arrowRight",
-                        "iconPosition": "right",
-                        "elementId": ""
-                    },
-                    {
-                        "type": "Link",
-                        "label": "2020-2021",
-                        "altText": "",
-                        "url": "/execs-2022-2023",
-                        "showIcon": false,
-                        "icon": "arrowRight",
-                        "iconPosition": "right",
-                        "elementId": ""
-                    }
+                    
                 ]
             }
         ],
