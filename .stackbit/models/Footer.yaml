@@ -90,7 +90,7 @@ fields:
       models:
         - Button
         - Link
-        - Item
+        - primaryLinks
     default:
       - type: Link
         label: Projects
