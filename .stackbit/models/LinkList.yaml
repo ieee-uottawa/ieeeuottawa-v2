@@ -1,45 +1,15 @@
-type: list
+type: object
 name: LinkList
-label: LinkList
+label: Link List
 labelField: label
-fieldGroups:
-  - name: styles
-    label: Styles
-  - name: settings
-    label: Settings
 fields:
   - type: string
-    name: label
-    label: Label
-    default: More
-  - type: string
-    name: altText
-    label: Alt text
-    description: Alternative text for screen readers
-    default: ''
+    name: heading
+    label: Heading
   - type: list
-    name: groupLinks
-    label: Link List
-    description: 'List of links to group'
+    name: links
+    label: Links
     items:
       type: model
       models:
-        - Link
-    required: true
-  - type: enum
-    name: iconPosition
-    group: styles
-    controlType: button-group
-    label: Icon position
-    options:
-      - label: Left
-        value: left
-      - label: Right
-        value: right
-    default: right
-  - type: string
-    name: elementId
-    group: settings
-    label: Element ID
-    description: A unique ID for the HTML element. Must not contain whitespace.
-    default: ''
+        - Link 
