@@ -65,7 +65,8 @@ export default function Action(props) {
     )
 
     if (type === "") {
-        
+
     }
+    
     return getLink();
 }
