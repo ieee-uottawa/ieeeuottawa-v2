@@ -18,7 +18,7 @@ fields:
     description: Alternative text for screen readers
     default: ''
   - type: list
-    name: sub
+    name: subLinks
     label: URL
     default: '/'
     required: true
