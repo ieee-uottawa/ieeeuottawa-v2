@@ -65,6 +65,11 @@
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "elementId": ""
+            },
+            {
+                "type": "LinkList",
+                "heading": "lorem-ipsum",
+                "links": []
             }
         ],
         "secondaryLinks": [
