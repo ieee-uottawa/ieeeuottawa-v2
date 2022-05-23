@@ -115,7 +115,7 @@ fields:
       models:
         - Button
         - Link
-        - primaryLink
+        - primaryLinks
     default:
       - type: Link
         label: Home
