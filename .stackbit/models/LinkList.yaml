@@ -1,6 +1,6 @@
 type: list
 name: LinkLisr
-label: Link
+label: LinkList
 labelField: label
 fieldGroups:
   - name: styles
