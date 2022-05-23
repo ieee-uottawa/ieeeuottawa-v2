@@ -26,6 +26,7 @@ fields:
       type: model
       models:
         - Link
+    required: true
   - type: boolean
     name: showIcon
     group: styles
