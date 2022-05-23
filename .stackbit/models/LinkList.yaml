@@ -17,7 +17,7 @@ fields:
     label: Alt text
     description: Alternative text for screen readers
     default: ''
-  - type: string
+  - type: list
     name: url
     label: URL
     default: '/'
