@@ -77,7 +77,14 @@
                 "elementId": "",
                 "primaryLinks": [
                     {
-                        "type"
+                        "type": "Link",
+                "label": "McN Centre",
+                "altText": "",
+                "url": "/",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "elementId": ""
                     }
                 ]
             }
