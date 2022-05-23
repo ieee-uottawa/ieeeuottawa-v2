@@ -65,6 +65,6 @@ export default function Action(props) {
     )
 
     return (
-        {getLink}
+        {getLink()}
     );
 }
