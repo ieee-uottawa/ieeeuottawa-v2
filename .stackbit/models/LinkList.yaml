@@ -19,7 +19,7 @@ fields:
     default: ''
   - type: list
     name: links
-    label: URL
+    label: Links
     default: '/'
     required: true
   - type: boolean
