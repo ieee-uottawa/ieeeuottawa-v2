@@ -1,4 +1,4 @@
-type: object
+type: list
 name: Link
 label: Link
 labelField: label
