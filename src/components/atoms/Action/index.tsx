@@ -33,7 +33,7 @@ export default function Action(props) {
           }
         : {};
 
-    const get
+    const getLink
 
     return (
         <Link
