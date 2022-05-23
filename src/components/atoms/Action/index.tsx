@@ -20,17 +20,17 @@ export default function Action(props) {
     const IconComponent = icon ? iconMap[icon] : null;
     const annotations = fieldPath
         ? {
-              'data-sb-field-path': [
-                  fieldPath,
-                  `${fieldPath}.url#@href`,
-                  `${fieldPath}.altText#@aria-label`,
-                  `${fieldPath}.elementId#@id`,
-                  `${fieldPath}.label#span[1]`,
-                  `${fieldPath}.icon#svg[1]`
-              ]
-                  .join(' ')
-                  .trim()
-          }
+            'data-sb-field-path': [
+                fieldPath,
+                `${fieldPath}.url#@href`,
+                `${fieldPath}.altText#@aria-label`,
+                `${fieldPath}.elementId#@id`,
+                `${fieldPath}.label#span[1]`,
+                `${fieldPath}.icon#svg[1]`
+            ]
+                .join(' ')
+                .trim()
+        }
         : {};
 
     const getLink = () => (
@@ -64,11 +64,11 @@ export default function Action(props) {
         </Link>
     )
 
-    if (type === "LinkList") {
-        return (
-            
-        )
-    }
+    // if (type === "LinkList") {
+    //     return (
+
+    //     )
+    // }
 
     return getLink();
 }
