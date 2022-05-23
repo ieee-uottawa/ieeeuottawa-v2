@@ -95,6 +95,16 @@
                         "icon": "arrowRight",
                         "iconPosition": "right",
                         "elementId": ""
+                    },
+                    {
+                        "type": "Link",
+                        "label": "2022-2023",
+                        "altText": "",
+                        "url": "/execs-2022-2023",
+                        "showIcon": false,
+                        "icon": "arrowRight",
+                        "iconPosition": "right",
+                        "elementId": ""
                     }
                 ]
             }
