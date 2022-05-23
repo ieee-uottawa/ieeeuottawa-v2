@@ -18,7 +18,7 @@ fields:
     description: Alternative text for screen readers
     default: ''
   - type: list
-    name: link
+    name: links
     label: Default additional meta tags
     description: 'Additional meta tags to set as default in all pages. Tags defined here are low-priority: they may be overriden by page-level settings.'
     group: seo
