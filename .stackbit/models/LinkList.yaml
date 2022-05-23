@@ -21,7 +21,6 @@ fields:
     name: groupLinks
     label: Link List
     description: 'List of links to group'
-    group: seo
     items:
       type: model
       models:
