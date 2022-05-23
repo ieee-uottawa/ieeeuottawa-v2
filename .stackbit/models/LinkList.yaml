@@ -1,5 +1,5 @@
 type: list
-name: LinkLisr
+name: LinkList
 label: LinkList
 labelField: label
 fieldGroups:
