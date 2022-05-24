@@ -4,7 +4,7 @@ import Action from '../../atoms/Action';
 
 export default function ActionList(props) {
     const { links, inMobileMenu } = props;
-    
+
     return links.map((link, index) => (
         <div key={index}>
             <Action {...link} className={classNames(inMobileMenu && link.type === 'Button' ? 'w-full' : '')} data-sb-field-path={`.${index}`} />
