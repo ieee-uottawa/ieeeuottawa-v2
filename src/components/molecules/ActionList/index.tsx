@@ -3,7 +3,7 @@ import classNames from 'classnames';
 import Action from '../../atoms/Action';
 
 export default function ActionList(props) {
-    const { links } = props;
+    const { links, inMobileMenu } = props;
     
     return links.map((link, index) => (
         <li key={index}>
