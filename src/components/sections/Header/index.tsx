@@ -192,10 +192,7 @@ function ListOfLinks({ links, inMobileMenu }) {
     return links.map((link, index) => (
         <li key={index}>
             {link.type === "LinkList" ?
-
-                
-                    
-                        <ActionList linkListObject={link} inMobileMenu={inMobileMenu} className="group"/>
+                <ActionList linkListObject={link} inMobileMenu={inMobileMenu} className="group"/>
 
                 // <></>
                 :
