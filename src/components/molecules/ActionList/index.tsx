@@ -10,11 +10,12 @@ export default function ActionList(props) {
             <button className="dropbtn">{label}
                 <i className="fa fa-caret-down"></i>
             </button>
-            {links.map((link, index) => (
-                <li key={index}>
-                    <Action {...link} className={classNames(inMobileMenu && link.type === 'Button' ? 'w-full' : '')} data-sb-field-path={`.${index}`} />
-                </li>
-            ))}
+            <div></div>
+                {links.map((link, index) => (
+                    <li key={index}>
+                        <Action {...link} className={classNames(inMobileMenu && link.type === 'Button' ? 'w-full' : '')} data-sb-field-path={`.${index}`} />
+                    </li>
+                ))}
         </div>
     )
 }
