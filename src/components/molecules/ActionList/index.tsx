@@ -3,7 +3,7 @@ import classNames from 'classnames';
 import Action from '../../atoms/Action';
 
 export default function ActionList(props) {
-    const { links, inMobileMenu } = props;
+    const { linkListObject, inMobileMenu } = props;
 
     return (
         <div className="hidden group-hover:block">
