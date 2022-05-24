@@ -190,7 +190,6 @@ function SiteLogoLink({ title, isTitleVisible, logo }) {
 function ListOfLinks({ links, inMobileMenu }) {
     return links.map((link, index) => (
                 <Action {...link} className={classNames(inMobileMenu && link.type === 'Button' ? 'w-full' : '')} data-sb-field-path={`.${index}`} />
-        </li>
     ));
 }
 
