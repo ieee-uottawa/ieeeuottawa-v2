@@ -194,7 +194,7 @@ function ListOfLinks({ links, inMobileMenu }) {
             { link.type === "LinkList" ? 
                 
                 <div>
-                    <button className="dropbtn">Dropdown
+                    <button className="dropbtn">{link.heading}
                         <i className="fa fa-caret-down"></i>
                     </button>
                     <div>
