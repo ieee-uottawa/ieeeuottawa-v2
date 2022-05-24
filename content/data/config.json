@@ -65,16 +65,6 @@
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "elementId": ""
-            },
-            {
-                "type": "Link",
-                "label": "Learn more",
-                "altText": "",
-                "url": "/",
-                "showIcon": true,
-                "icon": "chevronRight",
-                "iconPosition": "right",
-                "elementId": ""
             }
         ],
         "secondaryLinks": [
