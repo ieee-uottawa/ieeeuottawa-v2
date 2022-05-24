@@ -5,17 +5,7 @@ import { iconMap } from '../../svgs';
 
 export default function ActionList(props) {
     const {
-        type,
-        elementId,
-        className,
-        label,
-        altText,
-        url,
-        showIcon,
-        icon,
-        iconPosition = 'right',
-        style = 'primary',
-        'data-sb-field-path': fieldPath
+        links
     } = props;
     const IconComponent = icon ? iconMap[icon] : null;
     const annotations = fieldPath
