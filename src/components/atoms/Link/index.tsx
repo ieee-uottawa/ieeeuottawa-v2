@@ -17,6 +17,6 @@ export default function Link({ children, href, ...other }) {
         <a href={href} {...other}>
             {children}
         </a>
-    );
+        );
     }
 }
