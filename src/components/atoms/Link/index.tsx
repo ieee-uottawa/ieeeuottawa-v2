@@ -22,7 +22,7 @@ export default function Link({ children, href, ...other }) {
 
     return (
         return (
-        <a href={href} {...other}>
+        <a {...other}>
             {children}
         </a>
     );
