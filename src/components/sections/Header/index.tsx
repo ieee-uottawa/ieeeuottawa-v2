@@ -191,7 +191,7 @@ function ListOfLinks({ links, inMobileMenu }) {
     return links.map((link, index) => (
         <li key={index}>
             { link.type === "LinkList" ? 
-                <ActionList links={link.links} inMobileMenu={}
+                <ActionList links={link.links} inMobileMenu={inMobileMenu}/>
                 :
                 <Action {...link} className={classNames(inMobileMenu && link.type === 'Button' ? 'w-full' : '')} data-sb-field-path={`.${index}`} />
                 
