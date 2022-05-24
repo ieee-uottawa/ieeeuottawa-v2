@@ -68,7 +68,7 @@
             },
             {
                 "type": "LinkList",
-                "heading": "Execs",
+                "label": "Execs",
                 "links": [
                     {
                         "type": "Link",
