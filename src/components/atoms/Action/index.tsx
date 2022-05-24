@@ -70,7 +70,7 @@ if (type === "LinkList") {
 
         )
     }
-    */
+*/
 
     return getLink();
 }
