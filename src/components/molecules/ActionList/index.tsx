@@ -1,6 +1,6 @@
 import * as React from 'react';
 import classNames from 'classnames';
-import Link from '../../atoms/Link';
+import Action from '../../atoms/Link';
 
 export default function ActionList(props) {
     const {
