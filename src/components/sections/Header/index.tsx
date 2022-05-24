@@ -193,11 +193,7 @@ function ListOfLinks({ links, inMobileMenu }) {
         <li key={index}>
             {link.type === "LinkList" ?
 
-                <div>
-                    <button className="dropbtn">{link.label}
-                        <i className="fa fa-caret-down"></i>
-                    </button>
-                    <div>
+            
                         <ActionList links={link.links} inMobileMenu={inMobileMenu} className="groupz" />
                 
 
