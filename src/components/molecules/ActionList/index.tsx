@@ -8,7 +8,7 @@ export default function ActionList(props) {
     return (
         <div className="">
             <button className="peer dropbtn">{label}
-                {//<i className="fa fa-caret-down"></i>}
+                {/*<i className="fa fa-caret-down"></i>*/}
             </button>
             <div className="hidden peer-hover:block">
                 {links.map((link, index) => (
