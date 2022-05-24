@@ -67,42 +67,6 @@
                 "elementId": ""
             },
             {
-                "type": "LinkList",
-                "label": "Execs",
-                "links": [
-                    {
-                        "type": "Link",
-                        "label": "Execs 2021-2022",
-                        "altText": "Execs 2021-2022",
-                        "url": "/execs-2021-2022",
-                        "showIcon": false,
-                        "icon": "arrowRight",
-                        "iconPosition": "right",
-                        "elementId": ""
-                    },
-                    {
-                        "type": "Link",
-                        "label": "Execs 2020-2021",
-                        "altText": "Execs 2020-2021",
-                        "url": "/execs-2020-2021",
-                        "showIcon": false,
-                        "icon": "arrowRight",
-                        "iconPosition": "right",
-                        "elementId": ""
-                    },
-                    {
-                        "type": "Link",
-                        "label": "Execs 2019-2020",
-                        "altText": "Execs 2019-2020",
-                        "url": "/execs-2019-2020",
-                        "showIcon": false,
-                        "icon": "arrowRight",
-                        "iconPosition": "right",
-                        "elementId": ""
-                    }
-                ]
-            },
-            {
                 "type": "Link",
                 "label": "Learn more",
                 "altText": "",
