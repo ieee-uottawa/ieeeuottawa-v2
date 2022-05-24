@@ -100,7 +100,8 @@
             "altText": "IEEE uOttawa Logo",
             "caption": "Caption of the image",
             "elementId": ""
-        }
+        },
+        "title": "IEEE uOttawa"
     },
     "footer": {
         "variant": "variant-a",
