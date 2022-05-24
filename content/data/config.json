@@ -6,7 +6,7 @@
         "isSticky": true,
         "primaryColors": "colors-d",
         "secondaryColors": "colors-d",
-        "isTitleVisible": true,
+        "isTitleVisible": false,
         "primaryLinks": [
             {
                 "type": "Link",
