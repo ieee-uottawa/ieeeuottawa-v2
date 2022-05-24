@@ -39,6 +39,7 @@ export default function Action(props) {
             aria-label={altText}
             id={elementId || null}
             className={classNames(
+                'min-w-fit',
                 'sb-component',
                 'sb-component-block',
                 type === 'Button' ? 'sb-component-button' : 'sb-component-link',
