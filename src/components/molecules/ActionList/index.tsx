@@ -6,7 +6,7 @@ export default function ActionList(props) {
     const { linkListObject, inMobileMenu } = props;
     const { label, links } = linkListObject;
     return (
-        <div className="hidden group-hover:block">
+        <div className="">
             <button className="dropbtn">{label}
                 <i className="fa fa-caret-down"></i>
             </button>
