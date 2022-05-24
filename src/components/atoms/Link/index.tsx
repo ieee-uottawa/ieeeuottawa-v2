@@ -13,12 +13,10 @@ export default function Link({ children, href, ...other }) {
     }
 
     if (href) {
-        
-    }
-
-    return (
+        return (
         <a href={href} {...other}>
             {children}
         </a>
     );
+    }
 }
