@@ -65,16 +65,5 @@ export default function Action(props) {
         </Link>
     )
 
-    /*  
-        if (type === "LinkList") {
-            {links} = props;
-            return (
-                <div>
-                    get
-                </div>
-            )
-        }
-    */
-
     return getLink();
 }
