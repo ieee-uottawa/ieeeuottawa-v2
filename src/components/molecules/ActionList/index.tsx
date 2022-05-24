@@ -10,7 +10,7 @@ export default function ActionList(props) {
             <button className="peer dropbtn">{label}
                 {/*<i className="fa fa-caret-down"></i>*/}
             </button>
-            <div className="hidden peer-hover:block">
+            <div className="hidden peer-hover:block absolute ">
                 {links.map((link, index) => (
                     <li key={index}>
                         <Action {...link} className={classNames(inMobileMenu && link.type === 'Button' ? 'w-full' : '')} data-sb-field-path={`.${index}`} />
