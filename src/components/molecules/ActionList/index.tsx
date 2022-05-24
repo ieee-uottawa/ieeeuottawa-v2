@@ -8,9 +8,9 @@ export default function ActionList(props) {
     return (
         <div className="display: none;">
             {links.map((link, index) => (
-            <li key={index}>
-                <Action {...link} className={classNames(inMobileMenu && link.type === 'Button' ? 'w-full' : '')} data-sb-field-path={`.${index}`} />
-            </li>
+                <li key={index}>
+                    <Action {...link} className={classNames(inMobileMenu && link.type === 'Button' ? 'w-full' : '')} data-sb-field-path={`.${index}`} />
+                </li>
             ))}
         </div>
     )
