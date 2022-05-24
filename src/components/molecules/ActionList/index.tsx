@@ -5,7 +5,6 @@ import Action from '../../atoms/Action';
 export default function ActionList(props) {
     const { linkListObject, inMobileMenu } = props;
     const { links } = linkListObject;
-    const {}
     return (
         <div className="hidden group-hover:block">
             <button class="dropbtn">Dropdown
