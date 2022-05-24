@@ -69,7 +69,7 @@
             {
                 "type": "Link",
                 "label": "Execs",
-                "altText": "",
+                "altText": "Execs",
                 "url": "/execs",
                 "showIcon": false,
                 "icon": "arrowRight",
