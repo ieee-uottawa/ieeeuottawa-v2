@@ -7,7 +7,7 @@ export default function ActionList(props) {
     const { label, links } = linkListObject;
     return (
         <div className="">
-            <button className="dropbtn">{label}
+            <button className="peer dropbtn">{label}
                 <i className="fa fa-caret-down"></i>
             </button>
             <div className="hidden group-hover:block">
