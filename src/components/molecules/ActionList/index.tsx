@@ -8,20 +8,6 @@ export default function ActionList(props) {
         links
     } = props;
     
-        ? {
-            'data-sb-field-path': [
-                fieldPath,
-                `${fieldPath}.url#@href`,
-                `${fieldPath}.altText#@aria-label`,
-                `${fieldPath}.elementId#@id`,
-                `${fieldPath}.label#span[1]`,
-                `${fieldPath}.icon#svg[1]`
-            ]
-                .join(' ')
-                .trim()
-        }
-        : {};
-
     const getLink = () => (
         <Link
             href={url}
