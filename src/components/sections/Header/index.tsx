@@ -198,7 +198,7 @@ function ListOfLinks({ links, inMobileMenu }) {
                         <i className="fa fa-caret-down"></i>
                     </button>
                     <div>
-                        <ActionList links={link.links} inMobileMenu={inMobileMenu} className="group" />
+                        <ActionList links={link.links} inMobileMenu={inMobileMenu} className="groupz" />
                     </div>
                 </div>
 
