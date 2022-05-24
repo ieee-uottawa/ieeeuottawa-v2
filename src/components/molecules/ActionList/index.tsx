@@ -8,7 +8,7 @@ export default function ActionList(props) {
     return (
         <div className="hidden group-hover:block">
             <button className="dropbtn">{label}
-            <i class="fa fa-caret-down"></i>
+            <i className="fa fa-caret-down"></i>
             </button>
             {links.map((link, index) => (
                 <li key={index}>
