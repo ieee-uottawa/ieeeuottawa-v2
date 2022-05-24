@@ -66,7 +66,7 @@ export default function Action(props) {
 
 /*  
     if (type === "LinkList") {
-        {links}
+        {links} = props;
         return (
             <div>
                 get
