@@ -193,7 +193,6 @@ function ListOfLinks({ links, inMobileMenu }) {
         <li key={index}>
             { link.type === "LinkList" ? 
                 <div>
-                    
                     <ActionList links={link.links} inMobileMenu={inMobileMenu}/>
                 </div>
                 :
