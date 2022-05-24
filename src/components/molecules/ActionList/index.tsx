@@ -7,8 +7,7 @@ export default function ActionList(props) {
     const {
         links
     } = props;
-    const IconComponent = icon ? iconMap[icon] : null;
-    const annotations = fieldPath
+    
         ? {
             'data-sb-field-path': [
                 fieldPath,
