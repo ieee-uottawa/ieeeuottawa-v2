@@ -19,4 +19,12 @@ export default function Link({ children, href, ...other }) {
         </a>
         );
     }
+
+    return (
+        return (
+        <a href={href} {...other}>
+            {children}
+        </a>
+    );
+    )
 }
