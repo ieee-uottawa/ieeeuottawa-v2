@@ -1,6 +1,6 @@
 import * as React from 'react';
 import classNames from 'classnames';
-import Link from '../Link';
+import Link from '../../atoms/Link';
 import { iconMap } from '../../svgs';
 
 export default function ActionList(props) {
