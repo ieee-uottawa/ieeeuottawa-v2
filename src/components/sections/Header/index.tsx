@@ -194,10 +194,8 @@ function ListOfLinks({ links, inMobileMenu }) {
             {link.type === "LinkList" ?
 
                 
-                    <div>
+                    
                         <ActionList linkListObject={link} inMobileMenu={inMobileMenu} className="group"/>
-                    </div>
-                </div>
 
                 // <></>
                 :
