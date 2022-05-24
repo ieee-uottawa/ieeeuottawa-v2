@@ -7,7 +7,7 @@ export default function ActionList(props) {
     const { label, links } = linkListObject;
     return (
         <div className="hidden group-hover:block">
-            <button class="dropbtn">Dropdown
+            <button class="dropbtn">{label}
             <i class="fa fa-caret-down"></i>
             </button>
             {links.map((link, index) => (
