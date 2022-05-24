@@ -3,7 +3,7 @@ import classNames from 'classnames';
 import Link from '../Link';
 import { iconMap } from '../../svgs';
 
-export default function Action(props) {
+export default function ActionList(props) {
     const {
         type,
         elementId,
