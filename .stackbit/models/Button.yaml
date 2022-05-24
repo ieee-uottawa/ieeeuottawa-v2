@@ -48,7 +48,7 @@ fields:
         value: chevronLeft
       - label: Chevron right
         value: chevronRight
-      - label: 
+      - label: ChevronDown
       - label: Facebook
         value: facebook
       - label: GitHub
