@@ -32,6 +32,7 @@ export const iconMap = {
     chevronLeft: ChevronLeft,
     chevronRight: ChevronRight,
     ChevronDown: ChevronDown,
+    document: Document,
     facebook: Facebook,
     github: GitHub,
     googlePlay: GooglePlay,
