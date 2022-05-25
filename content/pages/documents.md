@@ -96,7 +96,7 @@ sections:
         title: IEEE Executive Meeting Minutes
         actions:
           - type: Link
-            label: Learn more
+            label: View
             altText: ''
             url: /
             showIcon: true
