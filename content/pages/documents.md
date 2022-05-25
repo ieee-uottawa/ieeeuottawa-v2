@@ -97,7 +97,7 @@ sections:
         actions:
           - type: Button
             label: View
-            altText: ''
+            altText: View document button
             url: /
             showIcon: false
             icon: arrowRight
