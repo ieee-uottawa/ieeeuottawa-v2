@@ -100,7 +100,7 @@ sections:
             altText: ''
             url: /
             showIcon: false
-            icon: arrowRight
+            icon: document
             iconPosition: right
             elementId: ''
         styles:
