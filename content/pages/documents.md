@@ -250,7 +250,7 @@ sections:
         subtitle: '2021-09-19'
     actions: []
     columns: 2
-    spacingX: 24
+    spacingX: 27
     spacingY: 32
     enableHover: false
     styles:
