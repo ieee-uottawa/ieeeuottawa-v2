@@ -94,13 +94,7 @@ sections:
     items:
       - type: FeaturedItem
         title: IEEE Executive Meeting Minutes
-        actions:
-          - type: Button
-            label: View
-            showIcon: true
-            icon: document
-            url: /
-            style: secondary
+        actions: []
         styles:
           self:
             textAlign: left
