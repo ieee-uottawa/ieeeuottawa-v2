@@ -98,7 +98,6 @@ sections:
           - type: Button
             label: View
             altText: View document button
-            url: /
             showIcon: false
             icon: arrowRight
             iconPosition: right
