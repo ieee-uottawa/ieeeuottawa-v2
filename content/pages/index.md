@@ -182,7 +182,7 @@ sections:
         altText: Shop now button
       - type: Button
         label: Shop now
-        altText: ''
+        altText: Shop now button
         url: /
         showIcon: false
         icon: arrowRight
