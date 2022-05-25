@@ -7,6 +7,7 @@ import Cart from './cart';
 import ChevronLeft from './chevron-left';
 import ChevronRight from './chevron-right';
 import ChevronDown from './chevron-down';
+import Document from './'
 import Facebook from './facebook';
 import GitHub from './github';
 import GooglePlay from './google-play';
