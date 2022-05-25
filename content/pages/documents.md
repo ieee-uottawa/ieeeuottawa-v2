@@ -1,9 +1,6 @@
 ---
 layout: PageLayout
-metaTitle: null
-metaDescription: null
 addTitleSuffix: true
-socialImage: null
 metaTags: []
 title: Documents
 sections:
@@ -252,7 +249,7 @@ sections:
             textAlign: left
         subtitle: '2021-09-19'
     actions: []
-    columns: 3
+    columns: 2
     spacingX: 16
     spacingY: 32
     enableHover: false
