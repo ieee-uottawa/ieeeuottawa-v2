@@ -98,7 +98,7 @@ sections:
           - type: Button
             label: View
             showIcon: true
-            icon: arrowRight
+            icon: document
             url: /
             style: primary
         styles:
