@@ -50,6 +50,8 @@ fields:
         value: chevronRight
       - label: Chevron down
         value: chevronDown
+      - label: Document
+        value: document
       - label: Facebook
         value: facebook
       - label: GitHub
