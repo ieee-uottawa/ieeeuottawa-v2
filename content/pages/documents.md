@@ -97,7 +97,7 @@ sections:
         actions:
           - type: Link
             label: View
-            altText: 'View '
+            altText: View document
             url: /
             showIcon: true
             icon: document
