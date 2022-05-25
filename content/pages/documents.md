@@ -100,7 +100,7 @@ sections:
             showIcon: true
             icon: document
             url: /
-            style: primary
+            style: secondary
         styles:
           self:
             textAlign: left
