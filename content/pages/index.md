@@ -174,12 +174,6 @@ sections:
       Shop our embroidered hoodies, crew necks, t-shirts and stickers to
       fiercely represent your IEEE-ness!
     actions:
-      - type: Link
-        label: Shop now
-        url: 'https://ieee-uottawa.square.site/'
-        showIcon: true
-        icon: arrowRight
-        altText: Shop now button
       - type: Button
         label: Shop now
         altText: Shop now button
