@@ -101,15 +101,6 @@ sections:
             icon: document
             url: /
             style: primary
-          - type: Button
-            label: Learn more
-            altText: ''
-            url: /
-            showIcon: false
-            icon: arrowRight
-            iconPosition: right
-            style: secondary
-            elementId: ''
         styles:
           self:
             textAlign: left
