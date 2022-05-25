@@ -98,7 +98,7 @@ sections:
           - type: Button
             label: View
             altText: View document button
-            showIcon: false
+            showIcon: true
             icon: document
             iconPosition: right
             style: secondary
