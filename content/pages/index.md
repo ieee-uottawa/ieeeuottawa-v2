@@ -184,7 +184,7 @@ sections:
         label: Shop now
         altText: Shop now button
         url: 'https://ieee-uottawa.square.site/'
-        showIcon: false
+        showIcon: true
         icon: arrowRight
         iconPosition: right
         style: secondary
