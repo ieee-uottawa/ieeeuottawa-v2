@@ -103,6 +103,7 @@ sections:
             iconPosition: right
             style: secondary
             elementId: ''
+            url: /
         styles:
           self:
             textAlign: left
