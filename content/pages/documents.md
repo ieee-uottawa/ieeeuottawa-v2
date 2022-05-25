@@ -99,7 +99,7 @@ sections:
             label: Learn more
             altText: ''
             url: /
-            showIcon: false
+            showIcon: true
             icon: document
             iconPosition: right
             elementId: ''
