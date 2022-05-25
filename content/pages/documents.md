@@ -99,7 +99,7 @@ sections:
             label: View
             altText: View document button
             showIcon: false
-            icon: arrowRight
+            icon: document
             iconPosition: right
             style: secondary
             elementId: ''
