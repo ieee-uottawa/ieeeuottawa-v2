@@ -180,6 +180,15 @@ sections:
         showIcon: true
         icon: arrowRight
         altText: Shop now button
+      - type: Button
+        label: Learn more
+        altText: ''
+        url: /
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        style: secondary
+        elementId: ''
     backgroundImage:
       type: BackgroundImage
       url: /images/pexels-andrea-piacquadio-845434.jpg
