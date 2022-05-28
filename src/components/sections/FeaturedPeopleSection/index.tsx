@@ -88,7 +88,9 @@ function PeopleVariantA(props) {
                         </p>
                     )}
                     {person.bio && (
-                        <Social type="social" altText="Mail" label="Mail" url={person.bio} icon="mail"/>
+                        <p>
+                            <Social type="social" altText="Mail" label="Mail" url={person.bio} icon="mail" />
+                        </p>
                         /*<Markdown
                             options={{ forceBlock: true, forceWrapper: true }}
                             className={classNames({ 'mt-4': person.firstName || person.lastName || person.role })}
