@@ -134,7 +134,7 @@ function PeopleVariantB(props) {
             ))}
             {/**
                 <Card sx={{ maxWidth: 345 }}>
-<CardMedia
+                    <CardMedia
         component="img"
         height="194"
         image="/static/images/cards/paella.jpg"
