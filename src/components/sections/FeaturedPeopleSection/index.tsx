@@ -95,8 +95,8 @@ function PeopleVariantA(props) {
                         >
                             {person.bio}
                         </Markdown>*/}
-                        
-                )}
+
+                    )}
                 </article>
             ))}
         </div>
