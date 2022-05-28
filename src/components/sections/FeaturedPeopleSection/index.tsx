@@ -96,7 +96,7 @@ function PeopleVariantA(props) {
                         </Markdown>*/}
                         <Social type="social" altText="Mail" label="Mail" url={person.bio} icon="mail"
                          *          {...link} data-sb-field-path={`.${index}`}
-                         * />
+                         />
                         /**
                          * <p>
                          *      <Social type="social" altText="Mail" label="Mail" url={person.bio} icon="mail"
