@@ -97,12 +97,7 @@ function PeopleVariantA(props) {
                         /**
                          * <li key={index}>
                          *      <Social type="social" altText="Mail" label="Mail" url={person.bio} icon="mail"
-                         *          {...link} data-sb-field-path={`.${index}`} 
-                         * "type": "Social",
-                "altText": "Twitter",
-                "label": "Twitter",
-                "url": "https://twitter.com/ieeeuottawa",
-                "icon": "twitter"
+                         *          {...link} data-sb-field-path={`.${index}`}
                          * />
                            </li>
                          */
