@@ -140,7 +140,7 @@ function PeopleVariantB(props) {
                         image="/static/images/cards/paella.jpg"
                         alt="Paella dish"
                     />
-      <CardContent>
+                    <CardContent>
         <Typography variant="body2" color="text.secondary">
           This impressive paella is a perfect party dish and a fun meal to cook
           together with your guests. Add 1 cup of frozen peas along with the mussels,
