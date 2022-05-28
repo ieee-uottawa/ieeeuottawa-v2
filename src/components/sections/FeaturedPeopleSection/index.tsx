@@ -95,7 +95,9 @@ function PeopleVariantA(props) {
                             {person.bio}
                         </Markdown>
                         /**
-                         * <Mai
+                         * <li key={index}>
+                                            <Social {...link} data-sb-field-path={`.${index}`} />
+                                        </li>
                          */
                     )}
                 </article>
