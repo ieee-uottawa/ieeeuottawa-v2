@@ -151,7 +151,7 @@ function PeopleVariantB(props) {
 
                     <CardActions disableSpacing>
                         <IconButton aria-label="add to favorites">
-                        <FavoriteIcon />
+                            <FavoriteIcon />
                         </IconButton>
                         <IconButton aria-label="share">
                         <ShareIcon />
