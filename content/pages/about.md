@@ -45,6 +45,46 @@ sections:
         textAlign: left
       text:
         textAlign: left
+  - type: FeatureHighlightSection
+    colors: colors-d
+    elementId: ''
+    backgroundSize: full
+    title: WIE Affinity Group
+    subtitle: ''
+    text: >
+      The mission of the IEEE uOttawa Women In Engineering is to inspire,
+      engage, encourage, and empower women to pursue the engineering field.
+    actions:
+      - type: Button
+        label: Learn More
+        showIcon: true
+        icon: arrowRight
+        style: primary
+        url: /
+    backgroundImage:
+      type: ImageBlock
+      url: /images/IEEE WIE.png
+      backgroundSize: cover
+      backgroundPosition: center
+      opacity: 100
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-36
+          - pb-72
+          - pl-4
+          - pr-4
+        justifyContent: center
+      title:
+        textAlign: center
+      subtitle:
+        textAlign: center
+      text:
+        textAlign: center
+      actions:
+        justifyContent: center
   - elementId: ''
     colors: colors-c
     title: Our Team (2021-2022)
@@ -86,46 +126,6 @@ sections:
     type: FeaturedPeopleSection
     subtitle: Execs
     variant: variant-a
-  - type: FeatureHighlightSection
-    colors: colors-d
-    elementId: ''
-    backgroundSize: full
-    title: WIE Affinity Group
-    subtitle: ''
-    text: >
-      The mission of the IEEE uOttawa Women In Engineering is to inspire,
-      engage, encourage, and empower women to pursue the engineering field.
-    actions:
-      - type: Button
-        label: Learn More
-        showIcon: true
-        icon: arrowRight
-        style: primary
-        url: /
-    backgroundImage:
-      type: ImageBlock
-      url: /images/IEEE WIE.png
-      backgroundSize: cover
-      backgroundPosition: center
-      opacity: 100
-    styles:
-      self:
-        height: auto
-        width: wide
-        padding:
-          - pt-36
-          - pb-72
-          - pl-4
-          - pr-4
-        justifyContent: center
-      title:
-        textAlign: center
-      subtitle:
-        textAlign: center
-      text:
-        textAlign: center
-      actions:
-        justifyContent: center
   - type: FeaturedPeopleSection
     colors: colors-c
     elementId: ''
