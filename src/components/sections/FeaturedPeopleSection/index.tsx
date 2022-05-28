@@ -87,7 +87,7 @@ function PeopleVariantA(props) {
                             {person.role}
                         </p>
                     )}
-                    {person.bio && 
+                    {person.bio &&
                         {/*<Markdown
                             options={{ forceBlock: true, forceWrapper: true }}
                             className={classNames({ 'mt-4': person.firstName || person.lastName || person.role })}
@@ -95,8 +95,8 @@ function PeopleVariantA(props) {
                         >
                             {person.bio}
                         </Markdown>*/}
-                        <Social type="social" altText="Mail" label="Mail" url={person.bio} icon="mail"/>
-                    }
+                        < Social type="social" altText="Mail" label="Mail" url={person.bio} icon="mail"/>
+                }
                 </article>
             ))}
         </div>
