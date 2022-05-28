@@ -122,7 +122,7 @@ function PeopleVariantB(props) {
                         )}
                         {person.bio && (
                             <Markdown
-                                options={{ forceBlock: true, forceWrapper: true }}
+                                // options={{ forceBlock: true, forceWrapper: true }}
                                 className={classNames({ 'mt-4': person.firstName || person.lastName || person.role })}
                                 data-sb-field-path=".bio"
                             >
