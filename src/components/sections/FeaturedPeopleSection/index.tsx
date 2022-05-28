@@ -96,7 +96,7 @@ function PeopleVariantA(props) {
                         </Markdown>
                         /**
                          * <li key={index}>
-                         *      <Social type=""
+                         *      <Social altText=""
                          *          {...link} data-sb-field-path={`.${index}`} 
                          * "type": "Social",
                 "altText": "Twitter",
