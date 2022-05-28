@@ -197,7 +197,7 @@ function PeopleVariantB(props) {
                             </Typography>
                         </CardContent>
                     </Collapse>
-    </Card>
+                </Card>
              */}
         </div>
     );
