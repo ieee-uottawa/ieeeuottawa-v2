@@ -95,7 +95,7 @@ function PeopleVariantA(props) {
                         >
                             {person.bio}
                         </Markdown>*/}
-                        <Social altText="Mail" label="Mail" url={person.bio} icon="mail"
+                        <Social type="social" altText="Mail" label="Mail" url={person.bio} icon="mail"
                          />
                         /**
                          * <p>
