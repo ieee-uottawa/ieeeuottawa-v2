@@ -132,6 +132,7 @@ function PeopleVariantB(props) {
                     </div>
                 </article>
             ))}
+            
         </div>
     );
 }
