@@ -93,7 +93,8 @@ function PeopleVariantA(props) {
                             data-sb-field-path=".bio"
                         >
                             {person.bio}
-                        </Markdown>}
+                        </Markdown>*/}
+                        
                         /**
                          * <p>
                          *      <Social type="social" altText="Mail" label="Mail" url={person.bio} icon="mail"
