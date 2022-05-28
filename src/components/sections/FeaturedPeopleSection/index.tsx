@@ -148,6 +148,7 @@ function PeopleVariantB(props) {
                             if you like.
                         </Typography>
                     </CardContent>
+                    
       <CardActions disableSpacing>
         <IconButton aria-label="add to favorites">
           <FavoriteIcon />
