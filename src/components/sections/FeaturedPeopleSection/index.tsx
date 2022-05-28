@@ -153,12 +153,13 @@ function PeopleVariantB(props) {
                         <IconButton aria-label="add to favorites">
                             <FavoriteIcon />
                         </IconButton>
-                        
+
                         <IconButton aria-label="share">
-                        <ShareIcon />
+                            <ShareIcon />
                         </IconButton>
+
                         <ExpandMore
-                        expand={expanded}
+                            expand={expanded}
                         onClick={handleExpandClick}
                         aria-expanded={expanded}
                         aria-label="show more"
