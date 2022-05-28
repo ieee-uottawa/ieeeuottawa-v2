@@ -160,9 +160,9 @@ function PeopleVariantB(props) {
 
                         <ExpandMore
                             expand={expanded}
-                        onClick={handleExpandClick}
-                        aria-expanded={expanded}
-                        aria-label="show more"
+                            onClick={handleExpandClick}
+                            aria-expanded={expanded}
+                            aria-label="show more"
                         >
                         <ExpandMoreIcon />
                         </ExpandMore>
