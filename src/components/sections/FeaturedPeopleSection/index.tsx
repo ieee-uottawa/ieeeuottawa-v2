@@ -97,7 +97,8 @@ function PeopleVariantA(props) {
                         /**
                          * <li key={index}>
                          *      <Social 
-                         *          {...link} data-sb-field-path={`.${index}`} />
+                         *          {...link} data-sb-field-path={`.${index}`} 
+                         * />
                            </li>
                          */
                     )}
