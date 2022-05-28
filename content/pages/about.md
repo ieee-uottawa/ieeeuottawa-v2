@@ -125,7 +125,7 @@ sections:
         justifyContent: center
     type: FeaturedPeopleSection
     subtitle: Execs
-    variant: variant-c
+    variant: variant-a
   - type: FeaturedPeopleSection
     colors: colors-c
     elementId: ''
