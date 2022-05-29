@@ -78,7 +78,7 @@ function PeopleVariantA(props) {
                     >*/}
                     {<div className="h-0 w-full pt-1/1 relative mb-4">
                         <ImageBlock {...person.image} className="absolute left-0 h-full object-cover top-0 w-full w-300 h-300 rounded-full" data-sb-field-path=".image" />
-                    </div>
+                    </div>}
                     {/*</div>*/}
                     <CardContent>
                         {(person.firstName || person.lastName) && (
