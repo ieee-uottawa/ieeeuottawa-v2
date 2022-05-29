@@ -31,7 +31,7 @@ sections:
         textAlign: left
   - elementId: ''
     colors: colors-d
-    title: Our Team (2021-2022)
+    title: 2021-2022
     people:
       - content/data/team/hilary-ouse.json
       - content/data/team/dianne-ameter.json
