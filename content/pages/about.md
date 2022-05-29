@@ -196,7 +196,6 @@ sections:
         textAlign: center
       actions:
         justifyContent: center
-
   - type: CtaSection
     colors: colors-d
     elementId: ''
