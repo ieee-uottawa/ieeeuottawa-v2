@@ -33,10 +33,7 @@ sections:
   - type: FeaturedItemsSection
     colors: colors-d
     elementId: ''
-    title: >-
-      Behind every successful student association is a team of committed
-      volunteers who share the common goal of enhancing EECS students' life on
-      campus.
+    title: Key value propositions
     subtitle: ''
     items:
       - type: FeaturedItem
