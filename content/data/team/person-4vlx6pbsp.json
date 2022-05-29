@@ -12,7 +12,7 @@
         {
             "type": "Social",
             "label": "LinkedIn",
-            "altText": "Loic Kandikandi",
+            "altText": "LinkedIn link to ",
             "url": "/",
             "icon": "facebook",
             "style": "link",
