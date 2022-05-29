@@ -16,7 +16,8 @@
             "url": "/",
             "icon": "facebook",
             "style": "link",
-            "elementId": ""
+            "elementId": "",
+            "altText": "Email link"
         }
     ]
 }
