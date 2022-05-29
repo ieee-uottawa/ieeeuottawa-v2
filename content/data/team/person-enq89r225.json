@@ -12,7 +12,7 @@
         {
             "type": "Social",
             "label": "Mail",
-            "url": "mailto:@ieeeuottawa.ca",
+            "url": "mailto:mcnaughton@ieeeuottawa.ca",
             "icon": "mail",
             "style": "link",
             "elementId": "",
