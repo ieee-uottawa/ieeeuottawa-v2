@@ -40,7 +40,7 @@ sections:
       campus.
     items:
       - type: FeaturedItem
-        title: Faster
+        title: 2022-2023
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
           lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
