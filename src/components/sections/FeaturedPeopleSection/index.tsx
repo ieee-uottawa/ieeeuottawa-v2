@@ -90,7 +90,7 @@ function PeopleVariantA(props) {
                     {person.socialLinks && (
                         {person.socialLinks.length > 0 && (
                                 <ul className="flex items-center mb-6 space-x-10" data-sb-field-path=".socialLinks">
-                                    {socialLinks.map((link, index) => (
+                                    {person.socialLinks.map((link, index) => (
                                         <li key={index}>
                                             <Social {...link} data-sb-field-path={`.${index}`} />
                                         </li>
