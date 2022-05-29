@@ -13,7 +13,6 @@ export default function BreadcrumbsSection(props) {
             className={classNames(
                 'sb-component',
                 'sb-component-section',
-                'sb-component-divider-section',
                 colors,
                 'w-full',
                 'flex',
