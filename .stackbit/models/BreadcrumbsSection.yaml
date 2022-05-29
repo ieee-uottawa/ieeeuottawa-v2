@@ -18,4 +18,19 @@ fields:
       type: model
       models:
         - Link
-        
+  - type: style
+    name: styles
+    styles:
+      self:
+        width: ['narrow', 'wide', 'full']
+        padding: ['tw0:96']
+        justifyContent: ['flex-start', 'flex-end', 'center']
+        borderWidth: ['1:8']
+        borderStyle: '*'
+    default:
+      self:
+        width: wide
+        padding: ['pt-12', 'pb-12', 'pl-4', 'pr-4']
+        justifyContent: center
+        borderWidth: 1
+        borderStyle: solid        
