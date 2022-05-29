@@ -7,7 +7,10 @@ import Section from '../Section';
 import Action from '../../atoms/Action';
 import ImageBlock from '../../molecules/ImageBlock';
 import { Social } from '../../atoms';
-
+import Card from "@mui/material/Card";
+import CardHeader from "@mui/material/CardHeader";
+import CardMedia from "@mui/material/CardMedia";
+import CardContent from "@mui/material/CardContent";
 
 export default function FeaturedPeopleSection(props) {
     const { type, elementId, colors, variant, title, subtitle, actions = [], people = [], styles = {}, 'data-sb-field-path': fieldPath } = props;
