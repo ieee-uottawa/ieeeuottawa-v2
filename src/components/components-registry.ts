@@ -30,6 +30,7 @@ export function getComponent(key: string): ComponentType {
  *     return <Section {...section} />;
  */
 const components = {
+    'BreadcrumbsSection': dynamic()
     'CheckboxFormControl': dynamic(() => import('./molecules/FormBlock/CheckboxFormControl')),
     'ContactSection': dynamic(() => import('./sections/ContactSection')),
     'CtaSection': dynamic(() => import('./sections/CtaSection')),
