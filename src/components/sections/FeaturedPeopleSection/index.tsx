@@ -82,7 +82,7 @@ function PeopleVariantA(props) {
           component="img"
           height="194"
           image={person.image.url}
-          alt={person.image.alt}
+          alt={person.image.altText}
           className="absolute left-0 h-full object-cover top-0 w-full w-300 h-300 rounded-full"
         />
       </div>
