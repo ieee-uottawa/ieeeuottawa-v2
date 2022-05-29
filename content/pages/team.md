@@ -5,7 +5,7 @@ metaTags: []
 title: Team
 sections:
   - type: FeaturedItemsSection
-    colors: colors-d
+    colors: colors-a
     elementId: ''
     title: Meet Our Team
     subtitle: >-
