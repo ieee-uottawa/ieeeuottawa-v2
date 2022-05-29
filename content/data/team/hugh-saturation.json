@@ -8,5 +8,15 @@
         "altText": "Hugh Saturation photo"
     },
     "firstName": "Ben",
-    "bio": "<treasurer@ieeeuottawa.ca>\n"
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Mail",
+            "url": "mailto:chair@ieeeuottawa.ca",
+            "icon": "mail",
+            "style": "link",
+            "elementId": "",
+            "altText": "Email icon that links to the Chair's email"
+        }
+    ]
 }
