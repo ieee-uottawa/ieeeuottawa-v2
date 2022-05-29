@@ -174,7 +174,8 @@
                 "altText": "IEEE uOttawa Youtube",
                 "icon": "facebook",
                 "style": "link",
-                "elementId": ""
+                "elementId": "",
+                "url": "https://www.youtube.com/channel/UCSv1Vna97rKa8w2ktRG8wRw"
             }
         ],
         "legalLinks": [
