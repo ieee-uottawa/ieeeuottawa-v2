@@ -32,12 +32,6 @@
             },
             {
                 "type": "Link",
-                "label": "Events",
-                "url": "/events",
-                "altText": "Events"
-            },
-            {
-                "type": "Link",
                 "label": "Documents",
                 "altText": "Documents",
                 "url": "/documents",
@@ -45,6 +39,12 @@
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "elementId": ""
+            },
+            {
+                "type": "Link",
+                "label": "Events",
+                "url": "/events",
+                "altText": "Events"
             },
             {
                 "type": "Link",
