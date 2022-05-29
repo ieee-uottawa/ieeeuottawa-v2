@@ -33,7 +33,7 @@ sections:
   - type: FeaturedItemsSection
     colors: colors-d
     elementId: ''
-    title: Key value propositions
+    title: Meet Our Team
     subtitle: ''
     items:
       - type: FeaturedItem
