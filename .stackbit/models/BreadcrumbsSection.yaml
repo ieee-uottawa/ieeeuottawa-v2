@@ -18,15 +18,6 @@ fields:
       type: model
       models:
         - Link
-    default:
-      - type: Social
-        icon: mail
-        value: mail
-        label: 'Mail'
-        altText: Mail
-        url: "mailto:exec@ieeeuottawa.ca"
-        elementId: false
-        showIcon: true
   - type: style
     name: styles
     styles:
