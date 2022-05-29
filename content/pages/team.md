@@ -36,7 +36,7 @@ sections:
             label: Learn more
             showIcon: true
             icon: arrowRight
-            url: /team
+            url: /team/2021-2022
             style: secondary
         styles:
           self:
