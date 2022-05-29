@@ -11,7 +11,7 @@
     "social": {
         "type": "Social",
         "label": "LinkedIn",
-        "altText": "",
+        "altText": "LinkedIn",
         "url": "/",
         "icon": "facebook",
         "style": "link",
