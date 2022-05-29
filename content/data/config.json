@@ -22,6 +22,16 @@
             },
             {
                 "type": "Link",
+                "label": "Team",
+                "altText": "Link to team's page",
+                "url": "/team",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "elementId": ""
+            },
+            {
+                "type": "Link",
                 "label": "Events",
                 "url": "/events",
                 "altText": "Events"
@@ -51,16 +61,6 @@
                 "label": "McN Centre",
                 "altText": "",
                 "url": "/",
-                "showIcon": false,
-                "icon": "arrowRight",
-                "iconPosition": "right",
-                "elementId": ""
-            },
-            {
-                "type": "Link",
-                "label": "Team",
-                "altText": "Link to team's page",
-                "url": "/team",
                 "showIcon": false,
                 "icon": "arrowRight",
                 "iconPosition": "right",
