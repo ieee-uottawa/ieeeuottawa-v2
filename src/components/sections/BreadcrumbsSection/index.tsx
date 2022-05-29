@@ -13,6 +13,7 @@ export default function BreadcrumbsSection(props) {
         <div
             id={elementId || null}
             {...getDataAttrs(props)}
+            style={styles.self}
             className={classNames(
                 'sb-component',
                 'sb-component-section',
@@ -23,7 +24,7 @@ export default function BreadcrumbsSection(props) {
                 mapStyles({ justifyContent: styles.self?.justifyContent ?? 'left' }),
                 styles.self?.padding ?? 'py-12 px-4'
             )}
-            
+
         >
             <Breadcrumbs aria-label="breadcrumb">
                 {navLinks.map((link, index) =>
