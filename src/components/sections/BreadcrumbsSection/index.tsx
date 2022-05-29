@@ -24,7 +24,6 @@ export default function BreadcrumbsSection(props) {
                 styles.self?.padding ?? 'py-12 px-4'
             )}
         >
-
             <Breadcrumbs aria-label="breadcrumb">
                 <Link underline="hover" color="inherit" href="/">
                     MUI
