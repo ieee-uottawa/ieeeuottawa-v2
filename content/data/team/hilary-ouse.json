@@ -8,5 +8,16 @@
         "url": "/images/execs-2021-2022/chair.jpg",
         "altText": "Hilary Ouse photo"
     },
-    "bio": "mailto:chair@ieeeuottawa.ca\n"
+    "bio": "mailto:chair@ieeeuottawa.ca\n",
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Facebook",
+            "altText": "",
+            "url": "/",
+            "icon": "facebook",
+            "style": "link",
+            "elementId": ""
+        }
+    ]
 }
