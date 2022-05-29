@@ -22,7 +22,7 @@ fields:
   - type: model
     name: social
     label: Socials
-    models: 
+    models: [Social]
   - type: model
     name: image
     label: Image
