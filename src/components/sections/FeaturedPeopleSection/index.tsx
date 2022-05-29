@@ -88,7 +88,6 @@ function PeopleVariantA(props) {
                     {person.role && (
                         <p className={classNames({ 'mt-1': person.firstName || person.lastName })} data-sb-field-path=".role">
                             {person.role}
-                            <Social type="social" altText="Mail" label="Mail" url={person.bio} icon="mail" />
                         </p>
                     )}
                     {person.bio && (
