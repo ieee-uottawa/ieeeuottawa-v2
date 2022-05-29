@@ -11,10 +11,22 @@ fieldGroups:
   - name: settings
     label: Settings
 fields:
-  - type: string
-    name: title
-    description: The value of the field is used for presentation purposes in Stackbit
-    default: Divider
+  - type: list
+    name: socialLinks
+    label: Social links
+    items:
+      type: model
+      models:
+        - Social
+    default:
+      - type: Social
+        icon: mail
+        value: mail
+        label: 'Mail'
+        altText: Mail
+        url: "mailto:exec@ieeeuottawa.ca"
+        elementId: false
+        showIcon: true
   - type: style
     name: styles
     styles:
