@@ -88,7 +88,7 @@ function PeopleVariantA(props) {
                         </p>
                     )}
                     {person.socialLinks && (
-                        <ul className="flex items-center mb-6 space-x-3" data-sb-field-path=".socialLinks">
+                        <ul className="flex items-center mb-6 space-x-5" data-sb-field-path=".socialLinks">
                             {person.socialLinks.map((link, index) => (
                                 <li key={index}>
                                     <Social {...link} data-sb-field-path={`.${index}`} />
