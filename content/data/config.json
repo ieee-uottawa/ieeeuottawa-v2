@@ -77,6 +77,17 @@
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "url": "/contact-us"
+            },
+            {
+                "type": "Button",
+                "label": "Learn more",
+                "altText": "",
+                "url": "/",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "style": "secondary",
+                "elementId": ""
             }
         ],
         "styles": {
