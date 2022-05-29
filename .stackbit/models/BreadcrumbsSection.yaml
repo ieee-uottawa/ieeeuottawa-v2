@@ -12,7 +12,7 @@ fieldGroups:
     label: Settings
 fields:
   - type: list
-    name: breadcr
+    name: nav links
     label: Social links
     items:
       type: model
