@@ -89,7 +89,7 @@ function PeopleVariantA(props) {
                     >
                         <CardMedia
                             component="img"
-                            height="194"
+                            // height="194"
                             image="https://picsum.photos/200"
                             alt="Paella dish"
                             style={{
