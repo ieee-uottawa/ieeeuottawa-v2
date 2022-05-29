@@ -84,7 +84,7 @@ sections:
           - type: Button
             label: Learn more
             altText: ''
-            url: /
+            url: /team/2019-2020
             showIcon: false
             icon: arrowRight
             iconPosition: right
