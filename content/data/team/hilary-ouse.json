@@ -13,7 +13,6 @@
         {
             "type": "Social",
             "label": "Mail",
-            "altText": "mailto:",
             "url": "/",
             "icon": "facebook",
             "style": "link",
