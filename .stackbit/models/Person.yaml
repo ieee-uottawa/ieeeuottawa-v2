@@ -20,7 +20,7 @@ fields:
     label: Bio
     default: With over 10 years in both public and private sectors, Johnna has experience in management consultation, team building, professional development, strategic implementation, and company collaboration.
   - type: model
-    name: 
+    name: social
   - type: model
     name: image
     label: Image
