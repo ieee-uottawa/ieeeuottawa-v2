@@ -8,5 +8,15 @@
     },
     "firstName": "Pavly",
     "role": "Secretary",
-    
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Mail",
+            "url": "mailto:commissioner-ceg@ieeeuottawa.ca",
+            "icon": "mail",
+            "style": "link",
+            "elementId": "",
+            "altText": "Email icon that links to the CEG Commissioner's email"
+        }
+    ]    
 }
