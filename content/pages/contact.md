@@ -9,7 +9,10 @@ sections:
     elementId: ''
     backgroundSize: full
     title: Contact us
-    text: We look forward to hearing from you.
+    text: >
+      We look forward to hearing from you. Feel free to also join the official
+      uOttawa Engineering discord server by clicking on this link :
+      <https://discord.gg/jPHy6uUThH>
     form:
       type: FormBlock
       elementId: contact-form
