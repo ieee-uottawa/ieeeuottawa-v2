@@ -84,7 +84,7 @@
                 "label": "Contact us",
                 "altText": "Contact us",
                 "style": "secondary",
-                "showIcon": true,
+                "showIcon": false,
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "url": "/contact-us"
