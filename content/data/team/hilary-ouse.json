@@ -14,7 +14,7 @@
             "type": "Social",
             "label": "Mail",
             "url": "mailto:chair@ieeeuottawa.ca",
-            "icon": "facebook",
+            "icon": "mail",
             "style": "link",
             "elementId": "",
             "altText": "Email icon that links to the Chair's email"
