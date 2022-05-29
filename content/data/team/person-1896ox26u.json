@@ -3,9 +3,19 @@
     "firstName": "Avneesh",
     "lastName": "Chaudhary",
     "role": "Equity Commissioner",
-    "bio": "<commissioner-equity@ieeeuottawa.ca>\n",
     "image": {
         "url": "/images/execs-2021-2022/equity-com.png",
         "altText": "Person photo"
     }
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Mail",
+            "url": "mailto:chair@ieeeuottawa.ca",
+            "icon": "mail",
+            "style": "link",
+            "elementId": "",
+            "altText": "Email icon that links to the Chair's email"
+        }
+    ]
 }
