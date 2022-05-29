@@ -24,7 +24,7 @@ export default function BreadcrumbsSection(props) {
                 styles.self?.padding ?? 'py-12 px-4'
             )}
         >
-            <Breadcrumbs aria-label="breadcrumb" className="">
+            <Breadcrumbs aria-label="breadcrumb" className="text-left">
                 {navLinks.map((link, index) =>
                     <Action {...link} data-sb-field-path={`.${index}`} />
                 )}
