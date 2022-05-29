@@ -70,7 +70,7 @@
         "secondaryLinks": [
             {
                 "type": "Button",
-                "label": "Store",
+                "label": "Shop Now",
                 "altText": "Link to Online Store",
                 "url": "https://ieee-uottawa.square.site/",
                 "showIcon": false,
