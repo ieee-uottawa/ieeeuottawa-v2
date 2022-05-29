@@ -167,6 +167,15 @@
                 "label": "Facebook",
                 "url": "https://www.facebook.com/ieeeuottawa",
                 "icon": "facebook"
+            },
+            {
+                "type": "Social",
+                "label": "Facebook",
+                "altText": "",
+                "url": "/",
+                "icon": "facebook",
+                "style": "link",
+                "elementId": ""
             }
         ],
         "legalLinks": [
