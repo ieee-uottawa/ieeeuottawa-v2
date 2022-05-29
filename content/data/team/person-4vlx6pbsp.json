@@ -22,7 +22,7 @@
             "type": "Social",
             "label": "Mail",
             "altText": "Loic Kandikandi (Webmaster) email link",
-            "icon": "reddit",
+            "icon": "mail",
             "style": "link",
             "elementId": "",
             "url": "mailto:webmaster@ieeeuottawa.ca"
