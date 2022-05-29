@@ -31,7 +31,7 @@ fields:
         icon: mail
         label: ''
         altText: Mail
-        url: /
+        url: mailto:
         elementId: false
         showIcon: true
   - type: model
