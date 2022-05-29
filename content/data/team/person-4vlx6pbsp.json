@@ -12,7 +12,7 @@
         {
             "type": "Social",
             "label": "LinkedIn",
-            "altText": "LinkedIn link to ",
+            "altText": "Link to Loic Kandikandi's LinkedIn Profile",
             "url": "/",
             "icon": "facebook",
             "style": "link",
