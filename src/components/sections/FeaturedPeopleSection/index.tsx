@@ -83,6 +83,7 @@ function PeopleVariantA(props) {
           height="194"
           image="https://picsum.photos/200"
           alt="Paella dish"
+          className=""
           style={{
             borderRadius: "100%",
             width: "100px",
