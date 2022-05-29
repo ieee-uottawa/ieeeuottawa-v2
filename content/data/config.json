@@ -60,7 +60,7 @@
                 "type": "Link",
                 "label": "Team",
                 "altText": "Link to team's page",
-                "url": "/execs",
+                "url": "/team",
                 "showIcon": false,
                 "icon": "arrowRight",
                 "iconPosition": "right",
