@@ -24,7 +24,8 @@
             "altText": "Loic Kandikandi (Webmaster) email link",
             "icon": "facebook",
             "style": "link",
-            "elementId": ""
+            "elementId": "",
+            "url": "mailto:webmaster@ieeeuottawa.ca"
         }
     ]
 }
