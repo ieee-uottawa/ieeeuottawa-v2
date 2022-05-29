@@ -30,7 +30,7 @@ fields:
       - type: Social
         icon: mail
         label: ''
-        altText: facebook
+        altText: Mail
         url: /
         elementId: false
         showIcon: true
