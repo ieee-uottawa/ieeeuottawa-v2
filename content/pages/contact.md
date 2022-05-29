@@ -30,7 +30,7 @@ sections:
           isRequired: true
           width: 1/2
         - type: CheckboxFormControl
-          name: updates
+          name: Consent
           label: >-
             I understand that this form is storing my submitted information so I
             can be contacted.
