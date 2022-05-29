@@ -70,7 +70,36 @@ function PeopleVariantA(props) {
     return (
         <div className={classNames('grid', 'gap-x-8', 'gap-y-10', 'sm:grid-cols-2', 'lg:grid-cols-4', { 'mt-12': hasTopMargin })} data-sb-field-path=".people">
             {people.map((person, index) => (
-                
+                    <Card sx={{ maxWidth: 345 }}>
+      <div
+        style={{
+          justifyContent: "center",
+          display: "flex",
+          paddingTop: "1rem"
+        }}
+      >
+        <CardMedia
+          component="img"
+          height="194"
+          image="https://picsum.photos/200"
+          alt="Paella dish"
+          style={{
+            borderRadius: "100%",
+            width: "100px",
+            height: "100px",
+            margin: "auto"
+            // objectFit: "cover"
+          }}
+        />
+      </div>
+      <CardContent>
+        <Typography variant="body2" color="text.secondary">
+          This impressive paella is a perfect party dish and a fun meal to cook
+          together with your guests. Add 1 cup of frozen peas along with the
+          mussels, if you like.
+        </Typography>
+      </CardContent>
+    </Card>
                 /* <article key={index} data-sb-field-path={`.${index}`}>
                     {person.image && (
                         <div className="h-0 w-full pt-1/1 relative mb-4">
