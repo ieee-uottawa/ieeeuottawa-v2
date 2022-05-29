@@ -19,7 +19,7 @@ export default function BreadcrumbsSection(props) {
                 // 'sb-component-divider-section',
                 colors,
                 // 'w-full',
-                'flex',
+                // 'flex',
                 mapStyles({ justifyContent: styles.self?.justifyContent ?? 'left' }),
                 styles.self?.padding ?? 'py-12 px-4'
             )}
