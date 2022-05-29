@@ -33,4 +33,4 @@ fields:
         padding: ['pt-12', 'pb-12', 'pl-4', 'pr-4']
         justifyContent: left
         borderWidth: 0
-        borderStyle: solid        
+        borderStyle: none        
