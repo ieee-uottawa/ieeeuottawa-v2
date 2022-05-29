@@ -41,7 +41,7 @@ sections:
           label: Description
           hideLabel: false
           placeholder: Your message
-          isRequired: false
+          isRequired: true
           width: full
       submitLabel: Send Message
     media:
