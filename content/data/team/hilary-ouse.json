@@ -15,7 +15,7 @@
             "label": "Mail",
             "url": "mailto:chair@ieeeuottawa.ca",
             "icon": "mail",
-            "style": "link",
+            "style": "primary",
             "elementId": "",
             "altText": "Email icon that links to the Chair's email"
         }
