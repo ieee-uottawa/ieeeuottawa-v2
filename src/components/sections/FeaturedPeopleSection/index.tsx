@@ -88,7 +88,7 @@ function PeopleVariantA(props) {
                         </p>
                     )}
                     {person.socialLinks && (
-                        {person.socialLinks.length > 0 && (
+
                                 <ul className="flex items-center mb-6 space-x-10" data-sb-field-path=".socialLinks">
                                     {person.socialLinks.map((link, index) => (
                                         <li key={index}>
@@ -96,7 +96,7 @@ function PeopleVariantA(props) {
                                         </li>
                                     ))}
                                 </ul>
-                            )}
+                            )
                         /*<p className={classNames({ 'mt-1.5': person.role }, "text-center")} data-sb-field-path=".bio">
                             <Social type="social" altText="Mail" label="Mail" url={person.bio} icon="mail" />
                         </p>*/
