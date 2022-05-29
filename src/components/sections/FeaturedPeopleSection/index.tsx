@@ -80,9 +80,19 @@ function PeopleVariantA(props) {
                         <ImageBlock {...person.image} className="absolute left-0 h-full object-cover top-0 w-full w-300 h-300 rounded-full" data-sb-field-path=".image" />
                 </div>*/}
                     {/*</div>*/}
-                    <CardMedia>
-                        
-                    </CardMedia>
+                    <CardMedia
+                        component="img"
+                        height="194"
+                        image="https://picsum.photos/200"
+                        alt="Paella dish"
+                        style={{
+                            borderRadius: "100%",
+                            width: "100px",
+                            height: "100px",
+                            margin: "auto"
+                            // objectFit: "cover"
+                        }}
+                    />
                     <CardContent>
                         {(person.firstName || person.lastName) && (
                             <h3 className="text-2xl">
