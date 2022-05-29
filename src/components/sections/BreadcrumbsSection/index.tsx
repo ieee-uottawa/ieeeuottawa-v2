@@ -25,7 +25,9 @@ export default function BreadcrumbsSection(props) {
             )}
         >
             <Breadcrumbs aria-label="breadcrumb">
-                {navLinks.map((link, index) =)}
+                {navLinks.map((link, index) => 
+                    
+                )}
             </Breadcrumbs>
         </div >
     );
