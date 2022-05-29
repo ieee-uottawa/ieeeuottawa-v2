@@ -88,14 +88,14 @@ function PeopleVariantA(props) {
                         </p>
                     )}
                     {person.socialLinks && (
-                                <ul className="flex items-center mb-6 space-x-10" data-sb-field-path=".socialLinks">
-                                    {person.socialLinks.map((link, index) => (
-                                        <li key={index}>
-                                            <Social {...link} data-sb-field-path={`.${index}`} />
-                                        </li>
-                                    ))}
-                                </ul>
-                            )
+                        <ul className="flex items-center mb-6 space-x-10" data-sb-field-path=".socialLinks">
+                            {person.socialLinks.map((link, index) => (
+                                <li key={index}>
+                                    <Social {...link} data-sb-field-path={`.${index}`} />
+                                </li>
+                            ))}
+                        </ul>
+                    )
                         /*<p className={classNames({ 'mt-1.5': person.role }, "text-center")} data-sb-field-path=".bio">
                             <Social type="social" altText="Mail" label="Mail" url={person.bio} icon="mail" />
                         </p>*/
