@@ -38,6 +38,6 @@ export default function BreadcrumbsSection(props) {
                 <Typography color="text.primary">Breadcrumbs</Typography>
                 </Breadcrumbs>
             ></div>
-        </div>
+        </div >
     );
 }
