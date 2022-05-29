@@ -15,10 +15,6 @@ fields:
     name: role
     label: Role
     default: Role
-  - type: markdown
-    name: bio
-    label: Bio
-    default: With over 10 years in both public and private sectors, Johnna has experience in management consultation, team building, professional development, strategic implementation, and company collaboration.
   - type: list
     name: socialLinks
     label: Social links
