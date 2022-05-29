@@ -35,6 +35,8 @@ fields:
         value: instagram
       - label: LinkedIn
         value: linkedin
+      - label: Mail
+        value: mail
       - label: Reddit
         value: reddit
       - label: Twitter
