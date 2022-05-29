@@ -171,7 +171,7 @@
             {
                 "type": "Social",
                 "label": "Youtube",
-                "altText": "",
+                "altText": "Youtube",
                 "url": "/",
                 "icon": "facebook",
                 "style": "link",
