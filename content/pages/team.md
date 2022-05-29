@@ -43,10 +43,8 @@ sections:
             textAlign: left
       - type: FeaturedItem
         title: 2020-2021
-        text: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
-          lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
-          pharetra ipsum dolor, et iaculis elit ornare ac.
+        text: |
+          Checkout the 2020-2021 team!
         actions:
           - type: Button
             label: Learn more
