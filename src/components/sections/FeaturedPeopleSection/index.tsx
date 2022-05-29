@@ -73,53 +73,6 @@ function PeopleVariantA(props) {
     return (
         <div className={classNames('grid', 'gap-x-8', 'gap-y-10', 'sm:grid-cols-2', 'lg:grid-cols-4', { 'mt-12': hasTopMargin })} data-sb-field-path=".people">
             {people.map((person, index) => (
-                <Card>
-                    {/*<div className="flex justify-start pt-4"
-                    >*/}
-                    {/*<div className="h-0 w-full pt-1/1 relative mb-4">
-                        <ImageBlock {...person.image} className="absolute left-0 h-full object-cover top-0 w-full w-300 h-300 rounded-full" data-sb-field-path=".image" />
-                </div>*/}
-                    {/*</div>*/}
-                    <div
-                        style={{
-                            justifyContent: "center",
-                            display: "flex",
-                            paddingTop: "1rem"
-                        }}
-                    >
-                        <CardMedia
-                            component="img"
-                            // height="194"
-                            image="https://picsum.photos/200"
-                            alt="Paella dish"
-                            style={{
-                                borderRadius: "100%",
-                                width: "300px",
-                                height: "300px",
-                                margin: "auto"
-                                // objectFit: "cover"
-                            }}
-                        />
-                    </div>
-                    <CardContent>
-                        {(person.firstName || person.lastName) && (
-                            <h3 className="text-2xl">
-                                {person.firstName && <span data-sb-field-path=".firstName">{person.firstName}</span>}{' '}
-                                {person.lastName && <span data-sb-field-path=".lastName">{person.lastName}</span>}
-                            </h3>
-                        )}
-                        {person.role && (
-                            <p className={classNames({ 'mt-1': person.firstName || person.lastName })} data-sb-field-path=".role">
-                                {person.role}
-                            </p>
-                        )}
-                        {person.bio && (
-                            <p className={classNames({ 'mt-1': person.role })} data-sb-field-path=".bio">
-                                <Social type="social" altText="Mail" label="Mail" url={person.bio} icon="mail" />
-                            </p>
-                        )}
-                    </CardContent>
-                </Card>
                 /* <article key={index} data-sb-field-path={`.${index}`}>
                     {person.image && (
                         <div className="h-0 w-full pt-1/1 relative mb-4">
