@@ -23,7 +23,6 @@ export default function BreadcrumbsSection(props) {
                 mapStyles({ justifyContent: styles.self?.justifyContent ?? 'left' }),
                 styles.self?.padding ?? 'py-12 px-4'
             )}
-            style={styles}
         >
             <Breadcrumbs aria-label="breadcrumb">
                 {navLinks.map((link, index) =>
