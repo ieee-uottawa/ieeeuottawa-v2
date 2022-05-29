@@ -10,7 +10,7 @@
     },
     "social": {
         "type": "Social",
-        "label": "Facebook",
+        "label": "LinkedIn",
         "altText": "",
         "url": "/",
         "icon": "facebook",
