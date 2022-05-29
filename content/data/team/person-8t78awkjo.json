@@ -12,11 +12,11 @@
         {
             "type": "Social",
             "label": "Mail",
-            "altText": "",
-            "url": "/",
-            "icon": "facebook",
+            "url": "mailto:commissioner-seg@ieeeuottawa.ca",
+            "icon": "mail",
             "style": "link",
-            "elementId": ""
+            "elementId": "",
+            "altText": "Email icon that links to the SEG Commissioner's email"
         }
     ]
 }
