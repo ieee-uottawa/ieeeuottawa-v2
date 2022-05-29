@@ -7,5 +7,14 @@
     "image": {
         "url": "/images/execs-2021-2022/webmaster.png",
         "altText": "Person photo"
+    },
+    "social": {
+        "type": "Social",
+        "label": "Facebook",
+        "altText": "",
+        "url": "/",
+        "icon": "facebook",
+        "style": "link",
+        "elementId": ""
     }
 }
