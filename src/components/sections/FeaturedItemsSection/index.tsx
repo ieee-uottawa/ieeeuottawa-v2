@@ -44,7 +44,7 @@ export default function FeaturedItemsSection(props) {
                 <div
                     className={classNames('grid', mapColStyles(columns), {
                         'mt-12': title || subtitle || actions.length > 0
-                    }, 'justify-center')}
+                    }, 'text-center')}
                     style={{
                         columnGap: spacingX ? `${spacingX}px` : null,
                         rowGap: spacingY ? `${spacingY}px` : null
