@@ -31,7 +31,9 @@ sections:
           width: 1/2
         - type: CheckboxFormControl
           name: updates
-          label: Sign me up to receive updates
+          label: >-
+            I understand that this form is storing my submitted information so I
+            can be contacted.
           isRequired: true
           width: full
       submitLabel: Send Message
