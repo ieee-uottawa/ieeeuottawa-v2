@@ -7,5 +7,16 @@
     "image": {
         "url": "/images/execs-2021-2022/wie-chair.jpg",
         "altText": "Person photo"
-    }
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Mail",
+            "url": "mailto:wie-design@ieeeuottawa.ca",
+            "icon": "mail",
+            "style": "link",
+            "elementId": "",
+            "altText": "Email icon that links to the WIE Design Commissioner's email"
+        }
+    ]    
 }
