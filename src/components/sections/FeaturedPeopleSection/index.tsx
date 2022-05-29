@@ -73,7 +73,7 @@ function PeopleVariantA(props) {
     return (
         <div className={classNames('grid', 'gap-x-8', 'gap-y-10', 'sm:grid-cols-2', 'lg:grid-cols-4', { 'mt-12': hasTopMargin })} data-sb-field-path=".people">
             {people.map((person, index) => (
-                <Card className="p">
+                <Card className="p-4">
                     {/*<div className="flex justify-start pt-4"
                     >*/}
                     <div className="h-0 w-full pt-1/1 relative mb-4">
