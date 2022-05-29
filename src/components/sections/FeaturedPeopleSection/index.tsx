@@ -92,7 +92,7 @@ function PeopleVariantA(props) {
                             <Social type="social" altText="Mail" label="Mail" url={person.bio} icon="mail" />
                         </p>
                     )}
-                </article>
+                </article> */
             ))}
         </div>
     );
