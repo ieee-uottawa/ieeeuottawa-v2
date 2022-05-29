@@ -5,7 +5,7 @@ metaTags: []
 title: Contact Us
 sections:
   - type: ContactSection
-    colors: colors-a
+    colors: colors-d
     elementId: ''
     backgroundSize: full
     title: Contact us
