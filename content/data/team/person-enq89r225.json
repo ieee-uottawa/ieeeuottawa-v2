@@ -12,7 +12,7 @@
         {
             "type": "Social",
             "label": "Mail",
-            "url": "mailto:secretary@ieeeuottawa.ca",
+            "url": "mailto:@ieeeuottawa.ca",
             "icon": "mail",
             "style": "link",
             "elementId": "",
