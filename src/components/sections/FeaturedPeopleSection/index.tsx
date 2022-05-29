@@ -8,7 +8,6 @@ import Action from '../../atoms/Action';
 import ImageBlock from '../../molecules/ImageBlock';
 import { Social } from '../../atoms';
 import Card from "@mui/material/Card";
-import CardHeader from "@mui/material/CardHeader";
 import CardMedia from "@mui/material/CardMedia";
 import CardContent from "@mui/material/CardContent";
 
