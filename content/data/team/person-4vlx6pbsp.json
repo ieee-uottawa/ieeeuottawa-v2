@@ -7,14 +7,5 @@
     "image": {
         "url": "/images/execs-2021-2022/webmaster.png",
         "altText": "Person photo"
-    },
-    "social": {
-        "type": "Social",
-        "label": "LinkedIn",
-        "altText": "Loic Kandikandi's LinkedIn",
-        "url": "https://www.linkedin.com/in/jean-loic-kandikandi/",
-        "icon": "facebook",
-        "style": "link",
-        "elementId": ""
     }
 }
