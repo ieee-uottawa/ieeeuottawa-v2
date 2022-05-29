@@ -101,6 +101,9 @@ function PeopleVariantA(props) {
 
                     )}
                 </article>
+                /**
+                 * 
+                 */
             ))}
         </div>
     );
