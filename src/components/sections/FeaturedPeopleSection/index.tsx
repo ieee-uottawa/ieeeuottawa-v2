@@ -98,6 +98,14 @@ function PeopleVariantA(props) {
     );
 }
 
+/*<Markdown
+                            options={{ forceBlock: true, forceWrapper: true }}
+                            className={classNames({ 'mt-4': person.firstName || person.lastName || person.role })}
+                            data-sb-field-path=".bio"
+                        >
+                            {person.bio}
+                        </Markdown>*/
+
 function PeopleVariantB(props) {
     const { people = [], hasTopMargin } = props;
     if (people.length === 0) {
