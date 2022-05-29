@@ -81,7 +81,7 @@
             {
                 "type": "Button",
                 "label": "Store",
-                "altText": "",
+                "altText": "Link to Online Store",
                 "url": "https://ieee-uottawa.square.site/",
                 "showIcon": false,
                 "icon": "arrowRight",
