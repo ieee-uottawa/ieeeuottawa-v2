@@ -38,7 +38,7 @@ export default function BreadcrumbsSection(props) {
                 </Link>
                 <span color="text.primary">Breadcrumbs</span>
                 </Breadcrumbs>
-            ></div>
+            >
         </div >
     );
 }
