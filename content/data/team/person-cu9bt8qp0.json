@@ -12,7 +12,7 @@
         {
             "type": "Social",
             "label": "Mail",
-            "url": "mailto:comm@ieeeuottawa.ca",
+            "url": "mailto:commissioner-seg@ieeeuottawa.ca",
             "icon": "mail",
             "style": "link",
             "elementId": "",
