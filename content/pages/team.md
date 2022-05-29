@@ -1,11 +1,8 @@
 ---
 layout: PageLayout
-metaTitle: null
-metaDescription: null
 addTitleSuffix: true
-socialImage: null
 metaTags: []
-title: Empty page
+title: Team
 sections:
   - elementId: ''
     colors: colors-c
