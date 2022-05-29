@@ -25,17 +25,7 @@ export default function BreadcrumbsSection(props) {
             )}
         >
             <Breadcrumbs aria-label="breadcrumb">
-                <Link underline="hover" color="inherit" href="/">
-                    MUI
-                </Link>
-                <Link
-                    underline="hover"
-                    color="inherit"
-                    href="/material-ui/getting-started/installation/"
-                >
-                    Core
-                </Link>
-                <span color="text.primary">Breadcrumbs</span>
+                {navLinks.map()}
             </Breadcrumbs>
         </div >
     );
