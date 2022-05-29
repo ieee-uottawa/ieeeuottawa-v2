@@ -8,6 +8,7 @@ import Action from '../../atoms/Action';
 import ImageBlock from '../../molecules/ImageBlock';
 import { Social } from '../../atoms';
 
+
 export default function FeaturedPeopleSection(props) {
     const { type, elementId, colors, variant, title, subtitle, actions = [], people = [], styles = {}, 'data-sb-field-path': fieldPath } = props;
     return (
