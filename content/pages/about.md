@@ -125,7 +125,7 @@ sections:
             textAlign: left
       - type: FeaturedItem
         elementId: ''
-        title: Train
+        title: Merch
         subtitle: ''
         text: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
