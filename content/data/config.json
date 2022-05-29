@@ -83,7 +83,7 @@
                 "label": "Store",
                 "altText": "Link to Online Store",
                 "url": "https://ieee-uottawa.square.site/",
-                "showIcon": false,
+                "showIcon": true,
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "style": "primary",
