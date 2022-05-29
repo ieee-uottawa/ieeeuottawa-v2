@@ -48,7 +48,7 @@ sections:
   - type: FeaturedItemsSection
     colors: colors-d
     elementId: ''
-    title: What We Do
+    title: What We Offer
     subtitle: ''
     items:
       - type: FeaturedItem
