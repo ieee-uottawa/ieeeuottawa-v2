@@ -80,7 +80,7 @@ function PeopleVariantA(props) {
                         </div>
                     )}
                     {(person.firstName || person.lastName) && (
-                        <h3 className="text-2xl">
+                        <h3 className="text-2xl text-center">
                             {person.firstName && <span data-sb-field-path=".firstName">{person.firstName}</span>}{' '}
                             {person.lastName && <span data-sb-field-path=".lastName">{person.lastName}</span>}
                         </h3>
