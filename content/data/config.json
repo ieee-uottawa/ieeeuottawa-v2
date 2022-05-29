@@ -68,8 +68,8 @@
             },
             {
                 "type": "Link",
-                "label": "Team",
-                "altText": "Link to ",
+                "label": "Teams",
+                "altText": "Link to team's page",
                 "url": "/execs",
                 "showIcon": false,
                 "icon": "arrowRight",
