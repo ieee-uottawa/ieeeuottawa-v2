@@ -50,7 +50,7 @@ sections:
             label: Learn more
             showIcon: true
             icon: arrowRight
-            url: /team/2021-2022
+            url: /team/2021-2021
             style: secondary
         styles:
           self:
