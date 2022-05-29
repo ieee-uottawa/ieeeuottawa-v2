@@ -77,9 +77,7 @@ function PeopleVariantA(props) {
                 <div className="flex justify-start pt-4"
       >
         <CardMedia
-          component={
-              
-          }
+          component="image"
         />
       </div>
       <CardContent>
