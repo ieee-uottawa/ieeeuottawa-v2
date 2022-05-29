@@ -48,7 +48,7 @@ sections:
   - type: FeaturedItemsSection
     colors: colors-d
     elementId: ''
-    title: Key value propositions
+    title: What We Do
     subtitle: ''
     items:
       - type: FeaturedItem
