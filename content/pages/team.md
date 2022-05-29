@@ -64,7 +64,7 @@ sections:
         actions:
           - type: Link
             label: Learn more
-            url: /
+            url: /team/2019-2020
             showIcon: true
             icon: arrowRight
             iconPosition: right
