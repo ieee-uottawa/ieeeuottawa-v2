@@ -73,7 +73,7 @@ function PeopleVariantA(props) {
     return (
         <div className={classNames('grid', 'gap-x-8', 'gap-y-10', 'sm:grid-cols-2', 'lg:grid-cols-4', { 'mt-12': hasTopMargin })} data-sb-field-path=".people">
             {people.map((person, index) => (
-                /* <article key={index} data-sb-field-path={`.${index}`}>
+                <article key={index} data-sb-field-path={`.${index}`}>
                     {person.image && (
                         <div className="h-0 w-full pt-1/1 relative mb-4">
                             <ImageBlock {...person.image} className="absolute left-0 h-full object-cover top-0 w-full w-300 h-300 rounded-full" data-sb-field-path=".image" />
@@ -95,7 +95,7 @@ function PeopleVariantA(props) {
                             <Social type="social" altText="Mail" label="Mail" url={person.bio} icon="mail" />
                         </p>
                     )}
-                </article> */
+                </article>
             ))}
         </div>
     );
