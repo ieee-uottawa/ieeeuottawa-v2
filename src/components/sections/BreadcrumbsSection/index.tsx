@@ -25,7 +25,7 @@ export default function BreadcrumbsSection(props) {
             )}
         >
             <Breadcrumbs aria-label="breadcrumb">
-                {navLinks.map((link, index) => 
+                {navLinks.map((link, index) =>
                     <Action {...link} data-sb-field-path={`.${index}`} />
                 )}
             </Breadcrumbs>
