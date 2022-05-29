@@ -34,7 +34,10 @@ sections:
     colors: colors-d
     elementId: ''
     title: Meet Our Team
-    subtitle: ''
+    subtitle: >-
+      Behind every successful student association is a team of committed
+      volunteers who share the common goal of enhancing EECS students' life on
+      campus.
     items:
       - type: FeaturedItem
         title: Faster
