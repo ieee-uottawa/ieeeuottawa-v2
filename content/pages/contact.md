@@ -29,18 +29,18 @@ sections:
           placeholder: Your email
           isRequired: true
           width: 1/2
-        - type: CheckboxFormControl
-          name: Consent
-          label: >-
-            I understand that this form is storing my submitted information so I
-            can be contacted.
-          isRequired: true
-          width: full
         - type: TextareaFormControl
           name: Message
           label: Description
           hideLabel: false
           placeholder: Your message
+          isRequired: true
+          width: full
+        - type: CheckboxFormControl
+          name: Consent
+          label: >-
+            I understand that this form is storing my submitted information so I
+            can be contacted.
           isRequired: true
           width: full
       submitLabel: Send Message
