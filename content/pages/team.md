@@ -106,7 +106,7 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
-  - elementId: ''
+  - elementId: current-team
     colors: colors-d
     title: 2021-2022
     people:
