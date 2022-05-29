@@ -22,14 +22,7 @@ export default function BreadcrumbsSection(props) {
             )}
         >
             <div
-                className={classNames(
-                    'h-0',
-                    'w-full',
-                    mapStyles({ width: styles.self?.width ?? 'wide' }),
-                    'border-t',
-                    'border-current',
-                    mapStyles({ borderStyle: styles.self?.borderStyle ?? 'solid' })
-                )}
+                
                 style={{
                     borderTopWidth: styles.self?.borderWidth ? `${styles.self?.borderWidth}px` : '1px'
                 }}
