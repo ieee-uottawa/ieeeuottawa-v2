@@ -22,7 +22,7 @@ export default function BreadcrumbsSection(props) {
                 // 'w-full',
                 // 'flex',
                 mapStyles({ justifyContent: styles.self?.justifyContent ?? 'left' }),
-                mapMaxWidthStyles({ width: styles.self?.width ?? 'narrow'})
+                mapMaxWidthStyles({ width: styles.self?.width ?? 'narrow'}),
                 styles.self?.padding ?? 'py-12 px-4'
             )}
 
