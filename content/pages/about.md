@@ -125,7 +125,7 @@ sections:
             textAlign: left
       - type: FeaturedItem
         elementId: ''
-        title: Cool Merch
+        title: Cool EECS Merch
         subtitle: ''
         text: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
