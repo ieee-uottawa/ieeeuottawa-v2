@@ -31,6 +31,6 @@ fields:
       self:
         width: 'wide'
         padding: ['pt-12', 'pb-12', 'pl-4', 'pr-4']
-        justifyContent: center
+        justifyContent: left
         borderWidth: 1
         borderStyle: solid        
