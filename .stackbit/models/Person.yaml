@@ -28,7 +28,7 @@ fields:
         - Social
     default:
       - type: Social
-        icon: facebook
+        icon: mail
         label: ''
         altText: facebook
         url: /
