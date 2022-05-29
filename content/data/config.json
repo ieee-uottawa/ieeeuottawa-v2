@@ -70,16 +70,6 @@
         "secondaryLinks": [
             {
                 "type": "Button",
-                "label": "Contact us",
-                "altText": "Contact us",
-                "style": "secondary",
-                "showIcon": true,
-                "icon": "arrowRight",
-                "iconPosition": "right",
-                "url": "/contact-us"
-            },
-            {
-                "type": "Button",
                 "label": "Store",
                 "altText": "Link to Online Store",
                 "url": "https://ieee-uottawa.square.site/",
@@ -88,6 +78,16 @@
                 "iconPosition": "right",
                 "style": "primary",
                 "elementId": ""
+            },
+            {
+                "type": "Button",
+                "label": "Contact us",
+                "altText": "Contact us",
+                "style": "secondary",
+                "showIcon": true,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "url": "/contact-us"
             }
         ],
         "styles": {
