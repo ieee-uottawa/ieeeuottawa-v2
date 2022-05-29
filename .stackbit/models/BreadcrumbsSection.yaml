@@ -29,7 +29,10 @@ fields:
         borderStyle: '*'
     default:
       self:
-        width: wide
+        width: ['narrow', 'wide', 'full']
+        margin: ['tw0:96']
+        padding: ['tw0:96']
+        justifyContent: ['flex-start', 'flex-end', 'center']
         padding: ['pt-12', 'pb-12', 'pl-4', 'pr-4']
         justifyContent: center
         borderWidth: 1
