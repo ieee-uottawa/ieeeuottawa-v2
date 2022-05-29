@@ -24,7 +24,7 @@ sections:
     actions:
       - type: Button
         label: Learn More
-        url: 'https://www.stackbit.com/'
+        url: /about
         style: primary
         iconPosition: right
         icon: arrowRight
