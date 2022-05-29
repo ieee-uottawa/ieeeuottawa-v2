@@ -32,6 +32,16 @@
             },
             {
                 "type": "Link",
+                "label": "McN Centre",
+                "altText": "",
+                "url": "/",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "elementId": ""
+            },
+            {
+                "type": "Link",
                 "label": "Documents",
                 "altText": "Documents",
                 "url": "/documents",
@@ -51,16 +61,6 @@
                 "label": "Gallery",
                 "altText": "Gallery",
                 "url": "/gallery",
-                "showIcon": false,
-                "icon": "arrowRight",
-                "iconPosition": "right",
-                "elementId": ""
-            },
-            {
-                "type": "Link",
-                "label": "McN Centre",
-                "altText": "",
-                "url": "/",
                 "showIcon": false,
                 "icon": "arrowRight",
                 "iconPosition": "right",
