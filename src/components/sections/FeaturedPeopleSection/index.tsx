@@ -78,7 +78,9 @@ function PeopleVariantA(props) {
       >
         <CardMedia
           component="image"
-        />
+        >
+            
+        </CardMedia>
       </div>
       <CardContent>
         {(person.firstName || person.lastName) && (
