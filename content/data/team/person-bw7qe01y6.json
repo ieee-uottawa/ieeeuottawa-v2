@@ -12,11 +12,11 @@
         {
             "type": "Social",
             "label": "Mail",
-            "url": "mailto:secretary@ieeeuottawa.ca",
+            "url": "mailto:social@ieeeuottawa.ca",
             "icon": "mail",
             "style": "link",
             "elementId": "",
-            "altText": "Email icon that links to the Secretary's email"
+            "altText": "Email icon that links to the VP Social's email"
         }
     ]    
 }
