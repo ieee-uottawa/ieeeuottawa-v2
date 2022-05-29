@@ -46,7 +46,7 @@ sections:
       submitLabel: Send Message
     media:
       type: ImageBlock
-      url: /images/hero-2.png
+      url: /images/Office_Hours_W_2022.jpg
       altText: Contact form image
     styles:
       self:
