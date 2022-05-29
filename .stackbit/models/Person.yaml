@@ -29,6 +29,7 @@ fields:
     default:
       - type: Social
         icon: mail
+        value: 
         label: 'Mail'
         altText: Mail
         url: "mailto:exec@ieeeuottawa.ca"
