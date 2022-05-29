@@ -36,7 +36,7 @@ sections:
             label: Learn more
             showIcon: true
             icon: arrowRight
-            url: /
+            url: /team
             style: secondary
         styles:
           self:
