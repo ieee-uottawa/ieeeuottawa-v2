@@ -26,7 +26,7 @@ sections:
           name: email
           label: Email
           placeholder: Your email
-          isRequired: 'true'
+          isRequired: true
           width: 1/2
         - type: TextFormControl
           name: address
