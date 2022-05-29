@@ -13,7 +13,7 @@
         {
             "type": "Social",
             "label": "Mail",
-            "url": "/",
+            "url": "mailto:chair@ieeeuottawa.ca",
             "icon": "facebook",
             "style": "link",
             "elementId": "",
