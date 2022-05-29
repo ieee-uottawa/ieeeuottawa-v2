@@ -94,8 +94,8 @@ function PeopleVariantA(props) {
                             alt="Paella dish"
                             style={{
                                 borderRadius: "100%",
-                                width: "100px",
-                                height: "100px",
+                                width: "300px",
+                                height: "300px",
                                 margin: "auto"
                                 // objectFit: "cover"
                             }}
