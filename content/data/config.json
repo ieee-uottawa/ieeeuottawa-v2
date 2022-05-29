@@ -68,7 +68,7 @@
             },
             {
                 "type": "Link",
-                "label": "Execs",
+                "label": "Teams",
                 "altText": "Execs",
                 "url": "/execs",
                 "showIcon": false,
