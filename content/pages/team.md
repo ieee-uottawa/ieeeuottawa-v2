@@ -89,7 +89,7 @@ sections:
             textAlign: left
       - type: FeaturedItem
         elementId: ''
-        title: Item Title
+        title: 2019-2020
         subtitle: ''
         text: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
