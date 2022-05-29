@@ -17,7 +17,7 @@ fields:
     items:
       type: model
       models:
-        - Social
+        - Link
     default:
       - type: Social
         icon: mail
