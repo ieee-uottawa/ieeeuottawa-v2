@@ -87,7 +87,7 @@ function PeopleVariantA(props) {
                             {person.role}
                         </p>
                     )}
-                    {person.bio && (
+                    {person.socialLinks && (
                         {person.socialLinks.length > 0 && (
                                 <ul className="flex items-center mb-6 space-x-10" data-sb-field-path=".socialLinks">
                                     {socialLinks.map((link, index) => (
