@@ -61,7 +61,15 @@ sections:
         subtitle: ''
         text: |
           Checkout the 2019-2020 team!
-        actions: []
+        actions:
+          - type: Link
+            label: Learn more
+            altText: ''
+            url: /
+            showIcon: false
+            icon: arrowRight
+            iconPosition: right
+            elementId: ''
         styles:
           self:
             textAlign: left
