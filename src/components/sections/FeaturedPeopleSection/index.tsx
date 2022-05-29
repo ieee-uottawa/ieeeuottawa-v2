@@ -102,7 +102,36 @@ function PeopleVariantA(props) {
                     )}
                 </article>
                 /**
-                 * 
+                 *     <Card sx={{ maxWidth: 345 }}>
+      <div
+        style={{
+          justifyContent: "center",
+          display: "flex",
+          paddingTop: "1rem"
+        }}
+      >
+        <CardMedia
+          component="img"
+          height="194"
+          image="https://picsum.photos/200"
+          alt="Paella dish"
+          style={{
+            borderRadius: "100%",
+            width: "100px",
+            height: "100px",
+            margin: "auto"
+            // objectFit: "cover"
+          }}
+        />
+      </div>
+      <CardContent>
+        <Typography variant="body2" color="text.secondary">
+          This impressive paella is a perfect party dish and a fun meal to cook
+          together with your guests. Add 1 cup of frozen peas along with the
+          mussels, if you like.
+        </Typography>
+      </CardContent>
+    </Card>
                  */
             ))}
         </div>
