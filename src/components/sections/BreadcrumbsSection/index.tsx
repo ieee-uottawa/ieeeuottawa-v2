@@ -22,10 +22,19 @@ export default function BreadcrumbsSection(props) {
             )}
         >
             <div
-                
-                style={{
-                    borderTopWidth: styles.self?.borderWidth ? `${styles.self?.borderWidth}px` : '1px'
-                }}
+                <Breadcrumbs aria-label="breadcrumb">
+  <Link underline="hover" color="inherit" href="/">
+    MUI
+  </Link>
+  <Link
+    underline="hover"
+    color="inherit"
+    href="/material-ui/getting-started/installation/"
+  >
+    Core
+  </Link>
+  <Typography color="text.primary">Breadcrumbs</Typography>
+</Breadcrumbs>
             ></div>
         </div>
     );
