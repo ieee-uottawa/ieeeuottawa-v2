@@ -80,7 +80,7 @@
             },
             {
                 "type": "Button",
-                "label": "Learn more",
+                "label": "Shop Now",
                 "altText": "",
                 "url": "/",
                 "showIcon": false,
