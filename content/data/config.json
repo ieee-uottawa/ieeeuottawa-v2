@@ -69,7 +69,7 @@
             {
                 "type": "Link",
                 "label": "Teams",
-                "altText": "Execs",
+                "altText": "Link to ",
                 "url": "/execs",
                 "showIcon": false,
                 "icon": "arrowRight",
