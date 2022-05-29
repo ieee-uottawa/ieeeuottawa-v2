@@ -34,13 +34,6 @@ fields:
         url: /
         elementId: false
         showIcon: true
-      - type: Social
-        icon: twitter
-        label: ''
-        altText: twitter
-        url: /
-        elementId: false
-        showIcon: true
   - type: model
     name: image
     label: Image
