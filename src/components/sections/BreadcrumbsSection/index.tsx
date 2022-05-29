@@ -34,7 +34,7 @@ export default function BreadcrumbsSection(props) {
                     href="/material-ui/getting-started/installation/"
                 >
                     Core
-  </Link>
+                </Link>
                 <Typography color="text.primary">Breadcrumbs</Typography>
 </Breadcrumbs>
             ></div>
