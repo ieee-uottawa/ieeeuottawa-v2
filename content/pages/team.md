@@ -69,10 +69,8 @@ sections:
         elementId: ''
         title: 2018-2019
         subtitle: ''
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+        text: |
+          Checkout the 2018-2019 team!
         actions: []
         styles:
           self:
