@@ -37,7 +37,7 @@ sections:
           isRequired: true
           width: full
         - type: TextareaFormControl
-          name: description
+          name: Message
           label: Description
           hideLabel: false
           placeholder: Your message
