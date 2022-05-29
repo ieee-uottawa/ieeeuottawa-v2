@@ -8,5 +8,15 @@
         "url": "/images/execs-2021-2022/webmaster.png",
         "altText": "Person photo"
     },
-    "socialLinks": []
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Facebook",
+            "altText": "",
+            "url": "/",
+            "icon": "facebook",
+            "style": "link",
+            "elementId": ""
+        }
+    ]
 }
