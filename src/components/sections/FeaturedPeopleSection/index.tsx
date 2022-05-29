@@ -75,11 +75,6 @@ function PeopleVariantA(props) {
             {people.map((person, index) => (
             <Card sx={{ maxWidth: 345 }}>
                 <div className="flex justify-start pt-4"
-        style={{
-          justifyContent: "center",
-          display: "flex",
-          paddingTop: "1rem"
-        }}
       >
         <CardMedia
           component={
