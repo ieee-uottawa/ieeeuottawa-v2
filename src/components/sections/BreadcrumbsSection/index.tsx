@@ -27,7 +27,7 @@ export default function BreadcrumbsSection(props) {
                 <Breadcrumbs aria-label="breadcrumb">
                 <Link underline="hover" color="inherit" href="/">
                     MUI
-  </Link>
+                </Link>
                 <Link
                     underline="hover"
                     color="inherit"
