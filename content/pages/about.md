@@ -46,7 +46,7 @@ sections:
       text:
         textAlign: left
   - type: FeaturedItemsSection
-    colors: colors-d
+    colors: colors-a
     elementId: ''
     title: What We Offer
     subtitle: ''
