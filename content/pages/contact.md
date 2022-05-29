@@ -40,7 +40,7 @@ sections:
           name: description
           label: Description
           hideLabel: false
-          placeholder: Please describe
+          placeholder: Your message
           isRequired: false
           width: full
       submitLabel: Send Message
