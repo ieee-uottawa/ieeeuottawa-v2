@@ -85,7 +85,7 @@ sections:
             label: Learn more
             altText: ''
             url: /team/2018-2019
-            showIcon: false
+            showIcon: true
             icon: arrowRight
             iconPosition: right
             style: secondary
