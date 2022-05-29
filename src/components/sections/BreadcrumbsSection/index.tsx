@@ -4,7 +4,7 @@ import classNames from 'classnames';
 import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to-class-names';
 import { getDataAttrs } from '../../../utils/get-data-attrs';
 
-export default function DividerBrSection(props) {
+export default function BreadcrumbsSection(props) {
     const { elementId, colors, styles = {} } = props;
     return (
         <div
