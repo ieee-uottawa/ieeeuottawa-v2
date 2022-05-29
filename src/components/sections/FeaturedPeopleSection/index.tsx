@@ -70,7 +70,7 @@ function PeopleVariantA(props) {
     return (
         <div className={classNames('grid', 'gap-x-8', 'gap-y-10', 'sm:grid-cols-2', 'lg:grid-cols-4', { 'mt-12': hasTopMargin })} data-sb-field-path=".people">
             {people.map((person, index) => (
-                    <Card sx={{ maxWidth: 345 }}>
+            <Card sx={{ maxWidth: 345 }}>
       <div
         style={{
           justifyContent: "center",
