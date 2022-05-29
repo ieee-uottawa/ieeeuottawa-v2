@@ -12,7 +12,8 @@ sections:
     subtitle: ''
     text: >
       Behind every successful student association is a team of committed
-      volunteers who share the same goal of enhancing EECS students' life.
+      volunteers who share the common goal of enhancing EECS students' life on
+      campus.
     styles:
       self:
         height: auto
