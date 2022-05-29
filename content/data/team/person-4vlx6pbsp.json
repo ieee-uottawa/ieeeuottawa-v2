@@ -22,7 +22,6 @@
             "type": "Social",
             "label": "Mail",
             "altText": "Loic Kandikandi (Webmaster) email link",
-            "url": "/",
             "icon": "facebook",
             "style": "link",
             "elementId": ""
