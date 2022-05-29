@@ -5,7 +5,7 @@ import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to
 import { getDataAttrs } from '../../../utils/get-data-attrs';
 
 export default function BreadcrumbsSection(props) {
-    const { elementId, colors, navLinks = {} } = props;
+    const { elementId, colors, navLinks = [] } = props;
     return (
         <div
             id={elementId || null}
