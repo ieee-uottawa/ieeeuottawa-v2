@@ -172,7 +172,6 @@
                 "type": "Social",
                 "label": "Youtube",
                 "altText": "IEEE uOttawa Youtube",
-                "url": "/",
                 "icon": "facebook",
                 "style": "link",
                 "elementId": ""
