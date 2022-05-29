@@ -86,7 +86,7 @@ function PeopleVariantA(props) {
                         </h3>
                     )}
                     {person.role && (
-                        <p className={classNames({ 'mt-1': person.firstName || person.lastName })} data-sb-field-path=".role">
+                        <p className={classNames({ 'mt-1': person.firstName || person.lastName }, text-center)} data-sb-field-path=".role">
                             {person.role}
                         </p>
                     )}
