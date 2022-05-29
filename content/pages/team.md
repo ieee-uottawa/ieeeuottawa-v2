@@ -115,7 +115,7 @@ sections:
       actions:
         justifyContent: flex-start
   - elementId: current-team
-    colors: colors-d
+    colors: colors-c
     title: 2021-2022
     people:
       - content/data/team/hilary-ouse.json
