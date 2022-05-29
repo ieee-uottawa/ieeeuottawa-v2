@@ -87,11 +87,22 @@ function PeopleVariantA(props) {
         />
       </div>
       <CardContent>
-        <Typography variant="body2" color="text.secondary">
-          This impressive paella is a perfect party dish and a fun meal to cook
-          together with your guests. Add 1 cup of frozen peas along with the
-          mussels, if you like.
-        </Typography>
+        {(person.firstName || person.lastName) && (
+                        <h3 className="text-2xl">
+                            {person.firstName && <span data-sb-field-path=".firstName">{person.firstName}</span>}{' '}
+                            {person.lastName && <span data-sb-field-path=".lastName">{person.lastName}</span>}
+                        </h3>
+                    )}
+                    {person.role && (
+                        <p className={classNames({ 'mt-1': person.firstName || person.lastName })} data-sb-field-path=".role">
+                            {person.role}
+                        </p>
+                    )}
+                    {person.bio && (
+                        <p className={classNames({ 'mt-1': person.role })} data-sb-field-path=".bio">
+                            <Social type="social" altText="Mail" label="Mail" url={person.bio} icon="mail" />
+                        </p>
+                    )}
       </CardContent>
     </Card>
                 /* <article key={index} data-sb-field-path={`.${index}`}>
