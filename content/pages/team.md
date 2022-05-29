@@ -4,32 +4,6 @@ addTitleSuffix: true
 metaTags: []
 title: Team
 sections:
-  - type: TextSection
-    colors: colors-d
-    elementId: ''
-    variant: variant-a
-    title: Team
-    subtitle: ''
-    text: >
-      Behind every successful student association is a team of committed
-      volunteers who share the common goal of enhancing EECS students' life on
-      campus.
-    styles:
-      self:
-        height: auto
-        width: narrow
-        padding:
-          - pt-28
-          - pb-14
-          - pl-4
-          - pr-4
-        justifyContent: center
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
-      text:
-        textAlign: left
   - type: FeaturedItemsSection
     colors: colors-d
     elementId: ''
