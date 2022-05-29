@@ -84,13 +84,6 @@ function PeopleVariantA(props) {
           image="https://picsum.photos/200"
           alt="Paella dish"
           className="absolute left-0 h-full object-cover top-0 w-full w-300 h-300 rounded-full"
-          style={{
-            borderRadius: "100%",
-            width: "100px",
-            height: "100px",
-            margin: "auto"
-            // objectFit: "cover"
-          }}
         />
       </div>
       <CardContent>
