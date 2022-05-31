@@ -26,6 +26,15 @@
             "style": "link",
             "elementId": "",
             "url": "mailto:webmaster@ieeeuottawa.ca"
+        },
+        {
+            "type": "Social",
+            "label": "Facebook",
+            "altText": "",
+            "url": "/",
+            "icon": "facebook",
+            "style": "link",
+            "elementId": ""
         }
     ]
 }
