@@ -9,7 +9,11 @@ sections:
     elementId: ''
     backgroundSize: full
     title: Documents
-    text: ''
+    text: >+
+      Want to know more about the IEEE’s constitution? Curious about our
+      internal operations? You've come to the right place to access all the
+      IEEE’s most important documents!
+
     actions:
       - type: Button
         label: Join adventure
