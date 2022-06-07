@@ -75,7 +75,11 @@ sections:
     backgroundSize: full
     title: Mission Statement
     subtitle: Fresh. Better. Faster.
-    text: 'We’re local, seasonal fisherman, supporting fishing restrictions.'
+    text: >
+      The University of Ottawa’s IEEE Student Branch was established to provide
+      professional services to improve each student’s experience on campus. This
+      includes accommodating students with access to up-to-date equipment,
+      internet access, textbooks and a quiet work environment.
     actions:
       - type: Button
         label: Join adventure
