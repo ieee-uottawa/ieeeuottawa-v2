@@ -21,7 +21,7 @@ sections:
     media: null
     backgroundImage:
       type: ImageBlock
-      url: /images/hero.webp
+      url: /images/2018-2019 Team.jpg
       backgroundSize: cover
       backgroundPosition: center
       opacity: 48
