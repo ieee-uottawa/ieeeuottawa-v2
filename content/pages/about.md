@@ -57,7 +57,7 @@ sections:
         width: wide
         padding:
           - pt-32
-          - pb-24
+          - pb-32
           - pl-4
           - pr-4
         alignItems: center
