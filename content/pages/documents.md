@@ -9,7 +9,6 @@ sections:
     elementId: ''
     backgroundSize: full
     title: Documents
-    subtitle: Fresh. Better. Faster.
     text: ''
     actions:
       - type: Button
