@@ -69,6 +69,45 @@ sections:
         textAlign: left
       text:
         textAlign: left
+  - type: HeroSection
+    colors: colors-d
+    elementId: ''
+    backgroundSize: full
+    title: We do fishing differently
+    subtitle: Fresh. Better. Faster.
+    text: 'We’re local, seasonal fisherman, supporting fishing restrictions.'
+    actions:
+      - type: Button
+        label: Join adventure
+        showIcon: true
+        icon: arrowRight
+        style: primary
+        url: /
+    media:
+      type: ImageBlock
+      url: /images/hero-2.png
+      altText: Hero image
+    backgroundImage: null
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-36
+          - pb-48
+          - pl-4
+          - pr-4
+        alignItems: center
+        justifyContent: center
+        flexDirection: row-reverse
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
+      text:
+        textAlign: left
+      actions:
+        justifyContent: flex-start
   - type: FeaturedItemsSection
     colors: colors-a
     elementId: ''
