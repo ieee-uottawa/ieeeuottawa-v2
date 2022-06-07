@@ -8,7 +8,7 @@ sections:
     colors: colors-b
     elementId: ''
     backgroundSize: full
-    title: We do fishing differently
+    title: Documents
     subtitle: Fresh. Better. Faster.
     text: ''
     actions:
