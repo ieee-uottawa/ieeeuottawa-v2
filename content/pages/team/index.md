@@ -8,7 +8,7 @@ sections:
     colors: colors-d
     elementId: ''
     backgroundSize: inset
-    title: We do fishing differently
+    title: Team
     subtitle: Fresh. Better. Faster.
     text: ''
     actions:
