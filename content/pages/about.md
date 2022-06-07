@@ -86,10 +86,6 @@ sections:
         icon: arrowRight
         style: primary
         url: /
-    media:
-      type: ImageBlock
-      url: /images/hero-2.png
-      altText: Hero image
     backgroundImage: null
     styles:
       self:
