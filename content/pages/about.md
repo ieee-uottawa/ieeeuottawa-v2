@@ -15,7 +15,7 @@ sections:
     media: null
     backgroundImage:
       type: ImageBlock
-      url: /images/gallery/0102.jpg
+      url: /images/gallery/DSC_0050.png
       backgroundSize: cover
       backgroundPosition: center
       opacity: 25
