@@ -74,7 +74,6 @@ sections:
     elementId: ''
     backgroundSize: full
     title: Mission Statement
-    subtitle: Fresh. Better. Faster.
     text: >
       The University of Ottawa’s IEEE Student Branch was established to provide
       professional services to improve each student’s experience on campus. This
