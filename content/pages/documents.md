@@ -24,7 +24,7 @@ sections:
       url: /images/pexels-fauxels-3183150.jpg
       backgroundSize: cover
       backgroundPosition: center
-      opacity: 100
+      opacity: 25
     styles:
       self:
         height: auto
