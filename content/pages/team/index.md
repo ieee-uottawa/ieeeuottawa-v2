@@ -9,7 +9,10 @@ sections:
     elementId: ''
     backgroundSize: inset
     title: Team
-    subtitle: Fresh. Better. Faster.
+    subtitle: >-
+      Behind every successful student association is a team of committed
+      volunteers who share the common goal of enhancing EECS students' life on
+      campus.
     text: ''
     actions:
       - type: Button
