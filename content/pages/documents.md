@@ -7,7 +7,7 @@ sections:
   - type: HeroSection
     colors: colors-d
     elementId: ''
-    backgroundSize: inset
+    backgroundSize: full
     title: We do fishing differently
     subtitle: Fresh. Better. Faster.
     text: ''
