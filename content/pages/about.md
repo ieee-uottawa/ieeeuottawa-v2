@@ -21,7 +21,7 @@ sections:
     actions: []
     backgroundImage:
       type: ImageBlock
-      url: /images/hero-3.png
+      url: /images/2018-2019 Team.jpg
       backgroundSize: cover
       backgroundPosition: center
       opacity: 100
