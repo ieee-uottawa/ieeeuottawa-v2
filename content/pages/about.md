@@ -3,7 +3,7 @@ title: About
 layout: PageLayout
 sections:
   - type: FeatureHighlightSection
-    colors: colors-b
+    colors: colors-c
     elementId: ''
     backgroundSize: full
     title: About
