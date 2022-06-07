@@ -43,7 +43,11 @@ sections:
     backgroundSize: inset
     title: About
     subtitle: Fresh. Better. Faster.
-    text: ''
+    text: >+
+      The IEEE uOttawa Student Branch is the official student branch for the
+      University of Ottawa and the official Sub-Association for ELG/CEG/SEG
+      under the ESS.
+
     actions:
       - type: Button
         label: Join adventure
