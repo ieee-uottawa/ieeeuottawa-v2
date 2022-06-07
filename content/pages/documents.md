@@ -21,7 +21,7 @@ sections:
     media: null
     backgroundImage:
       type: ImageBlock
-      url: /images/hero.webp
+      url: /images/pexels-fauxels-3183150.jpg
       backgroundSize: cover
       backgroundPosition: center
       opacity: 100
