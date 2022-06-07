@@ -73,7 +73,7 @@ sections:
         justifyContent: flex-start
     media:
       type: ImageBlock
-      url: /images/gallery/030.jpg
+      url: /images/gallery/075.jpg
       altText: altText of the image
       caption: Caption of the image
       elementId: ''
