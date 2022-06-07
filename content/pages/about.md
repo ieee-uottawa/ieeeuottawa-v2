@@ -18,13 +18,7 @@ sections:
       professional services to improve each student’s experience on campus. This
       includes accommodating students with access to up-to-date equipment,
       internet access, textbooks and a quiet work environment.
-    actions:
-      - type: Button
-        label: Join adventure
-        showIcon: true
-        icon: arrowRight
-        style: secondary
-        url: /
+    actions: []
     backgroundImage:
       type: ImageBlock
       url: /images/hero-3.png
