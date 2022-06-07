@@ -41,7 +41,7 @@ sections:
     colors: colors-d
     elementId: ''
     backgroundSize: inset
-    title: We do fishing differently
+    title: About
     subtitle: Fresh. Better. Faster.
     text: ''
     actions:
