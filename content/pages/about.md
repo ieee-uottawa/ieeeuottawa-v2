@@ -30,7 +30,7 @@ sections:
       url: /images/hero.webp
       backgroundSize: cover
       backgroundPosition: center
-      opacity: 100
+      opacity: 48
     styles:
       self:
         height: auto
