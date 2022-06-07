@@ -14,13 +14,7 @@ sections:
       internal operations? You've come to the right place to access all the
       IEEE’s most important documents!
 
-    actions:
-      - type: Button
-        label: Join adventure
-        showIcon: true
-        icon: arrowRight
-        style: primary
-        url: /
+    actions: []
     media: null
     backgroundImage:
       type: ImageBlock
