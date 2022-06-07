@@ -5,7 +5,7 @@ metaTags: []
 title: Documents
 sections:
   - type: HeroSection
-    colors: colors-a
+    colors: colors-b
     elementId: ''
     backgroundSize: full
     title: We do fishing differently
