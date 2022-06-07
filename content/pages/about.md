@@ -73,7 +73,7 @@ sections:
         justifyContent: flex-start
     media:
       type: ImageBlock
-      url: /images/execs-2021-2022/wie-vice-chair.jpg
+      url: /images/gallery/036.jpg
       altText: altText of the image
       caption: Caption of the image
       elementId: ''
