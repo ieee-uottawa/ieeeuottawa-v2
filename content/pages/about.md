@@ -15,7 +15,7 @@ sections:
     media: null
     backgroundImage:
       type: ImageBlock
-      url: /images/2018-2019 Team.jpg
+      url: /images/gallery/0102.jpg
       backgroundSize: cover
       backgroundPosition: center
       opacity: 25
