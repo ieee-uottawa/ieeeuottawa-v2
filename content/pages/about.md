@@ -5,7 +5,7 @@ sections:
   - type: HeroSection
     colors: colors-d
     elementId: ''
-    backgroundSize: full
+    backgroundSize: inset
     title: About
     text: >+
       The IEEE uOttawa Student Branch is the official student branch for the
