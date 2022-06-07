@@ -18,7 +18,7 @@ sections:
       url: /images/2018-2019 Team.jpg
       backgroundSize: cover
       backgroundPosition: center
-      opacity: 65
+      opacity: 52
     styles:
       self:
         height: auto
