@@ -78,7 +78,7 @@ sections:
       caption: Caption of the image
       elementId: ''
   - type: FeaturedItemsSection
-    colors: colors-a
+    colors: colors-c
     elementId: ''
     title: What We Offer
     subtitle: ''
