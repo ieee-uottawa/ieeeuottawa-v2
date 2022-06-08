@@ -26,15 +26,6 @@
             "icon": "linkedin",
             "style": "link",
             "elementId": ""
-        },
-        {
-            "type": "Social",
-            "label": "Facebook",
-            "altText": "",
-            "url": "https://facebook.com/",
-            "icon": "facebook",
-            "style": "link",
-            "elementId": ""
         }
     ]
 }
