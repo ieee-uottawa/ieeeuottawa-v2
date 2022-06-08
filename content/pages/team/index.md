@@ -5,7 +5,7 @@ metaTags: []
 title: Team
 sections:
   - type: HeroSection
-    colors: colors-d
+    colors: colors-b
     elementId: ''
     backgroundSize: inset
     title: Team
