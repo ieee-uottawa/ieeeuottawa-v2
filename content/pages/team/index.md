@@ -14,13 +14,7 @@ sections:
       volunteers who share the common goal of enhancing EECS students' life on
       campus.
     text: ''
-    actions:
-      - type: Button
-        label: Join adventure
-        showIcon: true
-        icon: arrowRight
-        style: primary
-        url: /
+    actions: []
     media: null
     backgroundImage:
       type: ImageBlock
