@@ -7,7 +7,7 @@ sections:
   - type: HeroSection
     colors: colors-b
     elementId: ''
-    backgroundSize: inset
+    backgroundSize: full
     title: Team
     subtitle: >-
       Behind every successful student association is a team of committed
