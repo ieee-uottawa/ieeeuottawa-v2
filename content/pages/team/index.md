@@ -27,7 +27,7 @@ sections:
       url: /images/christmas2021.png
       backgroundSize: cover
       backgroundPosition: center
-      opacity: 100
+      opacity: 20
     styles:
       self:
         height: auto
