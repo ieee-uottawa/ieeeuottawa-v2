@@ -147,6 +147,7 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
+    title: 'Checkout the '
   - elementId: current-team
     colors: colors-c
     title: 2021-2022
