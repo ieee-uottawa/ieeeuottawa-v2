@@ -18,7 +18,7 @@ sections:
     media: null
     backgroundImage:
       type: ImageBlock
-      url: /images/christmas2021.png
+      url: /images/santa.JPG
       backgroundSize: cover
       backgroundPosition: center
       opacity: 20
