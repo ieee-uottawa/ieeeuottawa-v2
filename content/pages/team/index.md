@@ -147,7 +147,7 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
-    title: IEE
+    title: IEEE uOttawa Alumni
   - elementId: current-team
     colors: colors-c
     title: 2021-2022
