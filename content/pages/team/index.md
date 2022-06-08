@@ -24,7 +24,7 @@ sections:
     media: null
     backgroundImage:
       type: ImageBlock
-      url: /images/hero.webp
+      url: /images/christmas2021.png
       backgroundSize: cover
       backgroundPosition: center
       opacity: 100
