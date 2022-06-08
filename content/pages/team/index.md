@@ -45,10 +45,6 @@ sections:
   - type: FeaturedItemsSection
     colors: colors-d
     elementId: ''
-    subtitle: >-
-      Behind every successful student association is a team of committed
-      volunteers who share the common goal of enhancing EECS students' life on
-      campus.
     items:
       - type: FeaturedItem
         title: 2022-2023
