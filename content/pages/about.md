@@ -41,7 +41,7 @@ sections:
         justifyContent: flex-start
     backgroundImage:
       type: BackgroundImage
-      url: 'https://assets.stackbit.com/components/images/default/default-image.png'
+      url: /images/gridgallery.png
       backgroundSize: cover
       backgroundPosition: center
       backgroundRepeat: no-repeat
