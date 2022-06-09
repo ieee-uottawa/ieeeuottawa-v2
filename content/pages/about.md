@@ -19,12 +19,6 @@ sections:
       internet access, textbooks and a quiet work environment.
     actions: []
     media: null
-    backgroundImage:
-      type: ImageBlock
-      url: /images/gallery/DSC_0083.png
-      backgroundSize: cover
-      backgroundPosition: center
-      opacity: 25
     styles:
       self:
         height: auto
