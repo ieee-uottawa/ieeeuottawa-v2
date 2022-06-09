@@ -3,7 +3,7 @@ title: About
 layout: PageLayout
 sections:
   - type: HeroSection
-    colors: colors-b
+    colors: colors-c
     elementId: ''
     backgroundSize: full
     title: About
