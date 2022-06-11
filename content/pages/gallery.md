@@ -11,7 +11,7 @@ sections:
     colors: colors-b
     elementId: ''
     backgroundSize: full
-    title: About
+    title: Gallery
     text: >
       The IEEE uOttawa Student Branch is the official student branch for the
       University of Ottawa and the official Sub-Association for ELG/CEG/SEG
