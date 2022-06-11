@@ -13,7 +13,7 @@ sections:
     backgroundSize: full
     title: Gallery
     text: >
-      Browse through photos taken during
+      Take a
     actions: []
     media: null
     styles:
