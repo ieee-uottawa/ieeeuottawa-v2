@@ -13,7 +13,7 @@ sections:
     backgroundSize: full
     title: Gallery
     text: >
-      Explore memories immortalized
+      Explore immortalized memories that were made possible thanks to IEEE uOttawa.
     actions: []
     media: null
     styles:
