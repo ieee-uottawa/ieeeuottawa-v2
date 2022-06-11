@@ -7,6 +7,44 @@ socialImage: null
 metaTags: []
 title: Gallery
 sections:
+  - type: HeroSection
+    colors: colors-b
+    elementId: ''
+    backgroundSize: full
+    title: About
+    text: >
+      The IEEE uOttawa Student Branch is the official student branch for the
+      University of Ottawa and the official Sub-Association for ELG/CEG/SEG
+      under the ESS.
+    actions: []
+    media: null
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-36
+          - pb-36
+          - pl-4
+          - pr-4
+        alignItems: center
+        justifyContent: center
+        flexDirection: row
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
+      text:
+        textAlign: left
+      actions:
+        justifyContent: flex-start
+    backgroundImage:
+      type: BackgroundImage
+      url: /images/gridgallery.png
+      backgroundSize: cover
+      backgroundPosition: center
+      backgroundRepeat: no-repeat
+      opacity: 20
   - type: MediaGallerySection
     colors: colors-d
     elementId: ''
