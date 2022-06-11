@@ -13,7 +13,7 @@ sections:
     backgroundSize: full
     title: Gallery
     text: >
-      Take a
+      Explore memories created with the help of IEEE
     actions: []
     media: null
     styles:
