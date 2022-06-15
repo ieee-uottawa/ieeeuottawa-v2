@@ -35,7 +35,7 @@ sections:
         justifyContent: flex-start
     backgroundImage:
       type: BackgroundImage
-      url: /images/gridgallery.png
+      url: /images/Connected World.jpeg
       backgroundSize: cover
       backgroundPosition: center
       backgroundRepeat: no-repeat
