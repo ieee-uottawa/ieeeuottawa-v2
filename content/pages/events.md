@@ -63,7 +63,7 @@ sections:
         eventImage:
           type: ImageBlock
           url: /images/IEEE WIE.png
-          altText: altText of the image
+          altText: 'Image features '
           caption: Caption of the image
           elementId: ''
     actions:
