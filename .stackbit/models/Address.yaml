@@ -22,8 +22,8 @@ fields:
     default: K1N 6N5
     required: true
   - type: string
-    name: street
-    label: Street
+    name: city
+    label: City
     default: 800 King Edward Ave
     required: true        
   - type: boolean
