@@ -18,7 +18,7 @@ fields:
     default: 123
     required: true
   - type: string
-    name: url
+    name: streetname
     label: URL
     default: '/'
     required: true
