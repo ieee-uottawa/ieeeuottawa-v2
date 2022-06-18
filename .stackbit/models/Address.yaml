@@ -23,9 +23,9 @@ fields:
     required: true
   - type: string
     name: province
-    label: Province/State
+    label: Province / State
     default: 'ON'
-    required: true           
+    required: true        
   - type: string
     name: postalCode
     label: Postal Code
