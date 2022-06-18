@@ -44,7 +44,7 @@ fields:
   - type: string
     name: room
     label: Room
-    default: Canada
+    default: STE 4026
     required: true           
   - type: boolean
     name: showIcon
