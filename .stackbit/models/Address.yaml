@@ -46,4 +46,3 @@ fields:
     label: Room
     default: STE 4026
     required: true           
-  
