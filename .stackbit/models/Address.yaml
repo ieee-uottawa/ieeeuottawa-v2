@@ -12,7 +12,7 @@ fields:
     default: Venue
     required: true
   - type: string
-    name: altText
+    name: streetN
     label: Alt text
     description: Alternative text for screen readers
     default: ''
