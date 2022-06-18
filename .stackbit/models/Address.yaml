@@ -38,7 +38,7 @@ fields:
     required: true
   - type: string
     name: country
-    label: Postal Code
+    label: Country
     default: K1N 6N5
     required: true        
   - type: boolean
