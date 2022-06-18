@@ -63,7 +63,9 @@ sections:
         eventImage:
           type: ImageBlock
           url: /images/IEEE WIE.png
-          altText: 'Image features grid collage of wxmen '
+          altText: >-
+            Image features grid collage of 4 wxmen with different cultural
+            background surrounded with te
           caption: Caption of the image
           elementId: ''
     actions:
