@@ -95,7 +95,8 @@
                 "width": "wide",
                 "padding": [
                     "pl-0",
-                    "pt-5"
+                    "pt-5",
+                    "pb-5"
                 ]
             }
         },
