@@ -19,7 +19,7 @@ fields:
   - type: string
     name: postalCode
     label: Postal Code
-    default: 
+    default: K1N 6N5
     required: true
   - type: string
     name: street
