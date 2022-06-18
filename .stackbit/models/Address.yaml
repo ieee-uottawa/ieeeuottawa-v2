@@ -15,7 +15,7 @@ fields:
     name: streetno
     label: Street Number
     description: Address Street Number
-    default: 123
+    default: 800
     required: true
   - type: string
     name: streetName
