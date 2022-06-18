@@ -20,7 +20,7 @@ fields:
   - type: string
     name: streetName
     label: Street Name
-    default: '/'
+    default: King Edward
     required: true
   - type: boolean
     name: showIcon
