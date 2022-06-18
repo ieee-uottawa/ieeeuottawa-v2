@@ -92,7 +92,7 @@
         ],
         "styles": {
             "self": {
-                "width": "wide",
+                "width": "full",
                 "padding": [
                     "pl-0"
                 ]
