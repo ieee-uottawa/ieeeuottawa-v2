@@ -50,7 +50,7 @@ sections:
     subtitle: ''
     items:
       - type: FeaturedItem
-        title: WIE
+        title: WIE Tech Panel
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
           lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
