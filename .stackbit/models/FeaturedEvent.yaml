@@ -1,6 +1,6 @@
 type: object
 name: FeaturedEvent
-label: Item
+label: Event
 labelField: title
 fieldGroups:
   - name: styles
