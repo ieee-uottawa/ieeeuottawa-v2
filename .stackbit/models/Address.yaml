@@ -20,7 +20,12 @@ fields:
     name: city
     label: City
     default: Ottawa
-    required: true        
+    required: true
+  - type: string
+    name: city
+    label: City
+    default: Ottawa
+    required: true           
   - type: string
     name: postalCode
     label: Postal Code
