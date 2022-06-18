@@ -8,7 +8,7 @@ fieldGroups:
 fields:
   - type: string
     name: venue
-    label: Label
+    label: Venue
     default: Learn more
   - type: string
     name: altText
