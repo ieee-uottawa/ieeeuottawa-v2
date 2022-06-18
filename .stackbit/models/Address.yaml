@@ -23,7 +23,7 @@ fields:
     required: true
   - type: string
     name: province
-    label: Province / State
+    label: Province / Territory / State
     default: 'ON'
     required: true        
   - type: string
