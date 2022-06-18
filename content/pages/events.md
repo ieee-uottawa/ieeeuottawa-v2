@@ -7,6 +7,42 @@ socialImage: null
 metaTags: []
 title: Events
 sections:
+  - type: HeroSection
+    colors: colors-b
+    elementId: ''
+    backgroundSize: full
+    title: Gallery
+    text: >
+      Explore immortalized memories that were made possible thanks to IEEE uOttawa.
+    actions: []
+    media: null
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-36
+          - pb-36
+          - pl-4
+          - pr-4
+        alignItems: center
+        justifyContent: center
+        flexDirection: row
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
+      text:
+        textAlign: left
+      actions:
+        justifyContent: flex-start
+    backgroundImage:
+      type: BackgroundImage
+      url: /images/gridgallery.png
+      backgroundSize: cover
+      backgroundPosition: center
+      backgroundRepeat: no-repeat
+      opacity: 20
   - type: FeaturedItemsSection
     colors: colors-d
     elementId: ''
