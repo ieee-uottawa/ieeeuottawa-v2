@@ -17,8 +17,8 @@ fields:
     default: 800 King Edward Ave
     required: true
   - type: string
-    name: street
-    label: Street
+    name: postalCode
+    label: Postal Code
     default: 800 King Edward Ave
     required: true
   - type: string
