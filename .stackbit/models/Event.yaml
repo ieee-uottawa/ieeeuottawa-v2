@@ -1,5 +1,5 @@
 type: object
-name: FeaturedEvent
+name: Event
 label: Event
 labelField: title
 fieldGroups:
