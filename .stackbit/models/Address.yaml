@@ -40,7 +40,12 @@ fields:
     name: country
     label: Country
     default: Canada
-    required: true       
+    required: true
+  - type: string
+    name: country
+    label: Country
+    default: Canada
+    required: true           
   - type: boolean
     name: showIcon
     group: styles
