@@ -11,9 +11,10 @@ sections:
     colors: colors-b
     elementId: ''
     backgroundSize: full
-    title: Gallery
+    title: Events
     text: >
-      Explore immortalized memories that were made possible thanks to IEEE uOttawa.
+      Explore immortalized memories that were made possible thanks to IEEE
+      uOttawa.
     actions: []
     media: null
     styles:
