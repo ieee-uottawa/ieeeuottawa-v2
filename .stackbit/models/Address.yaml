@@ -1,6 +1,6 @@
 type: object
-name: Link
-label: Link
+name: Address
+label: Address
 labelField: label
 fieldGroups:
   - name: styles
