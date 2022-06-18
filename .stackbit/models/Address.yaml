@@ -3,8 +3,6 @@ name: Address
 label: Address
 labelField: label
 fieldGroups:
-  - name: styles
-    label: Styles
   - name: settings
     label: Settings
 fields:
