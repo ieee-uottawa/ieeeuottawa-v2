@@ -36,13 +36,6 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
-    backgroundImage:
-      type: BackgroundImage
-      url: /images/Events.png
-      backgroundSize: cover
-      backgroundPosition: center
-      backgroundRepeat: no-repeat
-      opacity: 20
   - type: FeaturedItemsSection
     colors: colors-d
     elementId: ''
