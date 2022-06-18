@@ -24,7 +24,7 @@ fields:
   - type: string
     name: city
     label: City
-    default: 800 King Edward Ave
+    default: Ottawa
     required: true        
   - type: boolean
     name: showIcon
