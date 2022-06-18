@@ -18,8 +18,8 @@ fields:
     default: 123
     required: true
   - type: string
-    name: streetname
-    label: URL
+    name: streetName
+    label: Street Name
     default: '/'
     required: true
   - type: boolean
