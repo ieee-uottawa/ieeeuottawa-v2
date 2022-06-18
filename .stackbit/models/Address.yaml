@@ -9,7 +9,7 @@ fields:
   - type: string
     name: venue
     label: Venue
-    default: Venue
+    default: SITE 
     required: true
   - type: string
     name: street
