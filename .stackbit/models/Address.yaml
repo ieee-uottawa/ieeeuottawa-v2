@@ -42,7 +42,7 @@ fields:
     default: Canada
     required: true
   - type: string
-    name: country
+    name: roomNo
     label: Country
     default: Canada
     required: true           
