@@ -38,7 +38,7 @@ sections:
         justifyContent: flex-start
     backgroundImage:
       type: BackgroundImage
-      url: /images/gridgallery.png
+      url: /images/Events.png
       backgroundSize: cover
       backgroundPosition: center
       backgroundRepeat: no-repeat
