@@ -7,7 +7,7 @@ fieldGroups:
     label: Settings
 fields:
   - type: string
-    name: label
+    name: venue
     label: Label
     default: Learn more
   - type: string
