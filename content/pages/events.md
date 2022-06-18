@@ -62,7 +62,7 @@ sections:
             justifyContent: flex-start
         eventImage:
           type: ImageBlock
-          url: /images/IEEE WIE.png
+          url: /images/Connected World.jpeg
           altText: >-
             Image features grid collage of 4 wxmen with different cultural
             background surrounded with elements reminiscent of tech
