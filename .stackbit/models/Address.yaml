@@ -43,7 +43,7 @@ fields:
     required: true
   - type: string
     name: roomNo
-    label: Country
+    label: Room
     default: Canada
     required: true           
   - type: boolean
