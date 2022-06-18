@@ -17,8 +17,8 @@ fields:
   - type: string
     name: title
     label: Title
-    required: true
     default: Event Title
+    required: true
   - type: string
     name: subtitle
     label: Subtitle
