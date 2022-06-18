@@ -12,12 +12,6 @@ fields:
     default: Venue
     required: true
   - type: string
-    name: streetno
-    label: Street Number
-    description: Address Street Number
-    default: 800
-    required: true
-  - type: string
     name: street
     label: Street
     default: 800 King Edward Ave
