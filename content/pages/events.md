@@ -12,9 +12,8 @@ sections:
     elementId: ''
     backgroundSize: full
     title: Events
-    text: >
-      Explore immortalized memories that were made possible thanks to IEEE
-      uOttawa.
+    text: |
+      Checkout our upcoming events and our past events!
     actions: []
     media: null
     styles:
