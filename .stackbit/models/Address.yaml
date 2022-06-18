@@ -11,8 +11,8 @@ fields:
     label: Venue
     default: Venue
     required: true
-  - type: number
-    name: Street Number
+  - type: string
+    name: altText
     label: Alt text
     description: Alternative text for screen readers
     default: ''
