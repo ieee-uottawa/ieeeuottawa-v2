@@ -45,4 +45,4 @@ fields:
     name: room
     label: Room
     default: STE 4026
-    required: true           
+    required: true
