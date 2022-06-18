@@ -36,6 +36,13 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
+    backgroundImage:
+      type: BackgroundImage
+      url: 'https://assets.stackbit.com/components/images/default/default-image.png'
+      backgroundSize: cover
+      backgroundPosition: center
+      backgroundRepeat: no-repeat
+      opacity: 100
   - type: FeaturedItemsSection
     colors: colors-d
     elementId: ''
