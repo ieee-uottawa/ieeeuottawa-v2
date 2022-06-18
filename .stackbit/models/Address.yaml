@@ -15,7 +15,7 @@ fields:
     name: streetno
     label: Street Number
     description: Address Street Number
-    default: 12
+    default: 123
   - type: string
     name: url
     label: URL
