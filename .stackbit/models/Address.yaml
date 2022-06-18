@@ -22,7 +22,7 @@ fields:
     default: Ottawa
     required: true
   - type: string
-    name: city
+    name: province
     label: City
     default: Ottawa
     required: true           
