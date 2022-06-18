@@ -51,10 +51,10 @@ sections:
     items:
       - type: FeaturedItem
         title: WIE Tech Panel
-        text: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
-          lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
-          pharetra ipsum dolor, et iaculis elit ornare ac.
+        text: |
+          **Bottom of the Hill
+          **1233 Seventeenth St.
+          San Francisco, CA 94107
         actions:
           - type: Button
             label: Learn more
