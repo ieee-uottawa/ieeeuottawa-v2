@@ -9,7 +9,7 @@ fields:
   - type: string
     name: venue
     label: Venue
-    default: SITE 4026
+    default: IEEE Office
     required: true
   - type: string
     name: street
