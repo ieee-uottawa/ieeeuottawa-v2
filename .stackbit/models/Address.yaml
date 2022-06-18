@@ -17,14 +17,14 @@ fields:
     default: 800 King Edward Ave
     required: true
   - type: string
+    name: city
+    label: City
+    default: Ottawa
+  - type: string
     name: postalCode
     label: Postal Code
     default: K1N 6N5
     required: true
-  - type: string
-    name: city
-    label: City
-    default: Ottawa
     required: true        
   - type: boolean
     name: showIcon
