@@ -53,7 +53,9 @@ sections:
         title: WIE Tech Panel
         text: |
           **Bottom of the Hill**
+
           1233 Seventeenth St.
+
           San Francisco, CA 94107
         actions:
           - type: Button
