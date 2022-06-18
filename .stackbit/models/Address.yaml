@@ -18,8 +18,8 @@ fields:
     default: 800
     required: true
   - type: string
-    name: streetName
-    label: Street Name
+    name: street
+    label: Street
     default: King Edward Ave
     required: true
   - type: boolean
