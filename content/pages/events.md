@@ -32,47 +32,6 @@ sections:
         textAlign: left
       text:
         textAlign: left
-  - type: HeroSection
-    colors: colors-d
-    elementId: ''
-    backgroundSize: inset
-    title: We do fishing differently
-    subtitle: Fresh. Better. Faster.
-    text: ''
-    actions:
-      - type: Button
-        label: Join adventure
-        showIcon: true
-        icon: arrowRight
-        style: primary
-        url: /
-    media: null
-    backgroundImage:
-      type: ImageBlock
-      url: /images/hero.webp
-      backgroundSize: cover
-      backgroundPosition: center
-      opacity: 100
-    styles:
-      self:
-        height: auto
-        width: wide
-        padding:
-          - pt-36
-          - pb-96
-          - pl-4
-          - pr-4
-        alignItems: center
-        justifyContent: center
-        flexDirection: row
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
-      text:
-        textAlign: left
-      actions:
-        justifyContent: flex-start
   - type: FeaturedItemsSection
     colors: colors-d
     elementId: ''
