@@ -9,7 +9,7 @@ fields:
   - type: string
     name: venue
     label: Venue
-    default: Learn more
+    default: Venue
   - type: string
     name: altText
     label: Alt text
