@@ -65,7 +65,7 @@ sections:
           url: /images/IEEE WIE.png
           altText: >-
             Image features grid collage of 4 wxmen with different cultural
-            background surrounded with te
+            background surrounded with elements 
           caption: Caption of the image
           elementId: ''
     actions:
