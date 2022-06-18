@@ -92,7 +92,10 @@
         ],
         "styles": {
             "self": {
-                "width": "wide"
+                "width": "wide",
+                "padding": [
+                    "pl-4"
+                ]
             }
         },
         "logo": {
