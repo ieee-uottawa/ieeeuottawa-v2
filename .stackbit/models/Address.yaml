@@ -24,7 +24,7 @@ fields:
   - type: string
     name: province
     label: Province
-    default: Ottawa
+    default: ON
     required: true           
   - type: string
     name: postalCode
