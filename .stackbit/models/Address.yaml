@@ -39,7 +39,7 @@ fields:
   - type: string
     name: country
     label: Country
-    default: K1N 6N5
+    default: Canada
     required: true        
   - type: boolean
     name: showIcon
