@@ -37,7 +37,7 @@ fields:
     default: K1N 6N5
     required: true
   - type: string
-    name: postalCode
+    name: country
     label: Postal Code
     default: K1N 6N5
     required: true        
