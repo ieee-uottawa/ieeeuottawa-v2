@@ -6,7 +6,7 @@ fieldGroups:
   - name: settings
     label: Settings
 fields:
-  - type: string
+  - type: Address
     name: label
     label: Label
     default: Learn more
