@@ -29,6 +29,15 @@ sections:
         iconPosition: right
         icon: arrowRight
         showIcon: true
+      - type: Button
+        label: Learn more
+        altText: ''
+        url: /
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        style: secondary
+        elementId: ''
     backgroundImage:
       type: BackgroundImage
       url: /images/image_3.JPEG
