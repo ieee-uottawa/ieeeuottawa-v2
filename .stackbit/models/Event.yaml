@@ -3,7 +3,7 @@ label: Event
 labelField: eventName
 fields:
   - type: string
-    name: firstName
+    name: eventName
     label: First name
     default: Name
     required: true
