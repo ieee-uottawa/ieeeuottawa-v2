@@ -112,7 +112,49 @@ sections:
           altText: altText of the image
           caption: Caption of the image
           elementId: ''
-                              
+      - type: FeaturedItem
+        title: WIE Tech Panel
+        text: >
+          **Bottom of the Hill**<br>1233 Seventeenth St.<br>San Francisco, CA
+          94107
+        actions:
+          - type: Button
+            label: Learn more
+            showIcon: true
+            icon: arrowRight
+            url: /
+            style: secondary
+        styles:
+          self:
+            textAlign: left
+        featuredImage:
+          type: ImageBlock
+          url: /images/IEEE WIE.png
+          altText: altText of the image
+          caption: Caption of the image
+          elementId: ''
+      - type: FeaturedItem
+        title: WIE Tech Panel
+        text: >
+          **Bottom of the Hill**<br>1233 Seventeenth St.<br>San Francisco, CA
+          94107
+        actions:
+          - type: Button
+            label: Learn more
+            showIcon: true
+            icon: arrowRight
+            url: /
+            style: secondary
+        styles:
+          self:
+            textAlign: left
+        featuredImage:
+          type: ImageBlock
+          url: /images/IEEE WIE.png
+          altText: altText of the image
+          caption: Caption of the image
+          elementId: ''
+                                                  
     actions: []
     columns: 3
     spacingX: 36
