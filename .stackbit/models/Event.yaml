@@ -8,10 +8,6 @@ fields:
     default: Event name
     required: true
   - type: string
-    name: eventVenue
-    label: Event Venue
-    default: CBY C04
-  - type: string
     name: role
     label: Role
     default: Role
