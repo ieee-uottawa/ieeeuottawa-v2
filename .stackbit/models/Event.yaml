@@ -7,6 +7,10 @@ fields:
     label: Event name
     default: Event name
     required: true
+    - type: date
+    name: date
+    label: Date
+    required: true
   - type: string
     name: role
     label: Role
