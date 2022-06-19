@@ -8,7 +8,7 @@ fields:
     default: Event name
     required: true
   - type: string
-    name: lastName
+    name: eventVenue
     label: Last name
     default: Surname
   - type: string
