@@ -69,7 +69,7 @@
             {
                 "type": "Link",
                 "label": "WIE",
-                "altText": "",
+                "altText": "Link to WIE ",
                 "url": "/",
                 "showIcon": false,
                 "icon": "arrowRight",
