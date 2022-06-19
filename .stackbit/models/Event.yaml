@@ -13,7 +13,7 @@ fields:
     required: true
   - type: model
     name: address
-    label: address
+    label: Address
     models:
       - FormBlock
   - type: string
