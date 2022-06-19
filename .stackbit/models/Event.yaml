@@ -7,7 +7,7 @@ fields:
     label: Event name
     default: Event name
     required: true
-    - type: date
+  - type: date
     name: date
     label: Date
     required: true
