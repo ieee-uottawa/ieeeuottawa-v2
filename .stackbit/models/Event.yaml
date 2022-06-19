@@ -25,7 +25,7 @@ fields:
         - Button
         - Link
     default:
-      - type: Link
+      - type: Learn More
         label: Projects
         url: /
         altText: Projects
