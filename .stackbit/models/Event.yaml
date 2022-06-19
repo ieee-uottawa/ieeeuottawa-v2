@@ -11,6 +11,7 @@ fields:
     name: date
     label: Date
     required: true
+  - type: 
   - type: string
     name: role
     label: Role
