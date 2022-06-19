@@ -29,7 +29,7 @@ fields:
         label: Learn More
         url: '/'
         style: secondary
-        altText: Projects
+        altText: Learn More
       - type: Link
         label: Documentation
         url: /
