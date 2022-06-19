@@ -17,7 +17,7 @@ fields:
     models:
       - Address
   - type: list
-    name: primaryLinks
+    name: links
     label: Primary navigation links
     items:
       type: model
