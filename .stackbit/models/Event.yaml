@@ -31,7 +31,7 @@ fields:
         style: secondary
         altText: Learn More
       - type: Button
-        label: Learn More
+        label: Get Tickets
         url: '/'
         style: secondary
         altText: Learn More
