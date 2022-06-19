@@ -111,7 +111,8 @@ sections:
           url: /images/IEEE WIE.png
           altText: altText of the image
           caption: Caption of the image
-          elementId: ''                    
+          elementId: ''
+                              
     actions: []
     columns: 3
     spacingX: 36
