@@ -30,7 +30,7 @@ fields:
         url: '/'
         style: secondary
         altText: Learn More
-        - type: Button
+      - type: Button
         label: Learn More
         url: '/'
         style: secondary
