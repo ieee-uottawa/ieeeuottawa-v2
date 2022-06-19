@@ -32,7 +32,7 @@ sections:
       - type: Button
         label: Get Involved
         altText: ''
-        url: /
+        url: '/about/#get-involved'
         showIcon: false
         icon: arrowRight
         iconPosition: right
