@@ -10,7 +10,7 @@ fields:
   - type: string
     name: eventVenue
     label: Event Venue
-    default: CBY 04
+    default: CBY C04
   - type: string
     name: role
     label: Role
