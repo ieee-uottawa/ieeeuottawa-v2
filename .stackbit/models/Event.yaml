@@ -15,7 +15,7 @@ fields:
     name: address
     label: Address
     models:
-      - FormBlock
+      - Address
   - type: string
     name: role
     label: Role
