@@ -16,10 +16,6 @@ fields:
     label: Address
     models:
       - Address
-  - type: string
-    name: role
-    label: Role
-    default: Role
   - type: list
     name: socialLinks
     label: Social links
