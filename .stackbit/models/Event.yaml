@@ -27,7 +27,8 @@ fields:
     default:
       - type: Button
         label: Learn More
-        url: /
+        url: '/'
+        style: secondary
         altText: Projects
       - type: Link
         label: Documentation
