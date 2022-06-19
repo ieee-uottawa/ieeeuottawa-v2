@@ -87,7 +87,7 @@ sections:
             textAlign: left
         featuredImage:
           type: ImageBlock
-          url: /images/IEEE WIE.png
+          url: /images/Connected World.jpeg
           altText: altText of the image
           caption: Caption of the image
           elementId: ''
