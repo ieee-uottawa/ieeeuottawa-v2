@@ -4,7 +4,7 @@ labelField: eventName
 fields:
   - type: string
     name: eventName
-    label: Event name
+    label: Event Name
     default: Event name
     required: true
   - type: date
