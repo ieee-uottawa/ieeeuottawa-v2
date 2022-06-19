@@ -12,7 +12,10 @@ fields:
     label: Date
     required: true
   - type: model
-    
+    name: form
+    label: Form
+    models:
+      - FormBlock
   - type: string
     name: role
     label: Role
