@@ -30,6 +30,11 @@ fields:
         url: '/'
         style: secondary
         altText: Learn More
+        - type: Button
+        label: Learn More
+        url: '/'
+        style: secondary
+        altText: Learn More
   - type: model
     name: image
     label: Image
