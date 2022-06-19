@@ -12,8 +12,8 @@ fields:
     label: Date
     required: true
   - type: model
-    name: form
-    label: Form
+    name: address
+    label: address
     models:
       - FormBlock
   - type: string
