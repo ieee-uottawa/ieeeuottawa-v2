@@ -44,5 +44,5 @@ fields:
   - type: string
     name: room
     label: Room
-    default: 
+    default: ''
     required: false
