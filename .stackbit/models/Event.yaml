@@ -1,6 +1,6 @@
 name: Event
 label: Event
-labelField: firstName
+labelField: eventName
 fields:
   - type: string
     name: firstName
