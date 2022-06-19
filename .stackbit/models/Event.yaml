@@ -9,7 +9,7 @@ fields:
     required: true
   - type: string
     name: eventVenue
-    label: Last name
+    label: Event Venue
     default: Surname
   - type: string
     name: role
