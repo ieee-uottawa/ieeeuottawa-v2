@@ -10,7 +10,7 @@ fields:
   - type: string
     name: eventVenue
     label: Event Venue
-    default: IEEE Office
+    default: IEEE uOttawa Office
   - type: string
     name: role
     label: Role
