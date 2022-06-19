@@ -87,7 +87,7 @@ sections:
             textAlign: left
         featuredImage:
           type: ImageBlock
-          url: /images/Connected World.jpeg
+          url: /images/Events.png
           altText: altText of the image
           caption: Caption of the image
           elementId: ''
