@@ -1,5 +1,5 @@
-name: Person
-label: Person
+name: Event
+label: Event
 labelField: firstName
 fields:
   - type: string
