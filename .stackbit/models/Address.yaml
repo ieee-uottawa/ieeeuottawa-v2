@@ -9,7 +9,7 @@ fields:
   - type: string
     name: venue
     label: Venue
-    default: IEEE uOttawa Office
+    default: SITE 4026
     required: true
   - type: string
     name: street
