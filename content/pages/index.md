@@ -30,7 +30,7 @@ sections:
         icon: arrowRight
         showIcon: true
       - type: Button
-        label: Learn more
+        label: Get Involved
         altText: ''
         url: /
         showIcon: false
