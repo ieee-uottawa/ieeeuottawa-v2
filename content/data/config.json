@@ -70,7 +70,7 @@
                 "type": "Link",
                 "label": "WIE",
                 "altText": "Link to WIE website",
-                "url": "/",
+                "url": "https://celebratewie.ca/",
                 "showIcon": false,
                 "icon": "arrowRight",
                 "iconPosition": "right",
