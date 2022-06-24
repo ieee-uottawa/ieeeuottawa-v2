@@ -91,7 +91,7 @@
             {
                 "type": "Button",
                 "label": "Shop Now",
-                "altText": "",
+                "altText": "Shop Now",
                 "url": "/",
                 "showIcon": false,
                 "icon": "arrowRight",
