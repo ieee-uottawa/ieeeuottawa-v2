@@ -80,7 +80,7 @@
         "secondaryLinks": [
             {
                 "type": "Button",
-                "label": "Shop Now",
+                "label": "Shop Merch",
                 "altText": "Shop Now",
                 "url": "/",
                 "showIcon": false,
