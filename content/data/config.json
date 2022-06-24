@@ -80,16 +80,6 @@
         "secondaryLinks": [
             {
                 "type": "Button",
-                "label": "Contact us",
-                "altText": "Contact us",
-                "style": "secondary",
-                "showIcon": false,
-                "icon": "arrowRight",
-                "iconPosition": "right",
-                "url": "/contact"
-            },
-            {
-                "type": "Button",
                 "label": "Shop Now",
                 "altText": "Shop Now",
                 "url": "/",
@@ -98,6 +88,16 @@
                 "iconPosition": "right",
                 "style": "primary",
                 "elementId": ""
+            },
+            {
+                "type": "Button",
+                "label": "Contact us",
+                "altText": "Contact us",
+                "style": "secondary",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "url": "/contact"
             }
         ],
         "styles": {
