@@ -81,7 +81,7 @@
             {
                 "type": "Button",
                 "label": "Shop Merch",
-                "altText": "Shop Now",
+                "altText": "Shop Merch",
                 "url": "/",
                 "showIcon": false,
                 "icon": "arrowRight",
