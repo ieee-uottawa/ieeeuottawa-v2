@@ -144,7 +144,9 @@ sections:
     colors: colors-c
     elementId: ''
     title: Upcoming Events
-    subtitle: There are currently no upcoming events
+    subtitle: >-
+      There are currently no upcoming events planned in the summer. Come back in
+      the fall!
     items: []
     actions: []
     columns: 1
