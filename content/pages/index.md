@@ -152,7 +152,7 @@ sections:
     columns: 1
     spacingX: 16
     spacingY: 16
-    enableHover: false
+    enableHover: true
     styles:
       self:
         height: auto
