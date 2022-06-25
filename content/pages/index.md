@@ -144,7 +144,7 @@ sections:
     colors: colors-c
     elementId: ''
     title: Upcoming Events
-    subtitle: ''
+    subtitle: There are currently no planned
     items: []
     actions: []
     columns: 1
