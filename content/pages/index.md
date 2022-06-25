@@ -145,7 +145,7 @@ sections:
     elementId: ''
     title: Upcoming Events
     subtitle: >-
-      There are currently no upcoming events planned in the summer. Check back
+      There are currently no upcoming events planned in the summer. Check again
       in the fall!
     items: []
     actions: []
