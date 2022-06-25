@@ -221,7 +221,7 @@ sections:
     title: Get in touch
     text: >
       Got a question? Event suggestions? Feedback? We want to hear it! Send us a
-      message and we will get back to you shortly.
+      message and we will get back to you as soon as we can.
     form:
       type: FormBlock
       elementId: sign-up-form
