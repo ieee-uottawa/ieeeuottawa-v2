@@ -145,15 +145,7 @@ sections:
     elementId: ''
     title: Upcoming Events
     subtitle: ''
-    items:
-      - type: FeaturedItem
-        text: >
-          There are no events planned for the coming weeks. Check back another
-          time :)
-        actions: []
-        styles:
-          self:
-            textAlign: left
+    items: []
     actions: []
     columns: 1
     spacingX: 16
