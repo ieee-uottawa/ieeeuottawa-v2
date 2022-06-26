@@ -13,7 +13,7 @@ fields:
     label: Event Name
     default: Event Name
     required: true
-  - type: date
+  - type: string
     name: date
     label: Date
     required: true
