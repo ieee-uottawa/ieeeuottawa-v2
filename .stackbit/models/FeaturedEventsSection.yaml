@@ -20,7 +20,7 @@ fields:
   - type: string
     name: subtitle
     label: Subtitle
-    default: 'We host all types of events'
+    default: 'We host all types of events: networking'
   - type: list
     name: items
     label: Items
