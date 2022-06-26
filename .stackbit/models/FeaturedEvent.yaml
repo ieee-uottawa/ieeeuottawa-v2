@@ -15,7 +15,7 @@ fields:
     required: true
   - type: string
     name: datetime
-    label: Date (and Time)
+    label: Date (and time)
     required: true
   - type: model
     name: address
