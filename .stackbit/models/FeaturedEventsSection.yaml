@@ -16,7 +16,7 @@ fields:
   - type: string
     name: title
     label: Title
-    default: Featured Items
+    default: Featured Events
   - type: string
     name: subtitle
     label: Subtitle
