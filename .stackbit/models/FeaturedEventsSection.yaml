@@ -30,7 +30,7 @@ fields:
         - FeaturedEvent
     default:
       - type: FeaturedEvent
-        title: Item Title
+        title: Event Title
         text: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.'
         featuredImage:
           type: ImageBlock
