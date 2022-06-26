@@ -9,8 +9,8 @@ fieldGroups:
     label: Settings
 fields:
   - type: model
-    name: navLinks
-    label: Breadcrumb Links
+    name: Event
+    label: Event
     items:
       type: model
       models:
