@@ -1,5 +1,5 @@
 type: object
-name: FeaturedItemsSection
+name: FeaturedEventsSection
 label: Featured items
 labelField: title
 thumbnail: https://assets.stackbit.com/components/models/thumbnails/default.png
