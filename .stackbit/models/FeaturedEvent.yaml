@@ -9,7 +9,7 @@ fieldGroups:
     label: Settings
 fields:
   - type: string
-    name: eventName
+    name: name
     label: Event Name
     default: Event Name
     required: true
