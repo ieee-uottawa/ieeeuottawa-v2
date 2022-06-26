@@ -9,7 +9,12 @@ fieldGroups:
     label: Settings
 fields:
   - type: model
-    
+    name: navLinks
+    label: Breadcrumb Links
+    items:
+      type: model
+      models:
+        - Link    
   - type: list
     name: actions
     label: Actions
