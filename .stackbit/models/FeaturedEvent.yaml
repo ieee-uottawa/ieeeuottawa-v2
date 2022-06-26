@@ -8,13 +8,6 @@ fieldGroups:
   - name: settings
     label: Settings
 fields:
-  - type: model
-    name: Event
-    label: Event
-    items:
-      type: model
-      models:
-        - Event
   - type: style
     name: styles
     styles:
