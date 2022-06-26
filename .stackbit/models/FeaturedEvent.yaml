@@ -10,7 +10,7 @@ fieldGroups:
 fields:
   - type: model
     name: Event
-    label: Event
+    label: Breadcrumb Links
     items:
       type: model
       models:
