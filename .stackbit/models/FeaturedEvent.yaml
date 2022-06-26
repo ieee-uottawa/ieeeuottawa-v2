@@ -14,7 +14,7 @@ fields:
     items:
       type: model
       models:
-        - Link    
+        - Event  
   - type: list
     name: actions
     label: Actions
