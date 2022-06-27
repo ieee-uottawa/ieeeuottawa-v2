@@ -31,7 +31,7 @@ fields:
     default:
       - type: FeaturedEvent
         title: Event Title
-        datetime: ''
+        datetime: 'March 4th 2021, 7PM EST.'
         featuredImage:
           type: ImageBlock
           url: 'https://assets.stackbit.com/components/images/default/default-image.png'
