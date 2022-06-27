@@ -6,7 +6,7 @@ import { mapStylesToClassNames as mapStyles } from '../../../../utils/map-styles
 import Action from '../../../atoms/Action';
 import ImageBlock from '../../../molecules/ImageBlock';
 
-export default function FeaturedItem(props) {
+export default function FeaturedEvent(props) {
     const { elementId, title, subtitle, text, featuredImage, actions = [], enableHover, styles = {}, 'data-sb-field-path': fieldPath } = props;
     const { self = {} } = styles;
     const { borderWidth, ...otherSelfStyles } = self;
