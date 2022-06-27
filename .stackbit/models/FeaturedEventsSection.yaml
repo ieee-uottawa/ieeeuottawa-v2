@@ -22,8 +22,8 @@ fields:
     label: Subtitle
     default: 'We host all types of events: social, networking, academic, workshops and more.'
   - type: list
-    name: items
-    label: Items
+    name: events
+    label: Events
     items:
       type: model
       models:
