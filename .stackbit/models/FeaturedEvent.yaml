@@ -10,7 +10,7 @@ fieldGroups:
 fields:
   - type: string
     name: title
-    label: Name
+    label: Title
     default: Event Title
     required: true
   - type: string
