@@ -9,8 +9,8 @@ fieldGroups:
     label: Settings
 fields:
   - type: string
-    name: title
-    label: Title
+    name: name
+    label: Name
     default: Event Name
     required: true
   - type: string
