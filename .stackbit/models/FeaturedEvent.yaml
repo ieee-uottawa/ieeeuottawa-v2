@@ -9,7 +9,7 @@ fieldGroups:
     label: Settings
 fields:
   - type: string
-    name: name
+    name: title
     label: Name
     default: Name
     required: true
