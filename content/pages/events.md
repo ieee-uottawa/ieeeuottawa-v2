@@ -175,16 +175,7 @@ sections:
           altText: altText of the image
           caption: Caption of the image
           elementId: ''
-    actions:
-      - type: Button
-        label: Learn more
-        altText: ''
-        url: /
-        showIcon: false
-        icon: arrowRight
-        iconPosition: right
-        style: secondary
-        elementId: ''
+    actions: []
     columns: 3
     spacingX: 40
     spacingY: 46
