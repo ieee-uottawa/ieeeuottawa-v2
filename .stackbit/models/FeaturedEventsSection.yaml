@@ -33,7 +33,7 @@ fields:
         title: Event Title
         datetime: 'October 4th 2022, 7PM EST.'
         address:
-        
+          
         featuredImage:
           type: ImageBlock
           url: 'https://assets.stackbit.com/components/images/default/default-image.png'
