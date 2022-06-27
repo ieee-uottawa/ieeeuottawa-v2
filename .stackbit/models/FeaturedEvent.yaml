@@ -37,7 +37,7 @@ fields:
         style: secondary
         altText: Learn More
   - type: model
-    name: image
+    name: featuredImage
     label: Image
     models: [ImageBlock]
     default:
