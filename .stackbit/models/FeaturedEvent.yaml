@@ -11,7 +11,7 @@ fields:
   - type: string
     name: name
     label: Name
-    default: Event Name
+    default: Name
     required: true
   - type: string
     name: datetime
