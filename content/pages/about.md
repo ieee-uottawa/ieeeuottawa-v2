@@ -74,7 +74,7 @@ sections:
         justifyContent: flex-start
     media:
       type: ImageBlock
-      url: /images/2018-2019 Team.jpg
+      url: /images/IEEE uO.png
       altText: altText of the image
       caption: Caption of the image
       elementId: ''
