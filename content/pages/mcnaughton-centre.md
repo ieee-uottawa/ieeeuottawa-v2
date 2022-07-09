@@ -37,7 +37,7 @@ sections:
     elementId: ''
     backgroundSize: full
     title: Lab Equipment
-    subtitle: Fresh. Better. Faster.
+    subtitle: We got you covered.
     text: ''
     actions:
       - type: Button
