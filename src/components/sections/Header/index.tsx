@@ -60,6 +60,16 @@ function HeaderVariantA(props) {
             {secondaryLinks.length > 0 && (
                 <ul className="hidden lg:flex lg:items-center ml-auto space-x-8" data-sb-field-path=".secondaryLinks">
                     <ListOfLinks links={secondaryLinks} inMobileMenu={false} />
+                            <Select
+                                labelId="demo-simple-select-label"
+                                id="demo-simple-select"
+                                value={"English"}
+                                label="Age"
+                            // onChange={handleChange}
+                            >
+                                <MenuItem value={"English"}>English</MenuItem>
+                                <MenuItem value={"Français"}>Français</MenuItem>
+                            </Select>                    
                 </ul>
             )}
             {(primaryLinks.length > 0 || secondaryLinks.length > 0) && <MobileMenu {...props} />}
