@@ -170,7 +170,7 @@ function MobileMenu(props) {
                                 label="Age"
                             // onChange={handleChange}
                             >
-                                <MenuItem value={10}>Ten</MenuItem>
+                                <MenuItem value={"English"}>Ten</MenuItem>
                                 <MenuItem value={20}>Twenty</MenuItem>
                                 <MenuItem value={30}>Thirty</MenuItem>
                             </Select>
