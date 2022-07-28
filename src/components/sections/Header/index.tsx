@@ -68,7 +68,7 @@ function HeaderVariantA(props) {
                     // onChange={handleChange}
                     >
                         <MenuItem value={"EN"}>EN</MenuItem>
-                        <MenuItem value={"Français"}>Français</MenuItem>
+                        <MenuItem value={"FR"}>FR</MenuItem>
                     </Select>
                 </ul>
             )}
@@ -101,7 +101,7 @@ function HeaderVariantB(props) {
                     // onChange={handleChange}
                     >
                         <MenuItem value={"EN"}>EN</MenuItem>
-                        <MenuItem value={"Français"}>Français</MenuItem>
+                        <MenuItem value={"FR"}>FR</MenuItem>
                     </Select>
                 </ul>
             )}
@@ -134,7 +134,7 @@ function HeaderVariantC(props) {
                     // onChange={handleChange}
                     >
                         <MenuItem value={"EN"}>EN</MenuItem>
-                        <MenuItem value={"Français"}>Français</MenuItem>
+                        <MenuItem value={"FR"}>FR</MenuItem>
                     </Select>
                 </ul>
             )}
@@ -201,7 +201,7 @@ function MobileMenu(props) {
                             // onChange={handleChange}
                             >
                                 <MenuItem value={"EN"}>EN</MenuItem>
-                                <MenuItem value={"Français"}>Français</MenuItem>
+                                <MenuItem value={"FR"}>FR</MenuItem>
                             </Select>
                         </ul>
                     )}
