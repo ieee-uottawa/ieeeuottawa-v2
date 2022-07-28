@@ -166,7 +166,7 @@ function MobileMenu(props) {
                             <Select
                                 labelId="demo-simple-select-label"
                                 id="demo-simple-select"
-                                // value={age}
+                                value={age}
                                 label="Age"
                             // onChange={handleChange}
                             >
