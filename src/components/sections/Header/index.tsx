@@ -63,11 +63,11 @@ function HeaderVariantA(props) {
                     <Select
                         labelId="demo-simple-select-label"
                         id="demo-simple-select"
-                        value={"English"}
+                        value={"EN"}
                         label="Age"
                     // onChange={handleChange}
                     >
-                        <MenuItem value={"English"}>English</MenuItem>
+                        <MenuItem value={"EN"}>EN</MenuItem>
                         <MenuItem value={"Français"}>Français</MenuItem>
                     </Select>
                 </ul>
@@ -96,11 +96,11 @@ function HeaderVariantB(props) {
                     <Select
                         labelId="demo-simple-select-label"
                         id="demo-simple-select"
-                        value={"English"}
+                        value={"EN"}
                         label="Age"
                     // onChange={handleChange}
                     >
-                        <MenuItem value={"English"}>English</MenuItem>
+                        <MenuItem value={"EN"}>EN</MenuItem>
                         <MenuItem value={"Français"}>Français</MenuItem>
                     </Select>
                 </ul>
@@ -129,11 +129,11 @@ function HeaderVariantC(props) {
                     <Select
                         labelId="demo-simple-select-label"
                         id="demo-simple-select"
-                        value={"English"}
+                        value={"EN"}
                         label="Age"
                     // onChange={handleChange}
                     >
-                        <MenuItem value={"English"}>English</MenuItem>
+                        <MenuItem value={"EN"}>EN</MenuItem>
                         <MenuItem value={"Français"}>Français</MenuItem>
                     </Select>
                 </ul>
@@ -196,11 +196,11 @@ function MobileMenu(props) {
                             <Select
                                 labelId="demo-simple-select-label"
                                 id="demo-simple-select"
-                                value={"English"}
+                                value={"EN"}
                                 label="Age"
                             // onChange={handleChange}
                             >
-                                <MenuItem value={"English"}>English</MenuItem>
+                                <MenuItem value={"EN"}>EN</MenuItem>
                                 <MenuItem value={"Français"}>Français</MenuItem>
                             </Select>
                         </ul>
