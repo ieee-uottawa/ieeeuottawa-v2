@@ -171,7 +171,7 @@ function MobileMenu(props) {
                             // onChange={handleChange}
                             >
                                 <MenuItem value={"English"}>English</MenuItem>
-                                <MenuItem value={20}>Twenty</MenuItem>
+                                <MenuItem value={"Français"}>Français</MenuItem>
                                 <MenuItem value={30}>Thirty</MenuItem>
                             </Select>
                         </ul>
