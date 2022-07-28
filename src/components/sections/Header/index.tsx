@@ -172,7 +172,6 @@ function MobileMenu(props) {
                             >
                                 <MenuItem value={"English"}>English</MenuItem>
                                 <MenuItem value={"Français"}>Français</MenuItem>
-                                <MenuItem value={30}>Thirty</MenuItem>
                             </Select>
                         </ul>
                     )}
