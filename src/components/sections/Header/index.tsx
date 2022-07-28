@@ -8,7 +8,7 @@ import ImageBlock from '../../molecules/ImageBlock';
 import CloseIcon from '../../svgs/close';
 import MenuIcon from '../../svgs/menu';
 import Select, { SelectChangeEvent } from '@mui/material/Select';
-
+import MenuItem from '@mui/material/MenuItem';
 
 export default function Header(props) {
     const { isSticky, primaryColors = 'colors-d', styles = {}, annotationPrefix, ...rest } = props;
