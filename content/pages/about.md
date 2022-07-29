@@ -246,7 +246,7 @@ sections:
         justifyContent: center
         flexDirection: col
         margin:
-          - mt-36
+          - mt-0
       title:
         textAlign: left
       text:
