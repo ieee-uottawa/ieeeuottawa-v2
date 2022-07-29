@@ -2,7 +2,7 @@
     "type": "Config",
     "favicon": "/images/LOGO_BLUE 2.svg",
     "header": {
-        "headerVariant": "variant-c",
+        "headerVariant": "variant-b",
         "isSticky": true,
         "primaryColors": "colors-d",
         "secondaryColors": "colors-d",
@@ -15,40 +15,99 @@
                 "altText": ""
             },
             {
-                "type": "Link",
+                "type": "DropdownLink",
                 "label": "About",
-                "url": "/about",
-                "altText": ""
+                "dropdownLinks": [
+                    {
+                        "type": "Link",
+                        "label": "Who Are We",
+                        "url": "/about",
+                        "altText": ""
+                    },
+                    {
+                        "type": "Link",
+                        "label": "McNaughton Centre",
+                        "url": "/mcnaughton-centre",
+                        "altText": ""
+                    },
+                    {
+                        "type": "Link",
+                        "label": "WIE",
+                        "altText": "Link to WIE website",
+                        "url": "https://celebratewie.ca/",
+                        "showIcon": false,
+                        "icon": "arrowRight",
+                        "iconPosition": "right",
+                        "elementId": ""
+                    },
+                    {
+                        "type": "Link",
+                        "label": "Shop",
+                        "altText": "Link to square shop site",
+                        "url": "https://ieee-uottawa.square.site/",
+                        "showIcon": false,
+                        "icon": "arrowRight",
+                        "iconPosition": "right",
+                        "style": "primary",
+                        "elementId": ""
+                    }
+                ]
             },
             {
-                "type": "Link",
+                "type": "DropdownLink",
                 "label": "Team",
-                "altText": "Link to team's page",
-                "url": "/team",
-                "showIcon": false,
-                "icon": "arrowRight",
-                "iconPosition": "right",
-                "elementId": ""
-            },
-            {
-                "type": "Link",
-                "label": "McN Centre",
-                "altText": "",
-                "url": "/",
-                "showIcon": false,
-                "icon": "arrowRight",
-                "iconPosition": "right",
-                "elementId": ""
-            },
-            {
-                "type": "Link",
-                "label": "Documents",
-                "altText": "Documents",
-                "url": "/documents",
-                "showIcon": false,
-                "icon": "arrowRight",
-                "iconPosition": "right",
-                "elementId": ""
+                "dropdownLinks": [
+                    {
+                        "type": "Link",
+                        "label": "2022-2023 Team",
+                        "altText": "Link to 2022-2023 team's page",
+                        "url": "/team",
+                        "showIcon": false,
+                        "icon": "arrowRight",
+                        "iconPosition": "right",
+                        "elementId": ""
+                    },
+                    {
+                        "type": "Link",
+                        "label": "2021-2022 Team",
+                        "altText": "Link to 2021-2022 team's page",
+                        "url": "/team/2021-2022",
+                        "showIcon": false,
+                        "icon": "arrowRight",
+                        "iconPosition": "right",
+                        "elementId": ""
+                    },
+                    {
+                        "type": "Link",
+                        "label": "2020-2021 Team",
+                        "altText": "Link to 2020-2021 team's page",
+                        "url": "/team/2020-2021",
+                        "showIcon": false,
+                        "icon": "arrowRight",
+                        "iconPosition": "right",
+                        "elementId": ""
+                    },
+                    {
+                        "type": "Link",
+                        "label": "2019-2020 Team",
+                        "altText": "Link to 2019-2020 team's page",
+                        "url": "/team/2019-2020",
+                        "showIcon": false,
+                        "icon": "arrowRight",
+                        "iconPosition": "right",
+                        "elementId": ""
+                    },
+                    {
+                        "type": "Link",
+                        "label": "2018-2019 Team",
+                        "altText": "Link to 2018-2019 team's page",
+                        "url": "/team/2018-2019",
+                        "showIcon": false,
+                        "icon": "arrowRight",
+                        "iconPosition": "right",
+                        "elementId": ""
+                    }
+                ]
             },
             {
                 "type": "Link",
@@ -57,41 +116,36 @@
                 "altText": "Events"
             },
             {
-                "type": "Link",
-                "label": "Gallery",
-                "altText": "Gallery",
-                "url": "/gallery",
-                "showIcon": false,
-                "icon": "arrowRight",
-                "iconPosition": "right",
-                "elementId": ""
-            },
-            {
-                "type": "Link",
-                "label": "WIE",
-                "altText": "Link to WIE website",
-                "url": "https://celebratewie.ca/",
-                "showIcon": false,
-                "icon": "arrowRight",
-                "iconPosition": "right",
-                "elementId": ""
+                "type": "DropdownLink",
+                "label": "More",
+                "dropdownLinks": [
+                    {
+                        "type": "Link",
+                        "label": "Documents",
+                        "altText": "Documents",
+                        "url": "/documents",
+                        "showIcon": false,
+                        "icon": "arrowRight",
+                        "iconPosition": "right",
+                        "elementId": ""
+                    },
+                    {
+                        "type": "Link",
+                        "label": "Gallery",
+                        "altText": "Gallery",
+                        "url": "/gallery",
+                        "showIcon": false,
+                        "icon": "arrowRight",
+                        "iconPosition": "right",
+                        "elementId": ""
+                    }
+                ]                
             }
         ],
         "secondaryLinks": [
             {
                 "type": "Button",
-                "label": "Shop Merch",
-                "altText": "Shop Merch",
-                "url": "/",
-                "showIcon": false,
-                "icon": "arrowRight",
-                "iconPosition": "right",
-                "style": "primary",
-                "elementId": ""
-            },
-            {
-                "type": "Button",
-                "label": "Contact us",
+                "label": "Get In Touch",
                 "altText": "Contact us",
                 "style": "secondary",
                 "showIcon": false,

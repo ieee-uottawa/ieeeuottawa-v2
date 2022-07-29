@@ -35,8 +35,8 @@ module.exports = {
                 '9/16': '56.25%'
             },
             fontFamily: {
-                fontPrimary: ['Space Grotesk', 'sans-serif'],
-                fontSecondary: ['Roboto Mono', 'monospace']
+                fontPrimary: themeStyle.fontPrimary,
+                fontSecondary: themeStyle.fontSecondary
             }
         }
     },
