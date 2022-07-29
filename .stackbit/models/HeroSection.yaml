@@ -49,12 +49,16 @@ fields:
         - Link
     default:
       - type: Button
-        label: Get Started
+        label:
+          en: Get Started
+          fr: Démarrer
         url: '/'
         style: primary
         elementId: hero-main-button
       - type: Button
-        label: Learn More
+        label:
+          en: Learn More
+          fr: Lire plus
         url: '/'
         style: secondary
   - type: model

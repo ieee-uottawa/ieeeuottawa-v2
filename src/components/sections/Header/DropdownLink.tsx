@@ -44,7 +44,7 @@ export default function DropdownLink({ label, dropdownLinks, inMobileMenu }) {
                     padding: '0',
                 }}
             >
-                <span>{label}</span>
+                <span>{label.fr}</span>
             </Button>
             <Menu
                 id="fade-menu"

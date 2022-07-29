@@ -15,7 +15,9 @@ presets:
             et iaculis elit ornare ac.
           actions:
             - type: Button
-              label: Learn more
+              label:
+                en: Learn more
+                fr: Lire plus
               showIcon: true
               icon: arrowRight
               url: '/'
@@ -30,7 +32,9 @@ presets:
             et iaculis elit ornare ac.
           actions:
             - type: Button
-              label: Learn more
+              label:
+                en: Learn more
+                fr: Lire plus
               showIcon: true
               icon: arrowRight
               url: '/'
@@ -45,7 +49,9 @@ presets:
             et iaculis elit ornare ac.
           actions:
             - type: Button
-              label: Learn more
+              label:
+                en: Learn more
+                fr: Lire plus
               showIcon: true
               icon: arrowRight
               url: '/'
@@ -85,7 +91,9 @@ presets:
             et iaculis elit ornare ac.
           actions:
             - type: Button
-              label: Learn more
+              label:
+                en: Learn more
+                fr: Lire plus
               showIcon: true
               icon: arrowRight
               url: '/'
@@ -100,7 +108,9 @@ presets:
             et iaculis elit ornare ac.
           actions:
             - type: Button
-              label: Learn more
+              label:
+                en: Learn more
+                fr: Lire plus
               showIcon: true
               icon: arrowRight
               url: '/'
@@ -115,7 +125,9 @@ presets:
             et iaculis elit ornare ac.
           actions:
             - type: Button
-              label: Learn more
+              label:
+                en: Learn more
+                fr: Lire plus
               showIcon: true
               icon: arrowRight
               url: '/'

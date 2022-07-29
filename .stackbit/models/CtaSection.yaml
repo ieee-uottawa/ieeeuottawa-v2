@@ -42,7 +42,9 @@ fields:
         - Link
     default:
       - type: Button
-        label: Try it now
+        label:
+          en: Try it now
+          fr: Essayez maintenant
         url: '/about'
         style: primary
   - type: model

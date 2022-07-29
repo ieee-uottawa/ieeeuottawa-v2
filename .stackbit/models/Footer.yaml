@@ -92,11 +92,15 @@ fields:
         - Link
     default:
       - type: Link
-        label: Projects
+        label:
+          en: Projects
+          fr: Projets
         url: /
         altText: Projects
       - type: Link
-        label: Documentation
+        label:
+          en: Documentation
+          fr: Documentation
         url: /
         altText: Documentation
   - type: list
@@ -131,11 +135,15 @@ fields:
         - Link
     default:
       - type: Link
-        label: Privacy Policy
+        label:
+          en: Privacy Policy
+          fr: Politique de confidentialité
         url: /
         altText: Privacy Policy
       - type: Link
-        label: Terms & Conditions
+        label:
+          en: Terms & Conditions
+          fr: Termes et conditions
         url: /
         altText: Terms & Conditions
   - type: style

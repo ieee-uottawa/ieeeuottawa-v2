@@ -10,29 +10,44 @@
         "primaryLinks": [
             {
                 "type": "Link",
-                "label": "Home",
+                "label": {
+                    "en": "Home",
+                    "fr": "Accueil"
+                },
                 "url": "/",
                 "altText": ""
             },
             {
                 "type": "DropdownLink",
-                "label": "About",
+                "label": {
+                    "en": "About",
+                    "fr": "À propos"
+                },
                 "dropdownLinks": [
                     {
                         "type": "Link",
-                        "label": "Who Are We",
+                        "label": {
+                            "en": "Who Are We",
+                            "fr": "Qui sommes-nous"
+                        },
                         "url": "/about",
                         "altText": ""
                     },
                     {
                         "type": "Link",
-                        "label": "McNaughton Centre",
+                        "label": {
+                            "en": "McNaughton Centre",
+                            "fr": "Centre McNaughton"
+                        },
                         "url": "/mcnaughton-centre",
                         "altText": ""
                     },
                     {
                         "type": "Link",
-                        "label": "WIE",
+                        "label": {
+                            "en": "WIE",
+                            "fr": "WIE"
+                        },
                         "altText": "Link to WIE website",
                         "url": "https://celebratewie.ca/",
                         "showIcon": false,
@@ -42,7 +57,10 @@
                     },
                     {
                         "type": "Link",
-                        "label": "Shop",
+                        "label": {
+                            "en": "Shop",
+                            "fr": "Magasin"
+                        },
                         "altText": "Link to square shop site",
                         "url": "https://ieee-uottawa.square.site/",
                         "showIcon": false,
@@ -55,11 +73,17 @@
             },
             {
                 "type": "DropdownLink",
-                "label": "Team",
+                "label": {
+                    "en": "Team",
+                    "fr": "Équipe"
+                },
                 "dropdownLinks": [
                     {
                         "type": "Link",
-                        "label": "2022-2023 Team",
+                        "label": {
+                            "en": "2022-2023 Team",
+                            "fr": "Équipe 2022-2023"
+                        },
                         "altText": "Link to 2022-2023 team's page",
                         "url": "/team",
                         "showIcon": false,
@@ -69,7 +93,10 @@
                     },
                     {
                         "type": "Link",
-                        "label": "2021-2022 Team",
+                        "label": {
+                            "en": "2021-2022 Team",
+                            "fr": "Équipe 2021-2022"
+                        },
                         "altText": "Link to 2021-2022 team's page",
                         "url": "/team/2021-2022",
                         "showIcon": false,
@@ -79,7 +106,10 @@
                     },
                     {
                         "type": "Link",
-                        "label": "2020-2021 Team",
+                        "label": {
+                            "en": "2020-2021 Team",
+                            "fr": "Équipe 2020-2021"
+                        },
                         "altText": "Link to 2020-2021 team's page",
                         "url": "/team/2020-2021",
                         "showIcon": false,
@@ -89,7 +119,10 @@
                     },
                     {
                         "type": "Link",
-                        "label": "2019-2020 Team",
+                        "label": {
+                            "en": "2019-2020 Team",
+                            "fr": "Équipe 2019-2020"
+                        },
                         "altText": "Link to 2019-2020 team's page",
                         "url": "/team/2019-2020",
                         "showIcon": false,
@@ -99,7 +132,10 @@
                     },
                     {
                         "type": "Link",
-                        "label": "2018-2019 Team",
+                        "label": {
+                            "en": "2018-2019 Team",
+                            "fr": "Équipe 2018-2019"
+                        },
                         "altText": "Link to 2018-2019 team's page",
                         "url": "/team/2018-2019",
                         "showIcon": false,
@@ -111,17 +147,26 @@
             },
             {
                 "type": "Link",
-                "label": "Events",
+                "label": {
+                    "en": "Events",
+                    "fr": "Événements"
+                },
                 "url": "/events",
                 "altText": "Events"
             },
             {
                 "type": "DropdownLink",
-                "label": "More",
+                "label": {
+                    "en": "More",
+                    "fr": "Plus"
+                },
                 "dropdownLinks": [
                     {
                         "type": "Link",
-                        "label": "Documents",
+                        "label": {
+                            "en": "Documents",
+                            "fr": "Documents"
+                        },
                         "altText": "Documents",
                         "url": "/documents",
                         "showIcon": false,
@@ -131,7 +176,10 @@
                     },
                     {
                         "type": "Link",
-                        "label": "Gallery",
+                        "label": {
+                            "en": "Gallery",
+                            "fr": "Galerie"
+                        },
                         "altText": "Gallery",
                         "url": "/gallery",
                         "showIcon": false,
@@ -145,7 +193,10 @@
         "secondaryLinks": [
             {
                 "type": "Button",
-                "label": "Get In Touch",
+                "label": {
+                    "en": "Get In Touch",
+                    "fr": "Contactez-nous"
+                },
                 "altText": "Contact us",
                 "style": "secondary",
                 "showIcon": false,
@@ -190,19 +241,28 @@
         "primaryLinks": [
             {
                 "type": "Link",
-                "label": "Home",
+                "label": {
+                    "en": "Home",
+                    "fr": "Accueil"
+                },
                 "url": "/",
                 "altText": ""
             },
             {
                 "type": "Link",
-                "label": "About",
+                "label": {
+                    "en": "Who Are We",
+                    "fr": "Qui sommes-nous"
+                },
                 "url": "/about",
                 "altText": ""
             },
             {
                 "type": "Link",
-                "label": "Events",
+                "label": {
+                    "en": "Events",
+                    "fr": "Événements"
+                },
                 "altText": "Link to events page",
                 "url": "/events",
                 "showIcon": false,
@@ -212,7 +272,10 @@
             },
             {
                 "type": "Link",
-                "label": "Contact us",
+                "label": {
+                    "en": "Contact us",
+                    "fr": "Contactez-nous"
+                },
                 "url": "mailto:info@lorem.mail",
                 "altText": ""
             }

@@ -52,7 +52,7 @@ export default function Action(props) {
             )}
             {...annotations}
         >
-            {label && <span>{label}</span>}
+            {label && <span>{label.fr}</span>}
             {showIcon && IconComponent && (
                 <IconComponent
                     className={classNames('fill-current h-5 w-5', {

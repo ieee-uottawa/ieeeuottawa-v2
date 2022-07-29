@@ -118,11 +118,15 @@ fields:
         - DropdownLink
     default:
       - type: Link
-        label: Home
+        label:
+          en: Home
+          fr: Accueil
         url: /
         altText: Home
       - type: Link
-        label: Blog
+        label:
+          en: Blog
+          fr: Blogue
         url: /
         altText: Blog
   - type: list
@@ -135,7 +139,9 @@ fields:
         - Link
     default:
       - type: Button
-        label: Sign up
+        label:
+          en: Sign up
+          fr: S'inscrire
         url: /
         altText: Sign up
         style: primary

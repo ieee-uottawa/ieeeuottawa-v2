@@ -40,7 +40,9 @@ presets:
           subtitle: Fresh. Better. Faster.
           actions:
             - type: Button
-              label: Get Started
+              label:
+                en: Get Started
+                fr: Démarrer
               url: '/'
               showIcon: true
               icon: arrowRight
@@ -103,7 +105,9 @@ presets:
           title: Seasonal adventures
           actions:
             - type: Link
-              label: See all adventures
+              label:
+                en: See all adventures
+                fr: Voir toutes les aventures
               url: '/blog'
               showIcon: true
               icon: arrowRight
@@ -159,7 +163,9 @@ presets:
           text: We’re local, seasonal fisherman, supporting fishing restrictions.
           actions:
             - type: Button
-              label: Join adventure
+              label:
+                en: Join adventure
+                fr: Rejoignez l'aventure
               url: https://www.stackbit.com/
               style: secondary
               showIcon: true

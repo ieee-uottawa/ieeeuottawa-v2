@@ -8,10 +8,12 @@ fieldGroups:
   - name: settings
     label: Settings
 fields:
-  - type: string
+  - type: Label
     name: label
     label: Label
-    default: Learn more
+    default:
+      en: Learn More
+      fr: Lire plus
   - type: string
     name: altText
     label: Alt text
@@ -51,7 +53,7 @@ fields:
       - label: Chevron down
         value: chevronDown
       - label: Document
-        value: document        
+        value: document
       - label: Facebook
         value: facebook
       - label: GitHub

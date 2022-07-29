@@ -186,7 +186,9 @@ sections:
       branch's largest events.
     actions:
       - type: Button
-        label: Learn More
+        label:
+          en: Learn More
+          fr: Lire plus
         showIcon: true
         icon: arrowRight
         style: primary
@@ -225,7 +227,9 @@ sections:
       opportunities for volunteering!
     actions:
       - type: Button
-        label: Form
+        label:
+          en: Form
+          fr: Formulaire
         showIcon: true
         icon: arrowRight
         url: >-

@@ -9,7 +9,9 @@ presets:
       subtitle: ''
       actions:
         - type: Link
-          label: See all adventures
+          label:
+            en: See all adventures
+            fr: Voir toutes les aventures
           altText: See all adventures
           url: '/blog'
           showIcon: true
