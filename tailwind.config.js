@@ -37,6 +37,9 @@ module.exports = {
             fontFamily: {
                 fontPrimary: themeStyle.fontPrimary,
                 fontSecondary: themeStyle.fontSecondary
+            },
+            screens: {
+                lg: '1200px',
             }
         }
     },
@@ -93,7 +96,7 @@ module.exports = {
                     letterSpacing: theme(`letterSpacing.${themeStyle.h6.letterSpacing}`),
                     textDecoration: themeStyle.h6.decoration,
                     textTransform: themeStyle.h6.case
-                }
+                },
             });
             addComponents({
                 '.sb-component-button-primary': {
