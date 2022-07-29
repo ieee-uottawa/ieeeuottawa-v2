@@ -6,6 +6,7 @@ import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to
 import Section from '../Section';
 import Action from '../../atoms/Action';
 import ImageBlock from '../../molecules/ImageBlock';
+import { Social } from '../../atoms';
 
 export default function FeaturedPeopleSection(props) {
     const { type, elementId, colors, variant, title, subtitle, actions = [], people = [], styles = {}, 'data-sb-field-path': fieldPath } = props;
@@ -72,25 +73,46 @@ function PeopleVariantA(props) {
                 <article key={index} data-sb-field-path={`.${index}`}>
                     {person.image && (
                         <div className="h-0 w-full pt-1/1 relative mb-4">
-                            <ImageBlock {...person.image} className="absolute left-0 h-full object-cover top-0 w-full" data-sb-field-path=".image" />
+                            <ImageBlock {...person.image} className="absolute left-0 h-full object-cover top-0 w-full w-200 h-200 rounded-full" data-sb-field-path=".image" />
                         </div>
                     )}
                     {(person.firstName || person.lastName) && (
-                        <h3 className="text-2xl">
+                        <h3 className="text-2xl text-center">
                             {person.firstName && <span data-sb-field-path=".firstName">{person.firstName}</span>}{' '}
                             {person.lastName && <span data-sb-field-path=".lastName">{person.lastName}</span>}
                         </h3>
                     )}
                     {person.role && (
-                        <p className={classNames({ 'mt-1': person.firstName || person.lastName })} data-sb-field-path=".role">
+                        <p className={classNames({ 'mt-1': person.firstName || person.lastName }, "text-center")} data-sb-field-path=".role">
                             {person.role}
                         </p>
                     )}
+                    {person.socialLinks && (
+                        <ul className="flex items-center mt-2 space-x-5 justify-center" data-sb-field-path=".socialLinks">
+                            {person.socialLinks.map((link, index) => (
+                                <li key={index}>
+                                    <Social {...link} data-sb-field-path={`.${index}`} />
+                                </li>
+                            ))}
+                        </ul>
+                    )
+                        /*<p className={classNames({ 'mt-1.5': person.role }, "text-center")} data-sb-field-path=".bio">
+                            <Social type="social" altText="Mail" label="Mail" url={person.bio} icon="mail" />
+                        </p>*/
+                    }
                 </article>
             ))}
         </div>
     );
 }
+
+/*<Markdown
+    options={{ forceBlock: true, forceWrapper: true }}
+    className={classNames({ 'mt-4': person.firstName || person.lastName || person.role })}
+    data-sb-field-path=".bio"
+>
+    {person.bio}
+</Markdown>*/
 
 function PeopleVariantB(props) {
     const { people = [], hasTopMargin } = props;
@@ -132,6 +154,73 @@ function PeopleVariantB(props) {
                     </div>
                 </article>
             ))}
+            {/**
+                <Card sx={{ maxWidth: 345 }}>
+                    <CardMedia
+                        component="img"
+                        height="194"
+                        image="/static/images/cards/paella.jpg"
+                        alt="Paella dish"
+                    />
+
+                    <CardContent>
+                        <Typography variant="body2" color="text.secondary">
+                            This impressive paella is a perfect party dish and a fun meal to cook
+                            together with your guests. Add 1 cup of frozen peas along with the mussels,
+                            if you like.
+                        </Typography>
+                    </CardContent>
+
+                    <CardActions disableSpacing>
+                        <IconButton aria-label="add to favorites">
+                            <FavoriteIcon />
+                        </IconButton>
+
+                        <IconButton aria-label="share">
+                            <ShareIcon />
+                        </IconButton>
+
+                        <ExpandMore
+                            expand={expanded}
+                            onClick={handleExpandClick}
+                            aria-expanded={expanded}
+                            aria-label="show more"
+                        >
+                            <ExpandMoreIcon />
+                        </ExpandMore>
+                    </CardActions>
+                    
+                    <Collapse in={expanded} timeout="auto" unmountOnExit>
+                        <CardContent>
+                            <Typography paragraph>Method:</Typography>
+                            <Typography paragraph>
+                                Heat 1/2 cup of the broth in a pot until simmering, add saffron and set
+                                aside for 10 minutes.
+                            </Typography>
+                            <Typography paragraph>
+                                Heat oil in a (14- to 16-inch) paella pan or a large, deep skillet over
+                                medium-high heat. Add chicken, shrimp and chorizo, and cook, stirring
+                                occasionally until lightly browned, 6 to 8 minutes. Transfer shrimp to a
+                                large plate and set aside, leaving chicken and chorizo in the pan. Add
+                                pimentón, bay leaves, garlic, tomatoes, onion, salt and pepper, and cook,
+                                stirring often until thickened and fragrant, about 10 minutes. Add
+                                saffron broth and remaining 4 1/2 cups chicken broth; bring to a boil.
+                            </Typography>
+                            <Typography paragraph>
+                                Add rice and stir very gently to distribute. Top with artichokes and
+                                peppers, and cook without stirring, until most of the liquid is absorbed,
+                                15 to 18 minutes. Reduce heat to medium-low, add reserved shrimp and
+                                mussels, tucking them down into the rice, and cook again without
+                                stirring, until mussels have opened and rice is just tender, 5 to 7
+                                minutes more. (Discard any mussels that don&apos;t open.)
+                            </Typography>
+                            <Typography>
+                                Set aside off of the heat to let rest for 10 minutes, and then serve.
+                            </Typography>
+                        </CardContent>
+                    </Collapse>
+                </Card>
+             */}
         </div>
     );
 }

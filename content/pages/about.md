@@ -2,105 +2,203 @@
 title: About
 layout: PageLayout
 sections:
-  - type: DividerSection
-    colors: colors-d
-    styles:
-      self:
-        width: wide
-        padding:
-          - pt-0
-          - pb-4
-          - pl-0
-          - pr-0
-        justifyContent: center
-        borderWidth: 1
-        borderStyle: solid
-  - type: TextSection
-    colors: colors-d
-    variant: variant-a
-    title: About our business
-    text: >-
-      For us fishing is a life style. The connection to the waters is what makes
-      us friends, and what makes us a family and it what makes us a business.
-
-
-      We believe there’s a better, more sustainable way to live out of what the
-      sea has to offer, while  keeping our products fresh and delicious.
+  - type: HeroSection
+    colors: colors-b
+    elementId: ''
+    backgroundSize: full
+    title: About
+    text: >
+      The IEEE uOttawa Student Branch is the official student branch for the
+      University of Ottawa and the official Sub-Association for ELG/CEG/SEG
+      under the ESS.
+    actions: []
+    media: null
     styles:
       self:
         height: auto
-        width: narrow
+        width: wide
         padding:
-          - pt-32
-          - pb-56
-          - pr-4
+          - pt-36
+          - pb-36
           - pl-4
+          - pr-4
+        alignItems: center
         justifyContent: center
+        flexDirection: row
       title:
         textAlign: left
       subtitle:
         textAlign: left
       text:
         textAlign: left
-  - elementId: ''
-    colors: colors-b
-    quote: >-
-      “This is someone else, not from our team, but she also loves fishing, so
-      we thought we should highlight her.”
+      actions:
+        justifyContent: flex-start
     backgroundImage:
       type: BackgroundImage
-      url: /images/bg.webp
+      url: /images/Connected World.jpeg
       backgroundSize: cover
       backgroundPosition: center
       backgroundRepeat: no-repeat
-      opacity: 70
+      opacity: 20
+  - type: HeroSection
+    colors: colors-d
+    elementId: ''
+    backgroundSize: full
+    title: Mission Statement
+    text: >
+      The University of Ottawa’s IEEE Student Branch was established to provide
+      professional services to improve each student’s experience on campus. This
+      includes accommodating students with access to up-to-date equipment,
+      internet access, textbooks and a quiet work environment.
+    actions: []
+    backgroundImage: null
     styles:
       self:
         height: auto
         width: wide
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
         padding:
-          - pt-96
-          - pb-10
+          - pt-32
+          - pb-32
           - pl-4
           - pr-4
+        alignItems: center
         justifyContent: center
-      quote:
-        textAlign: left
-      name:
-        fontWeight: '400'
-        fontStyle: normal
-        textAlign: left
+        flexDirection: row-reverse
       title:
-        fontWeight: '400'
-        fontStyle: normal
         textAlign: left
-    type: QuoteSection
-  - elementId: ''
-    variant: variant-c
+      subtitle:
+        textAlign: left
+      text:
+        textAlign: left
+      actions:
+        justifyContent: flex-start
+    media:
+      type: ImageBlock
+      url: /images/IEEE uO.png
+      altText: altText of the image
+      caption: Caption of the image
+      elementId: ''
+  - type: FeaturedItemsSection
     colors: colors-c
-    title: Our Team
-    subtitle: >-
-      We’re a group of proffesional fisherman & friends, who love exploring the
-      seas and sharing our experiences with the world.
-    people:
-      - content/data/team/hilary-ouse.json
-      - content/data/team/dianne-ameter.json
-      - content/data/team/desmond-eagle.json
-      - content/data/team/hugh-saturation.json
+    elementId: ''
+    title: What We Offer
+    subtitle: ''
+    items:
+      - type: FeaturedItem
+        title: Mentorship
+        text: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
+          lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
+          pharetra ipsum dolor, et iaculis elit ornare ac.
+        actions: []
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        title: Quiet Study Place
+        text: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
+          lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
+          pharetra ipsum dolor, et iaculis elit ornare ac.
+        actions: []
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        title: Networking Opportunities
+        text: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
+          lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
+          pharetra ipsum dolor, et iaculis elit ornare ac.
+        actions: []
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
+        title: Dry Lab Access
+        subtitle: ''
+        text: >-
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+          explicabo.
+        actions: []
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
+        title: Academic Help
+        subtitle: ''
+        text: >-
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+          explicabo.
+        actions: []
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
+        title: Cool EECS Merch
+        subtitle: ''
+        text: >-
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+          explicabo.
+        actions: []
+        styles:
+          self:
+            textAlign: left
+    actions: []
+    columns: 3
+    spacingX: 16
+    spacingY: 32
+    enableHover: false
     styles:
       self:
         height: auto
-        width: narrow
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
+        width: wide
+        padding:
+          - pt-32
+          - pb-32
+          - pl-4
+          - pr-4
+        justifyContent: center
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
+      actions:
+        justifyContent: flex-start
+  - type: FeatureHighlightSection
+    colors: colors-d
+    elementId: ''
+    backgroundSize: full
+    title: WIE Affinity Group
+    subtitle: ''
+    text: >
+      The mission of the IEEE uOttawa Women In Engineering is to inspire,
+      engage, encourage, and empower women to pursue the engineering field. They
+      are responsible for organizing IEEE Wine & Cheese, one of our student
+      branch's largest events.
+    actions:
+      - type: Button
+        label: Learn More
+        showIcon: true
+        icon: arrowRight
+        style: primary
+        url: /
+    backgroundImage:
+      type: ImageBlock
+      url: /images/IEEE WIE.png
+      backgroundSize: cover
+      backgroundPosition: center
+      opacity: 100
+    styles:
+      self:
+        height: auto
+        width: wide
         padding:
           - pt-36
           - pb-72
@@ -111,91 +209,45 @@ sections:
         textAlign: center
       subtitle:
         textAlign: center
+      text:
+        textAlign: center
       actions:
         justifyContent: center
-    type: FeaturedPeopleSection
-  - type: ContactSection
+  - type: CtaSection
     colors: colors-d
-    title: Join our club
+    elementId: get-involved
+    backgroundSize: full
+    title: Want to get involved with the IEEE?
     text: >
-      We will notify you every time a shipment is heading to your neighborhood,
-      and you could immediatly let us know if you want in or not
-    form:
-      type: FormBlock
-      elementId: sign-up-form
-      destination: ''
-      action: /.netlify/functions/submission_created
-      fields:
-        - name: firstName
-          label: First Name
-          hideLabel: true
-          placeholder: First Name
-          isRequired: true
-          width: 1/2
-          type: TextFormControl
-        - name: lastName
-          label: Last Name
-          hideLabel: true
-          placeholder: Last Name
-          isRequired: false
-          width: 1/2
-          type: TextFormControl
-        - name: email
-          label: Email
-          hideLabel: true
-          placeholder: Email
-          isRequired: true
-          width: full
-          type: EmailFormControl
-        - name: address
-          label: Address
-          hideLabel: true
-          placeholder: Address
-          isRequired: true
-          width: full
-          type: TextFormControl
-        - name: updatesConsent
-          label: Sign me up to recieve updates
-          isRequired: false
-          width: full
-          type: CheckboxFormControl
-      submitLabel: Submit form
-      styles:
-        submitLabel:
-          textAlign: center
+      Fill out this form and an executive will email you when there are
+      opportunities for volunteering!
+    actions:
+      - type: Button
+        label: Form
+        showIcon: true
+        icon: arrowRight
+        url: >-
+          https://docs.google.com/forms/d/e/1FAIpQLSfIdHz-ORmtsCgjEp2WpOV5ssXaC60nNpFzAY_qeRH4f7uX1w/viewform
+        style: primary
+        altText: Link to volunteer signup google form
+    backgroundImage: null
     styles:
       self:
         height: auto
         width: narrow
-        margin:
-          - mt-0
-          - mb-0
-          - ml-4
-          - mr-4
         padding:
-          - pt-24
-          - pb-24
-          - pr-4
+          - pt-28
+          - pb-28
           - pl-4
+          - pr-4
         alignItems: center
         justifyContent: center
-        flexDirection: row
+        flexDirection: col
       title:
-        textAlign: center
+        textAlign: left
       text:
-        textAlign: center
-  - type: DividerSection
-    colors: colors-d
-    styles:
-      self:
-        width: wide
-        padding:
-          - pt-4
-          - pb-4
-          - pl-4
-          - pr-4
-        justifyContent: center
-        borderWidth: 1
-        borderStyle: solid
+        textAlign: left
+      actions:
+        justifyContent: flex-start
 addTitleSuffix: true
 ---

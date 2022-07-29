@@ -1,0 +1,31 @@
+{
+    "type": "Person",
+    "firstName": "Loic",
+    "lastName": "Kandikandi",
+    "role": "Webmaster",
+    "bio": "<webmaster@ieeeuottawa.ca>\n",
+    "image": {
+        "url": "/images/execs-2021-2022/webmaster.png",
+        "altText": "Person photo"
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Mail",
+            "altText": "Loic Kandikandi (Webmaster) email link",
+            "icon": "mail",
+            "style": "link",
+            "elementId": "",
+            "url": "mailto:webmaster@ieeeuottawa.ca"
+        },
+        {
+            "type": "Social",
+            "label": "LinkedIn",
+            "altText": "Link to Loic Kandikandi's LinkedIn Profile",
+            "url": "https://www.linkedin.com/in/jean-loic-kandikandi",
+            "icon": "linkedin",
+            "style": "link",
+            "elementId": ""
+        }
+    ]
+}

@@ -1,11 +1,22 @@
 {
     "type": "Person",
-    "firstName": "Hugh",
-    "lastName": "Saturation",
-    "role": "Senior fisherman + delivery guy",
+    "lastName": "Flynn",
+    "role": "Treasurer",
     "image": {
         "type": "ImageBlock",
-        "url": "/images/hugh-saturation.png",
+        "url": "/images/execs-2021-2022/treasurer.jpg",
         "altText": "Hugh Saturation photo"
-    }
+    },
+    "firstName": "Ben",
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Mail",
+            "url": "mailto:treasurer@ieeeuottawa.ca",
+            "icon": "mail",
+            "style": "link",
+            "elementId": "",
+            "altText": "Email icon that links to the treasurer's email"
+        }
+    ]
 }

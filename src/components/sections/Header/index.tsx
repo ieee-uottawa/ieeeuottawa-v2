@@ -7,6 +7,9 @@ import { Link, Action } from '../../atoms';
 import ImageBlock from '../../molecules/ImageBlock';
 import CloseIcon from '../../svgs/close';
 import MenuIcon from '../../svgs/menu';
+import DropdownLink from './DropdownLink';
+import LocaleSelector from './LocaleSelector';
+import ModeSwitcher from './ModeSwitcher';
 
 export default function Header(props) {
     const { isSticky, primaryColors = 'colors-d', styles = {}, annotationPrefix, ...rest } = props;
@@ -50,6 +53,7 @@ function HeaderVariantA(props) {
     return (
         <div className="flex items-center relative">
             <SiteLogoLink title={title} isTitleVisible={isTitleVisible} logo={logo} />
+            {LocaleSelector()}
             {primaryLinks.length > 0 && (
                 <ul className="hidden lg:flex lg:items-center mr-8 space-x-8" data-sb-field-path=".primaryLinks">
                     <ListOfLinks links={primaryLinks} inMobileMenu={false} />
@@ -58,6 +62,7 @@ function HeaderVariantA(props) {
             {secondaryLinks.length > 0 && (
                 <ul className="hidden lg:flex lg:items-center ml-auto space-x-8" data-sb-field-path=".secondaryLinks">
                     <ListOfLinks links={secondaryLinks} inMobileMenu={false} />
+                    <ModeSwitcher />
                 </ul>
             )}
             {(primaryLinks.length > 0 || secondaryLinks.length > 0) && <MobileMenu {...props} />}
@@ -70,6 +75,7 @@ function HeaderVariantB(props) {
     return (
         <div className="flex items-center relative">
             <SiteLogoLink title={title} isTitleVisible={isTitleVisible} logo={logo} />
+            {LocaleSelector()}
             {primaryLinks.length > 0 && (
                 <ul
                     className="hidden lg:flex lg:items-center space-x-8 absolute left-1/2 top-1/2 transform -translate-y-1/2 -translate-x-1/2 w-auto"
@@ -81,6 +87,7 @@ function HeaderVariantB(props) {
             {secondaryLinks.length > 0 && (
                 <ul className="hidden lg:flex lg:items-center ml-auto space-x-8" data-sb-field-path=".secondaryLinks">
                     <ListOfLinks links={secondaryLinks} inMobileMenu={false} />
+                    <ModeSwitcher />
                 </ul>
             )}
             {(primaryLinks.length > 0 || secondaryLinks.length > 0) && <MobileMenu {...props} />}
@@ -93,6 +100,7 @@ function HeaderVariantC(props) {
     return (
         <div className="flex items-center relative">
             <SiteLogoLink title={title} isTitleVisible={isTitleVisible} logo={logo} />
+            {LocaleSelector()}
             {primaryLinks.length > 0 && (
                 <ul className="hidden lg:flex lg:items-center ml-auto space-x-8" data-sb-field-path=".primaryLinks">
                     <ListOfLinks links={primaryLinks} inMobileMenu={false} />
@@ -104,6 +112,7 @@ function HeaderVariantC(props) {
                     data-sb-field-path=".secondaryLinks"
                 >
                     <ListOfLinks links={secondaryLinks} inMobileMenu={false} />
+                    <ModeSwitcher />
                 </ul>
             )}
             {(primaryLinks.length > 0 || secondaryLinks.length > 0) && <MobileMenu {...props} />}
@@ -149,6 +158,7 @@ function MobileMenu(props) {
                 <div className="flex flex-col min-h-full">
                     <div className="flex items-center justify-between mb-10">
                         <SiteLogoLink title={title} isTitleVisible={isTitleVisible} logo={logo} />
+                        {LocaleSelector()}
                         <button aria-label="Close Menu" className="p-2 -mr-1 focus:outline-none" onClick={() => setIsMenuOpen(false)}>
                             <CloseIcon className="fill-current h-6 w-6" />
                         </button>
@@ -161,6 +171,7 @@ function MobileMenu(props) {
                     {secondaryLinks.length > 0 && (
                         <ul className="mb-10 space-y-5" data-sb-field-path=".secondaryLinks">
                             <ListOfLinks links={secondaryLinks} inMobileMenu={true} />
+                            <ModeSwitcher />
                         </ul>
                     )}
                 </div>
@@ -190,7 +201,11 @@ function SiteLogoLink({ title, isTitleVisible, logo }) {
 function ListOfLinks({ links, inMobileMenu }) {
     return links.map((link, index) => (
         <li key={index}>
-            <Action {...link} className={classNames(inMobileMenu && link.type === 'Button' ? 'w-full' : '')} data-sb-field-path={`.${index}`} />
+            {link.dropdownLinks ? (
+                <DropdownLink {...link} inMobileMenu={inMobileMenu} />
+            ) : (
+                <Action {...link} className={classNames(inMobileMenu && link.type === 'Button' ? 'w-full' : '')} data-sb-field-path={`.${index}`} />      
+            )}
         </li>
     ));
 }

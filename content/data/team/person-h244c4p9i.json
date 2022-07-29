@@ -1,0 +1,22 @@
+{
+    "type": "Person",
+    "firstName": "Ethan",
+    "lastName": "Bowering",
+    "role": "ELG Commissioner",
+    "bio": "<elg@ieeeuottawa.ca>\n",
+    "image": {
+        "url": "/images/execs-2021-2022/elg-com.png",
+        "altText": "Person photo"
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Mail",
+            "url": "mailto:commissioner-elg@ieeeuottawa.ca",
+            "icon": "mail",
+            "style": "link",
+            "elementId": "",
+            "altText": "Email icon that links to the ELG Commissioner's email"
+        }
+    ]    
+}

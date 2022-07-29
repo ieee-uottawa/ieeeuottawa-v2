@@ -6,10 +6,10 @@ sections:
     colors: colors-d
     styles:
       self:
-        width: wide
+        width: full
         padding:
           - pt-0
-          - pb-6
+          - pb-0
           - pl-0
           - pr-0
         justifyContent: center
@@ -17,32 +17,41 @@ sections:
         borderStyle: solid
   - type: HeroSection
     elementId: homepage-hero-1
-    colors: colors-d
-    backgroundSize: inset
-    title: We do fishing differently
-    subtitle: Fresh. Better. Faster.
+    colors: colors-e
+    backgroundSize: full
+    title: Powering Your Student Experience.
+    subtitle: Brought to you by the best uOttawa sub-association on campus.
     actions:
       - type: Button
-        label: Get Started
-        url: 'https://www.stackbit.com/'
+        label: Learn More
+        url: /about
         style: primary
         iconPosition: right
         icon: arrowRight
         showIcon: true
+      - type: Button
+        label: Get Involved
+        altText: ''
+        url: '/about/#get-involved'
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        style: secondary
+        elementId: ''
     backgroundImage:
       type: BackgroundImage
-      url: /images/hero.webp
+      url: /images/image_3.JPEG
       backgroundSize: cover
       backgroundPosition: center
       backgroundRepeat: no-repeat
-      opacity: 85
+      opacity: 25
     styles:
       self:
-        height: auto
+        height: screen
         width: wide
         padding:
           - pt-20
-          - pb-96
+          - pb-80
           - pr-12
           - pl-12
         alignItems: center
@@ -56,13 +65,65 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
-  - type: QuoteSection
+  - type: FeaturedItemsSection
     colors: colors-d
-    quote: >-
-      “It’s great to see someone taking action while still maintaining a
-      sustainable fish supply to home cooks.”
-    name: Isabelle Parks
-    title: Head chef at Parks
+    elementId: ''
+    title: Come to our office
+    subtitle: '800 King Edward Ave, Ottawa, ON K1N 6N5, Room 4026'
+    items:
+      - type: FeaturedItem
+        title: Purchase lab supplies
+        text: >
+          Need to buy a breadboard, wire strippers or CD-Rs? Need to use an
+          Altera DE2 Board or an oscilloscope for a project? Look no further. We
+          got you covered. Visit our office to get all the equipment you need.
+        actions: []
+        styles:
+          self:
+            textAlign: left
+        featuredImage:
+          type: ImageBlock
+          url: /images/circuit.svg
+          altText: Circuit illustration
+          caption: Caption of the image
+          elementId: ''
+      - type: FeaturedItem
+        title: Get homework help
+        text: >
+          Need to study with your friends in a quiet environment to prepare for
+          your midterm? Our office is the perfect place for that. Plus, you can
+          also seek academic help from our executives during their office hours.
+        actions: []
+        styles:
+          self:
+            textAlign: left
+        featuredImage:
+          type: ImageBlock
+          url: /images/bulb.svg
+          altText: altText of the image
+          caption: Caption of the image
+          elementId: ''
+      - type: FeaturedItem
+        title: Borrow textbooks
+        text: >
+          Need to borrow a textbook for one of your courses? Our office contains
+          a carefully curated selection of textbooks covering a wide variety of
+          EECS subjects. The best part? You can borrow them at no cost!
+        actions: []
+        styles:
+          self:
+            textAlign: left
+        featuredImage:
+          type: ImageBlock
+          url: /images/books.svg
+          altText: Textbooks illustration
+          caption: Caption of the image
+          elementId: ''
+    actions: []
+    columns: 3
+    spacingX: 16
+    spacingY: 16
+    enableHover: false
     styles:
       self:
         height: auto
@@ -70,95 +131,64 @@ sections:
         padding:
           - pt-28
           - pb-36
-          - pr-4
-          - pl-4
-        justifyContent: center
-      quote:
-        textAlign: center
-      name:
-        textAlign: center
-      title:
-        textAlign: center
-  - elementId: ''
-    colors: colors-c
-    variant: variant-a
-    title: Seasonal adventures
-    actions:
-      - type: Link
-        label: See all adventures
-        url: /blog
-        showIcon: true
-        icon: arrowRight
-    posts:
-      - content/pages/blog/post-five.md
-      - content/pages/blog/post-four.md
-    styles:
-      self:
-        height: auto
-        width: narrow
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
-        padding:
-          - pt-28
-          - pb-48
           - pl-4
           - pr-4
         justifyContent: center
-        borderRadius: none
-        borderWidth: 0
-        borderStyle: none
-        borderColor: border-dark
       title:
         textAlign: left
       subtitle:
         textAlign: left
       actions:
         justifyContent: flex-start
-    type: FeaturedPostsSection
-    showDate: true
-    showExcerpt: true
-    showReadMoreLink: true
-    readMoreLinkLabel: Join adventure
-    showAuthor: false
-  - type: TextSection
-    colors: colors-e
-    variant: variant-a
-    text: '## [Follow us on Instagram](https://www.stackbit.com/)'
+  - type: FeaturedItemsSection
+    colors: colors-c
+    elementId: ''
+    title: Upcoming Events
+    subtitle: >-
+      There are currently no upcoming events planned in the summer. Check again
+      in the fall!
+    items: []
+    actions: []
+    columns: 1
+    spacingX: 16
+    spacingY: 16
+    enableHover: false
     styles:
       self:
         height: auto
         width: narrow
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
         padding:
-          - pt-36
+          - pt-28
           - pb-36
-          - pr-4
           - pl-4
+          - pr-4
         justifyContent: center
-      text:
-        textAlign: center
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
+      actions:
+        justifyContent: flex-start
   - type: FeatureHighlightSection
     colors: colors-d
     backgroundSize: full
-    title: Time to leave your desk. Let’s go flying
-    text: |
-      We’re local, seasonal fisherman, supporting fishing restrictions.
+    title: Shop our merch
+    text: >
+      Shop our embroidered hoodies, crew necks, t-shirts and stickers to
+      fiercely represent your IEEE-ness!
     actions:
-      - type: Link
-        label: Join adventure
-        url: 'https://www.stackbit.com/'
+      - type: Button
+        label: Shop now
+        altText: Shop now button
+        url: 'https://ieee-uottawa.square.site/'
         showIcon: true
         icon: arrowRight
+        iconPosition: right
+        style: primary
+        elementId: ''
     backgroundImage:
       type: BackgroundImage
-      url: /images/hero-3.webp
+      url: /images/pexels-andrea-piacquadio-845434.jpg
       backgroundSize: cover
       backgroundPosition: center
       backgroundRepeat: no-repeat
@@ -188,10 +218,10 @@ sections:
         justifyContent: flex-start
   - type: ContactSection
     colors: colors-d
-    title: Join our club
+    title: Get in touch
     text: >
-      We will notify you every time a shipment is heading to your neighborhood,
-      and you could immediatly let us know if you want in or not
+      Got a question? Event suggestions? Feedback? We want to hear it! Send us a
+      message and we will get back to you as soon as we can.
     form:
       type: FormBlock
       elementId: sign-up-form
@@ -219,18 +249,20 @@ sections:
           isRequired: true
           width: full
           type: EmailFormControl
-        - name: address
-          label: Address
+        - name: Message
+          label: Message
           hideLabel: true
-          placeholder: Address
+          placeholder: Write message
           isRequired: true
           width: full
           type: TextFormControl
-        - name: updatesConsent
-          label: Sign me up to recieve updates
-          isRequired: false
+        - type: TextareaFormControl
+          name: Message
+          label: Message
+          hideLabel: false
+          placeholder: This is the beginning of your message...
+          isRequired: true
           width: full
-          type: CheckboxFormControl
       submitLabel: Submit form
       styles:
         submitLabel:
@@ -256,19 +288,6 @@ sections:
         textAlign: center
       text:
         textAlign: center
-  - type: DividerSection
-    colors: colors-d
-    styles:
-      self:
-        width: wide
-        padding:
-          - pt-4
-          - pb-4
-          - pl-4
-          - pr-4
-        justifyContent: center
-        borderWidth: 1
-        borderStyle: solid
 addTitleSuffix: true
 metaTags: []
 ---

@@ -1,0 +1,22 @@
+{
+    "type": "Person",
+    "firstName": "Steven",
+    "lastName": "Li",
+    "role": "VP Internal",
+    "bio": "<internal@ieeeuottawa.ca>\n",
+    "image": {
+        "url": "/images/execs-2021-2022/internal.jpg",
+        "altText": "Person photo"
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Mail",
+            "url": "mailto:internal@ieeeuottawa.ca",
+            "icon": "mail",
+            "style": "link",
+            "elementId": "",
+            "altText": "Email icon that links to the VP Internal's email"
+        }
+    ]    
+}

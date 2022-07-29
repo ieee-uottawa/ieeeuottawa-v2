@@ -20,25 +20,26 @@ export default function Action(props) {
     const IconComponent = icon ? iconMap[icon] : null;
     const annotations = fieldPath
         ? {
-              'data-sb-field-path': [
-                  fieldPath,
-                  `${fieldPath}.url#@href`,
-                  `${fieldPath}.altText#@aria-label`,
-                  `${fieldPath}.elementId#@id`,
-                  `${fieldPath}.label#span[1]`,
-                  `${fieldPath}.icon#svg[1]`
-              ]
-                  .join(' ')
-                  .trim()
-          }
+            'data-sb-field-path': [
+                fieldPath,
+                `${fieldPath}.url#@href`,
+                `${fieldPath}.altText#@aria-label`,
+                `${fieldPath}.elementId#@id`,
+                `${fieldPath}.label#span[1]`,
+                `${fieldPath}.icon#svg[1]`
+            ]
+                .join(' ')
+                .trim()
+        }
         : {};
 
-    return (
+    const getLink = () => (
         <Link
             href={url}
             aria-label={altText}
             id={elementId || null}
             className={classNames(
+                'min-w-fit',
                 'sb-component',
                 'sb-component-block',
                 type === 'Button' ? 'sb-component-button' : 'sb-component-link',
@@ -62,5 +63,7 @@ export default function Action(props) {
                 />
             )}
         </Link>
-    );
+    )
+
+    return getLink();
 }

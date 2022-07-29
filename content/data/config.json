@@ -1,13 +1,12 @@
 {
     "type": "Config",
-    "favicon": "/images/favicon.svg",
+    "favicon": "/images/LOGO_BLUE 2.svg",
     "header": {
         "headerVariant": "variant-b",
         "isSticky": true,
         "primaryColors": "colors-d",
         "secondaryColors": "colors-d",
-        "title": "Business",
-        "isTitleVisible": true,
+        "isTitleVisible": false,
         "primaryLinks": [
             {
                 "type": "Link",
@@ -16,47 +15,175 @@
                 "altText": ""
             },
             {
-                "type": "Link",
+                "type": "DropdownLink",
                 "label": "About",
-                "url": "/about",
-                "altText": ""
+                "dropdownLinks": [
+                    {
+                        "type": "Link",
+                        "label": "Who Are We",
+                        "url": "/about",
+                        "altText": ""
+                    },
+                    {
+                        "type": "Link",
+                        "label": "McNaughton Centre",
+                        "url": "/mcnaughton-centre",
+                        "altText": ""
+                    },
+                    {
+                        "type": "Link",
+                        "label": "WIE",
+                        "altText": "Link to WIE website",
+                        "url": "https://celebratewie.ca/",
+                        "showIcon": false,
+                        "icon": "arrowRight",
+                        "iconPosition": "right",
+                        "elementId": ""
+                    },
+                    {
+                        "type": "Link",
+                        "label": "Shop",
+                        "altText": "Link to square shop site",
+                        "url": "https://ieee-uottawa.square.site/",
+                        "showIcon": false,
+                        "icon": "arrowRight",
+                        "iconPosition": "right",
+                        "style": "primary",
+                        "elementId": ""
+                    }
+                ]
+            },
+            {
+                "type": "DropdownLink",
+                "label": "Team",
+                "dropdownLinks": [
+                    {
+                        "type": "Link",
+                        "label": "2022-2023 Team",
+                        "altText": "Link to 2022-2023 team's page",
+                        "url": "/team",
+                        "showIcon": false,
+                        "icon": "arrowRight",
+                        "iconPosition": "right",
+                        "elementId": ""
+                    },
+                    {
+                        "type": "Link",
+                        "label": "2021-2022 Team",
+                        "altText": "Link to 2021-2022 team's page",
+                        "url": "/team/2021-2022",
+                        "showIcon": false,
+                        "icon": "arrowRight",
+                        "iconPosition": "right",
+                        "elementId": ""
+                    },
+                    {
+                        "type": "Link",
+                        "label": "2020-2021 Team",
+                        "altText": "Link to 2020-2021 team's page",
+                        "url": "/team/2020-2021",
+                        "showIcon": false,
+                        "icon": "arrowRight",
+                        "iconPosition": "right",
+                        "elementId": ""
+                    },
+                    {
+                        "type": "Link",
+                        "label": "2019-2020 Team",
+                        "altText": "Link to 2019-2020 team's page",
+                        "url": "/team/2019-2020",
+                        "showIcon": false,
+                        "icon": "arrowRight",
+                        "iconPosition": "right",
+                        "elementId": ""
+                    },
+                    {
+                        "type": "Link",
+                        "label": "2018-2019 Team",
+                        "altText": "Link to 2018-2019 team's page",
+                        "url": "/team/2018-2019",
+                        "showIcon": false,
+                        "icon": "arrowRight",
+                        "iconPosition": "right",
+                        "elementId": ""
+                    }
+                ]
             },
             {
                 "type": "Link",
-                "label": "Adventures",
-                "url": "/blog",
-                "altText": ""
+                "label": "Events",
+                "url": "/events",
+                "altText": "Events"
+            },
+            {
+                "type": "DropdownLink",
+                "label": "More",
+                "dropdownLinks": [
+                    {
+                        "type": "Link",
+                        "label": "Documents",
+                        "altText": "Documents",
+                        "url": "/documents",
+                        "showIcon": false,
+                        "icon": "arrowRight",
+                        "iconPosition": "right",
+                        "elementId": ""
+                    },
+                    {
+                        "type": "Link",
+                        "label": "Gallery",
+                        "altText": "Gallery",
+                        "url": "/gallery",
+                        "showIcon": false,
+                        "icon": "arrowRight",
+                        "iconPosition": "right",
+                        "elementId": ""
+                    }
+                ]                
             }
         ],
         "secondaryLinks": [
             {
                 "type": "Button",
-                "label": "Contact us",
-                "url": "mailto:info@lorem.mail",
+                "label": "Get In Touch",
                 "altText": "Contact us",
                 "style": "secondary",
-                "showIcon": true,
+                "showIcon": false,
                 "icon": "arrowRight",
-                "iconPosition": "right"
+                "iconPosition": "right",
+                "url": "/contact"
             }
         ],
         "styles": {
             "self": {
-                "width": "narrow"
+                "width": "wide",
+                "padding": [
+                    "pl-5",
+                    "pt-5",
+                    "pb-5",
+                    "pr-5"
+                ]
             }
-        }
+        },
+        "logo": {
+            "type": "ImageBlock",
+            "url": "/images/LOGO_BLUE 2.svg",
+            "altText": "IEEE uOttawa Logo",
+            "caption": "Caption of the image",
+            "elementId": ""
+        },
+        "title": "IEEE uOttawa"
     },
     "footer": {
-        "variant": "variant-b",
-        "colors": "colors-d",
-        "title": "Say hello",
+        "variant": "variant-a",
+        "colors": "colors-e",
         "contacts": {
             "title": "Contact details",
-            "phoneNumber": "850-123-5021",
+            "phoneNumber": "613-562-5800 ext. 6196",
             "phoneAltText": "Our phone",
-            "email": "info@lorem.mail",
+            "email": "communications@ieeeuottawa.ca",
             "emailAltText": "Our email",
-            "address": "312 Lovely Street, Brooklyn, NY, 123456",
+            "address": "800 King Edward Avenue, Room 4026",
             "addressAltText": "Our address"
         },
         "copyrightText": "Powered by [Stackbit](https://www.stackbit.com/)",
@@ -75,9 +202,13 @@
             },
             {
                 "type": "Link",
-                "label": "Adventures",
-                "url": "/blog",
-                "altText": ""
+                "label": "Events",
+                "altText": "Link to events page",
+                "url": "/events",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "elementId": ""
             },
             {
                 "type": "Link",
@@ -91,22 +222,31 @@
                 "type": "Social",
                 "altText": "Twitter",
                 "label": "Twitter",
-                "url": "/",
+                "url": "https://twitter.com/ieeeuottawa",
                 "icon": "twitter"
             },
             {
                 "type": "Social",
                 "altText": "Instagram",
                 "label": "Instagram",
-                "url": "/",
+                "url": "http://www.instagram.com/ieeeuottawa",
                 "icon": "instagram"
             },
             {
                 "type": "Social",
                 "altText": "Facebook",
                 "label": "Facebook",
-                "url": "/",
+                "url": "https://www.facebook.com/ieeeuottawa",
                 "icon": "facebook"
+            },
+            {
+                "type": "Social",
+                "label": "Youtube",
+                "altText": "IEEE uOttawa Youtube",
+                "icon": "youtube",
+                "style": "link",
+                "elementId": "",
+                "url": "https://www.youtube.com/channel/UCSv1Vna97rKa8w2ktRG8wRw"
             }
         ],
         "legalLinks": [
@@ -125,6 +265,13 @@
             "self": {
                 "width": "narrow"
             }
+        },
+        "logo": {
+            "type": "ImageBlock",
+            "url": "/images/LOGO_BLUE 3.svg",
+            "altText": "IEEE uOttawa Logo",
+            "caption": "IEEE uOttawa Logo",
+            "elementId": ""
         }
     },
     "defaultMetaTags": []

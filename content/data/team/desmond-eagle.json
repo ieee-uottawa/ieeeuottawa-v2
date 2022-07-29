@@ -1,11 +1,22 @@
 {
     "type": "Person",
-    "firstName": "Desmond",
-    "lastName": "Eagle",
-    "role": "Co-founder",
+    "firstName": "Alae",
+    "lastName": "Boufarrachene",
+    "role": "VP Communications",
     "image": {
         "type": "ImageBlock",
-        "url": "/images/desmond-eagle.png",
+        "url": "/images/execs-2021-2022/communications.jpg",
         "altText": "Desmond Eagle photo"
-    }
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Mail",
+            "url": "mailto:communications@ieeeuottawa.ca",
+            "icon": "mail",
+            "style": "link",
+            "elementId": "",
+            "altText": "Email icon that links to the VP Communications' email"
+        }
+    ]
 }

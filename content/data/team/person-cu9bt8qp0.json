@@ -1,0 +1,22 @@
+{
+    "type": "Person",
+    "lastName": "Ahamed",
+    "role": "SEG Commissioner",
+    "bio": "<seg@ieeeuottawa.ca>\n",
+    "image": {
+        "url": "/images/execs-2021-2022/seg-com.jpg",
+        "altText": "Person photo"
+    },
+    "firstName": "Is'Haaq",
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Mail",
+            "url": "mailto:commissioner-seg@ieeeuottawa.ca",
+            "icon": "mail",
+            "style": "link",
+            "elementId": "",
+            "altText": "Email icon that links to the SEG Commissioner's email"
+        }
+    ]    
+}

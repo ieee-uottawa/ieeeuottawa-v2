@@ -1,11 +1,23 @@
 {
     "type": "Person",
-    "firstName": "Hilary",
-    "lastName": "Ouse",
-    "role": "Head fisherman",
+    "firstName": "Vlad",
+    "lastName": "Jidkov",
+    "role": "Chair",
     "image": {
         "type": "ImageBlock",
-        "url": "/images/hilary-ouse.png",
+        "url": "/images/execs-2021-2022/chair.jpg",
         "altText": "Hilary Ouse photo"
-    }
+    },
+    "bio": "mailto:chair@ieeeuottawa.ca\n",
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Mail",
+            "url": "mailto:chair@ieeeuottawa.ca",
+            "icon": "mail",
+            "style": "link",
+            "elementId": "",
+            "altText": "Email icon that links to the Chair's email"
+        }
+    ]
 }
