@@ -165,6 +165,8 @@ sections:
           - pl-4
           - pr-4
         justifyContent: center
+        margin:
+          - mb-36
       title:
         textAlign: left
       subtitle:
