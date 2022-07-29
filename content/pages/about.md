@@ -245,6 +245,8 @@ sections:
         alignItems: center
         justifyContent: center
         flexDirection: col
+        margin:
+          - mt-36
       title:
         textAlign: left
       text:
