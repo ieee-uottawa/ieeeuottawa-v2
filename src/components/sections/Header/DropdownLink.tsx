@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Button } from "@mui/material";
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
@@ -7,11 +7,13 @@ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import { Action } from "../../atoms";
 import classNames from "classnames";
 import { theme } from "../../../../tailwind.config";
+import { I18NContext } from "../../../utils/i18Ncontext";
 
 const themeStyle = require('../../../../content/data/style.json');
 
 
 export default function DropdownLink({ label, dropdownLinks, inMobileMenu }) {
+    const { locale } = useContext(I18NContext);
     const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
     const open = Boolean(anchorEl);
 
@@ -44,7 +46,7 @@ export default function DropdownLink({ label, dropdownLinks, inMobileMenu }) {
                     padding: '0',
                 }}
             >
-                <span>{label.fr}</span>
+                <span>{locale === 'en' ? label.en : label.fr}</span>
             </Button>
             <Menu
                 id="fade-menu"

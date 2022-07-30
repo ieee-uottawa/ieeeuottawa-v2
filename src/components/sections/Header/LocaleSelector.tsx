@@ -1,18 +1,19 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select, { SelectChangeEvent } from '@mui/material/Select';
 import { theme } from "../../../../tailwind.config";
+import { I18NContext } from '../../../utils/i18Ncontext';
 const themeStyle = require('../../../../content/data/style.json');
 
 
 export default function LocaleSelector() {
 
-    const [age, setAge] = useState<string>('EN');
+    const { locale, setLocale } = useContext(I18NContext);
 
     const handleChange = (event: SelectChangeEvent) => {
-        setAge(event.target.value as string);
+        setLocale(event.target.value as string);
     };
     
     return (
@@ -21,7 +22,7 @@ export default function LocaleSelector() {
                 <Select
                     labelId="demo-simple-select-label"
                     id="demo-simple-select"
-                    value={age}
+                    value={locale}
                     label="Language"
                     onChange={handleChange}
                     sx={{
@@ -35,8 +36,8 @@ export default function LocaleSelector() {
                         // padding: '0',
                     }}
                 >
-                    <MenuItem value={"EN"}>EN</MenuItem>
-                    <MenuItem value={"FR"}>FR</MenuItem>
+                    <MenuItem value={"en"}>EN</MenuItem>
+                    <MenuItem value={"fr"}>FR</MenuItem>
                 </Select>
             </FormControl>
         </div>
