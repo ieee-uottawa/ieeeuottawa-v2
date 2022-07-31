@@ -5,7 +5,8 @@ import classNames from 'classnames';
 import Header from '../../sections/Header';
 import Footer from '../../sections/Footer';
 import { seoGenerateTitle, seoGenerateMetaTags, seoGenerateMetaDescription } from '../../../utils/seo-utils';
-import { I18NContext } from '../../../utils/i18Ncontext';
+import { I18NContext } from '../../../context/i18Ncontext';
+import { translatedLinks } from '../../../../content/translations/links';
 
 export default function DefaultBaseLayout(props) {
     const { page, site } = props;
@@ -15,9 +16,15 @@ export default function DefaultBaseLayout(props) {
     let metaTags = seoGenerateMetaTags(page, site);
     let metaDescription = seoGenerateMetaDescription(page, site);
     const [locale, setLocale] = React.useState<string>('en');
+    const [linksTranslations] = React.useState<Object>(translatedLinks);
+
+    function translate(input: string): string {
+        if (input in linksTranslations) return locale === 'fr' ? linksTranslations[input] : input;
+        return input;
+    }
 
     return (
-        <I18NContext.Provider value={{ locale, setLocale }}>
+        <I18NContext.Provider value={{ locale, setLocale, translate }}>
             <div className={classNames('sb-page', pageMeta.pageCssClasses)} data-sb-object-id={pageMeta.id}>
                 <div className="sb-base sb-default-base-layout">
                     <Head>

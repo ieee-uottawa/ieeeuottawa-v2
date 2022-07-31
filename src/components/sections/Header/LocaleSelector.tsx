@@ -4,8 +4,8 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select, { SelectChangeEvent } from '@mui/material/Select';
 import { theme } from "../../../../tailwind.config";
-import { I18NContext } from '../../../utils/i18Ncontext';
-const themeStyle = require('../../../../content/data/style.json');
+import { I18NContext } from '../../../context/i18Ncontext';
+import themeStyle from '../../../../content/data/style.json';
 
 
 export default function LocaleSelector() {

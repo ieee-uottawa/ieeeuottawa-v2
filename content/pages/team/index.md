@@ -2,13 +2,13 @@
 layout: PageLayout
 addTitleSuffix: true
 metaTags: []
-title: Team
+title: Execs
 sections:
   - type: HeroSection
     colors: colors-b
     elementId: ''
     backgroundSize: full
-    title: Team
+    title: Execs
     subtitle: >-
       Behind every successful student association is a team of committed
       volunteers who share the common goal of enhancing EECS students' life on

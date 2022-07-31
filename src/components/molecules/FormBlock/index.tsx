@@ -4,8 +4,11 @@ import classNames from 'classnames';
 
 import { getComponent } from '../../components-registry';
 import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to-class-names';
+import { I18NContext } from '../../../context/i18Ncontext';
 
 export default class FormBlock extends React.Component<any> {
+    static contextType = I18NContext;
+    
     state = {
         submitted: false,
         error: false
@@ -94,7 +97,7 @@ export default class FormBlock extends React.Component<any> {
                         className="sb-component sb-component-block sb-component-button sb-component-button-primary"
                         data-sb-field-path=".submitLabel"
                     >
-                        {submitLabel}
+                        {this.context.translate(submitLabel)}
                     </button>
                     {this.state.submitted && <p className="mt-8">Thank you, your message was sent.</p>}
                     {this.state.error && <p className="mt-8 text-info">Something went wrong, please try again.</p>}

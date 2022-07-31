@@ -9,9 +9,7 @@ presets:
       text: We’re local, seasonal fisherman, supporting fishing restrictions.
       actions:
         - type: Button
-          label:
-            en: Join adventure
-            fr: Rejoignez l'aventure
+          label: Join adventure
           showIcon: true
           icon: arrowRight
           style: secondary
@@ -49,9 +47,7 @@ presets:
       text: We’re local, seasonal fisherman, supporting fishing restrictions.
       actions:
         - type: Button
-          label:
-            en: Get started
-            fr: Démarrer
+          label: Get Started
           showIcon: true
           icon: arrowRight
           style: primary

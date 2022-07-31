@@ -55,9 +55,7 @@ sections:
           94107
         actions:
           - type: Button
-            label:
-              en: Learn more
-              fr: Lire plus
+            label: Learn More
             showIcon: true
             icon: arrowRight
             url: /
@@ -78,9 +76,7 @@ sections:
           94107
         actions:
           - type: Button
-            label:
-              en: Learn more
-              fr: Lire plus
+            label: Learn More
             showIcon: true
             icon: arrowRight
             url: /
@@ -101,9 +97,7 @@ sections:
           94107
         actions:
           - type: Button
-            label:
-              en: Learn more
-              fr: Lire plus
+            label: Learn More
             showIcon: true
             icon: arrowRight
             url: /
@@ -124,9 +118,7 @@ sections:
           94107
         actions:
           - type: Button
-            label:
-              en: Learn more
-              fr: Lire plus
+            label: Learn More
             showIcon: true
             icon: arrowRight
             url: /
@@ -147,9 +139,7 @@ sections:
           94107
         actions:
           - type: Button
-            label:
-              en: Learn more
-              fr: Lire plus
+            label: Learn More
             showIcon: true
             icon: arrowRight
             url: /
@@ -170,9 +160,7 @@ sections:
           94107
         actions:
           - type: Button
-            label:
-              en: Learn more
-              fr: Lire plus
+            label: Learn More
             showIcon: true
             icon: arrowRight
             url: /

@@ -9,9 +9,7 @@ presets:
       subtitle: ''
       actions:
         - type: Link
-          label:
-            en: See all adventures
-            fr: Voir toutes les aventures
+          label: See all adventures
           altText: See all adventures
           url: '/blog'
           showIcon: true
@@ -80,9 +78,7 @@ presets:
       subtitle: ''
       actions:
         - type: Link
-          label:
-            en: See all adventures
-            fr: Voir toutes les aventures
+          label: See all adventures
           altText: See all adventures
           url: '/blog'
           showIcon: true
@@ -123,9 +119,7 @@ presets:
       subtitle: ''
       actions:
         - type: Link
-          label:
-            en: See all adventures
-            fr: Voir toutes les aventures
+          label: See all adventures
           altText: See all adventures
           url: '/blog'
           showIcon: true

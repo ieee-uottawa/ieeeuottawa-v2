@@ -30,16 +30,12 @@ fields:
           itae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
         actions:
           - type: Button
-            label:
-              en: Get Started
-              fr: Démarrer
+            label: Get Started
             url: '/'
             style: primary
             elementId: hero-main-button
           - type: Button
-            label:
-              en: Learn More
-              fr: Lire plus
+            label: Learn More
             url: '/'
             style: secondary
         media:

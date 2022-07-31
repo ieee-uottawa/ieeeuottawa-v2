@@ -7,13 +7,13 @@ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import { Action } from "../../atoms";
 import classNames from "classnames";
 import { theme } from "../../../../tailwind.config";
-import { I18NContext } from "../../../utils/i18Ncontext";
+import { I18NContext } from "../../../context/i18Ncontext";
 
 const themeStyle = require('../../../../content/data/style.json');
 
 
 export default function DropdownLink(props) {
-    const { locale } = useContext(I18NContext);
+    const { translate } = useContext(I18NContext);
     const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
     const open = Boolean(anchorEl);
 
@@ -62,7 +62,7 @@ export default function DropdownLink(props) {
                     padding: '0',
                 }}
             >
-                <span>{locale === 'en' ? label.en : label.fr}</span>
+                <span>{translate(label)}</span>
             </Button>
             <Menu
                 id="fade-menu"

@@ -62,9 +62,7 @@ fields:
         - Link
     default:
       - type: Button
-        label:
-          en: View all
-          fr: Tout voir
+        label: View all
         url: '/'
         style: primary
   - type: style

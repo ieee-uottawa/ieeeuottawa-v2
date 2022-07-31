@@ -7,9 +7,7 @@ presets:
       backgroundImage:
       actions:
         - type: Button
-          label:
-            en: Try it now
-            fr: Essayez maintenant
+          label: Try it now
           showIcon: true
           icon: arrowRight
           url: '/'
@@ -39,9 +37,7 @@ presets:
       backgroundImage:
       actions:
         - type: Button
-          label:
-            en: Try it now
-            fr: Essayez maintenant
+          label: Try it now
           showIcon: true
           icon: arrowRight
           url: '/'
@@ -71,17 +67,13 @@ presets:
       backgroundImage:
       actions:
         - type: Button
-          label:
-            en: Try it now
-            fr: Essayez maintenant
+          label: Try it now
           url: '/'
           showIcon: true
           icon: arrowRight
           style: primary
         - type: Link
-          label:
-            en: Learn more
-            fr: Lire plus
+          label: Learn more
           showIcon: true
           icon: arrowRight
           url: '/'

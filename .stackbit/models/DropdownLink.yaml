@@ -1,13 +1,12 @@
 type: object
 name: DropdownLink
 label: Dropdown Link
+labelField: label
 fields:
-  - type: Label
+  - type: string
     name: label
     label: Label
-    default:
-      en: More
-      fr: Plus
+    default: More
   - type: string
     name: altText
     label: Alt text

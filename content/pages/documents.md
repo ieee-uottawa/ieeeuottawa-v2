@@ -57,9 +57,7 @@ sections:
           accountability procedures.
         actions:
           - type: Button
-            label:
-              en: Learn more
-              fr: Lire plus
+            label: Learn More
             showIcon: true
             icon: arrowRight
             url: /
@@ -76,9 +74,7 @@ sections:
           must be followed at all times in and out of IEEE premises.
         actions:
           - type: Button
-            label:
-              en: Learn more
-              fr: Lire plus
+            label: Learn More
             showIcon: true
             icon: arrowRight
             url: /
@@ -95,9 +91,7 @@ sections:
           comes back around to benefit their university experience.
         actions:
           - type: Button
-            label:
-              en: Learn more
-              fr: Lire plus
+            label: Learn More
             showIcon: true
             icon: arrowRight
             url: /
@@ -140,9 +134,7 @@ sections:
         title: IEEE Executive Meeting Minutes
         actions:
           - type: Button
-            label:
-              en: View
-              fr: Voir
+            label: View
             altText: ''
             url: /
             showIcon: true
@@ -158,9 +150,7 @@ sections:
         title: IEEE Executive Meeting Minutes
         actions:
           - type: Button
-            label:
-              en: View
-              fr: Voir
+            label: View
             showIcon: true
             icon: arrowRight
             url: /
@@ -173,9 +163,7 @@ sections:
         title: IEEE Executive Meeting Minutes
         actions:
           - type: Button
-            label:
-              en: View
-              fr: Voir
+            label: View
             showIcon: true
             icon: arrowRight
             url: /
@@ -188,9 +176,7 @@ sections:
         title: IEEE Executive Meeting Minutes
         actions:
           - type: Button
-            label:
-              en: View
-              fr: Voir
+            label: View
             showIcon: true
             icon: arrowRight
             url: /
@@ -203,9 +189,7 @@ sections:
         title: IEEE Executive Meeting Minutes
         actions:
           - type: Button
-            label:
-              en: View
-              fr: Voir
+            label: View
             showIcon: true
             icon: arrowRight
             url: /
@@ -218,9 +202,7 @@ sections:
         title: IEEE Executive Meeting Minutes
         actions:
           - type: Button
-            label:
-              en: View
-              fr: Voir
+            label: View
             showIcon: true
             icon: arrowRight
             url: /
@@ -233,9 +215,7 @@ sections:
         title: IEEE Executive Meeting Minutes
         actions:
           - type: Button
-            label:
-              en: View
-              fr: Voir
+            label: View
             showIcon: true
             icon: arrowRight
             url: /
@@ -248,9 +228,7 @@ sections:
         title: IEEE Executive Meeting Minutes
         actions:
           - type: Button
-            label:
-              en: View
-              fr: Voir
+            label: View
             showIcon: true
             icon: arrowRight
             url: /
@@ -263,9 +241,7 @@ sections:
         title: IEEE Executive Meeting Minutes
         actions:
           - type: Button
-            label:
-              en: View
-              fr: Voir
+            label: View
             showIcon: true
             icon: arrowRight
             url: /
@@ -278,9 +254,7 @@ sections:
         title: IEEE Executive Meeting Minutes
         actions:
           - type: Button
-            label:
-              en: View
-              fr: Voir
+            label: View
             showIcon: true
             icon: arrowRight
             url: /
@@ -293,9 +267,7 @@ sections:
         title: IEEE Executive Meeting Minutes
         actions:
           - type: Button
-            label:
-              en: View
-              fr: Voir
+            label: View
             showIcon: true
             icon: arrowRight
             url: /
@@ -308,9 +280,7 @@ sections:
         title: IEEE Executive Meeting Minutes
         actions:
           - type: Button
-            label:
-              en: View
-              fr: Voir
+            label: View
             showIcon: true
             icon: arrowRight
             url: /

@@ -23,18 +23,14 @@ sections:
     subtitle: Brought to you by the best uOttawa sub-association on campus.
     actions:
       - type: Button
-        label:
-          en: Learn More
-          fr: Lire plus
+        label: Learn More
         url: /about
         style: primary
         iconPosition: right
         icon: arrowRight
         showIcon: true
       - type: Button
-        label:
-          en: Get Involved
-          fr: Impliquez-vous
+        label: Get Involved
         altText: ''
         url: '/about/#get-involved'
         showIcon: false
@@ -184,9 +180,7 @@ sections:
       fiercely represent your IEEE-ness!
     actions:
       - type: Button
-        label:
-          en: Shop
-          fr: Magasin
+        label: Shop
         altText: Shop now button
         url: 'https://ieee-uottawa.square.site/'
         showIcon: true

@@ -57,15 +57,11 @@ fields:
         - Link
     default:
       - type: Button
-        label:
-          en: Apply Now
-          fr: Appliquez maintenant
+        label: Apply Now
         url: '#'
         style: primary
       - type: Button
-        label:
-          en: Learn More
-          fr: Lire plus
+        label: Learn More
         url: '#'
         style: secondary
   - type: number

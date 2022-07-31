@@ -2,11 +2,11 @@ import * as React from 'react';
 import classNames from 'classnames';
 import Link from '../Link';
 import { iconMap } from '../../svgs';
-import { I18NContext } from '../../../utils/i18Ncontext';
 import { useContext } from 'react';
+import { I18NContext } from '../../../context/i18Ncontext';
 
 export default function Action(props) {
-    const { locale } = useContext(I18NContext);
+    const { translate } = useContext(I18NContext);
     const {
         type,
         elementId,
@@ -55,7 +55,7 @@ export default function Action(props) {
             )}
             {...annotations}
         >
-            {label && <span>{locale === 'en' ? label.en : label.fr}</span>}
+            {label && <span>{translate(label)}</span>}
             {showIcon && IconComponent && (
                 <IconComponent
                     className={classNames('fill-current h-5 w-5', {
