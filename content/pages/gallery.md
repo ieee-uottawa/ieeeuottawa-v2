@@ -15,7 +15,6 @@ sections:
     text: >
       Explore immortalized memories that were made possible thanks to IEEE uOttawa.
     actions: []
-    media: null
     styles:
       self:
         height: auto

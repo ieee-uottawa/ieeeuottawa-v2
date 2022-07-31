@@ -15,7 +15,7 @@
                     "fr": "Accueil"
                 },
                 "url": "/",
-                "altText": ""
+                "altText": "Home"
             },
             {
                 "type": "DropdownLink",
@@ -31,7 +31,7 @@
                             "fr": "Qui sommes-nous"
                         },
                         "url": "/about",
-                        "altText": ""
+                        "altText": "About"
                     },
                     {
                         "type": "Link",
@@ -40,7 +40,7 @@
                             "fr": "Centre McNaughton"
                         },
                         "url": "/mcnaughton-centre",
-                        "altText": ""
+                        "altText": "McNaughton Centre"
                     },
                     {
                         "type": "Link",
@@ -48,7 +48,7 @@
                             "en": "WIE",
                             "fr": "WIE"
                         },
-                        "altText": "Link to WIE website",
+                        "altText": "WIE",
                         "url": "https://celebratewie.ca/",
                         "showIcon": false,
                         "icon": "arrowRight",
@@ -61,12 +61,11 @@
                             "en": "Shop",
                             "fr": "Magasin"
                         },
-                        "altText": "Link to square shop site",
+                        "altText": "Shop Merch",
                         "url": "https://ieee-uottawa.square.site/",
                         "showIcon": false,
                         "icon": "arrowRight",
                         "iconPosition": "right",
-                        "style": "primary",
                         "elementId": ""
                     }
                 ]
@@ -187,7 +186,7 @@
                         "iconPosition": "right",
                         "elementId": ""
                     }
-                ]                
+                ]
             }
         ],
         "secondaryLinks": [
@@ -315,12 +314,18 @@
         "legalLinks": [
             {
                 "type": "Link",
-                "label": "Privacy Policy",
+                "label": {
+                    "en": "Privacy Policy",
+                    "fr": "Politique de confidentialité"
+                },
                 "url": "/"
             },
             {
                 "type": "Link",
-                "label": "Terms & Conditions",
+                "label": {
+                    "en": "Terms & Conditions",
+                    "fr": "Termes et conditions"
+                },
                 "url": "/"
             }
         ],

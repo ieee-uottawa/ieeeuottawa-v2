@@ -15,12 +15,12 @@ sections:
       campus.
     text: ''
     actions: []
-    media: null
     backgroundImage:
-      type: ImageBlock
+      type: BackgroundImage
       url: /images/santa.JPG
       backgroundSize: cover
       backgroundPosition: center
+      backgroundRepeat: no-repeat
       opacity: 20
     styles:
       self:

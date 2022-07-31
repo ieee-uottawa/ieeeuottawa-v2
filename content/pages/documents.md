@@ -15,12 +15,12 @@ sections:
       IEEE’s most important documents!
 
     actions: []
-    media: null
     backgroundImage:
-      type: ImageBlock
+      type: BackgroundImage
       url: /images/pexels-fauxels-3183150.jpg
       backgroundSize: cover
       backgroundPosition: center
+      backgroundRepeat: no-repeat
       opacity: 25
     styles:
       self:

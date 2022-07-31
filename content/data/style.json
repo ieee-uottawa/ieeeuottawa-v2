@@ -80,7 +80,5 @@
         "case": "none",
         "letterSpacing": "normal"
     },
-    "fontBody": "fontSecondary",
-    "fontPrimary": ["Space Grotesk", "sans-serif"],
-    "fontSecondary": ["Roboto Mono", "monospace"]
+    "fontBody": "fontSecondary"
 }

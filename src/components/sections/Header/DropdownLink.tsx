@@ -12,7 +12,7 @@ import { I18NContext } from "../../../utils/i18Ncontext";
 const themeStyle = require('../../../../content/data/style.json');
 
 
-export default function DropdownLink({ label, dropdownLinks, inMobileMenu }) {
+export default function DropdownLink(props) {
     const { locale } = useContext(I18NContext);
     const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
     const open = Boolean(anchorEl);
@@ -25,8 +25,24 @@ export default function DropdownLink({ label, dropdownLinks, inMobileMenu }) {
         setAnchorEl(null);
     };
     
+    const {
+        label,
+        dropdownLinks,
+        inMobileMenu,
+        'data-sb-field-path': fieldPath
+    } = props;
+
+    const annotations = fieldPath ? {
+        'data-sb-field-path': [
+            fieldPath,
+            `dropdownLinks`
+        ]
+            .join('.')
+            .trim()
+    } : {};
+
     return (
-        <div>
+        <div {...annotations}>
             <Button
                 id="fade-button"
                 aria-controls={open ? 'fade-menu' : undefined}
@@ -71,7 +87,7 @@ export default function DropdownLink({ label, dropdownLinks, inMobileMenu }) {
                             ...theme.extend['sb-component-link'],
                         }}
                     >
-                        <Action {...link} className={classNames(inMobileMenu && link.type === 'Button' ? 'w-full' : '')} data-sb-field-path={`.${index}`} />
+                        <Action {...link} className={classNames(inMobileMenu && link.type === 'Button' ? 'w-full' : '')} data-sb-field-path={`${index}`}/>
                     </MenuItem>
                 ))}
             </Menu>

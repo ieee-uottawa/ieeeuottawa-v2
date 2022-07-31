@@ -15,7 +15,6 @@ sections:
     text: |
       Checkout our upcoming events and our past events!
     actions: []
-    media: null
     styles:
       self:
         height: auto

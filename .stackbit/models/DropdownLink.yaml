@@ -1,7 +1,6 @@
 type: object
 name: DropdownLink
-label: Super Link
-labelField: label
+label: Dropdown Link
 fields:
   - type: Label
     name: label

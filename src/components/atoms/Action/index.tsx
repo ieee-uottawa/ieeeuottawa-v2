@@ -35,7 +35,7 @@ export default function Action(props) {
                 .trim()
         }
         : {};
-
+    
     const getLink = () => (
         <Link
             href={url}

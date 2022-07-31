@@ -12,7 +12,6 @@ sections:
       University of Ottawa and the official Sub-Association for ELG/CEG/SEG
       under the ESS.
     actions: []
-    media: null
     styles:
       self:
         height: auto
@@ -51,7 +50,6 @@ sections:
       includes accommodating students with access to up-to-date equipment,
       internet access, textbooks and a quiet work environment.
     actions: []
-    backgroundImage: null
     styles:
       self:
         height: auto
@@ -194,10 +192,11 @@ sections:
         style: primary
         url: /
     backgroundImage:
-      type: ImageBlock
+      type: BackgroundImage
       url: /images/IEEE WIE.png
       backgroundSize: cover
       backgroundPosition: center
+      backgroundRepeat: no-repeat
       opacity: 100
     styles:
       self:
@@ -236,7 +235,6 @@ sections:
           https://docs.google.com/forms/d/e/1FAIpQLSfIdHz-ORmtsCgjEp2WpOV5ssXaC60nNpFzAY_qeRH4f7uX1w/viewform
         style: primary
         altText: Link to volunteer signup google form
-    backgroundImage: null
     styles:
       self:
         height: auto

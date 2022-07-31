@@ -1,15 +1,15 @@
 type: object
 name: Label
 label: Label
-labelField: label
+labelField: en
 fields:
   - type: string
     name: en
-    label: Label
+    label: EN
     default: Text
     required: true
   - type: string
     name: fr
-    label: Nom
+    label: FR
     default: Texte
     required: true
