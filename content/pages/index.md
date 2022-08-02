@@ -32,7 +32,7 @@ sections:
       - type: Button
         label: Get Involved
         altText: ''
-        url: '/about/#get-involved'
+        url: /about/#get-involved
         showIcon: false
         icon: arrowRight
         iconPosition: right
@@ -66,7 +66,7 @@ sections:
       actions:
         justifyContent: flex-start
   - type: FeaturedItemsSection
-    colors: colors-d
+    colors: colors-b
     elementId: ''
     title: Come to our office
     subtitle: '800 King Edward Ave, Ottawa, ON K1N 6N5, Room 4026'
@@ -172,7 +172,7 @@ sections:
       actions:
         justifyContent: flex-start
   - type: FeatureHighlightSection
-    colors: colors-d
+    colors: colors-b
     backgroundSize: full
     title: Shop our merch
     text: >
@@ -219,7 +219,7 @@ sections:
       actions:
         justifyContent: flex-start
   - type: ContactSection
-    colors: colors-d
+    colors: colors-b
     title: Get in touch
     text: >
       Got a question? Event suggestions? Feedback? We want to hear it! Send us a

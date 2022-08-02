@@ -10,15 +10,19 @@ import MenuIcon from '../../svgs/menu';
 import DropdownLink from './DropdownLink';
 import LocaleSelector from './LocaleSelector';
 import ModeSwitcher from './ModeSwitcher';
+import { DisplayModeContext } from '../../../context/displayMode';
+import { getMatchingColor } from '../../../utils/themeColorMapper';
 
 export default function Header(props) {
     const { isSticky, primaryColors = 'colors-d', styles = {}, annotationPrefix, ...rest } = props;
+    const { displayMode } = React.useContext(DisplayModeContext);
+
     return (
         <header
             className={classNames(
                 'sb-component',
                 'sb-component-header',
-                primaryColors,
+                getMatchingColor(displayMode, primaryColors),
                 styles.self?.padding ?? 'py-5 px-4',
                 isSticky ? 'sticky top-0 z-10' : 'relative'
             )}

@@ -266,7 +266,7 @@
             @apply border-on-dark text-on-dark hover:bg-light hover:border-primary hover:text-primary;
         }
         .sb-card {
-            @apply bg-light text-on-light;
+            @apply bg-dark text-on-dark;
         }
         .sb-component-item-hover {
             @apply hover:bg-light hover:text-on-light;

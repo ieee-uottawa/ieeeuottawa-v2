@@ -3,7 +3,7 @@ title: About
 layout: PageLayout
 sections:
   - type: HeroSection
-    colors: colors-b
+    colors: colors-e
     elementId: ''
     backgroundSize: full
     title: About
@@ -40,7 +40,7 @@ sections:
       backgroundRepeat: no-repeat
       opacity: 20
   - type: HeroSection
-    colors: colors-d
+    colors: colors-b
     elementId: ''
     backgroundSize: full
     title: Mission Statement
@@ -77,7 +77,7 @@ sections:
       caption: Caption of the image
       elementId: ''
   - type: FeaturedItemsSection
-    colors: colors-c
+    colors: colors-e
     elementId: ''
     title: What We Offer
     subtitle: ''
@@ -172,7 +172,7 @@ sections:
       actions:
         justifyContent: flex-start
   - type: FeatureHighlightSection
-    colors: colors-d
+    colors: colors-b
     elementId: ''
     backgroundSize: full
     title: WIE Affinity Group

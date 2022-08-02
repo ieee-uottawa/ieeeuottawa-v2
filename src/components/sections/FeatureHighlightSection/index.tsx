@@ -4,6 +4,8 @@ import classNames from 'classnames';
 
 import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to-class-names';
 import { Action, BackgroundImage } from '../../atoms';
+import { DisplayModeContext } from '../../../context/displayMode';
+import { getMatchingColor } from '../../../utils/themeColorMapper';
 
 export default function FeatureHighlightSection(props) {
     const { backgroundSize = 'full', ...rest } = props;
@@ -16,6 +18,8 @@ export default function FeatureHighlightSection(props) {
 
 function FeatureHighlightSectionInset(props) {
     const { elementId, colors = 'colors-d', backgroundImage, title, subtitle, text, actions, styles = {}, 'data-sb-field-path': fieldPath } = props;
+    const { displayMode } = React.useContext(DisplayModeContext);
+
     return (
         <div
             id={elementId || null}
@@ -31,7 +35,7 @@ function FeatureHighlightSectionInset(props) {
         >
             <div
                 className={classNames(
-                    colors,
+                    getMatchingColor(displayMode, colors),
                     'flex',
                     'flex-col',
                     'items-center',
@@ -61,6 +65,8 @@ function FeatureHighlightSectionInset(props) {
 
 function FeatureHighlightSectionFullWidth(props) {
     const { elementId, colors, backgroundImage, title, subtitle, text, actions, styles = {}, 'data-sb-field-path': fieldPath } = props;
+    const { displayMode } = React.useContext(DisplayModeContext);
+
     return (
         <div
             id={elementId || null}
@@ -68,7 +74,7 @@ function FeatureHighlightSectionFullWidth(props) {
                 'sb-component',
                 'sb-component-section',
                 'sb-component-feature-highlight-section',
-                colors,
+                getMatchingColor(displayMode, colors),
                 'flex',
                 'flex-col',
                 'items-center',

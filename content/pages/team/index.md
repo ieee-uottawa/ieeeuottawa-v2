@@ -5,7 +5,7 @@ metaTags: []
 title: Execs
 sections:
   - type: HeroSection
-    colors: colors-b
+    colors: colors-e
     elementId: ''
     backgroundSize: full
     title: Execs

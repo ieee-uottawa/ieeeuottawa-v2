@@ -8,7 +8,7 @@ metaTags: []
 title: Gallery
 sections:
   - type: HeroSection
-    colors: colors-b
+    colors: colors-e
     elementId: ''
     backgroundSize: full
     title: Gallery
