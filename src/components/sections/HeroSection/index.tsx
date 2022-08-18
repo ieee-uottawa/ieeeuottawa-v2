@@ -49,7 +49,7 @@ export default function HeroSection(props) {
                 })}
             >
                 <div className="flex-1 w-full">
-                    <HeroBody title={locale === 'fr' && titleFr ? titleFr : title} subtitle={locale === 'fr' && subtitleFr ? subtitleFr : subtitle} text={locale === 'fr' && textFr ? textFr : text} styles={styles} />
+                    <HeroBody title={locale === 'fr' && titleFr ? titleFr : title} subtitle={locale === 'fr' && subtitleFr ? subtitleFr : subtitle} text={locale === 'fr' && textFr ? textFr : text} styles={styles} locale={locale} />
                     <HeroActions actions={actions} styles={styles.actions} hasTopMargin={!!(title || subtitle || text)} />
                 </div>
                 {media && (
@@ -75,18 +75,18 @@ function HeroMedia({ media }) {
 }
 
 function HeroBody(props) {
-    const { title, subtitle, text, styles = {} } = props;
+    const { title, subtitle, text, styles = {}, locale } = props;
     return (
         <>
             {title && (
-                <h2 className={classNames('h1', styles.title ? mapStyles(styles.title) : null)} data-sb-field-path=".title">
+                <h2 className={classNames('h1', styles.title ? mapStyles(styles.title) : null)} data-sb-field-path={locale === 'fr' ? ".titleFr" : ".title"}>
                     {title}
                 </h2>
             )}
             {subtitle && (
                 <p
                     className={classNames('text-xl', 'sm:text-2xl', styles.subtitle ? mapStyles(styles.subtitle) : null, { 'mt-4': title })}
-                    data-sb-field-path=".subtitle"
+                    data-sb-field-path={locale === 'fr' ? ".subtitleFr" : ".subtitle"}
                 >
                     {subtitle}
                 </p>
@@ -97,7 +97,7 @@ function HeroBody(props) {
                     className={classNames('sb-markdown', 'sm:text-lg', styles.text ? mapStyles(styles.text) : null, {
                         'mt-6': title || subtitle
                     })}
-                    data-sb-field-path=".text"
+                    data-sb-field-path={locale === 'fr' ? ".textFr" : ".text"}
                 >
                     {text}
                 </Markdown>

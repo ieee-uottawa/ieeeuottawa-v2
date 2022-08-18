@@ -86,31 +86,40 @@ sections:
     colors: colors-e
     elementId: ''
     title: What We Offer
+    titleFr: À votre disposition
     subtitle: ''
+    subtitleFr: ''
     items:
       - type: FeaturedItem
         title: Mentorship
+        titleFr: Mentorat
         text: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
-          lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
-          pharetra ipsum dolor, et iaculis elit ornare ac.
+          Led by our Women In Engineering (WIE) chapter, Big Eng Little Eng is a mentorship program that pair first year students with upper year students to ease them into their new university life.
+        textFr: >-
+          Dirigé par notre chapitre Women In Engineering (WIE), Big Eng Little Eng est un programme de mentorat qui jumelle des étudiants de première année avec des étudiants de niveau supérieur pour les aider à s'intégrer dans leur nouvelle vie universitaire.
         actions: []
         styles:
           self:
             textAlign: left
       - type: FeaturedItem
         title: Quiet Study Place
+        titleFr: Lieu d'étude calme
         text: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
-          lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
-          pharetra ipsum dolor, et iaculis elit ornare ac.
+          Need a chill place to study? Come make use of our library and study in the office anytime we are open. Check out our office hours to see when we're open.
+        textFr: >-
+          Vous avez besoin d'un endroit calme pour étudier ? Venez profiter de notre bibliothèque et étudiez dans le bureau quand nous sommes ouverts. Consultez nos horaires de bureau pour savoir quand nous sommes ouverts.
         actions: []
         styles:
           self:
             textAlign: left
       - type: FeaturedItem
         title: Networking Opportunities
+        titleFr: Opportunités de réseautage
         text: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
+          lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
+          pharetra ipsum dolor, et iaculis elit ornare ac.
+        textFr: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
           lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
           pharetra ipsum dolor, et iaculis elit ornare ac.
@@ -121,8 +130,12 @@ sections:
       - type: FeaturedItem
         elementId: ''
         title: Dry Lab Access
-        subtitle: ''
+        titleFr: Accès à un laboratoire sec
         text: >-
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+          explicabo.
+        textFr: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
           explicabo.
@@ -133,8 +146,12 @@ sections:
       - type: FeaturedItem
         elementId: ''
         title: Academic Help
-        subtitle: ''
+        titleFr: Aide académique
         text: >-
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+          explicabo.
+        textFr: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
           explicabo.
@@ -145,8 +162,12 @@ sections:
       - type: FeaturedItem
         elementId: ''
         title: Cool EECS Merch
-        subtitle: ''
+        titleFr: Articles cool EECS
         text: >-
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+          explicabo.
+        textFr: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
           explicabo.

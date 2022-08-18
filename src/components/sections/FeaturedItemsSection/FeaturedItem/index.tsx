@@ -5,11 +5,19 @@ import Markdown from 'markdown-to-jsx';
 import { mapStylesToClassNames as mapStyles } from '../../../../utils/map-styles-to-class-names';
 import Action from '../../../atoms/Action';
 import ImageBlock from '../../../molecules/ImageBlock';
+import { useContext } from 'react';
+import { I18NContext } from '../../../../context/i18Ncontext';
 
 export default function FeaturedItem(props) {
-    const { elementId, title, subtitle, text, featuredImage, actions = [], enableHover, styles = {}, 'data-sb-field-path': fieldPath } = props;
+    const { elementId, title, titleFr, subtitle, subtitleFr, text, textFr, featuredImage, actions = [], enableHover, styles = {}, 'data-sb-field-path': fieldPath } = props;
     const { self = {} } = styles;
     const { borderWidth, ...otherSelfStyles } = self;
+    const { locale } = useContext(I18NContext);
+    
+    const getTitle = () => locale === 'fr' && titleFr ? titleFr : title;
+    const getSubtitle = () => locale === 'fr' && subtitleFr ? subtitleFr : subtitle;
+    const getText = () => locale === 'fr' && textFr ? textFr : text;
+
     return (
         <article
             id={elementId || null}
@@ -31,13 +39,13 @@ export default function FeaturedItem(props) {
                 </div>
             )}
             {title && (
-                <h3 className={classNames(styles.title ? mapStyles(styles.title) : null)} data-sb-field-path=".title">
-                    {title}
+                <h3 className={classNames(styles.title ? mapStyles(styles.title) : null)} data-sb-field-path={locale === 'fr' ? ".titleFr" : "title"}>
+                    {getTitle()}
                 </h3>
             )}
             {subtitle && (
-                <p className={classNames('text-lg', styles.subtitle ? mapStyles(styles.subtitle) : null, { 'mt-1': title })} data-sb-field-path=".subtitle">
-                    {subtitle}
+                <p className={classNames('text-lg', styles.subtitle ? mapStyles(styles.subtitle) : null, { 'mt-1': title })} data-sb-field-path={locale === 'fr' ? ".subtitleFr" : "subtitle"}>
+                    {getSubtitle()}
                 </p>
             )}
             {text && (
@@ -46,9 +54,9 @@ export default function FeaturedItem(props) {
                     className={classNames('sb-markdown', {
                         'mt-4': title || subtitle
                     })}
-                    data-sb-field-path=".text"
+                    data-sb-field-path={locale === 'fr' ? ".textFr" : ".text"}
                 >
-                    {text}
+                    {getText()}
                 </Markdown>
             )}
             <ItemActions actions={actions} textAlign={otherSelfStyles.textAlign} hasTopMargin={!!(title || subtitle || text)} />

@@ -5,6 +5,8 @@ import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to
 import Section from '../Section';
 import Action from '../../atoms/Action';
 import FeaturedItem from './FeaturedItem';
+import { useContext } from 'react';
+import { I18NContext } from '../../../context/i18Ncontext';
 
 export default function FeaturedItemsSection(props) {
     const {
@@ -12,7 +14,9 @@ export default function FeaturedItemsSection(props) {
         elementId,
         colors,
         title,
+        titleFr,
         subtitle,
+        subtitleFr,
         actions = [],
         items = [],
         columns = 3,
@@ -22,11 +26,15 @@ export default function FeaturedItemsSection(props) {
         styles = {},
         'data-sb-field-path': fieldPath
     } = props;
+    const { locale } = useContext(I18NContext);
+    const getTitle = () => locale === 'fr' && titleFr ? titleFr : title;
+    const getSubtitle = () => locale === 'fr' && subtitleFr ? subtitleFr : subtitle;
+
     return (
         <Section type={type} elementId={elementId} colors={colors} styles={styles.self} data-sb-field-path={fieldPath}>
             {title && (
-                <h2 className={classNames(styles.title ? mapStyles(styles.title) : null)} data-sb-field-path=".title">
-                    {title}
+                <h2 className={classNames(styles.title ? mapStyles(styles.title) : null)} data-sb-field-path={locale === 'fr' ? ".titleFr" : ".title"}>
+                    {getTitle()}
                 </h2>
             )}
             {subtitle && (
@@ -34,9 +42,9 @@ export default function FeaturedItemsSection(props) {
                     className={classNames('text-lg', 'sm:text-xl', styles.subtitle ? mapStyles(styles.subtitle) : null, {
                         'mt-6': title
                     })}
-                    data-sb-field-path=".subtitle"
+                    data-sb-field-path={locale === 'fr' ? ".subtitleFr" : ".subtitle"}
                 >
-                    {subtitle}
+                    {getSubtitle()}
                 </p>
             )}
             <FeaturedItemsActions actions={actions} styles={styles.actions} hasTopMargin={!!(title || subtitle)} />

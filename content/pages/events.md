@@ -53,7 +53,11 @@ sections:
     items:
       - type: FeaturedItem
         title: WIE Tech Panel
+        titleFr: Panel de Tech par WIE
         text: >
+          **Bottom of the Hill**<br>1233 Seventeenth St.<br>San Francisco, CA
+          94107
+        textFr: >
           **Bottom of the Hill**<br>1233 Seventeenth St.<br>San Francisco, CA
           94107
         actions:
@@ -74,7 +78,11 @@ sections:
           elementId: ''
       - type: FeaturedItem
         title: WIE Tech Panel
+        titleFr: Panel de Tech par WIE
         text: >
+          **Bottom of the Hill**<br>1233 Seventeenth St.<br>San Francisco, CA
+          94107
+        textFr: >
           **Bottom of the Hill**<br>1233 Seventeenth St.<br>San Francisco, CA
           94107
         actions:
@@ -95,7 +103,11 @@ sections:
           elementId: ''
       - type: FeaturedItem
         title: WIE Tech Panel
+        titleFr: Panel de Tech par WIE
         text: >
+          **Bottom of the Hill**<br>1233 Seventeenth St.<br>San Francisco, CA
+          94107
+        textFr: >
           **Bottom of the Hill**<br>1233 Seventeenth St.<br>San Francisco, CA
           94107
         actions:
@@ -116,7 +128,11 @@ sections:
           elementId: ''
       - type: FeaturedItem
         title: WIE Tech Panel
+        titleFr: Panel de Tech par WIE
         text: >
+          **Bottom of the Hill**<br>1233 Seventeenth St.<br>San Francisco, CA
+          94107
+        textFr: >
           **Bottom of the Hill**<br>1233 Seventeenth St.<br>San Francisco, CA
           94107
         actions:
@@ -137,7 +153,11 @@ sections:
           elementId: ''
       - type: FeaturedItem
         title: WIE Tech Panel
+        titleFr: Panel de Tech par WIE
         text: >
+          **Bottom of the Hill**<br>1233 Seventeenth St.<br>San Francisco, CA
+          94107
+        textFr: >
           **Bottom of the Hill**<br>1233 Seventeenth St.<br>San Francisco, CA
           94107
         actions:
@@ -158,7 +178,11 @@ sections:
           elementId: ''
       - type: FeaturedItem
         title: WIE Tech Panel
+        titleFr: Panel de Tech par WIE
         text: >
+          **Bottom of the Hill**<br>1233 Seventeenth St.<br>San Francisco, CA
+          94107
+        textFr: >
           **Bottom of the Hill**<br>1233 Seventeenth St.<br>San Francisco, CA
           94107
         actions:
