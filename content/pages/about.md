@@ -7,10 +7,13 @@ sections:
     elementId: ''
     backgroundSize: full
     title: About
+    titleFr: À propos
     text: >
       The IEEE uOttawa Student Branch is the official student branch for the
       University of Ottawa and the official Sub-Association for ELG/CEG/SEG
       under the ESS.
+    textFr: >
+      La branche étudiante de l'IEEE uOttawa est la branche étudiante officielle de l'Université d'Ottawa et la sous-association officielle pour les ELG/CEG/SEG dans le cadre de l'AEG (Association des étudiants en génie).
     actions: []
     styles:
       self:
@@ -44,11 +47,14 @@ sections:
     elementId: ''
     backgroundSize: full
     title: Mission Statement
+    titleFr: Notre mission
     text: >
       The University of Ottawa’s IEEE Student Branch was established to provide
       professional services to improve each student’s experience on campus. This
       includes accommodating students with access to up-to-date equipment,
       internet access, textbooks and a quiet work environment.
+    textfr: >
+      La branche étudiante IEEE de l'Université d'Ottawa a été établie pour fournir des services professionnels afin d'améliorer l'expérience de chaque étudiant sur le campus. Ceci inclut l'accommodation des étudiants avec l'accès à un équipement à jour, l'accès à l'internet, les manuels scolaires et un environnement de travail tranquille.
     actions: []
     styles:
       self:

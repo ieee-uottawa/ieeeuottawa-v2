@@ -31,7 +31,7 @@ export default function DefaultBaseLayout(props) {
                 <div className={classNames('sb-page', pageMeta.pageCssClasses)} data-sb-object-id={pageMeta.id}>
                     <div className="sb-base sb-default-base-layout">
                         <Head>
-                            <title>{title}</title>
+                            <title>IEEE uOttawa - {title}</title>
                             {metaDescription && <meta name="description" content={metaDescription} />}
                             {metaTags.map((metaTag) => {
                             if (metaTag.format === 'property' ) {

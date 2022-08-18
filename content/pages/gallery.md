@@ -14,6 +14,8 @@ sections:
     title: Gallery
     text: >
       Explore immortalized memories that were made possible thanks to IEEE uOttawa.
+    textFr: >
+      Explorez des souvenirs immortalisés en photos qui ont été rendus possibles grâce à IEEE uOttawa.
     actions: []
     styles:
       self:

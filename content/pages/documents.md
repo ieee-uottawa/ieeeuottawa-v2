@@ -9,11 +9,11 @@ sections:
     elementId: ''
     backgroundSize: full
     title: Documents
-    text: >+
-      Want to know more about the IEEE’s constitution? Curious about our
-      internal operations? You've come to the right place to access all the
-      IEEE’s most important documents!
-
+    titleFr: Documents
+    text: >
+      On this page, you will find supporting documentation detailing the branch's operations such as the constitution, code of conduct, budget, and meeting minutes.
+    textFr: >
+      Sur cette page, vous trouverez des documents détaillant le fonctionnement de la branche, tels que la constitution, le code de conduite, le budget et les procès-verbaux des réunions.
     actions: []
     backgroundImage:
       type: BackgroundImage

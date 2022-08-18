@@ -36,8 +36,10 @@ presets:
       sections:
         - type: HeroSection
           colors: colors-d
-          title: We do fishing differently
+          title: This Is a Big Hero Headline
+          titleFr: Ceci est un grand titre de page
           subtitle: Fresh. Better. Faster.
+          subtitleFr: Frais. Meilleur. Plus rapide.
           actions:
             - type: Button
               label: Get Started

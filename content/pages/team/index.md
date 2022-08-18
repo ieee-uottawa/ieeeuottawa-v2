@@ -13,6 +13,8 @@ sections:
       Behind every successful student association is a team of committed
       volunteers who share the common goal of enhancing EECS students' life on
       campus.
+    subtitleFr: >-
+      Chaque association étudiante efficace repose sur une équipe de bénévoles engagés qui partagent l'objectif commun d'améliorer la vie des étudiants EECS sur le campus.
     text: ''
     actions: []
     backgroundImage:

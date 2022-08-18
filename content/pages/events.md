@@ -12,8 +12,11 @@ sections:
     elementId: ''
     backgroundSize: full
     title: Events
+    titleFr: Événements
     text: |
       Checkout our upcoming events and our past events!
+    textFr: |
+      Jetez un coup d'œil à nos événements à venir et à nos événements passés !
     actions: []
     styles:
       self:

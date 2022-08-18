@@ -20,7 +20,9 @@ sections:
     colors: colors-e
     backgroundSize: full
     title: Powering Your Student Experience.
+    titleFr: Rendre votre experience étudiante électrisante.
     subtitle: Brought to you by the best uOttawa sub-association on campus.
+    subtitleFr: La meilleure sous-association de l'Université d'Ottawa sur le campus.
     actions:
       - type: Button
         label: Learn More

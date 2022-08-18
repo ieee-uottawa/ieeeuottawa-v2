@@ -6,6 +6,8 @@ import { getComponent } from '../../components-registry';
 import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to-class-names';
 import Section from '../Section';
 import { Action } from '../../atoms';
+import { useContext } from 'react';
+import { I18NContext } from '../../../context/i18Ncontext';
 
 export default function HeroSection(props) {
     const {
@@ -15,8 +17,11 @@ export default function HeroSection(props) {
         backgroundSize,
         backgroundImage,
         title,
+        titleFr,
         subtitle,
+        subtitleFr,
         text,
+        textFr,
         media,
         actions = [],
         styles = {},
@@ -24,6 +29,8 @@ export default function HeroSection(props) {
     } = props;
     const sectionFlexDirection = styles.self?.flexDirection ?? 'row';
     const sectionAlignItems = styles.self?.alignItems ?? 'center';
+    const { locale } = useContext(I18NContext);
+
     return (
         <Section
             type={type}
@@ -42,7 +49,7 @@ export default function HeroSection(props) {
                 })}
             >
                 <div className="flex-1 w-full">
-                    <HeroBody title={title} subtitle={subtitle} text={text} styles={styles} />
+                    <HeroBody title={locale === 'fr' && titleFr ? titleFr : title} subtitle={locale === 'fr' && subtitleFr ? subtitleFr : subtitle} text={locale === 'fr' && textFr ? textFr : text} styles={styles} />
                     <HeroActions actions={actions} styles={styles.actions} hasTopMargin={!!(title || subtitle || text)} />
                 </div>
                 {media && (
