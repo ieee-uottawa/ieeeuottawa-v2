@@ -1,0 +1,20 @@
+{
+    "type": "Person",
+    "firstName": "Vacant",
+    "role": "VP External",
+    "image": {
+        "url": "/images/execs-2021-2022/vacant.jpg",
+        "altText": "Person photo"
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Mail",
+            "url": "mailto:external@ieeeuottawa.ca",
+            "icon": "mail",
+            "style": "link",
+            "elementId": "",
+            "altText": "Email icon that links to the VP External's email"
+        }
+    ]
+}

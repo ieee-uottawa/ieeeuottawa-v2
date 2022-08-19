@@ -48,19 +48,19 @@ sections:
     colors: colors-c
     title: 2021-2022
     people:
-      - content/data/team/chair.json
-      - content/data/team/vice-chair.json
-      - content/data/team/treasurer.json
-      - content/data/team/secretary.json
-      - content/data/team/vp-external.json
-      - content/data/team/vp-internal.json
-      - content/data/team/vp-academic.json
-      - content/data/team/vp-social.json
-      - content/data/team/vp-comms.json
-      - content/data/team/webmaster.json
-      - content/data/team/wie-chair.json
-      - content/data/team/wie-vice-chair.json
-      - content/data/team/mcn-director.json
+      - content/data/team/2022-2023/chair.json
+      - content/data/team/2022-2023/vice-chair.json
+      - content/data/team/2022-2023/treasurer.json
+      - content/data/team/2022-2023/secretary.json
+      - content/data/team/2022-2023/vp-external.json
+      - content/data/team/2022-2023/vp-internal.json
+      - content/data/team/2022-2023/vp-academic.json
+      - content/data/team/2022-2023/vp-social.json
+      - content/data/team/2022-2023/vp-comms.json
+      - content/data/team/2022-2023/webmaster.json
+      - content/data/team/2022-2023/wie-chair.json
+      - content/data/team/2022-2023/wie-vice-chair.json
+      - content/data/team/2022-2023/mcn-director.json
     styles:
       self:
         height: auto
@@ -92,13 +92,13 @@ sections:
     subtitle: Commissioners
     actions: []
     people:
-      - content/data/team/ceg-comms.json
-      - content/data/team/elg-comms.json
-      - content/data/team/seg-comms.json
-      - content/data/team/design-comms.json
-      - content/data/team/equity-comms.json
-      - content/data/team/translations-comms.json
-      - content/data/team/wie-design.json
+      - content/data/team/2022-2023/ceg-comms.json
+      - content/data/team/2022-2023/elg-comms.json
+      - content/data/team/2022-2023/seg-comms.json
+      - content/data/team/2022-2023/design-comms.json
+      - content/data/team/2022-2023/equity-comms.json
+      - content/data/team/2022-2023/translations-comms.json
+      - content/data/team/2022-2023/wie-design.json
     styles:
       self:
         height: auto
