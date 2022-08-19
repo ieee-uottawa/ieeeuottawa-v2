@@ -203,12 +203,13 @@ sections:
     elementId: ''
     backgroundSize: full
     title: WIE Affinity Group
+    titleFr: Groupe d'affinité WIE
     subtitle: ''
+    subtitleFr: ''
     text: >
-      The mission of the IEEE uOttawa Women In Engineering is to inspire,
-      engage, encourage, and empower women to pursue the engineering field. They
-      are responsible for organizing IEEE Wine & Cheese, one of our student
-      branch's largest events.
+      The mission of the IEEE uOttawa Women In Engineering is to inspire, engage, encourage, and empower women to pursue the engineering field. They are responsible for organizing IEEE Wine & Cheese, one of our student branch's largest events.
+    textFr: >
+      La mission de l'IEEE uOttawa Women In Engineering est d'inspirer, engager, encourager et fortifier les femmes à poursuivre le domaine de l'ingénierie. Elles sont responsables de l'organisation du Wine & Cheese de l'IEEE, l'un des plus grands événements de notre branche étudiante.
     actions:
       - type: Button
         label: Learn More

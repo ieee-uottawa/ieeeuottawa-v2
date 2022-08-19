@@ -6,6 +6,7 @@ import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to
 import { Action, BackgroundImage } from '../../atoms';
 import { DisplayModeContext } from '../../../context/displayMode';
 import { getMatchingColor } from '../../../utils/themeColorMapper';
+import { I18NContext } from '../../../context/i18Ncontext';
 
 export default function FeatureHighlightSection(props) {
     const { backgroundSize = 'full', ...rest } = props;
@@ -17,8 +18,12 @@ export default function FeatureHighlightSection(props) {
 }
 
 function FeatureHighlightSectionInset(props) {
-    const { elementId, colors = 'colors-d', backgroundImage, title, subtitle, text, actions, styles = {}, 'data-sb-field-path': fieldPath } = props;
+    const { elementId, colors = 'colors-d', backgroundImage, title, titleFr, subtitle, subtitleFr, text, textFr, actions, styles = {}, 'data-sb-field-path': fieldPath } = props;
     const { displayMode } = React.useContext(DisplayModeContext);
+    const { locale } = React.useContext(I18NContext);
+    const getTitle = () => locale === 'fr' && titleFr ? titleFr : title;
+    const getSubtitle = () => locale === 'fr' && subtitleFr ? subtitleFr : subtitle;
+    const getText = () => locale === 'fr' && textFr ? textFr : text;
 
     return (
         <div
@@ -56,7 +61,7 @@ function FeatureHighlightSectionInset(props) {
             >
                 {backgroundImage && <BackgroundImage {...backgroundImage} />}
                 <div className={classNames('relative', 'w-full', 'flex', mapStyles({ justifyContent: styles.self?.justifyContent ?? 'center' }))}>
-                    <FeatureHighlightBody title={title} subtitle={subtitle} text={text} actions={actions} styles={styles} />
+                    <FeatureHighlightBody title={getTitle()} subtitle={getSubtitle()} text={getText()} actions={actions} styles={styles} />
                 </div>
             </div>
         </div>
@@ -64,8 +69,12 @@ function FeatureHighlightSectionInset(props) {
 }
 
 function FeatureHighlightSectionFullWidth(props) {
-    const { elementId, colors, backgroundImage, title, subtitle, text, actions, styles = {}, 'data-sb-field-path': fieldPath } = props;
+    const { elementId, colors, backgroundImage, title, titleFr, subtitle, subtitleFr, text, textFr, actions, styles = {}, 'data-sb-field-path': fieldPath } = props;
     const { displayMode } = React.useContext(DisplayModeContext);
+    const { locale } = React.useContext(I18NContext);
+    const getTitle = () => locale === 'fr' && titleFr ? titleFr : title;
+    const getSubtitle = () => locale === 'fr' && subtitleFr ? subtitleFr : subtitle;
+    const getText = () => locale === 'fr' && textFr ? textFr : text;
 
     return (
         <div
@@ -103,7 +112,7 @@ function FeatureHighlightSectionFullWidth(props) {
                     mapStyles({ justifyContent: styles.self?.justifyContent ?? 'center' })
                 )}
             >
-                <FeatureHighlightBody title={title} subtitle={subtitle} text={text} actions={actions} styles={styles} />
+                <FeatureHighlightBody title={getTitle()} subtitle={getSubtitle()} text={getText()} actions={actions} styles={styles} />
             </div>
         </div>
     );
@@ -111,18 +120,22 @@ function FeatureHighlightSectionFullWidth(props) {
 
 function FeatureHighlightBody(props) {
     const { title, subtitle, text, actions, styles = {} } = props;
+    const { locale } = React.useContext(I18NContext);
+    const getTitleFieldPath = () => locale === 'fr' ? '.titleFr' : '.title';
+    const getSubtitleFieldPath = () => locale === 'fr' ? '.subtitleFr' : '.subtitle';
+    const getTextFieldPath = () => locale === 'fr' ? '.textFr' : '.text';
 
     return (
         <div className={classNames('sb-card', 'max-w-2xl', 'px-6', 'py-10', 'sm:px-12', 'sm:py-14')}>
             {title && (
-                <h2 className={classNames(styles.title ? mapStyles(styles.title) : null)} data-sb-field-path=".title">
+                <h2 className={classNames(styles.title ? mapStyles(styles.title) : null)} data-sb-field-path={getTitleFieldPath()}>
                     {title}
                 </h2>
             )}
             {subtitle && (
                 <p
                     className={classNames('text-xl', 'sm:text-2xl', styles.subtitle ? mapStyles(styles.subtitle) : null, { 'mt-4': title })}
-                    data-sb-field-path=".subtitle"
+                    data-sb-field-path={getSubtitleFieldPath()}
                 >
                     {subtitle}
                 </p>
@@ -131,7 +144,7 @@ function FeatureHighlightBody(props) {
                 <Markdown
                     options={{ forceBlock: true, forceWrapper: true }}
                     className={classNames('sb-markdown', 'sm:text-lg', styles.text ? mapStyles(styles.text) : null, { 'mt-6': title || subtitle })}
-                    data-sb-field-path=".text"
+                    data-sb-field-path={getTextFieldPath()}
                 >
                     {text}
                 </Markdown>

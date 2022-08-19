@@ -19,7 +19,7 @@ sections:
     actions: []
     backgroundImage:
       type: BackgroundImage
-      url: /images/santa.JPG
+      url: /images/team-pic.jpg
       backgroundSize: cover
       backgroundPosition: center
       backgroundRepeat: no-repeat

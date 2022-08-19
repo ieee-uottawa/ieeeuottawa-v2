@@ -158,7 +158,9 @@ presets:
           colors: colors-d
           backgroundSize: full
           title: Time to leave your desk. Let’s go flying
+          titleFr: Il est temps de quitter votre bureau. Allons voler
           text: We’re local, seasonal fisherman, supporting fishing restrictions.
+          textFr: Nous sommes des pêcheurs locaux, saisonniers, qui soutiennent les restrictions de pêche.
           actions:
             - type: Button
               label: Join adventure

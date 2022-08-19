@@ -180,53 +180,6 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
-  - type: FeatureHighlightSection
-    colors: colors-b
-    backgroundSize: full
-    title: Shop our merch
-    text: >
-      Shop our embroidered hoodies, crew necks, t-shirts and stickers to
-      fiercely represent your IEEE-ness!
-    actions:
-      - type: Button
-        label: Shop
-        altText: Shop now button
-        url: 'https://ieee-uottawa.square.site/'
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        elementId: ''
-    backgroundImage:
-      type: BackgroundImage
-      url: /images/pexels-andrea-piacquadio-845434.jpg
-      backgroundSize: cover
-      backgroundPosition: center
-      backgroundRepeat: no-repeat
-      opacity: 90
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
-        padding:
-          - pt-36
-          - pb-72
-          - pr-4
-          - pl-4
-        justifyContent: flex-start
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
-      text:
-        textAlign: left
-      actions:
-        justifyContent: flex-start
   - type: ContactSection
     colors: colors-b
     title: Get in touch
