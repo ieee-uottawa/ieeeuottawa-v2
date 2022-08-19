@@ -13,8 +13,12 @@ fields:
     default: city
   - type: string
     name: label
-    label: Label
+    label: Label [EN]
     default: City
+  - type: string
+    name: labelFr
+    label: Label [FR]
+    default: Ville
   - type: boolean
     name: hideLabel
     label: Hide label

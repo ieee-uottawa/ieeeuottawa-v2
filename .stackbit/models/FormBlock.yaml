@@ -19,31 +19,46 @@ fields:
         - SelectFormControl
     default:
       - type: TextFormControl
-        label: Name
         name: name
-        placeholder: Your name
-        isRequired: true
+        label: Name
+        labelFr: Nom
+        hideLabel: true
+        placeholder: Name
+        placeholderFr: Nom
+        isRequired: false
         width: 1/2
       - type: EmailFormControl
-        label: Email
         name: email
-        placeholder: Your email
+        label: Email
+        labelFr: Email
+        hideLabel: true
+        placeholder: Email
+        placeholderFr: Email
         isRequired: true
-        width: 1/2
+        width: full
       - type: TextFormControl
-        label: Home Address
-        name: home-address
-        placeholder: Your home address
-        isRequired: false
+        name: address
+        label: Address
+        labelFr: Addresse
+        hideLabel: true
+        placeholder: Address
+        placeholderFr: Addresse
+        isRequired: true
         width: full
       - type: CheckboxFormControl
-        name: updates
+        name: updatesConsent
         label: Sign me up to receive updates
+        labelFr: Je souhaite recevoir des mises à jour
+        isRequired: false
         width: full
   - type: string
     name: submitLabel
     label: Button
     default: Send Message
+  - type: string
+    name: submitLabelFr
+    label: Bouton
+    default: Envoyer
   - type: string
     name: elementId
     group: settings

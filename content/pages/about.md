@@ -53,7 +53,7 @@ sections:
       professional services to improve each student’s experience on campus. This
       includes accommodating students with access to up-to-date equipment,
       internet access, textbooks and a quiet work environment.
-    textfr: >
+    textFr: >
       La branche étudiante IEEE de l'Université d'Ottawa a été établie pour fournir des services professionnels afin d'améliorer l'expérience de chaque étudiant sur le campus. Ceci inclut l'accommodation des étudiants avec l'accès à un équipement à jour, l'accès à l'internet, les manuels scolaires et un environnement de travail tranquille.
     actions: []
     styles:

@@ -25,9 +25,18 @@ fields:
     default: full
   - type: string
     name: title
-    label: Title
+    label: Title [EN]
+  - type: string
+    name: titleFr
+    label: Title [FR]
   - type: markdown
     name: text
+    label: Text
+    default: |-
+      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
+      Aenean vel aliquet elit, at blandit ipsum.
+  - type: markdown
+    name: textFr
     label: Text
     default: |-
       Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.

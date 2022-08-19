@@ -183,51 +183,54 @@ sections:
   - type: ContactSection
     colors: colors-b
     title: Get in touch
+    titleFr: Contactez-nous
     text: >
-      Got a question? Event suggestions? Feedback? We want to hear it! Send us a
-      message and we will get back to you as soon as we can.
+      Got a question? Event suggestions? Feedback? We want to hear it! Send us a message and we will get back to you as soon as we can.
+    textFr: >
+      Vous avez une question ? Des suggestions d'événements ? Des commentaires ? Nous voulons les entendre ! Envoyez-nous un message et nous vous répondrons dès que possible.
     form:
       type: FormBlock
       elementId: sign-up-form
       destination: ''
       action: /.netlify/functions/submission_created
       fields:
-        - name: firstName
+        - type: TextFormControl
+          name: firstName
           label: First Name
+          labelFr: Prénom
           hideLabel: true
           placeholder: First Name
+          placeholderFr: Prénom
           isRequired: true
           width: 1/2
-          type: TextFormControl
-        - name: lastName
+        - type: TextFormControl
+          name: lastName
           label: Last Name
+          labelFr: Nom de famille
           hideLabel: true
-          placeholder: Last Name
+          placeholder: Nom de famille
           isRequired: false
           width: 1/2
-          type: TextFormControl
-        - name: email
+        - type: EmailFormControl
+          name: email
           label: Email
+          labelFr: Email
           hideLabel: true
           placeholder: Email
+          placeholderFr: Email
           isRequired: true
           width: full
-          type: EmailFormControl
-        - name: Message
-          label: Message
-          hideLabel: true
-          placeholder: Write message
-          isRequired: true
-          width: full
-          type: TextFormControl
         - type: TextareaFormControl
           name: Message
           label: Message
+          labelFr: Message
           hideLabel: false
           placeholder: This is the beginning of your message...
+          placeholderFr: Votre message ici...
           isRequired: true
           width: full
       submitLabel: Submit form
+      submitLabelFr: Soumettre
       styles:
         submitLabel:
           textAlign: center

@@ -13,7 +13,11 @@ fields:
     default: description
   - type: string
     name: label
-    label: Label
+    label: Label [EN]
+    default: Description
+  - type: string
+    name: labelFr
+    label: Label [FR]
     default: Description
   - type: boolean
     name: hideLabel
@@ -21,7 +25,11 @@ fields:
     default: false
   - type: string
     name: placeholder
-    label: Placeholder text
+    label: Placeholder text [EN]
+    default: Please describe
+  - type: string
+    name: placeholderFr
+    label: Placeholder text [FR]
     default: Please describe
   - type: boolean
     name: isRequired

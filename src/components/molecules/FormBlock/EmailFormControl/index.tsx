@@ -1,18 +1,24 @@
 import * as React from 'react';
 import classNames from 'classnames';
+import { I18NContext } from '../../../../context/i18Ncontext';
 
 export default function EmailFormControl(props) {
-    const { name, label, hideLabel, placeholder, isRequired, width = 'full', 'data-sb-field-path': fieldPath } = props;
+    const { name, label, labelFr, hideLabel, placeholder, placeholderFr, isRequired, width = 'full', 'data-sb-field-path': fieldPath } = props;
     const labelId = `${name}-label`;
     const attr: any = {};
+    const { locale } = React.useContext(I18NContext);
+
+    const getLabel = () => locale === 'fr' && labelFr ? labelFr : label;
+    const getPlaceholder = () => locale === 'fr' && placeholderFr ? placeholderFr : placeholder;
+
     if (label) {
         attr['aria-labelledby'] = labelId;
     }
     if (isRequired) {
         attr.required = true;
     }
-    if (placeholder) {
-        attr.placeholder = placeholder;
+    if (getPlaceholder()) {
+        attr.placeholder = getPlaceholder();
     }
     return (
         <div
@@ -22,11 +28,11 @@ export default function EmailFormControl(props) {
             data-sb-field-path={fieldPath}
         >
             {label && (
-                <label id={labelId} className={classNames('sb-label', { 'sr-only': hideLabel })} htmlFor={name} data-sb-field-path=".label .name#@for">
-                    {label}
+                <label id={labelId} className={classNames('sb-label', { 'sr-only': hideLabel })} htmlFor={name} data-sb-field-path={`.${locale === 'fr' ? 'labelFr' : 'label'} .name#@for`}>
+                    {getLabel()}
                 </label>
             )}
-            <input id={name} className="sb-input" type="email" name={name} {...attr} data-sb-field-path=".name#@id .name#@name .placeholder#@placeholder" />
+            <input id={name} className="sb-input" type="email" name={name} {...attr} data-sb-field-path={`.name#@id .name#@name .${locale === 'fr' ? 'placeholderFr' : 'placeholder'}#@placeholder`} />
         </div>
     );
 }

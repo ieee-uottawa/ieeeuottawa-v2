@@ -49,6 +49,7 @@ sections:
     colors: colors-d
     elementId: ''
     title: Key value propositions
+    titleFr: Événements marquants
     subtitle: ''
     items:
       - type: FeaturedItem

@@ -60,11 +60,17 @@ export default class FormBlock extends React.Component<any> {
     }
 
     render() {
-        const { elementId, className, action, destination, fields = [], submitLabel, styles = {}, 'data-sb-field-path': fieldPath } = this.props;
+        const { elementId, className, action, destination, fields = [], submitLabel, submitLabelFr, styles = {}, 'data-sb-field-path': fieldPath } = this.props;
         if (fields.length === 0) {
             return null;
         }
         const formHoneypotName = `${elementId}-bot-field`;
+        const { locale } = this.context;
+        
+        const getSubmitLabel = () => locale === 'fr' && submitLabelFr ? submitLabelFr : submitLabel;
+        const getConfirmation = () => locale === 'fr' ? 'Merci pour votre message !' : 'Thanks for your message!';
+        const getErrorMessage = () => locale === 'fr' ? 'Une erreur est survenue, veuillez réessayer.' : 'An error occurred, please try again.';
+
         return (
             <form
                 className={classNames('sb-component', 'sb-component-block', 'sb-component-form-block', className)}
@@ -95,12 +101,12 @@ export default class FormBlock extends React.Component<any> {
                     <button
                         type="submit"
                         className="sb-component sb-component-block sb-component-button sb-component-button-primary"
-                        data-sb-field-path=".submitLabel"
+                        data-sb-field-path={`.${locale === 'fr' ? 'submitLabelFr' : 'submitLabel'}`}
                     >
-                        {this.context.translate(submitLabel)}
+                        {getSubmitLabel()}
                     </button>
-                    {this.state.submitted && <p className="mt-8">Thank you, your message was sent.</p>}
-                    {this.state.error && <p className="mt-8 text-info">Something went wrong, please try again.</p>}
+                    {this.state.submitted && <p className="mt-8">{getConfirmation()}</p>}
+                    {this.state.error && <p className="mt-8 text-info">{getErrorMessage()}</p>}
                 </div>
             </form>
         );

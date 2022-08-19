@@ -11,7 +11,11 @@ fields:
     label: Name
   - type: string
     name: label
-    label: Label
+    label: Label [EN]
+    default: Name
+  - type: string
+    name: labelFr
+    label: Label [FR]
     default: Name
   - type: boolean
     name: hideLabel
@@ -19,8 +23,12 @@ fields:
     default: false
   - type: string
     name: placeholder
-    label: Placeholder text
+    label: Placeholder text [EN]
     default: Your name
+  - type: string
+    name: placeholderFr
+    label: Placeholder text [FR]
+    default: Nom
   - type: boolean
     name: isRequired
     label: Is the field required?
