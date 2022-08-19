@@ -9,8 +9,8 @@ presets:
       subtitle: Featured people section example
       actions: []
       people:
-        - content/data/team/desmond-eagle.json
-        - content/data/team/hilary-ouse.json
+        - content/data/team/vp-comms.json
+        - content/data/team/chair.json
       styles:
         self:
           height: auto
