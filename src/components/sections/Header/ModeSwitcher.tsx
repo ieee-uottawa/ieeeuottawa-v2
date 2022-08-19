@@ -3,7 +3,11 @@ import { styled } from '@mui/material/styles';
 import Switch from '@mui/material/Switch';
 import { DisplayModeContext } from '../../../context/displayMode';
 
-const MaterialUISwitch = styled(Switch)(({ theme }) => ({
+export default function ModeSwitcher() {
+  const { displayMode, setDisplayMode } = React.useContext(DisplayModeContext);
+  const [checked, setChecked] = useState(displayMode === 'dark');
+
+  const MaterialUISwitch = styled(Switch)(({ theme }) => ({
   width: 62,
   height: 34,
   padding: 7,
@@ -21,12 +25,12 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
       },
       '& + .MuiSwitch-track': {
         opacity: 1,
-        backgroundColor: theme.palette.mode === 'dark' ? '#8796A5' : '#aab4be',
+        backgroundColor: displayMode === 'dark' ? '#8796A5' : '#aab4be',
       },
     },
   },
   '& .MuiSwitch-thumb': {
-    backgroundColor: theme.palette.mode === 'dark' ? '#003892' : '#001e3c',
+    backgroundColor: displayMode === 'dark' ? '#003892' : '#001e3c',
     width: 32,
     height: 32,
     '&:before': {
@@ -45,15 +49,11 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
   },
   '& .MuiSwitch-track': {
     opacity: 1,
-    backgroundColor: theme.palette.mode === 'dark' ? '#8796A5' : '#aab4be',
+    backgroundColor: displayMode === 'dark' ? '#8796A5' : '#aab4be',
     borderRadius: 20 / 2,
   },
-}));
-
-export default function ModeSwitcher() {
-  const { displayMode, setDisplayMode } = React.useContext(DisplayModeContext);
-  const [checked, setChecked] = useState(displayMode === 'dark');
-
+  }));
+  
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => { 
     setChecked(event.target.checked);
     setDisplayMode(event.target.checked ? 'dark' : 'light');

@@ -229,13 +229,13 @@ sections:
         height: auto
         width: wide
         padding:
-          - pt-36
-          - pb-72
+          - pt-32
+          - pb-32
           - pl-4
           - pr-4
         justifyContent: center
       title:
-        textAlign: center
+        textAlign: left
       subtitle:
         textAlign: center
       text:
