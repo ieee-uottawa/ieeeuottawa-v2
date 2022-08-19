@@ -10,8 +10,8 @@ fieldGroups:
 fields:
   - type: string
     name: label
-    label: Label
-    default: Learn more
+    label: Learn More
+    default: Learn More
   - type: string
     name: altText
     label: Alt text

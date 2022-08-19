@@ -19,12 +19,24 @@ fields:
     label: Title
     default: Item Title
   - type: string
+    name: titleFr
+    label: Titre
+    default: Titre de l'article
+  - type: string
     name: subtitle
     label: Subtitle
+    default: ''
+  - type: string
+    name: subtitleFr
+    label: Sous-titre
     default: ''
   - type: markdown
     name: text
     label: Text
+    default: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.'
+  - type: markdown
+    name: textFr
+    label: Texte
     default: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.'
   - type: model
     name: featuredImage

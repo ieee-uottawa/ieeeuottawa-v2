@@ -2,25 +2,27 @@
 layout: PageLayout
 addTitleSuffix: true
 metaTags: []
-title: Team
+title: Execs
 sections:
   - type: HeroSection
-    colors: colors-b
+    colors: colors-e
     elementId: ''
     backgroundSize: full
-    title: Team
+    title: Execs
     subtitle: >-
       Behind every successful student association is a team of committed
       volunteers who share the common goal of enhancing EECS students' life on
       campus.
+    subtitleFr: >-
+      Chaque association étudiante efficace repose sur une équipe de bénévoles engagés qui partagent l'objectif commun d'améliorer la vie des étudiants EECS sur le campus.
     text: ''
     actions: []
-    media: null
     backgroundImage:
-      type: ImageBlock
-      url: /images/santa.JPG
+      type: BackgroundImage
+      url: /images/team-pic.jpg
       backgroundSize: cover
       backgroundPosition: center
+      backgroundRepeat: no-repeat
       opacity: 20
     styles:
       self:
@@ -42,112 +44,6 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
-  - type: FeaturedItemsSection
-    colors: colors-d
-    elementId: ''
-    items:
-      - type: FeaturedItem
-        title: 2022-2023
-        text: |
-          Checkout the 2022-2023 team!
-        actions:
-          - type: Button
-            label: Learn more
-            showIcon: true
-            icon: arrowRight
-            url: '#current-team'
-            style: secondary
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        title: 2021-2022
-        text: |
-          Checkout the 2021-2022 team!
-        actions:
-          - type: Button
-            label: Learn more
-            showIcon: true
-            icon: arrowRight
-            url: /team/2021-2022
-            style: secondary
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        title: 2020-2021
-        text: |
-          Checkout the 2020-2021 team!
-        actions:
-          - type: Button
-            label: Learn more
-            showIcon: true
-            icon: arrowRight
-            url: /team/2020-2021
-            style: secondary
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        elementId: ''
-        title: 2019-2020
-        subtitle: ''
-        text: |
-          Checkout the 2019-2020 team!
-        actions:
-          - type: Button
-            label: Learn more
-            altText: ''
-            url: /team/2019-2020
-            showIcon: true
-            icon: arrowRight
-            iconPosition: right
-            style: secondary
-            elementId: ''
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        elementId: ''
-        title: 2018-2019
-        subtitle: ''
-        text: |
-          Checkout the 2018-2019 team!
-        actions:
-          - type: Button
-            label: Learn more
-            altText: ''
-            url: /team/2018-2019
-            showIcon: true
-            icon: arrowRight
-            iconPosition: right
-            style: secondary
-            elementId: ''
-        styles:
-          self:
-            textAlign: left
-    actions: []
-    columns: 3
-    spacingX: 16
-    spacingY: 32
-    enableHover: false
-    styles:
-      self:
-        height: auto
-        width: wide
-        padding:
-          - pt-32
-          - pb-32
-          - pl-4
-          - pr-4
-        justifyContent: center
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
-      actions:
-        justifyContent: flex-start
-    title: IEEE uOttawa Alumni
   - elementId: current-team
     colors: colors-c
     title: 2021-2022

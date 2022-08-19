@@ -4,7 +4,7 @@
     "header": {
         "headerVariant": "variant-b",
         "isSticky": true,
-        "primaryColors": "colors-d",
+        "primaryColors": "colors-b",
         "secondaryColors": "colors-d",
         "isTitleVisible": false,
         "primaryLinks": [
@@ -12,7 +12,7 @@
                 "type": "Link",
                 "label": "Home",
                 "url": "/",
-                "altText": ""
+                "altText": "Home"
             },
             {
                 "type": "DropdownLink",
@@ -20,20 +20,20 @@
                 "dropdownLinks": [
                     {
                         "type": "Link",
-                        "label": "Who Are We",
+                        "label": "Who We Are",
                         "url": "/about",
-                        "altText": ""
+                        "altText": "About"
                     },
                     {
                         "type": "Link",
                         "label": "McNaughton Centre",
                         "url": "/mcnaughton-centre",
-                        "altText": ""
+                        "altText": "McNaughton Centre"
                     },
                     {
                         "type": "Link",
                         "label": "WIE",
-                        "altText": "Link to WIE website",
+                        "altText": "WIE",
                         "url": "https://celebratewie.ca/",
                         "showIcon": false,
                         "icon": "arrowRight",
@@ -43,23 +43,22 @@
                     {
                         "type": "Link",
                         "label": "Shop",
-                        "altText": "Link to square shop site",
+                        "altText": "Shop Merch",
                         "url": "https://ieee-uottawa.square.site/",
                         "showIcon": false,
                         "icon": "arrowRight",
                         "iconPosition": "right",
-                        "style": "primary",
                         "elementId": ""
                     }
                 ]
             },
             {
                 "type": "DropdownLink",
-                "label": "Team",
+                "label": "Execs",
                 "dropdownLinks": [
                     {
                         "type": "Link",
-                        "label": "2022-2023 Team",
+                        "label": "2022-2023",
                         "altText": "Link to 2022-2023 team's page",
                         "url": "/team",
                         "showIcon": false,
@@ -69,7 +68,7 @@
                     },
                     {
                         "type": "Link",
-                        "label": "2021-2022 Team",
+                        "label": "2021-2022",
                         "altText": "Link to 2021-2022 team's page",
                         "url": "/team/2021-2022",
                         "showIcon": false,
@@ -79,7 +78,7 @@
                     },
                     {
                         "type": "Link",
-                        "label": "2020-2021 Team",
+                        "label": "2020-2021",
                         "altText": "Link to 2020-2021 team's page",
                         "url": "/team/2020-2021",
                         "showIcon": false,
@@ -89,7 +88,7 @@
                     },
                     {
                         "type": "Link",
-                        "label": "2019-2020 Team",
+                        "label": "2019-2020",
                         "altText": "Link to 2019-2020 team's page",
                         "url": "/team/2019-2020",
                         "showIcon": false,
@@ -99,7 +98,7 @@
                     },
                     {
                         "type": "Link",
-                        "label": "2018-2019 Team",
+                        "label": "2018-2019",
                         "altText": "Link to 2018-2019 team's page",
                         "url": "/team/2018-2019",
                         "showIcon": false,
@@ -139,7 +138,7 @@
                         "iconPosition": "right",
                         "elementId": ""
                     }
-                ]                
+                ]
             }
         ],
         "secondaryLinks": [
@@ -183,7 +182,7 @@
             "phoneAltText": "Our phone",
             "email": "communications@ieeeuottawa.ca",
             "emailAltText": "Our email",
-            "address": "800 King Edward Avenue, Room 4026",
+            "address": "800 King Edward Avenue, STE 4026",
             "addressAltText": "Our address"
         },
         "copyrightText": "Powered by [Stackbit](https://www.stackbit.com/)",
@@ -196,7 +195,7 @@
             },
             {
                 "type": "Link",
-                "label": "About",
+                "label": "Who We Are",
                 "url": "/about",
                 "altText": ""
             },
@@ -213,7 +212,7 @@
             {
                 "type": "Link",
                 "label": "Contact us",
-                "url": "mailto:info@lorem.mail",
+                "url": "mailto:communications@ieeeuottawa.ca",
                 "altText": ""
             }
         ],

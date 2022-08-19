@@ -28,12 +28,28 @@ fields:
     label: Title
     default: This Is A Feature Title
   - type: string
+    name: titleFr
+    label: Titre
+    default: Ceci est un titre caractéristique
+  - type: string
     name: subtitle
     label: Subtitle
     default: The section subtitle
+  - type: string
+    name: subtitleFr
+    label: Sous-titre
+    default: Section sous-titre
   - type: markdown
     name: text
     label: Text
+    default: |-
+      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
+      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
+      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
+      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
+  - type: markdown
+    name: textFr
+    label: Texte
     default: |-
       Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
       Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet

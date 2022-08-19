@@ -10,12 +10,16 @@ presets:
       items:
         - type: FeaturedItem
           title: Faster
+          titleFr: Plus rapide
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante lorem,
+            tincidunt ac leo efficitur, feugiat tempor odio. Maecenas pharetra ipsum dolor,
+            et iaculis elit ornare ac.
+          textFr: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante lorem,
             tincidunt ac leo efficitur, feugiat tempor odio. Maecenas pharetra ipsum dolor,
             et iaculis elit ornare ac.
           actions:
             - type: Button
-              label: Learn more
+              label: Learn More
               showIcon: true
               icon: arrowRight
               url: '/'
@@ -25,12 +29,16 @@ presets:
               textAlign: left
         - type: FeaturedItem
           title: Smarter
+          titleFr: Plus intelligent
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante lorem,
+            tincidunt ac leo efficitur, feugiat tempor odio. Maecenas pharetra ipsum dolor,
+            et iaculis elit ornare ac.
+          textFr: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante lorem,
             tincidunt ac leo efficitur, feugiat tempor odio. Maecenas pharetra ipsum dolor,
             et iaculis elit ornare ac.
           actions:
             - type: Button
-              label: Learn more
+              label: Learn More
               showIcon: true
               icon: arrowRight
               url: '/'
@@ -40,12 +48,16 @@ presets:
               textAlign: left
         - type: FeaturedItem
           title: Focused
+          titleFr: Concentré
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante lorem,
+            tincidunt ac leo efficitur, feugiat tempor odio. Maecenas pharetra ipsum dolor,
+            et iaculis elit ornare ac.
+          textFr: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante lorem,
             tincidunt ac leo efficitur, feugiat tempor odio. Maecenas pharetra ipsum dolor,
             et iaculis elit ornare ac.
           actions:
             - type: Button
-              label: Learn more
+              label: Learn More
               showIcon: true
               icon: arrowRight
               url: '/'
@@ -80,49 +92,78 @@ presets:
       items:
         - type: FeaturedItem
           title: Faster
+          titleFr: Plus rapide
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante lorem,
+            tincidunt ac leo efficitur, feugiat tempor odio. Maecenas pharetra ipsum dolor,
+            et iaculis elit ornare ac.
+          textFr: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante lorem,
             tincidunt ac leo efficitur, feugiat tempor odio. Maecenas pharetra ipsum dolor,
             et iaculis elit ornare ac.
           actions:
             - type: Button
-              label: Learn more
+              label: Learn More
               showIcon: true
               icon: arrowRight
               url: '/'
-              style: secondary
+              style: primary
           styles:
             self:
               textAlign: left
         - type: FeaturedItem
           title: Smarter
+          titleFr: Plus intelligent
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante lorem,
+            tincidunt ac leo efficitur, feugiat tempor odio. Maecenas pharetra ipsum dolor,
+            et iaculis elit ornare ac.
+          textFr: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante lorem,
             tincidunt ac leo efficitur, feugiat tempor odio. Maecenas pharetra ipsum dolor,
             et iaculis elit ornare ac.
           actions:
             - type: Button
-              label: Learn more
+              label: Learn More
               showIcon: true
               icon: arrowRight
               url: '/'
-              style: secondary
+              style: primary
           styles:
             self:
               textAlign: left
         - type: FeaturedItem
           title: Focused
+          titleFr: Concentré
           text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante lorem,
+            tincidunt ac leo efficitur, feugiat tempor odio. Maecenas pharetra ipsum dolor,
+            et iaculis elit ornare ac.
+          textFr: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante lorem,
             tincidunt ac leo efficitur, feugiat tempor odio. Maecenas pharetra ipsum dolor,
             et iaculis elit ornare ac.
           actions:
             - type: Button
-              label: Learn more
+              label: Learn More
               showIcon: true
               icon: arrowRight
               url: '/'
-              style: secondary
+              style: primary
           styles:
             self:
               textAlign: left
+      columns: 1
+      styles:
+        self:
+          height: auto
+          width: narrow
+          padding:
+            - pt-28
+            - pb-36
+            - pl-4
+            - pr-4
+          justifyContent: center
+        title:
+          textAlign: left
+        subtitle:
+          textAlign: left
+        actions:
+          justifyContent: flex-start
       columns: 3
       styles:
         self:

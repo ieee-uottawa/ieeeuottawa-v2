@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Button } from "@mui/material";
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
@@ -7,11 +7,13 @@ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import { Action } from "../../atoms";
 import classNames from "classnames";
 import { theme } from "../../../../tailwind.config";
+import { I18NContext } from "../../../context/i18Ncontext";
 
 const themeStyle = require('../../../../content/data/style.json');
 
 
-export default function DropdownLink({ label, dropdownLinks, inMobileMenu }) {
+export default function DropdownLink(props) {
+    const { translate } = useContext(I18NContext);
     const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
     const open = Boolean(anchorEl);
 
@@ -23,8 +25,24 @@ export default function DropdownLink({ label, dropdownLinks, inMobileMenu }) {
         setAnchorEl(null);
     };
     
+    const {
+        label,
+        dropdownLinks,
+        inMobileMenu,
+        'data-sb-field-path': fieldPath
+    } = props;
+
+    const annotations = fieldPath ? {
+        'data-sb-field-path': [
+            fieldPath,
+            `dropdownLinks`
+        ]
+            .join('.')
+            .trim()
+    } : {};
+
     return (
-        <div>
+        <div {...annotations}>
             <Button
                 id="fade-button"
                 aria-controls={open ? 'fade-menu' : undefined}
@@ -44,7 +62,7 @@ export default function DropdownLink({ label, dropdownLinks, inMobileMenu }) {
                     padding: '0',
                 }}
             >
-                <span>{label}</span>
+                <span>{translate(label)}</span>
             </Button>
             <Menu
                 id="fade-menu"
@@ -69,7 +87,7 @@ export default function DropdownLink({ label, dropdownLinks, inMobileMenu }) {
                             ...theme.extend['sb-component-link'],
                         }}
                     >
-                        <Action {...link} className={classNames(inMobileMenu && link.type === 'Button' ? 'w-full' : '')} data-sb-field-path={`.${index}`} />
+                        <Action {...link} className={classNames(inMobileMenu && link.type === 'Button' ? 'w-full' : '')} data-sb-field-path={`${index}`}/>
                     </MenuItem>
                 ))}
             </Menu>

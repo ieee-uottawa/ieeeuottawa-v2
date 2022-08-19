@@ -3,16 +3,18 @@ title: About
 layout: PageLayout
 sections:
   - type: HeroSection
-    colors: colors-b
+    colors: colors-e
     elementId: ''
     backgroundSize: full
     title: About
+    titleFr: À propos
     text: >
       The IEEE uOttawa Student Branch is the official student branch for the
       University of Ottawa and the official Sub-Association for ELG/CEG/SEG
       under the ESS.
+    textFr: >
+      La branche étudiante de l'IEEE uOttawa est la branche étudiante officielle de l'Université d'Ottawa et la sous-association officielle pour les ELG/CEG/SEG dans le cadre de l'AEG (Association des étudiants en génie).
     actions: []
-    media: null
     styles:
       self:
         height: auto
@@ -41,17 +43,19 @@ sections:
       backgroundRepeat: no-repeat
       opacity: 20
   - type: HeroSection
-    colors: colors-d
+    colors: colors-b
     elementId: ''
     backgroundSize: full
     title: Mission Statement
+    titleFr: Notre mission
     text: >
       The University of Ottawa’s IEEE Student Branch was established to provide
       professional services to improve each student’s experience on campus. This
       includes accommodating students with access to up-to-date equipment,
       internet access, textbooks and a quiet work environment.
+    textFr: >
+      La branche étudiante IEEE de l'Université d'Ottawa a été établie pour fournir des services professionnels afin d'améliorer l'expérience de chaque étudiant sur le campus. Ceci inclut l'accommodation des étudiants avec l'accès à un équipement à jour, l'accès à l'internet, les manuels scolaires et un environnement de travail tranquille.
     actions: []
-    backgroundImage: null
     styles:
       self:
         height: auto
@@ -79,34 +83,43 @@ sections:
       caption: Caption of the image
       elementId: ''
   - type: FeaturedItemsSection
-    colors: colors-c
+    colors: colors-e
     elementId: ''
     title: What We Offer
+    titleFr: À votre disposition
     subtitle: ''
+    subtitleFr: ''
     items:
       - type: FeaturedItem
         title: Mentorship
+        titleFr: Mentorat
         text: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
-          lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
-          pharetra ipsum dolor, et iaculis elit ornare ac.
+          Led by our Women In Engineering (WIE) chapter, Big Eng Little Eng is a mentorship program that pair first year students with upper year students to ease them into their new university life.
+        textFr: >-
+          Dirigé par notre chapitre Women In Engineering (WIE), Big Eng Little Eng est un programme de mentorat qui jumelle des étudiants de première année avec des étudiants de niveau supérieur pour les aider à s'intégrer dans leur nouvelle vie universitaire.
         actions: []
         styles:
           self:
             textAlign: left
       - type: FeaturedItem
         title: Quiet Study Place
+        titleFr: Lieu d'étude calme
         text: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
-          lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
-          pharetra ipsum dolor, et iaculis elit ornare ac.
+          Need a chill place to study? Come make use of our library and study in the office anytime we are open. Check out our office hours to see when we're open.
+        textFr: >-
+          Vous avez besoin d'un endroit calme pour étudier ? Venez profiter de notre bibliothèque et étudiez dans le bureau quand nous sommes ouverts. Consultez nos horaires de bureau pour savoir quand nous sommes ouverts.
         actions: []
         styles:
           self:
             textAlign: left
       - type: FeaturedItem
         title: Networking Opportunities
+        titleFr: Opportunités de réseautage
         text: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
+          lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
+          pharetra ipsum dolor, et iaculis elit ornare ac.
+        textFr: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
           lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
           pharetra ipsum dolor, et iaculis elit ornare ac.
@@ -117,8 +130,12 @@ sections:
       - type: FeaturedItem
         elementId: ''
         title: Dry Lab Access
-        subtitle: ''
+        titleFr: Accès à un laboratoire sec
         text: >-
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+          explicabo.
+        textFr: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
           explicabo.
@@ -129,8 +146,12 @@ sections:
       - type: FeaturedItem
         elementId: ''
         title: Academic Help
-        subtitle: ''
+        titleFr: Aide académique
         text: >-
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+          explicabo.
+        textFr: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
           explicabo.
@@ -141,8 +162,12 @@ sections:
       - type: FeaturedItem
         elementId: ''
         title: Cool EECS Merch
-        subtitle: ''
+        titleFr: Articles cool EECS
         text: >-
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+          explicabo.
+        textFr: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
           explicabo.
@@ -165,6 +190,8 @@ sections:
           - pl-4
           - pr-4
         justifyContent: center
+        margin:
+          - mb-0
       title:
         textAlign: left
       subtitle:
@@ -172,16 +199,17 @@ sections:
       actions:
         justifyContent: flex-start
   - type: FeatureHighlightSection
-    colors: colors-d
+    colors: colors-b
     elementId: ''
     backgroundSize: full
     title: WIE Affinity Group
+    titleFr: Groupe d'affinité WIE
     subtitle: ''
+    subtitleFr: ''
     text: >
-      The mission of the IEEE uOttawa Women In Engineering is to inspire,
-      engage, encourage, and empower women to pursue the engineering field. They
-      are responsible for organizing IEEE Wine & Cheese, one of our student
-      branch's largest events.
+      The mission of the IEEE uOttawa Women In Engineering is to inspire, engage, encourage, and empower women to pursue the engineering field. They are responsible for organizing IEEE Wine & Cheese, one of our student branch's largest events.
+    textFr: >
+      La mission de l'IEEE uOttawa Women In Engineering est d'inspirer, engager, encourager et fortifier les femmes à poursuivre le domaine de l'ingénierie. Elles sont responsables de l'organisation du Wine & Cheese de l'IEEE, l'un des plus grands événements de notre branche étudiante.
     actions:
       - type: Button
         label: Learn More
@@ -190,23 +218,24 @@ sections:
         style: primary
         url: /
     backgroundImage:
-      type: ImageBlock
+      type: BackgroundImage
       url: /images/IEEE WIE.png
       backgroundSize: cover
       backgroundPosition: center
+      backgroundRepeat: no-repeat
       opacity: 100
     styles:
       self:
         height: auto
         width: wide
         padding:
-          - pt-36
-          - pb-72
+          - pt-32
+          - pb-32
           - pl-4
           - pr-4
         justifyContent: center
       title:
-        textAlign: center
+        textAlign: left
       subtitle:
         textAlign: center
       text:
@@ -230,7 +259,6 @@ sections:
           https://docs.google.com/forms/d/e/1FAIpQLSfIdHz-ORmtsCgjEp2WpOV5ssXaC60nNpFzAY_qeRH4f7uX1w/viewform
         style: primary
         altText: Link to volunteer signup google form
-    backgroundImage: null
     styles:
       self:
         height: auto
@@ -243,6 +271,8 @@ sections:
         alignItems: center
         justifyContent: center
         flexDirection: col
+        margin:
+          - mt-0
       title:
         textAlign: left
       text:

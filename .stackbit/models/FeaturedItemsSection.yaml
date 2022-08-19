@@ -18,9 +18,17 @@ fields:
     label: Title
     default: Featured Items
   - type: string
+    name: titleFr
+    label: Titre
+    default: À la une
+  - type: string
     name: subtitle
     label: Subtitle
     default: The section subtitle
+  - type: string
+    name: subtitleFr
+    label: Sous-titre
+    default: Section sous-titre
   - type: list
     name: items
     label: Items
@@ -31,7 +39,9 @@ fields:
     default:
       - type: FeaturedItem
         title: Item Title
+        titleFr: Titre de l'article
         text: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.'
+        textFr: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.'
         featuredImage:
           type: ImageBlock
           url: 'https://assets.stackbit.com/components/images/default/default-image.png'

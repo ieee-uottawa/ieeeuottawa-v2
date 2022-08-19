@@ -10,8 +10,7 @@ fieldGroups:
 fields:
   - type: string
     name: label
-    label: Label
-    default: Learn more
+    default: Learn More
   - type: string
     name: altText
     label: Alt text
@@ -51,7 +50,7 @@ fields:
       - label: Chevron down
         value: chevronDown
       - label: Document
-        value: document        
+        value: document
       - label: Facebook
         value: facebook
       - label: GitHub

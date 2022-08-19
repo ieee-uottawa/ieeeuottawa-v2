@@ -6,6 +6,7 @@ import { getComponent } from '../../components-registry';
 import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to-class-names';
 import Section from '../Section';
 import { Action } from '../../atoms';
+import { I18NContext } from '../../../context/i18Ncontext';
 
 export default function HeroSection(props) {
     const {
@@ -15,8 +16,11 @@ export default function HeroSection(props) {
         backgroundSize,
         backgroundImage,
         title,
+        titleFr,
         subtitle,
+        subtitleFr,
         text,
+        textFr,
         media,
         actions = [],
         styles = {},
@@ -24,6 +28,12 @@ export default function HeroSection(props) {
     } = props;
     const sectionFlexDirection = styles.self?.flexDirection ?? 'row';
     const sectionAlignItems = styles.self?.alignItems ?? 'center';
+    const { locale } = React.useContext(I18NContext);
+
+    const getTitle = () => locale === 'fr' && titleFr ? titleFr : title;
+    const getSubtitle = () => locale === 'fr' && subtitleFr ? subtitleFr : subtitle;
+    const getText = () => locale === 'fr' && textFr ? textFr : text;
+
     return (
         <Section
             type={type}
@@ -42,7 +52,7 @@ export default function HeroSection(props) {
                 })}
             >
                 <div className="flex-1 w-full">
-                    <HeroBody title={title} subtitle={subtitle} text={text} styles={styles} />
+                    <HeroBody title={getTitle()} subtitle={getSubtitle()} text={getText()} styles={styles} />
                     <HeroActions actions={actions} styles={styles.actions} hasTopMargin={!!(title || subtitle || text)} />
                 </div>
                 {media && (
@@ -69,17 +79,22 @@ function HeroMedia({ media }) {
 
 function HeroBody(props) {
     const { title, subtitle, text, styles = {} } = props;
+    const { locale } = React.useContext(I18NContext);
+    const getTitleFieldPath = () => locale === 'fr' ? '.titleFr' : '.title';
+    const getSubtitleFieldPath = () => locale === 'fr' ? '.subtitleFr' : '.subtitle';
+    const getTextFieldPath = () => locale === 'fr' ? '.textFr' : '.text';
+
     return (
         <>
             {title && (
-                <h2 className={classNames('h1', styles.title ? mapStyles(styles.title) : null)} data-sb-field-path=".title">
+                <h2 className={classNames('h1', styles.title ? mapStyles(styles.title) : null)} data-sb-field-path={getTitleFieldPath()}>
                     {title}
                 </h2>
             )}
             {subtitle && (
                 <p
                     className={classNames('text-xl', 'sm:text-2xl', styles.subtitle ? mapStyles(styles.subtitle) : null, { 'mt-4': title })}
-                    data-sb-field-path=".subtitle"
+                    data-sb-field-path={getSubtitleFieldPath()}
                 >
                     {subtitle}
                 </p>
@@ -90,7 +105,7 @@ function HeroBody(props) {
                     className={classNames('sb-markdown', 'sm:text-lg', styles.text ? mapStyles(styles.text) : null, {
                         'mt-6': title || subtitle
                     })}
-                    data-sb-field-path=".text"
+                    data-sb-field-path={getTextFieldPath()}
                 >
                     {text}
                 </Markdown>

@@ -8,14 +8,16 @@ metaTags: []
 title: Events
 sections:
   - type: HeroSection
-    colors: colors-b
+    colors: colors-e
     elementId: ''
     backgroundSize: full
     title: Events
+    titleFr: Événements
     text: |
       Checkout our upcoming events and our past events!
+    textFr: |
+      Jetez un coup d'œil à nos événements à venir et à nos événements passés !
     actions: []
-    media: null
     styles:
       self:
         height: auto
@@ -47,16 +49,21 @@ sections:
     colors: colors-d
     elementId: ''
     title: Key value propositions
+    titleFr: Événements marquants
     subtitle: ''
     items:
       - type: FeaturedItem
         title: WIE Tech Panel
+        titleFr: Panel de Tech par WIE
         text: >
+          **Bottom of the Hill**<br>1233 Seventeenth St.<br>San Francisco, CA
+          94107
+        textFr: >
           **Bottom of the Hill**<br>1233 Seventeenth St.<br>San Francisco, CA
           94107
         actions:
           - type: Button
-            label: Learn more
+            label: Learn More
             showIcon: true
             icon: arrowRight
             url: /
@@ -72,12 +79,16 @@ sections:
           elementId: ''
       - type: FeaturedItem
         title: WIE Tech Panel
+        titleFr: Panel de Tech par WIE
         text: >
+          **Bottom of the Hill**<br>1233 Seventeenth St.<br>San Francisco, CA
+          94107
+        textFr: >
           **Bottom of the Hill**<br>1233 Seventeenth St.<br>San Francisco, CA
           94107
         actions:
           - type: Button
-            label: Learn more
+            label: Learn More
             showIcon: true
             icon: arrowRight
             url: /
@@ -93,12 +104,16 @@ sections:
           elementId: ''
       - type: FeaturedItem
         title: WIE Tech Panel
+        titleFr: Panel de Tech par WIE
         text: >
+          **Bottom of the Hill**<br>1233 Seventeenth St.<br>San Francisco, CA
+          94107
+        textFr: >
           **Bottom of the Hill**<br>1233 Seventeenth St.<br>San Francisco, CA
           94107
         actions:
           - type: Button
-            label: Learn more
+            label: Learn More
             showIcon: true
             icon: arrowRight
             url: /
@@ -114,12 +129,16 @@ sections:
           elementId: ''
       - type: FeaturedItem
         title: WIE Tech Panel
+        titleFr: Panel de Tech par WIE
         text: >
+          **Bottom of the Hill**<br>1233 Seventeenth St.<br>San Francisco, CA
+          94107
+        textFr: >
           **Bottom of the Hill**<br>1233 Seventeenth St.<br>San Francisco, CA
           94107
         actions:
           - type: Button
-            label: Learn more
+            label: Learn More
             showIcon: true
             icon: arrowRight
             url: /
@@ -135,12 +154,16 @@ sections:
           elementId: ''
       - type: FeaturedItem
         title: WIE Tech Panel
+        titleFr: Panel de Tech par WIE
         text: >
+          **Bottom of the Hill**<br>1233 Seventeenth St.<br>San Francisco, CA
+          94107
+        textFr: >
           **Bottom of the Hill**<br>1233 Seventeenth St.<br>San Francisco, CA
           94107
         actions:
           - type: Button
-            label: Learn more
+            label: Learn More
             showIcon: true
             icon: arrowRight
             url: /
@@ -156,12 +179,16 @@ sections:
           elementId: ''
       - type: FeaturedItem
         title: WIE Tech Panel
+        titleFr: Panel de Tech par WIE
         text: >
+          **Bottom of the Hill**<br>1233 Seventeenth St.<br>San Francisco, CA
+          94107
+        textFr: >
           **Bottom of the Hill**<br>1233 Seventeenth St.<br>San Francisco, CA
           94107
         actions:
           - type: Button
-            label: Learn more
+            label: Learn More
             showIcon: true
             icon: arrowRight
             url: /

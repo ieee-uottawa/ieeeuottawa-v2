@@ -35,8 +35,11 @@ module.exports = {
                 '9/16': '56.25%'
             },
             fontFamily: {
-                fontPrimary: themeStyle.fontPrimary,
-                fontSecondary: themeStyle.fontSecondary
+                fontPrimary: ["Space Grotesk", "sans-serif"],
+                fontSecondary: ["Roboto Mono", "monospace"]
+            },
+            screens: {
+                lg: '1200px',
             }
         }
     },
@@ -93,7 +96,7 @@ module.exports = {
                     letterSpacing: theme(`letterSpacing.${themeStyle.h6.letterSpacing}`),
                     textDecoration: themeStyle.h6.decoration,
                     textTransform: themeStyle.h6.case
-                }
+                },
             });
             addComponents({
                 '.sb-component-button-primary': {

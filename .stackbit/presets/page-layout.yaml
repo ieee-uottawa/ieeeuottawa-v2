@@ -36,8 +36,10 @@ presets:
       sections:
         - type: HeroSection
           colors: colors-d
-          title: We do fishing differently
+          title: This Is a Big Hero Headline
+          titleFr: Ceci est un grand titre de page
           subtitle: Fresh. Better. Faster.
+          subtitleFr: Frais. Meilleur. Plus rapide.
           actions:
             - type: Button
               label: Get Started
@@ -156,7 +158,9 @@ presets:
           colors: colors-d
           backgroundSize: full
           title: Time to leave your desk. Let’s go flying
+          titleFr: Il est temps de quitter votre bureau. Allons voler
           text: We’re local, seasonal fisherman, supporting fishing restrictions.
+          textFr: Nous sommes des pêcheurs locaux, saisonniers, qui soutiennent les restrictions de pêche.
           actions:
             - type: Button
               label: Join adventure
@@ -192,8 +196,9 @@ presets:
         - type: ContactSection
           colors: colors-d
           title: Join our club
-          text: We will notify you every time a shipment is heading to your neighborhood,
-            and you could immediatly let us know if you want in or not
+          titleFr: Joingez notre club
+          text: Insert text here
+          textFr: Insérez texte ici
           form:
             type: FormBlock
             elementId: sign-up-form
@@ -203,37 +208,47 @@ presets:
               - type: TextFormControl
                 name: firstName
                 label: First Name
+                labelFr: Prénom
                 hideLabel: true
                 placeholder: First Name
+                placeholderFr: Prénom
                 isRequired: false
                 width: 1/2
               - type: TextFormControl
                 name: lastName
                 label: Last Name
+                labelFr: Nom de famille
                 hideLabel: true
                 placeholder: Last Name
+                placeholderFr: Nom de famille
                 isRequired: false
                 width: 1/2
               - type: EmailFormControl
                 name: email
                 label: Email
+                labelFr: Email
                 hideLabel: true
                 placeholder: Email
+                placeholderFr: Email
                 isRequired: true
                 width: full
               - type: TextFormControl
                 name: address
                 label: Address
+                labelFr: Addresse
                 hideLabel: true
                 placeholder: Address
+                placeholderFr: Addresse
                 isRequired: true
                 width: full
               - type: CheckboxFormControl
                 name: updatesConsent
-                label: Sign me up to recieve updates
+                label: Sign me up to receive updates
+                labelFr: Je souhaite recevoir des mises à jour
                 isRequired: false
                 width: full
             submitLabel: Submit form
+            submitLabelFr: Soumettre
             styles:
               submitLabel:
                 textAlign: center
@@ -341,8 +356,9 @@ presets:
         - type: ContactSection
           colors: colors-d
           title: Join our club
-          text: We will notify you every time a shipment is heading to your neighborhood,
-            and you could immediatly let us know if you want in or not
+          titleFr: Joingez notre club
+          text: Insert text here
+          textFr: Insérez texte ici
           form:
             type: FormBlock
             elementId: sign-up-form
@@ -352,37 +368,47 @@ presets:
               - type: TextFormControl
                 name: firstName
                 label: First Name
+                labelFr: Prénom
                 hideLabel: true
                 placeholder: First Name
+                placeholderFr: Prénom
                 isRequired: false
                 width: 1/2
               - type: TextFormControl
                 name: lastName
                 label: Last Name
+                labelFr: Nom de famille
                 hideLabel: true
                 placeholder: Last Name
+                placeholderFr: Nom de famille
                 isRequired: false
                 width: 1/2
               - type: EmailFormControl
                 name: email
                 label: Email
+                labelFr: Email
                 hideLabel: true
                 placeholder: Email
+                placeholderFr: Email
                 isRequired: true
                 width: full
               - type: TextFormControl
                 name: address
                 label: Address
+                labelFr: Addresse
                 hideLabel: true
                 placeholder: Address
+                placeholderFr: Addresse
                 isRequired: true
                 width: full
               - type: CheckboxFormControl
                 name: updatesConsent
-                label: Sign me up to recieve updates
+                label: Sign me up to receive updates
+                labelFr: Je souhaite recevoir des mises à jour
                 isRequired: false
                 width: full
             submitLabel: Submit form
+            submitLabelFr: Soumettre
             styles:
               submitLabel:
                 textAlign: center

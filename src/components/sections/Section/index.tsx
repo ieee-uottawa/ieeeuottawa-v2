@@ -2,6 +2,8 @@ import * as React from 'react';
 import classNames from 'classnames';
 import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to-class-names';
 import { BackgroundImage } from '../../atoms';
+import { DisplayModeContext } from '../../../context/displayMode';
+import { getMatchingColor } from '../../../utils/themeColorMapper';
 
 type SectionProps = React.PropsWithChildren<{
     type?: string;
@@ -25,6 +27,8 @@ export default function Section(props: SectionProps) {
 function SectionInset(props: SectionProps) {
     const { type, elementId, colors = 'colors-d', backgroundImage, styles = {}, children, 'data-sb-field-path': fieldPath } = props;
     const classSuffix = type && type.replace(/([a-z0-9])([A-Z])/g, '$1-$2').toLowerCase();
+    const { displayMode } = React.useContext(DisplayModeContext);
+
     return (
         <div
             id={elementId || null}
@@ -40,7 +44,7 @@ function SectionInset(props: SectionProps) {
         >
             <div
                 className={classNames(
-                    colors,
+                    [getMatchingColor(displayMode, colors)],
                     'flex',
                     'flex-col',
                     'justify-center',
@@ -68,6 +72,8 @@ function SectionInset(props: SectionProps) {
 function SectionFullWidth(props: SectionProps) {
     const { type, elementId, colors = 'colors-d', backgroundImage, styles = {}, children, 'data-sb-field-path': fieldPath } = props;
     const classSuffix = type && type.replace(/([a-z0-9])([A-Z])/g, '$1-$2').toLowerCase();
+    const { displayMode } = React.useContext(DisplayModeContext);
+
     return (
         <div
             id={elementId || null}
@@ -75,7 +81,7 @@ function SectionFullWidth(props: SectionProps) {
                 'sb-component',
                 'sb-component-section',
                 classSuffix && `sb-component-${classSuffix}`,
-                colors,
+                getMatchingColor(displayMode, colors),
                 'flex',
                 'flex-col',
                 'justify-center',

@@ -5,22 +5,22 @@ metaTags: []
 title: Documents
 sections:
   - type: HeroSection
-    colors: colors-b
+    colors: colors-e
     elementId: ''
     backgroundSize: full
     title: Documents
-    text: >+
-      Want to know more about the IEEE’s constitution? Curious about our
-      internal operations? You've come to the right place to access all the
-      IEEE’s most important documents!
-
+    titleFr: Documents
+    text: >
+      On this page, you will find supporting documentation detailing the branch's operations such as the constitution, code of conduct, budget, and meeting minutes.
+    textFr: >
+      Sur cette page, vous trouverez des documents détaillant le fonctionnement de la branche, tels que la constitution, le code de conduite, le budget et les procès-verbaux des réunions.
     actions: []
-    media: null
     backgroundImage:
-      type: ImageBlock
+      type: BackgroundImage
       url: /images/pexels-fauxels-3183150.jpg
       backgroundSize: cover
       backgroundPosition: center
+      backgroundRepeat: no-repeat
       opacity: 25
     styles:
       self:
@@ -46,18 +46,19 @@ sections:
     colors: colors-d
     elementId: ''
     title: General Documents
+    titleFr: Documents généraux
     items:
       - type: FeaturedItem
         title: Constitution
+        titleFr: Constitution
         text: >
           The constitution is a document by which the branch operations are
-          governed. Updated every other year, this document provides detailed
-          mandates and eligibility for each officer of the society, election
-          policies, committee roles, financial matters, IEEE services, and
-          accountability procedures.
+          governed. This document provides detailed mandates and eligibility for each exec team member, election policies, committee roles, financial matters, IEEE services, and accountability procedures.
+        textFr: >
+          La constitution est un document par lequel les opérations de la branche sont régies. Ce document fournit des mandats détaillés et l'éligibilité de chaque membre de l'équipe exécutive, les politiques d'élection, les rôles des comités, les questions financières, les services IEEE et les procédures de responsabilité.
         actions:
           - type: Button
-            label: Learn more
+            label: Learn More
             showIcon: true
             icon: arrowRight
             url: /
@@ -67,14 +68,17 @@ sections:
             textAlign: left
       - type: FeaturedItem
         title: Code of conduct
+        titleFr: Code de conduite
         text: >
           The IEEE Code of Conduct describes IEEE members' and staff's
           commitment to the highest standards of integrity, responsible
           behaviour, and ethical and professional conduct. The code of conduct
           must be followed at all times in and out of IEEE premises.
+        textFr: >
+          Le code de conduite de l'IEEE décrit l'engagement des membres et du personnel de l'IEEE envers les plus hauts standards d'intégrité, de comportement responsable et de conduite éthique et professionnelle. Le code de conduite doit être suivi à tout moment dans et hors des locaux de l'IEEE.
         actions:
           - type: Button
-            label: Learn more
+            label: Learn More
             showIcon: true
             icon: arrowRight
             url: /
@@ -84,14 +88,14 @@ sections:
             textAlign: left
       - type: FeaturedItem
         title: Budget
+        titleFr: Budget
         text: >
-          Wondering how IEEE spends their money? Curious how much it costs to
-          keep the branch going? In this section, you can find live, detailed
-          budgets for each academic year, to get a sense of how student money
-          comes back around to benefit their university experience.
+          In this section, you can find live, detailed budgets for each academic year, to get a sense of how student money comes back around to benefit their university experience.
+        textFr: >
+          Dans cette section, vous trouverez des budgets détaillés en direct pour chaque année universitaire, afin de vous faire une idée de la manière dont l'argent des étudiants revient pour profiter de leur expérience universitaire.
         actions:
           - type: Button
-            label: Learn more
+            label: Learn More
             showIcon: true
             icon: arrowRight
             url: /
@@ -124,14 +128,15 @@ sections:
     colors: colors-c
     elementId: ''
     title: Meeting Minutes
+    titleFr: Procès verbaux
     subtitle: >-
-      Ever wonder what the IEEE execs discuss every other week? Do you find
-      yourself reflecting on the branch's decisions and why they were made?
-      Check out the Internal meeting minutes to catch a glimpse of the
-      discussions that drive what we do.
+      Check out the Internal meeting minutes to catch a glimpse of the discussions that drive what we do.
+    subtitleFr: >-
+      Consultez les comptes-rendus des réunions internes pour avoir un aperçu des discussions qui motivent nos actions.
     items:
       - type: FeaturedItem
         title: IEEE Executive Meeting Minutes
+        titleFr: Procès-verbal de la réunion exécutive
         actions:
           - type: Button
             label: View
@@ -148,6 +153,7 @@ sections:
         subtitle: '2022-04-03'
       - type: FeaturedItem
         title: IEEE Executive Meeting Minutes
+        titleFr: Procès-verbal de la réunion exécutive
         actions:
           - type: Button
             label: View
@@ -161,6 +167,7 @@ sections:
         subtitle: '2022-03-20'
       - type: FeaturedItem
         title: IEEE Executive Meeting Minutes
+        titleFr: Procès-verbal de la réunion exécutive
         actions:
           - type: Button
             label: View
@@ -174,6 +181,7 @@ sections:
         subtitle: '2022-03-09'
       - type: FeaturedItem
         title: IEEE Executive Meeting Minutes
+        titleFr: Procès-verbal de la réunion exécutive
         actions:
           - type: Button
             label: View
@@ -187,6 +195,7 @@ sections:
         subtitle: '2022-02-19'
       - type: FeaturedItem
         title: IEEE Executive Meeting Minutes
+        titleFr: Procès-verbal de la réunion exécutive
         actions:
           - type: Button
             label: View
@@ -200,6 +209,7 @@ sections:
         subtitle: '2022-02-02'
       - type: FeaturedItem
         title: IEEE Executive Meeting Minutes
+        titleFr: Procès-verbal de la réunion exécutive
         actions:
           - type: Button
             label: View
@@ -213,6 +223,7 @@ sections:
         subtitle: '2022-01-23'
       - type: FeaturedItem
         title: IEEE Executive Meeting Minutes
+        titleFr: Procès-verbal de la réunion exécutive
         actions:
           - type: Button
             label: View
@@ -226,6 +237,7 @@ sections:
         subtitle: '2021-12-01'
       - type: FeaturedItem
         title: IEEE Executive Meeting Minutes
+        titleFr: Procès-verbal de la réunion exécutive
         actions:
           - type: Button
             label: View
@@ -239,6 +251,7 @@ sections:
         subtitle: '2021-11-21'
       - type: FeaturedItem
         title: IEEE Executive Meeting Minutes
+        titleFr: Procès-verbal de la réunion exécutive
         actions:
           - type: Button
             label: View
@@ -252,6 +265,7 @@ sections:
         subtitle: '2021-11-03'
       - type: FeaturedItem
         title: IEEE Executive Meeting Minutes
+        titleFr: Procès-verbal de la réunion exécutive
         actions:
           - type: Button
             label: View
@@ -265,6 +279,7 @@ sections:
         subtitle: '2021-10-24'
       - type: FeaturedItem
         title: IEEE Executive Meeting Minutes
+        titleFr: Procès-verbal de la réunion exécutive
         actions:
           - type: Button
             label: View
@@ -278,6 +293,7 @@ sections:
         subtitle: '2021-10-06'
       - type: FeaturedItem
         title: IEEE Executive Meeting Minutes
+        titleFr: Procès-verbal de la réunion exécutive
         actions:
           - type: Button
             label: View

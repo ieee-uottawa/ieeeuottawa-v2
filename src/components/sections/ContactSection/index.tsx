@@ -6,11 +6,17 @@ import { getComponent } from '../../components-registry';
 import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to-class-names';
 import Section from '../Section';
 import FormBlock from '../../molecules/FormBlock';
+import { I18NContext } from '../../../context/i18Ncontext';
 
 export default function ContactSection(props) {
-    const { type, elementId, colors, backgroundSize, title, text, form, media, styles = {}, 'data-sb-field-path': fieldPath } = props;
+    const { type, elementId, colors, backgroundSize, title, titleFr, text, textFr, form, media, styles = {}, 'data-sb-field-path': fieldPath } = props;
     const sectionFlexDirection = styles.self?.flexDirection ?? 'row';
     const sectionAlignItems = styles.self?.alignItems ?? 'center';
+    const { locale } = React.useContext(I18NContext);
+
+    const getTitle = () => locale === 'fr' && titleFr ? titleFr : title;
+    const getText = () => locale === 'fr' && textFr ? textFr : text;
+
     return (
         <Section type={type} elementId={elementId} colors={colors} backgroundSize={backgroundSize} styles={styles.self} data-sb-field-path={fieldPath}>
             <div
@@ -21,7 +27,7 @@ export default function ContactSection(props) {
                 })}
             >
                 <div className="flex-1 w-full">
-                    <ContactBody title={title} text={text} styles={styles} />
+                    <ContactBody title={getTitle()} text={getText()} styles={styles} />
                     {form && (
                         <div className={classNames('sb-contact-section-form', { 'mt-12': title || text })}>
                             <FormBlock {...form} className="inline-block w-full" data-sb-field-path=".form" />
@@ -52,10 +58,15 @@ function ContactMedia({ media }) {
 
 function ContactBody(props) {
     const { title, text, styles = {} } = props;
+    const { locale } = React.useContext(I18NContext);
+
+    const getTitleFieldPath = () => locale === 'fr' ? '.titleFr' : '.title';
+    const getTextFieldPath = () => locale === 'fr' ? '.textFr' : '.text';
+
     return (
         <>
             {title && (
-                <h2 className={classNames(styles.title ? mapStyles(styles.title) : null)} data-sb-field-path=".title">
+                <h2 className={classNames(styles.title ? mapStyles(styles.title) : null)} data-sb-field-path={getTitleFieldPath()}>
                     {title}
                 </h2>
             )}
@@ -63,7 +74,7 @@ function ContactBody(props) {
                 <Markdown
                     options={{ forceBlock: true, forceWrapper: true }}
                     className={classNames('sb-markdown', styles.text ? mapStyles(styles.text) : null, { 'mt-4': title })}
-                    data-sb-field-path=".text"
+                    data-sb-field-path={getTextFieldPath()}
                 >
                     {text}
                 </Markdown>

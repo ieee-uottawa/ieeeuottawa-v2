@@ -47,7 +47,7 @@ presets:
       text: We’re local, seasonal fisherman, supporting fishing restrictions.
       actions:
         - type: Button
-          label: Get started
+          label: Get Started
           showIcon: true
           icon: arrowRight
           style: primary
