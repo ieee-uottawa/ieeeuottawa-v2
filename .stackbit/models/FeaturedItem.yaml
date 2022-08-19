@@ -38,6 +38,11 @@ fields:
     name: textFr
     label: Texte
     default: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.'
+  - type: boolean
+    name: isIcon
+    label: Is Icon?
+    description: Indicate whether the image is an icon
+    default: false
   - type: model
     name: featuredImage
     label: Image
@@ -47,6 +52,62 @@ fields:
       type: ImageBlock
       url: 'https://assets.stackbit.com/components/images/default/default-image.png'
       altText: Item image
+  - type: enum
+    name: featuredIcon
+    label: Icon
+    options:
+      - label: Apple
+        value: apple
+      - label: Arrow left
+        value: arrowLeft
+      - label: Arrow left circle
+        value: arrowLeftCircle
+      - label: Arrow right
+        value: arrowRight
+      - label: Arrow right
+        value: arrowRightCircle
+      - label: Books
+        value: books
+      - label: Bulb
+        value: bulb
+      - label: Cart
+        value: cart
+      - label: Chevron left
+        value: chevronLeft
+      - label: Chevron right
+        value: chevronRight
+      - label: Chevron down
+        value: chevronDown
+      - label: Circuit
+        value: circuit
+      - label: Document
+        value: document
+      - label: Facebook
+        value: facebook
+      - label: GitHub
+        value: github
+      - label: Google Play
+        value: googlePlay
+      - label: Instagram
+        value: instagram
+      - label: LinkedIn
+        value: linkedin
+      - label: Mail
+        value: mail
+      - label: Play
+        value: play
+      - label: Play circle
+        value: playCircle
+      - label: Reddit
+        value: reddit
+      - label: Send
+        value: send
+      - label: Twitter
+        value: twitter
+      - label: Vimeo
+        value: vimeo
+      - label: YouTube
+        value: youtube
   - type: list
     name: actions
     label: Actions

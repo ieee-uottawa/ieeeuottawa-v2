@@ -77,9 +77,15 @@ sections:
         title: Purchase lab supplies
         titleFr: Achetez des matériaux de laboratoire
         text: >
-          Need to buy a breadboard, wire strippers or CD-Rs? Need to use an Altera DE2 Board or an oscilloscope for a project? Look no further. We got you covered. Visit our office to get all the equipment you need.
+          Need to buy a breadboard, wire strippers or CD-Rs? Need to use an
+          Altera DE2 Board or an oscilloscope for a project? Look no further. We
+          got you covered. Visit our office to get all the equipment you need.
         textFr: >
-          Vous devez acheter une planche à pain, des pinces à dénuder ou des CD-R ? Vous avez besoin d'utiliser une carte Altera DE2 ou un oscilloscope pour un projet ? Ne cherchez pas plus loin. Nous avons tout ce qu'il vous faut. Visitez notre bureau pour obtenir tout le matériel dont vous avez besoin.
+          Vous devez acheter une planche à pain, des pinces à dénuder ou des
+          CD-R ? Vous avez besoin d'utiliser une carte Altera DE2 ou un
+          oscilloscope pour un projet ? Ne cherchez pas plus loin. Nous avons
+          tout ce qu'il vous faut. Visitez notre bureau pour obtenir tout le
+          matériel dont vous avez besoin.
         actions: []
         styles:
           self:
@@ -90,6 +96,8 @@ sections:
           altText: Circuit illustration
           caption: Caption of the image
           elementId: ''
+        featuredIcon: circuit
+        isIcon: true
       - type: FeaturedItem
         title: Get homework help
         titleFr: Obtenez de l'aide pour vos devoirs
@@ -98,7 +106,10 @@ sections:
           your midterm? Our office is the perfect place for that. Plus, you can
           also seek academic help from our executives during their office hours.
         textFr: >
-          Besoin d'étudier avec vos amis dans un environnement calme pour vous préparer pour votre mi-session ? Notre bureau est l'endroit idéal pour cela. De plus, vous pouvez également demander une aide académique à nos execs pendant leurs heures de bureau.
+          Besoin d'étudier avec vos amis dans un environnement calme pour vous
+          préparer pour votre mi-session ? Notre bureau est l'endroit idéal pour
+          cela. De plus, vous pouvez également demander une aide académique à
+          nos execs pendant leurs heures de bureau.
         actions: []
         styles:
           self:
@@ -109,13 +120,20 @@ sections:
           altText: altText of the image
           caption: Caption of the image
           elementId: ''
+        featuredIcon: bulb
+        isIcon: true
       - type: FeaturedItem
         title: Borrow textbooks
         titleFr: Empruntez des manuels
         text: >
-          Need to borrow a textbook for one of your courses? Our office contains a carefully curated selection of textbooks covering a wide variety of EECS subjects. The best part? You can borrow them at no cost!
+          Need to borrow a textbook for one of your courses? Our office contains
+          a carefully curated selection of textbooks covering a wide variety of
+          EECS subjects. The best part? You can borrow them at no cost!
         textFr: >
-          Vous avez besoin d'emprunter un manuel pour l'un de vos cours ? Notre bureau contient une excellente sélection de manuels couvrant une grande variété de sujets de l'EECS. Et le meilleur ? Vous pouvez les emprunter gratuitement !
+          Vous avez besoin d'emprunter un manuel pour l'un de vos cours ? Notre
+          bureau contient une excellente sélection de manuels couvrant une
+          grande variété de sujets de l'EECS. Et le meilleur ? Vous pouvez les
+          emprunter gratuitement !
         actions: []
         styles:
           self:
@@ -126,6 +144,8 @@ sections:
           altText: Textbooks illustration
           caption: Caption of the image
           elementId: ''
+        featuredIcon: books
+        isIcon: true
     actions: []
     columns: 3
     spacingX: 16
@@ -152,10 +172,8 @@ sections:
     elementId: ''
     title: Upcoming Events
     titleFr: Prochains événements
-    subtitle: >-
-      There are currently no upcoming events planned. Check again soon!
-    subtitleFr: >-
-      Il n'y a actuellement aucun événement prévu. Repassez bientôt !
+    subtitle: There are currently no upcoming events planned. Check again soon!
+    subtitleFr: Il n'y a actuellement aucun événement prévu. Repassez bientôt !
     items: []
     actions: []
     columns: 1
@@ -185,9 +203,12 @@ sections:
     title: Get in touch
     titleFr: Contactez-nous
     text: >
-      Got a question? Event suggestions? Feedback? We want to hear it! Send us a message and we will get back to you as soon as we can.
+      Got a question? Event suggestions? Feedback? We want to hear it! Send us a
+      message and we will get back to you as soon as we can.
     textFr: >
-      Vous avez une question ? Des suggestions d'événements ? Des commentaires ? Nous voulons les entendre ! Envoyez-nous un message et nous vous répondrons dès que possible.
+      Vous avez une question ? Des suggestions d'événements ? Des commentaires ?
+      Nous voulons les entendre ! Envoyez-nous un message et nous vous
+      répondrons dès que possible.
     form:
       type: FormBlock
       elementId: sign-up-form
