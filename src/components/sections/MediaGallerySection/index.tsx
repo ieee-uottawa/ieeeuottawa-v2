@@ -4,13 +4,16 @@ import classNames from 'classnames';
 import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to-class-names';
 import Section from '../Section';
 import ImageBlock from '../../molecules/ImageBlock';
+import { I18NContext } from '../../../context/i18Ncontext';
 
 type MediaGallerySectionProps = {
     type: string;
     elementId: string;
     colors?: 'colors-a' | 'colors-b' | 'colors-c' | 'colors-d' | 'colors-e';
     title?: string;
+    titleFr?: string;
     subtitle?: string;
+    subtitleFr?: string;
     images?: Image[];
     spacing?: number;
     columns?: number;
@@ -41,7 +44,9 @@ export default function MediaGallerySection(props: MediaGallerySectionProps) {
         elementId,
         colors,
         title,
+        titleFr,
         subtitle,
+        subtitleFr,
         images = [],
         columns = 4,
         spacing = 16,
@@ -51,11 +56,16 @@ export default function MediaGallerySection(props: MediaGallerySectionProps) {
         styles = {},
         'data-sb-field-path': fieldPath
     } = props;
+    
+    const { locale } = React.useContext(I18NContext);
+    const getTitle = () => locale === 'fr' && titleFr ? titleFr : title;
+    const getSubtitle = () => locale === 'fr' && subtitleFr ? subtitleFr : subtitle;
+
     return (
         <Section type={type} elementId={elementId} colors={colors} styles={styles.self} data-sb-field-path={fieldPath}>
             {title && (
-                <h2 className={classNames(styles.title ? mapStyles(styles.title) : null)} data-sb-field-path=".title">
-                    {title}
+                <h2 className={classNames(styles.title ? mapStyles(styles.title) : null)} data-sb-field-path={`.${locale === 'fr' ? 'titleFr' : 'title'}`}>
+                    {getTitle()}
                 </h2>
             )}
             {subtitle && (
@@ -63,9 +73,9 @@ export default function MediaGallerySection(props: MediaGallerySectionProps) {
                     className={classNames('text-lg', 'sm:text-xl', styles.subtitle ? mapStyles(styles.subtitle) : null, {
                         'mt-6': title
                     })}
-                    data-sb-field-path=".subtitle"
+                    data-sb-field-path={`.${locale === 'fr' ? 'subtitleFr' : 'subtitle'}`}
                 >
-                    {subtitle}
+                    {getSubtitle()}
                 </p>
             )}
             {images.length > 0 && (

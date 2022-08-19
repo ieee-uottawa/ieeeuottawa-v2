@@ -8,8 +8,8 @@ export default function TextareaFormControl(props) {
     const attr: any = {};
     const { locale } = React.useContext(I18NContext);
     
-    const getLabel = () => labelFr ? labelFr : label;
-    const getPlaceholder = () => placeholderFr ? placeholderFr : placeholder;
+    const getLabel = () => locale === 'fr' && labelFr ? labelFr : label;
+    const getPlaceholder = () => locale === 'fr' && placeholderFr ? placeholderFr : placeholder;
 
     if (label) {
         attr['aria-labelledby'] = labelId;

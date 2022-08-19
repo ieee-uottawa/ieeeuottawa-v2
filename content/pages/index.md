@@ -51,11 +51,6 @@ sections:
       self:
         height: screen
         width: wide
-        padding:
-          - pt-20
-          - pb-80
-          - pr-12
-          - pl-12
         alignItems: center
         justifyContent: center
         flexDirection: row
@@ -216,20 +211,12 @@ sections:
       action: /.netlify/functions/submission_created
       fields:
         - type: TextFormControl
-          name: firstName
-          label: First Name
-          labelFr: Prénom
+          name: name
+          label: Name
+          labelFr: Nom
           hideLabel: true
-          placeholder: First Name
-          placeholderFr: Prénom
-          isRequired: true
-          width: 1/2
-        - type: TextFormControl
-          name: lastName
-          label: Last Name
-          labelFr: Nom de famille
-          hideLabel: true
-          placeholder: Nom de famille
+          placeholder: Name
+          placeholderFr: Nom
           isRequired: false
           width: 1/2
         - type: EmailFormControl
@@ -240,7 +227,7 @@ sections:
           placeholder: Email
           placeholderFr: Email
           isRequired: true
-          width: full
+          width: 1/2
         - type: TextareaFormControl
           name: Message
           label: Message
