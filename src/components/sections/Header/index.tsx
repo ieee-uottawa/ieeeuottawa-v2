@@ -129,6 +129,7 @@ function MobileMenu(props) {
     const { title, isTitleVisible, logo, primaryLinks = [], secondaryLinks = [], secondaryColors = 'colors-d' } = props;
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const router = useRouter();
+    const { displayMode } = React.useContext(DisplayModeContext);
 
     useEffect(() => {
         const handleRouteChange = () => {
@@ -149,7 +150,7 @@ function MobileMenu(props) {
             </button>
             <div
                 className={classNames(
-                    secondaryColors,
+                    getMatchingColor(displayMode, secondaryColors),
                     'fixed',
                     'inset-0',
                     'px-4',
