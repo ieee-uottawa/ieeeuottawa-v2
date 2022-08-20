@@ -12,7 +12,6 @@ import LocaleSelector from './LocaleSelector';
 import ModeSwitcher from './ModeSwitcher';
 import { DisplayModeContext } from '../../../context/displayMode';
 import { getMatchingColor } from '../../../utils/themeColorMapper';
-import Image from 'next/image';
 
 export default function Header(props) {
     const { isSticky, primaryColors = 'colors-d', styles = {}, annotationPrefix, ...rest } = props;
