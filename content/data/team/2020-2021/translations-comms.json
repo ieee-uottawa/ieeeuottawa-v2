@@ -1,11 +1,11 @@
 {
     "type": "Person",
-    "firstName": "Nizar",
-    "lastName": "Zariouh",
+    "firstName": "Alae",
+    "lastName": "Boufarrachene",
     "role": "Translation Commissioner",
     "image": {
-        "url": "/images/team/2021-2022/translation-com.png",
-        "altText": "Person photo"
+        "url": "/images/team/alae-boufarrachene.jpg",
+        "altText": "Alae Boufarrachene photo"
     },
     "socialLinks": [
         {

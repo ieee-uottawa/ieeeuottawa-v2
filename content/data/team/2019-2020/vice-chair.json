@@ -1,11 +1,11 @@
 {
     "type": "Person",
-    "firstName": "Madison",
-    "lastName": "Smrtka",
+    "firstName": "Amar",
+    "lastName": "Jasarbasic",
     "image": {
         "type": "ImageBlock",
-        "altText": "Dianne Ameter photo",
-        "url": "/images/team/2021-2022/vice-chair.jpg"
+        "altText": "Amar Jasarbasic photo",
+        "url": "/images/team/amar-jasarbasic.jpg"
     },
     "role": "Vice Chair",
     "socialLinks": [

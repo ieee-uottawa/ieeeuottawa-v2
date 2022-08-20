@@ -1,13 +1,13 @@
 {
     "type": "Person",
-    "lastName": "Flynn",
+    "firstName": "Robert",
+    "lastName": "Conrad",
     "role": "Treasurer",
     "image": {
         "type": "ImageBlock",
-        "url": "/images/team/2021-2022/treasurer.jpg",
-        "altText": "Hugh Saturation photo"
+        "url": "/images/team/robert-conrad.jpg",
+        "altText": "Robert Conrad photo"
     },
-    "firstName": "Ben",
     "socialLinks": [
         {
             "type": "Social",

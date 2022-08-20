@@ -1,12 +1,12 @@
 {
     "type": "Person",
-    "firstName": "Vlad",
-    "lastName": "Jidkov",
+    "firstName": "Michal",
+    "lastName": "Ridner",
     "role": "Chair",
     "image": {
         "type": "ImageBlock",
-        "url": "/images/team/2021-2022/chair.jpg",
-        "altText": "Hilary Ouse photo"
+        "url": "/images/team/michal-ridner.jpg",
+        "altText": "Michal Ridner photo"
     },
     "socialLinks": [
         {

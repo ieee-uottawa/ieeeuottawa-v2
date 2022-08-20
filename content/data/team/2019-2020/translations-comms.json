@@ -1,11 +1,11 @@
 {
     "type": "Person",
-    "firstName": "Nizar",
-    "lastName": "Zariouh",
+    "firstName": "Nicholas",
+    "lastName": "Morin",
     "role": "Translation Commissioner",
     "image": {
-        "url": "/images/team/2021-2022/translation-com.png",
-        "altText": "Person photo"
+        "url": "/images/team/nicholas-morin.jpg",
+        "altText": "Nicholas Morin photo"
     },
     "socialLinks": [
         {

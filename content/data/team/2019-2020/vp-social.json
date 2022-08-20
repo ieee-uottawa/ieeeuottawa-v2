@@ -1,11 +1,11 @@
 {
     "type": "Person",
-    "firstName": "Sultan",
-    "lastName": "Oloyede",
+    "firstName": "Madison",
+    "lastName": "Smrtka",
     "role": "VP Social",
     "image": {
-        "url": "/images/team/2021-2022/social.jpg",
-        "altText": "Person photo"
+        "url": "/images/team/madison-smrtka.jpg",
+        "altText": "Madison Smrtka photo"
     },
     "socialLinks": [
         {

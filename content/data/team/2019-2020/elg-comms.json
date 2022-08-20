@@ -1,11 +1,11 @@
 {
     "type": "Person",
-    "firstName": "Ethan",
-    "lastName": "Bowering",
+    "firstName": "Reethi",
+    "lastName": "Paul",
     "role": "ELG Commissioner",
     "image": {
-        "url": "/images/team/2021-2022/elg-com.png",
-        "altText": "Person photo"
+        "url": "/images/team/reethi-paul.jpg",
+        "altText": "Reethi Paul photo"
     },
     "socialLinks": [
         {

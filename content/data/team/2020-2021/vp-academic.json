@@ -1,11 +1,11 @@
 {
     "type": "Person",
-    "firstName": "Rikki",
-    "lastName": "Romana",
+    "firstName": "Vlad",
+    "lastName": "Jidkov",
     "role": "VP Academic",
     "image": {
-        "url": "/images/team/2021-2022/academic.jpg",
-        "altText": "Person photo"
+        "url": "/images/team/vladislav-jidkov.jpg",
+        "altText": "Vlad Jidkov photo"
     },
     "socialLinks": [
         {

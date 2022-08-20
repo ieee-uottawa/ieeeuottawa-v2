@@ -1,13 +1,13 @@
 {
     "type": "Person",
-    "lastName": "Flynn",
+    "firstName": "Sanat",
+    "lastName": "Nayar",
     "role": "Treasurer",
     "image": {
         "type": "ImageBlock",
-        "url": "/images/team/2021-2022/treasurer.jpg",
-        "altText": "Hugh Saturation photo"
+        "url": "/images/team/sanat-nayar.jpg",
+        "altText": "Sanat Nayar photo"
     },
-    "firstName": "Ben",
     "socialLinks": [
         {
             "type": "Social",

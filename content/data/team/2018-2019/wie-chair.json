@@ -1,11 +1,11 @@
 {
     "type": "Person",
-    "firstName": "Victoria",
-    "lastName": "Hough",
+    "firstName": "Linda",
+    "lastName": "Tang",
     "role": "WIE Chair",
     "image": {
-        "url": "/images/team/2021-2022/wie-chair.jpg",
-        "altText": "Person photo"
+        "url": "/images/team/linda-tang.jpg",
+        "altText": "Linda Tang photo"
     },
     "socialLinks": [
         {

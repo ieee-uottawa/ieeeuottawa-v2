@@ -1,11 +1,12 @@
 {
     "type": "Person",
-    "firstName": "Rikki",
-    "lastName": "Romana",
+    "firstName": "Stefan",
+    "lastName": "Todorovic",
     "role": "VP Academic",
     "image": {
-        "url": "/images/team/2021-2022/academic.jpg",
-        "altText": "Person photo"
+        "type": "ImageBlock",
+        "url": "/images/team/stefan-todorovic.jpeg",
+        "altText": "Stefan Todorovic photo"
     },
     "socialLinks": [
         {

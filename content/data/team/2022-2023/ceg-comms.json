@@ -1,11 +1,11 @@
 {
     "type": "Person",
-    "firstName": "Gianluca",
-    "lastName": "Coletti",
+    "firstName": "Vacant",
+    "lastName": "",
     "role": "CEG Commissioner",
     "image": {
-        "url": "/images/team/2021-2022/ceg-com.jpg",
-        "altText": "Person photo"
+        "url": "/images/team/vacant.jpg",
+        "altText": "Vacant"
     },
     "socialLinks": [
         {

@@ -4,27 +4,18 @@
     "lastName": "Kandikandi",
     "role": "Webmaster",
     "image": {
-        "url": "/images/team/2021-2022/webmaster.png",
-        "altText": "Person photo"
+        "url": "/images/team/loic-kandikandi.jpg",
+        "altText": "Loic Kandikandi photo"
     },
     "socialLinks": [
         {
             "type": "Social",
             "label": "Mail",
-            "altText": "Loic Kandikandi (Webmaster) email link",
+            "altText": "Email icon that links to the VP Webmaster's email",
             "icon": "mail",
             "style": "link",
             "elementId": "",
             "url": "mailto:webmaster@ieeeuottawa.ca"
-        },
-        {
-            "type": "Social",
-            "label": "LinkedIn",
-            "altText": "Link to Loic Kandikandi's LinkedIn Profile",
-            "url": "https://www.linkedin.com/in/jean-loic-kandikandi",
-            "icon": "linkedin",
-            "style": "link",
-            "elementId": ""
         }
     ]
 }

@@ -1,11 +1,11 @@
 {
     "type": "Person",
-    "firstName": "Victoria",
-    "lastName": "Hough",
+    "firstName": "Michal",
+    "lastName": "Ridner",
     "role": "WIE Chair",
     "image": {
-        "url": "/images/team/2021-2022/wie-chair.jpg",
-        "altText": "Person photo"
+        "url": "/images/team/michal-ridner.jpg",
+        "altText": "Michal Ridner photo"
     },
     "socialLinks": [
         {

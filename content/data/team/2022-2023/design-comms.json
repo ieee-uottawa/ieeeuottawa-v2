@@ -1,11 +1,11 @@
 {
     "type": "Person",
-    "firstName": "Valerie",
-    "lastName": "Grant",
+    "firstName": "Vacant",
+    "lastName": "",
     "role": "Design Commissioner",
     "image": {
-        "url": "/images/team/2021-2022/design-com.jpg",
-        "altText": "Person photo"
+        "url": "/images/team/vacant.jpg",
+        "altText": "Vacant"
     },
     "socialLinks": [
         {

@@ -1,12 +1,12 @@
 {
     "type": "Person",
-    "firstName": "Alae",
-    "lastName": "Boufarrachene",
+    "firstName": "Pavly",
+    "lastName": "Saleh",
     "role": "VP Communications",
     "image": {
         "type": "ImageBlock",
-        "url": "/images/team/2021-2022/communications.jpg",
-        "altText": "Desmond Eagle photo"
+        "url": "/images/team/pavly-saleh.jpg",
+        "altText": "Pavly Saleh photo"
     },
     "socialLinks": [
         {

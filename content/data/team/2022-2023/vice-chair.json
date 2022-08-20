@@ -1,13 +1,13 @@
 {
     "type": "Person",
-    "firstName": "Madison",
-    "lastName": "Smrtka",
+    "firstName": "Alae",
+    "lastName": "Boufarrachene",
+    "role": "Vice Chair",
     "image": {
         "type": "ImageBlock",
-        "altText": "Dianne Ameter photo",
-        "url": "/images/team/2021-2022/vice-chair.jpg"
+        "altText": "Alae Boufarrachene photo",
+        "url": "/images/team/alae-boufarrachene.jpg"
     },
-    "role": "Vice Chair",
     "socialLinks": [
         {
             "type": "Social",

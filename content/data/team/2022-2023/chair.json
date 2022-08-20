@@ -1,12 +1,12 @@
 {
     "type": "Person",
-    "firstName": "Vlad",
-    "lastName": "Jidkov",
+    "firstName": "Rikki",
+    "lastName": "Romana",
     "role": "Chair",
     "image": {
         "type": "ImageBlock",
-        "url": "/images/team/2021-2022/chair.jpg",
-        "altText": "Hilary Ouse photo"
+        "url": "/images/team/rikki-romana.jpeg",
+        "altText": "Rikki Romana photo"
     },
     "socialLinks": [
         {

@@ -1,11 +1,11 @@
 {
     "type": "Person",
-    "firstName": "Juan",
-    "lastName": "Hiedra Primera",
+    "firstName": "Scott",
+    "lastName": "Fulton",
     "role": "McNaughton Centre Director",
     "image": {
-        "url": "/images/team/2021-2022/mcnaughton-director.jpg",
-        "altText": "Person photo"
+        "url": "/images/team/scott-fulton.jpg",
+        "altText": "Scott Fulton photo"
     },
     "socialLinks": [
         {

@@ -1,11 +1,11 @@
 {
     "type": "Person",
-    "firstName": "Avneesh",
-    "lastName": "Chaudhary",
+    "firstName": "Vacant",
+    "lastName": "",
     "role": "Equity Commissioner",
     "image": {
-        "url": "/images/team/2021-2022/equity-com.png",
-        "altText": "Person photo"
+        "url": "/images/team/vacant.jpg",
+        "altText": "Vacant"
     },
     "socialLinks": [
         {

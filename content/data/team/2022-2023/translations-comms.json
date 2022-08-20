@@ -1,11 +1,11 @@
 {
     "type": "Person",
-    "firstName": "Nizar",
-    "lastName": "Zariouh",
+    "firstName": "Vacant",
+    "lastName": "",
     "role": "Translation Commissioner",
     "image": {
-        "url": "/images/team/2021-2022/translation-com.png",
-        "altText": "Person photo"
+        "url": "/images/team/vacant.jpg",
+        "altText": "Vacant"
     },
     "socialLinks": [
         {

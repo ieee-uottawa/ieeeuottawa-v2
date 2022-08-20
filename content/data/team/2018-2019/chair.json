@@ -1,12 +1,12 @@
 {
     "type": "Person",
-    "firstName": "Vlad",
-    "lastName": "Jidkov",
+    "firstName": "Heemel",
+    "lastName": "Saha",
     "role": "Chair",
     "image": {
         "type": "ImageBlock",
-        "url": "/images/team/2021-2022/chair.jpg",
-        "altText": "Hilary Ouse photo"
+        "url": "/images/team/heemel-saha.jpg",
+        "altText": "Heemel Saha photo"
     },
     "socialLinks": [
         {

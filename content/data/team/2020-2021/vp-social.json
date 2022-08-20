@@ -1,11 +1,11 @@
 {
     "type": "Person",
-    "firstName": "Sultan",
-    "lastName": "Oloyede",
+    "firstName": "Mohit",
+    "lastName": "Kapur",
     "role": "VP Social",
     "image": {
-        "url": "/images/team/2021-2022/social.jpg",
-        "altText": "Person photo"
+        "url": "/images/team/mohit-kapur.jpg",
+        "altText": "Mohit Kapur photo"
     },
     "socialLinks": [
         {

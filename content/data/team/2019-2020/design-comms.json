@@ -1,11 +1,11 @@
 {
     "type": "Person",
-    "firstName": "Valerie",
-    "lastName": "Grant",
+    "firstName": "Ellie",
+    "lastName": "Rumsey",
     "role": "Design Commissioner",
     "image": {
-        "url": "/images/team/2021-2022/design-com.jpg",
-        "altText": "Person photo"
+        "url": "/images/team/ellie-rumsey.jpg",
+        "altText": "Ellie Rumsey photo"
     },
     "socialLinks": [
         {

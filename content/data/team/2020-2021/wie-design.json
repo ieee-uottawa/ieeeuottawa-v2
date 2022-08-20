@@ -1,11 +1,11 @@
 {
     "type": "Person",
-    "firstName": "Kaitlyn",
-    "lastName": "Dompaul",
+    "firstName": "Elma",
+    "lastName": "Khandaker",
     "role": "WIE Design",
     "image": {
-        "url": "/images/team/2021-2022/wie-design.jpg",
-        "altText": "Person photo"
+        "url": "/images/team/elma-khandaker.jpg",
+        "altText": "Elma Khandaker photo"
     },
     "socialLinks": [
         {

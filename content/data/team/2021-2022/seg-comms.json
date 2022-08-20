@@ -1,12 +1,12 @@
 {
     "type": "Person",
+    "firstName": "Is'Haaq",
     "lastName": "Ahamed",
     "role": "SEG Commissioner",
     "image": {
-        "url": "/images/team/2021-2022/seg-com.jpg",
-        "altText": "Person photo"
+        "url": "/images/team/ishaaq-ahamed.jpg",
+        "altText": "Is'Haaq Ahamed photo"
     },
-    "firstName": "Is'Haaq",
     "socialLinks": [
         {
             "type": "Social",

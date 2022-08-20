@@ -1,12 +1,12 @@
 {
     "type": "Person",
-    "lastName": "Ahamed",
+    "firstName": "Alois",
+    "lastName": "Clerc",
     "role": "SEG Commissioner",
     "image": {
-        "url": "/images/team/2021-2022/seg-com.jpg",
-        "altText": "Person photo"
+        "url": "/images/team/alois-clerc.jpg",
+        "altText": "Alois Clerc photo"
     },
-    "firstName": "Is'Haaq",
     "socialLinks": [
         {
             "type": "Social",

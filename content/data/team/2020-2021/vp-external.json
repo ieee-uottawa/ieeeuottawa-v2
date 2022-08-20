@@ -1,10 +1,11 @@
 {
     "type": "Person",
-    "firstName": "Vacant",
+    "firstName": "Alois",
+    "lastName": "Clerc",
     "role": "VP External",
     "image": {
-        "url": "/images/team/2021-2022/vacant.jpg",
-        "altText": "Person photo"
+        "url": "/images/team/alois-clerc.jpg",
+        "altText": "Alois Clerc photo"
     },
     "socialLinks": [
         {
