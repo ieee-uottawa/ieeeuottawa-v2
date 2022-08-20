@@ -1,0 +1,21 @@
+{
+    "type": "Person",
+    "firstName": "Vacant",
+    "lastName": "",
+    "role": "ELG Commissioner",
+    "image": {
+        "url": "/images/team/vacant.jpg",
+        "altText": "Vacant photo"
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Mail",
+            "url": "mailto:commissioner-elg@ieeeuottawa.ca",
+            "icon": "mail",
+            "style": "link",
+            "elementId": "",
+            "altText": "Email icon that links to the ELG Commissioner's email"
+        }
+    ]    
+}

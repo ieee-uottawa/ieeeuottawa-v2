@@ -44,7 +44,7 @@
                         "type": "Link",
                         "label": "2022-2023",
                         "altText": "Link to 2022-2023 team's page",
-                        "url": "/team",
+                        "url": "/team/2022-2023",
                         "showIcon": false,
                         "icon": "arrowRight",
                         "iconPosition": "right",

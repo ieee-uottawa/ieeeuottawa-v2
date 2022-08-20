@@ -1,0 +1,21 @@
+{
+    "type": "Person",
+    "firstName": "Sophie",
+    "lastName": "Tomlin",
+    "role": "WIE Chair",
+    "image": {
+        "url": "/images/team/sophie-tomlin.JPEG",
+        "altText": "Sophie Tomlinson photo"
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Mail",
+            "url": "mailto:wie-chair@ieeeuottawa.ca",
+            "icon": "mail",
+            "style": "link",
+            "elementId": "",
+            "altText": "Email icon that links to the WIE Chair's email"
+        }
+    ]    
+}

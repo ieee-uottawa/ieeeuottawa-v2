@@ -1,0 +1,21 @@
+{
+    "type": "Person",
+    "firstName": "Victoria",
+    "lastName": "Hough",
+    "role": "WIE Chair",
+    "image": {
+        "url": "/images/team/victoria-hough.jpg",
+        "altText": "Victoria Hough photo"
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Mail",
+            "url": "mailto:wie-chair@ieeeuottawa.ca",
+            "icon": "mail",
+            "style": "link",
+            "elementId": "",
+            "altText": "Email icon that links to the WIE Chair's email"
+        }
+    ]    
+}

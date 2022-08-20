@@ -1,0 +1,21 @@
+{
+    "type": "Person",
+    "firstName": "Linda",
+    "lastName": "Tang",
+    "role": "WIE Chair",
+    "image": {
+        "url": "/images/team/linda-tang.jpg",
+        "altText": "Linda Tang photo"
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Mail",
+            "url": "mailto:wie-chair@ieeeuottawa.ca",
+            "icon": "mail",
+            "style": "link",
+            "elementId": "",
+            "altText": "Email icon that links to the WIE Chair's email"
+        }
+    ]    
+}

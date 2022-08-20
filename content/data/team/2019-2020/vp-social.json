@@ -1,0 +1,21 @@
+{
+    "type": "Person",
+    "firstName": "Madison",
+    "lastName": "Smrtka",
+    "role": "VP Social",
+    "image": {
+        "url": "/images/team/madison-smrtka.jpg",
+        "altText": "Madison Smrtka photo"
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Mail",
+            "url": "mailto:social@ieeeuottawa.ca",
+            "icon": "mail",
+            "style": "link",
+            "elementId": "",
+            "altText": "Email icon that links to the VP Social's email"
+        }
+    ]    
+}

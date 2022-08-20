@@ -1,0 +1,21 @@
+{
+    "type": "Person",
+    "firstName": "Sirjan",
+    "lastName": "Singh Rekhi",
+    "role": "CEG Commissioner",
+    "image": {
+        "url": "/images/team/sirjan-singh-rekhi.jpg",
+        "altText": "Sirjan Singh Rekhi photo"
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Mail",
+            "url": "mailto:commissioner-ceg@ieeeuottawa.ca",
+            "icon": "mail",
+            "style": "link",
+            "elementId": "",
+            "altText": "Email icon that links to the CEG Commissioner's email"
+        }
+    ]    
+}

@@ -1,0 +1,21 @@
+{
+    "type": "Person",
+    "firstName": "Neda",
+    "lastName": "Nouri",
+    "role": "Photonics Vice-Chair",
+    "image": {
+        "url": "/images/team/neda-nouri.jpg",
+        "altText": "Vacant"
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Mail",
+            "url": "mailto:photonics-vicechair@ieeeuottawa.ca",
+            "icon": "mail",
+            "style": "link",
+            "elementId": "",
+            "altText": "Email icon that links to the Photonics Vice-Chair's email"
+        }
+    ]    
+}

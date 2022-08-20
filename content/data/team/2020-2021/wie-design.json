@@ -1,0 +1,21 @@
+{
+    "type": "Person",
+    "firstName": "Elma",
+    "lastName": "Khandaker",
+    "role": "WIE Design",
+    "image": {
+        "url": "/images/team/elma-khandaker.jpg",
+        "altText": "Elma Khandaker photo"
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Mail",
+            "url": "mailto:wie-design@ieeeuottawa.ca",
+            "icon": "mail",
+            "style": "link",
+            "elementId": "",
+            "altText": "Email icon that links to the WIE Design Commissioner's email"
+        }
+    ]    
+}

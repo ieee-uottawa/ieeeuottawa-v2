@@ -1,0 +1,22 @@
+{
+    "type": "Person",
+    "firstName": "Alae",
+    "lastName": "Boufarrachene",
+    "role": "VP Communications",
+    "image": {
+        "type": "ImageBlock",
+        "url": "/images/team/alae-boufarrachene.jpg",
+        "altText": "Alae Boufarrachene photo"
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Mail",
+            "url": "mailto:communications@ieeeuottawa.ca",
+            "icon": "mail",
+            "style": "link",
+            "elementId": "",
+            "altText": "Email icon that links to the VP Communications' email"
+        }
+    ]
+}

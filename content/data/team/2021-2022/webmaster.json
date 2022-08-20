@@ -1,0 +1,21 @@
+{
+    "type": "Person",
+    "firstName": "Loic",
+    "lastName": "Kandikandi",
+    "role": "Webmaster",
+    "image": {
+        "url": "/images/team/loic-kandikandi.jpg",
+        "altText": "Loic Kandikandi photo"
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Mail",
+            "altText": "Email icon that links to the VP Webmaster's email",
+            "icon": "mail",
+            "style": "link",
+            "elementId": "",
+            "url": "mailto:webmaster@ieeeuottawa.ca"
+        }
+    ]
+}

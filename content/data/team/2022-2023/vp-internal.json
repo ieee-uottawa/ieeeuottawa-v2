@@ -1,0 +1,21 @@
+{
+    "type": "Person",
+    "firstName": "Mingye",
+    "lastName": "Chen",
+    "role": "VP Internal",
+    "image": {
+        "url": "/images/team/mingye-chen.jpg",
+        "altText": "Mingye Chen photo"
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Mail",
+            "url": "mailto:internal@ieeeuottawa.ca",
+            "icon": "mail",
+            "style": "link",
+            "elementId": "",
+            "altText": "Email icon that links to the VP Internal's email"
+        }
+    ]    
+}

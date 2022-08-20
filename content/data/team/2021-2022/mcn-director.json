@@ -1,0 +1,21 @@
+{
+    "type": "Person",
+    "firstName": "Juan",
+    "lastName": "Hiedra Primera",
+    "role": "McNaughton Centre Director",
+    "image": {
+        "url": "/images/team/juan-hiedra-primera.jpg",
+        "altText": "Juan Hiedra Primera photo"
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Mail",
+            "url": "mailto:mcnaughton@ieeeuottawa.ca",
+            "icon": "mail",
+            "style": "link",
+            "elementId": "",
+            "altText": "Email icon that links to the McNaughton Centre Director's email"
+        }
+    ]    
+}

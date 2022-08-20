@@ -1,0 +1,22 @@
+{
+    "type": "Person",
+    "firstName": "Sanat",
+    "lastName": "Nayar",
+    "role": "Treasurer",
+    "image": {
+        "type": "ImageBlock",
+        "url": "/images/team/sanat-nayar.jpg",
+        "altText": "Sanat Nayar photo"
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Mail",
+            "url": "mailto:treasurer@ieeeuottawa.ca",
+            "icon": "mail",
+            "style": "link",
+            "elementId": "",
+            "altText": "Email icon that links to the treasurer's email"
+        }
+    ]
+}

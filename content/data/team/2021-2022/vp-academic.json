@@ -1,0 +1,21 @@
+{
+    "type": "Person",
+    "firstName": "Rikki",
+    "lastName": "Romana",
+    "role": "VP Academic",
+    "image": {
+        "url": "/images/team/rikki-romana.jpeg",
+        "altText": "Rikki Romana photo"
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Mail",
+            "url": "mailto:academic@ieeeuottawa.ca",
+            "icon": "mail",
+            "style": "link",
+            "elementId": "",
+            "altText": "Email icon that links to the VP Academic's email"
+        }
+    ]    
+}

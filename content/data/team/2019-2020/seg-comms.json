@@ -1,0 +1,21 @@
+{
+    "type": "Person",
+    "firstName": "Alois",
+    "lastName": "Clerc",
+    "role": "SEG Commissioner",
+    "image": {
+        "url": "/images/team/alois-clerc.jpg",
+        "altText": "Alois Clerc photo"
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Mail",
+            "url": "mailto:commissioner-seg@ieeeuottawa.ca",
+            "icon": "mail",
+            "style": "link",
+            "elementId": "",
+            "altText": "Email icon that links to the SEG Commissioner's email"
+        }
+    ]    
+}

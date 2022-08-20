@@ -1,0 +1,21 @@
+{
+    "type": "Person",
+    "firstName": "Michelle",
+    "lastName": "Tang",
+    "role": "WIE Design",
+    "image": {
+        "url": "/images/team/michelle-tang.jpg",
+        "altText": "Michelle Tang photo"
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Mail",
+            "url": "mailto:wie-design@ieeeuottawa.ca",
+            "icon": "mail",
+            "style": "link",
+            "elementId": "",
+            "altText": "Email icon that links to the WIE Design Commissioner's email"
+        }
+    ]    
+}

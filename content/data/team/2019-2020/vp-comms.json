@@ -1,0 +1,22 @@
+{
+    "type": "Person",
+    "firstName": "Tony",
+    "lastName": "Kim",
+    "role": "VP Communications",
+    "image": {
+        "type": "ImageBlock",
+        "url": "/images/team/tony-kim.jpg",
+        "altText": "Tony Kim photo"
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Mail",
+            "url": "mailto:communications@ieeeuottawa.ca",
+            "icon": "mail",
+            "style": "link",
+            "elementId": "",
+            "altText": "Email icon that links to the VP Communications' email"
+        }
+    ]
+}

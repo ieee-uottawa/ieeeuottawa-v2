@@ -1,0 +1,21 @@
+{
+    "type": "Person",
+    "firstName": "Vlad",
+    "lastName": "Jidkov",
+    "role": "VP Academic",
+    "image": {
+        "url": "/images/team/vladislav-jidkov.jpg",
+        "altText": "Vlad Jidkov photo"
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Mail",
+            "url": "mailto:academic@ieeeuottawa.ca",
+            "icon": "mail",
+            "style": "link",
+            "elementId": "",
+            "altText": "Email icon that links to the VP Academic's email"
+        }
+    ]    
+}

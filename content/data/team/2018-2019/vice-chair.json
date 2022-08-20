@@ -1,0 +1,22 @@
+{
+    "type": "Person",
+    "firstName": "Amar",
+    "lastName": "Jasarbasic",
+    "image": {
+        "type": "ImageBlock",
+        "altText": "Amar Jasarbasic photo",
+        "url": "/images/team/amar-jasarbasic.jpg"
+    },
+    "role": "Vice Chair",
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Mail",
+            "url": "mailto:vice-chair@ieeeuottawa.ca",
+            "icon": "mail",
+            "style": "link",
+            "elementId": "",
+            "altText": "Email icon that links to the Vice-Chair's email"
+        }
+    ]
+}

@@ -20,9 +20,9 @@ sections:
     colors: colors-e
     backgroundSize: full
     title: Powering Your Student Experience.
-    titleFr: Rendre votre experience étudiante électrisante.
-    subtitle: Brought to you by the best uOttawa sub-association on campus.
-    subtitleFr: La meilleure sous-association de l'Université d'Ottawa sur le campus.
+    titleFr: Boostez votre experience étudiante électrisante.
+    subtitle: Brought to you by the best sub-association on campus.
+    subtitleFr: La meilleure sous-association du campus.
     actions:
       - type: Button
         label: Learn More
@@ -51,11 +51,6 @@ sections:
       self:
         height: screen
         width: wide
-        padding:
-          - pt-20
-          - pb-80
-          - pr-12
-          - pl-12
         alignItems: center
         justifyContent: center
         flexDirection: row
@@ -70,21 +65,21 @@ sections:
   - type: FeaturedItemsSection
     colors: colors-b
     elementId: ''
-    title: Come to our office
-    subtitle: '800 King Edward Ave, Ottawa, ON K1N 6N5, Room 4026'
+    title: Come visit us in the office
+    titleFr: Passez nous voir dans notre bureau
+    subtitle: '800 King Edward Ave, Ottawa, ON K1N 6N5, STE 4026'
     items:
       - type: FeaturedItem
         title: Purchase lab supplies
         titleFr: Achetez des matériaux de laboratoire
         text: >
           Need to buy a breadboard, wire strippers or CD-Rs? Need to use an
-          Altera DE2 Board or an oscilloscope for a project? Look no further. We
-          got you covered. Visit our office to get all the equipment you need.
+          Altera DE2 Board or an oscilloscope for a project? Visit our office 
+          to get all the equipment you need.
         textFr: >
           Vous devez acheter une planche à pain, des pinces à dénuder ou des
           CD-R ? Vous avez besoin d'utiliser une carte Altera DE2 ou un
-          oscilloscope pour un projet ? Ne cherchez pas plus loin. Nous avons
-          tout ce qu'il vous faut. Visitez notre bureau pour obtenir tout le
+          oscilloscope pour un projet ? Visitez notre bureau pour obtenir tout le
           matériel dont vous avez besoin.
         actions: []
         styles:
@@ -103,13 +98,11 @@ sections:
         titleFr: Obtenez de l'aide pour vos devoirs
         text: >
           Need to study with your friends in a quiet environment to prepare for
-          your midterm? Our office is the perfect place for that. Plus, you can
-          also seek academic help from our executives during their office hours.
+          your midterm? Our office is the perfect place for that.
         textFr: >
           Besoin d'étudier avec vos amis dans un environnement calme pour vous
           préparer pour votre mi-session ? Notre bureau est l'endroit idéal pour
-          cela. De plus, vous pouvez également demander une aide académique à
-          nos execs pendant leurs heures de bureau.
+          cela.
         actions: []
         styles:
           self:
@@ -216,20 +209,12 @@ sections:
       action: /.netlify/functions/submission_created
       fields:
         - type: TextFormControl
-          name: firstName
-          label: First Name
-          labelFr: Prénom
+          name: name
+          label: Name
+          labelFr: Nom
           hideLabel: true
-          placeholder: First Name
-          placeholderFr: Prénom
-          isRequired: true
-          width: 1/2
-        - type: TextFormControl
-          name: lastName
-          label: Last Name
-          labelFr: Nom de famille
-          hideLabel: true
-          placeholder: Nom de famille
+          placeholder: Name
+          placeholderFr: Nom
           isRequired: false
           width: 1/2
         - type: EmailFormControl
@@ -240,7 +225,7 @@ sections:
           placeholder: Email
           placeholderFr: Email
           isRequired: true
-          width: full
+          width: 1/2
         - type: TextareaFormControl
           name: Message
           label: Message

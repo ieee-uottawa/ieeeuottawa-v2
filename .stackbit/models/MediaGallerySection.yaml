@@ -15,12 +15,20 @@ fieldGroups:
 fields:
   - type: string
     name: title
-    label: Title
+    label: Title [EN]
     default: Gallery
   - type: string
+    name: titleFr
+    label: Title [FR]
+    default: Galerie
+  - type: string
     name: subtitle
-    label: Subtitle
+    label: Subtitle [EN]
     default: This is the subtitle
+  - type: string
+    name: subtitleFr
+    label: Subtitle [FR]
+    default: Sous-titre
   - type: list
     name: images
     label: Images

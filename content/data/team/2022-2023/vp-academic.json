@@ -1,0 +1,22 @@
+{
+    "type": "Person",
+    "firstName": "Stefan",
+    "lastName": "Todorovic",
+    "role": "VP Academic",
+    "image": {
+        "type": "ImageBlock",
+        "url": "/images/team/stefan-todorovic.jpeg",
+        "altText": "Stefan Todorovic photo"
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Mail",
+            "url": "mailto:academic@ieeeuottawa.ca",
+            "icon": "mail",
+            "style": "link",
+            "elementId": "",
+            "altText": "Email icon that links to the VP Academic's email"
+        }
+    ]    
+}

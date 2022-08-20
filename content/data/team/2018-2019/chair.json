@@ -1,0 +1,22 @@
+{
+    "type": "Person",
+    "firstName": "Heemel",
+    "lastName": "Saha",
+    "role": "Chair",
+    "image": {
+        "type": "ImageBlock",
+        "url": "/images/team/heemel-saha.jpg",
+        "altText": "Heemel Saha photo"
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Mail",
+            "url": "mailto:chair@ieeeuottawa.ca",
+            "icon": "mail",
+            "style": "link",
+            "elementId": "",
+            "altText": "Email icon that links to the Chair's email"
+        }
+    ]
+}

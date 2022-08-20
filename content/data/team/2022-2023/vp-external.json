@@ -1,0 +1,22 @@
+{
+    "type": "Person",
+    "firstName": "Disala",
+    "lastName": "de Silva",
+    "role": "VP External",
+    "image": {
+        "type": "ImageBlock",
+        "url": "/images/team/disala-de-silva.png",
+        "altText": "Disala de Silva photo"
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Mail",
+            "url": "mailto:external@ieeeuottawa.ca",
+            "icon": "mail",
+            "style": "link",
+            "elementId": "",
+            "altText": "Email icon that links to the VP External's email"
+        }
+    ]
+}

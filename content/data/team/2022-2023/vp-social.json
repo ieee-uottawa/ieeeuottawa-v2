@@ -1,0 +1,21 @@
+{
+    "type": "Person",
+    "firstName": "Ethan",
+    "lastName": "Bowering",
+    "role": "VP Social",
+    "image": {
+        "url": "/images/team/ethan-bowering.png",
+        "altText": "Ethan Bowering photo"
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Mail",
+            "url": "mailto:social@ieeeuottawa.ca",
+            "icon": "mail",
+            "style": "link",
+            "elementId": "",
+            "altText": "Email icon that links to the VP Social's email"
+        }
+    ]    
+}

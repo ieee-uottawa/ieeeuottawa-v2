@@ -1,0 +1,22 @@
+{
+    "type": "Person",
+    "firstName": "Benjamin",
+    "lastName": "Flynn",
+    "role": "Treasurer",
+    "image": {
+        "type": "ImageBlock",
+        "url": "/images/team/benjamin-flynn.jpg",
+        "altText": "Ben Flynn photo"
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Mail",
+            "url": "mailto:treasurer@ieeeuottawa.ca",
+            "icon": "mail",
+            "style": "link",
+            "elementId": "",
+            "altText": "Email icon that links to the treasurer's email"
+        }
+    ]
+}

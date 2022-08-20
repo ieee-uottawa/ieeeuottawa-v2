@@ -22,7 +22,7 @@ presets:
           title: Product Marketing Manager at Acme
           image:
             type: ImageBlock
-            url: '/images/hilary-ouse.png'
+            url: '/images/chair.png'
             altText: Hilary ouse
       styles:
         self:
@@ -58,7 +58,7 @@ presets:
           title: Product Marketing Manager at Acme
           image:
             type: ImageBlock
-            url: '/images/hilary-ouse.png'
+            url: '/images/chair.png'
             altText: Hilary ouse
       styles:
         self:
@@ -94,7 +94,7 @@ presets:
           title: Product Marketing Manager at Acme
           image:
             type: ImageBlock
-            url: '/images/hilary-ouse.png'
+            url: '/images/chair.png'
             altText: Hilary ouse
       styles:
         self:

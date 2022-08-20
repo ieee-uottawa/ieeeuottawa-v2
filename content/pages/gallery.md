@@ -12,10 +12,13 @@ sections:
     elementId: ''
     backgroundSize: full
     title: Gallery
+    titleFr: Galerie
     text: >
-      Explore immortalized memories that were made possible thanks to IEEE uOttawa.
+      Explore immortalized memories that were made possible thanks to IEEE
+      uOttawa.
     textFr: >
-      Explorez des souvenirs immortalisés en photos qui ont été rendus possibles grâce à IEEE uOttawa.
+      Explorez des souvenirs immortalisés en photos qui ont été rendus possibles
+      grâce à IEEE uOttawa.
     actions: []
     styles:
       self:
@@ -48,6 +51,7 @@ sections:
     colors: colors-d
     elementId: ''
     title: Gallery
+    titleFr: Galerie
     images:
       - type: ImageBlock
         url: /images/gallery/0105.jpg
@@ -322,7 +326,7 @@ sections:
         altText: /images/gallery/0108.jpg
         caption: /images/gallery/0108.jpg
     spacing: 16
-    columns: 4
+    columns: 7
     aspectRatio: '1:1'
     showCaption: false
     enableHover: false

@@ -1,0 +1,22 @@
+{
+    "type": "Person",
+    "firstName": "Madison",
+    "lastName": "Smrtka",
+    "image": {
+        "type": "ImageBlock",
+        "altText": "Madison Smrtka photo",
+        "url": "/images/team/madison-smrtka.jpg"
+    },
+    "role": "Vice Chair",
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Mail",
+            "url": "mailto:vice-chair@ieeeuottawa.ca",
+            "icon": "mail",
+            "style": "link",
+            "elementId": "",
+            "altText": "Email icon that links to the Vice-Chair's email"
+        }
+    ]
+}

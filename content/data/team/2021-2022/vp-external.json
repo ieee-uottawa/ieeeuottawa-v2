@@ -1,0 +1,21 @@
+{
+    "type": "Person",
+    "firstName": "Vacant",
+    "lastName": "",
+    "role": "VP External",
+    "image": {
+        "url": "/images/team/vacant.jpg",
+        "altText": "Vacant"
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Mail",
+            "url": "mailto:external@ieeeuottawa.ca",
+            "icon": "mail",
+            "style": "link",
+            "elementId": "",
+            "altText": "Email icon that links to the VP External's email"
+        }
+    ]
+}

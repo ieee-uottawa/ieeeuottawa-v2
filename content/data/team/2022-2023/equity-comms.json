@@ -1,0 +1,21 @@
+{
+    "type": "Person",
+    "firstName": "Vacant",
+    "lastName": "",
+    "role": "Equity Commissioner",
+    "image": {
+        "url": "/images/team/vacant.jpg",
+        "altText": "Vacant"
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Mail",
+            "url": "mailto:commissioner-equity@ieeeuottawa.ca",
+            "icon": "mail",
+            "style": "link",
+            "elementId": "",
+            "altText": "Email icon that links to the Equity Commissioner's email"
+        }
+    ]
+}

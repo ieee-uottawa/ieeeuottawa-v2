@@ -1,0 +1,21 @@
+{
+    "type": "Person",
+    "firstName": "Mikeli",
+    "lastName": "Habash",
+    "role": "WIE Vice Chair",
+    "image": {
+        "url": "/images/team/mikeli-habash.jpg",
+        "altText": "Mikeli Habash photo"
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Mail",
+            "url": "mailto:wie-vicechair@ieeeuottawa.ca",
+            "icon": "mail",
+            "style": "link",
+            "elementId": "",
+            "altText": "Email icon that links to the WIE Vice Chair's email"
+        }
+    ]    
+}

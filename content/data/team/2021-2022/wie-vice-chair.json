@@ -1,0 +1,21 @@
+{
+    "type": "Person",
+    "firstName": "Eda Su",
+    "lastName": "Bicer",
+    "role": "WIE Vice Chair",
+    "image": {
+        "url": "/images/team/eda-su-bicer.jpg",
+        "altText": "Eda Su Bicer photo"
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Mail",
+            "url": "mailto:wie-vicechair@ieeeuottawa.ca",
+            "icon": "mail",
+            "style": "link",
+            "elementId": "",
+            "altText": "Email icon that links to the WIE Vice Chair's email"
+        }
+    ]    
+}
