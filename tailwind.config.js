@@ -39,7 +39,7 @@ module.exports = {
                 fontSecondary: ["Roboto Mono", "monospace"]
             },
             screens: {
-                lg: '1200px',
+                lg: '1280px',
             }
         }
     },

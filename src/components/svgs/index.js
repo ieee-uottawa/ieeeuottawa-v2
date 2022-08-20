@@ -3,10 +3,13 @@ import ArrowLeft from './arrow-left';
 import ArrowLeftCircle from './arrow-left-circle';
 import ArrowRight from './arrow-right';
 import ArrowRightCircle from './arrow-right-circle';
+import Books from './books';
+import Bulb from './bulb';
 import Cart from './cart';
 import ChevronLeft from './chevron-left';
 import ChevronRight from './chevron-right';
 import ChevronDown from './chevron-down';
+import Circuit from './circuit';
 import Document from './document';
 import Facebook from './facebook';
 import GitHub from './github';
@@ -28,10 +31,13 @@ export const iconMap = {
     arrowLeftCircle: ArrowLeftCircle,
     arrowRight: ArrowRight,
     arrowRightCircle: ArrowRightCircle,
+    books: Books,
+    bulb: Bulb,
     cart: Cart,
     chevronLeft: ChevronLeft,
     chevronRight: ChevronRight,
     ChevronDown: ChevronDown,
+    circuit: Circuit,
     document: Document,
     facebook: Facebook,
     github: GitHub,

@@ -26,25 +26,9 @@
                     },
                     {
                         "type": "Link",
-                        "label": "McNaughton Centre",
-                        "url": "/mcnaughton-centre",
-                        "altText": "McNaughton Centre"
-                    },
-                    {
-                        "type": "Link",
                         "label": "WIE",
                         "altText": "WIE",
                         "url": "https://celebratewie.ca/",
-                        "showIcon": false,
-                        "icon": "arrowRight",
-                        "iconPosition": "right",
-                        "elementId": ""
-                    },
-                    {
-                        "type": "Link",
-                        "label": "Shop",
-                        "altText": "Shop Merch",
-                        "url": "https://ieee-uottawa.square.site/",
                         "showIcon": false,
                         "icon": "arrowRight",
                         "iconPosition": "right",
@@ -142,6 +126,17 @@
             }
         ],
         "secondaryLinks": [
+            {
+                "type": "Button",
+                "label": "Shop",
+                "altText": "Shop",
+                "style": "primary",
+                "url": "https://ieee-uottawa.square.site/",
+                "showIcon": true,
+                "icon": "cart",
+                "iconPosition": "right",
+                "elementId": ""
+            },
             {
                 "type": "Button",
                 "label": "Get In Touch",
