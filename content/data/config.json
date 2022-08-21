@@ -1,6 +1,6 @@
 {
     "type": "Config",
-    "favicon": "/images/LOGO_BLUE 2.svg",
+    "favicon": "/images/ieee-diamond.png",
     "header": {
         "headerVariant": "variant-b",
         "isSticky": true,
