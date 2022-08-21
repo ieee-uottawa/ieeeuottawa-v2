@@ -86,6 +86,8 @@ function FeaturedItemsActions(props) {
 
 function mapColStyles(columns) {
     switch (columns) {
+        case 5:
+            return 'md:grid-cols-5';
         case 4:
             return 'md:grid-cols-4';
         case 3:
