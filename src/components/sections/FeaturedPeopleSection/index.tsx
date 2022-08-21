@@ -68,17 +68,18 @@ function PeopleVariantA(props) {
         return null;
     }
     return (
-        <div className={classNames('grid', 'gap-x-8', 'gap-y-10', 'sm:grid-cols-2', 'lg:grid-cols-4', { 'mt-12': hasTopMargin })} data-sb-field-path=".people">
+        <div className={classNames('grid', 'gap-x-10', 'gap-y-10', 'sm:grid-cols-2', 'lg:grid-cols-5', { 'mt-12': hasTopMargin })} data-sb-field-path=".people">
             {people.map((person, index) => (
-                <article key={index} data-sb-field-path={`.${index}`}>
+                <article key={index} data-sb-field-path={`.${index}`} >
                     {person.image && (
                         <div className="h-0 w-full pt-1/1 relative mb-4">
-                            <ImageBlock {...person.image} className="absolute left-0 h-full object-cover top-0 w-full w-200 h-200 rounded-full" data-sb-field-path=".image" />
+                            <ImageBlock {...person.image} className="absolute left-0 h-full object-cover top-0 w-full rounded-full" data-sb-field-path=".image" />
                         </div>
                     )}
                     {(person.firstName || person.lastName) && (
-                        <h3 className="text-2xl text-center">
-                            {person.firstName && <span data-sb-field-path=".firstName">{person.firstName}</span>}{' '}
+                        <h3 className="text-xl text-center">
+                            {person.firstName && <span data-sb-field-path=".firstName">{person.firstName}</span>} {' '}
+                            {/* {person.lastName && <br />} */}
                             {person.lastName && <span data-sb-field-path=".lastName">{person.lastName}</span>}
                         </h3>
                     )}

@@ -52,13 +52,12 @@ sections:
         title: Constitution
         titleFr: Constitution
         text: >
-          The constitution is a document by which the branch operations are
-          governed. This document provides detailed mandates and eligibility for each exec team member, election policies, committee roles, financial matters, IEEE services, and accountability procedures.
+          The constitution defines the rules and policies that govern the branch's operations.
         textFr: >
-          La constitution est un document par lequel les opérations de la branche sont régies. Ce document fournit des mandats détaillés et l'éligibilité de chaque membre de l'équipe exécutive, les politiques d'élection, les rôles des comités, les questions financières, les services IEEE et les procédures de responsabilité.
+          La constitution définit les règles et les politiques qui régissent les opérations de la branche.
         actions:
           - type: Button
-            label: Learn More
+            label: View
             showIcon: true
             icon: arrowRight
             url: /
@@ -67,21 +66,18 @@ sections:
           self:
             textAlign: left
       - type: FeaturedItem
-        title: Code of conduct
-        titleFr: Code de conduite
+        title: IEEE Code of Conduct
+        titleFr: Code de conduite IEEE
         text: >
-          The IEEE Code of Conduct describes IEEE members' and staff's
-          commitment to the highest standards of integrity, responsible
-          behaviour, and ethical and professional conduct. The code of conduct
-          must be followed at all times in and out of IEEE premises.
+          Highlights values that must be followed by IEEE affiliates to maintain the highest standards of integrity.
         textFr: >
-          Le code de conduite de l'IEEE décrit l'engagement des membres et du personnel de l'IEEE envers les plus hauts standards d'intégrité, de comportement responsable et de conduite éthique et professionnelle. Le code de conduite doit être suivi à tout moment dans et hors des locaux de l'IEEE.
+          Met en évidence les valeurs que doivent suivre les affiliés de l'IEEE pour maintenir les plus hauts standards d'intégrité.
         actions:
           - type: Button
-            label: Learn More
+            label: View
             showIcon: true
             icon: arrowRight
-            url: /
+            url: https://www.ieee.org/content/dam/ieee-org/ieee/web/org/about/ieee_code_of_conduct.pdf
             style: secondary
         styles:
           self:
@@ -90,12 +86,10 @@ sections:
         title: Budget
         titleFr: Budget
         text: >
-          In this section, you can find live, detailed budgets for each academic year, to get a sense of how student money comes back around to benefit their university experience.
-        textFr: >
-          Dans cette section, vous trouverez des budgets détaillés en direct pour chaque année universitaire, afin de vous faire une idée de la manière dont l'argent des étudiants revient pour profiter de leur expérience universitaire.
+          Le document budgétaire permet de suivre toutes les dépenses et revenus prévus et réels.
         actions:
           - type: Button
-            label: Learn More
+            label: View
             showIcon: true
             icon: arrowRight
             url: /
@@ -128,7 +122,7 @@ sections:
     colors: colors-c
     elementId: ''
     title: Meeting Minutes
-    titleFr: Procès verbaux
+    titleFr: Comptes rendus des réunions
     subtitle: >-
       Check out the Internal meeting minutes to catch a glimpse of the discussions that drive what we do.
     subtitleFr: >-
@@ -136,7 +130,7 @@ sections:
     items:
       - type: FeaturedItem
         title: IEEE Executive Meeting Minutes
-        titleFr: Procès-verbal de la réunion exécutive
+        titleFr: Comptes rendus de la réunion exécutive
         actions:
           - type: Button
             label: View
@@ -153,7 +147,7 @@ sections:
         subtitle: '2022-04-03'
       - type: FeaturedItem
         title: IEEE Executive Meeting Minutes
-        titleFr: Procès-verbal de la réunion exécutive
+        titleFr: Comptes rendus de la réunion exécutive
         actions:
           - type: Button
             label: View
@@ -167,7 +161,7 @@ sections:
         subtitle: '2022-03-20'
       - type: FeaturedItem
         title: IEEE Executive Meeting Minutes
-        titleFr: Procès-verbal de la réunion exécutive
+        titleFr: Comptes rendus de la réunion exécutive
         actions:
           - type: Button
             label: View
@@ -181,7 +175,7 @@ sections:
         subtitle: '2022-03-09'
       - type: FeaturedItem
         title: IEEE Executive Meeting Minutes
-        titleFr: Procès-verbal de la réunion exécutive
+        titleFr: Comptes rendus de la réunion exécutive
         actions:
           - type: Button
             label: View
@@ -195,7 +189,7 @@ sections:
         subtitle: '2022-02-19'
       - type: FeaturedItem
         title: IEEE Executive Meeting Minutes
-        titleFr: Procès-verbal de la réunion exécutive
+        titleFr: Comptes rendus de la réunion exécutive
         actions:
           - type: Button
             label: View
@@ -209,7 +203,7 @@ sections:
         subtitle: '2022-02-02'
       - type: FeaturedItem
         title: IEEE Executive Meeting Minutes
-        titleFr: Procès-verbal de la réunion exécutive
+        titleFr: Comptes rendus de la réunion exécutive
         actions:
           - type: Button
             label: View
@@ -223,7 +217,7 @@ sections:
         subtitle: '2022-01-23'
       - type: FeaturedItem
         title: IEEE Executive Meeting Minutes
-        titleFr: Procès-verbal de la réunion exécutive
+        titleFr: Comptes rendus de la réunion exécutive
         actions:
           - type: Button
             label: View
@@ -237,7 +231,7 @@ sections:
         subtitle: '2021-12-01'
       - type: FeaturedItem
         title: IEEE Executive Meeting Minutes
-        titleFr: Procès-verbal de la réunion exécutive
+        titleFr: Comptes rendus de la réunion exécutive
         actions:
           - type: Button
             label: View
@@ -251,7 +245,7 @@ sections:
         subtitle: '2021-11-21'
       - type: FeaturedItem
         title: IEEE Executive Meeting Minutes
-        titleFr: Procès-verbal de la réunion exécutive
+        titleFr: Comptes rendus de la réunion exécutive
         actions:
           - type: Button
             label: View
@@ -265,7 +259,7 @@ sections:
         subtitle: '2021-11-03'
       - type: FeaturedItem
         title: IEEE Executive Meeting Minutes
-        titleFr: Procès-verbal de la réunion exécutive
+        titleFr: Comptes rendus de la réunion exécutive
         actions:
           - type: Button
             label: View
@@ -279,7 +273,7 @@ sections:
         subtitle: '2021-10-24'
       - type: FeaturedItem
         title: IEEE Executive Meeting Minutes
-        titleFr: Procès-verbal de la réunion exécutive
+        titleFr: Comptes rendus de la réunion exécutive
         actions:
           - type: Button
             label: View
@@ -293,7 +287,7 @@ sections:
         subtitle: '2021-10-06'
       - type: FeaturedItem
         title: IEEE Executive Meeting Minutes
-        titleFr: Procès-verbal de la réunion exécutive
+        titleFr: Comptes rendus de la réunion exécutive
         actions:
           - type: Button
             label: View

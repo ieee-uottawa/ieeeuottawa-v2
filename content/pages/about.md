@@ -89,6 +89,9 @@ sections:
     titleFr: À votre disposition
     subtitle: ''
     subtitleFr: ''
+    columns: 2
+    spacingX: 32
+    spacingY: 32
     items:
       - type: FeaturedItem
         title: Mentorship
@@ -105,9 +108,9 @@ sections:
         title: Quiet Study Place
         titleFr: Lieu d'étude calme
         text: >-
-          Need a chill place to study? Come make use of our library and study in the office anytime we are open. Check out our office hours to see when we're open.
+          Our office is a quiet study environment. Students are welcome to ask questions and seek academic help from our execs during their office hours.
         textFr: >-
-          Vous avez besoin d'un endroit calme pour étudier ? Venez profiter de notre bibliothèque et étudiez dans le bureau quand nous sommes ouverts. Consultez nos horaires de bureau pour savoir quand nous sommes ouverts.
+          Notre bureau est un environnement d'étude calme. Les étudiants sont invités à poser des questions et à chercher une aide académique auprès de nos exécutifs pendant leurs heures de bureau.
         actions: []
         styles:
           self:
@@ -116,13 +119,9 @@ sections:
         title: Networking Opportunities
         titleFr: Opportunités de réseautage
         text: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
-          lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
-          pharetra ipsum dolor, et iaculis elit ornare ac.
+          Our student branch organizes multiple networking events connecting students to industry professionals such as WIE Tech Panel and Wine and Cheese.
         textFr: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
-          lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
-          pharetra ipsum dolor, et iaculis elit ornare ac.
+          Notre branche étudiante organise de nombreux événements de réseautage permettant aux étudiants de rencontrer des professionnels du secteur, tels que le WIE Tech Panel et le Wine and Cheese.
         actions: []
         styles:
           self:
@@ -132,72 +131,13 @@ sections:
         title: Dry Lab Access
         titleFr: Accès à un laboratoire sec
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Our office has a lab workspace where students can practice their technical skills. The lab is equipped with FGPAs, oscilloscopes, micro-controllers, a soldering station, and more.
         textFr: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Notre bureau dispose d'un espace de laboratoire où les étudiants peuvent mettre en pratique leurs compétences techniques. Le laboratoire est équipé de FGPA, d'oscilloscopes, de microcontrôleurs, d'une station de soudage, et plus encore.
         actions: []
         styles:
           self:
             textAlign: left
-      - type: FeaturedItem
-        elementId: ''
-        title: Academic Help
-        titleFr: Aide académique
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        textFr: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        actions: []
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        elementId: ''
-        title: Cool EECS Merch
-        titleFr: Articles cool EECS
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        textFr: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        actions: []
-        styles:
-          self:
-            textAlign: left
-    actions: []
-    columns: 3
-    spacingX: 16
-    spacingY: 32
-    enableHover: false
-    styles:
-      self:
-        height: auto
-        width: wide
-        padding:
-          - pt-32
-          - pb-32
-          - pl-4
-          - pr-4
-        justifyContent: center
-        margin:
-          - mb-0
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
-      actions:
-        justifyContent: flex-start
   - type: FeatureHighlightSection
     colors: colors-b
     elementId: ''

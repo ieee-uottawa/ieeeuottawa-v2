@@ -74,13 +74,11 @@ sections:
         titleFr: Achetez des matériaux de laboratoire
         text: >
           Need to buy a breadboard, wire strippers or CD-Rs? Need to use an
-          Altera DE2 Board or an oscilloscope for a project? Visit our office 
-          to get all the equipment you need.
+          Altera DE2 Board or an oscilloscope for a project? We got your back.
         textFr: >
-          Vous devez acheter une planche à pain, des pinces à dénuder ou des
-          CD-R ? Vous avez besoin d'utiliser une carte Altera DE2 ou un
-          oscilloscope pour un projet ? Visitez notre bureau pour obtenir tout le
-          matériel dont vous avez besoin.
+          Besoin d'une planche à pain, des pinces à dénuder ou des
+          CD-R ? Besoin d'utiliser une carte Altera DE2 ou un
+          oscilloscope pour un projet ? Nous avons tout!
         actions: []
         styles:
           self:
@@ -117,16 +115,11 @@ sections:
         isIcon: true
       - type: FeaturedItem
         title: Borrow textbooks
-        titleFr: Empruntez des manuels
+        titleFr: Empruntez des manuels scolaires
         text: >
-          Need to borrow a textbook for one of your courses? Our office contains
-          a carefully curated selection of textbooks covering a wide variety of
-          EECS subjects. The best part? You can borrow them at no cost!
+          Need to borrow a textbook for one of your courses? Take advantage of our carefully curated selection of EECS textbooks at no cost.
         textFr: >
-          Vous avez besoin d'emprunter un manuel pour l'un de vos cours ? Notre
-          bureau contient une excellente sélection de manuels couvrant une
-          grande variété de sujets de l'EECS. Et le meilleur ? Vous pouvez les
-          emprunter gratuitement !
+          Besoin d'emprunter un manuel pour l'un de vos cours ? Profitez gratuitement de notre sélection de manuels EECS adapté à vos besoins.
         actions: []
         styles:
           self:
@@ -141,8 +134,8 @@ sections:
         isIcon: true
     actions: []
     columns: 3
-    spacingX: 16
-    spacingY: 16
+    spacingX: 32
+    spacingY: 32
     enableHover: false
     styles:
       self:
