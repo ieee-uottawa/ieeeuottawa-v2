@@ -170,7 +170,7 @@
             "address": "800 King Edward Avenue, STE 4026",
             "addressAltText": "Our address"
         },
-        "copyrightText": "Powered by [Stackbit](https://www.stackbit.com/)",
+        "copyrightText": "IEEE uOttawa Student Branch",
         "primaryLinks": [
             {
                 "type": "Link",
@@ -231,18 +231,6 @@
                 "style": "link",
                 "elementId": "",
                 "url": "https://www.youtube.com/channel/UCSv1Vna97rKa8w2ktRG8wRw"
-            }
-        ],
-        "legalLinks": [
-            {
-                "type": "Link",
-                "label": "Privacy Policy",
-                "url": "/"
-            },
-            {
-                "type": "Link",
-                "label": "Terms & Conditions",
-                "url": "/"
             }
         ],
         "styles": {
