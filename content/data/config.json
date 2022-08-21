@@ -128,16 +128,6 @@
         "secondaryLinks": [
             {
                 "type": "Button",
-                "label": "Get Involved",
-                "altText": "Get Involved",
-                "style": "primary",
-                "showIcon": false,
-                "icon": "arrowRight",
-                "iconPosition": "right",
-                "url": "https://docs.google.com/forms/d/e/1FAIpQLSfIdHz-ORmtsCgjEp2WpOV5ssXaC60nNpFzAY_qeRH4f7uX1w/viewform"
-            },
-            {
-                "type": "Button",
                 "label": "Shop",
                 "altText": "Shop",
                 "style": "secondary",
