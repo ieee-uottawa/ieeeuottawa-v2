@@ -1,0 +1,10 @@
+{
+    "type": "Person",
+    "firstName": "Kelpie",
+    "lastName": "Robotics",
+    "image": {
+        "type": "ImageBlock",
+        "url": "/images/eng-teams/kelpie-robotics.png",
+        "altText": "Kelpie Robotics Logo"
+    }
+}

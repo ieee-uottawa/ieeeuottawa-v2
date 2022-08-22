@@ -1,0 +1,10 @@
+{
+    "type": "Person",
+    "firstName": "uO",
+    "lastName": "Rocketry",
+    "image": {
+        "type": "ImageBlock",
+        "url": "/images/eng-teams/uo-rocketry.png",
+        "altText": "uO Rocketry Logo"
+    }
+}

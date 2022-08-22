@@ -1,0 +1,10 @@
+{
+    "type": "Person",
+    "firstName": "IEEE",
+    "lastName": "uOttawa",
+    "image": {
+        "type": "ImageBlock",
+        "url": "/images/LOGO_BLUE 202.svg",
+        "altText": "IEEE uOttawa Logo"
+    }
+}

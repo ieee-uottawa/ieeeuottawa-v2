@@ -1,0 +1,10 @@
+{
+    "type": "Person",
+    "firstName": "EWB",
+    "lastName": "uOttawa",
+    "image": {
+        "type": "ImageBlock",
+        "url": "/images/eng-teams/ewb-uottawa.png",
+        "altText": "EWB uOttawa Logo"
+    }
+}

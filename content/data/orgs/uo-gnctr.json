@@ -1,0 +1,10 @@
+{
+    "type": "Person",
+    "firstName": "uO",
+    "lastName": "GNCTR",
+    "image": {
+        "type": "ImageBlock",
+        "url": "/images/eng-teams/uo-gnctr.jpeg",
+        "altText": "uO GNCTR Logo"
+    }
+}

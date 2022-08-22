@@ -1,0 +1,10 @@
+{
+    "type": "Person",
+    "firstName": "Formula",
+    "lastName": "uOttawa",
+    "image": {
+        "type": "ImageBlock",
+        "url": "/images/eng-teams/formula-uottawa.png",
+        "altText": "Formula uOttawa Logo"
+    }
+}
