@@ -7,16 +7,16 @@ sections:
     variant: variant-b
     title: Join an Engineering Competition Team
     posts:
-      - content/pages/eng-team-openings/ewb-software-opening.md
-      - content/pages/eng-team-openings/kelpie-software-opening.md
-      - content/pages/eng-team-openings/uo-gnctr-software-opening.md
-      - content/pages/eng-team-openings/uo-rocketry-software-opening.md
-      - content/pages/eng-team-openings/uottawa-formula-software-opening.md
-      - content/pages/eng-team-openings/ewb-software-opening.md
-      - content/pages/eng-team-openings/kelpie-software-opening.md
-      - content/pages/eng-team-openings/uo-gnctr-software-opening.md
-      - content/pages/eng-team-openings/uo-rocketry-software-opening.md
-      - content/pages/eng-team-openings/uottawa-formula-software-opening.md
+      - content/pages/opportunities/ewb-software-opening.md
+      - content/pages/opportunities/kelpie-software-opening.md
+      - content/pages/opportunities/uo-gnctr-software-opening.md
+      - content/pages/opportunities/uo-rocketry-software-opening.md
+      - content/pages/opportunities/uottawa-formula-software-opening.md
+      - content/pages/opportunities/ewb-software-opening.md
+      - content/pages/opportunities/kelpie-software-opening.md
+      - content/pages/opportunities/uo-gnctr-software-opening.md
+      - content/pages/opportunities/uo-rocketry-software-opening.md
+      - content/pages/opportunities/uottawa-formula-software-opening.md
     styles:
       self:
         height: auto

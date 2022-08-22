@@ -28,4 +28,6 @@ export const translatedLinks = {
     "View": "Voir",
     "Get Involved": "Impliquez-vous",
     "Submit form": "Soumettre",
+    "Opportunities": "Opportunités",
+    "Blogs": "Blogs",
 }
