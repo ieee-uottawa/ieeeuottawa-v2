@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Opportunities
 layout: PageLayout
 sections:
   - elementId: ''
