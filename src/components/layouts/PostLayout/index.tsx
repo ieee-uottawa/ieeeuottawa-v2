@@ -7,6 +7,8 @@ import { getBaseLayoutComponent } from '../../../utils/base-layout';
 import { getComponent } from '../../components-registry';
 import getPageUrlPath from '../../../utils/get-page-url-path';
 import Link from '../../atoms/Link';
+import { DisplayModeContext } from '../../../context/displayMode';
+import { getMatchingColor } from '../../../utils/themeColorMapper';
 
 export default function PostLayout(props) {
     const { page, site } = props;
@@ -14,11 +16,12 @@ export default function PostLayout(props) {
     const { title, date, author, category, colors = 'colors-d', markdown_content, media, bottomSections = [] } = page;
     const dateTimeAttr = dayjs(date).format('YYYY-MM-DD HH:mm:ss');
     const formattedDate = dayjs(date).format('MMMM D, YYYY');
+    const { displayMode } = React.useContext(DisplayModeContext);
 
     return (
         <BaseLayout page={page} site={site}>
             <main id="main" className="sb-layout sb-post-layout">
-                <article className={classNames(colors, 'px-4', 'py-14', 'lg:py-20')}>
+                <article className={classNames(getMatchingColor(displayMode, colors), 'px-4', 'py-14', 'lg:py-20')}>
                     <div className="max-w-7xl mx-auto">
                         {media && (
                             <div className="w-full mb-8 sm:mb-12">

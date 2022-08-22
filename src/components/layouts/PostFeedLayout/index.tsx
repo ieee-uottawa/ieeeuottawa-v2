@@ -5,13 +5,17 @@ import Link from '../../atoms/Link';
 import { getComponent } from '../../components-registry';
 import { getBaseLayoutComponent } from '../../../utils/base-layout';
 import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to-class-names';
+import { DisplayModeContext } from '../../../context/displayMode';
+import { getMatchingColor } from '../../../utils/themeColorMapper';
 
 export default function PostFeedLayout(props) {
     const { page, site } = props;
     const BaseLayout = getBaseLayoutComponent(page.baseLayout, site.baseLayout);
     const { title, topSections = [], bottomSections = [], pageIndex, baseUrlPath, numOfPages, items, postFeed, styles = {} } = page;
+    const colors = postFeed?.colors ?? 'colors-d';
     const PostFeedSection = getComponent('PostFeedSection');
     const pageLinks = PageLinks({ pageIndex, baseUrlPath, numOfPages });
+    const { displayMode } = React.useContext(DisplayModeContext);
 
     return (
         <BaseLayout page={page} site={site}>
@@ -23,7 +27,7 @@ export default function PostFeedLayout(props) {
                             'py-12',
                             'lg:py-16',
                             'px-4',
-                            postFeed?.colors ?? 'colors-d',
+                            getMatchingColor(displayMode, colors),
                             mapStyles({ justifyContent: postFeed?.styles?.self?.justifyContent ?? 'center' })
                         )}
                     >
