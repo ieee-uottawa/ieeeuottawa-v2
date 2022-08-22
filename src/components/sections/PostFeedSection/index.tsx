@@ -8,6 +8,7 @@ import { Link, Action } from '../../atoms';
 import ImageBlock from '../../molecules/ImageBlock';
 import ArrowRightIcon from '../../svgs/arrow-right';
 import getPageUrlPath from '../../../utils/get-page-url-path';
+import { I18NContext } from '../../../context/i18Ncontext';
 
 export default function PostFeedSection(props) {
     const {
@@ -29,6 +30,7 @@ export default function PostFeedSection(props) {
         styles = {},
         'data-sb-field-path': fieldPath
     } = props;
+    const { translate } = React.useContext(I18NContext);
     return (
         <Section type={type} elementId={elementId} colors={colors} styles={styles.self} data-sb-field-path={fieldPath}>
             {title && (
@@ -52,7 +54,7 @@ export default function PostFeedSection(props) {
                 showAuthor={showAuthor}
                 showExcerpt={showExcerpt}
                 showReadMoreLink={showReadMoreLink}
-                readMoreLinkLabel={readMoreLinkLabel}
+                readMoreLinkLabel={translate(readMoreLinkLabel)}
                 hasTopMargin={!!(title || subtitle || actions.length > 0)}
                 annotatePosts={annotatePosts}
             />
