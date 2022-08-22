@@ -71,7 +71,7 @@ function PostMedia({ media }) {
     if (!Media) {
         throw new Error(`no component matching the post media type: ${mediaType}`);
     }
-    return <Media {...media} className={classNames('md:w-6/12', 'md:w-full', 'mx-auto')} data-sb-field-path="media" />;
+    return <Media {...media} className={classNames('md:w-6/12', 'sm:w-full', 'mx-auto')} data-sb-field-path="media" />;
 }
 
 function PostAttribution(props) {
