@@ -20,7 +20,7 @@ sections:
     colors: colors-e
     backgroundSize: full
     title: Powering Your Student Experience.
-    titleFr: Boostez votre experience étudiante électrisante.
+    titleFr: Boostez votre vie étudiante.
     subtitle: Brought to you by the best sub-association on campus.
     subtitleFr: La meilleure sous-association du campus.
     actions:
