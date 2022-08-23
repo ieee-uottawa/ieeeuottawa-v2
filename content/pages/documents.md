@@ -86,6 +86,8 @@ sections:
         title: Budget
         titleFr: Budget
         text: >
+          The budget document tracks all planned and actual expenses and revenues.
+        textFr: >
           Le document budgétaire permet de suivre toutes les dépenses et revenus prévus et réels.
         actions:
           - type: Button
