@@ -14,6 +14,15 @@ export default function MyApp({ Component, pageProps }) {
         return input;
     }
 
+    const setLanguage = (language) => {
+        localStorage.setItem('language', language);
+        setLocale(language);
+    }
+
+    const prefersFR = () => {
+        navigator?.language?.toLowerCase().includes('fr') || false;
+    }
+
     const setLight = () => {
         localStorage.setItem('displayMode', 'light');
         setDisplayMode('light');
@@ -30,6 +39,15 @@ export default function MyApp({ Component, pageProps }) {
     }
 
     useEffect(() => {
+        const storedLanguage = localStorage.getItem('language');
+        const defaultFR = storedLanguage === 'fr' || (storedLanguage === null && prefersFR());
+        if (defaultFR) {
+            setLanguage('fr');
+        }
+    }
+    , [locale]);
+
+    useEffect(() => {
         const storedMode = localStorage.getItem('displayMode');
         const defaultDark = storedMode === 'dark' || (storedMode === null && prefersDark());
         if (defaultDark) {
@@ -38,7 +56,7 @@ export default function MyApp({ Component, pageProps }) {
     }, [displayMode]);
 
     return (
-        <I18NContext.Provider value={{ locale, setLocale, translate }}>
+        <I18NContext.Provider value={{ locale, setLanguage, translate }}>
             <DisplayModeContext.Provider value={{ displayMode, setLight, setDark }}>
                 <Component {...pageProps} />
             </DisplayModeContext.Provider>

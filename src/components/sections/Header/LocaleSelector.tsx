@@ -9,12 +9,12 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 import { DisplayModeContext } from '../../../context/displayMode';
 
 export default function LocaleSelector() {
-    const { locale, setLocale } = useContext(I18NContext);
+    const { locale, setLanguage } = useContext(I18NContext);
     const { displayMode } = useContext(DisplayModeContext);
     const darkOrLightMode = createTheme({ palette: { mode: displayMode } });
 
     const handleChange = (event: SelectChangeEvent) => {
-        setLocale(event.target.value as string);
+        setLanguage(event.target.value as string);
     };
     
     return (
