@@ -23,7 +23,8 @@ module.exports = {
                 complementary: themeStyle.complementary,
                 'on-complementary': themeStyle.onComplementary,
                 'complementary-alt': themeStyle.complementaryAlt,
-                'on-complementary-alt': themeStyle.onComplementaryAlt
+                'on-complementary-alt': themeStyle.onComplementaryAlt,
+                'complementary-alt-2': '#424242',
             },
             spacing: {
                 '1/1': '100%',
