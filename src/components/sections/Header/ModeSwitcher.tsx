@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { styled } from '@mui/material/styles';
 import Switch from '@mui/material/Switch';
 import { DisplayModeContext } from '../../../context/displayMode';
 
 export default function ModeSwitcher() {
-  const { displayMode, setDisplayMode } = React.useContext(DisplayModeContext);
+  const { displayMode, setDark, setLight } = React.useContext(DisplayModeContext);
   const [checked, setChecked] = useState(displayMode === 'dark');
 
   const MaterialUISwitch = styled(Switch)(({ theme }) => ({
@@ -56,8 +56,12 @@ export default function ModeSwitcher() {
   
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => { 
     setChecked(event.target.checked);
-    setDisplayMode(event.target.checked ? 'dark' : 'light');
+    event.target.checked ? setDark() : setLight();
   }
+
+  useEffect(() => {
+    setChecked(displayMode === 'dark');
+  } , [displayMode]);
 
   return (
     <div>

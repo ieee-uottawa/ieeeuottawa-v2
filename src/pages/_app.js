@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { DisplayModeContext } from '../context/displayMode';
 import { I18NContext } from '../context/i18Ncontext';
 import { translatedLinks } from '../../content/translations/links';
@@ -14,9 +14,32 @@ export default function MyApp({ Component, pageProps }) {
         return input;
     }
 
+    const setLight = () => {
+        localStorage.setItem('displayMode', 'light');
+        setDisplayMode('light');
+    }
+
+    const setDark = () => {
+        localStorage.setItem('displayMode', 'dark');
+        setDisplayMode('dark');
+    }
+
+    const prefersDark = () => {
+        const mediaQuery = window?.matchMedia('(prefers-color-scheme: dark)');
+        return mediaQuery?.matches || false;
+    }
+
+    useEffect(() => {
+        const storedMode = localStorage.getItem('displayMode');
+        const defaultDark = storedMode === 'dark' || (storedMode === null && prefersDark());
+        if (defaultDark) {
+            setDark();
+        }
+    }, [displayMode]);
+
     return (
         <I18NContext.Provider value={{ locale, setLocale, translate }}>
-            <DisplayModeContext.Provider value={{ displayMode, setDisplayMode }}>
+            <DisplayModeContext.Provider value={{ displayMode, setLight, setDark }}>
                 <Component {...pageProps} />
             </DisplayModeContext.Provider>
         </I18NContext.Provider>
