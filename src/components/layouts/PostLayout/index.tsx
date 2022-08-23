@@ -9,14 +9,20 @@ import getPageUrlPath from '../../../utils/get-page-url-path';
 import Link from '../../atoms/Link';
 import { DisplayModeContext } from '../../../context/displayMode';
 import { getMatchingColor } from '../../../utils/themeColorMapper';
+import { I18NContext } from '../../../context/i18Ncontext';
 
 export default function PostLayout(props) {
     const { page, site } = props;
     const BaseLayout = getBaseLayoutComponent(page.baseLayout, site.baseLayout);
-    const { title, date, author, category, colors = 'colors-d', markdown_content, media, bottomSections = [] } = page;
+    const { title, titleFr, date, author, category, colors = 'colors-d', markdown_content, markdown_content_fr, media, bottomSections = [] } = page;
     const dateTimeAttr = dayjs(date).format('YYYY-MM-DD HH:mm:ss');
     const formattedDate = dayjs(date).format('MMMM D, YYYY');
     const { displayMode } = React.useContext(DisplayModeContext);
+    const { locale } = React.useContext(I18NContext);
+    const getTitle = () => locale === 'fr' && titleFr ? titleFr : title;
+    const getMarkdownFieldPath = () => locale === 'fr' && markdown_content_fr ? markdown_content_fr : markdown_content;
+    const getTitleFieldPath = () => locale === 'fr' && titleFr ? 'titleFr' : 'title';
+    const markdownAnnotation = () => locale === 'fr' && markdown_content_fr ? 'markdown_content_fr' : 'markdown_content';
 
     return (
         <BaseLayout page={page} site={site}>
@@ -29,7 +35,7 @@ export default function PostLayout(props) {
                             </div>
                         )}
                         <header className="max-w-5xl mx-auto mb-12 text-left">
-                            {title && <h1 data-sb-field-path="title">{title}</h1>}
+                            {title && <h1 data-sb-field-path={getTitleFieldPath()}>{getTitle()}</h1>}
                             <div className="text-lg mt-6">
                                 <span>
                                     <time dateTime={dateTimeAttr} data-sb-field-path="date">
@@ -40,8 +46,8 @@ export default function PostLayout(props) {
                             </div>
                         </header>
                         {markdown_content && (
-                            <Markdown options={{ forceBlock: true }} className="sb-markdown max-w-screen-md mx-auto" data-sb-field-path="markdown_content">
-                                {markdown_content}
+                            <Markdown options={{ forceBlock: true }} className="sb-markdown max-w-screen-md mx-auto" data-sb-field-path={markdownAnnotation()}>
+                                {getMarkdownFieldPath()}
                             </Markdown>
                         )}
                     </div>

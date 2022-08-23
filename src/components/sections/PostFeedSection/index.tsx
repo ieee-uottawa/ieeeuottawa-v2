@@ -17,7 +17,9 @@ export default function PostFeedSection(props) {
         colors,
         variant,
         title,
+        titleFr,
         subtitle,
+        subtitleFr,
         actions = [],
         posts = [],
         showDate,
@@ -30,20 +32,25 @@ export default function PostFeedSection(props) {
         styles = {},
         'data-sb-field-path': fieldPath
     } = props;
-    const { translate } = React.useContext(I18NContext);
+    const { locale, translate } = React.useContext(I18NContext);
+    const getTitle = () => locale === 'fr' && titleFr ? titleFr : title;
+    const getSubtitle = () => locale === 'fr' && subtitleFr ? subtitleFr : subtitle;
+    const getTitleFieldPath = () => locale === 'fr' && titleFr ? '.titleFr' : '.title';
+    const getSubtitleFieldPath = () => locale === 'fr' && subtitleFr ? '.subtitleFr' : '.subtitle';
+
     return (
         <Section type={type} elementId={elementId} colors={colors} styles={styles.self} data-sb-field-path={fieldPath}>
             {title && (
-                <h2 className={classNames(styles.title ? mapStyles(styles.title) : null)} data-sb-field-path=".title">
-                    {title}
+                <h2 className={classNames(styles.title ? mapStyles(styles.title) : null)} data-sb-field-path={getTitleFieldPath()}>
+                    {getTitle()}
                 </h2>
             )}
             {subtitle && (
                 <p
                     className={classNames('text-lg', 'sm:text-xl', styles.subtitle ? mapStyles(styles.subtitle) : null, { 'mt-6': title })}
-                    data-sb-field-path=".subtitle"
+                    data-sb-field-path={getSubtitleFieldPath()}
                 >
-                    {subtitle}
+                    {getSubtitle()}
                 </p>
             )}
             <PostFeedActions actions={actions} styles={styles.actions} hasTopMargin={!!(title || subtitle)} />
@@ -97,6 +104,8 @@ function PostFeedVariants(props) {
 
 function PostsVariantA(props) {
     const { posts = [], showDate, showAuthor, showExcerpt, showReadMoreLink, readMoreLinkLabel, hasTopMargin, annotatePosts } = props;
+    const { locale, translate } = React.useContext(I18NContext);
+
     if (posts.length === 0) {
         return null;
     }
@@ -107,7 +116,13 @@ function PostsVariantA(props) {
             })}
             {...(annotatePosts ? { 'data-sb-field-path': '.posts' } : null)}
         >
-            {posts.map((post, index) => (
+            {posts.map((post, index) => {
+                const getTitle = () => locale === 'fr' && post.titleFr ? post.titleFr : post.title;
+                const getExcerpt = () => locale === 'fr' && post.excerptFr ? post.excerptFr : post.excerpt;
+                const getTitleFieldPath = () => locale === 'fr' && post.titleFr ? 'titleFr' : 'title';
+                const getExcerptFieldPath = () => locale === 'fr' && post.excerptFr ? 'excerptFr' : 'excerpt';
+
+                return (
                 <article key={index} className="sb-card overflow-hidden" data-sb-object-id={post.__metadata?.id}>
                     <div className="flex flex-col min-h-full">
                         {post.featuredImage && (
@@ -122,14 +137,14 @@ function PostsVariantA(props) {
                         <div className="flex flex-col flex-grow px-4 pt-6 pb-10 sm:px-6">
                             <div className="flex-grow">
                                 <h3 className="text-3xl">
-                                    <Link href={getPageUrlPath(post)} data-sb-field-path="title">
-                                        {post.title}
+                                    <Link href={getPageUrlPath(post)} data-sb-field-path={getTitleFieldPath()}>
+                                        {getTitle()}
                                     </Link>
                                 </h3>
                                 <PostAttribution showAuthor={showAuthor} post={post} className="mt-2" />
                                 {showExcerpt && post.excerpt && (
-                                    <p className="mt-4" data-sb-field-path="excerpt">
-                                        {post.excerpt}
+                                    <p className="mt-4" data-sb-field-path={getExcerptFieldPath()}>
+                                        {getExcerpt()}
                                     </p>
                                 )}
                             </div>
@@ -142,7 +157,7 @@ function PostsVariantA(props) {
                                                 href={getPageUrlPath(post)}
                                                 className="sb-component sb-component-block sb-component-button sb-component-button-primary"
                                             >
-                                                {readMoreLinkLabel && <span className="mr-3">{readMoreLinkLabel}</span>}
+                                                {readMoreLinkLabel && <span className="mr-3">{translate(readMoreLinkLabel)}</span>}
                                                 <ArrowRightIcon className="fill-current h-5 w-5" />
                                             </Link>
                                         </div>
@@ -152,13 +167,14 @@ function PostsVariantA(props) {
                         </div>
                     </div>
                 </article>
-            ))}
+            )})}
         </div>
     );
 }
 
 function PostsVariantB(props) {
     const { posts = [], showDate, showAuthor, showExcerpt, showReadMoreLink, readMoreLinkLabel, hasTopMargin, annotatePosts } = props;
+    const { locale, translate } = React.useContext(I18NContext);
     if (posts.length === 0) {
         return null;
     }
@@ -169,7 +185,13 @@ function PostsVariantB(props) {
             })}
             {...(annotatePosts ? { 'data-sb-field-path': '.posts' } : null)}
         >
-            {posts.map((post, index) => (
+            {posts.map((post, index) => {
+                const getTitle = () => locale === 'fr' && post.titleFr ? post.titleFr : post.title;
+                const getExcerpt = () => locale === 'fr' && post.excerptFr ? post.excerptFr : post.excerpt;
+                const getTitleFieldPath = () => locale === 'fr' && post.titleFr ? 'titleFr' : 'title';
+                const getExcerptFieldPath = () => locale === 'fr' && post.excerptFr ? 'excerptFr' : 'excerpt';
+
+                return(
                 <article key={index} className="sb-card overflow-hidden" data-sb-object-id={post.__metadata?.id}>
                     <div className="flex flex-col min-h-full">
                         {post.featuredImage && (
@@ -184,14 +206,14 @@ function PostsVariantB(props) {
                         <div className="flex flex-col flex-grow px-4 pt-6 pb-10 sm:px-6">
                             <div className="flex-grow">
                                 <h3 className="text-2xl">
-                                    <Link href={getPageUrlPath(post)} data-sb-field-path="title">
-                                        {post.title}
+                                    <Link href={getPageUrlPath(post)} data-sb-field-path={getTitleFieldPath()}>
+                                        {getTitle()}
                                     </Link>
                                 </h3>
                                 <PostAttribution showAuthor={showAuthor} post={post} className="mt-2" />
                                 {showExcerpt && post.excerpt && (
-                                    <p className="mt-4" data-sb-field-path="excerpt">
-                                        {post.excerpt}
+                                    <p className="mt-4" data-sb-field-path={getExcerptFieldPath()}>
+                                        {getExcerpt()}
                                     </p>
                                 )}
                             </div>
@@ -204,7 +226,7 @@ function PostsVariantB(props) {
                                                 href={getPageUrlPath(post)}
                                                 className="sb-component sb-component-block sb-component-button sb-component-button-primary"
                                             >
-                                                {readMoreLinkLabel && <span className="mr-3">{readMoreLinkLabel}</span>}
+                                                {readMoreLinkLabel && <span className="mr-3">{translate(readMoreLinkLabel)}</span>}
                                                 <ArrowRightIcon className="fill-current h-5 w-5" />
                                             </Link>
                                         </div>
@@ -214,13 +236,14 @@ function PostsVariantB(props) {
                         </div>
                     </div>
                 </article>
-            ))}
+            )})}
         </div>
     );
 }
 
 function PostsVariantC(props) {
     const { posts = [], showDate, showAuthor, showExcerpt, showReadMoreLink, readMoreLinkLabel, hasTopMargin, annotatePosts } = props;
+    const { locale, translate } = React.useContext(I18NContext);
     if (posts.length === 0) {
         return null;
     }
@@ -231,7 +254,13 @@ function PostsVariantC(props) {
             })}
             {...(annotatePosts ? { 'data-sb-field-path': '.posts' } : null)}
         >
-            {posts.map((post, index) => (
+            {posts.map((post, index) => {
+                const getTitle = () => locale === 'fr' && post.titleFr ? post.titleFr : post.title;
+                const getExcerpt = () => locale === 'fr' && post.excerptFr ? post.excerptFr : post.excerpt;
+                const getTitleFieldPath = () => locale === 'fr' && post.titleFr ? 'titleFr' : 'title';
+                const getExcerptFieldPath = () => locale === 'fr' && post.excerptFr ? 'excerptFr' : 'excerpt';
+
+                return (
                 <article
                     key={index}
                     className={classNames('sb-card', 'overflow-hidden', index % 5 === 0 || index % 5 === 1 ? 'md:col-span-3' : 'md:col-span-2')}
@@ -250,14 +279,14 @@ function PostsVariantC(props) {
                         <div className="flex flex-col flex-grow px-4 pt-6 pb-10 sm:px-6">
                             <div className="flex-grow">
                                 <h3 className="text-3xl">
-                                    <Link href={getPageUrlPath(post)} data-sb-field-path="title">
-                                        {post.title}
+                                    <Link href={getPageUrlPath(post)} data-sb-field-path={getTitleFieldPath()}>
+                                        {getTitle()}
                                     </Link>
                                 </h3>
                                 <PostAttribution showAuthor={showAuthor} post={post} className="mt-2" />
                                 {showExcerpt && post.excerpt && (
-                                    <p className="mt-4" data-sb-field-path="excerpt">
-                                        {post.excerpt}
+                                    <p className="mt-4" data-sb-field-path={getExcerptFieldPath()}>
+                                        {getExcerpt()}
                                     </p>
                                 )}
                             </div>
@@ -280,13 +309,14 @@ function PostsVariantC(props) {
                         </div>
                     </div>
                 </article>
-            ))}
+            )})}
         </div>
     );
 }
 
 function PostsVariantD(props) {
     const { posts = [], showDate, showAuthor, showExcerpt, showReadMoreLink, readMoreLinkLabel, hasTopMargin, annotatePosts } = props;
+    const { locale, translate } = React.useContext(I18NContext);
     if (posts.length === 0) {
         return null;
     }
@@ -297,7 +327,13 @@ function PostsVariantD(props) {
             })}
             {...(annotatePosts ? { 'data-sb-field-path': '.posts' } : null)}
         >
-            {posts.map((post, index) => (
+            {posts.map((post, index) => {
+                const getTitle = () => locale === 'fr' && post.titleFr ? post.titleFr : post.title;
+                const getExcerpt = () => locale === 'fr' && post.excerptFr ? post.excerptFr : post.excerpt;
+                const getTitleFieldPath = () => locale === 'fr' && post.titleFr ? 'titleFr' : 'title';
+                const getExcerptFieldPath = () => locale === 'fr' && post.excerptFr ? 'excerptFr' : 'excerpt';
+
+                return (
                 <article key={index} data-sb-object-id={post.__metadata?.id} className="sb-card overflow-hidden">
                     <div className="md:flex">
                         {post.featuredImage && (
@@ -316,14 +352,14 @@ function PostsVariantD(props) {
                         )}
                         <div className="px-4 pt-6 pb-10 sm:px-6 md:w-3/5 md:self-center md:pt-8">
                             <h3 className="text-3xl">
-                                <Link href={getPageUrlPath(post)} data-sb-field-path="title">
-                                    {post.title}
+                                <Link href={getPageUrlPath(post)} data-sb-field-path={getTitleFieldPath()}>
+                                    {getTitle()}
                                 </Link>
                             </h3>
                             <PostAttribution showAuthor={showAuthor} post={post} className="mt-2" />
                             {showExcerpt && post.excerpt && (
-                                <p className="mt-4" data-sb-field-path="excerpt">
-                                    {post.excerpt}
+                                <p className="mt-4" data-sb-field-path={getExcerptFieldPath()}>
+                                    {getExcerpt()}
                                 </p>
                             )}
                             {(showDate || showReadMoreLink) && (
@@ -345,7 +381,7 @@ function PostsVariantD(props) {
                         </div>
                     </div>
                 </article>
-            ))}
+            )})}
         </div>
     );
 }
@@ -369,20 +405,29 @@ function PostDate({ post, className }) {
 function PostAttribution({ showAuthor, post, className = '' }) {
     const author = showAuthor ? postAuthor(post) : null;
     const category = postCategory(post);
+    const { locale } = React.useContext(I18NContext);
     if (!author && !category) {
         return null;
     }
+    const getPreposition = (): string => {
+        if (author) {
+            return locale === 'fr' ? ' dans ' : ' in ';
+        } else {
+            return locale === 'fr' ? 'Dans ' : 'In ';
+        }
+    };
+
     return (
         <div className={className ? className : null}>
             {author && (
                 <>
-                    {'By '}
+                    {locale === 'fr' ? 'Par ' : 'By '}
                     {author}
                 </>
             )}
             {category && (
                 <>
-                    {author ? ' in ' : 'In '}
+                    {getPreposition()}
                     {category}
                 </>
             )}

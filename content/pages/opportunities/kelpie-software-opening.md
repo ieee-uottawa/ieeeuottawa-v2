@@ -1,10 +1,13 @@
 ---
 title: Software Developer Opening (Microcontrollers)
+titleFr: Ouverture d'un poste de développeur de logiciels (microcontrôleurs)
 layout: PostLayout
 date: '2022-08-22'
 author: content/data/orgs/kelpie-robotics.json
 excerpt: >
   Join our software team where you will be working with various microcontrollers, as well as setting up the software suites on the topside, and ROV computers.
+excerptFr: >
+  Rejoignez notre équipe de logiciels où vous travaillerez avec divers microcontrôleurs, ainsi qu'à la mise en place des suites logicielles sur les ordinateurs de surface et les ROV.
 featuredImage:
   type: ImageBlock
   url: /images/eng-teams/kelpie-robotics.png

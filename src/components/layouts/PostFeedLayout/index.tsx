@@ -7,15 +7,19 @@ import { getBaseLayoutComponent } from '../../../utils/base-layout';
 import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to-class-names';
 import { DisplayModeContext } from '../../../context/displayMode';
 import { getMatchingColor } from '../../../utils/themeColorMapper';
+import { I18NContext } from '../../../context/i18Ncontext';
 
 export default function PostFeedLayout(props) {
     const { page, site } = props;
     const BaseLayout = getBaseLayoutComponent(page.baseLayout, site.baseLayout);
-    const { title, topSections = [], bottomSections = [], pageIndex, baseUrlPath, numOfPages, items, postFeed, styles = {} } = page;
+    const { title, titleFr, topSections = [], bottomSections = [], pageIndex, baseUrlPath, numOfPages, items, postFeed, styles = {} } = page;
     const colors = postFeed?.colors ?? 'colors-d';
     const PostFeedSection = getComponent('PostFeedSection');
     const pageLinks = PageLinks({ pageIndex, baseUrlPath, numOfPages });
     const { displayMode } = React.useContext(DisplayModeContext);
+    const { locale } = React.useContext(I18NContext);
+    const getTitle = () => locale === 'fr' && titleFr ? titleFr : title;
+    const getTitleFieldPath = () => locale === 'fr' && titleFr ? 'titleFr' : 'title';
 
     return (
         <BaseLayout page={page} site={site}>
@@ -37,9 +41,9 @@ export default function PostFeedLayout(props) {
                                 mapStyles({ width: postFeed?.styles?.self?.width ?? 'wide' }),
                                 styles.title ? mapStyles(styles.title) : null
                             )}
-                            data-sb-field-path="title"
+                            data-sb-field-path={getTitleFieldPath()}
                         >
-                            {title}
+                            {getTitle()}
                         </h1>
                     </div>
                 )}

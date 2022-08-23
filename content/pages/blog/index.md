@@ -1,6 +1,7 @@
 ---
 layout: PostFeedLayout
 title: Articles
+titleFr: Articles
 numOfPostsPerPage: 10
 postFeed:
   showDate: true
@@ -8,11 +9,11 @@ postFeed:
   showExcerpt: true
   showReadMoreLink: true
   readMoreLinkLabel: Learn More
-  variant: variant-c
+  variant: variant-b
   colors: colors-d
   styles:
     self:
-      width: narrow
+      width: wide
       padding:
         - pt-0
         - pl-4

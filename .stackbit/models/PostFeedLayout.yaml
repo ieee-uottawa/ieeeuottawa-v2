@@ -8,8 +8,12 @@ extends:
 fields:
   - type: string
     name: title
-    label: Title
+    label: Title [EN]
     default: This is a page title
+  - type: string
+    name: titleFr
+    label: Title [FR]
+    default: Titre de la page
   - type: number
     name: numOfPostsPerPage
     label: Number of Posts per page

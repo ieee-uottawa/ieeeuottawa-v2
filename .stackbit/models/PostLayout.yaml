@@ -10,8 +10,13 @@ fieldGroups:
 fields:
   - type: string
     name: title
-    label: Title
+    label: Title [EN]
     default: This is a blog post title
+    required: true
+  - type: string
+    name: titleFr
+    label: Title [FR]
+    default: Titre de blog
     required: true
   - type: enum
     name: colors
@@ -56,7 +61,11 @@ fields:
       - Person
   - type: string
     name: excerpt
-    label: Excerpt
+    label: Excerpt [EN]
+    default: Nunc rutrum felis dui, ut consequat sapien scelerisque vel. Integer condimentum dignissim justo vel faucibus.
+  - type: string
+    name: excerptFr
+    label: Excerpt [FR]
     default: Nunc rutrum felis dui, ut consequat sapien scelerisque vel. Integer condimentum dignissim justo vel faucibus.
   - type: model
     name: featuredImage
@@ -85,6 +94,10 @@ fields:
       type: model
       groups:
         - sectionComponent
+  - type: markdown
+    name: markdown_content_fr
+    label: Content [FR]
+    default: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.'
   - type: string
     name: metaDescription
     label: 'Description tag (default: excerpt)'

@@ -6,6 +6,7 @@ sections:
     colors: colors-b
     variant: variant-b
     title: Join an Engineering Competition Team
+    titleFr: Faites partie d'une équipe de compétition d'ingénierie
     posts:
       - content/pages/opportunities/ewb-software-opening.md
       - content/pages/opportunities/kelpie-software-opening.md
