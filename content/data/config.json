@@ -94,12 +94,6 @@
             },
             {
                 "type": "Link",
-                "label": "Opportunities",
-                "url": "/opportunities",
-                "altText": "Opportunities"
-            },
-            {
-                "type": "Link",
                 "label": "Events",
                 "url": "/events",
                 "altText": "Events"
@@ -108,15 +102,6 @@
                 "type": "DropdownLink",
                 "label": "More",
                 "dropdownLinks": [
-                    {
-                        "type": "Link",
-                        "label": "Blogs",
-                        "altText": "Blogs",
-                        "url": "/blog",
-                        "showIcon": false,
-                        "iconPosition": "right",
-                        "elementId": ""
-                    },
                     {
                         "type": "Link",
                         "label": "Documents",
