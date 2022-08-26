@@ -5,11 +5,16 @@ import classNames from 'classnames';
 import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to-class-names';
 import Section from '../Section';
 import { Action } from '../../atoms';
+import { I18NContext } from '../../../context/i18Ncontext';
 
 export default function CtaSection(props) {
-    const { type, elementId, colors, backgroundSize, backgroundImage, title, text, actions = [], styles = {}, 'data-sb-field-path': fieldPath } = props;
+    const { type, elementId, colors, backgroundSize, backgroundImage, title, titleFr, text, textFr, actions = [], styles = {}, 'data-sb-field-path': fieldPath } = props;
     const sectionFlexDirection = styles.self?.flexDirection ?? 'row';
     const sectionAlignItems = styles.self?.alignItems || 'center';
+    const { locale } = React.useContext(I18NContext);
+    const getTitle = () => locale === 'fr' && titleFr ? titleFr : title;
+    const getText = () => locale === 'fr' && textFr ? textFr : text;
+
     return (
         <Section
             type={type}
@@ -25,7 +30,7 @@ export default function CtaSection(props) {
                     'lg:space-y-0 lg:space-x-8': sectionFlexDirection === 'row'
                 })}
             >
-                <CtaBody title={title} text={text} styles={styles} />
+                <CtaBody title={getTitle()} text={getText()} styles={styles} />
                 <CtaActions actions={actions} sectionFlexDirection={sectionFlexDirection} styles={styles.actions} />
             </div>
         </Section>
@@ -34,13 +39,17 @@ export default function CtaSection(props) {
 
 function CtaBody(props) {
     const { title, text, styles = {} } = props;
+    const { locale } = React.useContext(I18NContext);
+    const getTitleFieldPath = () => locale === 'fr' ? '.titleFr' : '.title';
+    const getTextFieldPath = () => locale === 'fr' ? '.textFr' : '.text';
+
     if (!title && !text) {
         return null;
     }
     return (
         <div className="w-full lg:flex-grow">
             {title && (
-                <h2 className={classNames(styles.title ? mapStyles(styles.title) : null)} data-sb-field-path=".title">
+                <h2 className={classNames(styles.title ? mapStyles(styles.title) : null)} data-sb-field-path={getTitleFieldPath()}>
                     {title}
                 </h2>
             )}
@@ -48,7 +57,7 @@ function CtaBody(props) {
                 <Markdown
                     options={{ forceBlock: true, forceWrapper: true }}
                     className={classNames('sb-markdown', 'sm:text-lg', styles.text ? mapStyles(styles.text) : null, { 'mt-4': title })}
-                    data-sb-field-path=".text"
+                    data-sb-field-path={getTextFieldPath()}
                 >
                     {text}
                 </Markdown>

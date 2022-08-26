@@ -187,9 +187,12 @@ sections:
     elementId: get-involved
     backgroundSize: full
     title: Want to get involved with the IEEE?
+    titleFr: Voulez-vous vous impliquer avec IEEE ?
     text: >
       Fill out this form and an executive will email you when there are
       opportunities for volunteering!
+    textFr: >
+      Remplissez ce formulaire et un responsable vous enverra un courriel lorsqu'il y aura des des opportunités de bénévolat !
     actions:
       - type: Button
         label: Form
