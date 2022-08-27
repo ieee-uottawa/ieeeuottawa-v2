@@ -25,15 +25,33 @@ fields:
     default: variant-a
   - type: string
     name: title
-    label: Title
+    label: Title [EN]
     default: The Section Title
   - type: string
+    name: titleFr
+    label: Title [FR]
+    default: Section titre
+  - type: string
     name: subtitle
-    label: Subtitle
+    label: Subtitle [EN]
     default: The section subtitle
+  - type: string
+    name: subtitleFr
+    label: Subtitle [FR]
+    default: Section sous-titre
   - type: markdown
     name: text
-    label: Text
+    label: Text [EN]
+    default: |-
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+      doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo
+      inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+      Sed ut perspiciatis undeomnis iste natus error sit voluptatem accusantium
+      doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo
+      inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+  - type: markdown
+    name: textFr
+    label: Text [FR]
     default: |-
       Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
       doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo

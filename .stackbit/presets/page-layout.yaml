@@ -9,8 +9,10 @@ presets:
           colors: colors-d
           variant: variant-a
           title: This in an empty page
+          titleFr: Ceci est une page vide
           text: Start adding sections by clicking the + button on the page or through
             the sidebar.
+          textFr: Commencez par ajoutez des sections en clickant sur le boutton +.
           styles:
             self:
               height: auto
@@ -137,7 +139,8 @@ presets:
         - type: TextSection
           colors: colors-e
           variant: variant-a
-          text: '## [Follow us on Instagram](https://www.stackbit.com/)'
+          text: '## [Follow us on Instagram](https://www.instagram.com/ieeeuottawa/)'
+          textFr: '## [Suivez-nous sur Instagram](https://www.instagram.com/ieeeuottawa/)'
           styles:
             self:
               height: auto
@@ -278,10 +281,11 @@ presets:
           colors: colors-d
           variant: variant-a
           title: About our business
+          titleFr: À propos de notre entreprise
           text: |-
-            For us fishing is a life style. The connection to the waters is what makes us friends, and what makes us a family and it what makes us a business.
-
-            We believe there’s a better, more sustainable way to live out of what the sea has to offer, while  keeping our products fresh and delicious.
+            Beginning of long text.
+          textFr: |-
+            Début de long text.
           styles:
             self:
               height: auto
