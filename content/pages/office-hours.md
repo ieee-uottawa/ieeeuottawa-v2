@@ -1,14 +1,14 @@
 ---
 layout: PageLayout
 addTitleSuffix: true
-title: Contact
+title: Office Hours
 sections:
   - type: TextSection
     colors: colors-d
     elementId: ''
     variant: variant-a
-    title: Contact
-    titleFr: Contact
+    title: Office Hours
+    titleFr: Heures de bureau
     subtitle: ''
     styles:
       self:

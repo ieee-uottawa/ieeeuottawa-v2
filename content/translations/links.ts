@@ -30,4 +30,5 @@ export const translatedLinks = {
     "Submit form": "Soumettre",
     "Opportunities": "Opportunités",
     "Blogs": "Blogs",
+    "Office Hours": "Heures de bureau",
 }
