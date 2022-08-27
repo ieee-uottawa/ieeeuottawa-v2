@@ -76,9 +76,9 @@ sections:
           Need to buy a breadboard, wire strippers or CD-Rs? Need to use an
           Altera DE2 Board or an oscilloscope for a project? We got your back.
         textFr: >
-          Besoin d'une planche à pain, des pinces à dénuder ou des
-          CD-R ? Besoin d'utiliser une carte Altera DE2 ou un
-          oscilloscope pour un projet ? Nous avons tout!
+          Besoin d'une planche à pain, des pinces à dénuder ou des CD-R ? Besoin
+          d'utiliser une carte Altera DE2 ou un oscilloscope pour un projet ?
+          Nous avons tout!
         actions: []
         styles:
           self:
@@ -117,9 +117,11 @@ sections:
         title: Borrow textbooks
         titleFr: Empruntez des manuels scolaires
         text: >
-          Need to borrow a textbook for one of your courses? Take advantage of our carefully curated selection of EECS textbooks at no cost.
+          Need to borrow a textbook for one of your courses? Take advantage of
+          our carefully curated selection of EECS textbooks at no cost.
         textFr: >
-          Besoin d'emprunter un manuel pour l'un de vos cours ? Profitez gratuitement de notre sélection de manuels EECS adapté à vos besoins.
+          Besoin d'emprunter un manuel pour l'un de vos cours ? Profitez
+          gratuitement de notre sélection de manuels EECS adapté à vos besoins.
         actions: []
         styles:
           self:
@@ -255,5 +257,26 @@ sections:
       text:
         textAlign: center
 addTitleSuffix: true
-metaTags: []
+metaTags:
+  - type: MetaTag
+    property: 'og:type'
+    content: website
+  - type: MetaTag
+    property: 'og:image:alt'
+    content: IEEE uOttawa Student Branch Logo
+  - type: MetaTag
+    property: 'og:url'
+    content: 'https://ieeeuottawa.ca/'
+  - type: MetaTag
+    property: 'og:site_name'
+    content: IEEE uOttawa Student Branch
+  - type: MetaTag
+    property: 'twitter:site'
+    content: '@ieeeuottawa'
+metaTitle: Powering Your Student Experience
+metaDescription: >-
+  The IEEE uOttawa Student Branch is the official student branch for the
+  University of Ottawa and the official Sub-Association for ELG/CEG/SEG under
+  the ESS.
+socialImage: /images/LOGO_BLUE 2.svg
 ---

@@ -1,19 +1,46 @@
 ---
 layout: PageLayout
 addTitleSuffix: true
-metaTags: []
-title: Contact Us
+title: Contact
 sections:
+  - type: TextSection
+    colors: colors-d
+    elementId: ''
+    variant: variant-a
+    title: Contact
+    titleFr: Contact
+    subtitle: ''
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-10
+          - pb-11
+          - pl-4
+          - pr-4
+        justifyContent: center
+      title:
+        textAlign: center
+      subtitle:
+        textAlign: left
+      text:
+        textAlign: left
   - type: ContactSection
     colors: colors-d
     elementId: ''
     backgroundSize: full
     title: Contact us
-    titleFr: Contact us
+    titleFr: Contactez-nous
     text: >
-      We look forward to hearing from you. Feel free to also join the official uOttawa Engineering discord server by clicking on this link : <https://discord.gg/jPHy6uUThH>
+      We look forward to hearing from you. Feel free to also join the official
+      uOttawa Engineering discord server by clicking on this link :
+      <https://discord.gg/jPHy6uUThH>
     textFr: >
-      Nous sommes très heureux de recevoir vos commentaires. N'hésitez pas à rejoindre également le serveur discord officiel de serveur discord du Génie de l'Université d'Ottawa en cliquant sur ce lien : <https://discord.gg/jPHy6uUThH>
+      Nous sommes très heureux de recevoir vos commentaires. N'hésitez pas à
+      rejoindre également le serveur discord officiel de serveur discord du
+      Génie de l'Université d'Ottawa en cliquant sur ce lien :
+      <https://discord.gg/jPHy6uUThH>
     form:
       type: FormBlock
       elementId: contact-form
@@ -49,9 +76,11 @@ sections:
         - type: CheckboxFormControl
           name: Consent
           label: >-
-            I understand that this form is storing my submitted information so I can be contacted.
+            I understand that this form is storing my submitted information so I
+            can be contacted.
           labelFr: >-
-            Je comprends que ce formulaire stocke les informations que j'ai soumises afin que je puisse être contacté.
+            Je comprends que ce formulaire stocke les informations que j'ai
+            soumises afin que je puisse être contacté.
           isRequired: true
           width: full
       submitLabel: Send Message
@@ -76,4 +105,21 @@ sections:
         textAlign: left
       text:
         textAlign: left
+metaDescription: Check out our office hours.
+metaTags:
+  - type: MetaTag
+    property: 'og:type'
+    content: website
+  - type: MetaTag
+    property: 'og:image:alt'
+    content: IEEE uOttawa Student Branch Logo
+  - type: MetaTag
+    property: 'og:url'
+    content: 'https://ieeeuottawa.ca/contact'
+  - type: MetaTag
+    property: 'og:site_name'
+    content: IEEE uOttawa Student Branch
+  - type: MetaTag
+    property: 'twitter:site'
+    content: '@ieeeuottawa'
 ---

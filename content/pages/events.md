@@ -1,10 +1,7 @@
 ---
 layout: PageLayout
-metaTitle: null
-metaDescription: null
 addTitleSuffix: true
-socialImage: null
-metaTags: []
+socialImage: /images/Events (1).png
 title: Events
 sections:
   - type: HeroSection
@@ -86,14 +83,14 @@ sections:
       - type: FeaturedItem
         title: Annual General Meeting
         titleFr: Assemblée générale annuelle
-        subtitle: 04/30/2022, 10AM
-        subtitleFr: 30/04/2022, 10:00
+        subtitle: '04/30/2022, 10AM'
+        subtitleFr: '30/04/2022, 10:00'
         actions:
           - type: Button
             label: Learn More
             showIcon: true
             icon: arrowRight
-            url: https://www.facebook.com/events/528520422048789
+            url: 'https://www.facebook.com/events/528520422048789'
             style: secondary
         styles:
           self:
@@ -107,14 +104,14 @@ sections:
       - type: FeaturedItem
         title: Pomodoro Study Session
         titleFr: Session d'étude Pomodoro
-        subtitle: 04/06/2022, 12PM - 6PM
-        subtitleFr: 06/04/2022, 12:00 - 18:00
+        subtitle: '04/06/2022, 12PM - 6PM'
+        subtitleFr: '06/04/2022, 12:00 - 18:00'
         actions:
           - type: Button
             label: Learn More
             showIcon: true
             icon: arrowRight
-            url: https://www.facebook.com/events/3180418992279982
+            url: 'https://www.facebook.com/events/3180418992279982'
             style: secondary
         styles:
           self:
@@ -128,14 +125,14 @@ sections:
       - type: FeaturedItem
         title: 13th Wine and Cheese
         titleFr: 13ème édition du Wine and Cheese
-        subtitle: 04/01/2022, 6PM - 10PM
-        subtitleFr: 01/04/2022, 18:00 - 22:00
+        subtitle: '04/01/2022, 6PM - 10PM'
+        subtitleFr: '01/04/2022, 18:00 - 22:00'
         actions:
           - type: Button
             label: Learn More
             showIcon: true
             icon: arrowRight
-            url: https://www.facebook.com/events/459635112616437/
+            url: 'https://www.facebook.com/events/459635112616437/'
             style: secondary
         styles:
           self:
@@ -149,14 +146,14 @@ sections:
       - type: FeaturedItem
         title: DeFi The Conventional
         titleFr: DeFi The Conventional
-        subtitle: 03/25/2022, 6PM - 03/27/2022, 2PM
-        subtitleFr: 23/03/2022, 18:00 - 27/03/2022, 14:00
+        subtitle: '03/25/2022, 6PM - 03/27/2022, 2PM'
+        subtitleFr: '23/03/2022, 18:00 - 27/03/2022, 14:00'
         actions:
           - type: Button
             label: Learn More
             showIcon: true
             icon: arrowRight
-            url: https://www.facebook.com/events/1581853818855589/
+            url: 'https://www.facebook.com/events/1581853818855589/'
             style: secondary
         styles:
           self:
@@ -177,7 +174,7 @@ sections:
             label: Learn More
             showIcon: true
             icon: arrowRight
-            url: https://www.instagram.com/p/CZiJ40YulZT/
+            url: 'https://www.instagram.com/p/CZiJ40YulZT/'
             style: secondary
         styles:
           self:
@@ -191,14 +188,14 @@ sections:
       - type: FeaturedItem
         title: Movie Night
         titleFr: Soirée Ciné
-        subtitle: 02/26/2022, 8PM
-        subtitleFr: 26/02/2022, 20:00
+        subtitle: '02/26/2022, 8PM'
+        subtitleFr: '26/02/2022, 20:00'
         actions:
           - type: Button
             label: Learn More
             showIcon: true
             icon: arrowRight
-            url: https://www.instagram.com/p/CaXjzV6Oskj/
+            url: 'https://www.instagram.com/p/CaXjzV6Oskj/'
             style: secondary
         styles:
           self:
@@ -212,14 +209,14 @@ sections:
       - type: FeaturedItem
         title: Cookies n' Cram - CSI2110
         titleFr: Cookies n' Cram - CSI2110
-        subtitle: 12/04/2021, 1PM - 3PM
-        subtitleFr: 04/12/2021 - 13:00 - 15:00
+        subtitle: '12/04/2021, 1PM - 3PM'
+        subtitleFr: '04/12/2021 - 13:00 - 15:00'
         actions:
           - type: Button
             label: Learn More
             showIcon: true
             icon: arrowRight
-            url: https://www.facebook.com/events/912201619724642/
+            url: 'https://www.facebook.com/events/912201619724642/'
             style: secondary
         styles:
           self:
@@ -233,14 +230,14 @@ sections:
       - type: FeaturedItem
         title: IEEE EngiBEERing
         titleFr: IEEE EngiBEERing
-        subtitle: 11/29/2021, 7:30PM
-        subtitleFr: 29/11/2021, 18:00 - 27/03/2022, 14:00
+        subtitle: '11/29/2021, 7:30PM'
+        subtitleFr: '29/11/2021, 18:00 - 27/03/2022, 14:00'
         actions:
           - type: Button
             label: Learn More
             showIcon: true
             icon: arrowRight
-            url: https://www.facebook.com/events/3137232673172477/
+            url: 'https://www.facebook.com/events/3137232673172477/'
             style: secondary
         styles:
           self:
@@ -254,14 +251,14 @@ sections:
       - type: FeaturedItem
         title: Cookies n' Cram - ELG2138
         titleFr: Cookies n' Cram - ELG2138
-        subtitle: 11/29/2021, 5PM - 7PM
-        subtitleFr: 29/11/2021 - 17:00 - 19:00
+        subtitle: '11/29/2021, 5PM - 7PM'
+        subtitleFr: '29/11/2021 - 17:00 - 19:00'
         actions:
           - type: Button
             label: Learn More
             showIcon: true
             icon: arrowRight
-            url: https://www.facebook.com/events/402082948239745/
+            url: 'https://www.facebook.com/events/402082948239745/'
             style: secondary
         styles:
           self:
@@ -275,14 +272,14 @@ sections:
       - type: FeaturedItem
         title: Cookies n' Cram - ITI1120/GNG1106
         titleFr: Cookies n' Cram - ITI1120/GNG1106
-        subtitle: 11/28/2021, 7PM - 9PM
-        subtitleFr: 28/11/2021 - 19:00 - 21:00
+        subtitle: '11/28/2021, 7PM - 9PM'
+        subtitleFr: '28/11/2021 - 19:00 - 21:00'
         actions:
           - type: Button
             label: Learn More
             showIcon: true
             icon: arrowRight
-            url: https://www.facebook.com/events/410755914046650/
+            url: 'https://www.facebook.com/events/410755914046650/'
             style: secondary
         styles:
           self:
@@ -296,14 +293,14 @@ sections:
       - type: FeaturedItem
         title: Cookies n' Cram - CEG2136
         titleFr: Cookies n' Cram - CEG2136
-        subtitle: 11/28/2021, 1PM - 3PM
-        subtitleFr: 28/11/2021 - 13:00 - 15:00
+        subtitle: '11/28/2021, 1PM - 3PM'
+        subtitleFr: '28/11/2021 - 13:00 - 15:00'
         actions:
           - type: Button
             label: Learn More
             showIcon: true
             icon: arrowRight
-            url: https://www.facebook.com/events/432419784904904/
+            url: 'https://www.facebook.com/events/432419784904904/'
             style: secondary
         styles:
           self:
@@ -317,14 +314,14 @@ sections:
       - type: FeaturedItem
         title: WIE Tech Panel
         titleFr: Panel tech WIE
-        subtitle: 03/25/2021, 7PM - 9:30PM
-        subtitleFr: 25/03/2021, 19:00 - 21:30
+        subtitle: '03/25/2021, 7PM - 9:30PM'
+        subtitleFr: '25/03/2021, 19:00 - 21:30'
         actions:
           - type: Button
             label: Learn More
             showIcon: true
             icon: arrowRight
-            url: https://www.facebook.com/events/620408012477323/
+            url: 'https://www.facebook.com/events/620408012477323/'
             style: secondary
         styles:
           self:
@@ -356,4 +353,21 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
+metaDescription: Checkout our upcoming events and our past events!
+metaTags:
+  - type: MetaTag
+    property: 'og:type'
+    content: website
+  - type: MetaTag
+    property: 'og:image:alt'
+    content: IEEE uOttawa Student Branch Logo
+  - type: MetaTag
+    property: 'og:url'
+    content: 'https://ieeeuottawa.ca/events'
+  - type: MetaTag
+    property: 'og:site_name'
+    content: IEEE uOttawa Student Branch
+  - type: MetaTag
+    property: 'twitter:site'
+    content: '@ieeeuottawa'
 ---

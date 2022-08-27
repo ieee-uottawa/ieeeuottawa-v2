@@ -1,10 +1,7 @@
 ---
 layout: PageLayout
-metaTitle: null
-metaDescription: null
 addTitleSuffix: true
-socialImage: null
-metaTags: []
+socialImage: /images/gridgallery.png
 title: Gallery
 sections:
   - type: HeroSection
@@ -344,4 +341,21 @@ sections:
         textAlign: center
       subtitle:
         textAlign: center
+metaDescription: Explore immortalized memories that were made possible thanks to IEEE uOttawa.
+metaTags:
+  - type: MetaTag
+    property: 'og:type'
+    content: website
+  - type: MetaTag
+    property: 'og:image:alt'
+    content: IEEE uOttawa Student Branch Logo
+  - type: MetaTag
+    property: 'og:url'
+    content: 'https://ieeeuottawa.ca/gallery'
+  - type: MetaTag
+    property: 'og:site_name'
+    content: IEEE uOttawa Student Branch
+  - type: MetaTag
+    property: 'twitter:site'
+    content: '@ieeeuottawa'
 ---

@@ -1,7 +1,6 @@
 ---
 layout: PageLayout
 addTitleSuffix: true
-metaTags: []
 title: Documents
 sections:
   - type: HeroSection
@@ -11,9 +10,13 @@ sections:
     title: Documents
     titleFr: Documents
     text: >
-      On this page, you will find supporting documentation detailing the branch's operations such as the constitution, code of conduct, budget, and meeting minutes.
+      On this page, you will find supporting documentation detailing the
+      branch's operations such as the constitution, code of conduct, budget, and
+      meeting minutes.
     textFr: >
-      Sur cette page, vous trouverez des documents détaillant le fonctionnement de la branche, tels que la constitution, le code de conduite, le budget et les procès-verbaux des réunions.
+      Sur cette page, vous trouverez des documents détaillant le fonctionnement
+      de la branche, tels que la constitution, le code de conduite, le budget et
+      les procès-verbaux des réunions.
     actions: []
     backgroundImage:
       type: BackgroundImage
@@ -52,9 +55,11 @@ sections:
         title: Constitution
         titleFr: Constitution
         text: >
-          The constitution defines the rules and policies that govern the branch's operations.
+          The constitution defines the rules and policies that govern the
+          branch's operations.
         textFr: >
-          La constitution définit les règles et les politiques qui régissent les opérations de la branche.
+          La constitution définit les règles et les politiques qui régissent les
+          opérations de la branche.
         actions:
           - type: Button
             label: View
@@ -69,15 +74,18 @@ sections:
         title: IEEE Code of Conduct
         titleFr: Code de conduite IEEE
         text: >
-          Highlights values that must be followed by IEEE affiliates to maintain the highest standards of integrity.
+          Highlights values that must be followed by IEEE affiliates to maintain
+          the highest standards of integrity.
         textFr: >
-          Met en évidence les valeurs que doivent suivre les affiliés de l'IEEE pour maintenir les plus hauts standards d'intégrité.
+          Met en évidence les valeurs que doivent suivre les affiliés de l'IEEE
+          pour maintenir les plus hauts standards d'intégrité.
         actions:
           - type: Button
             label: View
             showIcon: true
             icon: arrowRight
-            url: https://www.ieee.org/content/dam/ieee-org/ieee/web/org/about/ieee_code_of_conduct.pdf
+            url: >-
+              https://www.ieee.org/content/dam/ieee-org/ieee/web/org/about/ieee_code_of_conduct.pdf
             style: secondary
         styles:
           self:
@@ -86,9 +94,11 @@ sections:
         title: Budget
         titleFr: Budget
         text: >
-          The budget document tracks all planned and actual expenses and revenues.
+          The budget document tracks all planned and actual expenses and
+          revenues.
         textFr: >
-          Le document budgétaire permet de suivre toutes les dépenses et revenus prévus et réels.
+          Le document budgétaire permet de suivre toutes les dépenses et revenus
+          prévus et réels.
         actions:
           - type: Button
             label: View
@@ -126,9 +136,11 @@ sections:
     title: Meeting Minutes
     titleFr: Comptes rendus des réunions
     subtitle: >-
-      Check out the Internal meeting minutes to catch a glimpse of the discussions that drive what we do.
+      Check out the Internal meeting minutes to catch a glimpse of the
+      discussions that drive what we do.
     subtitleFr: >-
-      Consultez les comptes-rendus des réunions internes pour avoir un aperçu des discussions qui motivent nos actions.
+      Consultez les comptes-rendus des réunions internes pour avoir un aperçu
+      des discussions qui motivent nos actions.
     items:
       - type: FeaturedItem
         title: IEEE Executive Meeting Minutes
@@ -322,4 +334,25 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
+socialImage: /images/pexels-fauxels-3183150.jpg
+metaDescription: >-
+  On this page, you will find supporting documentation detailing the branch's
+  operations such as the constitution, code of conduct, budget, and meeting
+  minutes.
+metaTags:
+  - type: MetaTag
+    property: 'og:type'
+    content: website
+  - type: MetaTag
+    property: 'og:image:alt'
+    content: IEEE uOttawa Student Branch Logo
+  - type: MetaTag
+    property: 'og:url'
+    content: 'https://ieeeuottawa.ca/documents'
+  - type: MetaTag
+    property: 'og:site_name'
+    content: IEEE uOttawa Student Branch
+  - type: MetaTag
+    property: 'twitter:site'
+    content: '@ieeeuottawa'
 ---
