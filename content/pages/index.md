@@ -273,6 +273,9 @@ metaTags:
   - type: MetaTag
     property: 'twitter:site'
     content: '@ieeeuottawa'
+  - type: MetaTag
+    property: 'og:title'
+    content: ''
 metaTitle: Powering Your Student Experience
 metaDescription: >-
   The IEEE uOttawa Student Branch is the official student branch for the
