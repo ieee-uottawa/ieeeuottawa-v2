@@ -358,4 +358,5 @@ metaTags:
   - type: MetaTag
     property: 'twitter:site'
     content: '@ieeeuottawa'
+metaTitle: Gallery
 ---

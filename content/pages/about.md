@@ -162,6 +162,13 @@ sections:
         styles:
           self:
             textAlign: left
+    styles:
+      self:
+        padding:
+          - pt-28
+          - pb-28
+        margin:
+          - mb-0
   - type: FeatureHighlightSection
     colors: colors-b
     elementId: ''
