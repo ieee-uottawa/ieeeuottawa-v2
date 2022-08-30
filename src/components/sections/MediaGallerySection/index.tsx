@@ -36,6 +36,8 @@ type Image = {
     url: string;
     altText: string;
     caption: string;
+    width?: number;
+    height?: number;
 };
 
 export default function MediaGallerySection(props: MediaGallerySectionProps) {
@@ -120,7 +122,7 @@ function MediaGalleryImage(props: MediaGalleryItemProps) {
                 {...image}
                 className={classNames('w-full', {
                     'h-full absolute left-0 top-0 object-cover': aspectRatio !== 'auto',
-                    'transition-transform hover:scale-105': enableHover
+                    'transition-transform hover:scale-105': enableHover,
                 })}
             />
             {showCaption && image.caption && (

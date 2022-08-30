@@ -12,10 +12,14 @@ featuredImage:
   type: ImageBlock
   url: /images/eng-teams/uo-gnctr.jpeg
   altText: uOttawa GNCTR Logo
+  width: 1080
+  height: 1080
 media:
   type: ImageBlock
   url: /images/eng-teams/uo-gnctr.jpeg
   altText: Post Image
+  width: 1080
+  height: 1080
 addTitleSuffix: true
 ---
 

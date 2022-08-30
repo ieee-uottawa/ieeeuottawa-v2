@@ -12,10 +12,14 @@ featuredImage:
   type: ImageBlock
   url: /images/eng-teams/formula-uottawa.png
   altText: Formula uOttawa Logo
+  width: 1080
+  height: 1080
 media:
   type: ImageBlock
   url: /images/eng-teams/formula-uottawa.png
   altText: Post Image
+  width: 1080
+  height: 1080
 addTitleSuffix: true
 ---
 

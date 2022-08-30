@@ -12,9 +12,13 @@ featuredImage:
   type: ImageBlock
   url: /images/eng-teams/kelpie-robotics.png
   altText: Kelpie Robotics Logo
+  width: 1080
+  height: 1080
 media:
   type: ImageBlock
   url: /images/eng-teams/kelpie-robotics.png
+  width: 1080
+  height: 1080
   altText: Post Image
 addTitleSuffix: true
 ---

@@ -22,8 +22,8 @@ export default function LocaleSelector() {
             <FormControl size="small" fullWidth>
                 <ThemeProvider theme={darkOrLightMode}>
                     <Select
-                        labelId="demo-simple-select-label"
-                        id="demo-simple-select"
+                        labelId="locale-select-label"
+                        id="locale-select"
                         value={locale}
                         label="Language"
                         onChange={handleChange}
@@ -35,7 +35,6 @@ export default function LocaleSelector() {
                             fontSize: '1rem',
                             letterSpacing: themeStyle.link.letterSpacing,
                             ...theme.extend['sb-component-link'],
-                            // padding: '0',
                         }}
                     >
                         <MenuItem value={"en"}>EN</MenuItem>

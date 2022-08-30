@@ -20,6 +20,14 @@ fields:
     name: caption
     label: Caption
     default: Caption of the image
+  - type: number
+    name: width
+    label: Width
+    default: 300
+  - type: number
+    name: height
+    label: Height
+    default: 300
   - type: string
     name: elementId
     group: settings

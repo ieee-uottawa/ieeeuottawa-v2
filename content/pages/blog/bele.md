@@ -10,10 +10,14 @@ excerptFr: >-
   Apprenez-en plus sur le programme de jumelage de l'IEEE WIE pour les étudiants de première année.
 featuredImage:
   type: ImageBlock
+  width: 1080
+  height: 1080
   url: /images/bele.jpeg
   altText: Big Eng Little Eng post thumbnail image
 media:
   type: ImageBlock
+  width: 1080
+  height: 1080
   url: /images/bele.jpeg
   altText: Post Image
 markdown_content_fr: >-
@@ -22,37 +26,6 @@ markdown_content_fr: >-
   Cette initiative comprend également des exercices de rapprochement et des événements sociaux entre mentors et mentorés, car elle ne se limite pas à l'étude.
 
   (Les étudiants de deuxième année et plus sont qualifiés de Big Eng)
-bottomSections:
-  - elementId: ''
-    variant: variant-d
-    colors: colors-d
-    title: Read next
-    showDate: true
-    showAuthor: false
-    showExcerpt: true
-    recentCount: 3
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
-        padding:
-          - pt-12
-          - pb-56
-          - pr-4
-          - pl-4
-        justifyContent: center
-      title:
-        textAlign: center
-      subtitle:
-        textAlign: center
-      actions:
-        justifyContent: center
-    type: RecentPostsSection
 addTitleSuffix: true
 ---
 

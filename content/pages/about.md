@@ -87,6 +87,8 @@ sections:
       url: /images/IEEE uO.png
       altText: altText of the image
       caption: Caption of the image
+      width: 1400
+      height: 768
       elementId: ''
   - type: FeaturedItemsSection
     colors: colors-e

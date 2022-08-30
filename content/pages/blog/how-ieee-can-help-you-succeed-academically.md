@@ -11,43 +11,15 @@ excerptFr: >-
 featuredImage:
   type: ImageBlock
   url: /images/events/2021-2022/c&c-pomodoro.jpeg
+  width: 1080
+  height: 1080
   altText: How IEEE Can Help You Succeed Academically? post thumbnail image
 media:
   type: ImageBlock
   url: /images/events/2021-2022/c&c-pomodoro.jpeg
+  width: 1080
+  height: 1080
   altText: Post Image
-bottomSections:
-  - elementId: ''
-    variant: variant-d
-    colors: colors-d
-    title: Read next
-    titleFr: Explorer
-    showDate: true
-    showAuthor: false
-    showExcerpt: true
-    recentCount: 3
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
-        padding:
-          - pt-12
-          - pb-56
-          - pr-4
-          - pl-4
-        justifyContent: center
-      title:
-        textAlign: center
-      subtitle:
-        textAlign: center
-      actions:
-        justifyContent: center
-    type: RecentPostsSection
 addTitleSuffix: true
 markdown_content_fr: >-
   - Vous avez besoin d'emprunter un manuel pour l'un de vos cours ? Notre bureau contient une sélection soigneusement sélectionnée de manuels couvrant une grande variété de sujets EECS. Et le meilleur ? Vous pouvez les emprunter gratuitement !

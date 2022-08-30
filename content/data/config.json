@@ -160,6 +160,8 @@
             "url": "/images/LOGO_BLUE 2.svg",
             "altText": "IEEE uOttawa Logo",
             "caption": "Caption of the image",
+            "width": 114,
+            "height": 48,
             "elementId": ""
         },
         "title": "IEEE uOttawa"
@@ -248,6 +250,8 @@
             "url": "/images/LOGO_BLUE 3.svg",
             "altText": "IEEE uOttawa Logo",
             "caption": "IEEE uOttawa Logo",
+            "width": 114,
+            "height": 48,
             "elementId": ""
         }
     },

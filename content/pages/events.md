@@ -97,6 +97,8 @@ sections:
             textAlign: left
         featuredImage:
           type: ImageBlock
+          width: 1080
+          height: 1080
           url: /images/events/2021-2022/agm-2022.jpeg
           altText: AGM 2022 Poster
           caption: AGM 2022 Poster
@@ -118,6 +120,8 @@ sections:
             textAlign: left
         featuredImage:
           type: ImageBlock
+          width: 1080
+          height: 1080
           url: /images/events/2021-2022/c&c-pomodoro.jpeg
           altText: Pomodoro Study Session Poster
           caption: Pomodoro Study Session Poster
@@ -139,6 +143,8 @@ sections:
             textAlign: left
         featuredImage:
           type: ImageBlock
+          width: 1080
+          height: 1080
           url: /images/events/2021-2022/w&c.jpeg
           altText: Hackathon Poster
           caption: Hackathon Poster
@@ -160,6 +166,8 @@ sections:
             textAlign: left
         featuredImage:
           type: ImageBlock
+          width: 1080
+          height: 1080
           url: /images/events/2021-2022/dftc.jpeg
           altText: Hackathon Poster
           caption: Hackathon Poster
@@ -181,6 +189,8 @@ sections:
             textAlign: left
         featuredImage:
           type: ImageBlock
+          width: 1080
+          height: 1080
           url: /images/events/2021-2022/battle-royale.jpeg
           altText: Battle Royale Poster
           caption: Battle Royale Poster
@@ -202,6 +212,8 @@ sections:
             textAlign: left
         featuredImage:
           type: ImageBlock
+          width: 1080
+          height: 1080
           url: /images/events/2021-2022/movie-night.jpeg
           altText: Movie Night Poster
           caption: Movie Night Poster
@@ -223,6 +235,8 @@ sections:
             textAlign: left
         featuredImage:
           type: ImageBlock
+          width: 1080
+          height: 1080
           url: /images/events/2021-2022/c&c-CSI2110.jpeg
           altText: Cookies n' Cram CSI2110 Poster
           caption: Cookies n' Cram CSI2110 Poster
@@ -244,6 +258,8 @@ sections:
             textAlign: left
         featuredImage:
           type: ImageBlock
+          width: 1080
+          height: 1080
           url: /images/events/2021-2022/fall-engibeering.jpeg
           altText: Hackathon Poster
           caption: Hackathon Poster
@@ -265,6 +281,8 @@ sections:
             textAlign: left
         featuredImage:
           type: ImageBlock
+          width: 1080
+          height: 1080
           url: /images/events/2021-2022/c&c-elg2138.jpeg
           altText: Cookies n' Cram ELG2138 Poster
           caption: Cookies n' Cram ELG2138 Poster
@@ -286,6 +304,8 @@ sections:
             textAlign: left
         featuredImage:
           type: ImageBlock
+          width: 1080
+          height: 1080
           url: /images/events/2021-2022/c&c-iti1120&1106.jpeg
           altText: Cookies n' Cram ITI1120&GNG1106 Poster
           caption: Cookies n' Cram ITI1120&GNG1106 Poster
@@ -307,6 +327,8 @@ sections:
             textAlign: left
         featuredImage:
           type: ImageBlock
+          width: 1080
+          height: 1080
           url: /images/events/2021-2022/c&c-ceg2136.jpeg
           altText: Cookies n' Cram CEG2136 Poster
           caption: Cookies n' Cram CEG2136 Poster
@@ -328,6 +350,8 @@ sections:
             textAlign: left
         featuredImage:
           type: ImageBlock
+          width: 1080
+          height: 1080
           url: /images/events/2021-2022/wie-tech-panel.jpeg
           altText: WIE Tech Panel Poster
           caption: WIE Tech Panel Poster

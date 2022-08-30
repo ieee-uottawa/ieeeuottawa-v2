@@ -342,3 +342,9 @@
         }
     }
 }
+
+@layer utilies {
+    .rounded-full > div {
+        border-radius: 9999px;
+    }
+}
