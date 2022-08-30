@@ -4,7 +4,6 @@ import Image from 'next/Image';
 
 export default function ImageBlock(props) {
     const { elementId, width, height, className, url, altText = '', 'data-sb-field-path': fieldPath } = props;
-    console.log(width, height);
     if (!url) {
         return null;
     }
