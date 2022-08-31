@@ -12,7 +12,7 @@ export default function ImageBlock(props) {
         : {};
 
     const loader = ({ src }) => {
-        return `${base_url}/${src}`;
+        return `$/${src}`;
     }
 
     const getImage = () => (
