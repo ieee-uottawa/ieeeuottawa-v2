@@ -14,7 +14,7 @@ export default function ImageBlock(props) {
     const base_url = process.env.base_url || 'https://best-robin-49c95.stackbit.app/';
 
     const loader = ({ src, width, quality }) => {
-        return `${base_url}/${src}?w=${width}&q=${quality || 75}`
+        return `${base_url}/${src}`
     }
     
     const getImage = () => (
