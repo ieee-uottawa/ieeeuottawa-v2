@@ -11,7 +11,7 @@ export default function ImageBlock(props) {
         ? { 'data-sb-field-path': [fieldPath, `${fieldPath}.url#@src`, `${fieldPath}.altText#@alt`, `${fieldPath}.elementId#@id`].join(' ').trim() }
         : {};
 
-    const myLoader = ({ src, width, quality }) => {
+    const loader = ({ src, width, quality }) => {
         return `https://example.com/${src}?w=${width}&q=${quality || 75}`
     }
     
