@@ -29,7 +29,4 @@ module.exports = withBundleAnalyzer({
 
         return config;
     },
-    images: {
-        path: '/_next/image/'
-    }
 });
