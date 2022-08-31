@@ -13,7 +13,7 @@ export default function ImageBlock(props) {
 
     const base_url = process.env.base_url || 'https://best-robin-49c95.stackbit.app/';
 
-    const loader = ({ src, width, quality }) => {
+    const loader = ({ src }) => {
         return `${base_url}/${src}`;
     }
     
