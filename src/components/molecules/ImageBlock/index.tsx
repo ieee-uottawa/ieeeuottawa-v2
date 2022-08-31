@@ -1,6 +1,6 @@
 import * as React from 'react';
 import classNames from 'classnames';
-import Image from 'next/Image';
+import Image from 'next/image';
 
 export default function ImageBlock(props) {
     const { elementId, width, height, className, url, altText = '', 'data-sb-field-path': fieldPath } = props;
