@@ -23,6 +23,7 @@ export default function ImageBlock(props) {
                 alt={altText}
                 width={width || 500}
                 height={height || 500}
+                loader={loader}
                 {...annotations}
             />
         </div>
