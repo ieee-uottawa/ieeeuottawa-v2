@@ -1,0 +1,22 @@
+{
+    "type": "Person",
+    "firstName": "Madison",
+    "lastName": "Smrtka",
+    "role": "VP Communications",
+    "image": {
+        "type": "ImageBlock",
+        "url": "/images/team/madison-smrtka.jpg",
+        "altText": "Madison Smrtka photo"
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Mail",
+            "url": "mailto:communications@ieeeuottawa.ca",
+            "icon": "mail",
+            "style": "link",
+            "elementId": "",
+            "altText": "Email icon that links to the VP Communications' email"
+        }
+    ]
+}
