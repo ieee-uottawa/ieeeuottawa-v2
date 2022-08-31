@@ -10,6 +10,10 @@ export default function ImageBlock(props) {
     const annotations = fieldPath
         ? { 'data-sb-field-path': [fieldPath, `${fieldPath}.url#@src`, `${fieldPath}.altText#@alt`, `${fieldPath}.elementId#@id`].join(' ').trim() }
         : {};
+
+    const myLoader = ({ src, width, quality }) => {
+  return `https://example.com/${src}?w=${width}&q=${quality || 75}`
+}
     
     const getImage = () => (
         <div className={classNames('sb-component', 'sb-component-block', 'sb-component-image-block', className)}>
