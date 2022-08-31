@@ -12,8 +12,8 @@ export default function ImageBlock(props) {
         : {};
 
     const myLoader = ({ src, width, quality }) => {
-  return `https://example.com/${src}?w=${width}&q=${quality || 75}`
-}
+        return `https://example.com/${src}?w=${width}&q=${quality || 75}`
+        }
     
     const getImage = () => (
         <div className={classNames('sb-component', 'sb-component-block', 'sb-component-image-block', className)}>
