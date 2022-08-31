@@ -16,7 +16,7 @@ export default function ImageBlock(props) {
     const loader = ({ src }) => {
         return `${base_url}/${src}`;
     }
-    
+
     const getImage = () => (
         <div className={classNames('sb-component', 'sb-component-block', 'sb-component-image-block', className)}>
             <Image
