@@ -11,8 +11,6 @@ export default function ImageBlock(props) {
         ? { 'data-sb-field-path': [fieldPath, `${fieldPath}.url#@src`, `${fieldPath}.altText#@alt`, `${fieldPath}.elementId#@id`].join(' ').trim() }
         : {};
 
-    const base_url = process.env.base_url || 'https://best-robin-49c95.stackbit.app/';
-
     const loader = ({ src }) => {
         return `${base_url}/${src}`;
     }
