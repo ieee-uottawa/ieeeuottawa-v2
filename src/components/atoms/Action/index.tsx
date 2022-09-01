@@ -6,7 +6,7 @@ import { useContext } from 'react';
 import { I18NContext } from '../../../context/i18Ncontext';
 
 export default function Action(props) {
-    const { translate } = useContext(I18NContext);
+    const { translateLink: translate } = useContext(I18NContext);
     const {
         type,
         elementId,

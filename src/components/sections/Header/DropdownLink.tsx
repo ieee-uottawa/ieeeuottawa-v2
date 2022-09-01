@@ -15,7 +15,7 @@ const themeStyle = require('../../../../content/data/style.json');
 
 
 export default function DropdownLink(props) {
-    const { translate } = useContext(I18NContext);
+    const { translateLink: translate } = useContext(I18NContext);
     const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
     const open = Boolean(anchorEl);
     const { displayMode } = useContext(DisplayModeContext);

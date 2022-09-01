@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { DisplayModeContext } from '../context/displayMode';
 import { I18NContext } from '../context/i18Ncontext';
 import { translatedLinks } from '../../content/translations/links';
+import { translatedRoles } from '../../content/translations/roles';
 import '../css/main.css';
 
 export default function MyApp({ Component, pageProps }) {
@@ -9,9 +10,14 @@ export default function MyApp({ Component, pageProps }) {
     const [displayMode, setDisplayMode] = React.useState('light');
     const [linksTranslations] = React.useState(translatedLinks);
     
-    function translate(input) {
+    function translateLink(input) {
         if (input in linksTranslations) return locale === 'fr' ? linksTranslations[input] : input;
         return input;
+    }
+
+    function translateRole(role){
+        if (role in translatedRoles) return locale === 'fr' ? translatedRoles[role].fr : translatedRoles[role].en;
+        return role;
     }
 
     const setLanguage = (language) => {
@@ -56,7 +62,7 @@ export default function MyApp({ Component, pageProps }) {
     }, [displayMode]);
 
     return (
-        <I18NContext.Provider value={{ locale, setLanguage, translate }}>
+        <I18NContext.Provider value={{ locale, setLanguage, translateLink, translateRole }}>
             <DisplayModeContext.Provider value={{ displayMode, setLight, setDark }}>
                 <Component {...pageProps} />
             </DisplayModeContext.Provider>

@@ -32,7 +32,7 @@ export default function PostFeedSection(props) {
         styles = {},
         'data-sb-field-path': fieldPath
     } = props;
-    const { locale, translate } = React.useContext(I18NContext);
+    const { locale, translateLink: translate } = React.useContext(I18NContext);
     const getTitle = () => locale === 'fr' && titleFr ? titleFr : title;
     const getSubtitle = () => locale === 'fr' && subtitleFr ? subtitleFr : subtitle;
     const getTitleFieldPath = () => locale === 'fr' && titleFr ? '.titleFr' : '.title';
@@ -104,7 +104,7 @@ function PostFeedVariants(props) {
 
 function PostsVariantA(props) {
     const { posts = [], showDate, showAuthor, showExcerpt, showReadMoreLink, readMoreLinkLabel, hasTopMargin, annotatePosts } = props;
-    const { locale, translate } = React.useContext(I18NContext);
+    const { locale, translateLink: translate } = React.useContext(I18NContext);
 
     if (posts.length === 0) {
         return null;
@@ -174,7 +174,7 @@ function PostsVariantA(props) {
 
 function PostsVariantB(props) {
     const { posts = [], showDate, showAuthor, showExcerpt, showReadMoreLink, readMoreLinkLabel, hasTopMargin, annotatePosts } = props;
-    const { locale, translate } = React.useContext(I18NContext);
+    const { locale, translateLink: translate } = React.useContext(I18NContext);
     if (posts.length === 0) {
         return null;
     }
@@ -243,7 +243,7 @@ function PostsVariantB(props) {
 
 function PostsVariantC(props) {
     const { posts = [], showDate, showAuthor, showExcerpt, showReadMoreLink, readMoreLinkLabel, hasTopMargin, annotatePosts } = props;
-    const { locale, translate } = React.useContext(I18NContext);
+    const { locale, translateLink: translate } = React.useContext(I18NContext);
     if (posts.length === 0) {
         return null;
     }
@@ -316,7 +316,7 @@ function PostsVariantC(props) {
 
 function PostsVariantD(props) {
     const { posts = [], showDate, showAuthor, showExcerpt, showReadMoreLink, readMoreLinkLabel, hasTopMargin, annotatePosts } = props;
-    const { locale, translate } = React.useContext(I18NContext);
+    const { locale, translateLink: translate } = React.useContext(I18NContext);
     if (posts.length === 0) {
         return null;
     }
