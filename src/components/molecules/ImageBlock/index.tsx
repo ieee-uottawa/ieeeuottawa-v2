@@ -24,6 +24,7 @@ export default function ImageBlock(props) {
                 width={width || 500}
                 height={height || 500}
                 loader={loader}
+                unoptimized={true}
                 {...annotations}
             />
         </div>

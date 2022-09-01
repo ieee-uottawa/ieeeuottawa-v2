@@ -11,10 +11,10 @@ fields:
     name: lastName
     label: Last name
     default: Surname
-  - type: string
-    name: role
-    label: Role
-    default: Role
+  # - type: string
+  #   name: role
+  #   label: Role
+  #   default: Role
   - type: list
     name: socialLinks
     label: Social links
@@ -28,7 +28,7 @@ fields:
         value: mail
         label: 'Mail'
         altText: Mail
-        url: "mailto:exec@ieeeuottawa.ca"
+        url: 'mailto:exec@ieeeuottawa.ca'
         elementId: false
         showIcon: true
   - type: model

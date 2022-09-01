@@ -42,6 +42,12 @@ fields:
         - Button
         - Link
   - type: list
+    name: execs
+    label: Execs
+    items:
+      type: model
+      models: [Exec]
+  - type: list
     name: people
     label: People
     items:

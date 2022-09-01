@@ -1,0 +1,82 @@
+name: Exec
+label: Exec
+labelField: role
+fields:
+  - type: enum
+    name: role
+    label: Role
+    options:
+      - label: Chair
+        value: chair
+      - label: Vice-Chair
+        value: vice-chair
+      - label: Treasurer
+        value: treasurer
+      - label: Secretary
+        value: secretary
+      - label: VP External
+        value: external
+      - label: VP Internal
+        value: internal
+      - label: VP Academic
+        value: academic
+      - label: VP Social
+        value: social
+      - label: VP Communications
+        value: communications
+      - label: Webmaster
+        value: webmaster
+      - label: WIE Chair
+        value: wie-chair
+      - label: WIE Vice-Chair
+        value: wie-vice-chair
+      - label: McNaughton Centre Director
+        value: mcnaughton
+      - label: Photonics Chair
+        value: photonics-chair
+      - label: Photonics Vice-Chair
+        value: photonics-vice-chair
+      - label: CEG Comissioner
+        value: ceg-commissioner
+      - label: ELG Comissioner
+        value: elg-commissioner
+      - label: SEG Comissioner
+        value: seg-commissioner
+      - label: Design Comissioner
+        value: design-commissioner
+      - label: Translations Comissioner
+        value: translations-commissioner
+      - label: WIE Design
+        value: wie-design
+      - label: Equity Comissioner
+        value: equity-commissioner
+    default: cover
+    required: true
+  - type: reference
+    models:
+      - Person
+    required: true
+    default: content/data/team/vp-comms.json
+  - type: list
+    name: socialLinks
+    label: Social links
+    items:
+      type: model
+      models:
+        - Social
+    default:
+      - type: Social
+        icon: mail
+        value: mail
+        label: 'Mail'
+        altText: Mail
+        url: 'mailto:exec@ieeeuottawa.ca'
+        elementId: false
+        showIcon: true
+  - type: model
+    name: image
+    label: Image
+    models: [ImageBlock]
+    default:
+      url: https://assets.stackbit.com/components/images/default/default-person.png
+      altText: Person photo
