@@ -1,0 +1,10 @@
+{
+    "type": "Person",
+    "firstName": "Justin",
+    "lastName": "Proulx",
+    "role": "SEG Commissioner",
+    "image": {
+        "url": "/images/team/justin-proulx.jpg",
+        "altText": "Justin Proulx photo"
+    }   
+}

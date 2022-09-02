@@ -1,0 +1,10 @@
+{
+    "type": "Person",
+    "firstName": "Sophie",
+    "lastName": "Tomlin",
+    "role": "WIE Chair",
+    "image": {
+        "url": "/images/team/sophie-tomlin.jpg",
+        "altText": "Sophie Tomlinson photo"
+    }  
+}

@@ -1,0 +1,12 @@
+{
+    "type": "Person",
+    "firstName": "Amar",
+    "lastName": "Jasarbasic",
+    "image": {
+        "type": "ImageBlock",
+        "altText": "Amar Jasarbasic photo",
+        "url": "/images/team/amar-jasarbasic.jpg"
+    },
+    "role": "Vice Chair",
+    "socialLinks": []
+}

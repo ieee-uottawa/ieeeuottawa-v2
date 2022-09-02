@@ -1,0 +1,11 @@
+{
+    "type": "Person",
+    "firstName": "Stefan",
+    "lastName": "Todorovic",
+    "role": "VP Academic",
+    "image": {
+        "type": "ImageBlock",
+        "url": "/images/team/stefan-todorovic.jpeg",
+        "altText": "Stefan Todorovic photo"
+    }   
+}

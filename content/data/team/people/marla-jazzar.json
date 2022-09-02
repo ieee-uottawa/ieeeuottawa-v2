@@ -1,0 +1,10 @@
+{
+    "type": "Person",
+    "firstName": "Marla",
+    "lastName": "Jazzar",
+    "role": "VP Academic",
+    "image": {
+        "url": "/images/team/marla-jazzar.jpg",
+        "altText": "Marla Jazzar photo"
+    }   
+}

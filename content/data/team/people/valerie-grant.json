@@ -1,0 +1,10 @@
+{
+    "type": "Person",
+    "firstName": "Valerie",
+    "lastName": "Grant",
+    "role": "Design Commissioner",
+    "image": {
+        "url": "/images/team/valerie-grant.jpg",
+        "altText": "Valerie Grant photo"
+    }   
+}

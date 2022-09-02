@@ -1,0 +1,9 @@
+{
+    "type": "Person",
+    "firstName": "Ali",
+    "lastName": "Jafri",
+    "image": {
+        "url": "/images/team/ali-jafri.jpg",
+        "altText": "Ali Jafri photo"
+    }  
+}

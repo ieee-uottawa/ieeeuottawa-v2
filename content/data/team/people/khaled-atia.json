@@ -1,0 +1,10 @@
+{
+    "type": "Person",
+    "firstName": "Khaled",
+    "lastName": "Atia",
+    "role": "Photonics Chair",
+    "image": {
+        "url": "/images/team/khaled-atia.jpg",
+        "altText": "Khaled Atia photo"
+    }    
+}

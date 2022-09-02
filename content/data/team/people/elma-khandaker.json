@@ -1,0 +1,10 @@
+{
+    "type": "Person",
+    "firstName": "Elma",
+    "lastName": "Khandaker",
+    "role": "WIE Design",
+    "image": {
+        "url": "/images/team/elma-khandaker.jpg",
+        "altText": "Elma Khandaker photo"
+    }   
+}

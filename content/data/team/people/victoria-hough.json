@@ -1,0 +1,9 @@
+{
+    "type": "Person",
+    "firstName": "Victoria",
+    "lastName": "Hough",
+    "image": {
+        "url": "/images/team/victoria-hough.jpg",
+        "altText": "Victoria Hough photo"
+    }  
+}

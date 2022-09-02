@@ -1,0 +1,10 @@
+{
+    "type": "Person",
+    "firstName": "Rushil",
+    "lastName": "Perera",
+    "role": "Webmaster",
+    "image": {
+        "url": "/images/team/rushil-perera.jpg",
+        "altText": "Rushil Perera photo"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "type": "Person",
+    "firstName": "Pavly",
+    "lastName": "Saleh",
+    "image": {
+        "url": "/images/team/pavly-saleh.jpg",
+        "altText": "Pavly Saleh photo"
+    },
+    "role": "Secretary"    
+}

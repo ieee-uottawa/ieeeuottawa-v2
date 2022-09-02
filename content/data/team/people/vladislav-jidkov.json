@@ -1,0 +1,10 @@
+{
+    "type": "Person",
+    "firstName": "Vlad",
+    "lastName": "Jidkov",
+    "role": "VP Academic",
+    "image": {
+        "url": "/images/team/vladislav-jidkov.jpg",
+        "altText": "Vlad Jidkov photo"
+    }   
+}

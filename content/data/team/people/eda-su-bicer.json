@@ -1,0 +1,10 @@
+{
+    "type": "Person",
+    "firstName": "Eda Su",
+    "lastName": "Bicer",
+    "role": "WIE Vice Chair",
+    "image": {
+        "url": "/images/team/eda-su-bicer.jpg",
+        "altText": "Eda Su Bicer photo"
+    }   
+}

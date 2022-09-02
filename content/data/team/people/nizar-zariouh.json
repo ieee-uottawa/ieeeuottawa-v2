@@ -1,0 +1,10 @@
+{
+    "type": "Person",
+    "firstName": "Nizar",
+    "lastName": "Zariouh",
+    "role": "Translation Commissioner",
+    "image": {
+        "url": "/images/team/nizar-zariouh.jpg",
+        "altText": "Nizar Zariouh photo"
+    }
+}

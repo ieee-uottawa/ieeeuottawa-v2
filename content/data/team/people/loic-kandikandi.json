@@ -1,0 +1,9 @@
+{
+    "type": "Person",
+    "firstName": "Loic",
+    "lastName": "Kandikandi",
+    "image": {
+        "url": "/images/team/loic-kandikandi.jpg",
+        "altText": "Loic Kandikandi photo"
+    }
+}

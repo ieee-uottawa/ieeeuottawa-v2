@@ -1,0 +1,10 @@
+{
+    "type": "Person",
+    "firstName": "Sean",
+    "lastName": "McAsey",
+    "image": {
+        "url": "/images/team/sean-mcasey.jpg",
+        "altText": "Sean McAsey photo"
+    },
+    "role": "Secretary"
+}

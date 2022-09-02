@@ -1,0 +1,10 @@
+{
+    "type": "Person",
+    "firstName": "Sirjan",
+    "lastName": "Singh Rekhi",
+    "role": "CEG Commissioner",
+    "image": {
+        "url": "/images/team/sirjan-singh-rekhi.jpg",
+        "altText": "Sirjan Singh Rekhi photo"
+    }
+}

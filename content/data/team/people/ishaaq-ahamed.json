@@ -1,0 +1,10 @@
+{
+    "type": "Person",
+    "firstName": "Is'Haaq",
+    "lastName": "Ahamed",
+    "role": "SEG Commissioner",
+    "image": {
+        "url": "/images/team/ishaaq-ahamed.jpg",
+        "altText": "Is'Haaq Ahamed photo"
+    }   
+}

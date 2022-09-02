@@ -1,0 +1,10 @@
+{
+    "type": "Person",
+    "firstName": "Avneesh",
+    "lastName": "Chaudhary",
+    "role": "Equity Commissioner",
+    "image": {
+        "url": "/images/team/avneesh-chaudhary.png",
+        "altText": "Avneesh Chaudhary photo"
+    }
+}

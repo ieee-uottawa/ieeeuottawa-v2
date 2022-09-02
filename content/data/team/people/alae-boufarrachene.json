@@ -1,0 +1,9 @@
+{
+    "type": "Person",
+    "firstName": "Alae",
+    "lastName": "Boufarrachene",
+    "image": {
+        "url": "/images/team/alae-boufarrachene.jpg",
+        "altText": "Alae Boufarrachene photo"
+    }
+}

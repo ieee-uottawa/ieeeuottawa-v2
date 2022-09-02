@@ -1,0 +1,10 @@
+{
+    "type": "Person",
+    "firstName": "Gianluca",
+    "lastName": "Coletti",
+    "role": "CEG Commissioner",
+    "image": {
+        "url": "/images/team/gianluca-coletti.jpg",
+        "altText": "Gianluca Coletti photo"
+    }    
+}

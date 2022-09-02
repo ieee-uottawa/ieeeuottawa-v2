@@ -1,0 +1,10 @@
+{
+    "type": "Person",
+    "firstName": "Omid",
+    "lastName": "Mozafar",
+    "role": "Photonics Chair",
+    "image": {
+        "url": "/images/team/omid-mozafar.jpg",
+        "altText": "Omid Mozafar photo"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "type": "Person",
+    "firstName": "Ryan",
+    "lastName": "Fleck",
+    "role": "Webmaster",
+    "image": {
+        "url": "/images/team/ryan-fleck.jpg",
+        "altText": "Ryan Fleck photo"
+    }
+}

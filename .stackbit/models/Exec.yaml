@@ -53,30 +53,9 @@ fields:
     default: cover
     required: true
   - type: reference
+    name: person
+    label: Person
     models:
       - Person
     required: true
     default: content/data/team/vp-comms.json
-  - type: list
-    name: socialLinks
-    label: Social links
-    items:
-      type: model
-      models:
-        - Social
-    default:
-      - type: Social
-        icon: mail
-        value: mail
-        label: 'Mail'
-        altText: Mail
-        url: 'mailto:exec@ieeeuottawa.ca'
-        elementId: false
-        showIcon: true
-  - type: model
-    name: image
-    label: Image
-    models: [ImageBlock]
-    default:
-      url: https://assets.stackbit.com/components/images/default/default-person.png
-      altText: Person photo

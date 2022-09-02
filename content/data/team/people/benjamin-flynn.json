@@ -1,0 +1,11 @@
+{
+    "type": "Person",
+    "firstName": "Benjamin",
+    "lastName": "Flynn",
+    "role": "Treasurer",
+    "image": {
+        "type": "ImageBlock",
+        "url": "/images/team/benjamin-flynn.jpg",
+        "altText": "Ben Flynn photo"
+    }
+}

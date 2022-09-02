@@ -1,0 +1,10 @@
+{
+    "type": "Person",
+    "firstName": "Maryam",
+    "lastName": "Abbasi",
+    "role": "Photonics Vice-Chair",
+    "image": {
+        "url": "/images/team/placeholder.jpeg",
+        "altText": "Vacant"
+    }
+}
