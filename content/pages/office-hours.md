@@ -70,11 +70,6 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
-    subtitleFr: >-
-      Nous sommes très heureux de recevoir vos commentaires. N'hésitez pas à
-      rejoindre également le serveur discord officiel de serveur discord du
-      Génie de l'Université d'Ottawa en cliquant sur ce lien :
-      https://discord.gg/jPHy6uUThH
   - type: ContactSection
     colors: colors-d
     elementId: ''
