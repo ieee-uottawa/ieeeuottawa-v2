@@ -9,7 +9,6 @@ sections:
     backgroundSize: full
     title: Office Hours
     titleFr: Heures de bureau
-    subtitleFr: Sous-titre
     text: ''
     textFr: |-
       Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
