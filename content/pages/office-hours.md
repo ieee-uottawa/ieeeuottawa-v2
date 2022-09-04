@@ -8,7 +8,7 @@ sections:
     elementId: ''
     backgroundSize: full
     title: Office Hours
-    titleFr: Ceci est un grand titre de page
+    titleFr: Heures de bureau
     subtitle: Fresh. Better. Faster.
     subtitleFr: Sous-titre
     text: ''
