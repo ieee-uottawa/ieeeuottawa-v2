@@ -221,17 +221,17 @@
             },
             {
                 "type": "Social",
-                "altText": "Twitter",
-                "label": "Twitter",
-                "url": "https://twitter.com/ieeeuottawa",
-                "icon": "twitter"
-            },
-            {
-                "type": "Social",
                 "altText": "Facebook",
                 "label": "Facebook",
                 "url": "https://www.facebook.com/ieeeuottawa",
                 "icon": "facebook"
+            },
+            {
+                "type": "Social",
+                "altText": "Twitter",
+                "label": "Twitter",
+                "url": "https://twitter.com/ieeeuottawa",
+                "icon": "twitter"
             },
             {
                 "type": "Social",
