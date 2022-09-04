@@ -9,7 +9,6 @@ sections:
     backgroundSize: full
     title: Office Hours
     titleFr: Heures de bureau
-    subtitle: Fresh. Better. Faster.
     subtitleFr: Sous-titre
     text: ''
     textFr: |-
