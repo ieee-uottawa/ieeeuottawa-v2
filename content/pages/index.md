@@ -244,7 +244,7 @@ sections:
     elementId: ''
     backgroundSize: full
     title: Get in touch
-    titleFr: Allons-y !
+    titleFr: Contactez-nous
     text: >
       Got a question? Event suggestions? Feedback? We want to hear it! Send us a
       message and we will get back to you as soon as we can.
