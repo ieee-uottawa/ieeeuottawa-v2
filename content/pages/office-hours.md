@@ -22,7 +22,7 @@ sections:
       type: ImageBlock
       url: /images/office-hours-soon.gif
       altText: Hero image
-      height: 1228
+      height: 800
       width: 600
     backgroundImage: null
     styles:
