@@ -2,7 +2,6 @@
     "type": "Person",
     "firstName": "John",
     "lastName": "Zhao",
-    "role": "VP Social",
     "image": {
         "url": "/images/team/john-zhao.jpg",
         "altText": "John Zhao photo"

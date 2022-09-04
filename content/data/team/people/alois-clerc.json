@@ -2,8 +2,7 @@
     "type": "Person",
     "firstName": "Alois",
     "lastName": "Clerc",
-    "role": "SEG Commissioner",
-    "image": {
+        "image": {
         "url": "/images/team/alois-clerc.jpg",
         "altText": "Alois Clerc photo"
     }    

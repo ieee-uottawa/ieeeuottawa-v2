@@ -2,7 +2,6 @@
     "type": "Person",
     "firstName": "Steven",
     "lastName": "Li",
-    "role": "VP Internal",
     "image": {
         "url": "/images/team/steven-li.jpg",
         "altText": "Steven Li photo"

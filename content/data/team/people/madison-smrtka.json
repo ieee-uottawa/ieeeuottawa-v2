@@ -2,7 +2,6 @@
     "type": "Person",
     "firstName": "Madison",
     "lastName": "Smrtka",
-    "role": "VP Communications",
     "image": {
         "type": "ImageBlock",
         "url": "/images/team/madison-smrtka.jpg",

@@ -2,7 +2,6 @@
     "type": "Person",
     "firstName": "Scott",
     "lastName": "Fulton",
-    "role": "McNaughton Centre Director",
     "image": {
         "url": "/images/team/scott-fulton.jpg",
         "altText": "Scott Fulton photo"

@@ -2,7 +2,6 @@
     "type": "Person",
     "firstName": "Juan",
     "lastName": "Hiedra Primera",
-    "role": "McNaughton Centre Director",
     "image": {
         "url": "/images/team/juan-hiedra-primera.jpg",
         "altText": "Juan Hiedra Primera photo"

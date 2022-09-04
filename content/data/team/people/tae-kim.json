@@ -2,7 +2,6 @@
     "type": "Person",
     "firstName": "Tae",
     "lastName": "Kim",
-    "role": "VP Internal",
     "image": {
         "url": "/images/team/tae-kim.jpg",
         "altText": "Tae Kim photo"

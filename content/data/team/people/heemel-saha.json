@@ -2,7 +2,6 @@
     "type": "Person",
     "firstName": "Heemel",
     "lastName": "Saha",
-    "role": "Chair",
     "image": {
         "type": "ImageBlock",
         "url": "/images/team/heemel-saha.jpg",

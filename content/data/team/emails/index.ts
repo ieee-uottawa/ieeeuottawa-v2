@@ -1,4 +1,4 @@
-{
+export const emails = {
     "chair": "chair@ieeeuottawa.ca",
     "vice-chair": "vicechair@ieeeuottawa.ca",
     "treasurer": "treasurer@ieeeuottawa.ca",

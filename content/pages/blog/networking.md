@@ -1,5 +1,6 @@
 ---
 title: Networking Opportunities
+titleFr: Opportunités de réseautage
 layout: PostLayout
 date: '2022-08-21'
 author: content/data/orgs/ieee-uottawa.json

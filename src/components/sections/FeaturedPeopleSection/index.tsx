@@ -7,7 +7,7 @@ import Action from '../../atoms/Action';
 import ImageBlock from '../../molecules/ImageBlock';
 import { Social } from '../../atoms';
 import { I18NContext } from '../../../context/i18Ncontext';
-import emails from '../../../../content/data/team/emails/emails.json';
+import { emails } from '../../../../content/data/team/emails';
 
 export default function FeaturedPeopleSection(props) {
     const { type, elementId, colors, variant, title, subtitle, actions = [], execs = [], people = [], styles = {}, 'data-sb-field-path': fieldPath } = props;
@@ -94,12 +94,12 @@ function PeopleVariantA(props) {
                 return (
                     <article key={index} data-sb-field-path={`.${index}`} >
                         {person.image && (
-                            <div className="h-0 w-full pt-1/1 relative mb-4">
+                            <div className="h-0 w-full pt-1/1 relative mb-4" data-sb-field-path=".person">
                                 <ImageBlock {...person.image} className="absolute left-0 h-full object-cover top-0 w-full rounded-full" data-sb-field-path=".image" />
                             </div>
                         )}
                         {(person.firstName || person.lastName) && (
-                            <h3 className="text-xl text-center">
+                            <h3 className="text-xl text-center" data-sb-field-path=".person">
                                 {person.firstName && <span data-sb-field-path=".firstName">{person.firstName}</span>} {' '}
                                 {person.lastName && <span data-sb-field-path=".lastName">{person.lastName}</span>}
                             </h3>
@@ -110,18 +110,19 @@ function PeopleVariantA(props) {
                             </p>
                         )}
                         {socialLinks && (
-                            <ul className="flex items-center mt-2 space-x-5 justify-center" data-sb-field-path=".socialLinks">
-                                {socialLinks.map((link, index) => (
-                                    <li key={index}>
-                                        <Social {...link} data-sb-field-path={`.${index}`} />
+                            <div data-sb-field-path=".person">
+                                <ul className="flex items-center mt-2 space-x-5 justify-center" data-sb-field-path=".socialLinks">
+                                    {socialLinks.map((link, index) => (
+                                        <li key={index}>
+                                            <Social {...link} data-sb-field-path={`.${index}`} />
+                                        </li>
+                                    ))}
+                                    <li key={socialLinks.length}>
+                                        <Social {...getEmailLink()} data-sb-field-path={`.${socialLinks.length}`} />
                                     </li>
-                                ))}
-                                <li key={socialLinks.length}>
-                                    <Social {...getEmailLink()} data-sb-field-path={`.${socialLinks.length}`} />
-                                </li>
-                            </ul>
-                        )
-                        }
+                                </ul>
+                            </div>
+                        )}
                     </article>
                 )
             })}
@@ -146,7 +147,7 @@ function PeopleVariantB(props) {
                 return (
                     <article key={index} className="sm:flex" data-sb-field-path={`.${index}`}>
                         {person.image && (
-                            <div className="w-full mb-4 sm:flex-shrink-0 sm:h-full sm:w-1/3 sm:mb-0 sm:mr-6">
+                            <div className="w-full mb-4 sm:flex-shrink-0 sm:h-full sm:w-1/3 sm:mb-0 sm:mr-6" data-sb-field-path=".person">
                                 <div className="block h-0 w-full pt-1/1 relative">
                                     <ImageBlock {...person.image} className="absolute left-0 h-full object-cover top-0 w-full" data-sb-field-path=".image" />
                                 </div>
@@ -154,7 +155,7 @@ function PeopleVariantB(props) {
                         )}
                         <div className="sm:flex-grow">
                             {(person.firstName || person.lastName) && (
-                                <h3 className="text-2xl">
+                                <h3 className="text-2xl" data-sb-field-path=".person">
                                     {person.firstName && <span data-sb-field-path=".firstName">{person.firstName}</span>}{' '}
                                     {person.lastName && <span data-sb-field-path=".lastName">{person.lastName}</span>}
                                 </h3>
@@ -203,11 +204,11 @@ function PeopleColumnVariantC(props) {
                 return (
                     <article key={index} data-sb-field-path={`.${fieldPathIndex + index}`}>
                         {person.image && (
-                            <div className="mb-4">
+                            <div className="mb-4" data-sb-field-path=".person">
                                 <ImageBlock {...person.image} className="w-full" data-sb-field-path=".image" />
                             </div>
                         )}
-                        <div>
+                        <div data-sb-field-path=".person">
                             {(person.firstName || person.lastName) && (
                                 <h3 className="text-xl">
                                     {person.firstName && <span data-sb-field-path=".firstName">{person.firstName}</span>}{' '}

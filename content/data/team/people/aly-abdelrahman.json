@@ -2,8 +2,7 @@
     "type": "Person",
     "firstName": "Aly",
     "lastName": "Abdelrahman",
-    "role": "VP External",
-    "image": {
+        "image": {
         "url": "/images/team/aly-abdelrahman.jpg",
         "altText": "Aly Abdelrahman photo"
     }

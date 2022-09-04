@@ -2,8 +2,7 @@
     "type": "Person",
     "firstName": "Disala",
     "lastName": "de Silva",
-    "role": "VP External",
-    "image": {
+        "image": {
         "type": "ImageBlock",
         "url": "/images/team/disala-de-silva.png",
         "altText": "Disala de Silva photo"

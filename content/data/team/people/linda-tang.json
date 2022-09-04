@@ -2,8 +2,7 @@
     "type": "Person",
     "firstName": "Linda",
     "lastName": "Tang",
-    "role": "WIE Chair",
-    "image": {
+        "image": {
         "url": "/images/team/linda-tang.jpg",
         "altText": "Linda Tang photo"
     }

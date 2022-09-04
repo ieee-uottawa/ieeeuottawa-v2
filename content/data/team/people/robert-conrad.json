@@ -2,7 +2,6 @@
     "type": "Person",
     "firstName": "Robert",
     "lastName": "Conrad",
-    "role": "Treasurer",
     "image": {
         "type": "ImageBlock",
         "url": "/images/team/robert-conrad.jpg",
