@@ -256,7 +256,7 @@ sections:
         label: Contact
         showIcon: true
         icon: arrowRight
-        url: /
+        url: 'mailto:communications@ieeeuottawa.ca'
         style: primary
     backgroundImage: null
     styles:
