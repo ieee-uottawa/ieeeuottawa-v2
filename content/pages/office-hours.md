@@ -32,7 +32,6 @@ sections:
     backgroundSize: full
     title: Get in touch
     titleFr: Contactez-nous
-    subtitle: Fresh. Better. Faster.
     subtitleFr: Sous-titre
     text: ''
     textFr: |-
