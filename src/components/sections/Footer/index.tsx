@@ -88,7 +88,7 @@ function FooterVariantA(props) {
             {/* Please keep this attribution up if you're using Stackbit's free plan. */}
             <div className="border-t-2 border-current flex flex-col-reverse justify-between pt-6 lg:flex-row">
                 <Markdown options={{ forceInline: true, forceWrapper: true, wrapper: 'p' }} className="sb-markdown">
-                     {`© ${new Date().getFullYear()} ${copyrightText}`}
+                    {`© ${new Date().getFullYear()} ${copyrightText}`}
                 </Markdown>
                 {legalLinks.length > 0 && (
                     <ul className="flex flex-col mb-6 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row" data-sb-field-path=".legalLinks">
@@ -175,7 +175,7 @@ function FooterVariantB(props) {
                         options={{ forceInline: true, forceWrapper: true, wrapper: 'p' }}
                         className={classNames('sb-markdown', { 'mt-6 lg:mt-0': legalLinks.length > 0 })}
                     >
-                        {copyrightText}
+                        {`© ${new Date().getFullYear()} ${copyrightText}`}
                     </Markdown>
                 )}
                 {legalLinks.length > 0 && (

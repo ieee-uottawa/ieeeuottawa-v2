@@ -239,8 +239,10 @@ sections:
         textAlign: center
       actions:
         justifyContent: center
-  - type: ContactSection
-    colors: colors-b
+  - type: CtaSection
+    colors: colors-d
+    elementId: ''
+    backgroundSize: full
     title: Get in touch
     titleFr: Contactez-nous
     text: >
@@ -250,65 +252,32 @@ sections:
       Vous avez une question ? Des suggestions d'événements ? Des commentaires ?
       Nous voulons les entendre ! Envoyez-nous un message et nous vous
       répondrons dès que possible.
-    form:
-      type: FormBlock
-      elementId: sign-up-form
-      destination: webmaster@ieeeuottawa.ca
-      action: /.netlify/functions/submission_created
-      fields:
-        - type: TextFormControl
-          name: name
-          label: Name
-          labelFr: Nom
-          hideLabel: true
-          placeholder: Name
-          placeholderFr: Nom
-          isRequired: false
-          width: 1/2
-        - type: EmailFormControl
-          name: email
-          label: Email
-          labelFr: Email
-          hideLabel: true
-          placeholder: Email
-          placeholderFr: Email
-          isRequired: true
-          width: 1/2
-        - type: TextareaFormControl
-          name: Message
-          label: Message
-          labelFr: Message
-          hideLabel: false
-          placeholder: This is the beginning of your message...
-          placeholderFr: Votre message ici...
-          isRequired: true
-          width: full
-      submitLabel: Submit form
-      submitLabelFr: Soumettre
-      styles:
-        submitLabel:
-          textAlign: center
+    actions:
+      - type: Button
+        label: Contact
+        showIcon: true
+        icon: arrowRight
+        url: 'mailto:communications@ieeeuottawa.ca'
+        style: primary
+    backgroundImage: null
     styles:
       self:
         height: auto
         width: narrow
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
         padding:
-          - pt-24
-          - pb-24
-          - pr-4
+          - pt-28
+          - pb-28
           - pl-4
+          - pr-4
         alignItems: center
         justifyContent: center
-        flexDirection: row
+        flexDirection: col
       title:
-        textAlign: center
+        textAlign: left
       text:
-        textAlign: center
+        textAlign: left
+      actions:
+        justifyContent: flex-start
 addTitleSuffix: true
 metaTags:
   - type: MetaTag

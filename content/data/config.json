@@ -151,7 +151,7 @@
         "title": "IEEE uOttawa"
     },
     "footer": {
-        "variant": "variant-a",
+        "variant": "variant-b",
         "colors": "colors-e",
         "contacts": {
             "title": "Contact details",
@@ -205,10 +205,12 @@
         "socialLinks": [
             {
                 "type": "Social",
-                "altText": "Twitter",
-                "label": "Twitter",
-                "url": "https://twitter.com/ieeeuottawa",
-                "icon": "twitter"
+                "label": "Email",
+                "altText": "",
+                "url": "mailto:communications@ieeeuottawa.ca",
+                "icon": "mail",
+                "style": "link",
+                "elementId": ""
             },
             {
                 "type": "Social",
@@ -232,6 +234,13 @@
                 "style": "link",
                 "elementId": "",
                 "url": "https://www.youtube.com/channel/UCSv1Vna97rKa8w2ktRG8wRw"
+            },
+            {
+                "type": "Social",
+                "altText": "Twitter",
+                "label": "Twitter",
+                "url": "https://twitter.com/ieeeuottawa",
+                "icon": "twitter"
             }
         ],
         "styles": {
