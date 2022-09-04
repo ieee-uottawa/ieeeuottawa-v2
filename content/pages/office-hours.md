@@ -13,7 +13,7 @@ sections:
     textFr: "Nous sommes très heureux de recevoir vos commentaires. N'hésitez pas à rejoindre également le serveur discord officiel de serveur discord du Génie de l'Université d'Ottawa en cliquant sur ce lien :\_<https://discord.gg/jPHy6uUThH>\n"
     actions:
       - type: Button
-        label: Join adventure
+        label: Email us
         showIcon: true
         icon: arrowRight
         style: primary
