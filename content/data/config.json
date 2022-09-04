@@ -232,6 +232,15 @@
                 "style": "link",
                 "elementId": "",
                 "url": "https://www.youtube.com/channel/UCSv1Vna97rKa8w2ktRG8wRw"
+            },
+            {
+                "type": "Social",
+                "label": "Facebook",
+                "altText": "",
+                "url": "mailto:communications@ieeeuottawa.ca",
+                "icon": "mail",
+                "style": "link",
+                "elementId": ""
             }
         ],
         "styles": {
