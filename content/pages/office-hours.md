@@ -32,10 +32,6 @@ sections:
     backgroundSize: full
     title: Contact us
     titleFr: Contactez-nous
-    text: >
-      We look forward to hearing from you. Feel free to also join the official
-      uOttawa Engineering discord server by clicking on this link :
-      <https://discord.gg/jPHy6uUThH>
     textFr: >
       Nous sommes très heureux de recevoir vos commentaires. N'hésitez pas à
       rejoindre également le serveur discord officiel de serveur discord du
