@@ -68,6 +68,7 @@ sections:
     title: Come visit us in the office
     titleFr: Passez nous voir dans notre bureau
     subtitle: '800 King Edward Ave, Ottawa, ON K1N 6N5, STE 4026'
+    subtitleFr: '800 King Edward Ave, Ottawa, ON K1N 6N5, STE 4026'
     items:
       - type: FeaturedItem
         title: Purchase lab supplies
@@ -134,7 +135,16 @@ sections:
           elementId: ''
         featuredIcon: books
         isIcon: true
-    actions: []
+    actions:
+      - type: Button
+        label: Office Hours
+        altText: Link to Office Hours
+        url: /office-hours
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+        elementId: ''
     columns: 3
     spacingX: 32
     spacingY: 32
