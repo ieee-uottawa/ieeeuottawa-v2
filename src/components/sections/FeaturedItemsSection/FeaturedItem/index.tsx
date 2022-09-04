@@ -55,12 +55,12 @@ export default function FeaturedItem(props) {
                 </div>
             )}
             {title && (
-                <h3 className={classNames(styles.title ? mapStyles(styles.title) : null, { 'text-center' : isIcon })} data-sb-field-path={locale === 'fr' ? ".titleFr" : "title"}>
+                <h3 className={classNames(styles.title ? mapStyles(styles.title) : null, { 'text-center' : isIcon })} data-sb-field-path={locale === 'fr' ? ".titleFr" : ".title"}>
                     {getTitle()}
                 </h3>
             )}
             {subtitle && (
-                <p className={classNames('text-lg', styles.subtitle ? mapStyles(styles.subtitle) : null, { 'mt-1': title })} data-sb-field-path={locale === 'fr' ? ".subtitleFr" : "subtitle"}>
+                <p className={classNames('text-lg', styles.subtitle ? mapStyles(styles.subtitle) : null, { 'mt-1': title })} data-sb-field-path={locale === 'fr' ? ".subtitleFr" : ".subtitle"}>
                     {getSubtitle()}
                 </p>
             )}
