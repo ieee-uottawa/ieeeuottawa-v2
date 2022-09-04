@@ -45,38 +45,6 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
-  - type: ContactSection
-    colors: colors-d
-    elementId: ''
-    backgroundSize: full
-    titleFr: Contactez-nous
-    textFr: >
-      Nous sommes très heureux de recevoir vos commentaires. N'hésitez pas à
-      rejoindre également le serveur discord officiel de serveur discord du
-      Génie de l'Université d'Ottawa en cliquant sur ce lien :
-      <https://discord.gg/jPHy6uUThH>
-    media:
-      type: ImageBlock
-      url: /images/office-hours-soon.gif
-      width: 828
-      height: 1032
-      altText: Contact form image
-    styles:
-      self:
-        height: auto
-        width: wide
-        padding:
-          - pt-28
-          - pb-36
-          - pl-4
-          - pr-4
-        alignItems: center
-        justifyContent: center
-        flexDirection: row
-      title:
-        textAlign: left
-      text:
-        textAlign: left
 metaDescription: Check out our office hours.
 metaTags:
   - type: MetaTag
