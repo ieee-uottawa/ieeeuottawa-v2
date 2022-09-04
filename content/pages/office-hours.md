@@ -10,11 +10,7 @@ sections:
     title: Office Hours
     titleFr: Heures de bureau
     text: ''
-    textFr: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
+    textFr: "Nous sommes très heureux de recevoir vos commentaires. N'hésitez pas à rejoindre également le serveur discord officiel de serveur discord du Génie de l'Université d'Ottawa en cliquant sur ce lien :\_<https://discord.gg/jPHy6uUThH>\n"
     actions:
       - type: Button
         label: Join adventure
