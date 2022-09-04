@@ -31,7 +31,7 @@ sections:
     elementId: ''
     backgroundSize: full
     title: Get in touch
-    titleFr: Ceci est un grand titre de page
+    titleFr: Écrivez-nous
     subtitle: Fresh. Better. Faster.
     subtitleFr: Sous-titre
     text: ''
