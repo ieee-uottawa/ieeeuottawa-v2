@@ -23,6 +23,7 @@ sections:
       url: /images/office-hours-soon.gif
       altText: Hero image
       height: 1228
+      width: 600
     backgroundImage: null
     styles:
       self:
