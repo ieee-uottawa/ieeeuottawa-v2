@@ -245,9 +245,9 @@ sections:
     backgroundSize: full
     title: Get in touch
     titleFr: Allons-y !
-    text: >-
-      The Stackbit theme is flexible and scalable to every need. It can manage
-      any layout and any screen.
+    text: >
+      Got a question? Event suggestions? Feedback? We want to hear it! Send us a
+      message and we will get back to you as soon as we can.
     textFr: >-
       The Stackbit theme is flexible and scalable to every need. It can manage
       any layout and any screen.
