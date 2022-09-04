@@ -31,6 +31,7 @@ sections:
       uOttawa Engineering discord server by clicking on this link :
       <https://discord.gg/jPHy6uUThH>
 
+    textFr: "Nous sommes très heureux de recevoir vos commentaires. N'hésitez pas à rejoindre également le serveur discord officiel de serveur discord du Génie de l'Université d'Ottawa en cliquant sur ce lien :\_<https://discord.gg/jPHy6uUThH>\n\n"
   - type: ContactSection
     colors: colors-d
     elementId: ''
