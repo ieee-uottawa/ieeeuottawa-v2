@@ -235,7 +235,7 @@
             },
             {
                 "type": "Social",
-                "label": "Facebook",
+                "label": "Email",
                 "altText": "",
                 "url": "mailto:communications@ieeeuottawa.ca",
                 "icon": "mail",
