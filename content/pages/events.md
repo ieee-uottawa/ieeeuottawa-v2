@@ -78,7 +78,7 @@ sections:
     elementId: ''
     title: Past Events
     titleFr: Événements passés
-    subtitle: ''
+    subtitle: Click the button below to view more events.
     items:
       - type: FeaturedItem
         title: Annual General Meeting
@@ -356,7 +356,16 @@ sections:
           altText: WIE Tech Panel Poster
           caption: WIE Tech Panel Poster
           elementId: ''
-    actions: []
+    actions:
+      - type: Button
+        label: More
+        altText: ''
+        url: 'https://www.facebook.com/ieeeuottawa/events'
+        showIcon: true
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+        elementId: ''
     columns: 3
     spacingX: 40
     spacingY: 46
@@ -377,6 +386,7 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
+    subtitleFr: Cliquez sur le bouton ci-dessous pour voir plus d'événements.
 metaDescription: Checkout our upcoming events and our past events!
 metaTags:
   - type: MetaTag
