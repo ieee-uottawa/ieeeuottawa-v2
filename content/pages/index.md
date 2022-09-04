@@ -253,7 +253,7 @@ sections:
     form:
       type: FormBlock
       elementId: sign-up-form
-      destination: ''
+      destination: communications@ieeeuottawa.ca
       action: /.netlify/functions/submission_created
       fields:
         - type: TextFormControl
