@@ -31,7 +31,7 @@ sections:
     elementId: ''
     backgroundSize: full
     title: Get in touch
-    titleFr: Écrivez-nous
+    titleFr: Contactez
     subtitle: Fresh. Better. Faster.
     subtitleFr: Sous-titre
     text: ''
