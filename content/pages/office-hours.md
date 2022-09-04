@@ -36,7 +36,6 @@ sections:
     colors: colors-d
     elementId: ''
     backgroundSize: full
-    title: Contact us
     titleFr: Contactez-nous
     textFr: >
       Nous sommes très heureux de recevoir vos commentaires. N'hésitez pas à
