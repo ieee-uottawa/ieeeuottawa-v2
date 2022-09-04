@@ -26,43 +26,6 @@ sections:
         textAlign: left
       text:
         textAlign: left
-  - type: TestimonialsSection
-    colors: colors-d
-    elementId: ''
-    variant: variant-c
-    title: ''
-    subtitle: ''
-    testimonials:
-      - quote: >-
-          "This team is experienced, personable and just fun to be with. You
-          will have the best fishing experience of your life."
-        name: Oliver Mills
-        title: Head chef at Parks
-        image:
-          type: ImageBlock
-          url: /images/gallery-2.jpg
-          altText: A man fishing
-      - quote: >
-          “I have been fishing steelhead and salmon with the SB for over 5
-          years. I have never been disappointed.”
-        name: Hilary Ouse
-        title: Product Marketing Manager at Acme
-        image:
-          type: ImageBlock
-          url: /images/chair.png
-          altText: Hilary ouse
-    styles:
-      self:
-        height: auto
-        width: wide
-        padding:
-          - pt-28
-          - pb-28
-        justifyContent: center
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
   - type: ContactSection
     colors: colors-d
     elementId: ''
