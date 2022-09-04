@@ -65,7 +65,7 @@ sections:
             label: View
             showIcon: true
             icon: arrowRight
-            url: /
+            url: /files/IEEE_uOttawa_Constitution_2021.pdf
             style: secondary
         styles:
           self:
@@ -104,7 +104,7 @@ sections:
             label: View
             showIcon: true
             icon: arrowRight
-            url: /
+            url: /files/Proposed-budget-2021-2022-IEEE budget.pdf
             style: secondary
         styles:
           self:
@@ -133,8 +133,8 @@ sections:
   - type: FeaturedItemsSection
     colors: colors-c
     elementId: ''
-    title: Meeting Minutes
-    titleFr: Comptes rendus des réunions
+    title: 2022-2023 Meeting Minutes
+    titleFr: Comptes rendus des réunions 2022-2023
     subtitle: >-
       Check out the Internal meeting minutes to catch a glimpse of the
       discussions that drive what we do.
@@ -149,7 +149,7 @@ sections:
           - type: Button
             label: View
             altText: ''
-            url: /
+            url: /files/IEEE_Executive_Meeting_Minutes_2022-07-10.pdf
             showIcon: true
             icon: arrowRight
             iconPosition: right
@@ -158,161 +158,8 @@ sections:
         styles:
           self:
             textAlign: left
-        subtitle: '2022-04-03'
-      - type: FeaturedItem
-        title: IEEE Executive Meeting Minutes
-        titleFr: Comptes rendus de la réunion exécutive
-        actions:
-          - type: Button
-            label: View
-            showIcon: true
-            icon: arrowRight
-            url: /
-            style: primary
-        styles:
-          self:
-            textAlign: left
-        subtitle: '2022-03-20'
-      - type: FeaturedItem
-        title: IEEE Executive Meeting Minutes
-        titleFr: Comptes rendus de la réunion exécutive
-        actions:
-          - type: Button
-            label: View
-            showIcon: true
-            icon: arrowRight
-            url: /
-            style: primary
-        styles:
-          self:
-            textAlign: left
-        subtitle: '2022-03-09'
-      - type: FeaturedItem
-        title: IEEE Executive Meeting Minutes
-        titleFr: Comptes rendus de la réunion exécutive
-        actions:
-          - type: Button
-            label: View
-            showIcon: true
-            icon: arrowRight
-            url: /
-            style: primary
-        styles:
-          self:
-            textAlign: left
-        subtitle: '2022-02-19'
-      - type: FeaturedItem
-        title: IEEE Executive Meeting Minutes
-        titleFr: Comptes rendus de la réunion exécutive
-        actions:
-          - type: Button
-            label: View
-            showIcon: true
-            icon: arrowRight
-            url: /
-            style: primary
-        styles:
-          self:
-            textAlign: left
-        subtitle: '2022-02-02'
-      - type: FeaturedItem
-        title: IEEE Executive Meeting Minutes
-        titleFr: Comptes rendus de la réunion exécutive
-        actions:
-          - type: Button
-            label: View
-            showIcon: true
-            icon: arrowRight
-            url: /
-            style: primary
-        styles:
-          self:
-            textAlign: left
-        subtitle: '2022-01-23'
-      - type: FeaturedItem
-        title: IEEE Executive Meeting Minutes
-        titleFr: Comptes rendus de la réunion exécutive
-        actions:
-          - type: Button
-            label: View
-            showIcon: true
-            icon: arrowRight
-            url: /
-            style: primary
-        styles:
-          self:
-            textAlign: left
-        subtitle: '2021-12-01'
-      - type: FeaturedItem
-        title: IEEE Executive Meeting Minutes
-        titleFr: Comptes rendus de la réunion exécutive
-        actions:
-          - type: Button
-            label: View
-            showIcon: true
-            icon: arrowRight
-            url: /
-            style: primary
-        styles:
-          self:
-            textAlign: left
-        subtitle: '2021-11-21'
-      - type: FeaturedItem
-        title: IEEE Executive Meeting Minutes
-        titleFr: Comptes rendus de la réunion exécutive
-        actions:
-          - type: Button
-            label: View
-            showIcon: true
-            icon: arrowRight
-            url: /
-            style: primary
-        styles:
-          self:
-            textAlign: left
-        subtitle: '2021-11-03'
-      - type: FeaturedItem
-        title: IEEE Executive Meeting Minutes
-        titleFr: Comptes rendus de la réunion exécutive
-        actions:
-          - type: Button
-            label: View
-            showIcon: true
-            icon: arrowRight
-            url: /
-            style: primary
-        styles:
-          self:
-            textAlign: left
-        subtitle: '2021-10-24'
-      - type: FeaturedItem
-        title: IEEE Executive Meeting Minutes
-        titleFr: Comptes rendus de la réunion exécutive
-        actions:
-          - type: Button
-            label: View
-            showIcon: true
-            icon: arrowRight
-            url: /
-            style: primary
-        styles:
-          self:
-            textAlign: left
-        subtitle: '2021-10-06'
-      - type: FeaturedItem
-        title: IEEE Executive Meeting Minutes
-        titleFr: Comptes rendus de la réunion exécutive
-        actions:
-          - type: Button
-            label: View
-            showIcon: true
-            icon: arrowRight
-            url: /
-            style: primary
-        styles:
-          self:
-            textAlign: left
-        subtitle: '2021-09-19'
+        subtitle: '2022-07-10'
+        subtitleFr: '10-07-2022'
     actions: []
     columns: 2
     spacingX: 28

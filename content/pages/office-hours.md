@@ -87,7 +87,7 @@ sections:
       submitLabelFr: Envoyer message
     media:
       type: ImageBlock
-      url: /images/Office_Hours_W_2022.jpg
+      url: /images/office-hours-soon.gif
       width: 828
       height: 1032
       altText: Contact form image
