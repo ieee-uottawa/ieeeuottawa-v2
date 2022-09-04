@@ -175,7 +175,7 @@ function FooterVariantB(props) {
                         options={{ forceInline: true, forceWrapper: true, wrapper: 'p' }}
                         className={classNames('sb-markdown', { 'mt-6 lg:mt-0': legalLinks.length > 0 })}
                     >
-                        {copyrightText}
+                        {`© ${new Date().getFullYear()} ${copyrightText}`}
                     </Markdown>
                 )}
                 {legalLinks.length > 0 && (
