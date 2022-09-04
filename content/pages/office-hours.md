@@ -45,7 +45,7 @@ sections:
       type: FormBlock
       elementId: contact-form
       action: /.netlify/functions/submission_created
-      destination: ''
+      destination: communications@ieeeuottawa.ca
       fields:
         - type: TextFormControl
           name: name
