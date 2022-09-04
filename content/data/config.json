@@ -228,19 +228,19 @@
             },
             {
                 "type": "Social",
-                "altText": "Twitter",
-                "label": "Twitter",
-                "url": "https://twitter.com/ieeeuottawa",
-                "icon": "twitter"
-            },
-            {
-                "type": "Social",
                 "label": "Youtube",
                 "altText": "IEEE uOttawa Youtube",
                 "icon": "youtube",
                 "style": "link",
                 "elementId": "",
                 "url": "https://www.youtube.com/channel/UCSv1Vna97rKa8w2ktRG8wRw"
+            },
+            {
+                "type": "Social",
+                "altText": "Twitter",
+                "label": "Twitter",
+                "url": "https://twitter.com/ieeeuottawa",
+                "icon": "twitter"
             }
         ],
         "styles": {
