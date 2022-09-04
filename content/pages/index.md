@@ -253,7 +253,7 @@ sections:
       any layout and any screen.
     actions:
       - type: Button
-        label: Try it now
+        label: Contact
         showIcon: true
         icon: arrowRight
         url: /
