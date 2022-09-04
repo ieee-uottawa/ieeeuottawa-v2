@@ -105,30 +105,14 @@
                 "altText": "Events"
             },
             {
-                "type": "DropdownLink",
-                "label": "More",
-                "dropdownLinks": [
-                    {
-                        "type": "Link",
-                        "label": "Documents",
-                        "altText": "Documents",
-                        "url": "/documents",
-                        "showIcon": false,
-                        "icon": "arrowRight",
-                        "iconPosition": "right",
-                        "elementId": ""
-                    },
-                    {
-                        "type": "Link",
-                        "label": "Gallery",
-                        "altText": "Gallery",
-                        "url": "/gallery",
-                        "showIcon": false,
-                        "icon": "arrowRight",
-                        "iconPosition": "right",
-                        "elementId": ""
-                    }
-                ]
+                "type": "Link",
+                "label": "Documents",
+                "altText": "Documents",
+                "url": "/documents",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "elementId": ""
             }
         ],
         "secondaryLinks": [
@@ -206,6 +190,16 @@
                 "label": "Contact us",
                 "url": "mailto:communications@ieeeuottawa.ca",
                 "altText": ""
+            },
+            {
+                "type": "Link",
+                "label": "IEEE.org",
+                "altText": "",
+                "url": "https://www.ieee.org//",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "elementId": ""
             }
         ],
         "socialLinks": [

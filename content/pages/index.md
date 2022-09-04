@@ -196,6 +196,49 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
+  - type: FeatureHighlightSection
+    colors: colors-d
+    elementId: ''
+    backgroundSize: full
+    title: Check out our gallery
+    titleFr: Visitez notre galerie de photos
+    subtitle: ''
+    text: |
+      Visit our gallery to see photos of events we have hosted in the past.
+    textFr: >
+      Visitez notre galerie pour voir les photos des événements que nous avons
+      organisés dans le passé.
+    actions:
+      - type: Button
+        label: Gallery
+        showIcon: true
+        icon: arrowRight
+        style: primary
+        url: /
+    backgroundImage:
+      type: ImageBlock
+      url: /images/gridgallery.png
+      backgroundSize: cover
+      backgroundPosition: center
+      opacity: 60
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-36
+          - pb-72
+          - pl-4
+          - pr-4
+        justifyContent: center
+      title:
+        textAlign: center
+      subtitle:
+        textAlign: center
+      text:
+        textAlign: center
+      actions:
+        justifyContent: center
   - type: ContactSection
     colors: colors-b
     title: Get in touch
