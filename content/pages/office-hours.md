@@ -45,35 +45,6 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
-  - type: TextSection
-    colors: colors-d
-    elementId: ''
-    variant: variant-a
-    title: Office Hours
-    titleFr: Heures de bureau
-    subtitle: ''
-    styles:
-      self:
-        height: auto
-        width: wide
-        padding:
-          - pt-10
-          - pb-11
-          - pl-4
-          - pr-4
-        justifyContent: center
-      title:
-        textAlign: center
-      subtitle:
-        textAlign: left
-      text:
-        textAlign: left
-    text: >+
-      We look forward to hearing from you. Feel free to also join the official
-      uOttawa Engineering discord server by clicking on this link :
-      <https://discord.gg/jPHy6uUThH>
-
-    textFr: "Nous sommes très heureux de recevoir vos commentaires. N'hésitez pas à rejoindre également le serveur discord officiel de serveur discord du Génie de l'Université d'Ottawa en cliquant sur ce lien :\_<https://discord.gg/jPHy6uUThH>\n\n"
   - type: ContactSection
     colors: colors-d
     elementId: ''
