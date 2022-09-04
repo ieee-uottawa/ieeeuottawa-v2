@@ -81,50 +81,6 @@ sections:
       rejoindre également le serveur discord officiel de serveur discord du
       Génie de l'Université d'Ottawa en cliquant sur ce lien :
       <https://discord.gg/jPHy6uUThH>
-    form:
-      type: FormBlock
-      elementId: contact-form
-      action: /.netlify/functions/submission_created
-      destination: webmaster@ieeeuottawa.ca
-      fields:
-        - type: TextFormControl
-          name: name
-          label: Name
-          labelFr: Nom
-          placeholder: Your name
-          placeholderFr: Votre nom
-          isRequired: true
-          width: 1/2
-          hideLabel: false
-        - type: EmailFormControl
-          name: email
-          label: Email
-          labelFr: Email
-          placeholder: Your email
-          placeholderFr: Votre email
-          isRequired: true
-          width: 1/2
-        - type: TextareaFormControl
-          name: Message
-          label: Description
-          labelFr: Description
-          hideLabel: false
-          placeholder: Your message
-          placeholderFr: Votre message
-          isRequired: true
-          width: full
-        - type: CheckboxFormControl
-          name: Consent
-          label: >-
-            I understand that this form is storing my submitted information so I
-            can be contacted.
-          labelFr: >-
-            Je comprends que ce formulaire stocke les informations que j'ai
-            soumises afin que je puisse être contacté.
-          isRequired: true
-          width: full
-      submitLabel: Send Message
-      submitLabelFr: Envoyer message
     media:
       type: ImageBlock
       url: /images/office-hours-soon.gif
