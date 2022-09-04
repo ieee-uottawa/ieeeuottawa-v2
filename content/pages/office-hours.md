@@ -20,7 +20,7 @@ sections:
         url: /
     media:
       type: ImageBlock
-      url: /images/hero-2.png
+      url: /images/office-hours-soon.gif
       altText: Hero image
     backgroundImage: null
     styles:
