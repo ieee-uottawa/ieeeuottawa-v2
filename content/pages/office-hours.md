@@ -30,7 +30,7 @@ sections:
     colors: colors-d
     elementId: ''
     backgroundSize: full
-    title: We do fishing differently
+    title: Get in touch
     titleFr: Ceci est un grand titre de page
     subtitle: Fresh. Better. Faster.
     subtitleFr: Sous-titre
