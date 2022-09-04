@@ -9,7 +9,7 @@ sections:
     backgroundSize: full
     title: Office Hours
     titleFr: Heures de bureau
-    text: ''
+    text: "We look forward to hearing from you. Feel free to also join the official uOttawa Engineering discord server by clicking on this link :\_<https://discord.gg/jPHy6uUThH>\n\n"
     textFr: "Nous sommes très heureux de recevoir vos commentaires. N'hésitez pas à rejoindre également le serveur discord officiel de serveur discord du Génie de l'Université d'Ottawa en cliquant sur ce lien :\_<https://discord.gg/jPHy6uUThH>\n"
     actions:
       - type: Button
