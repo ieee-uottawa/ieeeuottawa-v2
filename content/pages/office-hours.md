@@ -26,6 +26,11 @@ sections:
         textAlign: left
       text:
         textAlign: left
+    text: >+
+      We look forward to hearing from you. Feel free to also join the official
+      uOttawa Engineering discord server by clicking on this link :
+      <https://discord.gg/jPHy6uUThH>
+
   - type: ContactSection
     colors: colors-d
     elementId: ''
