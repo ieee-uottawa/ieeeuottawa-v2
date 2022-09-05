@@ -112,14 +112,14 @@ function PeopleVariantA(props) {
                         {socialLinks && (
                             <div data-sb-field-path=".person">
                                 <ul className="flex items-center mt-2 space-x-5 justify-center" data-sb-field-path=".socialLinks">
+                                    <li>
+                                        <Social {...getEmailLink()} />
+                                    </li>
                                     {socialLinks.map((link, index) => (
-                                        <li key={index}>
+                                        <li key={index+1}>
                                             <Social {...link} data-sb-field-path={`.${index}`} />
                                         </li>
                                     ))}
-                                    <li key={socialLinks.length}>
-                                        <Social {...getEmailLink()} data-sb-field-path={`.${socialLinks.length}`} />
-                                    </li>
                                 </ul>
                             </div>
                         )}
