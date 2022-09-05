@@ -5,5 +5,14 @@
     "image": {
         "url": "/images/team/rikki-romana.jpeg",
         "altText": "Rikki Romana photo"
-    }    
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "altText": "LinkedIn",
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/rikkiromana",
+            "icon": "linkedin"
+        }
+    ]
 }

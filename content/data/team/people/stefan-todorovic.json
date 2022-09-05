@@ -6,5 +6,14 @@
         "type": "ImageBlock",
         "url": "/images/team/stefan-todorovic.jpeg",
         "altText": "Stefan Todorovic photo"
-    }   
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "altText": "LinkedIn",
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/stefantodorovic-com/",
+            "icon": "linkedin"
+        }
+    ]
 }

@@ -5,5 +5,14 @@
     "image": {
         "url": "/images/team/omid-mozafar.jpg",
         "altText": "Omid Mozafar photo"
-    }
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "altText": "LinkedIn",
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/omid-mozafar/",
+            "icon": "linkedin"
+        }
+    ]
 }

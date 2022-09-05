@@ -5,5 +5,14 @@
     "image": {
         "url": "/images/team/pavly-saleh.jpg",
         "altText": "Pavly Saleh photo"
-    } 
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "altText": "LinkedIn",
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/pavly/",
+            "icon": "linkedin"
+        }
+    ]
 }

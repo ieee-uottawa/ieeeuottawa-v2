@@ -5,5 +5,14 @@
         "image": {
         "url": "/images/team/sophie-tomlin.jpg",
         "altText": "Sophie Tomlinson photo"
-    }  
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "altText": "LinkedIn",
+            "label": "LinkedIn",
+            "url": "www.linkedin.com/in/sophie-tomlin-49163b20b",
+            "icon": "linkedin"
+        }
+    ]
 }
