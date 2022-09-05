@@ -169,6 +169,8 @@ sections:
         padding:
           - pt-28
           - pb-28
+          - pl-5
+          - pr-5
         margin:
           - mb-0
   - type: FeatureHighlightSection
