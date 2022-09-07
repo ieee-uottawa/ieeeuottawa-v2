@@ -71,10 +71,10 @@ sections:
     subtitleFr: '800 King Edward Ave, Ottawa, ON K1N 6N5, STE 4026'
     items:
       - type: FeaturedItem
-        title: Purchase lab supplies
-        titleFr: Achetez des matériaux de laboratoire
+        title: Use our lab equipment
+        titleFr: Utilisez notre équipement de laboratoire
         text: >
-          Need to buy a breadboard, wire strippers or CD-Rs? Need to use an
+          Need to use a breadboard, wire strippers or CD-Rs? Need to use an
           Altera DE2 Board or an oscilloscope for a project? We got your back.
         textFr: >
           Besoin d'une planche à pain, des pinces à dénuder ou des CD-R ? Besoin
