@@ -31,6 +31,14 @@ export const translatedRoles = {
         en: "VP Social",
         fr: "VP Social",
     },
+    "equity": {
+        en: "VP Equity",
+        fr: "VP Équité",
+    },
+    "merch": {
+        en: "VP Merch",
+        fr: "VP Produits Dérivés",
+    },
     "communications": {
         en: "VP Communications",
         fr: "VP Communications",
@@ -38,6 +46,18 @@ export const translatedRoles = {
     "webmaster": {
         en: "Webmaster",
         fr: "Webmaster",
+    },
+    "elg-commissioner": {
+        en: "ELG Commissioner",
+        fr: "Commissionnaire ELG",
+    },
+    "ceg-commissioner": {
+        en: "CEG Commissioner",
+        fr: "Commissionnaire CEG",
+    },
+    "seg-commissioner": {
+        en: "SEG Commissioner",
+        fr: "Commissionnaire SEG",
     },
     "wie-chair": {
         en: "WIE Chair",
@@ -59,17 +79,17 @@ export const translatedRoles = {
         en: "Photonics Vice-Chair",
         fr: "Vice-président(e) Photonique",
     },
-    "ceg-commissioner": {
-        en: "CEG Commissioner",
-        fr: "Commissionnaire CEG",
+    "elg-rep": {
+        en: "1st Year ELG Rep.",
+        fr: "Rep. des 1ère années ELG",
     },
-    "elg-commissioner": {
-        en: "ELG Commissioner",
-        fr: "Commissionnaire ELG",
+    "ceg-rep": {
+        en: "1st Year CEG Rep.",
+        fr: "Rep. des 1ère années CEG",
     },
-    "seg-commissioner": {
-        en: "SEG Commissioner",
-        fr: "Commissionnaire SEG",
+    "seg-rep": {
+        en: "1st Year SEG Rep.",
+        fr: "Rep. des 1ère années SEG",
     },
     "design-commissioner": {
         en: "Design Commissioner",
