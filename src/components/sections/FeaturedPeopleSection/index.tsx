@@ -111,7 +111,7 @@ function PeopleVariantA(props) {
                         )}
                         {socialLinks && (
                             <div data-sb-field-path=".person">
-                                <ul className="flex items-center mt-2 space-x-5 justify-center" data-sb-field-path=".socialLinks">
+                                <ul className="flex items-center mt-4 space-x-5 justify-center" data-sb-field-path=".socialLinks">
                                     <li>
                                         <Social {...getEmailLink()} />
                                     </li>
