@@ -36,7 +36,7 @@ export const translatedRoles = {
         fr: "VP Équité",
     },
     "merch": {
-        en: "VP Merch",
+        en: "VP Merchandising",
         fr: "VP Produits Dérivés",
     },
     "communications": {

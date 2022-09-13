@@ -14,17 +14,17 @@ fields:
         value: treasurer
       - label: Secretary
         value: secretary
-      - label: VP External
-        value: external
       - label: VP Internal
         value: internal
+      - label: VP External
+        value: external
       - label: VP Academic
         value: academic
       - label: VP Social
         value: social
       - label: VP Equity
         value: equity
-      - label: VP Merch
+      - label: VP Merchandising
         value: merch
       - label: VP Communications
         value: communications
