@@ -5,5 +5,14 @@
     "image": {
         "url": "/images/team/alae-boufarrachene.jpg",
         "altText": "Alae Boufarrachene photo"
-    }
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "altText": "LinkedIn",
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/alaebou/",
+            "icon": "linkedin"
+        }
+    ]
 }
