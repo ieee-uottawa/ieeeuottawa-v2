@@ -47,7 +47,38 @@ sections:
     elementId: ''
     title: Upcoming Events
     titleFr: Prochains événements
+    subtitle: There are currently no upcoming events planned. Check again soon!
     subtitleFr: Il n'y a actuellement aucun événement prévu. Repassez bientôt !
+    items: []
+    actions: []
+    columns: 1
+    spacingX: 16
+    spacingY: 16
+    enableHover: false
+    styles:
+      self:
+        height: auto
+        width: narrow
+        padding:
+          - pt-28
+          - pb-36
+          - pl-4
+          - pr-4
+        justifyContent: center
+        margin:
+          - mb-0
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
+      actions:
+        justifyContent: flex-start
+  - type: FeaturedItemsSection
+    colors: colors-d
+    elementId: ''
+    title: Past Events
+    titleFr: Événements passés
+    subtitle: Click the button below to view more events.
     items:
       - type: FeaturedItem
         elementId: ''
@@ -80,36 +111,6 @@ sections:
         styles:
           self:
             textAlign: left
-    actions: []
-    columns: 1
-    spacingX: 16
-    spacingY: 16
-    enableHover: false
-    styles:
-      self:
-        height: auto
-        width: narrow
-        padding:
-          - pt-28
-          - pb-36
-          - pl-4
-          - pr-4
-        justifyContent: center
-        margin:
-          - mb-0
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
-      actions:
-        justifyContent: flex-start
-  - type: FeaturedItemsSection
-    colors: colors-d
-    elementId: ''
-    title: Past Events
-    titleFr: Événements passés
-    subtitle: Click the button below to view more events.
-    items:
       - type: FeaturedItem
         title: Annual General Meeting
         titleFr: Assemblée générale annuelle
