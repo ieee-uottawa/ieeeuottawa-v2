@@ -258,7 +258,13 @@
             "elementId": ""
         }
     },
-    "defaultMetaTags": [],
+    "defaultMetaTags": [
+        {
+            "type": "MetaTag",
+            "property": "og:title",
+            "content": ""
+        }
+    ],
     "titleSuffix": "IEEE uOttawa Student Branch",
     "defaultSocialImage": "/images/LOGO_BLUE 2.svg"
 }
