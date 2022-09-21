@@ -263,6 +263,11 @@
             "type": "MetaTag",
             "property": "og:title",
             "content": "IEEE uOttawa Student Branch"
+        },
+        {
+            "type": "MetaTag",
+            "property": "og:title",
+            "content": ""
         }
     ],
     "titleSuffix": "IEEE uOttawa Student Branch",
