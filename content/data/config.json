@@ -259,5 +259,6 @@
         }
     },
     "defaultMetaTags": [],
-    "titleSuffix": "IEEE uOttawa Student Branch"
+    "titleSuffix": "IEEE uOttawa Student Branch",
+    "defaultSocialImage": "/images/LOGO_BLUE 2.svg"
 }
