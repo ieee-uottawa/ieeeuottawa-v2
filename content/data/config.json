@@ -266,8 +266,7 @@
         },
         {
             "type": "MetaTag",
-            "property": "og:description",
-            "content": "IEEE uOttawa Student Branch"
+            "property": "og:description"
         }
     ],
     "titleSuffix": "IEEE uOttawa Student Branch",
