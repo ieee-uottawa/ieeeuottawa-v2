@@ -20,7 +20,7 @@ sections:
         url: /
     media:
       type: ImageBlock
-      url: /images/office-hours-soon.gif
+      url: /images/office-hours-f2022.png
       altText: Hero image
       height: 1000
       width: 800
