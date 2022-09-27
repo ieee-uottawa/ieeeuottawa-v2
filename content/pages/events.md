@@ -89,6 +89,16 @@ sections:
         featuredIcon:
           label: Apple
           value: apple
+        actions:
+          - type: Button
+            label: Learn More
+            altText: ''
+            url: 'https://www.instagram.com/p/Ci1Aw-hNyjR/'
+            showIcon: false
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
     actions: []
     columns: 1
     spacingX: 16
