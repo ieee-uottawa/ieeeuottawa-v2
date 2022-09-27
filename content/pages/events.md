@@ -52,7 +52,7 @@ sections:
     items:
       - type: FeaturedItem
         elementId: ''
-        title: Photonics Seminar
+        title: Spectroscopy Seminar
         titleFr: Séminaire sur la Spectroscopie
         subtitle: '09/30/2022, 2PM'
         subtitleFr: '30/09/2022, 14:00'
