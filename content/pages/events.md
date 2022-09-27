@@ -73,7 +73,7 @@ sections:
       - type: FeaturedItem
         elementId: ''
         title: Fall By-Elections
-        titleFr: Élections partielles
+        titleFr: Élections partielles de l'
         subtitle: '09/30/2022, 2PM'
         subtitleFr: '30/09/2022, 14:00'
         text: >
