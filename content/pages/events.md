@@ -147,8 +147,11 @@ sections:
           Join us to watch as NASA makes history with the DART (Double Asteroid
           Redirection Test) mission.
         textFr: >
-          Lieu: ARC 233 et sur
-          [Zoom](https://us06web.zoom.us/j/82543006085?pwd=b09oOG9weWFrckl2TXR6SmdNMkpDdz09)
+          Lieu: STE 4026
+
+
+          Rejoignez-nous pour voir la NASA entrer dans l'histoire avec la
+          mission DART (Double Asteroid Redirection Test).
         isIcon: false
         featuredImage:
           type: ImageBlock
