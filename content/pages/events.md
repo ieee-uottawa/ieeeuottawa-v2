@@ -72,7 +72,7 @@ sections:
           value: apple
       - type: FeaturedItem
         elementId: ''
-        title: Spectroscopy Seminar
+        title: Fall By-Elections
         titleFr: Séminaire sur la Spectroscopie
         subtitle: '09/30/2022, 2PM'
         subtitleFr: '30/09/2022, 14:00'
