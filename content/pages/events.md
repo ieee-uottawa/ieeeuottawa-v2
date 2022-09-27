@@ -65,7 +65,7 @@ sections:
         isIcon: false
         featuredImage:
           type: ImageBlock
-          url: /images/events/2022-2023/photonics-guest-speaker-talk.jpeg
+          url: /images/spectroscopy-speaker-talk.jpeg
           altText: Photonics Photonics Seminar Event
         featuredIcon:
           label: Apple
