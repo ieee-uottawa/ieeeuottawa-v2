@@ -64,9 +64,15 @@ sections:
           Ever wondered what ultra-narrow optical spectral features are?
           Interested in spectroscopy? This event is for you!
 
-        textFr: >
+        textFr: >+
           Lieu: ARC 233 et sur
           [Zoom](https://us06web.zoom.us/j/82543006085?pwd=b09oOG9weWFrckl2TXR6SmdNMkpDdz09)
+
+
+          Vous vous êtes déjà demandé ce que sont les caractéristiques
+          spectrales optiques ultra étroites ? Vous vous intéressez à la
+          spectroscopie ? Cet événement est pour vous !
+
         isIcon: false
         featuredImage:
           type: ImageBlock
