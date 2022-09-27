@@ -74,7 +74,7 @@ sections:
         elementId: ''
         title: Fall By-Elections
         titleFr: Élections partielles de l'automne
-        subtitle: '10/05/2022, 2PM'
+        subtitle: '10/05/2022, 4PM'
         subtitleFr: '30/09/2022, 14:00'
         text: >
           Location: ARC 233 & on
