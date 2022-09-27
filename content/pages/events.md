@@ -56,8 +56,9 @@ sections:
         titleFr: Séminaire sur la photonique
         subtitle: '09/30/2022, 2PM'
         subtitleFr: '30/09/2022, 14:00'
-        text: |
-          Location: ARC 233 & on [Zoom](https://us06web.zoom.us/j/82062546196)
+        text: >
+          Location: ARC 233 & on
+          [Zoom](https://us06web.zoom.us/j/82543006085?pwd=b09oOG9weWFrckl2TXR6SmdNMkpDdz09)
         textFr: |
           Lieu: ARC 233 et sur [Zoom](https://us06web.zoom.us/j/82062546196)
         isIcon: false
