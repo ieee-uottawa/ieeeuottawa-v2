@@ -268,6 +268,21 @@
             "type": "MetaTag",
             "property": "og:description",
             "content": "The IEEE uOttawa Student Branch is the official student branch for the University of Ottawa and the official Sub-Association for ELG/CEG/SEG under the uOttawa Engineering Students Society."
+        },
+        {
+            "type": "MetaTag",
+            "property": "og:image",
+            "content": "/images/image_3.JPEG"
+        },
+        {
+            "type": "MetaTag",
+            "property": "twitter:image",
+            "content": "/images/image_3.JPEG"
+        },
+        {
+            "type": "MetaTag",
+            "property": "twitter:image:alt",
+            "content": "IEEE uOttawa Student Branch Hero Image"
         }
     ],
     "defaultSocialImage": "/images/LOGO_BLUE 2.svg"

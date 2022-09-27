@@ -49,10 +49,85 @@ sections:
     titleFr: Prochains événements
     subtitle: There are currently no upcoming events planned. Check again soon!
     subtitleFr: Il n'y a actuellement aucun événement prévu. Repassez bientôt !
-    items: []
+    items:
+      - type: FeaturedItem
+        elementId: ''
+        title: Spectroscopy Seminar
+        titleFr: Séminaire sur la Spectroscopie
+        subtitle: '09/30/2022, 2PM'
+        subtitleFr: '30/09/2022, 14:00'
+        text: >+
+          Location: ARC 233 & on
+          [Zoom](https://us06web.zoom.us/j/82543006085?pwd=b09oOG9weWFrckl2TXR6SmdNMkpDdz09)
+
+
+          Ever wondered what ultra-narrow optical spectral features are?
+          Interested in spectroscopy? This event is for you!
+
+        textFr: >+
+          Lieu: ARC 233 et sur
+          [Zoom](https://us06web.zoom.us/j/82543006085?pwd=b09oOG9weWFrckl2TXR6SmdNMkpDdz09)
+
+
+          Vous vous êtes déjà demandé ce que sont les caractéristiques
+          spectrales optiques ultra étroites ? Vous vous intéressez à la
+          spectroscopie ? Cet événement est pour vous !
+
+        isIcon: false
+        featuredImage:
+          type: ImageBlock
+          url: /images/events/2022-2023/spectroscopy-speaker-talk.jpeg
+          altText: Spectroscopy Seminar Poster
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - type: Button
+            label: Learn More
+            altText: ''
+            url: 'https://www.instagram.com/p/Ci3p2q7tZKk/'
+            showIcon: false
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
+      - type: FeaturedItem
+        elementId: ''
+        title: Fall By-Elections
+        titleFr: Élections partielles de l'automne
+        subtitle: '10/05/2022, 4PM EST.'
+        subtitleFr: '05/10/2022, 16:00 EST.'
+        text: |
+          Run for vacant positions in our execs team!
+
+          Location: STE 4026
+        textFr: >
+          Lieu: STE 4026
+
+
+          Présentez votre candidature aux postes vacants de notre équipe
+          d'exécutifs !
+        isIcon: false
+        featuredImage:
+          type: ImageBlock
+          url: /images/events/2022-2023/fall2022-by-elections.jpeg
+          altText: Fall By Elections Poster
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - type: Button
+            label: Learn More
+            altText: ''
+            url: 'https://www.instagram.com/p/Ci1Aw-hNyjR/'
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
     actions: []
-    columns: 1
-    spacingX: 16
+    columns: 2
+    spacingX: 40
     spacingY: 16
     enableHover: false
     styles:
@@ -82,10 +157,46 @@ sections:
     items:
       - type: FeaturedItem
         elementId: ''
+        title: DART Watch Party
+        titleFr: Soirée de visionnement du lancement de DART
+        subtitle: '09/26/2022, 6PM - 7:30PM'
+        subtitleFr: '26/09/2022, 18:00 - 19:30'
+        text: >
+          Location: STE 4026
+
+
+          Join us to watch as NASA makes history with the DART (Double Asteroid
+          Redirection Test) mission.
+        textFr: >
+          Lieu: STE 4026
+
+
+          Rejoignez-nous pour voir la NASA entrer dans l'histoire avec la
+          mission DART (Double Asteroid Redirection Test).
+        isIcon: false
+        featuredImage:
+          type: ImageBlock
+          url: /images/DART Launch Event.jpeg
+          altText: Spectroscopy Seminar Poster
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - type: Button
+            label: Learn More
+            altText: ''
+            url: 'https://www.instagram.com/p/Ci3qn9dNlHU/'
+            showIcon: false
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
+      - type: FeaturedItem
+        elementId: ''
         title: Photonics Seminar
         titleFr: Séminaire sur la photonique
-        subtitle: 09/09/2022, 2PM
-        subtitleFr: 09/09/2022, 14:00
+        subtitle: '09/09/2022, 2PM'
+        subtitleFr: '09/09/2022, 14:00'
         text: |
           Location: ARC 233 & on [Zoom](https://us06web.zoom.us/j/82062546196)
         textFr: |

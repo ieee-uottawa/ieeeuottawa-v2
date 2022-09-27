@@ -32,9 +32,9 @@ sections:
         icon: arrowRight
         showIcon: true
       - type: Button
-        label: Get Involved
-        altText: ''
-        url: /about/#get-involved
+        label: Office Hours
+        altText: Office Hours / Heures de Bureau
+        url: /office-hours
         showIcon: false
         icon: arrowRight
         iconPosition: right
@@ -299,6 +299,6 @@ metaTitle: Powering Your Student Experience
 metaDescription: >-
   The IEEE uOttawa Student Branch is the official student branch for the
   University of Ottawa and the official Sub-Association for ELG/CEG/SEG under
-  the ESS.
+  the Engineering Students Society (ESS).
 socialImage: /images/LOGO_BLUE 2.svg
 ---
