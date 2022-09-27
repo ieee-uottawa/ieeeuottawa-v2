@@ -53,7 +53,7 @@ sections:
       - type: FeaturedItem
         elementId: ''
         title: Photonics Guest Speaker Talk
-        titleFr: Titre de l'article
+        titleFr: Séminaire sur la photonique
         subtitle: ''
         subtitleFr: ''
         text: >-
