@@ -89,7 +89,7 @@ sections:
         isIcon: false
         featuredImage:
           type: ImageBlock
-          url: /images/events/2022-2023/spectroscopy-speaker-talk.jpeg
+          url: /images/fall2022-by-elections.jpeg
           altText: Fall By Elections Poster
         featuredIcon:
           label: Apple
