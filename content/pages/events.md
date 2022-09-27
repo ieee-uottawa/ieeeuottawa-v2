@@ -76,9 +76,8 @@ sections:
         titleFr: Élections partielles de l'automne
         subtitle: '10/05/2022, 4PM EST.'
         subtitleFr: '05/10/2022, 16:00 EST.'
-        text: >
-          Location: ARC 233 & on
-          [Zoom](https://us06web.zoom.us/j/82543006085?pwd=b09oOG9weWFrckl2TXR6SmdNMkpDdz09)
+        text: |
+          Run for vacant positions in our execs team!
         textFr: >
           Lieu: ARC 233 et sur
           [Zoom](https://us06web.zoom.us/j/82543006085?pwd=b09oOG9weWFrckl2TXR6SmdNMkpDdz09)
