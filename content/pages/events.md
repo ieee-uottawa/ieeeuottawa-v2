@@ -126,7 +126,7 @@ sections:
             style: secondary
             elementId: ''
     actions: []
-    columns: 3
+    columns: 2
     spacingX: 16
     spacingY: 16
     enableHover: false
