@@ -137,7 +137,7 @@ sections:
       - type: FeaturedItem
         elementId: ''
         title: DART Watch Party
-        titleFr: Lancement de DART - Soi
+        titleFr: Soirée de visionnement du lancement de DART
         subtitle: '09/30/2022, 2PM'
         subtitleFr: '30/09/2022, 14:00'
         text: >
