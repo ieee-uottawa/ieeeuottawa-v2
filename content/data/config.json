@@ -93,11 +93,11 @@
                 ]
             },
             {
-                        "type": "Link",
-                        "label": "Office Hours",
-                        "url": "/office-hours",
-                        "altText": "Office Hours"
-                    },
+                "type": "Link",
+                "label": "Office Hours",
+                "url": "/office-hours",
+                "altText": "Office Hours"
+            },
             {
                 "type": "Link",
                 "label": "Events",
