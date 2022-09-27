@@ -52,7 +52,7 @@ sections:
     items:
       - type: FeaturedItem
         elementId: ''
-        title: Photnics Guest Speaker Talk
+        title: Photonics Guest Speaker Talk
         titleFr: Titre de l'article
         subtitle: ''
         subtitleFr: ''
