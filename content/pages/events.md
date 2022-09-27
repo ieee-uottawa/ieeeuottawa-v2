@@ -52,29 +52,22 @@ sections:
     items:
       - type: FeaturedItem
         elementId: ''
-        title: Photonics Guest Speaker Talk
+        title: Photonics Seminar
         titleFr: Séminaire sur la photonique
-        subtitle: ''
-        subtitleFr: ''
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        textFr: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+        subtitle: '09/09/2022, 2PM'
+        subtitleFr: '09/09/2022, 14:00'
+        text: |
+          Location: ARC 233 & on [Zoom](https://us06web.zoom.us/j/82062546196)
+        textFr: |
+          Lieu: ARC 233 et sur [Zoom](https://us06web.zoom.us/j/82062546196)
         isIcon: false
         featuredImage:
           type: ImageBlock
-          url: >-
-            https://assets.stackbit.com/components/images/default/default-image.png
-          altText: Item image
-        featuredIcon: apple
-        actions: []
-        styles:
-          self:
-            textAlign: left
+          url: /images/events/2022-2023/photonics-guest-speaker-talk.jpeg
+          altText: Photonics Photonics Seminar Event
+        featuredIcon:
+          label: Apple
+          value: apple
     actions: []
     columns: 1
     spacingX: 16
