@@ -89,7 +89,7 @@ sections:
         isIcon: false
         featuredImage:
           type: ImageBlock
-          url: /images/fall2022-by-elections.jpeg
+          url: /images/events/2022-2023/fall2022-by-elections.jpeg
           altText: Fall By Elections Poster
         featuredIcon:
           label: Apple
