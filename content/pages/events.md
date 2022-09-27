@@ -49,7 +49,32 @@ sections:
     titleFr: Prochains événements
     subtitle: There are currently no upcoming events planned. Check again soon!
     subtitleFr: Il n'y a actuellement aucun événement prévu. Repassez bientôt !
-    items: []
+    items:
+      - type: FeaturedItem
+        elementId: ''
+        title: Item Title
+        titleFr: Titre de l'article
+        subtitle: ''
+        subtitleFr: ''
+        text: >-
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+          explicabo.
+        textFr: >-
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+          explicabo.
+        isIcon: false
+        featuredImage:
+          type: ImageBlock
+          url: >-
+            https://assets.stackbit.com/components/images/default/default-image.png
+          altText: Item image
+        featuredIcon: apple
+        actions: []
+        styles:
+          self:
+            textAlign: left
     actions: []
     columns: 1
     spacingX: 16
@@ -84,8 +109,8 @@ sections:
         elementId: ''
         title: Photonics Seminar
         titleFr: Séminaire sur la photonique
-        subtitle: 09/09/2022, 2PM
-        subtitleFr: 09/09/2022, 14:00
+        subtitle: '09/09/2022, 2PM'
+        subtitleFr: '09/09/2022, 14:00'
         text: |
           Location: ARC 233 & on [Zoom](https://us06web.zoom.us/j/82062546196)
         textFr: |
