@@ -65,7 +65,7 @@ sections:
         isIcon: false
         featuredImage:
           type: ImageBlock
-          url: /images/spectroscopy-speaker-talk.jpeg
+          url: /images/eventsspectroscopy-speaker-talk.jpeg
           altText: Photonics Photonics Seminar Event
         featuredIcon:
           label: Apple
