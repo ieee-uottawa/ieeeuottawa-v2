@@ -79,8 +79,8 @@ sections:
         text: |
           Run for vacant positions in our execs team!
         textFr: >
-          Lieu: ARC 233 et sur
-          [Zoom](https://us06web.zoom.us/j/82543006085?pwd=b09oOG9weWFrckl2TXR6SmdNMkpDdz09)
+          Présentez votre candidature aux postes vacants de notre équipe
+          d'exécutifs !
         isIcon: false
         featuredImage:
           type: ImageBlock
