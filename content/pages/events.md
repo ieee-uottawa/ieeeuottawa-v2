@@ -52,7 +52,7 @@ sections:
     items:
       - type: FeaturedItem
         elementId: ''
-        title: Item Title
+        title: Guest Speaker Talk
         titleFr: Titre de l'article
         subtitle: ''
         subtitleFr: ''
