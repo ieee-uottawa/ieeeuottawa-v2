@@ -90,7 +90,7 @@ sections:
         featuredImage:
           type: ImageBlock
           url: /images/events/2022-2023/spectroscopy-speaker-talk.jpeg
-          altText: Spectroscopy Seminar Poster
+          altText: Fall By Elections Poster
         featuredIcon:
           label: Apple
           value: apple
