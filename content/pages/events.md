@@ -81,6 +81,16 @@ sections:
         featuredIcon:
           label: Apple
           value: apple
+        actions:
+          - type: Button
+            label: Learn More
+            altText: ''
+            url: 'https://www.instagram.com/p/Ci3p2q7tZKk/'
+            showIcon: false
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
       - type: FeaturedItem
         elementId: ''
         title: Fall By-Elections
