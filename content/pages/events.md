@@ -83,6 +83,9 @@ sections:
         textFr: >
           Présentez votre candidature aux postes vacants de notre équipe
           d'exécutifs !
+
+
+          Lieu: STE 4026
         isIcon: false
         featuredImage:
           type: ImageBlock
