@@ -34,7 +34,7 @@ sections:
       - type: Button
         label: Office Hours
         altText: ''
-        url: '/about/#get-involved'
+        url: /office-hours
         showIcon: false
         icon: arrowRight
         iconPosition: right
