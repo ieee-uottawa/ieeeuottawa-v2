@@ -271,6 +271,11 @@
         },
         {
             "type": "MetaTag",
+            "property": "og:image",
+            "content": "/images/image_3.JPEG"
+        },
+        {
+            "type": "MetaTag",
             "property": "twitter:image",
             "content": "/images/image_3.JPEG"
         },
@@ -278,11 +283,6 @@
             "type": "MetaTag",
             "property": "twitter:image:alt",
             "content": "IEEE uOttawa Student Branch Hero Image"
-        },
-        {
-            "type": "MetaTag",
-            "property": "og:image",
-            "content": "/images/image_3.JPEG"
         }
     ],
     "defaultSocialImage": "/images/LOGO_BLUE 2.svg"
