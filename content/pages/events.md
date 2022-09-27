@@ -141,8 +141,11 @@ sections:
         subtitle: '09/26/2022, 6PM - 7:30PM'
         subtitleFr: '26/09/2022, 18:00 - 19:30'
         text: >
-          Location: ARC 233 & on
-          [Zoom](https://us06web.zoom.us/j/82543006085?pwd=b09oOG9weWFrckl2TXR6SmdNMkpDdz09)
+          Location: STE 4026
+
+
+          Join us to watch as NASA makes history with the DART (Double Asteroid
+          Redirection Test) mission.
         textFr: >
           Lieu: ARC 233 et sur
           [Zoom](https://us06web.zoom.us/j/82543006085?pwd=b09oOG9weWFrckl2TXR6SmdNMkpDdz09)
