@@ -149,7 +149,7 @@ sections:
         isIcon: false
         featuredImage:
           type: ImageBlock
-          url: /images/events/2022-2023/spectroscopy-speaker-talk.jpeg
+          url: /images/DART Launch Event.jpeg
           altText: Spectroscopy Seminar Poster
         featuredIcon:
           label: Apple
