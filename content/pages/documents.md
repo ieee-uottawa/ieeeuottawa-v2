@@ -159,7 +159,7 @@ sections:
           self:
             textAlign: left
         subtitle: '2022-07-10'
-        subtitleFr: '10-07-2022'
+        subtitleFr: 10-07-2022
     actions: []
     columns: 2
     spacingX: 28
@@ -202,4 +202,5 @@ metaTags:
   - type: MetaTag
     property: 'twitter:site'
     content: '@ieeeuottawa'
+metaTitle: Documents
 ---
