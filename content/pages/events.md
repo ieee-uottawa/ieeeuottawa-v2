@@ -54,7 +54,7 @@ sections:
         elementId: ''
         title: Photonics Seminar
         titleFr: Séminaire sur la photonique
-        subtitle: '09/09/2022, 2PM'
+        subtitle: '09/30/2022, 2PM'
         subtitleFr: '09/09/2022, 14:00'
         text: |
           Location: ARC 233 & on [Zoom](https://us06web.zoom.us/j/82062546196)
