@@ -160,6 +160,16 @@ sections:
         featuredIcon:
           label: Apple
           value: apple
+        actions:
+          - type: Button
+            label: Learn More
+            altText: ''
+            url: 'https://www.instagram.com/p/Ci3qn9dNlHU/'
+            showIcon: false
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
       - type: FeaturedItem
         elementId: ''
         title: Photonics Seminar
