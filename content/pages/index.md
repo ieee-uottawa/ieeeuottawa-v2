@@ -32,7 +32,7 @@ sections:
         icon: arrowRight
         showIcon: true
       - type: Button
-        label: Get Involved
+        label: Office Hours
         altText: ''
         url: '/about/#get-involved'
         showIcon: false
