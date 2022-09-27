@@ -139,7 +139,7 @@ sections:
         title: DART Watch Party
         titleFr: Soirée de visionnement du lancement de DART
         subtitle: '09/26/2022, 6PM - 7:30PM'
-        subtitleFr: '30/09/2022, 14:00'
+        subtitleFr: '26/09/2022, 14:00'
         text: >
           Location: ARC 233 & on
           [Zoom](https://us06web.zoom.us/j/82543006085?pwd=b09oOG9weWFrckl2TXR6SmdNMkpDdz09)
