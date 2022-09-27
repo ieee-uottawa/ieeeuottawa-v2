@@ -78,6 +78,8 @@ sections:
         subtitleFr: '05/10/2022, 16:00 EST.'
         text: |
           Run for vacant positions in our execs team!
+
+          Location: STE 4026
         textFr: >
           Présentez votre candidature aux postes vacants de notre équipe
           d'exécutifs !
