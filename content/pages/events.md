@@ -94,7 +94,7 @@ sections:
             label: Learn More
             altText: ''
             url: 'https://www.instagram.com/p/Ci1Aw-hNyjR/'
-            showIcon: false
+            showIcon: true
             icon: arrowRight
             iconPosition: right
             style: secondary
