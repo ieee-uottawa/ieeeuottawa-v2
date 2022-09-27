@@ -271,7 +271,7 @@
         },
         {
             "type": "MetaTag",
-            "property": "og:image",
+            "property": "twitter:card",
             "content": ""
         }
     ],
