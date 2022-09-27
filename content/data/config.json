@@ -25,6 +25,12 @@
                         "altText": "About"
                     },
                     {
+                "type": "Link",
+                "label": "Office Hours",
+                "url": "/office-hours",
+                "altText": "Office Hours"
+            },
+                    {
                         "type": "Link",
                         "label": "WIE",
                         "altText": "WIE",
