@@ -122,6 +122,26 @@ sections:
     items:
       - type: FeaturedItem
         elementId: ''
+        title: Spectroscopy Seminar
+        titleFr: Séminaire sur la Spectroscopie
+        subtitle: '09/30/2022, 2PM'
+        subtitleFr: '30/09/2022, 14:00'
+        text: >
+          Location: ARC 233 & on
+          [Zoom](https://us06web.zoom.us/j/82543006085?pwd=b09oOG9weWFrckl2TXR6SmdNMkpDdz09)
+        textFr: >
+          Lieu: ARC 233 et sur
+          [Zoom](https://us06web.zoom.us/j/82543006085?pwd=b09oOG9weWFrckl2TXR6SmdNMkpDdz09)
+        isIcon: false
+        featuredImage:
+          type: ImageBlock
+          url: /images/events/2022-2023/spectroscopy-speaker-talk.jpeg
+          altText: Spectroscopy Seminar Poster
+        featuredIcon:
+          label: Apple
+          value: apple
+      - type: FeaturedItem
+        elementId: ''
         title: Photonics Seminar
         titleFr: Séminaire sur la photonique
         subtitle: '09/09/2022, 2PM'
