@@ -56,9 +56,14 @@ sections:
         titleFr: Séminaire sur la Spectroscopie
         subtitle: '09/30/2022, 2PM'
         subtitleFr: '30/09/2022, 14:00'
-        text: >
+        text: >+
           Location: ARC 233 & on
           [Zoom](https://us06web.zoom.us/j/82543006085?pwd=b09oOG9weWFrckl2TXR6SmdNMkpDdz09)
+
+
+          Ever wondered what ultra-narrow optical spectral features are?
+          Interested in spectroscopy? This event is for you!
+
         textFr: >
           Lieu: ARC 233 et sur
           [Zoom](https://us06web.zoom.us/j/82543006085?pwd=b09oOG9weWFrckl2TXR6SmdNMkpDdz09)
