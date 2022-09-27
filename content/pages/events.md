@@ -59,8 +59,9 @@ sections:
         text: >
           Location: ARC 233 & on
           [Zoom](https://us06web.zoom.us/j/82543006085?pwd=b09oOG9weWFrckl2TXR6SmdNMkpDdz09)
-        textFr: |
-          Lieu: ARC 233 et sur [Zoom](https://us06web.zoom.us/j/82062546196)
+        textFr: >
+          Lieu: ARC 233 et sur
+          [Zoom](https://us06web.zoom.us/j/82543006085?pwd=b09oOG9weWFrckl2TXR6SmdNMkpDdz09)
         isIcon: false
         featuredImage:
           type: ImageBlock
