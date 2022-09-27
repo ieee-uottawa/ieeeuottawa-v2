@@ -66,7 +66,7 @@ sections:
         featuredImage:
           type: ImageBlock
           url: /images/events/2022-2023/spectroscopy-speaker-talk.jpeg
-          altText: Spectroscopy Seminar
+          altText: Spectroscopy Seminar Poster
         featuredIcon:
           label: Apple
           value: apple
