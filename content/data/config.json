@@ -273,6 +273,11 @@
             "type": "MetaTag",
             "property": "twitter:image",
             "content": "/images/image_3.JPEG"
+        },
+        {
+            "type": "MetaTag",
+            "property": "og:title",
+            "content": ""
         }
     ],
     "defaultSocialImage": "/images/LOGO_BLUE 2.svg"
