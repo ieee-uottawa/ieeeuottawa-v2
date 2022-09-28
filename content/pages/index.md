@@ -275,7 +275,7 @@ sections:
     colors: colors-d
     elementId: ''
     backgroundSize: full
-    title: Let's do this
+    title: Become a member
     titleFr: Allons-y !
     text: >-
       The Stackbit theme is flexible and scalable to every need. It can manage
