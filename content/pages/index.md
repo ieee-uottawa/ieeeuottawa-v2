@@ -276,7 +276,10 @@ sections:
     elementId: ''
     title: Become a member
     titleFr: Devenez membre
-    subtitle: ''
+    subtitle: >-
+      Join a community of over 420,000 technology and engineering professionals
+      united by a common desire to continuously learn, interact, collaborate,
+      and innovate
     subtitleFr: Section sous-titre
     items:
       - type: FeaturedItem
