@@ -280,7 +280,10 @@ sections:
       Join a community of over 420,000 technology and engineering professionals
       united by a common desire to continuously learn, interact, collaborate,
       and innovate
-    subtitleFr: Section sous-titre
+    subtitleFr: >-
+      Rejoignez une communauté de plus de 420 000 professionnels de la
+      technologie et de l'ingénierie unis par un désir commun d'apprendre,
+      d'interagir, de collaborer et d'innover en permanence.
     items:
       - type: FeaturedItem
         title: Faster
