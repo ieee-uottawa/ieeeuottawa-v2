@@ -30,7 +30,7 @@ sections:
         style: primary
         iconPosition: right
         icon: arrowRight
-        showIcon: true
+        showIcon: false
       - type: Button
         label: Office Hours
         altText: Office Hours / Heures de Bureau
