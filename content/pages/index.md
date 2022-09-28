@@ -276,7 +276,7 @@ sections:
     elementId: ''
     backgroundSize: full
     title: Become a member
-    titleFr: Allons-y !
+    titleFr: Devenez membre
     text: >-
       The Stackbit theme is flexible and scalable to every need. It can manage
       any layout and any screen.
