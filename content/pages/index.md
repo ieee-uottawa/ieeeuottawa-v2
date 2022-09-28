@@ -277,9 +277,23 @@ sections:
     backgroundSize: full
     title: Become a member
     titleFr: Devenez membre
-    text: >-
-      The Stackbit theme is flexible and scalable to every need. It can manage
-      any layout and any screen.
+    text: >+
+      Join a community of over 420,000 technology and engineering professionals
+      united by a common desire to continuously learn, interact, collaborate,
+      and innovate. As a Student/Graduate Student Member of IEEE you:
+
+
+      *   Network with other professionals in your local area or within a
+      specific technical interest
+
+
+      *   Are mentored by professional engineers and technologists
+
+
+      *   Obtain access to the largest library of electrical engineering,
+      computer science, and electronics technical literature as well as the
+      latest technology trends, industry news, and events.
+
     textFr: >-
       The Stackbit theme is flexible and scalable to every need. It can manage
       any layout and any screen.
