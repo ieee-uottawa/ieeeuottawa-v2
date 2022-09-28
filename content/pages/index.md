@@ -171,7 +171,7 @@ sections:
     title: Upcoming Events
     titleFr: Prochains événements
     subtitle: ''
-    subtitleFr: Il n'y a actuellement aucun événement prévu. Repassez bientôt !
+    subtitleFr: ''
     items:
       - type: FeaturedItem
         elementId: ''
