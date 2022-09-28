@@ -275,7 +275,7 @@ sections:
     colors: colors-c
     elementId: ''
     title: Become a member
-    titleFr: À la une
+    titleFr: Devenez membre
     subtitle: ''
     subtitleFr: Section sous-titre
     items:
