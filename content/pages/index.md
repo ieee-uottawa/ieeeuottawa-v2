@@ -295,9 +295,24 @@ sections:
       électrique, en informatique et en électronique, ainsi qu'aux dernières
       tendances technologiques, aux nouvelles de l'industrie et aux événements.
 
-    textFr: >-
-      The Stackbit theme is flexible and scalable to every need. It can manage
-      any layout and any screen.
+    textFr: >+
+      Rejoignez une communauté de plus de 420 000 professionnels de la
+      technologie et de l'ingénierie unis par un désir commun d'apprendre,
+      d'interagir, de collaborer et d'innover en permanence. En tant que membre
+      étudiant de l'IEEE vous aurez accès à:
+
+
+      *   un réseau de professionnels dans votre région ou dans un domaine
+      technique spécifique.
+
+
+      *   l'encadrement par des ingénieurs et technologues professionnels
+
+
+      *   la plus grande bibliothèque de littérature technique en génie
+      électrique, en informatique et en électronique, ainsi qu'aux dernières
+      tendances technologiques, aux nouvelles de l'industrie et aux événements.
+
     actions:
       - type: Button
         label: Try it now
