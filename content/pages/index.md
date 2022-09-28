@@ -25,7 +25,7 @@ sections:
     subtitleFr: avec la meilleure sous-association du campus.
     actions:
       - type: Button
-        label: Become a member
+        label: Learn More
         url: /about
         style: primary
         iconPosition: right
