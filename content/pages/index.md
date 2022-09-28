@@ -278,22 +278,21 @@ sections:
     title: Become a member
     titleFr: Devenez membre
     text: >+
-      Rejoignez une communauté de plus de 420 000 professionnels de la
-      technologie et de l'ingénierie unis par un désir commun d'apprendre,
-      d'interagir, de collaborer et d'innover en permanence. En tant que membre
-      étudiant de l'IEEE vous aurez accès à:
+      Join a community of over 420,000 technology and engineering professionals
+      united by a common desire to continuously learn, interact, collaborate,
+      and innovate. As a Student/Graduate Student Member of IEEE, you:
 
 
-      *   un réseau de professionnels dans votre région ou dans un domaine
-      technique spécifique.
+      *   Network with other professionals in your local area or within a
+      specific technical interest
 
 
-      *   l'encadrement par des ingénieurs et technologues professionnels
+      *   Are mentored by professional engineers and technologists
 
 
-      *   la plus grande bibliothèque de littérature technique en génie
-      électrique, en informatique et en électronique, ainsi qu'aux dernières
-      tendances technologiques, aux nouvelles de l'industrie et aux événements.
+      *   Obtain access to the largest library of electrical engineering,
+      computer science, and electronics technical literature as well as the
+      latest technology trends, industry news, and events.
 
     textFr: >+
       Rejoignez une communauté de plus de 420 000 professionnels de la
