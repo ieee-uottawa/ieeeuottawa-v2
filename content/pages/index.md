@@ -274,7 +274,7 @@ sections:
   - type: FeaturedItemsSection
     colors: colors-c
     elementId: ''
-    title: Key value propositions
+    title: Become a member
     titleFr: À la une
     subtitle: ''
     subtitleFr: Section sous-titre
