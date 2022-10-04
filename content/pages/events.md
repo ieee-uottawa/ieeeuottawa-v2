@@ -95,14 +95,14 @@ sections:
         elementId: ''
         title: Fall By-Elections
         titleFr: Élections partielles de l'automne
-        subtitle: '10/05/2022, 4PM EST.'
-        subtitleFr: '05/10/2022, 16:00 EST.'
+        subtitle: '10/05/2022, 7PM EST.'
+        subtitleFr: '05/10/2022, 19:00 EST.'
         text: |
           Run for vacant positions in our execs team!
 
-          Location: STE 4026
+          Location: STE 4026 or on [Zoom](https://us06web.zoom.us/j/95068465084?pwd=SjV2aFFoTjF2bHY0UHN6VTEvaWlmUT09)
         textFr: >
-          Lieu: STE 4026
+          Lieu: STE 4026 ou sur [Zoom](https://us06web.zoom.us/j/95068465084?pwd=SjV2aFFoTjF2bHY0UHN6VTEvaWlmUT09)
 
 
           Présentez votre candidature aux postes vacants de notre équipe
