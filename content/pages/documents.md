@@ -149,6 +149,24 @@ sections:
           - type: Button
             label: View
             altText: ''
+            url: /files/IEEE_Executive_Meeting_Minutes_2022-09-17.pdf
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+        styles:
+          self:
+            textAlign: left
+        subtitle: '2022-09-17'
+        subtitleFr: 17-09-2022
+      - type: FeaturedItem
+        title: IEEE Executive Meeting Minutes
+        titleFr: Comptes rendus de la réunion exécutive
+        actions:
+          - type: Button
+            label: View
+            altText: ''
             url: /files/IEEE_Executive_Meeting_Minutes_2022-07-10.pdf
             showIcon: true
             icon: arrowRight
