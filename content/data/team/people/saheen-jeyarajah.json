@@ -1,0 +1,9 @@
+{
+    "type": "Person",
+    "firstName": "Vacant",
+    "lastName": "",
+    "image": {
+        "url": "/images/team/vacant.jpg",
+        "altText": "Vacant"
+    }
+}
