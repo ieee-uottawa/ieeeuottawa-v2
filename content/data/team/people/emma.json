@@ -1,9 +1,9 @@
 {
     "type": "Person",
-    "firstName": "Maryam",
-    "lastName": "Abbasi",
+    "firstName": "Emma",
+    "lastName": "",
     "image": {
         "url": "/images/team/placeholder.jpeg",
-        "altText": "Maryam Abbasi"
+        "altText": "Emma"
     }
 }
