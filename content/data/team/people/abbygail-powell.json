@@ -1,0 +1,9 @@
+{
+    "type": "Person",
+    "firstName": "Abbygail",
+    "lastName": "Powell",
+    "image": {
+        "url": "/images/team/placeholder.jpeg",
+        "altText": "Vacant"
+    }
+}
