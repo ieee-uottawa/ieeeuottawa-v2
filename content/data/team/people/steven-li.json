@@ -5,5 +5,16 @@
     "image": {
         "url": "/images/team/steven-li.png",
         "altText": "Steven Li photo"
-    }
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Facebook",
+            "altText": "",
+            "url": "https://www.linkedin.com/in/-steven/",
+            "icon": "linkedin",
+            "style": "link",
+            "elementId": ""
+        }
+    ]
 }
