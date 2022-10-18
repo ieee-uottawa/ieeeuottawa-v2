@@ -149,6 +149,42 @@ sections:
           - type: Button
             label: View
             altText: ''
+            url: /files/IEEE_Executive_Meeting_Minutes_2022-10-12_(Emergency_Budget_Meeting).pdf
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+        styles:
+          self:
+            textAlign: left
+        subtitle: '2022-10-12'
+        subtitleFr: 12-10-2022
+      - type: FeaturedItem
+        title: IEEE Executive Meeting Minutes
+        titleFr: Comptes rendus de la réunion exécutive
+        actions:
+          - type: Button
+            label: View
+            altText: ''
+            url: /files/IEEE_Executive_Meeting_Minutes_2022-10-05.pdf
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+        styles:
+          self:
+            textAlign: left
+        subtitle: '2022-10-05'
+        subtitleFr: 05-10-2022
+      - type: FeaturedItem
+        title: IEEE Executive Meeting Minutes
+        titleFr: Comptes rendus de la réunion exécutive
+        actions:
+          - type: Button
+            label: View
+            altText: ''
             url: /files/IEEE_Executive_Meeting_Minutes_2022-09-17.pdf
             showIcon: true
             icon: arrowRight
