@@ -141,7 +141,7 @@
         },
         "logo": {
             "type": "ImageBlock",
-            "url": "/images/LOGO_BLUE 2.svg",
+            "url": "/images/LOGO_HALLOWEEN.svg",
             "altText": "IEEE uOttawa Logo",
             "caption": "Caption of the image",
             "width": 114,
@@ -285,5 +285,5 @@
             "content": "IEEE uOttawa Student Branch Hero Image"
         }
     ],
-    "defaultSocialImage": "/images/LOGO_BLUE 2.svg"
+    "defaultSocialImage": "/images/LOGO_HALLOWEEN.svg"
 }
