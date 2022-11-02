@@ -1,9 +1,20 @@
 {
     "type": "Person",
     "firstName": "Emma",
-    "lastName": "",
+    "lastName": "Tang",
     "image": {
-        "url": "/images/team/placeholder.jpeg",
+        "url": "/images/emma-tang.jpg",
         "altText": "Emma"
-    }
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "LinkedIn",
+            "altText": "",
+            "url": "https://www.linkedin.com/in/emmatang-/",
+            "icon": "linkedin",
+            "style": "link",
+            "elementId": ""
+        }
+    ]
 }
