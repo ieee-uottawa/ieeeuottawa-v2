@@ -5,5 +5,16 @@
     "image": {
         "url": "/images/team/placeholder.jpeg",
         "altText": "Emma"
-    }
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "Facebook",
+            "altText": "",
+            "url": "https://www.linkedin.com/in/emmatang-/",
+            "icon": "linkedin",
+            "style": "link",
+            "elementId": ""
+        }
+    ]
 }
