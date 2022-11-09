@@ -1,0 +1,18 @@
+{
+    "type": "Person",
+    "firstName": "Mingye",
+    "lastName": "Chen",
+    "image": {
+        "url": "/images/team/mingye-chen.jpg",
+        "altText": "Mingye Chen photo"
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "altText": "LinkedIn",
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/mingye-chen-ca/",
+            "icon": "linkedin"
+        }
+    ]
+}
