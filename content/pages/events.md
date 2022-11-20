@@ -613,10 +613,10 @@ sections:
         text: >
           Join us to get to know your big eng/little engs and some of the women
           on campus who already have your back.
-        textFr: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+        textFr: >
+          Rejoignez-nous pour faire connaissance avec vos big eng/little engs et
+          certaines des femmes présentes sur le campus qui vous soutiennent
+          déjà.
         isIcon: false
         featuredImage:
           type: ImageBlock
