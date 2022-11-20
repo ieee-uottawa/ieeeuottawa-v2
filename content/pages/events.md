@@ -699,7 +699,7 @@ sections:
         featuredImage:
           type: ImageBlock
           url: /images/microchips-and-dips.jpeg
-          altText: Item image
+          altText: Microchips & Dips Poster
         featuredIcon: apple
         actions: []
         styles:
