@@ -610,10 +610,9 @@ sections:
         titleFr: Soirée de jeux BELE
         subtitle: '11/10/2022, 5PM - 8PM'
         subtitleFr: '11/10/2022, 17:00PM - 20:00PM'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+        text: >
+          Join us to get to know your big eng/little engs and some of the women
+          on campus who already have your back.
         textFr: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
