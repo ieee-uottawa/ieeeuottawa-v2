@@ -149,6 +149,7 @@ sections:
       actions:
         justifyContent: flex-start
     titleFr: Evénements prochains
+    subtitle: Check out our upcoming events
   - type: FeaturedItemsSection
     colors: colors-d
     elementId: ''
