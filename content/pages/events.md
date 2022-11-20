@@ -622,7 +622,7 @@ sections:
         featuredImage:
           type: ImageBlock
           url: /images/bele-game-night.jpeg
-          altText: Item image
+          altText: BELE Game Night Poster
         featuredIcon: apple
         actions: []
         styles:
