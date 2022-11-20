@@ -45,7 +45,7 @@ sections:
   - type: FeaturedItemsSection
     colors: colors-c
     elementId: ''
-    title: Upcoming Events
+    title: Comp Eng Hangout
     titleFr: Prochains événements
     subtitle: ''
     subtitleFr: ''
