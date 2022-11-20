@@ -646,7 +646,7 @@ sections:
         elementId: ''
         title: CEG Career Panel
         titleFr: Panel sur les carrières en CEG
-        subtitle: ''
+        subtitle: 11/
         subtitleFr: ''
         text: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
