@@ -193,7 +193,7 @@ sections:
         title: BELE Game Night
         titleFr: Soirée de jeux BELE
         subtitle: '11/10/2022, 5PM - 8PM'
-        subtitleFr: '11/10/2022, 17:00- 20:00'
+        subtitleFr: '10/11/2022, 17:00- 20:00'
         text: >
           Location: CBY A04
 
