@@ -46,7 +46,7 @@ sections:
     colors: colors-c
     elementId: ''
     title: Upcoming Events
-    subtitleFr: ''
+    subtitleFr: Consultez nos événements à venir
     items:
       - type: FeaturedItem
         elementId: ''
