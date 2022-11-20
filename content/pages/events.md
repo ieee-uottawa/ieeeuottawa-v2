@@ -581,7 +581,7 @@ sections:
           elementId: ''
       - type: FeaturedItem
         elementId: ''
-        title: Network with Ciena
+        title: Networking with Ciena
         titleFr: Titre de l'article
         subtitle: ''
         subtitleFr: ''
