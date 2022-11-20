@@ -83,7 +83,7 @@ sections:
             label: Learn More
             altText: ''
             url: 'https://www.instagram.com/p/Ck6xk_Ou7m6/'
-            showIcon: false
+            showIcon: true
             icon: arrowRight
             iconPosition: right
             style: secondary
