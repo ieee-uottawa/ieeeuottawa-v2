@@ -45,7 +45,7 @@ sections:
   - type: FeaturedItemsSection
     colors: colors-c
     elementId: ''
-    title: Comp Eng Hangout
+    title: Upcoming Events
     titleFr: Rencontre de génie d'info
     subtitleFr: ''
     items:
