@@ -645,7 +645,7 @@ sections:
       - type: FeaturedItem
         elementId: ''
         title: CEG Career Panel
-        titleFr: Titre de l'article
+        titleFr: CEG Panel
         subtitle: ''
         subtitleFr: ''
         text: >-
