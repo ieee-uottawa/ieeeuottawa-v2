@@ -676,7 +676,7 @@ sections:
         elementId: ''
         title: Microchips & DIps
         titleFr: Microchips & DIps
-        subtitle: Nov
+        subtitle: 'November '
         subtitleFr: ''
         text: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
