@@ -317,7 +317,16 @@ sections:
           altText: Ciena Networking Event Poster
           caption: Ciena Networking Event Poster
         featuredIcon: apple
-        actions: []
+        actions:
+          - type: Button
+            label: Learn More
+            altText: ''
+            url: 'https://www.instagram.com/p/CjY1gA3Jwec/'
+            showIcon: false
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
         styles:
           self:
             textAlign: left
