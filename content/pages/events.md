@@ -713,10 +713,16 @@ sections:
         titleFr: Elections partielles de l'automne WIE
         subtitle: '11/20/2022, 12:30PM'
         subtitleFr: '20/11/2022, 12:30'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+        text: >
+          Location:
+          [Zoom](https://us06web.zoom.us/j/95068465084?pwd=SjV2aFFoTjF2bHY0UHN6VTEvaWlmUT09)
+          or SITE 4026
+
+
+
+
+          If you’re interested in being a part of IEEE WIE uOttawa, join us on
+          Sunday, November 20th, 2022 at 12:30 PM in SITE 4026.
         textFr: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
