@@ -242,7 +242,7 @@ sections:
             label: Learn More
             altText: ''
             url: 'https://www.instagram.com/p/CkQ3tWeM9YJ/'
-            showIcon: false
+            showIcon: true
             icon: arrowRight
             iconPosition: right
             style: secondary
