@@ -157,6 +157,40 @@ sections:
     items:
       - type: FeaturedItem
         elementId: ''
+        title: Fall By-Elections
+        titleFr: Élections partielles de l'automne
+        subtitle: '10/05/2022, 7PM EST.'
+        subtitleFr: '05/10/2022, 19:00 EST.'
+        text: |
+          Run for vacant positions in our execs team!
+
+          Location: STE 4026 or on [Zoom](https://us06web.zoom.us/j/95068465084?pwd=SjV2aFFoTjF2bHY0UHN6VTEvaWlmUT09)
+        textFr: >
+          Lieu: STE 4026 ou sur [Zoom](https://us06web.zoom.us/j/95068465084?pwd=SjV2aFFoTjF2bHY0UHN6VTEvaWlmUT09)
+
+
+          Présentez votre candidature aux postes vacants de notre équipe
+          d'exécutifs !
+        isIcon: false
+        featuredImage:
+          type: ImageBlock
+          url: /images/events/2022-2023/fall2022-by-elections.jpeg
+          altText: Fall By Elections Poster
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - type: Button
+            label: Learn More
+            altText: ''
+            url: 'https://www.instagram.com/p/Ci1Aw-hNyjR/'
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
+      - type: FeaturedItem
+        elementId: ''
         title: Spectroscopy Seminar
         titleFr: Séminaire sur la Spectroscopie
         subtitle: '09/30/2022, 2PM'
