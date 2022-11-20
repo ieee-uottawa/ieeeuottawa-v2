@@ -196,6 +196,8 @@ sections:
         subtitle: '10/20/2022, 6:00 PM - 8:00 PM'
         subtitleFr: '20/10/2022, 18:00 - 20:00 PM'
         text: >
+          Location: STEM 117
+
 
           It’s time for some networking! Join CSSA, ESS, SESA, and IEEE for one
           of Ciena’s biggest networking event!
