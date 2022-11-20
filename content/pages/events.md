@@ -710,7 +710,7 @@ sections:
       - type: FeaturedItem
         elementId: ''
         title: WIE Fall By-Elections
-        titleFr: Titre de l'article
+        titleFr: Election partiel;es
         subtitle: ''
         subtitleFr: ''
         text: >-
