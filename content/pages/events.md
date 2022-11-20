@@ -686,10 +686,15 @@ sections:
           Interested in learning about embedded systems? Sign up for our 3 part
           workshops where we'll be teaching you to how to build and program an
           embedded device from scratch!
-        textFr: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+        textFr: >
+          Lieu: STEM 117
+
+
+
+
+          Vous souhaitez en savoir plus sur les systèmes embarqués ?
+          Inscrivez-vous à nos ateliers en 3 parties où nous vous apprendrons à
+          construire et programmer un dispositif embarqué à partir de zéro !
         isIcon: false
         featuredImage:
           type: ImageBlock
