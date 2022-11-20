@@ -677,10 +677,15 @@ sections:
         title: Microchips & DIps
         titleFr: Microchips & DIps
         subtitleFr: '12/11/2022, 13:00 - 15:00'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+        text: >
+          Location: STEM 117
+
+
+
+
+          Interested in learning about embedded systems? Sign up for our 3 part
+          workshops where we'll be teaching you to how to build and program an
+          embedded device from scratch!
         textFr: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
