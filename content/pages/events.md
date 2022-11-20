@@ -160,6 +160,37 @@ sections:
     items:
       - type: FeaturedItem
         elementId: ''
+        title: BELE Game Night
+        titleFr: Soirée de jeux BELE
+        subtitle: '11/10/2022, 5PM - 8PM'
+        subtitleFr: '11/10/2022, 17:00PM - 20:00PM'
+        text: >
+          Location: CBY A04
+
+
+
+
+          Join us to get to know your big eng/little engs and some of the women
+          on campus who already have your back.
+        textFr: >
+          Lieu: CBY A04
+
+
+          Rejoignez-nous pour faire connaissance avec vos big eng/little engs et
+          certaines des femmes présentes sur le campus qui vous soutiennent
+          déjà.
+        isIcon: false
+        featuredImage:
+          type: ImageBlock
+          url: /images/bele-game-night.jpeg
+          altText: BELE Game Night Poster
+        featuredIcon: apple
+        actions: []
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
         title: Networking with Ciena
         titleFr: Networking avec Ciena
         subtitle: '10/20/2022, 6:00 PM - 8:00 PM'
@@ -604,37 +635,6 @@ sections:
           altText: WIE Tech Panel Poster
           caption: WIE Tech Panel Poster
           elementId: ''
-      - type: FeaturedItem
-        elementId: ''
-        title: BELE Game Night
-        titleFr: Soirée de jeux BELE
-        subtitle: '11/10/2022, 5PM - 8PM'
-        subtitleFr: '11/10/2022, 17:00PM - 20:00PM'
-        text: >
-          Location: CBY A04
-
-
-
-
-          Join us to get to know your big eng/little engs and some of the women
-          on campus who already have your back.
-        textFr: >
-          Lieu: CBY A04
-
-
-          Rejoignez-nous pour faire connaissance avec vos big eng/little engs et
-          certaines des femmes présentes sur le campus qui vous soutiennent
-          déjà.
-        isIcon: false
-        featuredImage:
-          type: ImageBlock
-          url: /images/bele-game-night.jpeg
-          altText: BELE Game Night Poster
-        featuredIcon: apple
-        actions: []
-        styles:
-          self:
-            textAlign: left
     actions:
       - type: Button
         label: More
