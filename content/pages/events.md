@@ -97,12 +97,15 @@ sections:
         titleFr: Élections partielles de l'automne
         subtitle: '10/05/2022, 7PM EST.'
         subtitleFr: '05/10/2022, 19:00 EST.'
-        text: |
+        text: >
           Run for vacant positions in our execs team!
 
-          Location: STE 4026 or on [Zoom](https://us06web.zoom.us/j/95068465084?pwd=SjV2aFFoTjF2bHY0UHN6VTEvaWlmUT09)
+
+          Location: STE 4026 or on
+          [Zoom](https://us06web.zoom.us/j/95068465084?pwd=SjV2aFFoTjF2bHY0UHN6VTEvaWlmUT09)
         textFr: >
-          Lieu: STE 4026 ou sur [Zoom](https://us06web.zoom.us/j/95068465084?pwd=SjV2aFFoTjF2bHY0UHN6VTEvaWlmUT09)
+          Lieu: STE 4026 ou sur
+          [Zoom](https://us06web.zoom.us/j/95068465084?pwd=SjV2aFFoTjF2bHY0UHN6VTEvaWlmUT09)
 
 
           Présentez votre candidature aux postes vacants de notre équipe
@@ -124,7 +127,7 @@ sections:
             icon: arrowRight
             iconPosition: right
             style: secondary
-            elementId: ''  
+            elementId: ''
     actions: []
     columns: 2
     spacingX: 40
@@ -161,12 +164,15 @@ sections:
         titleFr: Élections partielles de l'automne
         subtitle: '10/05/2022, 7PM EST.'
         subtitleFr: '05/10/2022, 19:00 EST.'
-        text: |
+        text: >
           Run for vacant positions in our execs team!
 
-          Location: STE 4026 or on [Zoom](https://us06web.zoom.us/j/95068465084?pwd=SjV2aFFoTjF2bHY0UHN6VTEvaWlmUT09)
+
+          Location: STE 4026 or on
+          [Zoom](https://us06web.zoom.us/j/95068465084?pwd=SjV2aFFoTjF2bHY0UHN6VTEvaWlmUT09)
         textFr: >
-          Lieu: STE 4026 ou sur [Zoom](https://us06web.zoom.us/j/95068465084?pwd=SjV2aFFoTjF2bHY0UHN6VTEvaWlmUT09)
+          Lieu: STE 4026 ou sur
+          [Zoom](https://us06web.zoom.us/j/95068465084?pwd=SjV2aFFoTjF2bHY0UHN6VTEvaWlmUT09)
 
 
           Présentez votre candidature aux postes vacants de notre équipe
@@ -573,6 +579,31 @@ sections:
           altText: WIE Tech Panel Poster
           caption: WIE Tech Panel Poster
           elementId: ''
+      - type: FeaturedItem
+        elementId: ''
+        title: Item Title
+        titleFr: Titre de l'article
+        subtitle: ''
+        subtitleFr: ''
+        text: >-
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+          explicabo.
+        textFr: >-
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+          explicabo.
+        isIcon: false
+        featuredImage:
+          type: ImageBlock
+          url: >-
+            https://assets.stackbit.com/components/images/default/default-image.png
+          altText: Item image
+        featuredIcon: apple
+        actions: []
+        styles:
+          self:
+            textAlign: left
     actions:
       - type: Button
         label: More
