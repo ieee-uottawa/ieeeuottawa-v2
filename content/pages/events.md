@@ -201,7 +201,7 @@ sections:
             label: Learn More
             altText: ''
             url: 'https://www.instagram.com/p/CkjJ5-uuNJw/'
-            showIcon: false
+            showIcon: true
             icon: arrowRight
             iconPosition: right
             style: secondary
