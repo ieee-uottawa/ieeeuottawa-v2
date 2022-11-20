@@ -737,7 +737,7 @@ sections:
         featuredImage:
           type: ImageBlock
           url: /images/wie-by-elections.jpeg
-          altText: WIE By-Elections
+          altText: WIE Fall By-Elections
         featuredIcon: apple
         actions: []
         styles:
