@@ -676,7 +676,7 @@ sections:
         elementId: ''
         title: Microchips & DIps
         titleFr: Microchips & DIps
-        subtitleFr: '12/11/2022, 13:00 - 3PM'
+        subtitleFr: '12/11/2022, 13:00 - 15:00'
         text: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
