@@ -82,7 +82,7 @@ sections:
           - type: Button
             label: Learn More
             altText: ''
-            url: 'https://www.instagram.com/p/Ci3p2q7tZKk/'
+            url: 'https://www.instagram.com/p/Ck6xk_Ou7m6/'
             showIcon: false
             icon: arrowRight
             iconPosition: right
