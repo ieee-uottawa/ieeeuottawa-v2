@@ -712,7 +712,7 @@ sections:
         title: WIE Fall By-Elections
         titleFr: Elections partielles de l'automne WIE
         subtitle: '11/20/2022, 12:30PM'
-        subtitleFr: ''
+        subtitleFr: '20/11/2022, '
         text: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
