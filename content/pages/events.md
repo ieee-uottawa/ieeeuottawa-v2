@@ -589,10 +589,10 @@ sections:
 
           It’s time for some networking! Join CSSA, ESS, SESA, and IEEE for one
           of Ciena’s biggest networking event!
-        textFr: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+        textFr: >
+          C'est le moment de faire du réseautage ! Rejoignez l’AEI, l'AEG, la
+          SESA et l'IEEE pour l'un des plus grands événements de réseautage de
+          Ciena!
         isIcon: false
         featuredImage:
           type: ImageBlock
