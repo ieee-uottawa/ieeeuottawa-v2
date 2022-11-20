@@ -614,6 +614,9 @@ sections:
           Join us to get to know your big eng/little engs and some of the women
           on campus who already have your back.
         textFr: >
+          Lieu: CBY A04
+
+
           Rejoignez-nous pour faire connaissance avec vos big eng/little engs et
           certaines des femmes présentes sur le campus qui vous soutiennent
           déjà.
