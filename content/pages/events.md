@@ -196,7 +196,16 @@ sections:
           altText: Microchips & Dips Poster
           caption: Microchips & Dips Poster
         featuredIcon: apple
-        actions: []
+        actions:
+          - type: Button
+            label: Learn More
+            altText: ''
+            url: 'https://www.instagram.com/p/CkjJ5-uuNJw/'
+            showIcon: false
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
         styles:
           self:
             textAlign: left
