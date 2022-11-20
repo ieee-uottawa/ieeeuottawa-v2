@@ -193,7 +193,7 @@ sections:
         elementId: ''
         title: Networking with Ciena
         titleFr: Networking avec Ciena
-        subtitle: '10/20/2022, 6PM - 8:00 PM'
+        subtitle: '10/20/2022, 6PM - 8:PM'
         subtitleFr: '20/10/2022, 18:00 - 20:00'
         text: >
           Location: STEM 117
