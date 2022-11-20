@@ -608,7 +608,7 @@ sections:
         elementId: ''
         title: BELE Game Night
         titleFr: Soirée de jeux BELE
-        subtitle: ''
+        subtitle: 11/
         subtitleFr: ''
         text: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
