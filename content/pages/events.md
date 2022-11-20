@@ -46,10 +46,327 @@ sections:
     colors: colors-c
     elementId: ''
     title: Upcoming Events
-    titleFr: Prochains événements
-    subtitle: ''
-    subtitleFr: ''
+    subtitleFr: Consultez nos événements à venir
     items:
+      - type: FeaturedItem
+        elementId: ''
+        title: Comp Eng Hangout
+        titleFr: Rencontre de génie d'info
+        subtitle: '11/23/2022, 6PM - 8PM'
+        subtitleFr: '23/11/2022, 18:00 - 20:00'
+        text: >
+          Location: SITE 4026
+
+
+
+
+          Drop by the IEEE office, located in STE 4026, and hang out with other
+          CEG students!
+        textFr: >
+          Lieu: SITE 4026
+
+
+
+
+          Passez au bureau de l'IEEE, situé dans le STE 4026, et passez du temps
+          avec d'autres étudiants du CEG !
+        isIcon: false
+        featuredImage:
+          type: ImageBlock
+          url: /images/ceg-hangout.jpeg
+          altText: Spectroscopy Seminar Poster
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - type: Button
+            label: Learn More
+            altText: ''
+            url: 'https://www.instagram.com/p/Ck6xk_Ou7m6/'
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
+    actions: []
+    columns: 2
+    spacingX: 40
+    spacingY: 16
+    enableHover: false
+    styles:
+      self:
+        height: auto
+        width: narrow
+        padding:
+          - pt-28
+          - pb-36
+          - pl-4
+          - pr-4
+        justifyContent: center
+        margin:
+          - mb-0
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
+      actions:
+        justifyContent: flex-start
+    titleFr: Evénements prochains
+    subtitle: Check out our upcoming events
+  - type: FeaturedItemsSection
+    colors: colors-d
+    elementId: ''
+    title: Past Events
+    titleFr: Événements passés
+    subtitle: Click the button below to view more events.
+    items:
+      - type: FeaturedItem
+        elementId: ''
+        title: WIE Fall By-Elections
+        titleFr: Elections partielles de l'automne WIE
+        subtitle: '11/20/2022, 12:30PM'
+        subtitleFr: '20/11/2022, 12:30'
+        text: >
+          Location:
+          [Zoom](https://us06web.zoom.us/j/95068465084?pwd=SjV2aFFoTjF2bHY0UHN6VTEvaWlmUT09)
+          or SITE 4026
+
+
+
+
+          If you’re interested in being a part of IEEE WIE uOttawa, join us on
+          Sunday, November 20th, 2022 at 12:30 PM in SITE 4026.
+        textFr: >
+          Lieu:
+          [Zoom](https://us06web.zoom.us/j/95068465084?pwd=SjV2aFFoTjF2bHY0UHN6VTEvaWlmUT09)
+          & SITE 4026
+
+
+
+
+          Si vous souhaitez faire partie de l'IEEE WIE uOttawa, rejoignez-nous
+          le dimanche 20 novembre 2022 à 12h30 au SITE 4026.
+        isIcon: false
+        featuredImage:
+          type: ImageBlock
+          url: /images/wie-by-elections.jpeg
+          altText: WIE Fall By-Elections Poster
+          caption: WIE Fall By-Elections Poster
+        featuredIcon: apple
+        actions:
+          - type: Button
+            label: Learn More
+            altText: ''
+            url: 'https://www.instagram.com/p/CkrZX4JtJXZ/'
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
+        title: Microchips & DIps
+        titleFr: Microchips & DIps
+        subtitleFr: '12/11/2022, 13:00 - 15:00'
+        text: >
+          Location: STEM 117
+
+
+
+
+          Interested in learning about embedded systems? Sign up for our 3 part
+          workshops where we'll be teaching you to how to build and program an
+          embedded device from scratch!
+        textFr: >
+          Lieu: STEM 117
+
+
+
+
+          Vous souhaitez en savoir plus sur les systèmes embarqués ?
+          Inscrivez-vous à nos ateliers en 3 parties où nous vous apprendrons à
+          construire et programmer un dispositif embarqué à partir de zéro !
+        isIcon: false
+        featuredImage:
+          type: ImageBlock
+          url: /images/microchips-and-dips.jpeg
+          altText: Microchips & Dips Poster
+          caption: Microchips & Dips Poster
+        featuredIcon: apple
+        actions:
+          - type: Button
+            label: Learn More
+            altText: ''
+            url: 'https://www.instagram.com/p/CkjJ5-uuNJw/'
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
+        styles:
+          self:
+            textAlign: left
+        subtitle: '11/12/2022, 1PM - 3PM'
+      - type: FeaturedItem
+        elementId: ''
+        title: BELE Game Night
+        titleFr: Soirée de jeux BELE
+        subtitle: '11/10/2022, 5PM - 8PM'
+        subtitleFr: '10/11/2022, 17:00- 20:00'
+        text: >
+          Location: CBY A04
+
+
+
+
+          Join us to get to know your big eng/little engs and some of the women
+          on campus who already have your back.
+        textFr: >
+          Lieu: CBY A04
+
+
+          Rejoignez-nous pour faire connaissance avec vos big eng/little engs et
+          certaines des femmes présentes sur le campus qui vous soutiennent
+          déjà.
+        isIcon: false
+        featuredImage:
+          type: ImageBlock
+          url: /images/bele-game-night.jpeg
+          altText: BELE Game Night Poster
+        featuredIcon: apple
+        actions:
+          - type: Button
+            label: Learn More
+            altText: ''
+            url: 'https://www.instagram.com/p/CkQ3tWeM9YJ/'
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
+        title: CEG Career Panel
+        titleFr: Panel sur les carrières en CEG
+        subtitle: '11/07/2022, 6:30PM - 9PM'
+        subtitleFr: '07/11/2022, 18:30 - 21:00'
+        text: |
+          Location: CBY A04
+
+
+
+          Join us for a Computer Engineering Alumni Career Panel.
+        textFr: >
+          Lieu: CBY A04
+
+
+
+
+          Rejoignez-nous pour un panel de carrières d'anciens élèves en génie
+          informatique.
+        isIcon: false
+        featuredImage:
+          type: ImageBlock
+          url: /images/ceg-panel.jpeg
+          altText: CEG Career Panel Poster
+        featuredIcon: apple
+        actions:
+          - type: Button
+            label: Learn More
+            altText: ''
+            url: 'https://www.instagram.com/p/CkeBkvAuoJV/'
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
+        title: Networking with Ciena
+        titleFr: Networking avec Ciena
+        subtitle: '10/20/2022, 6PM - 8PM'
+        subtitleFr: '20/10/2022, 18:00 - 20:00'
+        text: >
+          Location: STEM 117
+
+
+          It’s time for some networking! Join CSSA, ESS, SESA, and IEEE for one
+          of Ciena’s biggest networking event!
+        textFr: >
+          Lieu: STEM 117
+
+
+
+
+          C'est le moment de faire du réseautage ! Rejoignez l’AEI, l'AEG, la
+          SESA et l'IEEE pour l'un des plus grands événements de réseautage de
+          Ciena!
+        isIcon: false
+        featuredImage:
+          type: ImageBlock
+          url: /images/ciena-event.jpeg
+          altText: Ciena Networking Event Poster
+          caption: Ciena Networking Event Poster
+        featuredIcon: apple
+        actions:
+          - type: Button
+            label: Learn More
+            altText: ''
+            url: 'https://www.instagram.com/p/CjY1gA3Jwec/'
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
+        title: Fall By-Elections
+        titleFr: Élections partielles de l'automne
+        subtitle: '10/05/2022, 7PM EST.'
+        subtitleFr: '05/10/2022, 19:00 EST.'
+        text: >
+          Run for vacant positions in our execs team!
+
+
+          Location: STE 4026 or on
+          [Zoom](https://us06web.zoom.us/j/95068465084?pwd=SjV2aFFoTjF2bHY0UHN6VTEvaWlmUT09)
+        textFr: >
+          Lieu: STE 4026 ou sur
+          [Zoom](https://us06web.zoom.us/j/95068465084?pwd=SjV2aFFoTjF2bHY0UHN6VTEvaWlmUT09)
+
+
+          Présentez votre candidature aux postes vacants de notre équipe
+          d'exécutifs !
+        isIcon: false
+        featuredImage:
+          type: ImageBlock
+          url: /images/events/2022-2023/fall2022-by-elections.jpeg
+          altText: Fall By Elections Poster
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - type: Button
+            label: Learn More
+            altText: ''
+            url: 'https://www.instagram.com/p/Ci1Aw-hNyjR/'
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
       - type: FeaturedItem
         elementId: ''
         title: Spectroscopy Seminar
@@ -91,70 +408,6 @@ sections:
             iconPosition: right
             style: secondary
             elementId: ''
-      - type: FeaturedItem
-        elementId: ''
-        title: Fall By-Elections
-        titleFr: Élections partielles de l'automne
-        subtitle: '10/05/2022, 7PM EST.'
-        subtitleFr: '05/10/2022, 19:00 EST.'
-        text: |
-          Run for vacant positions in our execs team!
-
-          Location: STE 4026 or on [Zoom](https://us06web.zoom.us/j/95068465084?pwd=SjV2aFFoTjF2bHY0UHN6VTEvaWlmUT09)
-        textFr: >
-          Lieu: STE 4026 ou sur [Zoom](https://us06web.zoom.us/j/95068465084?pwd=SjV2aFFoTjF2bHY0UHN6VTEvaWlmUT09)
-
-
-          Présentez votre candidature aux postes vacants de notre équipe
-          d'exécutifs !
-        isIcon: false
-        featuredImage:
-          type: ImageBlock
-          url: /images/events/2022-2023/fall2022-by-elections.jpeg
-          altText: Fall By Elections Poster
-        featuredIcon:
-          label: Apple
-          value: apple
-        actions:
-          - type: Button
-            label: Learn More
-            altText: ''
-            url: 'https://www.instagram.com/p/Ci1Aw-hNyjR/'
-            showIcon: true
-            icon: arrowRight
-            iconPosition: right
-            style: secondary
-            elementId: ''
-    actions: []
-    columns: 2
-    spacingX: 40
-    spacingY: 16
-    enableHover: false
-    styles:
-      self:
-        height: auto
-        width: narrow
-        padding:
-          - pt-28
-          - pb-36
-          - pl-4
-          - pr-4
-        justifyContent: center
-        margin:
-          - mb-0
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
-      actions:
-        justifyContent: flex-start
-  - type: FeaturedItemsSection
-    colors: colors-d
-    elementId: ''
-    title: Past Events
-    titleFr: Événements passés
-    subtitle: Click the button below to view more events.
-    items:
       - type: FeaturedItem
         elementId: ''
         title: DART Watch Party
