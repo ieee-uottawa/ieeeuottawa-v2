@@ -583,7 +583,7 @@ sections:
         elementId: ''
         title: Networking with Ciena
         titleFr: Networking avec Ciena
-        subtitle: ''
+        subtitle: 10/20/
         subtitleFr: ''
         text: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
