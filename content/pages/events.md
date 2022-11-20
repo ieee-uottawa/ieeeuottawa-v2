@@ -723,10 +723,16 @@ sections:
 
           If you’re interested in being a part of IEEE WIE uOttawa, join us on
           Sunday, November 20th, 2022 at 12:30 PM in SITE 4026.
-        textFr: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+        textFr: >
+          Lieu:
+          [Zoom](https://us06web.zoom.us/j/95068465084?pwd=SjV2aFFoTjF2bHY0UHN6VTEvaWlmUT09)
+          & SITE 4026
+
+
+
+
+          Si vous souhaitez faire partie de l'IEEE WIE uOttawa, rejoignez-nous
+          le dimanche 20 novembre 2022 à 12h30 au SITE 4026.
         isIcon: false
         featuredImage:
           type: ImageBlock
