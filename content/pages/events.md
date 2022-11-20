@@ -281,7 +281,7 @@ sections:
             label: Learn More
             altText: ''
             url: 'https://www.instagram.com/p/CkeBkvAuoJV/'
-            showIcon: false
+            showIcon: true
             icon: arrowRight
             iconPosition: right
             style: secondary
