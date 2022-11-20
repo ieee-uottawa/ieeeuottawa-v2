@@ -47,7 +47,7 @@ sections:
     elementId: ''
     title: Comp Eng Hangout
     titleFr: Rencontre de génie d'info
-    subtitle: Nov
+    subtitle: 'No'
     subtitleFr: ''
     items:
       - type: FeaturedItem
