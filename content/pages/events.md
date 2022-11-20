@@ -646,7 +646,7 @@ sections:
         elementId: ''
         title: CEG Career Panel
         titleFr: Panel sur les carrières en CEG
-        subtitle: 11/07/2022
+        subtitle: '11/07/2022, 6:30PM - 0PM'
         subtitleFr: ''
         text: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
