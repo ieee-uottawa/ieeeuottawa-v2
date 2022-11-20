@@ -711,7 +711,7 @@ sections:
         elementId: ''
         title: WIE Fall By-Elections
         titleFr: Elections partielles de l'automne WIE
-        subtitle: ''
+        subtitle: '11/20/2022, '
         subtitleFr: ''
         text: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
