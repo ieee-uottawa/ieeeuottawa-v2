@@ -62,15 +62,14 @@ sections:
 
           Drop by the IEEE office, located in STE 4026, and hang out with other
           CEG students!
-        textFr: >+
-          Lieu: ARC 233 et sur
-          [Zoom](https://us06web.zoom.us/j/82543006085?pwd=b09oOG9weWFrckl2TXR6SmdNMkpDdz09)
+        textFr: >
+          Lieu: SITE 4026
 
 
-          Vous vous êtes déjà demandé ce que sont les caractéristiques
-          spectrales optiques ultra étroites ? Vous vous intéressez à la
-          spectroscopie ? Cet événement est pour vous !
 
+
+          Passez au bureau de l'IEEE, situé dans le STE 4026, et passez du temps
+          avec d'autres étudiants du CEG !
         isIcon: false
         featuredImage:
           type: ImageBlock
