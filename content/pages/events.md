@@ -666,7 +666,7 @@ sections:
         featuredImage:
           type: ImageBlock
           url: /images/ceg-panel.jpeg
-          altText: Item image
+          altText: CEG Career Panel Poster
         featuredIcon: apple
         actions: []
         styles:
