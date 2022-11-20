@@ -175,31 +175,30 @@ sections:
     items:
       - type: FeaturedItem
         elementId: ''
-        title: Spectroscopy Seminar
-        titleFr: Séminaire sur la Spectroscopie
-        subtitle: '09/30/2022, 2PM'
-        subtitleFr: '30/09/2022, 14:00'
-        text: >+
-          Location: ARC 233 & on
-          [Zoom](https://us06web.zoom.us/j/82543006085?pwd=b09oOG9weWFrckl2TXR6SmdNMkpDdz09)
+        title: Comp Eng Hangout
+        titleFr: Rencontre de génie d'info
+        subtitle: '11/23/2022, 6PM - 8PM'
+        subtitleFr: '23/11/2022, 18:00 - 20:00'
+        text: >
+          Location: SITE 4026
 
 
-          Ever wondered what ultra-narrow optical spectral features are?
-          Interested in spectroscopy? This event is for you!
-
-        textFr: >+
-          Lieu: ARC 233 et sur
-          [Zoom](https://us06web.zoom.us/j/82543006085?pwd=b09oOG9weWFrckl2TXR6SmdNMkpDdz09)
 
 
-          Vous vous êtes déjà demandé ce que sont les caractéristiques
-          spectrales optiques ultra étroites ? Vous vous intéressez à la
-          spectroscopie ? Cet événement est pour vous !
+          Drop by the IEEE office, located in STE 4026, and hang out with other
+          CEG students!
+        textFr: >
+          Lieu: SITE 4026
 
+
+
+
+          Passez au bureau de l'IEEE, situé dans le STE 4026, et passez du temps
+          avec d'autres étudiants du CEG !
         isIcon: false
         featuredImage:
           type: ImageBlock
-          url: /images/events/2022-2023/spectroscopy-speaker-talk.jpeg
+          url: /images/ceg-hangout.jpeg
           altText: Spectroscopy Seminar Poster
         featuredIcon:
           label: Apple
@@ -208,41 +207,7 @@ sections:
           - type: Button
             label: Learn More
             altText: ''
-            url: 'https://www.instagram.com/p/Ci3p2q7tZKk/'
-            showIcon: false
-            icon: arrowRight
-            iconPosition: right
-            style: secondary
-            elementId: ''
-      - type: FeaturedItem
-        elementId: ''
-        title: Fall By-Elections
-        titleFr: Élections partielles de l'automne
-        subtitle: '10/05/2022, 4PM EST.'
-        subtitleFr: '05/10/2022, 16:00 EST.'
-        text: |
-          Run for vacant positions in our execs team!
-
-          Location: STE 4026
-        textFr: >
-          Lieu: STE 4026
-
-
-          Présentez votre candidature aux postes vacants de notre équipe
-          d'exécutifs !
-        isIcon: false
-        featuredImage:
-          type: ImageBlock
-          url: /images/events/2022-2023/fall2022-by-elections.jpeg
-          altText: Fall By Elections Poster
-        featuredIcon:
-          label: Apple
-          value: apple
-        actions:
-          - type: Button
-            label: Learn More
-            altText: ''
-            url: 'https://www.instagram.com/p/Ci1Aw-hNyjR/'
+            url: 'https://www.instagram.com/p/Ck6xk_Ou7m6/'
             showIcon: true
             icon: arrowRight
             iconPosition: right

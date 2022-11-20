@@ -65,7 +65,7 @@ sections:
             label: View
             showIcon: true
             icon: arrowRight
-            url: /files/IEEE_uOttawa_Constitution_2021.pdf
+            url: /files/IEEE_uOttawa_Constitution_2022.pdf
             style: secondary
         styles:
           self:
