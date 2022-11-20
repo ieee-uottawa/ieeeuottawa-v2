@@ -160,6 +160,41 @@ sections:
     items:
       - type: FeaturedItem
         elementId: ''
+        title: Microchips & DIps
+        titleFr: Microchips & DIps
+        subtitleFr: '12/11/2022, 13:00 - 15:00'
+        text: >
+          Location: STEM 117
+
+
+
+
+          Interested in learning about embedded systems? Sign up for our 3 part
+          workshops where we'll be teaching you to how to build and program an
+          embedded device from scratch!
+        textFr: >
+          Lieu: STEM 117
+
+
+
+
+          Vous souhaitez en savoir plus sur les systèmes embarqués ?
+          Inscrivez-vous à nos ateliers en 3 parties où nous vous apprendrons à
+          construire et programmer un dispositif embarqué à partir de zéro !
+        isIcon: false
+        featuredImage:
+          type: ImageBlock
+          url: /images/microchips-and-dips.jpeg
+          altText: Microchips & Dips Poster
+          caption: Microchips & Dips Poster
+        featuredIcon: apple
+        actions: []
+        styles:
+          self:
+            textAlign: left
+        subtitle: '11/12/2022, 1PM - 3PM'
+      - type: FeaturedItem
+        elementId: ''
         title: BELE Game Night
         titleFr: Soirée de jeux BELE
         subtitle: '11/10/2022, 5PM - 8PM'
@@ -672,41 +707,6 @@ sections:
           altText: WIE Tech Panel Poster
           caption: WIE Tech Panel Poster
           elementId: ''
-      - type: FeaturedItem
-        elementId: ''
-        title: Microchips & DIps
-        titleFr: Microchips & DIps
-        subtitleFr: '12/11/2022, 13:00 - 15:00'
-        text: >
-          Location: STEM 117
-
-
-
-
-          Interested in learning about embedded systems? Sign up for our 3 part
-          workshops where we'll be teaching you to how to build and program an
-          embedded device from scratch!
-        textFr: >
-          Lieu: STEM 117
-
-
-
-
-          Vous souhaitez en savoir plus sur les systèmes embarqués ?
-          Inscrivez-vous à nos ateliers en 3 parties où nous vous apprendrons à
-          construire et programmer un dispositif embarqué à partir de zéro !
-        isIcon: false
-        featuredImage:
-          type: ImageBlock
-          url: /images/microchips-and-dips.jpeg
-          altText: Microchips & Dips Poster
-          caption: Microchips & Dips Poster
-        featuredIcon: apple
-        actions: []
-        styles:
-          self:
-            textAlign: left
-        subtitle: '11/12/2022, 1PM - 3PM'
     actions:
       - type: Button
         label: More
