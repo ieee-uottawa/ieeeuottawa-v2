@@ -607,7 +607,7 @@ sections:
       - type: FeaturedItem
         elementId: ''
         title: BELE Game Night
-        titleFr: Titre de l'article
+        titleFr: BELE Game Night Poster
         subtitle: ''
         subtitleFr: ''
         text: >-
