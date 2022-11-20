@@ -51,7 +51,7 @@ sections:
       - type: FeaturedItem
         elementId: ''
         title: Comp Eng Hangout
-        titleFr: Comg Eng Hangout
+        titleFr: Rencontre de génie d'info
         subtitle: '09/30/2022, 2PM'
         subtitleFr: '30/09/2022, 14:00'
         text: >+
