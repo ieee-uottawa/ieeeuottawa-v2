@@ -54,14 +54,14 @@ sections:
         titleFr: Rencontre de génie d'info
         subtitle: '11/23/2022, 6PM - 8PM'
         subtitleFr: '23/11/2022, 18:00 - 20:00'
-        text: >+
-          Location: ARC 233 & on
-          [Zoom](https://us06web.zoom.us/j/82543006085?pwd=b09oOG9weWFrckl2TXR6SmdNMkpDdz09)
+        text: >
+          Location: SITE 4026
 
 
-          Ever wondered what ultra-narrow optical spectral features are?
-          Interested in spectroscopy? This event is for you!
 
+
+          Drop by the IEEE office, located in STE 4026, and hang out with other
+          CEG students!
         textFr: >+
           Lieu: ARC 233 et sur
           [Zoom](https://us06web.zoom.us/j/82543006085?pwd=b09oOG9weWFrckl2TXR6SmdNMkpDdz09)
