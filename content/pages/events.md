@@ -158,7 +158,7 @@ sections:
             label: Learn More
             altText: ''
             url: 'https://www.instagram.com/p/CkrZX4JtJXZ/'
-            showIcon: false
+            showIcon: true
             icon: arrowRight
             iconPosition: right
             style: secondary
