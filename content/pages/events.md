@@ -46,7 +46,7 @@ sections:
     colors: colors-c
     elementId: ''
     title: Upcoming Events
-    titleFr: Rencontre de génie d'info
+    titleFr: E
     subtitleFr: ''
     items:
       - type: FeaturedItem
