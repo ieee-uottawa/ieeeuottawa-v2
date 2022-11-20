@@ -160,36 +160,6 @@ sections:
     items:
       - type: FeaturedItem
         elementId: ''
-        title: CEG Career Panel
-        titleFr: Panel sur les carrières en CEG
-        subtitle: '11/07/2022, 6:30PM - 9PM'
-        subtitleFr: '07/11/2022, 18:30 - 21:00'
-        text: |
-          Location: CBY A04
-
-
-
-          Join us for a Computer Engineering Alumni Career Panel.
-        textFr: >
-          Lieu: CBY A04
-
-
-
-
-          Rejoignez-nous pour un panel de carrières d'anciens élèves en génie
-          informatique.
-        isIcon: false
-        featuredImage:
-          type: ImageBlock
-          url: /images/ceg-panel.jpeg
-          altText: CEG Career Panel Poster
-        featuredIcon: apple
-        actions: []
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        elementId: ''
         title: BELE Game Night
         titleFr: Soirée de jeux BELE
         subtitle: '11/10/2022, 5PM - 8PM'
@@ -214,6 +184,36 @@ sections:
           type: ImageBlock
           url: /images/bele-game-night.jpeg
           altText: BELE Game Night Poster
+        featuredIcon: apple
+        actions: []
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
+        title: CEG Career Panel
+        titleFr: Panel sur les carrières en CEG
+        subtitle: '11/07/2022, 6:30PM - 9PM'
+        subtitleFr: '07/11/2022, 18:30 - 21:00'
+        text: |
+          Location: CBY A04
+
+
+
+          Join us for a Computer Engineering Alumni Career Panel.
+        textFr: >
+          Lieu: CBY A04
+
+
+
+
+          Rejoignez-nous pour un panel de carrières d'anciens élèves en génie
+          informatique.
+        isIcon: false
+        featuredImage:
+          type: ImageBlock
+          url: /images/ceg-panel.jpeg
+          altText: CEG Career Panel Poster
         featuredIcon: apple
         actions: []
         styles:
