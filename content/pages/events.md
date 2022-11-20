@@ -81,6 +81,7 @@ sections:
     titleFr: Événements passés
     subtitle: Click the button below to view more events.
     items:
+      
       - type: FeaturedItem
         elementId: ''
         title: DART Watch Party
