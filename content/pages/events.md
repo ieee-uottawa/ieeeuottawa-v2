@@ -153,7 +153,16 @@ sections:
           altText: WIE Fall By-Elections Poster
           caption: WIE Fall By-Elections Poster
         featuredIcon: apple
-        actions: []
+        actions:
+          - type: Button
+            label: Learn More
+            altText: ''
+            url: 'https://www.instagram.com/p/CkrZX4JtJXZ/'
+            showIcon: false
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
         styles:
           self:
             textAlign: left
