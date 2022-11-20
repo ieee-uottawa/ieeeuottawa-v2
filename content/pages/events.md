@@ -621,8 +621,7 @@ sections:
         isIcon: false
         featuredImage:
           type: ImageBlock
-          url: >-
-            https://assets.stackbit.com/components/images/default/default-image.png
+          url: /images/bele-game-night.jpeg
           altText: Item image
         featuredIcon: apple
         actions: []
