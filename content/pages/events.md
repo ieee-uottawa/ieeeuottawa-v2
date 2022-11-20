@@ -160,6 +160,31 @@ sections:
     items:
       - type: FeaturedItem
         elementId: ''
+        title: Networking with Ciena
+        titleFr: Networking avec Ciena
+        subtitle: '10/20/2022, 6:00 PM - 8:00 PM'
+        subtitleFr: '20/10/2022, 18:00 - 20:00 PM'
+        text: >
+
+          It’s time for some networking! Join CSSA, ESS, SESA, and IEEE for one
+          of Ciena’s biggest networking event!
+        textFr: >
+          C'est le moment de faire du réseautage ! Rejoignez l’AEI, l'AEG, la
+          SESA et l'IEEE pour l'un des plus grands événements de réseautage de
+          Ciena!
+        isIcon: false
+        featuredImage:
+          type: ImageBlock
+          url: /images/ciena-event.jpeg
+          altText: Ciena Networking Event Poster
+          caption: Ciena Networking Event Poster
+        featuredIcon: apple
+        actions: []
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
         title: Fall By-Elections
         titleFr: Élections partielles de l'automne
         subtitle: '10/05/2022, 7PM EST.'
@@ -195,31 +220,6 @@ sections:
             iconPosition: right
             style: secondary
             elementId: ''
-      - type: FeaturedItem
-        elementId: ''
-        title: Networking with Ciena
-        titleFr: Networking avec Ciena
-        subtitle: '10/20/2022, 6:00 PM - 8:00 PM'
-        subtitleFr: '20/10/2022, 18:00 - 20:00 PM'
-        text: >
-
-          It’s time for some networking! Join CSSA, ESS, SESA, and IEEE for one
-          of Ciena’s biggest networking event!
-        textFr: >
-          C'est le moment de faire du réseautage ! Rejoignez l’AEI, l'AEG, la
-          SESA et l'IEEE pour l'un des plus grands événements de réseautage de
-          Ciena!
-        isIcon: false
-        featuredImage:
-          type: ImageBlock
-          url: /images/ciena-event.jpeg
-          altText: Ciena Networking Event Poster
-          caption: Ciena Networking Event Poster
-        featuredIcon: apple
-        actions: []
-        styles:
-          self:
-            textAlign: left
       - type: FeaturedItem
         elementId: ''
         title: Spectroscopy Seminar
