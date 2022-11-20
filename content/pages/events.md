@@ -598,6 +598,7 @@ sections:
           type: ImageBlock
           url: /images/ciena-event.jpeg
           altText: Ciena Networking Event Poster
+          caption: Ciena Networking Event Poster
         featuredIcon: apple
         actions: []
         styles:
