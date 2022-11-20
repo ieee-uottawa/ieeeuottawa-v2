@@ -709,7 +709,7 @@ sections:
           elementId: ''
       - type: FeaturedItem
         elementId: ''
-        title: Item Title
+        title: WIE Fall By-Elections
         titleFr: Titre de l'article
         subtitle: ''
         subtitleFr: ''
