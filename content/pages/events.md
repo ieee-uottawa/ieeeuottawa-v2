@@ -149,6 +149,7 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
+    titleFr: Evénments prochains
   - type: FeaturedItemsSection
     colors: colors-d
     elementId: ''
