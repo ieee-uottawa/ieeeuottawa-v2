@@ -648,10 +648,12 @@ sections:
         titleFr: Panel sur les carrières en CEG
         subtitle: '11/07/2022, 6:30PM - 9PM'
         subtitleFr: '07/11/2022, 18:30 - 21:00'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+        text: |
+          Location: CBY A04
+
+
+
+          Join us for a Computer Engineering Alumni Career Panel.
         textFr: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
