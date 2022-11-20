@@ -696,6 +696,7 @@ sections:
         styles:
           self:
             textAlign: left
+        subtitle: '11/12/2022, STEM'
     actions:
       - type: Button
         label: More
