@@ -675,7 +675,7 @@ sections:
       - type: FeaturedItem
         elementId: ''
         title: Microchips & DIps
-        titleFr: Titre de l'article
+        titleFr: Microchips & DIps
         subtitle: ''
         subtitleFr: ''
         text: >-
