@@ -609,7 +609,7 @@ sections:
         title: BELE Game Night
         titleFr: Soirée de jeux BELE
         subtitle: '11/10/2022, 5PM - 8PM'
-        subtitleFr: '11/10/2022, 5PM - 8PM'
+        subtitleFr: '11/10/2022, 17:00PM - 8PM'
         text: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
