@@ -237,7 +237,16 @@ sections:
           url: /images/bele-game-night.jpeg
           altText: BELE Game Night Poster
         featuredIcon: apple
-        actions: []
+        actions:
+          - type: Button
+            label: Learn More
+            altText: ''
+            url: 'https://www.instagram.com/p/CkQ3tWeM9YJ/'
+            showIcon: false
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
         styles:
           self:
             textAlign: left
