@@ -581,7 +581,7 @@ sections:
           elementId: ''
       - type: FeaturedItem
         elementId: ''
-        title: Ciena Networking Event
+        title: Network with Ciena
         titleFr: Titre de l'article
         subtitle: ''
         subtitleFr: ''
