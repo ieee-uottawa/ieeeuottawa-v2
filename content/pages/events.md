@@ -654,10 +654,14 @@ sections:
 
 
           Join us for a Computer Engineering Alumni Career Panel.
-        textFr: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+        textFr: >
+          Lieu: CBY A04
+
+
+
+
+          Rejoignez-nous pour un panel de carrières d'anciens élèves en génie
+          informatique.
         isIcon: false
         featuredImage:
           type: ImageBlock
