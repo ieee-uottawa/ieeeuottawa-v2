@@ -53,7 +53,7 @@ sections:
         title: Comp Eng Hangout
         titleFr: Rencontre de génie d'info
         subtitle: '11/23/2022, 6PM - 8PM'
-        subtitleFr: '30/09/2022, 14:00'
+        subtitleFr: '23/11/2022, 18:00 - 20:00'
         text: >+
           Location: ARC 233 & on
           [Zoom](https://us06web.zoom.us/j/82543006085?pwd=b09oOG9weWFrckl2TXR6SmdNMkpDdz09)
