@@ -583,7 +583,7 @@ sections:
         elementId: ''
         title: Networking with Ciena
         titleFr: Networking avec Ciena
-        subtitle: '10/20/2022, 6:00'
+        subtitle: '10/20/2022, 6:00 PM - 8:00 PM'
         subtitleFr: ''
         text: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
