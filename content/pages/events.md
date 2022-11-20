@@ -696,7 +696,7 @@ sections:
         styles:
           self:
             textAlign: left
-        subtitle: '11/12/2022, '
+        subtitle: '11/12/2022, 1PM - 3PM'
     actions:
       - type: Button
         label: More
