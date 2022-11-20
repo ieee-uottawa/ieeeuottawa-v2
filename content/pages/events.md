@@ -51,7 +51,7 @@ sections:
       - type: FeaturedItem
         elementId: ''
         title: Comp Eng Hangout
-        titleFr: Séminaire sur la Spectroscopie
+        titleFr: Comg Eng Hangout
         subtitle: '09/30/2022, 2PM'
         subtitleFr: '30/09/2022, 14:00'
         text: >+
