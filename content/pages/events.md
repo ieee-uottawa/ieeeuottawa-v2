@@ -584,7 +584,7 @@ sections:
         title: Networking with Ciena
         titleFr: Networking avec Ciena
         subtitle: '10/20/2022, 6:00 PM - 8:00 PM'
-        subtitleFr: ''
+        subtitleFr: '10/20/2022, 6:00 PM - 8:00 PM'
         text: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
