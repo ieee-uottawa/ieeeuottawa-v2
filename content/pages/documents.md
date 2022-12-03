@@ -149,7 +149,8 @@ sections:
           - type: Button
             label: View
             altText: ''
-            url: /files/IEEE_Executive_Meeting_Minutes_2022-10-12_(Emergency_Budget_Meeting).pdf
+            url: >-
+              /files/IEEE_Executive_Meeting_Minutes_2022-10-12_(Emergency_Budget_Meeting).pdf
             showIcon: true
             icon: arrowRight
             iconPosition: right
@@ -226,6 +227,64 @@ sections:
         padding:
           - pt-32
           - pb-32
+          - pl-4
+          - pr-4
+        justifyContent: center
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
+      actions:
+        justifyContent: flex-start
+  - type: FeaturedItemsSection
+    colors: colors-d
+    elementId: ''
+    title: Miscellaneous documents
+    titleFr: Autres documents
+    subtitle: ''
+    items:
+      - type: FeaturedItem
+        title: Microchips & Dips Workshop Slides
+        titleFr: Diapositives de l'atelier Microchips & Dips
+        actions:
+          - type: Button
+            label: View
+            showIcon: true
+            icon: arrowRight
+            url: /files/IEEE_Microchips_and_Dips_Workshop_2.pdf
+            style: primary
+        styles:
+          self:
+            textAlign: left
+        subtitle: Part 2
+        subtitleFr: Partie 2
+      - type: FeaturedItem
+        title: Microchips & Dips Workshop Slides
+        titleFr: Diapositives de l'atelier Microchips & Dips
+        actions:
+          - type: Button
+            label: View
+            showIcon: true
+            icon: arrowRight
+            url: /files/IEEE_Microchips_and_Dip_Workshop_1.pdf
+            style: primary
+        styles:
+          self:
+            textAlign: left
+        subtitle: Part 1
+        subtitleFr: Partie 1
+    actions: []
+    columns: 3
+    spacingX: 16
+    spacingY: 16
+    enableHover: false
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-28
+          - pb-36
           - pl-4
           - pr-4
         justifyContent: center
