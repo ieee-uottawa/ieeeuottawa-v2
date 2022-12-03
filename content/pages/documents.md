@@ -248,7 +248,7 @@ sections:
         titleFr: Diapositives de l'atelier Microchips & Dips
         actions:
           - type: Button
-            label: Learn More
+            label: View
             showIcon: true
             icon: arrowRight
             url: /
