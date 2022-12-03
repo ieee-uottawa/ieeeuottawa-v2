@@ -244,7 +244,7 @@ sections:
     subtitle: ''
     items:
       - type: FeaturedItem
-        title: Faster
+        title: 'Microchips & Dips Workshop '
         titleFr: Plus rapide
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
