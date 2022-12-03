@@ -242,7 +242,6 @@ sections:
     title: Miscellaneous documents
     titleFr: Autres documents
     subtitle: ''
-    subtitleFr: Section sous-titre
     items:
       - type: FeaturedItem
         title: Faster
