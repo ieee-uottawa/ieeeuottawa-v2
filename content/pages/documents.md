@@ -266,7 +266,7 @@ sections:
             label: View
             showIcon: true
             icon: arrowRight
-            url: /
+            url: /files/IEEE_Microchips_and_Dip_Workshop_1.pdf
             style: primary
         styles:
           self:
