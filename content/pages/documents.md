@@ -239,7 +239,7 @@ sections:
   - type: FeaturedItemsSection
     colors: colors-d
     elementId: ''
-    title: Miscellaneous
+    title: Miscellaneous documents
     titleFr: Autres
     subtitle: ''
     subtitleFr: Section sous-titre
