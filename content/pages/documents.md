@@ -246,10 +246,6 @@ sections:
       - type: FeaturedItem
         title: 'Microchips & Dips Workshop Slides [Part 2]'
         titleFr: 'Diapositives de l''atelier Microchips & Dips [Partie 2]'
-        textFr: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
-          lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
-          pharetra ipsum dolor, et iaculis elit ornare ac.
         actions:
           - type: Button
             label: Learn More
