@@ -251,7 +251,7 @@ sections:
             label: View
             showIcon: true
             icon: arrowRight
-            url: /
+            url: /Diapositives de l'atelier Microchips & Dips
             style: primary
         styles:
           self:
