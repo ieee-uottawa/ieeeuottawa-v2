@@ -259,7 +259,7 @@ sections:
         subtitle: Part 2
         subtitleFr: Partie 2
       - type: FeaturedItem
-        title: Smarter
+        title: Microchips & Dips Workshop Slides
         titleFr: Diapositives de l'atelier Microchips & Dips
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
