@@ -239,7 +239,7 @@ sections:
   - type: FeaturedItemsSection
     colors: colors-d
     elementId: ''
-    title: Misc
+    title: Miscellaneous
     titleFr: À la une
     subtitle: ''
     subtitleFr: Section sous-titre
