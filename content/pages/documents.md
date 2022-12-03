@@ -245,7 +245,7 @@ sections:
     items:
       - type: FeaturedItem
         title: 'Microchips & Dips Workshop Slides [Part 2]'
-        titleFr: Plus rapide
+        titleFr: 'Microchips & Dips Workshop Slides [Part 2]'
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
           lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
