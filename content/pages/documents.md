@@ -149,7 +149,8 @@ sections:
           - type: Button
             label: View
             altText: ''
-            url: /files/IEEE_Executive_Meeting_Minutes_2022-10-12_(Emergency_Budget_Meeting).pdf
+            url: >-
+              /files/IEEE_Executive_Meeting_Minutes_2022-10-12_(Emergency_Budget_Meeting).pdf
             showIcon: true
             icon: arrowRight
             iconPosition: right
@@ -226,6 +227,98 @@ sections:
         padding:
           - pt-32
           - pb-32
+          - pl-4
+          - pr-4
+        justifyContent: center
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
+      actions:
+        justifyContent: flex-start
+  - type: FeaturedItemsSection
+    colors: colors-d
+    elementId: ''
+    title: Key value propositions
+    titleFr: À la une
+    subtitle: ''
+    subtitleFr: Section sous-titre
+    items:
+      - type: FeaturedItem
+        title: Faster
+        titleFr: Plus rapide
+        text: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
+          lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
+          pharetra ipsum dolor, et iaculis elit ornare ac.
+        textFr: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
+          lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
+          pharetra ipsum dolor, et iaculis elit ornare ac.
+        actions:
+          - type: Button
+            label: Learn More
+            showIcon: true
+            icon: arrowRight
+            url: /
+            style: primary
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        title: Smarter
+        titleFr: Plus intelligent
+        text: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
+          lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
+          pharetra ipsum dolor, et iaculis elit ornare ac.
+        textFr: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
+          lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
+          pharetra ipsum dolor, et iaculis elit ornare ac.
+        actions:
+          - type: Button
+            label: Learn More
+            showIcon: true
+            icon: arrowRight
+            url: /
+            style: primary
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        title: Focused
+        titleFr: Concentré
+        text: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
+          lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
+          pharetra ipsum dolor, et iaculis elit ornare ac.
+        textFr: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
+          lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
+          pharetra ipsum dolor, et iaculis elit ornare ac.
+        actions:
+          - type: Button
+            label: Learn More
+            showIcon: true
+            icon: arrowRight
+            url: /
+            style: primary
+        styles:
+          self:
+            textAlign: left
+    actions: []
+    columns: 3
+    spacingX: 16
+    spacingY: 16
+    enableHover: false
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-28
+          - pb-36
           - pl-4
           - pr-4
         justifyContent: center
