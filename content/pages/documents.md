@@ -257,6 +257,7 @@ sections:
           self:
             textAlign: left
         subtitle: Part 2
+        subtitleFr: Partie 2
       - type: FeaturedItem
         title: Smarter
         titleFr: Plus intelligent
