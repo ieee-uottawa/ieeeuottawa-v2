@@ -275,6 +275,7 @@ sections:
         styles:
           self:
             textAlign: left
+        subtitle: Part I
       - type: FeaturedItem
         title: Focused
         titleFr: Concentré
