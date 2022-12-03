@@ -256,6 +256,7 @@ sections:
         styles:
           self:
             textAlign: left
+        subtitle: Part 2
       - type: FeaturedItem
         title: Smarter
         titleFr: Plus intelligent
