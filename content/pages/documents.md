@@ -260,7 +260,7 @@ sections:
         subtitleFr: Partie 2
       - type: FeaturedItem
         title: Smarter
-        titleFr: Plus intelligent
+        titleFr: Diapositives de l'atelier Microchips & Dips
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
           lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
