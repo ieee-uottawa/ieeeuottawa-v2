@@ -240,7 +240,7 @@ sections:
     colors: colors-d
     elementId: ''
     title: Miscellaneous documents
-    titleFr: Autres
+    titleFr: Autres documents
     subtitle: ''
     subtitleFr: Section sous-titre
     items:
