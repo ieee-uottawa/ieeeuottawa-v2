@@ -271,7 +271,7 @@ sections:
         styles:
           self:
             textAlign: left
-        subtitle: Part I
+        subtitle: Part 1
         subtitleFr: Partie 1
     actions: []
     columns: 3
