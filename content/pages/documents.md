@@ -244,7 +244,7 @@ sections:
     subtitle: ''
     items:
       - type: FeaturedItem
-        title: 'Microchips & Dips Workshop Slides [Part 2]'
+        title: Microchips & Dips Workshop Slides
         titleFr: Diapositives de l'atelier Microchips & Dips
         actions:
           - type: Button
