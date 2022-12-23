@@ -42,7 +42,7 @@ sections:
         elementId: ''
     backgroundImage:
       type: BackgroundImage
-      url: /images/image_3.JPEG
+      url: /images/Christmas 2022.JPG
       backgroundSize: cover
       backgroundPosition: center
       backgroundRepeat: no-repeat
