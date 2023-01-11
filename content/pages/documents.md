@@ -150,6 +150,25 @@ sections:
             label: View
             altText: ''
             url: >-
+              /files/IEEE_Executive_Meeting_Minutes_2022-11-04.pdf
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+        styles:
+          self:
+            textAlign: left
+        subtitle: '2022-11-04'
+        subtitleFr: 04-11-2022
+      - type: FeaturedItem
+        title: IEEE Executive Meeting Minutes
+        titleFr: Comptes rendus de la réunion exécutive
+        actions:
+          - type: Button
+            label: View
+            altText: ''
+            url: >-
               /files/IEEE_Executive_Meeting_Minutes_2022-10-12_(Emergency_Budget_Meeting).pdf
             showIcon: true
             icon: arrowRight
