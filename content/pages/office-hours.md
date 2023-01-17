@@ -17,11 +17,11 @@ sections:
         showIcon: true
         icon: arrowRight
         style: primary
-        url: /
+        url: mailto:communications@ieeeuottawa.ca
     media:
       type: ImageBlock
-      url: /images/office-hours-f2022.png
-      altText: Hero image
+      url: /images/office-hours-w2023.jpeg
+      altText: Office Hours Graphic
       height: 1000
       width: 800
     backgroundImage: null
