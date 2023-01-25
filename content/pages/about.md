@@ -241,7 +241,7 @@ sections:
         showIcon: true
         icon: arrowRight
         url: >-
-          https://docs.google.com/forms/d/e/1FAIpQLSfIdHz-ORmtsCgjEp2WpOV5ssXaC60nNpFzAY_qeRH4f7uX1w/viewform
+          https://docs.google.com/forms/d/1Y39nCe8H9wDzkkf6sSOB1WebIYGVcfwN1FvhmiJse28/edit
         style: primary
         altText: Link to volunteer signup google form
     styles:
