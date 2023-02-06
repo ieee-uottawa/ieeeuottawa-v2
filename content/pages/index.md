@@ -23,6 +23,14 @@ sections:
     titleFr: Boostez votre vie étudiante
     subtitle: with the best sub-association on campus.
     subtitleFr: avec la meilleure sous-association du campus.
+    media:
+      type: ImageBlock
+      url: /images/IEEE uO.png
+      altText: altText of the image
+      caption: Caption of the image
+      width: 1400
+      height: 768
+      elementId: ''
     actions:
       - type: Button
         label: Learn More
