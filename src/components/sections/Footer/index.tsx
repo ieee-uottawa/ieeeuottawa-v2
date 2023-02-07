@@ -106,30 +106,14 @@ function FooterVariantA(props) {
 
 function FooterVariantB(props) {
     const { logo, title, text, primaryLinks = [], socialLinks = [], legalLinks = [], contacts, copyrightText } = props;
-    const ieeecfLogo = {
-        url: '/images/icf_logo_thin.gif',
-        altText: 'IEEE Computer Society',
-        caption: 'IEEE Computer Society',
-        width: '100%',
-        height: '100%',
-        elementId: 'ieeecflogo',
-    }
-
+    
     return (
         <>
             <div className="flex flex-col items-center pb-20 text-center">
                 {(logo || title || text) && (
-                    <div className="mb-20 flex">
+                    <div className="mb-20">
                         <Link href="/" className="sb-footer-logo flex items-center justify-center">
                             {logo && <ImageBlock {...logo} className={classNames('max-h-12', { 'mr-2': title })} data-sb-field-path=".logo" />}
-                            {title && (
-                                <span className="text-3xl font-medium" data-sb-field-path=".title">
-                                    {title}
-                                </span>
-                            )}
-                        </Link>
-                        <Link href="/" className="sb-footer-logo flex items-center justify-center">
-                            {logo && <ImageBlock {...ieeecfLogo} className={classNames('max-h-12', { 'mr-2': title })} data-sb-field-path=".logo" />}
                             {title && (
                                 <span className="text-3xl font-medium" data-sb-field-path=".title">
                                     {title}
