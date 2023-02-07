@@ -5,22 +5,29 @@ import classNames from 'classnames';
 import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to-class-names';
 import Section from '../Section';
 import ImageBlock from '../../molecules/ImageBlock';
+import { I18NContext } from '../../../context/i18Ncontext';
 
 export default function TestimonialsSection(props) {
-    const { type, elementId, colors, variant, title, subtitle, testimonials, styles = {}, 'data-sb-field-path': fieldPath } = props;
+    const { type, elementId, colors, variant, title, titleFr, subtitle, subtitleFr, testimonials, styles = {}, 'data-sb-field-path': fieldPath } = props;
+    const { locale } = React.useContext(I18NContext);
+    const getTitle = () => locale === 'fr' && titleFr ? titleFr : title;
+    const getTitleSbFieldPath = () => locale === 'fr' && titleFr ? '.titleFr' : '.title';
+    const getSubtitle = () => locale === 'fr' && subtitleFr ? subtitleFr : subtitle;
+    const getSubtitleSbFieldPath = () => locale === 'fr' && subtitleFr ? '.subtitleFr' : '.subtitle';
+
     return (
         <Section type={type} elementId={elementId} colors={colors} styles={styles.self} data-sb-field-path={fieldPath}>
             {title && (
-                <h2 className={classNames(styles.title ? mapStyles(styles.title) : null)} data-sb-field-path=".title">
-                    {title}
+                <h2 className={classNames(styles.title ? mapStyles(styles.title) : null)} data-sb-field-path={getTitleSbFieldPath()}>
+                    {getTitle()}
                 </h2>
             )}
             {subtitle && (
                 <p
                     className={classNames('text-lg', 'sm:text-xl', styles.subtitle ? mapStyles(styles.subtitle) : null, { 'mt-6': title })}
-                    data-sb-field-path=".subtitle"
+                    data-sb-field-path={getSubtitleSbFieldPath()}
                 >
-                    {subtitle}
+                    {getSubtitle()}
                 </p>
             )}
             <TestimonialVariants variant={variant} testimonials={testimonials} hasTopMargin={!!(title || subtitle)} />
@@ -44,6 +51,8 @@ function TestimonialVariants(props) {
 
 function TestimonialsVariantA(props) {
     const { testimonials = [], hasTopMargin } = props;
+    const { locale } = React.useContext(I18NContext);
+    const getLocalized = (en: string, fr: string) => locale === 'fr' && fr ? fr : en;
     if (testimonials.length === 0) {
         return null;
     }
@@ -60,9 +69,9 @@ function TestimonialsVariantA(props) {
                         <Markdown
                             options={{ forceBlock: true, forceWrapper: true }}
                             className="sb-markdown text-3xl sm:text-4xl sm:leading-tight"
-                            data-sb-field-path=".quote"
+                            data-sb-field-path={getLocalized('.quote', '.quoteFr')}
                         >
-                            {testimonial.quote}
+                            {getLocalized(testimonial.quote, testimonial.quoteFr)}
                         </Markdown>
                     )}
                     {(testimonial.name || testimonial.title) && (
@@ -78,9 +87,9 @@ function TestimonialsVariantA(props) {
                             {testimonial.title && (
                                 <div
                                     className={classNames('text-lg', testimonial.styles?.title ? mapStyles(testimonial.styles?.title) : null)}
-                                    data-sb-field-path=".title"
+                                    data-sb-field-path={getLocalized('.title', '.titleFr')}
                                 >
-                                    {testimonial.title}
+                                    {getLocalized(testimonial.title, testimonial.titleFr)}
                                 </div>
                             )}
                         </footer>
@@ -93,6 +102,8 @@ function TestimonialsVariantA(props) {
 
 function TestimonialsVariantB(props) {
     const { testimonials = [], hasTopMargin } = props;
+    const { locale } = React.useContext(I18NContext);
+    const getLocalized = (en: string, fr: string) => locale === 'fr' && fr ? fr : en;
     if (testimonials.length === 0) {
         return null;
     }
@@ -104,9 +115,9 @@ function TestimonialsVariantB(props) {
                         <Markdown
                             options={{ forceBlock: true, forceWrapper: true }}
                             className="sb-markdown text-3xl sm:text-4xl sm:leading-tight lg:text-5xl lg:leading-tight"
-                            data-sb-field-path=".quote"
+                            data-sb-field-path={getLocalized('.quote', '.quoteFr')}
                         >
-                            {testimonial.quote}
+                            {getLocalized(testimonial.quote, testimonial.quoteFr)}
                         </Markdown>
                     )}
                     {(testimonial.name || testimonial.title || testimonial.image) && (
@@ -129,9 +140,9 @@ function TestimonialsVariantB(props) {
                                     {testimonial.title && (
                                         <div
                                             className={classNames('text-lg', testimonial.styles?.title ? mapStyles(testimonial.styles?.title) : null)}
-                                            data-sb-field-path=".title"
+                                            data-sb-field-path={getLocalized('.title', '.titleFr')}
                                         >
-                                            {testimonial.title}
+                                            {getLocalized(testimonial.title, testimonial.titleFr)}
                                         </div>
                                     )}
                                 </div>
@@ -146,6 +157,8 @@ function TestimonialsVariantB(props) {
 
 function TestimonialsVariantC(props) {
     const { testimonials = [], hasTopMargin } = props;
+    const { locale } = React.useContext(I18NContext);
+    const getLocalized = (en: string, fr: string) => locale === 'fr' && fr ? fr : en;
     if (testimonials.length === 0) {
         return null;
     }
@@ -167,9 +180,9 @@ function TestimonialsVariantC(props) {
                             <Markdown
                                 options={{ forceBlock: true, forceWrapper: true }}
                                 className="sb-markdown text-3xl sm:text-4xl sm:leading-tight"
-                                data-sb-field-path=".quote"
+                                data-sb-field-path={getLocalized('.quote', '.quoteFr')}
                             >
-                                {testimonial.quote}
+                                {getLocalized(testimonial.quote, testimonial.quoteFr)}
                             </Markdown>
                         )}
                         {(testimonial.name || testimonial.title) && (
@@ -187,9 +200,9 @@ function TestimonialsVariantC(props) {
                                         {testimonial.title && (
                                             <div
                                                 className={classNames('text-lg', testimonial.styles?.title ? mapStyles(testimonial.styles?.title) : null)}
-                                                data-sb-field-path=".title"
+                                                data-sb-field-path={getLocalized('.title', '.titleFr')}
                                             >
-                                                {testimonial.title}
+                                                {getLocalized(testimonial.title, testimonial.titleFr)}
                                             </div>
                                         )}
                                     </div>

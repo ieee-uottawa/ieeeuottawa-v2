@@ -8,9 +8,14 @@ fieldGroups:
 fields:
   - type: markdown
     name: quote
-    label: Quote
+    label: Quote [EN]
     default: “It’s great to see someone taking action while still maintaining a
       sustainable fish supply to home cooks.”
+    required: true
+  - type: markdown
+    name: quoteFr
+    label: Quote [FR]
+    default: 'Insérer texte ici'
     required: true
   - type: string
     name: name
@@ -18,8 +23,12 @@ fields:
     default: Johnna Doe
   - type: string
     name: title
-    label: Author title
+    label: Author title [EN]
     default: Product Marketing Manager at Acme
+  - type: string
+    name: titleFr
+    label: Author title [FR]
+    default: Responsable du marketing produit chez Acme
   - type: model
     name: image
     label: Author image
