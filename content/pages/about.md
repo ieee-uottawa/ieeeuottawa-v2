@@ -10,13 +10,33 @@ sections:
     titleFr: À propos
     text: >
       The IEEE uOttawa Student Branch is the official student branch for the
-      University of Ottawa and the official Sub-Association for ELG/CEG/SEG
+      University of Ottawa located in Region 7 and is associated with the IEEE
+      Ottawa Section. It is also the official Sub-Association for ELG/CEG/SEG
       under the ESS.
     textFr: >
       La branche étudiante de l'IEEE uOttawa est la branche étudiante officielle
-      de l'Université d'Ottawa et la sous-association officielle pour les
-      ELG/CEG/SEG dans le cadre de l'AEG (Association des étudiants en génie).
-    actions: []
+      de l'Université d'Ottawa située dans la Région 7 et est associée à la
+      Section Ottawa de l'IEEE. Elle est aussi la sous-association officielle
+      pour les ELG/CEG/SEG sous l'ESS.
+    actions:
+      - type: Button
+        label: IEEE Org
+        altText: ''
+        url: 'https://www.ieee.org/'
+        showIcon: true
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+        elementId: ''
+      - type: Button
+        label: IEEE Ottawa
+        altText: ''
+        url: 'https://www.ieeeottawa.ca/'
+        showIcon: true
+        icon: arrowRight
+        iconPosition: right
+        style: secondary
+        elementId: ''
     styles:
       self:
         height: auto
