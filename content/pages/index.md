@@ -23,14 +23,6 @@ sections:
     titleFr: Boostez votre vie étudiante
     subtitle: with the best sub-association on campus.
     subtitleFr: avec la meilleure sous-association du campus.
-    media:
-      type: ImageBlock
-      url: /images/IEEE uO.png
-      altText: altText of the image
-      caption: Caption of the image
-      width: 1400
-      height: 768
-      elementId: ''
     actions:
       - type: Button
         label: Learn More
@@ -70,6 +62,38 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
+  - type: TestimonialsSection
+    colors: colors-c
+    elementId: ''
+    variant: variant-c
+    title: Sponsored By
+    subtitle: ''
+    testimonials:
+      - quote: >
+          The [IEEE Canadian
+          Foundation](https://www.ieeecanadianfoundation.org/)
+        quoteFr: >
+          La [fondation canadienne 
+          IEEE](https://www.ieeecanadianfoundation.org/)
+        image:
+          type: ImageBlock
+          url: /images/IEEECF.jpg
+          altText: A man fishing
+          width: 2661
+          height: 380
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-28
+          - pb-28
+        justifyContent: center
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
+    titleFr: Sponsorisé par
   - type: FeaturedItemsSection
     colors: colors-b
     elementId: ''
