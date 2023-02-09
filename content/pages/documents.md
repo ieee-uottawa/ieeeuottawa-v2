@@ -150,6 +150,44 @@ sections:
             label: View
             altText: ''
             url: >-
+              /files/IEEE_Executive_Meeting_Minutes_2023-02-08.pdf
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+        styles:
+          self:
+            textAlign: left
+        subtitle: '2023-02-08'
+        subtitleFr: 08-02-2023
+      - type: FeaturedItem
+        title: IEEE Executive Meeting Minutes
+        titleFr: Comptes rendus de la réunion exécutive
+        actions:
+          - type: Button
+            label: View
+            altText: ''
+            url: >-
+              /files/IEEE_Executive_Meeting_Minutes_2023-01-21.pdf
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+        styles:
+          self:
+            textAlign: left
+        subtitle: '2023-01-21'
+        subtitleFr: 21-01-2023
+      - type: FeaturedItem
+        title: IEEE Executive Meeting Minutes
+        titleFr: Comptes rendus de la réunion exécutive
+        actions:
+          - type: Button
+            label: View
+            altText: ''
+            url: >-
               /files/IEEE_Executive_Meeting_Minutes_2022-11-04.pdf
             showIcon: true
             icon: arrowRight
