@@ -47,7 +47,321 @@ sections:
     elementId: ''
     title: Upcoming Events
     subtitleFr: Consultez nos événements à venir
+    actions: []
+    columns: 2
+    spacingX: 40
+    spacingY: 16
+    enableHover: false
+    styles:
+      self:
+        height: auto
+        width: narrow
+        padding:
+          - pt-28
+          - pb-36
+          - pl-4
+          - pr-4
+        justifyContent: center
+        margin:
+          - mb-0
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
+      actions:
+        justifyContent: flex-start
+    titleFr: Evénements prochains
+    subtitle: Check out our upcoming events
     items:
+      - type: FeaturedItem
+        elementId: ''
+        title: Hack The Hill Hackathon
+        titleFr: Hack The Hill Hackathon
+        subtitle: 03/03/2023 - 03/05/2023
+        subtitleFr: 03/03/2023 - 05/03/2023
+        text: >
+          Location: CRX
+
+
+          Join ESS, IEEE uOttawa, CSSA and SESA for "Hack the Hill", an
+          international hackathon in Canada's capital.
+        textFr: >
+          Lieu: CRX
+
+
+          "Rejoignez ESS, IEEE uOttawa, CSSA et SESA pour "Hack the Hill", un
+          hackathon international dans la capitale du Canada.
+        isIcon: false
+        featuredImage:
+          type: ImageBlock
+          url: /images/HTH-Hackathon.jpeg
+          altText: Hack The Hill Hackathon
+          caption: Hack The Hill Hackathon
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - type: Button
+            label: Learn More
+            altText: ''
+            url: 'https://2023.hackthehill.com/'
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
+        styles:
+          self:
+            textAlign: left
+  - type: FeaturedItemsSection
+    colors: colors-d
+    elementId: ''
+    title: Past Events
+    titleFr: Événements passés
+    subtitle: Click the button below to view more events.
+    items:
+      - type: FeaturedItem
+        elementId: ''
+        title: A Night of Black Engineering Excellence
+        titleFr: Soirée d'excellence de l'ingénierie noire
+        subtitle: '02/10/2023, 7PM - 9PM'
+        subtitleFr: '10/02/2023, 19h - 21h'
+        text: >
+          Location: CBY A707
+
+
+          Celebrate Black Engineering Excellence with guest speakers and awards
+          at a Black History Month event by IEEE and NSBE at uOttawa.
+        textFr: >
+          Lieu: CBY A707
+
+
+          Célébrez l'Excellence en ingénierie noire avec des intervenants
+          professionnels et des prix lors d'un événement du mois de l'histoire
+          des Noirs par IEEE et NSBE à uOttawa.
+        isIcon: false
+        featuredImage:
+          type: ImageBlock
+          url: /images/night-of-be-excellence.jpeg
+          altText: Night of Black Engineering Excellence Event
+          caption: Night of Black Engineering Excellence Event
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - type: Button
+            label: Learn More
+            altText: ''
+            url: 'https://www.instagram.com/p/CoSrR6fJ9Bk/'
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
+        title: Interview Prep Day
+        titleFr: Interview Prep Day
+        subtitle: 01/22/2023
+        subtitleFr: 22/01/2023
+        text: >
+          Location: Virtual
+
+
+          Prepare for CO-OP interviews with mock interviews and feedback at
+          Interview Prep Day (virtual event for software engineers).
+        textFr: >
+          Lieu: Virtuel
+
+
+          Préparez-vous aux entretiens CO-OP avec des entretiens simulés et des
+          commentaires lors de la Journée de préparation aux entretiens
+          (événement virtuel pour les ingénieurs en logiciel).
+        isIcon: false
+        featuredImage:
+          type: ImageBlock
+          url: /images/interview-prepday.jpeg
+          altText: Interview Prep Day
+          caption: Interview Prep Day
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - type: Button
+            label: Learn More
+            altText: ''
+            url: 'https://www.instagram.com/p/CnQQWXtNNt5/'
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
+        title: Condensed-matter Inspired Photonics
+        titleFr: Condensed-matter Inspired Photonics
+        subtitle: '01/12/2023, 1PM'
+        subtitleFr: '12/01/2023, 13h'
+        text: >
+          Location: ARC 233
+
+
+          Learn about the intersection of condensed matter physics and photonics
+          at a talk by Prof. Pablo Bianucci.
+        textFr: >
+          Lieu: ARC 233
+
+
+          Apprenez l'intersection de la physique de la matière condensée et de
+          la photonique lors d'une conférence de Prof. Pablo Bianucci.
+        isIcon: false
+        featuredImage:
+          type: ImageBlock
+          url: /images/condenses-matter.jpeg
+          altText: Condensed-matter inspired photonics
+          caption: Condensed-matter inspired photonics
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - type: Button
+            label: Learn More
+            altText: ''
+            url: 'https://www.instagram.com/p/CnScaAtu0O-/'
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
+        title: Wicked Web Work
+        titleFr: Wicked Web Work
+        subtitle: '01/11/2023, 6PM - 10PM'
+        subtitleFr: '11/01/2023, 18h - 22h'
+        text: >
+          Location: STEM 117
+
+
+          Explore front-end development and build websites at #WickedWebWork
+          with workshops and challenges (limited in-person attendance, sign up
+          now).
+        textFr: >
+          Lieu: STEM 117
+
+
+          Découvrez le développement front-end et construisez des sites web à
+          #WickedWebWork avec des ateliers et des défis (places limitées,
+          inscrivez-vous maintenant).
+        isIcon: false
+        featuredImage:
+          type: ImageBlock
+          url: /images/hth-www-workshop.jpeg
+          altText: Wicked Web Work Poster
+          caption: Wicked Web Work Poster
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - type: Button
+            label: Learn More
+            altText: ''
+            url: 'https://www.instagram.com/p/CnSIvWSO5Oc/'
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
+        title: Cookies n' Cram (Fall 2022)
+        titleFr: Cookies n' Cram (Automne 2022)
+        subtitle: 12/03/2022 - 12/18/2022
+        subtitleFr: 03/12/2022 - 18/12/2022
+        text: >
+          Location: SITE 4026
+
+
+          Get help with final exams and enjoy cookies at the Cookies 'n Cram
+          sessions with upper-year student mentors in the IEEE office.
+        textFr: >
+          Lieu: SITE 4026
+
+
+          Recevez de l'aide pour les examens finaux et dégustez des biscuits
+          lors des sessions Cookies 'n Cram chez IEEE.
+        isIcon: false
+        featuredImage:
+          type: ImageBlock
+          url: /images/c&c-f2022.jpeg
+          altText: Cookies & Cram Fall 2022
+          caption: Cookies & Cram Fall 2022
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - type: Button
+            label: Learn More
+            altText: ''
+            url: 'https://www.instagram.com/p/ClrIo6GOVJ0/'
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
+        title: ELG Trivia Night
+        titleFr: Soirée Trivia ELG
+        subtitle: '12/05/2022, 5:30-8PM'
+        subtitleFr: '05/12/2022, 17:30-20:00'
+        text: |
+          Location: CBY A04
+
+          Win prizes and test your knowledge at ELG Trivia Night.
+        textFr: >
+          Lieu: CBY A04
+
+
+          Gagnez des prix et mettez vos connaissances à l'épreuve lors de la
+          soirée trivia ELG.
+        isIcon: false
+        featuredImage:
+          type: ImageBlock
+          url: /images/elg-trivia-night.jpeg
+          altText: ELG Trivia Night
+          caption: ELG Trivia Night
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - type: Button
+            label: Learn More
+            altText: ''
+            url: 'https://www.instagram.com/p/ClPvGeqN3b6/'
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
+        styles:
+          self:
+            textAlign: left
       - type: FeaturedItem
         elementId: ''
         title: Comp Eng Hangout
@@ -88,38 +402,6 @@ sections:
             iconPosition: right
             style: secondary
             elementId: ''
-    actions: []
-    columns: 2
-    spacingX: 40
-    spacingY: 16
-    enableHover: false
-    styles:
-      self:
-        height: auto
-        width: narrow
-        padding:
-          - pt-28
-          - pb-36
-          - pl-4
-          - pr-4
-        justifyContent: center
-        margin:
-          - mb-0
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
-      actions:
-        justifyContent: flex-start
-    titleFr: Evénements prochains
-    subtitle: Check out our upcoming events
-  - type: FeaturedItemsSection
-    colors: colors-d
-    elementId: ''
-    title: Past Events
-    titleFr: Événements passés
-    subtitle: Click the button below to view more events.
-    items:
       - type: FeaturedItem
         elementId: ''
         title: WIE Fall By-Elections

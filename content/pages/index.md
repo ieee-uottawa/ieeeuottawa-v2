@@ -209,31 +209,28 @@ sections:
     items:
       - type: FeaturedItem
         elementId: ''
-        title: Comp Eng Hangout
-        titleFr: Rencontre de génie d'info
-        subtitle: '11/23/2022, 6PM - 8PM'
-        subtitleFr: '23/11/2022, 18:00 - 20:00'
+        title: Hack The Hill Hackathon
+        titleFr: Hack The Hill Hackathon
+        subtitle: 03/03/2023 - 03/05/2023
+        subtitleFr: 03/03/2023 - 05/03/2023
         text: >
-          Location: SITE 4026
+          Location: CRX
 
 
-
-
-          Drop by the IEEE office, located in STE 4026, and hang out with other
-          CEG students!
+          Join ESS, IEEE uOttawa, CSSA and SESA for "Hack the Hill", an
+          international hackathon in Canada's capital.
         textFr: >
-          Lieu: SITE 4026
+          Lieu: CRX
 
 
-
-
-          Passez au bureau de l'IEEE, situé dans le STE 4026, et passez du temps
-          avec d'autres étudiants du CEG !
+          "Rejoignez ESS, IEEE uOttawa, CSSA et SESA pour "Hack the Hill", un
+          hackathon international dans la capitale du Canada.
         isIcon: false
         featuredImage:
           type: ImageBlock
-          url: /images/ceg-hangout.jpeg
-          altText: Spectroscopy Seminar Poster
+          url: /images/HTH-Hackathon.jpeg
+          altText: Hack The Hill Hackathon
+          caption: Hack The Hill Hackathon
         featuredIcon:
           label: Apple
           value: apple
@@ -241,12 +238,15 @@ sections:
           - type: Button
             label: Learn More
             altText: ''
-            url: 'https://www.instagram.com/p/Ck6xk_Ou7m6/'
+            url: 'https://2023.hackthehill.com/'
             showIcon: true
             icon: arrowRight
             iconPosition: right
             style: secondary
             elementId: ''
+        styles:
+          self:
+            textAlign: left
     actions: []
     columns: 2
     spacingX: 40
