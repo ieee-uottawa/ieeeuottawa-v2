@@ -3,7 +3,18 @@
     "firstName": "Saheen",
     "lastName": "Jeyarajah",
     "image": {
-        "url": "/images/team/placeholder.jpeg",
+        "url": "/images/team/saheen-jeyarajah.png",
         "altText": "Saheen Jeyarajah"
-    }
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "LinkedIn",
+            "altText": "",
+            "url": "https://www.linkedin.com/in/saheen-jeyarajah",
+            "icon": "linkedin",
+            "style": "link",
+            "elementId": ""
+        }
+    ]
 }

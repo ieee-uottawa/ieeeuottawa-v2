@@ -1,17 +1,17 @@
 {
     "type": "Person",
-    "firstName": "Sacha",
-    "lastName": "Arseneault",
+    "firstName": "Daniel",
+    "lastName": "Thorp",
     "image": {
-        "url": "/images/team/sacha-arseneault.jpg",
-        "altText": "Sacha Arseneault"
+        "url": "/images/team/placeholder.jpeg",
+        "altText": "Daniel Thorp"
     },
     "socialLinks": [
         {
             "type": "Social",
             "label": "LinkedIn",
             "altText": "",
-            "url": "https://www.linkedin.com/in/sacha-ars/",
+            "url": "https://www.linkedin.com/in/arcanistzed/",
             "icon": "linkedin",
             "style": "link",
             "elementId": ""

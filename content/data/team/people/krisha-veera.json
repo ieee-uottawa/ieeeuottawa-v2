@@ -1,0 +1,18 @@
+{
+    "type": "Person",
+    "firstName": "Krisha",
+    "lastName": "Veera",
+    "image": {
+        "url": "/images/team/krisha-veera.jpg",
+        "altText": "Krisha Veera"
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "altText": "LinkedIn",
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/krishaveera",
+            "icon": "linkedin"
+        }
+    ]
+}
