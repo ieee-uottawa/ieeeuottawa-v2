@@ -1,0 +1,20 @@
+{
+    "type": "Person",
+    "firstName": "Somana",
+    "lastName": "Debnath",
+    "image": {
+        "url": "/images/team/somana-debnath.jpeg",
+        "altText": "Somana Debnath photo"
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "LinkedIn",
+            "altText": "",
+            "url": "https://www.linkedIn.com/in/somanadebnath",
+            "icon": "linkedin",
+            "style": "link",
+            "elementId": ""
+        }
+    ]
+}
