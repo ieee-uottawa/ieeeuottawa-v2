@@ -73,13 +73,13 @@ function PeopleVariantA(props) {
     return (
         <div className={classNames('grid', 'gap-x-10', 'gap-y-10', 'sm:grid-cols-2', 'lg:grid-cols-5', { 'mt-12': hasTopMargin })} data-sb-field-path=".execs">
             {execs.map((exec, index) => {
-                const { role, person = {} } = exec;
+                const { role='', person = {} } = exec;
 
                 if (person === null || person === undefined || role === undefined || role === null) return null;
 
                 const { socialLinks = [] } = person;
 
-                const getEmailLink = () => (
+                const getEmailLink = () => !!emails[role] ? (
                     {
                         type: 'Social',
                         label: 'Mail',
@@ -89,7 +89,7 @@ function PeopleVariantA(props) {
                         elementId: '',
                         altText: `Mail icon that links to ${role}'s email`
                     }
-                )
+                ) : null
                 
                 return (
                     <article key={index} data-sb-field-path={`.${index}`} >
@@ -112,9 +112,9 @@ function PeopleVariantA(props) {
                         {socialLinks && (
                             <div data-sb-field-path=".person">
                                 <ul className="flex items-center mt-4 space-x-5 justify-center" data-sb-field-path=".socialLinks">
-                                    <li>
+                                    {getEmailLink() && <li>
                                         <Social {...getEmailLink()} />
-                                    </li>
+                                    </li>}
                                     {socialLinks.map((link, index) => (
                                         <li key={index+1}>
                                             <Social {...link} data-sb-field-path={`.${index}`} />
