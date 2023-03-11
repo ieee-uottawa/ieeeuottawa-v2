@@ -26,12 +26,6 @@
                     },
                     {
                         "type": "Link",
-                        "label": "Office Hours",
-                        "url": "/office-hours",
-                        "altText": "Office Hours"
-                    },
-                    {
-                        "type": "Link",
                         "label": "WIE",
                         "altText": "WIE",
                         "url": "https://celebratewie.ca/",
@@ -40,7 +34,18 @@
                         "iconPosition": "right",
                         "elementId": ""
                     }
-                ]
+                ],
+                "altText": "About Link"
+            },
+            {
+                "type": "Link",
+                "label": "McN Centre",
+                "altText": "",
+                "url": "/mcnaughton-centre",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "elementId": ""
             },
             {
                 "type": "DropdownLink",
@@ -96,7 +101,8 @@
                         "iconPosition": "right",
                         "elementId": ""
                     }
-                ]
+                ],
+                "altText": "Execs Link"
             },
             {
                 "type": "Link",
@@ -188,14 +194,14 @@
             {
                 "type": "Link",
                 "label": "Office Hours",
-                "url": "/office-hours",
+                "url": "/mcnaughton-centre",
                 "altText": "Office Hours Link"
             },
             {
                 "type": "Link",
                 "label": "IEEE.org",
                 "altText": "",
-                "url": "https://www.ieee.org//",
+                "url": "https://www.ieee.org/",
                 "showIcon": false,
                 "icon": "arrowRight",
                 "iconPosition": "right",
@@ -285,5 +291,5 @@
             "content": "IEEE uOttawa Student Branch Hero Image"
         }
     ],
-    "defaultSocialImage": "/images/LOGO_HALLOWEEN.svg"
+    "defaultSocialImage": "/images/LOGO_BLUE 2.svg"
 }

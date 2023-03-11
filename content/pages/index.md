@@ -34,7 +34,7 @@ sections:
       - type: Button
         label: Office Hours
         altText: Office Hours / Heures de Bureau
-        url: /office-hours
+        url: /mcnaughton-centre
         showIcon: false
         icon: arrowRight
         iconPosition: right
@@ -173,7 +173,7 @@ sections:
       - type: Button
         label: Office Hours
         altText: Link to Office Hours
-        url: /office-hours
+        url: /mcnaughton-centre
         showIcon: false
         icon: arrowRight
         iconPosition: right
@@ -209,36 +209,39 @@ sections:
     items:
       - type: FeaturedItem
         elementId: ''
-        title: Hack The Hill Hackathon
-        titleFr: Hack The Hill Hackathon
-        subtitle: 03/03/2023 - 03/05/2023
-        subtitleFr: 03/03/2023 - 05/03/2023
+        title: 14th Annual WIE Wine and Cheese
+        titleFr: 14è édition de WIE Wine and Cheese
+        subtitleFr: '31/03/2023, 19h-22h'
         text: >
-          Location: CRX
+          Location: Lago Bar & Grill (1001 Queen Elizabeth Driveway, Ottawa, ON
+          K1S 5K7)
 
 
-          Join ESS, IEEE uOttawa, CSSA and SESA for "Hack the Hill", an
-          international hackathon in Canada's capital.
+          Join us for the 14th Annual Wine & Cheese, the biggest networking
+          event in EECS! Buy your tickets now through the link below.
         textFr: >
-          Lieu: CRX
+          Lieu: Lago Bar & Grill (1001 Queen Elizabeth Driveway, Ottawa, ON K1S
+          5K7)
 
 
-          "Rejoignez ESS, IEEE uOttawa, CSSA et SESA pour "Hack the Hill", un
-          hackathon international dans la capitale du Canada.
+          Rejoignez-nous pour le 14ème Wine & Cheese annuel, le plus grand
+          événement de réseautage de l'EECS ! Achetez vos billets dès maintenant
+          en cliquant sur le lien ci-dessous.
         isIcon: false
         featuredImage:
           type: ImageBlock
-          url: /images/HTH-Hackathon.jpeg
-          altText: Hack The Hill Hackathon
-          caption: Hack The Hill Hackathon
+          url: /images/events/2022-2023/wine-and-cheese-14.jpeg
+          altText: 14th Annual Wine and Cheese Poster
+          caption: 14th Annual Wine and Cheese Poster
         featuredIcon:
           label: Apple
           value: apple
         actions:
           - type: Button
             label: Learn More
-            altText: ''
-            url: 'https://2023.hackthehill.com/'
+            altText: Learn More Button
+            url: >-
+              https://www.eventbrite.ca/e/14th-annual-ieee-wie-wine-and-cheese-tickets-556203257917
             showIcon: true
             icon: arrowRight
             iconPosition: right
@@ -247,6 +250,7 @@ sections:
         styles:
           self:
             textAlign: left
+        subtitle: '03/31/2023, 7PM-10PM'
     actions: []
     columns: 2
     spacingX: 40
