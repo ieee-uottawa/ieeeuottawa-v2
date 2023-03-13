@@ -99,7 +99,7 @@ sections:
           type: ImageBlock
           url: /images/events/2022-2023/hacking-challenges.jpeg
           altText: Cybersecurity Club Challenge Poster
-          caption: Hack The Hill Hackathon
+          caption: Cybersecurity Club Challenge Poster
         featuredIcon:
           label: Apple
           value: apple
@@ -107,7 +107,7 @@ sections:
           - type: Button
             label: Learn More
             altText: ''
-            url: 'https://2023.hackthehill.com/'
+            url: 'https://discord.gg/VxRvNsRqTj'
             showIcon: true
             icon: arrowRight
             iconPosition: right
@@ -198,7 +198,7 @@ sections:
           - type: Button
             label: Learn More
             altText: ''
-            url: 'https://2023.hackthehill.com/'
+            url: 'https://hackthehill.com/'
             showIcon: true
             icon: arrowRight
             iconPosition: right
