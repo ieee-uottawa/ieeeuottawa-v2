@@ -150,6 +150,25 @@ sections:
             label: View
             altText: ''
             url: >-
+              /files/IEEE_Executive_Meeting_Minutes_2023-02-25.pdf
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+        styles:
+          self:
+            textAlign: left
+        subtitle: '2023-02-25'
+        subtitleFr: 25-02-2023
+      - type: FeaturedItem
+        title: IEEE Executive Meeting Minutes
+        titleFr: Comptes rendus de la réunion exécutive
+        actions:
+          - type: Button
+            label: View
+            altText: ''
+            url: >-
               /files/IEEE_Executive_Meeting_Minutes_2023-02-08.pdf
             showIcon: true
             icon: arrowRight
