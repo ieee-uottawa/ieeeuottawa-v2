@@ -21,6 +21,7 @@ export const emails = {
     'seg-commissioner': 'commissioner-seg@ieeeuottawa.ca',
     'design-commissioner': 'design@ieeeuottawa.ca',
     'translations-commissioner': 'translation@ieeeuottawa.ca',
+    'wie-treasurer': 'wie-treasurer@ieeeuottawa.ca',
     'wie-design': 'wie-design@ieeeuottawa.ca',
     'equity-commissioner': 'commissioner-equity@ieeeuottawa.ca'
 };

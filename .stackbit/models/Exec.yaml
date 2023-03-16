@@ -52,6 +52,8 @@ fields:
         value: design-commissioner
       - label: Translations Comissioner
         value: translations-commissioner
+      - label: WIE Treasurer
+        value: wie-treasurer
       - label: WIE Design
         value: wie-design
       - label: Equity Comissioner

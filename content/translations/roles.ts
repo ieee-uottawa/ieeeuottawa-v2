@@ -103,6 +103,10 @@ export const translatedRoles = {
         en: 'Translations Commissioner',
         fr: 'Commissionnaire des traductions'
     },
+    'wie-treasurer': {
+        en: 'WIE Treasurer',
+        fr: 'Trésorier(e) WIE'
+    },
     'wie-design': {
         en: 'WIE Design',
         fr: 'Design WIE'
