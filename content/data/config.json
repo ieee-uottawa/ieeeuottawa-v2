@@ -256,7 +256,7 @@
         },
         "logo": {
             "type": "ImageBlock",
-            "url": "/images/LOGO_BLUE 3.svg",
+            "url": "/images/newieeelogo-white.svg",
             "altText": "IEEE uOttawa Logo",
             "caption": "IEEE uOttawa Logo",
             "width": 114,
