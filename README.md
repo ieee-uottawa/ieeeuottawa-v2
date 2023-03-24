@@ -1,6 +1,13 @@
 # IEEE uOttawa Website
 The IEEE uOttawa Website is a site that contains all information about the branch and its operations, including services, events, and opportunities.
 
+![Site preview](preview.png)
+
+## Features
+- Responsive design
+- I18N
+- Light & Dark mode
+
 ## Built With
 The website was built using the following technologies and frameworks:
 - Next.js
