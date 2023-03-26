@@ -109,6 +109,23 @@ sections:
         styles:
           self:
             textAlign: left
+      - type: FeaturedItem
+        title: 2023-2024 Election Guidelines
+        titleFr: Directives électorales 2023-2024
+        text: >
+          This document contains the 2023-2024 IEEE uOttawa election rules
+        textFr: >
+          Ce document contient les règles électorales IEEE uOttawa 2023-2024
+        actions:
+          - type: Button
+            label: View
+            showIcon: true
+            icon: arrowRight
+            url: https://uottawa-my.sharepoint.com/personal/mchen304_uottawa_ca/_layouts/15/guestaccess.aspx?docid=0f1de7ab490ad4c3b8ed9f989b4c8cb04&authkey=AcgP5CJuSIdkJW7z9tZi0Ic&e=rtWCNK
+            style: secondary
+        styles:
+          self:
+            textAlign: left
     actions: []
     columns: 3
     spacingX: 20
