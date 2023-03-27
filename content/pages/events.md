@@ -106,7 +106,7 @@ sections:
         actions:
           - type: Button
             label: Learn More
-            altText: ''
+            altText: 'Link to join SITE Community Discord'
             url: 'https://discord.gg/VxRvNsRqTj'
             showIcon: true
             icon: arrowRight
@@ -197,7 +197,7 @@ sections:
         actions:
           - type: Button
             label: Learn More
-            altText: ''
+            altText: 'Link to Hack The Hill Website'
             url: 'https://hackthehill.com/'
             showIcon: true
             icon: arrowRight
@@ -238,7 +238,7 @@ sections:
         actions:
           - type: Button
             label: Learn More
-            altText: ''
+            altText: 'Link to instagram post with more details'
             url: 'https://www.instagram.com/p/CoSrR6fJ9Bk/'
             showIcon: true
             icon: arrowRight
@@ -279,7 +279,7 @@ sections:
         actions:
           - type: Button
             label: Learn More
-            altText: ''
+            altText: 'Link to instagram post with more details'
             url: 'https://www.instagram.com/p/CnQQWXtNNt5/'
             showIcon: true
             icon: arrowRight
@@ -319,7 +319,7 @@ sections:
         actions:
           - type: Button
             label: Learn More
-            altText: ''
+            altText: 'Link to instagram post with more details'
             url: 'https://www.instagram.com/p/CnScaAtu0O-/'
             showIcon: true
             icon: arrowRight
@@ -361,7 +361,7 @@ sections:
         actions:
           - type: Button
             label: Learn More
-            altText: ''
+            altText: 'Link to instagram post with more details'
             url: 'https://www.instagram.com/p/CnSIvWSO5Oc/'
             showIcon: true
             icon: arrowRight
@@ -401,7 +401,7 @@ sections:
         actions:
           - type: Button
             label: Learn More
-            altText: ''
+            altText: 'Link to instagram post with more details'
             url: 'https://www.instagram.com/p/ClrIo6GOVJ0/'
             showIcon: true
             icon: arrowRight
@@ -439,7 +439,7 @@ sections:
         actions:
           - type: Button
             label: Learn More
-            altText: ''
+            altText: 'Link to instagram post with more details'
             url: 'https://www.instagram.com/p/ClPvGeqN3b6/'
             showIcon: true
             icon: arrowRight
@@ -482,7 +482,7 @@ sections:
         actions:
           - type: Button
             label: Learn More
-            altText: ''
+            altText: 'Link to instagram post with more details'
             url: 'https://www.instagram.com/p/Ck6xk_Ou7m6/'
             showIcon: true
             icon: arrowRight
@@ -525,7 +525,7 @@ sections:
         actions:
           - type: Button
             label: Learn More
-            altText: ''
+            altText: 'Link to instagram post with more details'
             url: 'https://www.instagram.com/p/CkrZX4JtJXZ/'
             showIcon: true
             icon: arrowRight
@@ -568,7 +568,7 @@ sections:
         actions:
           - type: Button
             label: Learn More
-            altText: ''
+            altText: 'Link to instagram post with more details'
             url: 'https://www.instagram.com/p/CkjJ5-uuNJw/'
             showIcon: true
             icon: arrowRight
@@ -609,7 +609,7 @@ sections:
         actions:
           - type: Button
             label: Learn More
-            altText: ''
+            altText: 'Link to instagram post with more details'
             url: 'https://www.instagram.com/p/CkQ3tWeM9YJ/'
             showIcon: true
             icon: arrowRight
@@ -648,7 +648,7 @@ sections:
         actions:
           - type: Button
             label: Learn More
-            altText: ''
+            altText: 'Link to instagram post with more details'
             url: 'https://www.instagram.com/p/CkeBkvAuoJV/'
             showIcon: true
             icon: arrowRight
@@ -689,7 +689,7 @@ sections:
         actions:
           - type: Button
             label: Learn More
-            altText: ''
+            altText: 'Link to instagram post with more details'
             url: 'https://www.instagram.com/p/CjY1gA3Jwec/'
             showIcon: true
             icon: arrowRight
@@ -729,7 +729,7 @@ sections:
         actions:
           - type: Button
             label: Learn More
-            altText: ''
+            altText: 'Link to instagram post with more details'
             url: 'https://www.instagram.com/p/Ci1Aw-hNyjR/'
             showIcon: true
             icon: arrowRight
@@ -770,7 +770,7 @@ sections:
         actions:
           - type: Button
             label: Learn More
-            altText: ''
+            altText: 'Link to instagram post with more details'
             url: 'https://www.instagram.com/p/Ci3p2q7tZKk/'
             showIcon: false
             icon: arrowRight
@@ -806,7 +806,7 @@ sections:
         actions:
           - type: Button
             label: Learn More
-            altText: ''
+            altText: 'Link to instagram post with more details'
             url: 'https://www.instagram.com/p/Ci3qn9dNlHU/'
             showIcon: false
             icon: arrowRight
@@ -1123,7 +1123,7 @@ sections:
     actions:
       - type: Button
         label: More
-        altText: ''
+        altText: 'Link to facebook page to view more events'
         url: 'https://www.facebook.com/ieeeuottawa/events'
         showIcon: true
         icon: arrowRight

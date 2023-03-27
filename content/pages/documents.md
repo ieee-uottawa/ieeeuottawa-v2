@@ -165,7 +165,7 @@ sections:
         actions:
           - type: Button
             label: View
-            altText: ''
+            altText: 'Link to view meeting minutes'
             url: >-
               /files/IEEE_Executive_Meeting_Minutes_2023-03-15.pdf
             showIcon: true
@@ -184,7 +184,7 @@ sections:
         actions:
           - type: Button
             label: View
-            altText: ''
+            altText: 'Link to view meeting minutes'
             url: >-
               /files/IEEE_Executive_Meeting_Minutes_2023-02-25.pdf
             showIcon: true
@@ -203,7 +203,7 @@ sections:
         actions:
           - type: Button
             label: View
-            altText: ''
+            altText: 'Link to view meeting minutes'
             url: >-
               /files/IEEE_Executive_Meeting_Minutes_2023-02-08.pdf
             showIcon: true
@@ -222,7 +222,7 @@ sections:
         actions:
           - type: Button
             label: View
-            altText: ''
+            altText: 'Link to view meeting minutes'
             url: >-
               /files/IEEE_Executive_Meeting_Minutes_2023-01-21.pdf
             showIcon: true
@@ -241,7 +241,7 @@ sections:
         actions:
           - type: Button
             label: View
-            altText: ''
+            altText: 'Link to view meeting minutes'
             url: >-
               /files/IEEE_Executive_Meeting_Minutes_2022-11-04.pdf
             showIcon: true
@@ -260,7 +260,7 @@ sections:
         actions:
           - type: Button
             label: View
-            altText: ''
+            altText: 'Link to view meeting minutes'
             url: >-
               /files/IEEE_Executive_Meeting_Minutes_2022-10-12_(Emergency_Budget_Meeting).pdf
             showIcon: true
@@ -279,7 +279,7 @@ sections:
         actions:
           - type: Button
             label: View
-            altText: ''
+            altText: 'Link to view meeting minutes'
             url: /files/IEEE_Executive_Meeting_Minutes_2022-10-05.pdf
             showIcon: true
             icon: arrowRight
@@ -297,7 +297,7 @@ sections:
         actions:
           - type: Button
             label: View
-            altText: ''
+            altText: 'Link to view meeting minutes'
             url: /files/IEEE_Executive_Meeting_Minutes_2022-09-17.pdf
             showIcon: true
             icon: arrowRight
@@ -315,7 +315,7 @@ sections:
         actions:
           - type: Button
             label: View
-            altText: ''
+            altText: 'Link to view meeting minutes'
             url: /files/IEEE_Executive_Meeting_Minutes_2022-07-10.pdf
             showIcon: true
             icon: arrowRight

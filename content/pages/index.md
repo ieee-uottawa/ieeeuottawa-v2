@@ -143,8 +143,8 @@ sections:
         featuredImage:
           type: ImageBlock
           url: /images/bulb.svg
-          altText: altText of the image
-          caption: Caption of the image
+          altText: Bulb Icon Illustration
+          caption: Bulb Icon Illustration
           elementId: ''
         featuredIcon: bulb
         isIcon: true

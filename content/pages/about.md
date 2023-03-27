@@ -21,7 +21,7 @@ sections:
     actions:
       - type: Button
         label: IEEE Org
-        altText: ''
+        altText: 'Link to IEEE Org Website'
         url: 'https://www.ieee.org/'
         showIcon: true
         icon: arrowRight
@@ -30,7 +30,7 @@ sections:
         elementId: ''
       - type: Button
         label: IEEE Ottawa
-        altText: ''
+        altText: 'Link to IEEE Ottawa Section'
         url: 'https://www.ieeeottawa.ca/'
         showIcon: true
         icon: arrowRight
@@ -105,8 +105,8 @@ sections:
     media:
       type: ImageBlock
       url: /images/IEEE uO.png
-      altText: altText of the image
-      caption: Caption of the image
+      altText: Group photo of an exec team at an IEEE uOttawa event
+      caption: Group photo of an exec team at an IEEE uOttawa event
       width: 1400
       height: 768
       elementId: ''
