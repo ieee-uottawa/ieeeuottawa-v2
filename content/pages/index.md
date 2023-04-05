@@ -264,7 +264,7 @@ sections:
         styles:
           self:
             textAlign: left
-        subtitle: '04/11/2023, 6:30PM-10PM'
+        subtitle: '04/11/2023, 6:30PM'
     actions: []
     columns: 2
     spacingX: 40
