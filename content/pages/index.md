@@ -40,13 +40,22 @@ sections:
         iconPosition: right
         style: secondary
         elementId: ''
+      - type: Link
+        label: Election Results
+        altText: Election Results Link
+        url: >-
+          https://democracy.smallminds.dev/election/71383aee-6d57-4974-b01a-46e940e568e6/positions
+        showIcon: true
+        icon: arrowRight
+        iconPosition: right
+        elementId: ''
     backgroundImage:
       type: BackgroundImage
-      url: /images/Christmas 2022.JPG
+      url: /images/W&C14.JPG
       backgroundSize: cover
       backgroundPosition: center
       backgroundRepeat: no-repeat
-      opacity: 25
+      opacity: 15
     styles:
       self:
         height: screen
@@ -62,6 +71,11 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
+    text: |
+      Election results for the 2023-2024 school year are out!
+    textFr: >
+      Les résultats de l'élection des execs de l'année scolaire 2023-2024 sont
+      disponibles!
   - type: TestimonialsSection
     colors: colors-c
     elementId: ''
@@ -209,28 +223,27 @@ sections:
     items:
       - type: FeaturedItem
         elementId: ''
-        title: 14th Annual WIE Wine and Cheese
-        titleFr: 14è édition de WIE Wine and Cheese
-        subtitleFr: '31/03/2023, 19h-22h'
+        title: ELG Specialization Panel
+        titleFr: Panel de spécialisation ELG
+        subtitleFr: '11/04/2023, 18:30'
         text: >
-          Location: Lago Bar & Grill (1001 Queen Elizabeth Driveway, Ottawa, ON
-          K1S 5K7)
+          Location: STM 117
 
 
-          Join us for the 14th Annual Wine & Cheese, the biggest networking
-          event in EECS! Buy your tickets now through the link below.
+          Join IEEE uOttawa to explore 5 specializations in electrical
+          engineering, gain insights from experienced alums, and prepare for a
+          successful career.
         textFr: >
-          Lieu: Lago Bar & Grill (1001 Queen Elizabeth Driveway, Ottawa, ON K1S
-          5K7)
+          Lieu: STM 117
 
 
-          Rejoignez-nous pour le 14ème Wine & Cheese annuel, le plus grand
-          événement de réseautage de l'EECS ! Achetez vos billets dès maintenant
-          en cliquant sur le lien ci-dessous.
+          Rejoignez IEEE uOttawa pour explorer 5 spécialisations en génie
+          électrique, obtenir des informations de la part d'anciens expérimentés
+          et vous préparer à une carrière réussie.
         isIcon: false
         featuredImage:
           type: ImageBlock
-          url: /images/events/2022-2023/wine-and-cheese-14.jpeg
+          url: /images/events/2022-2023/ELG Panel.jpeg
           altText: 14th Annual Wine and Cheese Poster
           caption: 14th Annual Wine and Cheese Poster
         featuredIcon:
@@ -240,8 +253,7 @@ sections:
           - type: Button
             label: Learn More
             altText: Learn More Button
-            url: >-
-              https://www.eventbrite.ca/e/14th-annual-ieee-wie-wine-and-cheese-tickets-556203257917
+            url: 'https://www.instagram.com/p/CqoWH6FpfDE/'
             showIcon: true
             icon: arrowRight
             iconPosition: right
@@ -250,7 +262,7 @@ sections:
         styles:
           self:
             textAlign: left
-        subtitle: '03/31/2023, 7PM-10PM'
+        subtitle: '04/11/2023, 6:30PM'
     actions: []
     columns: 2
     spacingX: 40

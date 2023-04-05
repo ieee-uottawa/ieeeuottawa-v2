@@ -75,39 +75,37 @@ sections:
     items:
       - type: FeaturedItem
         elementId: ''
-        title: Hacking Challenge
-        titleFr: Défi de piratage
-        subtitle: '03/21/2023, 6PM-8PM'
-        subtitleFr: '21/03/2023, 18h-20h'
+        title: ELG Specialization Panel
+        titleFr: Panel de spécialisation ELG
+        subtitleFr: '11/04/2023, 18:30'
         text: >
           Location: STM 117
 
 
-          Join us on March 21st at 6pm for a hacking challenge event hosted by
-          IEEE uOttawa and the Cybersecurity Club. Test your skills and learn
-          about cybersecurity while enjoying free snacks!
+          Join IEEE uOttawa to explore 5 specializations in electrical
+          engineering, gain insights from experienced alums, and prepare for a
+          successful career.
         textFr: >
           Lieu: STM 117
 
 
-          Joignez-vous à nous le 21 mars à 18 h pour un défi de piratage
-          organisé par l'IEEE uOttawa et le Club de cybersécurité. Testez vos
-          habiletés et apprenez-en plus sur la cybersécurité tout en profitant
-          de collations gratuites !
+          Rejoignez IEEE uOttawa pour explorer 5 spécialisations en génie
+          électrique, obtenir des informations de la part d'anciens expérimentés
+          et vous préparer à une carrière réussie.
         isIcon: false
         featuredImage:
           type: ImageBlock
-          url: /images/events/2022-2023/hacking-challenges.jpeg
-          altText: Cybersecurity Club Challenge Poster
-          caption: Cybersecurity Club Challenge Poster
+          url: /images/events/2022-2023/ELG Panel.jpeg
+          altText: 14th Annual Wine and Cheese Poster
+          caption: 14th Annual Wine and Cheese Poster
         featuredIcon:
           label: Apple
           value: apple
         actions:
           - type: Button
             label: Learn More
-            altText: 'Link to join SITE Community Discord'
-            url: 'https://discord.gg/VxRvNsRqTj'
+            altText: Learn More Button
+            url: 'https://www.instagram.com/p/CqoWH6FpfDE/'
             showIcon: true
             icon: arrowRight
             iconPosition: right
@@ -116,6 +114,14 @@ sections:
         styles:
           self:
             textAlign: left
+        subtitle: '04/11/2023, 6:30PM'
+  - type: FeaturedItemsSection
+    colors: colors-d
+    elementId: ''
+    title: Past Events
+    titleFr: Événements passés
+    subtitle: Click the button below to view more events.
+    items:
       - type: FeaturedItem
         elementId: ''
         title: 14th Annual WIE Wine and Cheese
@@ -160,13 +166,49 @@ sections:
           self:
             textAlign: left
         subtitle: '03/31/2023, 7PM-10PM'
-  - type: FeaturedItemsSection
-    colors: colors-d
-    elementId: ''
-    title: Past Events
-    titleFr: Événements passés
-    subtitle: Click the button below to view more events.
-    items:
+      - type: FeaturedItem
+        elementId: ''
+        title: Hacking Challenge
+        titleFr: Défi de piratage
+        subtitle: '03/21/2023, 6PM-8PM'
+        subtitleFr: '21/03/2023, 18h-20h'
+        text: >
+          Location: STM 117
+
+
+          Join us on March 21st at 6pm for a hacking challenge event hosted by
+          IEEE uOttawa and the Cybersecurity Club. Test your skills and learn
+          about cybersecurity while enjoying free snacks!
+        textFr: >
+          Lieu: STM 117
+
+
+          Joignez-vous à nous le 21 mars à 18 h pour un défi de piratage
+          organisé par l'IEEE uOttawa et le Club de cybersécurité. Testez vos
+          habiletés et apprenez-en plus sur la cybersécurité tout en profitant
+          de collations gratuites !
+        isIcon: false
+        featuredImage:
+          type: ImageBlock
+          url: /images/events/2022-2023/hacking-challenges.jpeg
+          altText: Cybersecurity Club Challenge Poster
+          caption: Cybersecurity Club Challenge Poster
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - type: Button
+            label: Learn More
+            altText: 'Link to join SITE Community Discord'
+            url: 'https://discord.gg/VxRvNsRqTj'
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
+        styles:
+          self:
+            textAlign: left
       - type: FeaturedItem
         elementId: ''
         title: Hack The Hill Hackathon
