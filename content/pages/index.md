@@ -64,6 +64,9 @@ sections:
         justifyContent: flex-start
     text: |
       Election results for the 2023-2024 school year are out!
+    textFr: >
+      Les résultats de l'élection des execs de l'année scolaire 2023-2024 sont
+      disponibles!
   - type: TestimonialsSection
     colors: colors-c
     elementId: ''
