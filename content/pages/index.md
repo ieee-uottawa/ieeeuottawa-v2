@@ -223,7 +223,7 @@ sections:
     items:
       - type: FeaturedItem
         elementId: ''
-        title: 14th Annual WIE Wine and Cheese
+        title: ELG Specialization Panel
         titleFr: Panel de spécialisation ELG
         subtitleFr: '11/04/2023, 18:30'
         text: >
