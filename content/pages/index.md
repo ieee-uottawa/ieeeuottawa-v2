@@ -227,12 +227,12 @@ sections:
         titleFr: Panel de spécialisation ELG
         subtitleFr: '11/04/2023, 18:30'
         text: >
-          Location: Lago Bar & Grill (1001 Queen Elizabeth Driveway, Ottawa, ON
-          K1S 5K7)
+          Location: STM 117
 
 
-          Join us for the 14th Annual Wine & Cheese, the biggest networking
-          event in EECS! Buy your tickets now through the link below.
+          Join IEEE uOttawa to explore 5 specializations in electrical
+          engineering, gain insights from experienced alums, and prepare for a
+          successful career.
         textFr: >
           Lieu: Lago Bar & Grill (1001 Queen Elizabeth Driveway, Ottawa, ON K1S
           5K7)
