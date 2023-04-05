@@ -253,8 +253,7 @@ sections:
           - type: Button
             label: Learn More
             altText: Learn More Button
-            url: >-
-              https://www.eventbrite.ca/e/14th-annual-ieee-wie-wine-and-cheese-tickets-556203257917
+            url: 'https://www.instagram.com/p/CqoWH6FpfDE/'
             showIcon: true
             icon: arrowRight
             iconPosition: right
