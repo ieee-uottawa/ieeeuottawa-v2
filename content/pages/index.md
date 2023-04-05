@@ -51,7 +51,7 @@ sections:
         elementId: ''
     backgroundImage:
       type: BackgroundImage
-      url: /images/Christmas 2022.JPG
+      url: /images/W&C14.JPG
       backgroundSize: cover
       backgroundPosition: center
       backgroundRepeat: no-repeat
