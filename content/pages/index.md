@@ -55,7 +55,7 @@ sections:
       backgroundSize: cover
       backgroundPosition: center
       backgroundRepeat: no-repeat
-      opacity: 20
+      opacity: 15
     styles:
       self:
         height: screen
