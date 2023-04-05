@@ -45,7 +45,7 @@ sections:
         altText: Election Results Link
         url: >-
           https://democracy.smallminds.dev/election/71383aee-6d57-4974-b01a-46e940e568e6/positions
-        showIcon: false
+        showIcon: true
         icon: arrowRight
         iconPosition: right
         elementId: ''
