@@ -234,13 +234,12 @@ sections:
           engineering, gain insights from experienced alums, and prepare for a
           successful career.
         textFr: >
-          Lieu: Lago Bar & Grill (1001 Queen Elizabeth Driveway, Ottawa, ON K1S
-          5K7)
+          Lieu: STM 117
 
 
-          Rejoignez-nous pour le 14ème Wine & Cheese annuel, le plus grand
-          événement de réseautage de l'EECS ! Achetez vos billets dès maintenant
-          en cliquant sur le lien ci-dessous.
+          Rejoignez IEEE uOttawa pour explorer 5 spécialisations en génie
+          électrique, obtenir des informations de la part d'anciens expérimentés
+          et vous préparer à une carrière réussie.
         isIcon: false
         featuredImage:
           type: ImageBlock
