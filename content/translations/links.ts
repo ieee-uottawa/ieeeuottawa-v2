@@ -33,5 +33,5 @@ export const translatedLinks = {
     'Office Hours': 'Heures de bureau',
     'Email Us': 'Contactez-nous',
     'McN Centre': 'Centre McN',
-    'Election Results': "Résultats de l'élection"
+    'Election Results': "Résultats de l'élection",
 };
