@@ -244,7 +244,7 @@ sections:
         isIcon: false
         featuredImage:
           type: ImageBlock
-          url: /images/events/2022-2023/wine-and-cheese-14.jpeg
+          url: /images/events/2022-2023/ELG Panel.jpeg
           altText: 14th Annual Wine and Cheese Poster
           caption: 14th Annual Wine and Cheese Poster
         featuredIcon:
