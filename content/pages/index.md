@@ -224,7 +224,7 @@ sections:
       - type: FeaturedItem
         elementId: ''
         title: 14th Annual WIE Wine and Cheese
-        titleFr: 14è édition de WIE Wine and Cheese
+        titleFr: Panel de spécialisation ELG
         subtitleFr: '31/03/2023, 19h-22h'
         text: >
           Location: Lago Bar & Grill (1001 Queen Elizabeth Driveway, Ottawa, ON
