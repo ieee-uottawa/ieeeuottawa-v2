@@ -62,6 +62,8 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
+    text: |
+      Election results for the 2023-2024 school year are out!
   - type: TestimonialsSection
     colors: colors-c
     elementId: ''
