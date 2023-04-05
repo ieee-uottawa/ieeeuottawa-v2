@@ -18,7 +18,7 @@ sections:
   - type: HeroSection
     elementId: homepage-hero-1
     colors: colors-e
-    backgroundSize: inset
+    backgroundSize: full
     title: Power Your Student Experience
     titleFr: Boostez votre vie étudiante
     subtitle: with the best sub-association on campus.
