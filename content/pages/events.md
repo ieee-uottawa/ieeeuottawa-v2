@@ -122,7 +122,93 @@ sections:
     titleFr: Événements passés
     subtitle: Click the button below to view more events.
     items:
-    
+      - type: FeaturedItem
+        elementId: ''
+        title: Hacking Challenge
+        titleFr: Défi de piratage
+        subtitle: '03/21/2023, 6PM-8PM'
+        subtitleFr: '21/03/2023, 18h-20h'
+        text: >
+          Location: STM 117
+
+
+          Join us on March 21st at 6pm for a hacking challenge event hosted by
+          IEEE uOttawa and the Cybersecurity Club. Test your skills and learn
+          about cybersecurity while enjoying free snacks!
+        textFr: >
+          Lieu: STM 117
+
+
+          Joignez-vous à nous le 21 mars à 18 h pour un défi de piratage
+          organisé par l'IEEE uOttawa et le Club de cybersécurité. Testez vos
+          habiletés et apprenez-en plus sur la cybersécurité tout en profitant
+          de collations gratuites !
+        isIcon: false
+        featuredImage:
+          type: ImageBlock
+          url: /images/events/2022-2023/hacking-challenges.jpeg
+          altText: Cybersecurity Club Challenge Poster
+          caption: Cybersecurity Club Challenge Poster
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - type: Button
+            label: Learn More
+            altText: 'Link to join SITE Community Discord'
+            url: 'https://discord.gg/VxRvNsRqTj'
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
+        title: 14th Annual WIE Wine and Cheese
+        titleFr: 14è édition de WIE Wine and Cheese
+        subtitleFr: '31/03/2023, 19h-22h'
+        text: >
+          Location: Lago Bar & Grill (1001 Queen Elizabeth Driveway, Ottawa, ON
+          K1S 5K7)
+
+
+          Join us for the 14th Annual Wine & Cheese, the biggest networking
+          event in EECS! Buy your tickets now through the link below.
+        textFr: >
+          Lieu: Lago Bar & Grill (1001 Queen Elizabeth Driveway, Ottawa, ON K1S
+          5K7)
+
+
+          Rejoignez-nous pour le 14ème Wine & Cheese annuel, le plus grand
+          événement de réseautage de l'EECS ! Achetez vos billets dès maintenant
+          en cliquant sur le lien ci-dessous.
+        isIcon: false
+        featuredImage:
+          type: ImageBlock
+          url: /images/events/2022-2023/wine-and-cheese-14.jpeg
+          altText: 14th Annual Wine and Cheese Poster
+          caption: 14th Annual Wine and Cheese Poster
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - type: Button
+            label: Learn More
+            altText: Learn More Button
+            url: >-
+              https://www.eventbrite.ca/e/14th-annual-ieee-wie-wine-and-cheese-tickets-556203257917
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
+        styles:
+          self:
+            textAlign: left
+        subtitle: '03/31/2023, 7PM-10PM'
       - type: FeaturedItem
         elementId: ''
         title: Hack The Hill Hackathon
