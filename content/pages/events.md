@@ -115,7 +115,6 @@ sections:
           self:
             textAlign: left
         subtitle: '04/11/2023, 6:30PM'
-      
   - type: FeaturedItemsSection
     colors: colors-d
     elementId: ''
