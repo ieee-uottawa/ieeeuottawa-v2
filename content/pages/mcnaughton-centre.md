@@ -110,7 +110,7 @@ sections:
     backgroundSize: full
     title: Dry Lab Workspace
     subtitle: ''
-    subtitleFr: Section sous-titre
+    subtitleFr: ''
     text: >
       The McNaughton Centre provides students with a unique opportunity to
       develop the practical skills needed to excel in their EECS studies. Our
