@@ -2,6 +2,7 @@
     "type": "Person",
     "firstName": "Reethi",
     "lastName": "Paul",
+    "socialLinks": [],
     "image": {
         "url": "/images/team/reethi-paul.jpg",
         "altText": "Reethi Paul photo"

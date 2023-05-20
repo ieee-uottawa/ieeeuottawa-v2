@@ -2,6 +2,7 @@
     "type": "Person",
     "firstName": "Tony",
     "lastName": "Kim",
+    "socialLinks": [],
     "image": {
         "type": "ImageBlock",
         "url": "/images/team/tony-kim.jpg",

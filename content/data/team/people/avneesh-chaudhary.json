@@ -2,6 +2,7 @@
     "type": "Person",
     "firstName": "Avneesh",
     "lastName": "Chaudhary",
+    "socialLinks": [],
     "image": {
         "url": "/images/team/avneesh-chaudhary.png",
         "altText": "Avneesh Chaudhary photo"

@@ -2,6 +2,7 @@
     "type": "Person",
     "firstName": "Valerie",
     "lastName": "Grant",
+    "socialLinks": [],
     "image": {
         "url": "/images/team/valerie-grant.jpg",
         "altText": "Valerie Grant photo"

@@ -2,6 +2,7 @@
     "type": "Person",
     "firstName": "Sultan",
     "lastName": "Oloyede",
+    "socialLinks": [],
     "image": {
         "url": "/images/team/sultan-oloyede.jpg",
         "altText": "Sultan Oloyede photo"

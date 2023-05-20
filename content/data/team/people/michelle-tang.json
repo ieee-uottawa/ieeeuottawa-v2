@@ -2,6 +2,7 @@
     "type": "Person",
     "firstName": "Michelle",
     "lastName": "Tang",
+    "socialLinks": [],
     "image": {
         "url": "/images/team/michelle-tang.jpg",
         "altText": "Michelle Tang photo"

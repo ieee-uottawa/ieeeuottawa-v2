@@ -2,6 +2,7 @@
     "type": "Person",
     "firstName": "Rachel",
     "lastName": "Wendling",
+    "socialLinks": [],
     "image": {
         "url": "/images/team/placeholder.jpeg",
         "altText": "Rachel Wendling photo"

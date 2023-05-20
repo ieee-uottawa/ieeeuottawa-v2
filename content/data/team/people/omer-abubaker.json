@@ -2,6 +2,7 @@
     "type": "Person",
     "firstName": "Omer",
     "lastName": "Abubaker",
+    "socialLinks": [],
     "image": {
         "url": "/images/team/omer-abubaker.jpg",
         "altText": "Omer Abubaker photo"

@@ -2,6 +2,7 @@
     "type": "Person",
     "firstName": "Erik",
     "lastName": "Cassidy",
+    "socialLinks": [],
     "image": {
         "url": "/images/team/erik-cassidy.jpg",
         "altText": "Erik Cassidy photo"

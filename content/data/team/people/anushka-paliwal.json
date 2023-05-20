@@ -2,6 +2,7 @@
     "type": "Person",
     "firstName": "Anushka",
     "lastName": "Paliwal",
+    "socialLinks": [],
     "image": {
         "url": "/images/team/anushka-paliwal.jpg",
         "altText": "Anushka Paliwal photo"

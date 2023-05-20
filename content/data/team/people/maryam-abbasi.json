@@ -2,6 +2,7 @@
     "type": "Person",
     "firstName": "Maryam",
     "lastName": "Abbasi",
+    "socialLinks": [],
     "image": {
         "url": "/images/team/placeholder.jpeg",
         "altText": "Maryam Abbasi"

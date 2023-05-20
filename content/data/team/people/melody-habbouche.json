@@ -2,6 +2,7 @@
     "type": "Person",
     "firstName": "Melody",
     "lastName": "Habbouche",
+    "socialLinks": [],
     "image": {
         "url": "/images/team/melody-habbouche.jpg",
         "altText": "Melody Habbouche photo"

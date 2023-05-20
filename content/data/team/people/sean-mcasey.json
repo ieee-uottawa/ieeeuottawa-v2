@@ -2,6 +2,7 @@
     "type": "Person",
     "firstName": "Sean",
     "lastName": "McAsey",
+    "socialLinks": [],
     "image": {
         "url": "/images/team/sean-mcasey.jpg",
         "altText": "Sean McAsey photo"

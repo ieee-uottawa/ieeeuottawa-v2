@@ -2,6 +2,7 @@
     "type": "Person",
     "firstName": "Vlad",
     "lastName": "Jidkov",
+    "socialLinks": [],
     "image": {
         "url": "/images/team/vladislav-jidkov.jpg",
         "altText": "Vlad Jidkov photo"

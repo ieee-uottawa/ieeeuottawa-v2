@@ -2,6 +2,7 @@
     "type": "Person",
     "firstName": "Ryan",
     "lastName": "Fleck",
+    "socialLinks": [],
     "image": {
         "url": "/images/team/ryan-fleck.jpg",
         "altText": "Ryan Fleck photo"

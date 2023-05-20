@@ -2,6 +2,7 @@
     "type": "Person",
     "firstName": "Khaled",
     "lastName": "Atia",
+    "socialLinks": [],
     "image": {
         "url": "/images/team/khaled-atia.jpg",
         "altText": "Khaled Atia photo"

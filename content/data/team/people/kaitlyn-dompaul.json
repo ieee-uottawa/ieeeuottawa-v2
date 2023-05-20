@@ -2,6 +2,7 @@
     "type": "Person",
     "firstName": "Kaitlyn",
     "lastName": "Dompaul",
+    "socialLinks": [],
     "image": {
         "url": "/images/team/kaitlyn-dompaul.jpg",
         "altText": "Kaitlyn Dompaul photo"

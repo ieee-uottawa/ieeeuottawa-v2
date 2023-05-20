@@ -2,6 +2,7 @@
     "type": "Person",
     "firstName": "Mikeli",
     "lastName": "Habash",
+    "socialLinks": [],
     "image": {
         "url": "/images/team/mikeli-habash.jpg",
         "altText": "Mikeli Habash photo"

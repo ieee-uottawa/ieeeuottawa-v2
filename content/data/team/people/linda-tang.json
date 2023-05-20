@@ -2,7 +2,8 @@
     "type": "Person",
     "firstName": "Linda",
     "lastName": "Tang",
-        "image": {
+        "socialLinks": [],
+    "image": {
         "url": "/images/team/linda-tang.jpg",
         "altText": "Linda Tang photo"
     }

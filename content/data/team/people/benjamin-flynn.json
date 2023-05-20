@@ -2,6 +2,7 @@
     "type": "Person",
     "firstName": "Benjamin",
     "lastName": "Flynn",
+    "socialLinks": [],
     "image": {
         "type": "ImageBlock",
         "url": "/images/team/benjamin-flynn.jpg",

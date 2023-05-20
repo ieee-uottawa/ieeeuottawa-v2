@@ -2,6 +2,7 @@
     "type": "Person",
     "firstName": "Abbygail",
     "lastName": "Powell",
+    "socialLinks": [],
     "image": {
         "url": "/images/team/placeholder.jpeg",
         "altText": "Abbygail Powell"

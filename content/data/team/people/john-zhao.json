@@ -2,6 +2,7 @@
     "type": "Person",
     "firstName": "John",
     "lastName": "Zhao",
+    "socialLinks": [],
     "image": {
         "url": "/images/team/john-zhao.jpg",
         "altText": "John Zhao photo"

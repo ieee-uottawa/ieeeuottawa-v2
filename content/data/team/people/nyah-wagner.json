@@ -2,6 +2,7 @@
     "type": "Person",
     "firstName": "Nyah",
     "lastName": "Wagner",
+    "socialLinks": [],
     "image": {
         "url": "/images/team/placeholder.jpeg",
         "altText": "Nyah Wagner"
