@@ -1,8 +1,8 @@
 ---
 layout: PostFeedLayout
-title: Articles
+title: Posts
 titleFr: Articles
-numOfPostsPerPage: 10
+numOfPostsPerPage: 20
 postFeed:
   showDate: true
   showAuthor: false
@@ -19,6 +19,8 @@ postFeed:
         - pl-4
         - pr-4
         - pb-12
+      margin:
+        - mb-48
 styles:
   title:
     textAlign: center

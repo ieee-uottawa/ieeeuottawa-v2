@@ -1,0 +1,399 @@
+{
+    "model": "PageLayout",
+    "presets": [
+        {
+            "label": "Current Team Page",
+            "thumbnail": "images/page-layout-current-team-page-8f51.png",
+            "locale": null,
+            "metadata": {
+                "categories": [
+                    "Page Layout"
+                ],
+                "canDelete": true
+            },
+            "data": {
+                "metaTitle": "2022-2023 Execs",
+                "metaDescription": "Meet the 2022-2023 team behind the amazing initiatives from our student branch.",
+                "addTitleSuffix": true,
+                "socialImage": "/images/team-pic.jpg",
+                "metaTags": [
+                    {
+                        "property": "og:type",
+                        "content": "website",
+                        "$$type": "MetaTag"
+                    },
+                    {
+                        "property": "og:image:alt",
+                        "content": "IEEE uOttawa Student Branch Logo",
+                        "$$type": "MetaTag"
+                    },
+                    {
+                        "property": "og:url",
+                        "content": "https://ieeeuottawa.ca/execs-2022-2023",
+                        "$$type": "MetaTag"
+                    },
+                    {
+                        "property": "og:site_name",
+                        "content": "IEEE uOttawa Student Branch",
+                        "$$type": "MetaTag"
+                    },
+                    {
+                        "property": "twitter:site",
+                        "content": "@ieeeuottawa",
+                        "$$type": "MetaTag"
+                    }
+                ],
+                "title": "2022-2023 Execs",
+                "sections": [
+                    {
+                        "colors": "colors-e",
+                        "elementId": "",
+                        "backgroundSize": "full",
+                        "title": "Execs",
+                        "titleFr": null,
+                        "subtitle": "Behind every successful student association is a team of committed volunteers who share the common goal of enhancing EECS students' life on campus.",
+                        "subtitleFr": "Chaque association étudiante efficace repose sur une équipe de bénévoles engagés qui partagent l'objectif commun d'améliorer la vie des étudiants EECS sur le campus.",
+                        "text": "",
+                        "textFr": null,
+                        "actions": [],
+                        "media": null,
+                        "backgroundImage": {
+                            "url": "/images/team-pic.jpg",
+                            "backgroundSize": "cover",
+                            "backgroundPosition": "center",
+                            "backgroundRepeat": "no-repeat",
+                            "opacity": 20,
+                            "$$type": "BackgroundImage"
+                        },
+                        "styles": {
+                            "self": {
+                                "height": "auto",
+                                "width": "wide",
+                                "padding": [
+                                    "pt-36",
+                                    "pb-36",
+                                    "pl-4",
+                                    "pr-4"
+                                ],
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "flexDirection": "row"
+                            },
+                            "title": {
+                                "textAlign": "left"
+                            },
+                            "subtitle": {
+                                "textAlign": "left"
+                            },
+                            "text": {
+                                "textAlign": "left"
+                            },
+                            "actions": {
+                                "justifyContent": "flex-start"
+                            }
+                        },
+                        "$$type": "HeroSection"
+                    },
+                    {
+                        "colors": "colors-b",
+                        "elementId": "current-team",
+                        "variant": "variant-a",
+                        "title": "2022-2023",
+                        "subtitle": "Execs",
+                        "actions": [],
+                        "execs": [
+                            {
+                                "role": "chair",
+                                "person": {
+                                    "$$ref": "content/data/team/people/rikki-romana.json",
+                                    "$$type": "Person"
+                                },
+                                "$$type": "Exec"
+                            },
+                            {
+                                "role": "vice-chair",
+                                "person": {
+                                    "$$ref": "content/data/team/people/steven-li.json",
+                                    "$$type": "Person"
+                                },
+                                "$$type": "Exec"
+                            },
+                            {
+                                "role": "treasurer",
+                                "person": {
+                                    "$$ref": "content/data/team/people/benjamin-flynn.json",
+                                    "$$type": "Person"
+                                },
+                                "$$type": "Exec"
+                            },
+                            {
+                                "role": "mcnaughton",
+                                "person": {
+                                    "$$ref": "content/data/team/people/juan-hiedra-primera.json",
+                                    "$$type": "Person"
+                                },
+                                "$$type": "Exec"
+                            },
+                            {
+                                "role": "secretary",
+                                "person": {
+                                    "$$ref": "content/data/team/people/nizar-zariouh.json",
+                                    "$$type": "Person"
+                                },
+                                "$$type": "Exec"
+                            },
+                            {
+                                "role": "internal",
+                                "person": {
+                                    "$$ref": "content/data/team/people/mingye-chen.json",
+                                    "$$type": "Person"
+                                },
+                                "$$type": "Exec"
+                            },
+                            {
+                                "role": "external",
+                                "person": {
+                                    "$$ref": "content/data/team/people/disala-de-silva.json",
+                                    "$$type": "Person"
+                                },
+                                "$$type": "Exec"
+                            },
+                            {
+                                "role": "academic",
+                                "person": {
+                                    "$$ref": "content/data/team/people/stefan-todorovic.json",
+                                    "$$type": "Person"
+                                },
+                                "$$type": "Exec"
+                            },
+                            {
+                                "role": "social",
+                                "person": {
+                                    "$$ref": "content/data/team/people/ethan-bowering.json",
+                                    "$$type": "Person"
+                                },
+                                "$$type": "Exec"
+                            },
+                            {
+                                "role": "equity",
+                                "person": {
+                                    "$$ref": "content/data/team/people/anjaliya-sonnilal.json",
+                                    "$$type": "Person"
+                                },
+                                "$$type": "Exec"
+                            },
+                            {
+                                "role": "merch",
+                                "person": {
+                                    "$$ref": "content/data/team/people/sultan-oloyede.json",
+                                    "$$type": "Person"
+                                },
+                                "$$type": "Exec"
+                            },
+                            {
+                                "role": "communications",
+                                "person": {
+                                    "$$ref": "content/data/team/people/pavly-saleh.json",
+                                    "$$type": "Person"
+                                },
+                                "$$type": "Exec"
+                            },
+                            {
+                                "role": "webmaster",
+                                "person": {
+                                    "$$ref": "content/data/team/people/loic-kandikandi.json",
+                                    "$$type": "Person"
+                                },
+                                "$$type": "Exec"
+                            },
+                            {
+                                "role": "elg-commissioner",
+                                "person": {
+                                    "$$ref": "content/data/team/people/abbygail-powell.json",
+                                    "$$type": "Person"
+                                },
+                                "$$type": "Exec"
+                            },
+                            {
+                                "role": "ceg-commissioner",
+                                "person": {
+                                    "$$ref": "content/data/team/people/saheen-jeyarajah.json",
+                                    "$$type": "Person"
+                                },
+                                "$$type": "Exec"
+                            },
+                            {
+                                "role": "seg-commissioner",
+                                "person": {
+                                    "$$ref": "content/data/team/people/daniel-thorp.json",
+                                    "$$type": "Person"
+                                },
+                                "$$type": "Exec"
+                            },
+                            {
+                                "role": "wie-chair",
+                                "person": {
+                                    "$$ref": "content/data/team/people/sophie-tomlin.json",
+                                    "$$type": "Person"
+                                },
+                                "$$type": "Exec"
+                            },
+                            {
+                                "role": "wie-vice-chair",
+                                "person": {
+                                    "$$ref": "content/data/team/people/kaitlyn-dompaul.json",
+                                    "$$type": "Person"
+                                },
+                                "$$type": "Exec"
+                            },
+                            {
+                                "role": "photonics-chair",
+                                "person": {
+                                    "$$ref": "content/data/team/people/omid-mozafar.json",
+                                    "$$type": "Person"
+                                },
+                                "$$type": "Exec"
+                            },
+                            {
+                                "role": "photonics-vice-chair",
+                                "person": {
+                                    "$$ref": "content/data/team/people/maryam-abbasi.json",
+                                    "$$type": "Person"
+                                },
+                                "$$type": "Exec"
+                            }
+                        ],
+                        "people": [],
+                        "styles": {
+                            "self": {
+                                "height": "auto",
+                                "width": "wide",
+                                "margin": [
+                                    "mt-0",
+                                    "mb-0",
+                                    "ml-0",
+                                    "mr-0"
+                                ],
+                                "padding": [
+                                    "pt-16",
+                                    "pb-5",
+                                    "pl-4",
+                                    "pr-4"
+                                ],
+                                "justifyContent": "center"
+                            },
+                            "title": {
+                                "textAlign": "center"
+                            },
+                            "subtitle": {
+                                "textAlign": "center"
+                            },
+                            "actions": {
+                                "justifyContent": "center"
+                            }
+                        },
+                        "$$type": "FeaturedPeopleSection"
+                    },
+                    {
+                        "colors": "colors-b",
+                        "elementId": "",
+                        "variant": "variant-a",
+                        "title": null,
+                        "subtitle": "Commissioners",
+                        "actions": [],
+                        "execs": [
+                            {
+                                "role": "elg-rep",
+                                "person": {
+                                    "$$ref": "content/data/team/people/mohamad-sabbagh.json",
+                                    "$$type": "Person"
+                                },
+                                "$$type": "Exec"
+                            },
+                            {
+                                "role": "ceg-rep",
+                                "person": {
+                                    "$$ref": "content/data/team/people/krisha-veera.json",
+                                    "$$type": "Person"
+                                },
+                                "$$type": "Exec"
+                            },
+                            {
+                                "role": "seg-rep",
+                                "person": {
+                                    "$$ref": "content/data/team/people/sacha-arseneault.json",
+                                    "$$type": "Person"
+                                },
+                                "$$type": "Exec"
+                            },
+                            {
+                                "role": "design-commissioner",
+                                "person": {
+                                    "$$ref": "content/data/team/people/emma.json",
+                                    "$$type": "Person"
+                                },
+                                "$$type": "Exec"
+                            },
+                            {
+                                "role": "translations-commissioner",
+                                "person": {
+                                    "$$ref": "content/data/team/people/saifdine-sahbani.json",
+                                    "$$type": "Person"
+                                },
+                                "$$type": "Exec"
+                            },
+                            {
+                                "role": "wie-treasurer",
+                                "person": {
+                                    "$$ref": "content/data/team/people/rachel-wendling.json",
+                                    "$$type": "Person"
+                                },
+                                "$$type": "Exec"
+                            },
+                            {
+                                "role": "wie-design",
+                                "person": {
+                                    "$$ref": "content/data/team/people/nyah-wagner.json",
+                                    "$$type": "Person"
+                                },
+                                "$$type": "Exec"
+                            },
+                            {
+                                "role": "wie-external",
+                                "person": {
+                                    "$$ref": "content/data/team/people/somana-debnath.json",
+                                    "$$type": "Person"
+                                },
+                                "$$type": "Exec"
+                            }
+                        ],
+                        "people": [],
+                        "styles": {
+                            "self": {
+                                "height": "auto",
+                                "width": "wide",
+                                "padding": [
+                                    "pt-5",
+                                    "pb-24",
+                                    "pl-4",
+                                    "pr-4"
+                                ],
+                                "justifyContent": "center"
+                            },
+                            "title": {
+                                "textAlign": "center"
+                            },
+                            "subtitle": {
+                                "textAlign": "center"
+                            },
+                            "actions": {
+                                "justifyContent": "center"
+                            }
+                        },
+                        "$$type": "FeaturedPeopleSection"
+                    }
+                ]
+            }
+        }
+    ]
+}

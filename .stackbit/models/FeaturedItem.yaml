@@ -55,6 +55,7 @@ fields:
   - type: enum
     name: featuredIcon
     label: Icon
+    required: false
     options:
       - label: Apple
         value: apple
