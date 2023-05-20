@@ -128,10 +128,11 @@ sections:
       électroniques.
     actions: []
     backgroundImage:
-      type: ImageBlock
+      type: BackgroundImage
       url: /images/mcn/dry-lab.png
       backgroundSize: cover
       backgroundPosition: center
+      backgroundRepeat: no-repeat
       opacity: 50
     styles:
       self:
@@ -175,7 +176,6 @@ sections:
         work
       width: 1125
       height: 844
-    backgroundImage: null
     styles:
       self:
         height: auto
@@ -221,7 +221,6 @@ sections:
         read
       width: 540
       height: 540
-    backgroundImage: null
     styles:
       self:
         height: auto
@@ -265,7 +264,6 @@ sections:
       type: ImageBlock
       url: /images/mcn/funzone.png
       altText: Collage of 3 pictures showing people having fun at the office
-    backgroundImage: null
     styles:
       self:
         height: auto

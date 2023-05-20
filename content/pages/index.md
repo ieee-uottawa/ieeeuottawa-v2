@@ -246,9 +246,6 @@ sections:
           url: /images/events/2022-2023/ELG Panel.jpeg
           altText: 14th Annual Wine and Cheese Poster
           caption: 14th Annual Wine and Cheese Poster
-        featuredIcon:
-          label: Apple
-          value: apple
         actions:
           - type: Button
             label: Learn More
@@ -306,10 +303,11 @@ sections:
         style: primary
         url: 'https://www.facebook.com/ieeeuottawa/photos'
     backgroundImage:
-      type: ImageBlock
+      type: BackgroundImage
       url: /images/gridgallery.png
       backgroundSize: cover
       backgroundPosition: center
+      backgroundRepeat: no-repeat
       opacity: 60
     styles:
       self:
@@ -349,7 +347,6 @@ sections:
         icon: arrowRight
         url: 'mailto:communications@ieeeuottawa.ca'
         style: primary
-    backgroundImage: null
     styles:
       self:
         height: auto

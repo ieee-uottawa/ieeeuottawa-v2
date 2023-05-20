@@ -24,7 +24,6 @@ sections:
       altText: Office Hours Graphic
       height: 1000
       width: 800
-    backgroundImage: null
     styles:
       self:
         height: auto

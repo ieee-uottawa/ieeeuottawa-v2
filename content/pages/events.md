@@ -98,9 +98,7 @@ sections:
           url: /images/events/2022-2023/ELG Panel.jpeg
           altText: 14th Annual Wine and Cheese Poster
           caption: 14th Annual Wine and Cheese Poster
-        featuredIcon:
-          label: Apple
-          value: apple
+
         actions:
           - type: Button
             label: Learn More
@@ -148,9 +146,7 @@ sections:
           url: /images/events/2022-2023/wine-and-cheese-14.jpeg
           altText: 14th Annual Wine and Cheese Poster
           caption: 14th Annual Wine and Cheese Poster
-        featuredIcon:
-          label: Apple
-          value: apple
+
         actions:
           - type: Button
             label: Learn More
@@ -193,9 +189,7 @@ sections:
           url: /images/events/2022-2023/hacking-challenges.jpeg
           altText: Cybersecurity Club Challenge Poster
           caption: Cybersecurity Club Challenge Poster
-        featuredIcon:
-          label: Apple
-          value: apple
+
         actions:
           - type: Button
             label: Learn More
@@ -233,9 +227,7 @@ sections:
           url: /images/HTH-Hackathon.jpeg
           altText: Hack The Hill Hackathon
           caption: Hack The Hill Hackathon
-        featuredIcon:
-          label: Apple
-          value: apple
+
         actions:
           - type: Button
             label: Learn More
@@ -274,9 +266,7 @@ sections:
           url: /images/night-of-be-excellence.jpeg
           altText: Night of Black Engineering Excellence Event
           caption: Night of Black Engineering Excellence Event
-        featuredIcon:
-          label: Apple
-          value: apple
+
         actions:
           - type: Button
             label: Learn More
@@ -315,9 +305,7 @@ sections:
           url: /images/interview-prepday.jpeg
           altText: Interview Prep Day
           caption: Interview Prep Day
-        featuredIcon:
-          label: Apple
-          value: apple
+
         actions:
           - type: Button
             label: Learn More
@@ -355,9 +343,7 @@ sections:
           url: /images/condenses-matter.jpeg
           altText: Condensed-matter inspired photonics
           caption: Condensed-matter inspired photonics
-        featuredIcon:
-          label: Apple
-          value: apple
+
         actions:
           - type: Button
             label: Learn More
@@ -397,9 +383,7 @@ sections:
           url: /images/hth-www-workshop.jpeg
           altText: Wicked Web Work Poster
           caption: Wicked Web Work Poster
-        featuredIcon:
-          label: Apple
-          value: apple
+
         actions:
           - type: Button
             label: Learn More
@@ -437,9 +421,7 @@ sections:
           url: /images/c&c-f2022.jpeg
           altText: Cookies & Cram Fall 2022
           caption: Cookies & Cram Fall 2022
-        featuredIcon:
-          label: Apple
-          value: apple
+
         actions:
           - type: Button
             label: Learn More
@@ -475,9 +457,7 @@ sections:
           url: /images/elg-trivia-night.jpeg
           altText: ELG Trivia Night
           caption: ELG Trivia Night
-        featuredIcon:
-          label: Apple
-          value: apple
+
         actions:
           - type: Button
             label: Learn More
@@ -518,9 +498,7 @@ sections:
           type: ImageBlock
           url: /images/ceg-hangout.jpeg
           altText: Spectroscopy Seminar Poster
-        featuredIcon:
-          label: Apple
-          value: apple
+
         actions:
           - type: Button
             label: Learn More
@@ -563,7 +541,6 @@ sections:
           url: /images/wie-by-elections.jpeg
           altText: WIE Fall By-Elections Poster
           caption: WIE Fall By-Elections Poster
-        featuredIcon: apple
         actions:
           - type: Button
             label: Learn More
@@ -606,7 +583,6 @@ sections:
           url: /images/microchips-and-dips.jpeg
           altText: Microchips & Dips Poster
           caption: Microchips & Dips Poster
-        featuredIcon: apple
         actions:
           - type: Button
             label: Learn More
@@ -647,7 +623,6 @@ sections:
           type: ImageBlock
           url: /images/bele-game-night.jpeg
           altText: BELE Game Night Poster
-        featuredIcon: apple
         actions:
           - type: Button
             label: Learn More
@@ -686,7 +661,6 @@ sections:
           type: ImageBlock
           url: /images/ceg-panel.jpeg
           altText: CEG Career Panel Poster
-        featuredIcon: apple
         actions:
           - type: Button
             label: Learn More
@@ -727,7 +701,6 @@ sections:
           url: /images/ciena-event.jpeg
           altText: Ciena Networking Event Poster
           caption: Ciena Networking Event Poster
-        featuredIcon: apple
         actions:
           - type: Button
             label: Learn More
@@ -765,9 +738,7 @@ sections:
           type: ImageBlock
           url: /images/events/2022-2023/fall2022-by-elections.jpeg
           altText: Fall By Elections Poster
-        featuredIcon:
-          label: Apple
-          value: apple
+
         actions:
           - type: Button
             label: Learn More
@@ -806,9 +777,7 @@ sections:
           type: ImageBlock
           url: /images/events/2022-2023/spectroscopy-speaker-talk.jpeg
           altText: Spectroscopy Seminar Poster
-        featuredIcon:
-          label: Apple
-          value: apple
+
         actions:
           - type: Button
             label: Learn More
@@ -842,9 +811,7 @@ sections:
           type: ImageBlock
           url: /images/DART Launch Event.jpeg
           altText: Spectroscopy Seminar Poster
-        featuredIcon:
-          label: Apple
-          value: apple
+
         actions:
           - type: Button
             label: Learn More
@@ -870,9 +837,7 @@ sections:
           type: ImageBlock
           url: /images/events/2022-2023/photonics-guest-speaker-talk.jpeg
           altText: Photonics Photonics Seminar Event
-        featuredIcon:
-          label: Apple
-          value: apple
+
         actions:
           - type: Button
             label: Learn More
