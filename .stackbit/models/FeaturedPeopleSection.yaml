@@ -55,9 +55,9 @@ fields:
       models:
         - Person
     default:
-      - content/data/team/placeholder.json
-      - content/data/team/placeholder.json
-      - content/data/team/placeholder.json
+      - content/data/team/people/placeholder.json
+      - content/data/team/people/placeholder.json
+      - content/data/team/people/placeholder.json
   - type: style
     name: styles
     styles:
