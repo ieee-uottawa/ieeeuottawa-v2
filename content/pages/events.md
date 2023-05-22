@@ -46,7 +46,7 @@ sections:
     colors: colors-c
     elementId: ''
     title: Upcoming Events
-    subtitleFr: Consultez nos événements à venir
+    subtitleFr: Il n'y a actuellement aucun événement à venir. Revenez bientôt !
     actions: []
     columns: 2
     spacingX: 40
@@ -71,7 +71,14 @@ sections:
       actions:
         justifyContent: flex-start
     titleFr: Evénements prochains
-    subtitle: Check out our upcoming events
+    subtitle: There are currently no upcoming events. Check back soon!
+    items: []
+  - type: FeaturedItemsSection
+    colors: colors-d
+    elementId: ''
+    title: Past Events
+    titleFr: Événements passés
+    subtitle: Click the button below to view more events.
     items:
       - type: FeaturedItem
         elementId: ''
@@ -113,13 +120,6 @@ sections:
           self:
             textAlign: left
         subtitle: '04/11/2023, 6:30PM'
-  - type: FeaturedItemsSection
-    colors: colors-d
-    elementId: ''
-    title: Past Events
-    titleFr: Événements passés
-    subtitle: Click the button below to view more events.
-    items:
       - type: FeaturedItem
         elementId: ''
         title: 14th Annual WIE Wine and Cheese
