@@ -47,6 +47,16 @@ fields:
     items:
       type: model
       models: [Exec]
+    default:
+      - role: chair
+        person: content/data/team/people/placeholder.json
+        type: Exec
+      - role: wie-chair
+        person: content/data/team/people/placeholder.json
+        type: Exec
+      - role: photonics-chair
+        person: content/data/team/people/placeholder.json
+        type: Exec
   - type: list
     name: people
     label: People
