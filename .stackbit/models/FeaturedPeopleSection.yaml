@@ -55,9 +55,9 @@ fields:
       models:
         - Person
     default:
-      - content/data/team/vp-comms.json
-      - content/data/team/vice-chair.json
-      - content/data/team/chair.json
+      - content/data/team/placeholder.json
+      - content/data/team/placeholder.json
+      - content/data/team/placeholder.json
   - type: style
     name: styles
     styles:
