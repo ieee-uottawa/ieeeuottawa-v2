@@ -1,0 +1,18 @@
+{
+    "type": "Person",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "image": {
+        "url": "/images/team/placeholder.jpeg",
+        "altText": "Placeholder photo"
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "altText": "LinkedIn",
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com",
+            "icon": "linkedin"
+        }
+    ]
+}

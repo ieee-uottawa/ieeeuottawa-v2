@@ -72,4 +72,4 @@ fields:
     models:
       - Person
     required: true
-    default: content/data/team/vp-comms.json
+    default: content/data/team/placeholder.json
