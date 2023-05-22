@@ -104,7 +104,8 @@ sections:
             label: View
             showIcon: true
             icon: arrowRight
-            url: https://blushing-radiator-780.notion.site/IEEE-Budget-6d683f8d7e9e43f78f782d1911bf5dda
+            url: >-
+              https://blushing-radiator-780.notion.site/IEEE-Budget-6d683f8d7e9e43f78f782d1911bf5dda
             style: secondary
         styles:
           self:
@@ -112,16 +113,17 @@ sections:
       - type: FeaturedItem
         title: 2023-2024 Election Guidelines
         titleFr: Directives électorales 2023-2024
-        text: >
+        text: |
           This document contains the 2023-2024 IEEE uOttawa election rules
-        textFr: >
+        textFr: |
           Ce document contient les règles électorales IEEE uOttawa 2023-2024
         actions:
           - type: Button
             label: View
             showIcon: true
             icon: arrowRight
-            url: https://uottawa-my.sharepoint.com/personal/mchen304_uottawa_ca/_layouts/15/guestaccess.aspx?docid=0f1de7ab490ad4c3b8ed9f989b4c8cb04&authkey=AcgP5CJuSIdkJW7z9tZi0Ic&e=rtWCNK
+            url: >-
+              https://uottawa-my.sharepoint.com/personal/mchen304_uottawa_ca/_layouts/15/guestaccess.aspx?docid=0f1de7ab490ad4c3b8ed9f989b4c8cb04&authkey=AcgP5CJuSIdkJW7z9tZi0Ic&e=rtWCNK
             style: secondary
         styles:
           self:
@@ -160,14 +162,36 @@ sections:
       des discussions qui motivent nos actions.
     items:
       - type: FeaturedItem
+        elementId: ''
+        title: IEEE Executive Meeting Minutes
+        subtitle: '2023-04-08'
+        subtitleFr: 08-04-2023
+        isIcon: false
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - type: Button
+            label: View
+            altText: ''
+            url: /files/IEEE_Executive_Meeting_Minutes_2023-04-08.pdf
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+        styles:
+          self:
+            textAlign: left
+        titleFr: Comptes rendus de la réunion exécutive
+      - type: FeaturedItem
         title: IEEE Executive Meeting Minutes
         titleFr: Comptes rendus de la réunion exécutive
         actions:
           - type: Button
             label: View
-            altText: 'Link to view meeting minutes'
-            url: >-
-              /files/IEEE_Executive_Meeting_Minutes_2023-03-15.pdf
+            altText: Link to view meeting minutes
+            url: /files/IEEE_Executive_Meeting_Minutes_2023-03-15.pdf
             showIcon: true
             icon: arrowRight
             iconPosition: right
@@ -184,9 +208,8 @@ sections:
         actions:
           - type: Button
             label: View
-            altText: 'Link to view meeting minutes'
-            url: >-
-              /files/IEEE_Executive_Meeting_Minutes_2023-02-25.pdf
+            altText: Link to view meeting minutes
+            url: /files/IEEE_Executive_Meeting_Minutes_2023-02-25.pdf
             showIcon: true
             icon: arrowRight
             iconPosition: right
@@ -203,9 +226,8 @@ sections:
         actions:
           - type: Button
             label: View
-            altText: 'Link to view meeting minutes'
-            url: >-
-              /files/IEEE_Executive_Meeting_Minutes_2023-02-08.pdf
+            altText: Link to view meeting minutes
+            url: /files/IEEE_Executive_Meeting_Minutes_2023-02-08.pdf
             showIcon: true
             icon: arrowRight
             iconPosition: right
@@ -222,9 +244,8 @@ sections:
         actions:
           - type: Button
             label: View
-            altText: 'Link to view meeting minutes'
-            url: >-
-              /files/IEEE_Executive_Meeting_Minutes_2023-01-21.pdf
+            altText: Link to view meeting minutes
+            url: /files/IEEE_Executive_Meeting_Minutes_2023-01-21.pdf
             showIcon: true
             icon: arrowRight
             iconPosition: right
@@ -241,9 +262,8 @@ sections:
         actions:
           - type: Button
             label: View
-            altText: 'Link to view meeting minutes'
-            url: >-
-              /files/IEEE_Executive_Meeting_Minutes_2022-11-04.pdf
+            altText: Link to view meeting minutes
+            url: /files/IEEE_Executive_Meeting_Minutes_2022-11-04.pdf
             showIcon: true
             icon: arrowRight
             iconPosition: right
@@ -260,7 +280,7 @@ sections:
         actions:
           - type: Button
             label: View
-            altText: 'Link to view meeting minutes'
+            altText: Link to view meeting minutes
             url: >-
               /files/IEEE_Executive_Meeting_Minutes_2022-10-12_(Emergency_Budget_Meeting).pdf
             showIcon: true
@@ -279,7 +299,7 @@ sections:
         actions:
           - type: Button
             label: View
-            altText: 'Link to view meeting minutes'
+            altText: Link to view meeting minutes
             url: /files/IEEE_Executive_Meeting_Minutes_2022-10-05.pdf
             showIcon: true
             icon: arrowRight
@@ -297,7 +317,7 @@ sections:
         actions:
           - type: Button
             label: View
-            altText: 'Link to view meeting minutes'
+            altText: Link to view meeting minutes
             url: /files/IEEE_Executive_Meeting_Minutes_2022-09-17.pdf
             showIcon: true
             icon: arrowRight
@@ -315,7 +335,7 @@ sections:
         actions:
           - type: Button
             label: View
-            altText: 'Link to view meeting minutes'
+            altText: Link to view meeting minutes
             url: /files/IEEE_Executive_Meeting_Minutes_2022-07-10.pdf
             showIcon: true
             icon: arrowRight
