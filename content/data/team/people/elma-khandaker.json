@@ -2,6 +2,7 @@
     "type": "Person",
     "firstName": "Elma",
     "lastName": "Khandaker",
+    "socialLinks": [],
     "image": {
         "url": "/images/team/elma-khandaker.jpg",
         "altText": "Elma Khandaker photo"

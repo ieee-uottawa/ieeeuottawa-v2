@@ -2,6 +2,7 @@
     "type": "Person",
     "firstName": "Sanat",
     "lastName": "Nayar",
+    "socialLinks": [],
     "image": {
         "type": "ImageBlock",
         "url": "/images/team/sanat-nayar.jpg",

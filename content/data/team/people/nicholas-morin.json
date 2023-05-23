@@ -2,6 +2,7 @@
     "type": "Person",
     "firstName": "Nicholas",
     "lastName": "Morin",
+    "socialLinks": [],
     "image": {
         "url": "/images/team/nicholas-morin.jpg",
         "altText": "Nicholas Morin photo"

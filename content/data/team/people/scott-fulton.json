@@ -2,6 +2,7 @@
     "type": "Person",
     "firstName": "Scott",
     "lastName": "Fulton",
+    "socialLinks": [],
     "image": {
         "url": "/images/team/scott-fulton.jpg",
         "altText": "Scott Fulton photo"

@@ -2,6 +2,7 @@
     "type": "Person",
     "firstName": "Rushil",
     "lastName": "Perera",
+    "socialLinks": [],
     "image": {
         "url": "/images/team/rushil-perera.jpg",
         "altText": "Rushil Perera photo"

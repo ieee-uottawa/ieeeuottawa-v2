@@ -2,6 +2,7 @@
     "type": "Person",
     "firstName": "Victoria",
     "lastName": "Hough",
+    "socialLinks": [],
     "image": {
         "url": "/images/team/victoria-hough.jpg",
         "altText": "Victoria Hough photo"

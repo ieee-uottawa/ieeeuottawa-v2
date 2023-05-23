@@ -2,6 +2,7 @@
     "type": "Person",
     "firstName": "Ali",
     "lastName": "Jafri",
+    "socialLinks": [],
     "image": {
         "url": "/images/team/ali-jafri.jpg",
         "altText": "Ali Jafri photo"

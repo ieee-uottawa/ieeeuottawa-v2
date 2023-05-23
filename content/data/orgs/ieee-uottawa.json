@@ -4,7 +4,7 @@
     "lastName": "uOttawa",
     "image": {
         "type": "ImageBlock",
-        "url": "/images/LOGO_BLUE 202.svg",
+        "url": "/images/ieeelogo.svg",
         "altText": "IEEE uOttawa Logo"
     }
 }

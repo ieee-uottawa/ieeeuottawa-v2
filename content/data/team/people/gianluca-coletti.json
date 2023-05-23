@@ -2,6 +2,7 @@
     "type": "Person",
     "firstName": "Gianluca",
     "lastName": "Coletti",
+    "socialLinks": [],
     "image": {
         "url": "/images/team/gianluca-coletti.jpg",
         "altText": "Gianluca Coletti photo"

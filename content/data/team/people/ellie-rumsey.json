@@ -2,6 +2,7 @@
     "type": "Person",
     "firstName": "Ellie",
     "lastName": "Rumsey",
+    "socialLinks": [],
     "image": {
         "url": "/images/team/ellie-rumsey.jpg",
         "altText": "Ellie Rumsey photo"

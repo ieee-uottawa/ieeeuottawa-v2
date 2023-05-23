@@ -1,0 +1,211 @@
+{
+    "model": "HeroSection",
+    "presets": [
+        {
+            "label": "hero dark bg image",
+            "thumbnail": "images/hero-dark-bg-image.png",
+            "locale": null,
+            "metadata": {
+                "categories": [
+                    "Hero"
+                ],
+                "canDelete": true
+            },
+            "data": {
+                "colors": "colors-e",
+                "elementId": "homepage-hero-1",
+                "backgroundSize": "full",
+                "title": "Power Your Student Experience",
+                "titleFr": "Boostez votre vie étudiante",
+                "subtitle": "with the best sub-association on campus.",
+                "subtitleFr": "avec la meilleure sous-association du campus.",
+                "text": "Election results for the 2023-2024 school year are out!\n",
+                "textFr": "Les résultats de l'élection des execs de l'année scolaire 2023-2024 sont disponibles!\n",
+                "actions": [
+                    {
+                        "label": "Learn More",
+                        "altText": null,
+                        "url": "/about",
+                        "showIcon": false,
+                        "icon": "arrowRight",
+                        "iconPosition": "right",
+                        "style": "primary",
+                        "elementId": null,
+                        "$$type": "Button"
+                    },
+                    {
+                        "label": "Office Hours",
+                        "altText": "Office Hours / Heures de Bureau",
+                        "url": "/mcnaughton-centre",
+                        "showIcon": false,
+                        "icon": "arrowRight",
+                        "iconPosition": "right",
+                        "style": "secondary",
+                        "elementId": "",
+                        "$$type": "Button"
+                    },
+                    {
+                        "label": "Election Results",
+                        "altText": "Election Results Link",
+                        "url": "https://democracy.smallminds.dev/election/71383aee-6d57-4974-b01a-46e940e568e6/positions",
+                        "showIcon": true,
+                        "icon": "arrowRight",
+                        "iconPosition": "right",
+                        "elementId": "",
+                        "$$type": "Link"
+                    }
+                ],
+                "media": null,
+                "backgroundImage": {
+                    "url": "/images/W&C14.JPG",
+                    "backgroundSize": "cover",
+                    "backgroundPosition": "center",
+                    "backgroundRepeat": "no-repeat",
+                    "opacity": 15,
+                    "$$type": "BackgroundImage"
+                },
+                "styles": {
+                    "self": {
+                        "height": "screen",
+                        "width": "wide",
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                        "flexDirection": "row"
+                    },
+                    "title": {
+                        "textAlign": "left"
+                    },
+                    "subtitle": {
+                        "textAlign": "left"
+                    },
+                    "text": {
+                        "textAlign": "left"
+                    },
+                    "actions": {
+                        "justifyContent": "flex-start"
+                    }
+                }
+            }
+        },
+        {
+            "label": "hero light image left",
+            "thumbnail": "images/hero-light-image-left.png",
+            "locale": null,
+            "metadata": {
+                "categories": [
+                    "Hero"
+                ],
+                "canDelete": true
+            },
+            "data": {
+                "colors": "colors-d",
+                "elementId": "",
+                "backgroundSize": "full",
+                "title": "Relaxing Zone",
+                "titleFr": null,
+                "subtitle": null,
+                "subtitleFr": null,
+                "text": "At our office, we understand the demanding nature of the School of EECS curriculum and the need for students to take a break from their studies and work. We encourage all students, regardless of their major, to take advantage of our welcoming environment as a place to unwind, socialize, and enjoy themselves.\n",
+                "textFr": "En raison de la nature intensive des programmes d'école de SIGE, il est nécessaire pour les étudiants de faire une pause dans leurs études et leur travail. C'est pourquoi nous encourageons vivement tous les étudiants (SIGE ou non) à utiliser notre environnement de bureau comme un endroit détendu pour se détendre, se détendre et s'amuser.\n",
+                "actions": [],
+                "media": {
+                    "url": "/images/mcn/funzone.png",
+                    "altText": "Collage of 3 pictures showing people having fun at the office",
+                    "caption": null,
+                    "width": null,
+                    "height": null,
+                    "elementId": null,
+                    "$$type": "ImageBlock"
+                },
+                "backgroundImage": null,
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "wide",
+                        "padding": [
+                            "pt-16",
+                            "pb-20",
+                            "pl-4",
+                            "pr-4"
+                        ],
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                        "flexDirection": "row-reverse"
+                    },
+                    "title": {
+                        "textAlign": "left"
+                    },
+                    "subtitle": {
+                        "textAlign": "left"
+                    },
+                    "text": {
+                        "textAlign": "left"
+                    },
+                    "actions": {
+                        "justifyContent": "flex-start"
+                    }
+                }
+            }
+        },
+        {
+            "label": "hero light image right",
+            "thumbnail": "images/hero-light-image-right.png",
+            "locale": null,
+            "metadata": {
+                "categories": [
+                    "Hero"
+                ],
+                "canDelete": true
+            },
+            "data": {
+                "colors": "colors-d",
+                "elementId": "",
+                "backgroundSize": "full",
+                "title": "EECS Textbook Library",
+                "titleFr": "Bibliothèque de manuels SIGE",
+                "subtitle": null,
+                "subtitleFr": null,
+                "text": "Our office offers a vast selection of EECS (School of Electrical Engineering and Computer Science) textbooks as well as a handful of math, science, business, and elective textbooks for borrowing, all completely free of charge.\n",
+                "textFr": "Notre bureau propose une vaste sélection de manuels de cours SIGE (science informatique et de génie électrique) ainsi que quelques manuels de mathématiques, de sciences, de commerce et d'options, tous disponibles en prêt, et ce, gratuitement.\n",
+                "actions": [],
+                "media": {
+                    "url": "/images/mcn/library.jpeg",
+                    "altText": "Collage of 3 pictures showing library and someone enjoying a textbook read",
+                    "caption": null,
+                    "width": 540,
+                    "height": 540,
+                    "elementId": null,
+                    "$$type": "ImageBlock"
+                },
+                "backgroundImage": null,
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "wide",
+                        "padding": [
+                            "pt-16",
+                            "pb-20",
+                            "pl-4",
+                            "pr-4"
+                        ],
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                        "flexDirection": "row"
+                    },
+                    "title": {
+                        "textAlign": "left"
+                    },
+                    "subtitle": {
+                        "textAlign": "left"
+                    },
+                    "text": {
+                        "textAlign": "left"
+                    },
+                    "actions": {
+                        "justifyContent": "flex-start"
+                    }
+                }
+            }
+        }
+    ]
+}

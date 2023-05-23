@@ -2,6 +2,7 @@
     "type": "Person",
     "firstName": "Madison",
     "lastName": "Smrtka",
+    "socialLinks": [],
     "image": {
         "type": "ImageBlock",
         "url": "/images/team/madison-smrtka.jpg",

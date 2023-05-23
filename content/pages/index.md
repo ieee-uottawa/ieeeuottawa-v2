@@ -218,51 +218,9 @@ sections:
     elementId: ''
     title: Upcoming Events
     titleFr: Prochains événements
-    subtitle: ''
-    subtitleFr: ''
-    items:
-      - type: FeaturedItem
-        elementId: ''
-        title: ELG Specialization Panel
-        titleFr: Panel de spécialisation ELG
-        subtitleFr: '11/04/2023, 18:30'
-        text: >
-          Location: STM 117
-
-
-          Join IEEE uOttawa to explore 5 specializations in electrical
-          engineering, gain insights from experienced alums, and prepare for a
-          successful career.
-        textFr: >
-          Lieu: STM 117
-
-
-          Rejoignez IEEE uOttawa pour explorer 5 spécialisations en génie
-          électrique, obtenir des informations de la part d'anciens expérimentés
-          et vous préparer à une carrière réussie.
-        isIcon: false
-        featuredImage:
-          type: ImageBlock
-          url: /images/events/2022-2023/ELG Panel.jpeg
-          altText: 14th Annual Wine and Cheese Poster
-          caption: 14th Annual Wine and Cheese Poster
-        featuredIcon:
-          label: Apple
-          value: apple
-        actions:
-          - type: Button
-            label: Learn More
-            altText: Learn More Button
-            url: 'https://www.instagram.com/p/CqoWH6FpfDE/'
-            showIcon: true
-            icon: arrowRight
-            iconPosition: right
-            style: secondary
-            elementId: ''
-        styles:
-          self:
-            textAlign: left
-        subtitle: '04/11/2023, 6:30PM'
+    subtitle: 'There are currently no upcoming events. Check back soon!'
+    subtitleFr: "Il n'y a actuellement aucun événement à venir. Revenez bientôt !"
+    items: []
     actions: []
     columns: 2
     spacingX: 40
@@ -306,10 +264,11 @@ sections:
         style: primary
         url: 'https://www.facebook.com/ieeeuottawa/photos'
     backgroundImage:
-      type: ImageBlock
+      type: BackgroundImage
       url: /images/gridgallery.png
       backgroundSize: cover
       backgroundPosition: center
+      backgroundRepeat: no-repeat
       opacity: 60
     styles:
       self:
@@ -349,7 +308,6 @@ sections:
         icon: arrowRight
         url: 'mailto:communications@ieeeuottawa.ca'
         style: primary
-    backgroundImage: null
     styles:
       self:
         height: auto

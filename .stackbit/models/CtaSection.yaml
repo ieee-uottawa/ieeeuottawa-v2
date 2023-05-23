@@ -35,12 +35,12 @@ fields:
     name: text
     label: Text [EN]
     default: |-
-      The Stackbit theme is flexible and scalable to every need. It can manage any layout and any screen.
+      Insert text that incite people to perform an action
   - type: markdown
     name: textFr
     label: Text [FR]
     default: |-
-      The Stackbit theme is flexible and scalable to every need. It can manage any layout and any screen.
+      Insert text that incite people to perform an action
   - type: list
     name: actions
     label: Actions

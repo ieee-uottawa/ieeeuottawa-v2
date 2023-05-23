@@ -5,25 +5,26 @@ presets:
     data:
       variant: variant-a
       colors: colors-d
-      title: Seasonal adventure
+      title: Check out our blog posts
+      titleFr: Consultez nos articles de blog
       subtitle: ''
+      subtitleFr: ''
       actions:
         - type: Link
-          label: See all adventures
-          altText: See all adventures
+          label: Learn More
+          altText: Learn More
           url: '/blog'
           showIcon: true
           icon: arrowRight
       posts:
-        - content/pages/blog/post-five.md
-        - content/pages/blog/post-four.md
-        - content/pages/blog/post-three.md
-        - content/pages/blog/post-two.md
+        - content/pages/blog/bele.md
+        - content/pages/blog/networking.md
+        - content/pages/blog/succeed-academically.md
       showDate: true
       showAuthor: false
       showExcerpt: true
       showReadMoreLink: true
-      readMoreLinkLabel: Join adventure
+      readMoreLinkLabel: Learn More
       styles:
         self:
           height: auto
@@ -45,14 +46,19 @@ presets:
     data:
       variant: variant-b
       colors: colors-e
-      title: Seasonal adventure
+      title: Check out our blog posts
+      titleFr: Consultez nos articles de blog
       subtitle: ''
       actions: []
       showDate: true
       showAuthor: false
       showExcerpt: false
       showReadMoreLink: true
-      readMoreLinkLabel: Join adventure
+      readMoreLinkLabel: Learn More
+      posts:
+        - content/pages/blog/bele.md
+        - content/pages/blog/networking.md
+        - content/pages/blog/succeed-academically.md
       styles:
         self:
           height: auto
@@ -74,26 +80,25 @@ presets:
     data:
       variant: variant-c
       colors: colors-d
-      title: Seasonal adventure
+      title: Check out our blog posts
+      titleFr: Consultez nos articles de blog
       subtitle: ''
       actions:
         - type: Link
-          label: See all adventures
-          altText: See all adventures
+          label: Learn More
+          altText: Learn More
           url: '/blog'
           showIcon: true
           icon: arrowRight
       posts:
-        - content/pages/blog/post-five.md
-        - content/pages/blog/post-four.md
-        - content/pages/blog/post-three.md
-        - content/pages/blog/post-two.md
-        - content/pages/blog/post-one.md
+        - content/pages/blog/bele.md
+        - content/pages/blog/networking.md
+        - content/pages/blog/succeed-academically.md
       showDate: true
       showAuthor: false
       showExcerpt: true
       showReadMoreLink: true
-      readMoreLinkLabel: Join adventure
+      readMoreLinkLabel: Learn More
       styles:
         self:
           height: auto
@@ -115,12 +120,17 @@ presets:
     data:
       variant: variant-d
       colors: colors-d
-      title: Seasonal adventure
+      title: Check out our blog posts
+      titleFr: Consultez nos articles de blog
       subtitle: ''
+      posts:
+        - content/pages/blog/bele.md
+        - content/pages/blog/networking.md
+        - content/pages/blog/succeed-academically.md
       actions:
         - type: Link
-          label: See all adventures
-          altText: See all adventures
+          label: Learn More
+          altText: Learn More
           url: '/blog'
           showIcon: true
           icon: arrowRight
@@ -128,7 +138,7 @@ presets:
       showAuthor: false
       showExcerpt: false
       showReadMoreLink: true
-      readMoreLinkLabel: Join adventure
+      readMoreLinkLabel: Learn More
       styles:
         self:
           height: auto

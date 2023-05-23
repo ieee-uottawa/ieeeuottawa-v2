@@ -189,16 +189,18 @@ function PeopleVariantC(props) {
 }
 
 function PeopleColumnVariantC(props) {
-    const { execs = [], fieldPathIndex = 0, className } = props;
+    const { people: execs, fieldPathIndex = 0, className } = props;
     const { translateRole } = React.useContext(I18NContext);
 
     if (execs.length === 0) {
+        console.log("execs length empty");
         return null;
     }
     return (
         <div className={classNames('space-y-12', 'sm:space-y-16', className)}>
             {execs.map((exec, index, arr) => {
                 const { role, person = {} } = exec;
+                console.log("From variant C,", exec);
                 if (person === null || person === undefined || role === undefined || role === null) return null;
 
                 return (

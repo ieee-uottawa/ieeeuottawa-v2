@@ -2,6 +2,7 @@
     "type": "Person",
     "firstName": "Robert",
     "lastName": "Conrad",
+    "socialLinks": [],
     "image": {
         "type": "ImageBlock",
         "url": "/images/team/robert-conrad.jpg",

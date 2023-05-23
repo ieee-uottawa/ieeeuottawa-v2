@@ -2,6 +2,7 @@
     "type": "Person",
     "firstName": "Shriya",
     "lastName": "Gundala",
+    "socialLinks": [],
     "image": {
         "url": "/images/team/shriya-gundala.jpg",
         "altText": "Shriya Gundala photo"

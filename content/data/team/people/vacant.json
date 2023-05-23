@@ -2,6 +2,7 @@
     "type": "Person",
     "firstName": "Vacant",
     "lastName": "",
+    "socialLinks": [],
     "image": {
         "url": "/images/team/vacant.jpg",
         "altText": "Vacant"

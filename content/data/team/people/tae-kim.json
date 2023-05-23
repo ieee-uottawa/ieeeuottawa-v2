@@ -2,6 +2,7 @@
     "type": "Person",
     "firstName": "Tae",
     "lastName": "Kim",
+    "socialLinks": [],
     "image": {
         "url": "/images/team/tae-kim.jpg",
         "altText": "Tae Kim photo"

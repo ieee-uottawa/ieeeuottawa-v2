@@ -2,6 +2,7 @@
     "type": "Person",
     "firstName": "Mahyar",
     "lastName": "Gorji",
+    "socialLinks": [],
     "image": {
         "url": "/images/team/mahyar-gorji.jpg",
         "altText": "Mahyar Gorji photo"

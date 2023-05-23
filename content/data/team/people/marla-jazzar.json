@@ -2,6 +2,7 @@
     "type": "Person",
     "firstName": "Marla",
     "lastName": "Jazzar",
+    "socialLinks": [],
     "image": {
         "url": "/images/team/marla-jazzar.jpg",
         "altText": "Marla Jazzar photo"

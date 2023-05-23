@@ -2,6 +2,7 @@
     "type": "Person",
     "firstName": "Ethan",
     "lastName": "Bowering",
+    "socialLinks": [],
     "image": {
         "url": "/images/team/ethan-bowering.jpg",
         "altText": "Ethan Bowering photo"

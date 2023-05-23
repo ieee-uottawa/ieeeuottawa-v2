@@ -2,6 +2,7 @@
     "type": "Person",
     "firstName": "Nizar",
     "lastName": "Zariouh",
+    "socialLinks": [],
     "image": {
         "url": "/images/team/nizar-zariouh.jpg",
         "altText": "Nizar Zariouh photo"

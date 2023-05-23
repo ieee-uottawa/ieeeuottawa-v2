@@ -2,6 +2,7 @@
     "type": "Person",
     "firstName": "Eda Su",
     "lastName": "Bicer",
+    "socialLinks": [],
     "image": {
         "url": "/images/team/eda-su-bicer.jpg",
         "altText": "Eda Su Bicer photo"

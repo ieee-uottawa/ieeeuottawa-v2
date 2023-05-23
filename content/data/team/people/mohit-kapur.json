@@ -2,6 +2,7 @@
     "type": "Person",
     "firstName": "Mohit",
     "lastName": "Kapur",
+    "socialLinks": [],
     "image": {
         "url": "/images/team/mohit-kapur.jpg",
         "altText": "Mohit Kapur photo"

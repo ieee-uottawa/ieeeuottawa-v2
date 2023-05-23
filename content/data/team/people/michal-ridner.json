@@ -2,6 +2,7 @@
     "type": "Person",
     "firstName": "Michal",
     "lastName": "Ridner",
+    "socialLinks": [],
     "image": {
         "url": "/images/team/michal-ridner.jpg",
         "altText": "Michal Ridner photo"

@@ -4,29 +4,41 @@ presets:
     thumbnail: images/feature-secondary-left.png
     data:
       colors: colors-c
-      title: Time to leave your desk. Let’s go flying
+      elementId: ''
+      backgroundSize: full
+      title: Dry Lab Workspace
+      titleFr: Laboratoire sec
       subtitle: ''
-      text: We’re local, seasonal fisherman, supporting fishing restrictions.
-      actions:
-        - type: Button
-          label: Join adventure
-          showIcon: true
-          icon: arrowRight
-          style: secondary
-          url: '/'
+      subtitleFr: ''
+      text: >
+        The McNaughton Centre provides students with a unique opportunity to
+        develop the practical skills needed to excel in their EECS studies. Our
+        dry lab workspace is equipped with cutting-edge technical tools, including
+        FPGAs, oscilloscopes, multimeters, micro-controllers, and a
+        state-of-the-art soldering station, as well as various other hardware and
+        electronic components.
+      textFr: >
+        Le centre McNaughton offre aux étudiants une occasion unique de développer
+        les compétences pratiques nécessaires pour exceller dans leurs études en
+        SIGE. Notre espace de travail « labo sec » est équipé d'outils techniques
+        de pointe, notamment des FPGAs, des oscilloscopes, des multimètres, des
+        microcontrôleurs et une station de soudage communautaire conforme aux
+        normes de l'industrie, ainsi que divers autres matériels et composants
+        électroniques.
+      actions: []
       backgroundImage:
         type: ImageBlock
-        url: '/images/hero-3.png'
+        url: /images/mcn/dry-lab.png
         backgroundSize: cover
         backgroundPosition: center
-        opacity: 100
+        opacity: 50
       styles:
         self:
           height: auto
           width: wide
           padding:
-            - pt-36
-            - pb-72
+            - pt-28
+            - pb-36
             - pl-4
             - pr-4
           justifyContent: flex-start
@@ -42,34 +54,48 @@ presets:
     thumbnail: images/feature-light-center.png
     data:
       colors: colors-d
-      title: Time to leave your desk. Let’s go flying
+      elementId: ''
+      backgroundSize: full
+      title: WIE Affinity Group
+      titleFr: Groupe d'affinité WIE
       subtitle: ''
-      text: We’re local, seasonal fisherman, supporting fishing restrictions.
+      subtitleFr: ''
+      text: >
+        The mission of the IEEE uOttawa Women In Engineering is to inspire,
+        engage, encourage, and empower women to pursue the engineering field. They
+        are responsible for organizing IEEE Wine & Cheese, one of our student
+        branch's largest events.
+      textFr: >
+        La mission de l'IEEE uOttawa Women In Engineering est d'inspirer, engager,
+        encourager et fortifier les femmes à poursuivre le domaine de
+        l'ingénierie. Elles sont responsables de l'organisation du Wine & Cheese
+        de l'IEEE, l'un des plus grands événements de notre branche étudiante.
       actions:
         - type: Button
-          label: Get Started
+          label: Learn More
           showIcon: true
           icon: arrowRight
           style: primary
-          url: '/'
+          url: /
       backgroundImage:
-        type: ImageBlock
-        url: '/images/hero-4.jpg'
+        type: BackgroundImage
+        url: /images/IEEE WIE.png
         backgroundSize: cover
         backgroundPosition: center
+        backgroundRepeat: no-repeat
         opacity: 100
       styles:
         self:
           height: auto
           width: wide
           padding:
-            - pt-36
-            - pb-72
+            - pt-32
+            - pb-32
             - pl-4
             - pr-4
           justifyContent: center
         title:
-          textAlign: center
+          textAlign: left
         subtitle:
           textAlign: center
         text:

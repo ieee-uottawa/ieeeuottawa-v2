@@ -23,8 +23,8 @@ presets:
             isRequired: 'true'
             width: 1/2
           - type: TextFormControl
-            name: address
-            placeholder: Your home address
+            name: message
+            placeholder: Your message
             isRequired: 'false'
             width: full
           - type: CheckboxFormControl
@@ -75,9 +75,9 @@ presets:
             isRequired: 'true'
             width: 1/2
           - type: TextFormControl
-            name: address
-            label: Home address
-            placeholder: Your home address
+            name: message
+            label: Message
+            placeholder: Your message
             isRequired: 'false'
             width: full
           - type: CheckboxFormControl
@@ -88,7 +88,7 @@ presets:
         submitLabel: Send Message
       media:
         type: ImageBlock
-        url: '/images/hero-2.png'
+        url: '/images/ieeelogo.svg'
         altText: Contact form image
       styles:
         self:
