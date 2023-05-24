@@ -111,8 +111,9 @@ Contains all assets used on the site broken down into two main categories:
 
 ### `/.src`
 
-This directory contains reusable UI components that are used throughout the website. The components are organized into subdirectories based on their complexity and reusability, such as: - `atoms/` for basic building blocks,
+This directory contains reusable UI components that are used throughout the website. The components are organized into subdirectories based on their complexity and reusability, such as:
 
+- `atoms/` for basic building blocks,
 - `molecules/` for slightly more complex components composed of atoms,
 - `layouts/` for larger layout components,
 - `sections/` for sections of the page, and
