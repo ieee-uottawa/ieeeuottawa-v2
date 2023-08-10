@@ -205,8 +205,8 @@ sections:
             textAlign: left
       - type: FeaturedItem
         elementId: ''
-        title: Hack The Hill Hackathon
-        titleFr: Hack The Hill Hackathon
+        title: Hack the Hill Hackathon
+        titleFr: Hack the Hill Hackathon
         subtitle: 03/03/2023 - 03/05/2023
         subtitleFr: 03/03/2023 - 05/03/2023
         text: >
@@ -225,13 +225,13 @@ sections:
         featuredImage:
           type: ImageBlock
           url: /images/HTH-Hackathon.jpeg
-          altText: Hack The Hill Hackathon
-          caption: Hack The Hill Hackathon
+          altText: Hack the Hill Hackathon
+          caption: Hack the Hill Hackathon
 
         actions:
           - type: Button
             label: Learn More
-            altText: 'Link to Hack The Hill Website'
+            altText: 'Link to Hack the Hill Website'
             url: 'https://hackthehill.com/'
             showIcon: true
             icon: arrowRight
