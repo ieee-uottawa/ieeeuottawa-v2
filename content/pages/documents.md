@@ -152,6 +152,115 @@ sections:
   - type: FeaturedItemsSection
     colors: colors-c
     elementId: ''
+    title: 2023-2024 Meeting Minutes
+    titleFr: Comptes rendus des réunions 2023-2024
+    subtitle: >-
+      Check out the Internal meeting minutes to catch a glimpse of the
+      discussions that drive what we do.
+    items:
+      - type: FeaturedItem
+        elementId: ''
+        title: IEEE Annual General Meeting Part 1
+        subtitle: '2023-04-29'
+        subtitleFr: 29-04-2023
+        isIcon: false
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - type: Button
+            label: View
+            altText: ''
+            url: /files/IEEE_uOttawa_AGM_2023_-_Agenda_and_Meeting_Minutes.pdf
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+        styles:
+          self:
+            textAlign: left
+        titleFr: 'Assemblée générale annuelle de l''IEEE, partie 1'
+      - type: FeaturedItem
+        elementId: ''
+        title: IEEE Annual General Meeting Part 2
+        titleFr: 'Assemblée générale annuelle de l''IEEE, partie 2'
+        subtitle: '2023-08-16'
+        subtitleFr: 16-08-2023
+        text: null
+        textFr: null
+        isIcon: false
+        featuredImage: null
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - label: View
+            altText: ''
+            url: >-
+              /files/IEEE_uOttawa_AGM_2023_Part_2_-_Agenda_and_Meeting_Minutes.pdf
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+            type: Button
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
+        title: IEEE Executive Meeting Minutes
+        titleFr: Comptes rendus de la réunion exécutive
+        subtitle: '2023-09-16'
+        subtitleFr: 16-09-2023
+        text: null
+        textFr: null
+        isIcon: false
+        featuredImage: null
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - label: View
+            altText: ''
+            url: /files/IEEE_Executive_Meeting_Minutes_2023-09-16.pdf
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+            type: Button
+        styles:
+          self:
+            textAlign: left
+    actions: []
+    columns: 2
+    spacingX: 28
+    spacingY: 32
+    enableHover: false
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-32
+          - pb-32
+          - pl-4
+          - pr-4
+        justifyContent: center
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
+      actions:
+        justifyContent: flex-start
+    subtitleFr: >-
+      Consultez les comptes-rendus des réunions internes pour avoir un aperçu
+      des discussions qui motivent nos actions.
+  - type: FeaturedItemsSection
+    colors: colors-d
+    elementId: ''
     title: 2022-2023 Meeting Minutes
     titleFr: Comptes rendus des réunions 2022-2023
     subtitle: >-
@@ -362,6 +471,7 @@ sections:
           - pl-4
           - pr-4
         justifyContent: center
+        borderColor: border-dark
       title:
         textAlign: left
       subtitle:
@@ -369,7 +479,7 @@ sections:
       actions:
         justifyContent: flex-start
   - type: FeaturedItemsSection
-    colors: colors-d
+    colors: colors-c
     elementId: ''
     title: Miscellaneous documents
     titleFr: Autres documents
