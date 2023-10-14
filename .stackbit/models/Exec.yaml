@@ -28,6 +28,8 @@ fields:
         value: merch
       - label: VP Communications
         value: communications
+      - label: VP Philanthropy
+        value: philanthropy
       - label: Webmaster
         value: webmaster
       - label: ELG Comissioner

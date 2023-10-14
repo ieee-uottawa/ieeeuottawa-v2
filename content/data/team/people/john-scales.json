@@ -4,7 +4,7 @@
     "lastName": "Scales",
     "socialLinks": [],
     "image": {
-        "url": "https://assets.stackbit.com/components/images/default/default-person.png",
-        "altText": "Person photo"
+        "url": "/images/team/john-scales.jpg",
+        "altText": "John Scales photo"
     }
 }

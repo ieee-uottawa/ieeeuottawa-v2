@@ -1,10 +1,10 @@
 {
     "type": "Person",
-    "firstName": "Emma",
+    "firstName": "Ethan",
     "lastName": "Tang",
     "image": {
-        "url": "/images/team/emma-tang.jpg",
-        "altText": "Emma"
+        "url": "/images/team/ethan-tang.jpg",
+        "altText": "Ethan "
     },
     "socialLinks": [
         {

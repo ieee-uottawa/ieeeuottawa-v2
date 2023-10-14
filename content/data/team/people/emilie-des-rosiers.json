@@ -1,0 +1,10 @@
+{
+    "type": "Person",
+    "firstName": "Émilie",
+    "lastName": "Des Rosiers",
+    "socialLinks": [],
+    "image": {
+        "url": "/images/team/emilie-des-rosiers.jpg",
+        "altText": "Émilie Des Rosiers"
+    }
+}

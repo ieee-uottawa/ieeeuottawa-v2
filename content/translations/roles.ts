@@ -43,6 +43,10 @@ export const translatedRoles = {
         en: 'VP Communications',
         fr: 'VP Communications'
     },
+    philanthropy: {
+        en: 'VP Philanthropy',
+        fr: 'VP Philanthropie'
+    },
     webmaster: {
         en: 'Webmaster',
         fr: 'Webmaster'

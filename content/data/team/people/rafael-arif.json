@@ -1,0 +1,10 @@
+{
+    "type": "Person",
+    "firstName": "Rafael",
+    "lastName": "Arif",
+    "socialLinks": [],
+    "image": {
+        "url": "/images/team/rafael-arif.jpg",
+        "altText": "Rafael Arif photo"
+    }
+}

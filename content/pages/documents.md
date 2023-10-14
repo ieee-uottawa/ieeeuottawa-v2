@@ -234,6 +234,32 @@ sections:
         styles:
           self:
             textAlign: left
+      - type: FeaturedItem
+        elementId: ''
+        title: IEEE Executive Meeting Minutes
+        titleFr: Comptes rendus de la réunion exécutive
+        subtitle: '2023-09-29'
+        subtitleFr: 29-09-2023
+        text: null
+        textFr: null
+        isIcon: false
+        featuredImage: null
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - label: View
+            altText: ''
+            url: /files/IEEE_Executive_Meeting_Minutes_2023-09-29.pdf
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+            type: Button
+        styles:
+          self:
+            textAlign: left
     actions: []
     columns: 2
     spacingX: 28
