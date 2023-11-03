@@ -44,6 +44,10 @@ fields:
         value: wie-vice-chair
       - label: WIE External
         value: wie-external
+      - label: WIE Internal
+        value: wie-internal
+      - label: WIE Communications
+        value: wie-communications
       - label: McNaughton Centre Director
         value: mcnaughton
       - label: Photonics Chair

@@ -1,0 +1,10 @@
+{
+    "type": "Person",
+    "firstName": "Rachel",
+    "lastName": "Olugbemiro",
+    "socialLinks": [],
+    "image": {
+        "url": "/images/team/rachel-olugbemiro.png",
+        "altText": "Rachel Olugbemiro photo"
+    }
+}

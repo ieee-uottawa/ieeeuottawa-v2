@@ -75,6 +75,14 @@ export const translatedRoles = {
         en: 'WIE External',
         fr: 'WIE Externe'
     },
+    'wie-internal': {
+        en: 'WIE Internal',
+        fr: 'WIE Interne'
+    },
+    'wie-communications': {
+        en: 'WIE Communications',
+        fr: 'WIE Communications'
+    },
     mcnaughton: {
         en: 'McNaughton Centre Director',
         fr: 'Directeur du Centre McNaughton'

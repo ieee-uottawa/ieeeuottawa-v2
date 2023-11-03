@@ -1,0 +1,10 @@
+{
+    "type": "Person",
+    "firstName": "Eric",
+    "lastName": "Eaton",
+    "socialLinks": [],
+    "image": {
+        "url": "/images/team/eric-eaton.jpg",
+        "altText": "Eric Eaton photo"
+    }
+}

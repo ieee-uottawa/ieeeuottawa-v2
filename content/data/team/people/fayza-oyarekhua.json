@@ -1,0 +1,10 @@
+{
+    "type": "Person",
+    "firstName": "Fayza",
+    "lastName": "Oyarekhua",
+    "socialLinks": [],
+    "image": {
+        "url": "/images/team/fayza-oyarekhua.jpg",
+        "altText": "Fayza Oyarekhua photo"
+    }
+}
