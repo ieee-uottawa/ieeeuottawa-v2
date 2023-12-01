@@ -62,5 +62,5 @@ metaTags:
     property: 'twitter:site'
     content: '@ieeeuottawa'
 metaTitle: Office Hours
-socialImage: /images/office-hours-f2022.png
+socialImage: /images/office-hours-f2023.png
 ---
