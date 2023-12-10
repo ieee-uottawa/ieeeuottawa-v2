@@ -91,28 +91,8 @@ sections:
           self:
             textAlign: left
       - type: FeaturedItem
-        title: Budget  Budget 2023/2024
-        titleFr: Budget 2023/2024
-        text: >
-          The budget document tracks all planned and actual expenses and
-          revenues.
-        textFr: >
-          Le document budgétaire permet de suivre toutes les dépenses et revenus
-          prévus et réels.
-        actions:
-          - type: Button
-            label: View
-            showIcon: true
-            icon: arrowRight
-            url: >-
-              https://blushing-radiator-780.notion.site/48d8e1e8de8d468a8dec6c2dfd923020
-            style: secondary
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        title: Budget  Budget 2022/2023
-        titleFr: Budget 2022/2023
+        title: Budget
+        titleFr: Budget
         text: >
           The budget document tracks all planned and actual expenses and
           revenues.
@@ -333,7 +313,33 @@ sections:
         styles:
           self:
             textAlign: left
-        - type: FeaturedItem
+      - type: FeaturedItem
+        elementId: ''
+        title: IEEE Executive Meeting Minutes
+        titleFr: Comptes rendus de la réunion exécutive
+        subtitle: '2023-09-16'
+        subtitleFr: 16-09-2023
+        text: null
+        textFr: null
+        isIcon: false
+        featuredImage: null
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - label: View
+            altText: ''
+            url: /files/IEEE_Executive_Meeting_Minutes_2023-09-16.pdf
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+            type: Button
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
         elementId: ''
         title: IEEE Executive Meeting Minutes
         titleFr: Comptes rendus de la réunion exécutive
@@ -350,6 +356,32 @@ sections:
           - label: View
             altText: ''
             url: /files/IEEE_Executive_Meeting_Minutes_11-18-2023.pdf
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+            type: Button
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
+        title: IEEE Executive Meeting Minutes
+        titleFr: Comptes rendus de la réunion exécutive
+        subtitle: '2023-01-12'
+        subtitleFr: 12-12-2023
+        text: null
+        textFr: null
+        isIcon: false
+        featuredImage: null
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - label: View
+            altText: ''
+            url: /files/IEEE_Executive_Meeting_Minutes_2023-12-01.pdf
             showIcon: true
             icon: arrowRight
             iconPosition: right
