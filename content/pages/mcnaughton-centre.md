@@ -57,7 +57,7 @@ sections:
       opacity: 20
     media:
       type: ImageBlock
-      url: /images/office-hours-w2023.jpeg
+      url: /images/office-hours-f2023.png
       altText: >-
         A graphic displaying IEEE's office hours. The office is open on Monday
         from 12PM to 2PM and from 4PM to 7PM, Tuesday from 10AM to 11AM, from
@@ -66,7 +66,7 @@ sections:
         8AM to 10AM and from 1PM to 8PM.
       caption: Caption of the image
       width: 540
-      height: 675
+      # height: 675
       elementId: ''
   - type: CtaSection
     colors: colors-c
