@@ -12,11 +12,11 @@ export const emails = {
     communications: 'communications@ieeeuottawa.ca',
     philanthropy: 'philanthropy@ieeeuottawa.ca',
     webmaster: 'webmaster@ieeeuottawa.ca',
-    'wie-chair': 'wie@ieeeuottawa.ca',
-    'wie-vice-chair': 'wie@ieeeuottawa.ca',
+    'wie-chair': 'wie-chair@ieeeuottawa.ca',
+    'wie-vice-chair': 'wie-vicechair@ieeeuottawa.ca',
     mcnaughton: 'mcnaughton@ieeeuottawa.ca',
     'photonics-chair': 'photonics-chair@ieeeuottawa.ca',
-    'photonics-vice-chair': 'photonics@ieeeuottawa.ca',
+    'photonics-vice-chair': 'photonics-vicechair@ieeeuottawa.ca',
     'ceg-commissioner': 'ceg@ieeeuottawa.ca',
     'elg-commissioner': 'elg@ieeeuottawa.ca',
     'seg-commissioner': 'seg@ieeeuottawa.ca',
@@ -27,5 +27,4 @@ export const emails = {
     'wie-communications': 'wie@ieeeuottawa.ca',  
     'wie-treasurer': 'wie@ieeeuottawa.ca',
     'wie-design': 'wie@ieeeuottawa.ca',
-    // 'equity-commissioner': 'commissioner-equity@ieeeuottawa.ca'
 };
