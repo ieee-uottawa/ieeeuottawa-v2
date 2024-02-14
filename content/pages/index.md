@@ -40,18 +40,9 @@ sections:
         iconPosition: right
         style: secondary
         elementId: ''
-      - type: Link
-        label: Election Results
-        altText: Election Results Link
-        url: >-
-          https://democracy.smallminds.dev/election/71383aee-6d57-4974-b01a-46e940e568e6/positions
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
-        elementId: ''
     backgroundImage:
       type: BackgroundImage
-      url: /images/W&C14.JPG
+      url: /images/W&C15.JPG
       backgroundSize: cover
       backgroundPosition: center
       backgroundRepeat: no-repeat
