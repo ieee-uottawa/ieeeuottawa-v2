@@ -1,0 +1,20 @@
+{
+    "type": "Person",
+    "firstName": "Farah",
+    "lastName": "El Siss",
+    "image": {
+        "url": "/images/team/farah-el-siss.webp",
+        "altText": "Farah El Siss"
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "LinkedIn",
+            "altText": "",
+            "url": "https://www.linkedin.com/in/farahelsiss/",
+            "icon": "linkedin",
+            "style": "link",
+            "elementId": ""
+        }
+    ]
+}

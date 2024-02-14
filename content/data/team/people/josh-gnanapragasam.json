@@ -1,0 +1,20 @@
+{
+    "type": "Person",
+    "firstName": "Josh",
+    "lastName": "Gnanapragasam",
+    "image": {
+        "url": "/images/team/josh-gnanapragasam.webp",
+        "altText": "Josh Gnanapragasam"
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "LinkedIn",
+            "altText": "",
+            "url": "https://www.linkedin.com/in/josh-gnanapragasam/",
+            "icon": "linkedin",
+            "style": "link",
+            "elementId": ""
+        }
+    ]
+}

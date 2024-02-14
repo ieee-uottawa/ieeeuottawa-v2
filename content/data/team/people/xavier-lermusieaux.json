@@ -1,0 +1,20 @@
+{
+    "type": "Person",
+    "firstName": "Xavier",
+    "lastName": "Lermusieaux",
+    "image": {
+        "url": "/images/team/xavier-lermusieaux.webp",
+        "altText": "Xavier Lermusieaux"
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "LinkedIn",
+            "altText": "",
+            "url": "https://www.linkedin.com/in/xavierlermusieaux/",
+            "icon": "linkedin",
+            "style": "link",
+            "elementId": ""
+        }
+    ]
+}
