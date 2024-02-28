@@ -470,7 +470,7 @@ sections:
         styles:
           self:
             textAlign: left
-        - type: FeaturedItem
+      - type: FeaturedItem
         elementId: ''
         title: IEEE Executive Meeting Minutes
         titleFr: Comptes rendus de la réunion exécutive
@@ -496,6 +496,7 @@ sections:
         styles:
           self:
             textAlign: left
+
     actions: []
     columns: 2
     spacingX: 28
