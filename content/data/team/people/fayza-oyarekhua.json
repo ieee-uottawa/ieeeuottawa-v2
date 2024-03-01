@@ -2,7 +2,17 @@
     "type": "Person",
     "firstName": "Fayza",
     "lastName": "Oyarekhua",
-    "socialLinks": [],
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "LinkedIn",
+            "altText": "",
+            "url": "https://www.linkedin.com/in/fayza-oyarekhua-42992728a/",
+            "icon": "linkedin",
+            "style": "link",
+            "elementId": ""
+        }
+    ],
     "image": {
         "url": "/images/team/fayza-oyarekhua.jpg",
         "altText": "Fayza Oyarekhua photo"

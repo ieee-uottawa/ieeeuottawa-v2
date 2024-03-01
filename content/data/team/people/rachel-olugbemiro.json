@@ -2,7 +2,17 @@
     "type": "Person",
     "firstName": "Rachel",
     "lastName": "Olugbemiro",
-    "socialLinks": [],
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "LinkedIn",
+            "altText": "",
+            "url": "https://www.linkedin.com/in/rachel-olugbemiro/",
+            "icon": "linkedin",
+            "style": "link",
+            "elementId": ""
+        }
+    ],
     "image": {
         "url": "/images/team/rachel-olugbemiro.png",
         "altText": "Rachel Olugbemiro photo"

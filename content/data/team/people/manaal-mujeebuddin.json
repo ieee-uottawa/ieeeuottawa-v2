@@ -2,7 +2,17 @@
     "type": "Person",
     "firstName": "Manaal",
     "lastName": "Mujeebuddin",
-    "socialLinks": [],
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "LinkedIn",
+            "altText": "",
+            "url": "https://www.linkedin.com/in/manaal-mujeebuddin/",
+            "icon": "linkedin",
+            "style": "link",
+            "elementId": ""
+        }
+    ],
     "image": {
         "url": "/images/team/manaal-mujeebuddin.jpg",
         "altText": "Person photo"

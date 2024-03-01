@@ -2,7 +2,17 @@
     "type": "Person",
     "firstName": "John",
     "lastName": "Scales",
-    "socialLinks": [],
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "LinkedIn",
+            "altText": "",
+            "url": "https://www.linkedin.com/in/john-g-scales/",
+            "icon": "linkedin",
+            "style": "link",
+            "elementId": ""
+        }
+    ],
     "image": {
         "url": "/images/team/john-scales.jpg",
         "altText": "John Scales photo"

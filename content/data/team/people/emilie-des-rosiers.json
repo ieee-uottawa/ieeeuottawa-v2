@@ -2,7 +2,17 @@
     "type": "Person",
     "firstName": "Émilie",
     "lastName": "Des Rosiers",
-    "socialLinks": [],
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "LinkedIn",
+            "altText": "",
+            "url": "https://www.linkedin.com/in/emilielydr",
+            "icon": "linkedin",
+            "style": "link",
+            "elementId": ""
+        }
+    ],
     "image": {
         "url": "/images/team/emilie-des-rosiers.jpg",
         "altText": "Émilie Des Rosiers"
