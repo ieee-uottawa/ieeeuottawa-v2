@@ -2,7 +2,17 @@
     "type": "Person",
     "firstName": "Madison",
     "lastName": "Moran",
-    "socialLinks": [],
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "LinkedIn",
+            "altText": "",
+            "url": "https://www.linkedin.com/in/madison-moran-24bb552b0/",
+            "icon": "linkedin",
+            "style": "link",
+            "elementId": ""
+        }
+    ],
     "image": {
         "url": "/images/team/madison-moran.jpg",
         "altText": "Person photo"

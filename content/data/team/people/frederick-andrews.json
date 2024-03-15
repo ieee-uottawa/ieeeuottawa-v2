@@ -2,7 +2,17 @@
     "type": "Person",
     "firstName": "Frederick",
     "lastName": "Andrews",
-    "socialLinks": [],
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "LinkedIn",
+            "altText": "",
+            "url": "https://www.linkedin.com/in/frederick-wilson-andrews/",
+            "icon": "linkedin",
+            "style": "link",
+            "elementId": ""
+        }
+    ],
     "image": {
         "url": "/images/team/frederick-andrews.jpg",
         "altText": "Frederick Andrews photo"

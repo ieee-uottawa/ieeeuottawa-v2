@@ -2,7 +2,17 @@
     "type": "Person",
     "firstName": "Deniz",
     "lastName": "Jasarbasic",
-    "socialLinks": [],
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "LinkedIn",
+            "altText": "",
+            "url": "https://www.linkedin.com/in/deniz-jasarbasic/",
+            "icon": "linkedin",
+            "style": "link",
+            "elementId": ""
+        }
+    ],
     "image": {
         "url": "/images/team/deniz-jasarbasic.jpg",
         "altText": "Deniz photo"

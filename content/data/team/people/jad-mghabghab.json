@@ -2,7 +2,17 @@
     "type": "Person",
     "firstName": "Jad",
     "lastName": "Mghabghab",
-    "socialLinks": [],
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "LinkedIn",
+            "altText": "",
+            "url": "https://www.linkedin.com/in/jadmgh/",
+            "icon": "linkedin",
+            "style": "link",
+            "elementId": ""
+        }
+    ],
     "image": {
         "url": "/images/team/jad-mghabghab.jpg",
         "altText": "Jad Mghabghab photo"

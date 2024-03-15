@@ -2,7 +2,17 @@
     "type": "Person",
     "firstName": "Rafael",
     "lastName": "Arif",
-    "socialLinks": [],
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "LinkedIn",
+            "altText": "",
+            "url": "https://www.linkedin.com/in/rafaelarif/",
+            "icon": "linkedin",
+            "style": "link",
+            "elementId": ""
+        }
+    ],
     "image": {
         "url": "/images/team/rafael-arif.jpg",
         "altText": "Rafael Arif photo"

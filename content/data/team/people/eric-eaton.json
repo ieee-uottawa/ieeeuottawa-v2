@@ -2,7 +2,17 @@
     "type": "Person",
     "firstName": "Eric",
     "lastName": "Eaton",
-    "socialLinks": [],
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "LinkedIn",
+            "altText": "",
+            "url": "https://www.linkedin.com/in/eaton-eric/",
+            "icon": "linkedin",
+            "style": "link",
+            "elementId": ""
+        }
+    ],
     "image": {
         "url": "/images/team/eric-eaton.jpg",
         "altText": "Eric Eaton photo"
