@@ -42,7 +42,7 @@ sections:
         elementId: ''
     backgroundImage:
       type: BackgroundImage
-      url: /images/W&C15.JPG
+      url: /images/W&C15-2.png
       backgroundSize: cover
       backgroundPosition: center
       backgroundRepeat: no-repeat
