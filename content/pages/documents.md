@@ -443,7 +443,6 @@ sections:
         styles:
           self:
             textAlign: left
-
       - type: FeaturedItem
         elementId: ''
         title: IEEE Executive Meeting Minutes
@@ -496,12 +495,12 @@ sections:
         styles:
           self:
             textAlign: left
-     - type: FeaturedItem
+      - type: FeaturedItem
         elementId: ''
         title: IEEE Executive Meeting Minutes
         titleFr: Comptes rendus de la réunion exécutive
         subtitle: '2024-03-12'
-        subtitleFr: 12-03-2024
+        subtitleFr: 03-12-2024
         text: null
         textFr: null
         isIcon: false
@@ -522,12 +521,12 @@ sections:
         styles:
           self:
             textAlign: left
-     - type: FeaturedItem
+      - type: FeaturedItem
         elementId: ''
         title: IEEE Executive Meeting Minutes
         titleFr: Comptes rendus de la réunion exécutive
         subtitle: '2024-02-06'
-        subtitleFr: 06-02-2024
+        subtitleFr: 02-06-2024
         text: null
         textFr: null
         isIcon: false
@@ -553,7 +552,7 @@ sections:
         title: IEEE Executive Meeting Minutes
         titleFr: Comptes rendus de la réunion exécutive
         subtitle: '2024-03-26'
-        subtitleFr: 26-03-2024
+        subtitleFr: 03-26-2024
         text: null
         textFr: null
         isIcon: false
