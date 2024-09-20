@@ -22,6 +22,23 @@ The website was built using the following technologies and frameworks:
 
 ## Getting Started
 
+To run the project, you need to have a version of Node between 14 and 16. Node 16 is recommended. To check your Node version, run the following command:
+
+- node -v
+
+To manage your node version, use nvm. First, check if you have nvm installed:
+
+- nvm -v
+
+If you don't have it installed, run this command:
+
+- curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+
+To install and use Node 16, run the following commands:
+
+- nvm install 16
+- nvm use 16
+
 To get started with the project, follow these steps:
 
 - Clone the repository to your local machine.
