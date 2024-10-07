@@ -1,20 +1,20 @@
 {
     "type": "Person",
-    "firstName": "Jad",
-    "lastName": "Mghabghab",
+    "firstName": "Abigail",
+    "lastName": "Wilson",
     "socialLinks": [
         {
             "type": "Social",
             "label": "LinkedIn",
             "altText": "",
-            "url": "https://www.linkedin.com/in/jadmgh/",
+            "url": "https://www.linkedin.com/in/abby-wilson-a98a03304/",
             "icon": "linkedin",
             "style": "link",
             "elementId": ""
         }
     ],
     "image": {
-        "url": "/images/team/jad-mghabghab.png",
-        "altText": "Jad Mghabghab photo"
+        "url": "/images/team/abigail-wilson.jpeg",
+        "altText": "Abigail Wilson photo"
     }
 }

@@ -1,20 +1,20 @@
 {
     "type": "Person",
-    "firstName": "Jad",
-    "lastName": "Mghabghab",
+    "firstName": "Josué",
+    "lastName": "Dazogbo",
     "socialLinks": [
         {
             "type": "Social",
             "label": "LinkedIn",
             "altText": "",
-            "url": "https://www.linkedin.com/in/jadmgh/",
+            "url": "https://www.linkedin.com/in/jdazogbo/",
             "icon": "linkedin",
             "style": "link",
             "elementId": ""
         }
     ],
     "image": {
-        "url": "/images/team/jad-mghabghab.png",
-        "altText": "Jad Mghabghab photo"
+        "url": "/images/team/josue-dazogbo.jpeg",
+        "altText": "Josue Dazogbo photo"
     }
 }

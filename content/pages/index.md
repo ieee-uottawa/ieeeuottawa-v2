@@ -63,10 +63,9 @@ sections:
       actions:
         justifyContent: flex-start
     text: |
-      Election results for the 2023-2024 school year are out!
+      The new team of execs for the 2024-2025 school year has been elected!
     textFr: >
-      Les résultats de l'élection des execs de l'année scolaire 2023-2024 sont
-      disponibles!
+      La nouvelle équipe d'exécutifs pour l'année scolaire 2024-2025 a été élue !
   - type: TestimonialsSection
     colors: colors-c
     elementId: ''

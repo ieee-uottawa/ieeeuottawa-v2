@@ -1,20 +1,20 @@
 {
     "type": "Person",
-    "firstName": "Jad",
-    "lastName": "Mghabghab",
+    "firstName": "Kevin",
+    "lastName": "Naveen",
     "socialLinks": [
         {
             "type": "Social",
             "label": "LinkedIn",
             "altText": "",
-            "url": "https://www.linkedin.com/in/jadmgh/",
+            "url": "https://www.linkedin.com/in/kevin-naveen-55346117a/",
             "icon": "linkedin",
             "style": "link",
             "elementId": ""
         }
     ],
     "image": {
-        "url": "/images/team/jad-mghabghab.png",
-        "altText": "Jad Mghabghab photo"
+        "url": "/images/team/placeholder.jpeg",
+        "altText": "Kevin Naveen photo"
     }
 }

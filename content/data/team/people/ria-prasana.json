@@ -1,20 +1,20 @@
 {
     "type": "Person",
-    "firstName": "Jad",
-    "lastName": "Mghabghab",
+    "firstName": "Ria",
+    "lastName": "Prasana",
     "socialLinks": [
         {
             "type": "Social",
             "label": "LinkedIn",
             "altText": "",
-            "url": "https://www.linkedin.com/in/jadmgh/",
+            "url": "https://www.linkedin.com/in/ria-prasana-468b7516a/",
             "icon": "linkedin",
             "style": "link",
             "elementId": ""
         }
     ],
     "image": {
-        "url": "/images/team/jad-mghabghab.png",
-        "altText": "Jad Mghabghab photo"
+        "url": "/images/team/ria-prasana.jpg",
+        "altText": "Ria Prasana photo"
     }
 }

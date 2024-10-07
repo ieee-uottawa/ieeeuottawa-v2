@@ -144,6 +144,7 @@ The site is hosted on Cloudflare using Cloudflare Pages, and only the elected We
 
 ## Authors/Contributors
 
+- Sacha Arseneault
 - Loic Kandikandi
 
 ## Contact

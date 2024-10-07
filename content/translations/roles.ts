@@ -63,6 +63,10 @@ export const translatedRoles = {
         en: 'SEG Commissioner',
         fr: 'Commissionnaire SEG'
     },
+    'mdd-commissioner': {
+        en: 'MDD Commissioner',
+        fr: 'Commissionnaire MDD'
+    },
     'wie-chair': {
         en: 'WIE Chair',
         fr: 'Président(e) WIE'

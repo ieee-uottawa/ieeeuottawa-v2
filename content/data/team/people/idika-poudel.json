@@ -1,0 +1,10 @@
+{
+    "type": "Person",
+    "firstName": "Idika",
+    "lastName": "Poudel",
+    "socialLinks": [],
+    "image": {
+        "url": "/images/team/idika-poudel.jpeg",
+        "altText": "Idika Poudel photo"
+    }
+}
