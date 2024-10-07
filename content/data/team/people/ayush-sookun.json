@@ -1,20 +1,20 @@
 {
     "type": "Person",
-    "firstName": "Jad",
-    "lastName": "Mghabghab",
+    "firstName": "Ayush",
+    "lastName": "Sookun",
     "socialLinks": [
         {
             "type": "Social",
             "label": "LinkedIn",
             "altText": "",
-            "url": "https://www.linkedin.com/in/jadmgh/",
+            "url": "https://www.linkedin.com/in/ayush-sookun-7b2bb71ba/",
             "icon": "linkedin",
             "style": "link",
             "elementId": ""
         }
     ],
     "image": {
-        "url": "/images/team/jad-mghabghab.png",
-        "altText": "Jad Mghabghab photo"
+        "url": "/images/team/ayush-sookun.jpg",
+        "altText": "Ayush Sookun photo"
     }
 }

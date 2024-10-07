@@ -53,6 +53,16 @@
                 "dropdownLinks": [
                     {
                         "type": "Link",
+                        "label": "2024-2025",
+                        "altText": "Link to 2024-2025 team's page",
+                        "url": "/execs-2024-2025",
+                        "showIcon": false,
+                        "icon": "arrowRight",
+                        "iconPosition": "right",
+                        "elementId": ""
+                    },
+                    {
+                        "type": "Link",
                         "label": "2023-2024",
                         "altText": "Link to 2023-2024 team's page",
                         "url": "/execs-2023-2024",
@@ -134,12 +144,12 @@
         "secondaryLinks": [
             {
                 "type": "Button",
-                "label": "Shop",
-                "altText": "Shop",
+                "label": "Instagram - ",
+                "altText": "Instagram",
                 "style": "secondary",
-                "url": "https://ieee-uottawa.square.site/",
+                "url": "https://www.instagram.com/ieeeuottawa/",
                 "showIcon": true,
-                "icon": "cart",
+                "icon": "instagram",
                 "iconPosition": "right",
                 "elementId": ""
             }
@@ -147,12 +157,7 @@
         "styles": {
             "self": {
                 "width": "wide",
-                "padding": [
-                    "pl-5",
-                    "pt-5",
-                    "pb-5",
-                    "pr-5"
-                ]
+                "padding": ["pl-5", "pt-5", "pb-5", "pr-5"]
             }
         },
         "logo": {
