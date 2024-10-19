@@ -17,6 +17,7 @@ export const emails = {
     'seg-commissioner': 'academic@ieeeuottawa.ca',
     'mdd-commissioner': 'academic@ieeeuottawa.ca',
     'design-commissioner': 'communications@ieeeuottawa.ca',
+    'translations-commissioner': 'communications@ieeeuottawa.ca',
     'wie-chair': 'wie@ieeeuottawa.ca',
     'wie-vice-chair': 'wie@ieeeuottawa.ca',
     'wie-external': 'wie@ieeeuottawa.ca',
