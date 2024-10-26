@@ -46,7 +46,7 @@ sections:
     colors: colors-c
     elementId: ''
     title: Upcoming Events
-    subtitleFr: Il n'y a actuellement aucun événement à venir. Revenez bientôt !
+    subtitleFr: 'Visitez notre page Instagram pour apprendre à propos de nos évenements à venir!'
     actions: []
     columns: 2
     spacingX: 40
@@ -71,7 +71,7 @@ sections:
       actions:
         justifyContent: flex-start
     titleFr: Evénements prochains
-    subtitle: There are currently no upcoming events. Check back soon!
+    subtitle: Visit our instagram page to learn about upcoming events!
     items: []
   - type: FeaturedItemsSection
     colors: colors-d
