@@ -152,6 +152,195 @@ sections:
   - type: FeaturedItemsSection
     colors: colors-c
     elementId: ''
+    title: 2024-2025 Meeting Minutes
+    titleFr: Comptes rendus des réunions 2024-2025
+    subtitle: >-
+      Check out the Internal meeting minutes to catch a glimpse of the
+      discussions that drive what we do.
+    items:
+      - type: FeaturedItem
+        elementId: ''
+        title: IEEE Executive Meeting Minutes
+        titleFr: Comptes rendus de la réunion exécutive
+        subtitle: '2024-10-26'
+        subtitleFr: 26-10-2024
+        text: null
+        textFr: null
+        isIcon: false
+        featuredImage: null
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - label: View
+            altText: ''
+            url: /files/Exec_Meeting_10-26-2024.pdf
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+            type: Button
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
+        title: IEEE Executive Meeting Minutes
+        titleFr: Comptes rendus de la réunion exécutive
+        subtitle: '2024-10-19'
+        subtitleFr: 19-10-2024
+        text: null
+        textFr: null
+        isIcon: false
+        featuredImage: null
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - label: View
+            altText: ''
+            url: /files/Exec_Meeting_10-19-2024.pdf
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+            type: Button
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
+        title: IEEE Executive Meeting Minutes
+        titleFr: Comptes rendus de la réunion exécutive
+        subtitle: '2024-10-05'
+        subtitleFr: 05-10-2024
+        text: null
+        textFr: null
+        isIcon: false
+        featuredImage: null
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - label: View
+            altText: ''
+            url: /files/Exec_Meeting_10-05-2024.pdf
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+            type: Button
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
+        title: IEEE Executive Meeting Minutes
+        titleFr: Comptes rendus de la réunion exécutive
+        subtitle: '2024-09-21'
+        subtitleFr: 21-09-2024
+        text: null
+        textFr: null
+        isIcon: false
+        featuredImage: null
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - label: View
+            altText: ''
+            url: /files/Exec_Meeting_09-21-2024.pdf
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+            type: Button
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
+        title: IEEE Executive Meeting Minutes
+        titleFr: Comptes rendus de la réunion exécutive
+        subtitle: '2024-09-07'
+        subtitleFr: 07-09-2024
+        text: null
+        textFr: null
+        isIcon: false
+        featuredImage: null
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - label: View
+            altText: ''
+            url: /files/Exec_Meeting_09-07-2024.pdf
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+            type: Button
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
+        title: IEEE Executive Meeting Minutes
+        titleFr: Comptes rendus de la réunion exécutive
+        subtitle: '2024-08-20'
+        subtitleFr: 20-08-2024
+        text: null
+        textFr: null
+        isIcon: false
+        featuredImage: null
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - label: View
+            altText: ''
+            url: /files/Exec_Meeting_08-20-2024.pdf
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+            type: Button
+        styles:
+          self:
+            textAlign: left
+          actions: []
+    columns: 2
+    spacingX: 28
+    spacingY: 32
+    enableHover: false
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-32
+          - pb-32
+          - pl-4
+          - pr-4
+        justifyContent: center
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
+      actions:
+        justifyContent: flex-start
+    subtitleFr: >-
+      Consultez les comptes-rendus des réunions internes pour avoir un aperçu
+      des discussions qui motivent nos actions.
+  - type: FeaturedItemsSection
+    colors: colors-d
+    elementId: ''
     title: 2023-2024 Meeting Minutes
     titleFr: Comptes rendus des réunions 2023-2024
     subtitle: >-
@@ -180,11 +369,11 @@ sections:
         styles:
           self:
             textAlign: left
-        titleFr: 'Assemblée générale annuelle de l''IEEE, partie 1'
+        titleFr: "Assemblée générale annuelle de l'IEEE, partie 1"
       - type: FeaturedItem
         elementId: ''
         title: IEEE Annual General Meeting Part 2
-        titleFr: 'Assemblée générale annuelle de l''IEEE, partie 2'
+        titleFr: "Assemblée générale annuelle de l'IEEE, partie 2"
         subtitle: '2023-08-16'
         subtitleFr: 16-08-2023
         text: null
@@ -211,7 +400,7 @@ sections:
       - type: FeaturedItem
         elementId: ''
         title: IEEE Annual General Meeting Part 3
-        titleFr: 'Assemblée générale annuelle de l''IEEE, partie 3'
+        titleFr: "Assemblée générale annuelle de l'IEEE, partie 3"
         subtitle: '2023-10-14'
         subtitleFr: 14-10-2023
         text: null
@@ -598,7 +787,7 @@ sections:
       Consultez les comptes-rendus des réunions internes pour avoir un aperçu
       des discussions qui motivent nos actions.
   - type: FeaturedItemsSection
-    colors: colors-d
+    colors: colors-c
     elementId: ''
     title: 2022-2023 Meeting Minutes
     titleFr: Comptes rendus des réunions 2022-2023
@@ -818,7 +1007,7 @@ sections:
       actions:
         justifyContent: flex-start
   - type: FeaturedItemsSection
-    colors: colors-c
+    colors: colors-d
     elementId: ''
     title: Miscellaneous documents
     titleFr: Autres documents

@@ -208,8 +208,8 @@ sections:
     elementId: ''
     title: Upcoming Events
     titleFr: Prochains événements
-    subtitle: 'There are currently no upcoming events. Check back soon!'
-    subtitleFr: "Il n'y a actuellement aucun événement à venir. Revenez bientôt !"
+    subtitle: 'Visit our instagram page to learn about upcoming events!'
+    subtitleFr: 'Visitez notre page Instagram pour apprendre à propos de nos évenements à venir!'
     items: []
     actions: []
     columns: 2
