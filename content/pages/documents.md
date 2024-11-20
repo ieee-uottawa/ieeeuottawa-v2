@@ -105,7 +105,7 @@ sections:
             showIcon: true
             icon: arrowRight
             url: >-
-              https://blushing-radiator-780.notion.site/IEEE-Budget-6d683f8d7e9e43f78f782d1911bf5dda
+              https://docs.google.com/spreadsheets/d/1-hwtZ93w_jqr7uxFZoPmEfSnDSbyeMKMenb6FtA1KpI/edit?gid=0#gid=0
             style: secondary
         styles:
           self:
