@@ -162,7 +162,7 @@
         },
         "logo": {
             "type": "ImageBlock",
-            "url": "/images/ieeelogo.svg",
+            "url": "/images/ieeelogo_gradient.svg",
             "altText": "IEEE uOttawa Logo",
             "caption": "Caption of the image",
             "width": 114,
@@ -271,7 +271,7 @@
         },
         "logo": {
             "type": "ImageBlock",
-            "url": "/images/newieeelogo-white.svg",
+            "url": "/images/ieeelogo_white.svg",
             "altText": "IEEE uOttawa Logo",
             "caption": "IEEE uOttawa Logo",
             "width": 114,
@@ -293,12 +293,12 @@
         {
             "type": "MetaTag",
             "property": "og:image",
-            "content": "/images/ieeelogo.svg"
+            "content": "/images/ieeelogo_white.svg"
         },
         {
             "type": "MetaTag",
             "property": "twitter:image",
-            "content": "/images/ieeelogo.svg"
+            "content": "/images/ieeelogo_white.svg"
         },
         {
             "type": "MetaTag",
@@ -306,5 +306,5 @@
             "content": "IEEE uOttawa Student Branch Hero Image"
         }
     ],
-    "defaultSocialImage": "/images/ieeelogo.svg"
+    "defaultSocialImage": "/images/ieeelogo_white.svg"
 }
