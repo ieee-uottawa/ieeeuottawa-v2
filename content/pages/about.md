@@ -184,6 +184,28 @@ sections:
         styles:
           self:
             textAlign: left
+      - type: FeaturedItem
+        elementId: ''
+        title: Hardware Access
+        titleFr: Accès à du matériel
+        text: >-
+          Our office has a lot of hardware available for students to borrow for personal use or projects. We also have a new 3D printer. Consult the hardware inventory spreadsheet for the full list of available hardware.
+        textFr: >-
+          Notre bureau dispose de beaucoup de matériel disponible pour les étudiants à emprunter pour un usage personnel ou pour des projets. Nous avons également une nouvelle imprimante 3D. Consultez la feuille de calcul de l'inventaire du matériel pour la liste complète du matériel disponible.
+        actions:
+          [
+            {
+              type: Button,
+              label: Hardware Inventory,
+              showIcon: true,
+              icon: arrowRight,
+              style: primary,
+              url: 'https://docs.google.com/spreadsheets/d/1w6ioFWhCtzCWFoH9T4y2QBTN0KBEaRc2SvL0JOjD7_8/edit?gid=864200287#gid=864200287'
+            }
+          ]
+        styles:
+          self:
+            textAlign: left
     styles:
       self:
         padding:
@@ -193,6 +215,7 @@ sections:
           - pr-5
         margin:
           - mb-0
+
   - type: FeatureHighlightSection
     colors: colors-b
     elementId: ''

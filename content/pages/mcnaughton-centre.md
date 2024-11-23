@@ -153,6 +153,43 @@ sections:
     colors: colors-d
     elementId: ''
     backgroundSize: full
+    title: Access to 3D printer
+    text: >
+      Our office provides students with access to a 3D printer, allowing them to bring their ideas to life. Whether you are working on a project for a class or a personal project, our 3D printer is available for you to use.
+    textFr: >
+      Notre bureau offre aux étudiants l'accès à une imprimante 3D, leur permettant de donner vie à leurs idées. Que vous travailliez sur un projet pour un cours ou un projet personnel, notre imprimante 3D est à votre disposition.
+    actions: []
+    media:
+      type: ImageBlock
+      url: /images/mcn/printer.webp
+      altText: >-
+        Picture showing the 3D printer in the office
+      width: 1125
+      height: 844
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-16
+          - pb-20
+          - pl-4
+          - pr-4
+        alignItems: center
+        justifyContent: center
+        flexDirection: row
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
+      text:
+        textAlign: left
+      actions:
+        justifyContent: flex-start
+  - type: HeroSection
+    colors: colors-d
+    elementId: ''
+    backgroundSize: full
     title: Quiet Study Place
     text: >
       Our office provides a quiet environment for individual or group study

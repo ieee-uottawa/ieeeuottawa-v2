@@ -11,10 +11,10 @@ sections:
     title: Events
     titleFr: Événements
     text: |
-      Checkout our upcoming events and our past events!
+      Visit our instagram page to stay up to date with our events!
     textFr: |
-      Jetez un coup d'œil à nos événements à venir et à nos événements passés !
-    actions: []
+      Visitez notre page Instagram pour rester à jour avec nos événements !
+    actions: [{ type: Button, label: Instagram, showIcon: true, icon: arrowRight, style: primary, url: 'https://www.instagram.com/ieeeuottawa/' }]
     styles:
       self:
         height: auto
@@ -42,43 +42,12 @@ sections:
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 20
-  - type: FeaturedItemsSection
-    colors: colors-c
-    elementId: ''
-    title: Upcoming Events
-    subtitleFr: 'Visitez notre page Instagram pour apprendre à propos de nos évenements à venir!'
-    actions: []
-    columns: 2
-    spacingX: 40
-    spacingY: 16
-    enableHover: false
-    styles:
-      self:
-        height: auto
-        width: narrow
-        padding:
-          - pt-28
-          - pb-36
-          - pl-4
-          - pr-4
-        justifyContent: center
-        margin:
-          - mb-0
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
-      actions:
-        justifyContent: flex-start
-    titleFr: Evénements prochains
-    subtitle: Visit our instagram page to learn about upcoming events!
-    items: []
+
   - type: FeaturedItemsSection
     colors: colors-d
     elementId: ''
     title: Past Events
     titleFr: Événements passés
-    subtitle: Click the button below to view more events.
     items:
       - type: FeaturedItem
         elementId: ''
@@ -105,17 +74,6 @@ sections:
           url: /images/events/2022-2023/ELG Panel.jpeg
           altText: 14th Annual Wine and Cheese Poster
           caption: 14th Annual Wine and Cheese Poster
-
-        actions:
-          - type: Button
-            label: Learn More
-            altText: Learn More Button
-            url: 'https://www.instagram.com/p/CqoWH6FpfDE/'
-            showIcon: true
-            icon: arrowRight
-            iconPosition: right
-            style: secondary
-            elementId: ''
         styles:
           self:
             textAlign: left
@@ -1127,16 +1085,6 @@ sections:
           altText: WIE Tech Panel Poster
           caption: WIE Tech Panel Poster
           elementId: ''
-    actions:
-      - type: Button
-        label: More
-        altText: 'Link to facebook page to view more events'
-        url: 'https://www.facebook.com/ieeeuottawa/events'
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        elementId: ''
     columns: 3
     spacingX: 40
     spacingY: 46
@@ -1158,7 +1106,7 @@ sections:
       actions:
         justifyContent: flex-start
     subtitleFr: Cliquez sur le bouton ci-dessous pour voir plus d'événements.
-metaDescription: Checkout our upcoming events and our past events!
+metaDescription: Visit our instagram page to stay up to date with our events!
 metaTags:
   - type: MetaTag
     property: 'og:type'

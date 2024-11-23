@@ -109,15 +109,15 @@ sections:
     subtitleFr: '800 King Edward Ave, Ottawa, ON K1N 6N5, STE 4026'
     items:
       - type: FeaturedItem
-        title: Use our lab equipment
-        titleFr: Utilisez notre équipement de laboratoire
+        title: Use our lab equipment and 3D printer
+        titleFr: Utilisez notre équipement de laboratoire et notre imprimante 3D
         text: >
           Need to use a breadboard, wire strippers or CD-Rs? Need to use an
-          Altera DE2 Board or an oscilloscope for a project? We got your back.
+          Altera DE2 Board or an oscilloscope for a project? We got your back. We also have a new 3D printer at your disposal.
         textFr: >
           Besoin d'une planche à pain, des pinces à dénuder ou des CD-R ? Besoin
           d'utiliser une carte Altera DE2 ou un oscilloscope pour un projet ?
-          Nous avons tout!
+          Nous avons tout! Nous avons également une nouvelle imprimante 3D à votre disposition.
         actions: []
         styles:
           self:
@@ -131,15 +131,15 @@ sections:
         featuredIcon: circuit
         isIcon: true
       - type: FeaturedItem
-        title: Get homework help
-        titleFr: Obtenez de l'aide pour vos devoirs
+        title: Get homework help and mentorship
+        titleFr: Obtenez de l'aide pour vos devoirs et du mentorat
         text: >
           Need to study with your friends in a quiet environment to prepare for
-          your midterm? Our office is the perfect place for that.
+          your midterm? Our office is the perfect place for that. Our execs are also available to help you with your homework or to provide mentorship.
         textFr: >
           Besoin d'étudier avec vos amis dans un environnement calme pour vous
           préparer pour votre mi-session ? Notre bureau est l'endroit idéal pour
-          cela.
+          cela, nos exécutifs sont également disponibles pour vous fournir du mentorat.
         actions: []
         styles:
           self:
@@ -153,15 +153,14 @@ sections:
         featuredIcon: bulb
         isIcon: true
       - type: FeaturedItem
-        title: Borrow textbooks
-        titleFr: Empruntez des manuels scolaires
+        title: Borrow textbooks and hardware
+        titleFr: Empruntez des manuels scolaires et du matériel
         text: >
-          Need to borrow a textbook for one of your courses? Take advantage of
-          our carefully curated selection of EECS textbooks at no cost.
+          Need to borrow a textbook for one of your courses, or a piece of hardware for a project? Take advantage of
+          our carefully curated selection of EECS textbooks as well as our hardware library.
         textFr: >
-          Besoin d'emprunter un manuel pour l'un de vos cours ? Profitez
-          gratuitement de notre sélection de manuels EECS adapté à vos besoins.
-        actions: []
+          Besoin d'emprunter un manuel pour l'un de vos cours ou un morceau de matériel pour un projet ? Profitez
+          gratuitement de notre sélection de manuels EECS adapté à vos besoins ainsi que de notre bibliothèque de matériel.
         styles:
           self:
             textAlign: left
@@ -174,15 +173,30 @@ sections:
         featuredIcon: books
         isIcon: true
     actions:
-      - type: Button
-        label: Office Hours
-        altText: Link to Office Hours
-        url: /mcnaughton-centre
-        showIcon: false
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        elementId: ''
+      [
+        {
+          type: Button,
+          label: Office Hours,
+          altText: Link to Office Hours,
+          url: /mcnaughton-centre,
+          showIcon: false,
+          icon: arrowRight,
+          iconPosition: right,
+          style: primary,
+          elementId: ''
+        },
+        {
+          type: Button,
+          label: Hardware Inventory,
+          altText: Link to the Hardware Inventory,
+          url: https://docs.google.com/spreadsheets/d/1w6ioFWhCtzCWFoH9T4y2QBTN0KBEaRc2SvL0JOjD7_8/edit?gid=864200287#gid=864200287,
+          showIcon: false,
+          icon: arrowRight,
+          iconPosition: right,
+          style: primary,
+          elementId: ''
+        }
+      ]
     columns: 3
     spacingX: 32
     spacingY: 32
@@ -203,56 +217,25 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
-  - type: FeaturedItemsSection
+
+  - type: FeatureHighlightSection
     colors: colors-c
     elementId: ''
-    title: Upcoming Events
-    titleFr: Prochains événements
-    subtitle: 'Visit our instagram page to learn about upcoming events!'
-    subtitleFr: 'Visitez notre page Instagram pour apprendre à propos de nos évenements à venir!'
-    items: []
-    actions: []
-    columns: 2
-    spacingX: 40
-    spacingY: 16
-    enableHover: false
-    styles:
-      self:
-        height: auto
-        width: narrow
-        padding:
-          - pt-28
-          - pb-36
-          - pl-4
-          - pr-4
-        justifyContent: center
-        margin:
-          - mb-0
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
-      actions:
-        justifyContent: flex-start
-  - type: FeatureHighlightSection
-    colors: colors-d
-    elementId: ''
     backgroundSize: full
-    title: Check out our gallery
-    titleFr: Visitez notre galerie de photos
+    title: Stay up to date
+    titleFr: Restez à jour
     subtitle: ''
     text: |
-      Visit our gallery to see photos of events we have hosted in the past.
+      Visit our instagram page to keep up with our latest events and updates.
     textFr: >
-      Visitez notre galerie pour voir les photos des événements que nous avons
-      organisés dans le passé.
+      Visitez notre page Instagram pour rester à jour avec nos derniers événements et mises à jour.
     actions:
       - type: Button
-        label: Gallery
+        label: Instagram
         showIcon: true
         icon: arrowRight
         style: primary
-        url: 'https://www.facebook.com/ieeeuottawa/photos'
+        url: 'https://www.instagram.com/ieeeuottawa/'
     backgroundImage:
       type: BackgroundImage
       url: /images/gridgallery.png

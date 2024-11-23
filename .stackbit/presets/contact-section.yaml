@@ -88,7 +88,7 @@ presets:
         submitLabel: Send Message
       media:
         type: ImageBlock
-        url: '/images/ieeelogo.svg'
+        url: '/images/ieeelogo_white.svg'
         altText: Contact form image
       styles:
         self:
