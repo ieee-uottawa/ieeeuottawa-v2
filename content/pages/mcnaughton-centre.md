@@ -57,7 +57,7 @@ sections:
       opacity: 20
     media:
       type: ImageBlock
-      url: /images/office-hours-f2024.jpg
+      url: /images/office-hours-w2025.jpg
       altText: >-
         A graphic displaying IEEE's office hours.
       caption: Caption of the image
