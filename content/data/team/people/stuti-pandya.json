@@ -1,0 +1,20 @@
+{
+    "type": "Person",
+    "firstName": "Stuti",
+    "lastName": "Pandya",
+    "image": {
+        "url": "/images/team/stuti-pandya.jpg",
+        "altText": "Stuti Pandya photo"
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "LinkedIn",
+            "altText": "",
+            "url": "https://www.linkedin.com/in/stuti-pandya-6a8bab258/",
+            "icon": "linkedin",
+            "style": "link",
+            "elementId": ""
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "type": "Person",
+    "firstName": "Aurélie",
+    "lastName": "Dumas",
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "LinkedIn",
+            "altText": "",
+            "url": "https://www.linkedin.com/in/aur%C3%A9lie-dumas-957347227/",
+            "icon": "linkedin",
+            "style": "link",
+            "elementId": ""
+        }
+    ],
+    "image": {
+        "url": "/images/team/aurelie-dumas.jpg",
+        "altText": "Aurélie Dumas photo"
+    }
+}

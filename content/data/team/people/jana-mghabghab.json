@@ -1,0 +1,20 @@
+{
+    "type": "Person",
+    "firstName": "Jana",
+    "lastName": "Mghabghab",
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "LinkedIn",
+            "altText": "",
+            "url": "https://www.linkedin.com/in/jana-mghabghab-a8774333b/",
+            "icon": "linkedin",
+            "style": "link",
+            "elementId": ""
+        }
+    ],
+    "image": {
+        "url": "/images/team/jana-mghabghab.jpg",
+        "altText": "Jana Mghabghab photo"
+    }
+}
