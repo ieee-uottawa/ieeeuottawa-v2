@@ -162,6 +162,58 @@ sections:
         elementId: ''
         title: IEEE Executive Meeting Minutes
         titleFr: Comptes rendus de la réunion exécutive
+        subtitle: '2025-01-27'
+        subtitleFr: 27-01-2025
+        text: null
+        textFr: null
+        isIcon: false
+        featuredImage: null
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - label: View
+            altText: ''
+            url: /files/Exec_Meeting_01-27-2025.pdf
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+            type: Button
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
+        title: IEEE Executive Meeting Minutes
+        titleFr: Comptes rendus de la réunion exécutive
+        subtitle: '2025-01-13'
+        subtitleFr: 13-01-2025
+        text: null
+        textFr: null
+        isIcon: false
+        featuredImage: null
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - label: View
+            altText: ''
+            url: /files/Exec_Meeting_01-13-2025.pdf
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+            type: Button
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
+        title: IEEE Executive Meeting Minutes
+        titleFr: Comptes rendus de la réunion exécutive
         subtitle: '2024-11-23'
         subtitleFr: 23-11-2024
         text: null
