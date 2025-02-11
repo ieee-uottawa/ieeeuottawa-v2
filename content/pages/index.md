@@ -42,7 +42,7 @@ sections:
         elementId: ''
     backgroundImage:
       type: BackgroundImage
-      url: /images/W&C15-2.png
+      url: /images/team2024-25.jpg
       backgroundSize: cover
       backgroundPosition: center
       backgroundRepeat: no-repeat

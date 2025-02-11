@@ -6,9 +6,7 @@
             "thumbnail": "images/hero-dark-bg-image.png",
             "locale": null,
             "metadata": {
-                "categories": [
-                    "Hero"
-                ],
+                "categories": ["Hero"],
                 "canDelete": true
             },
             "data": {
@@ -57,7 +55,7 @@
                 ],
                 "media": null,
                 "backgroundImage": {
-                    "url": "/images/W&C15-2.JPG",
+                    "url": "/images/team2024-25.jpg",
                     "backgroundSize": "cover",
                     "backgroundPosition": "center",
                     "backgroundRepeat": "no-repeat",
@@ -92,9 +90,7 @@
             "thumbnail": "images/hero-light-image-left.png",
             "locale": null,
             "metadata": {
-                "categories": [
-                    "Hero"
-                ],
+                "categories": ["Hero"],
                 "canDelete": true
             },
             "data": {
@@ -122,12 +118,7 @@
                     "self": {
                         "height": "auto",
                         "width": "wide",
-                        "padding": [
-                            "pt-16",
-                            "pb-20",
-                            "pl-4",
-                            "pr-4"
-                        ],
+                        "padding": ["pt-16", "pb-20", "pl-4", "pr-4"],
                         "alignItems": "center",
                         "justifyContent": "center",
                         "flexDirection": "row-reverse"
@@ -152,9 +143,7 @@
             "thumbnail": "images/hero-light-image-right.png",
             "locale": null,
             "metadata": {
-                "categories": [
-                    "Hero"
-                ],
+                "categories": ["Hero"],
                 "canDelete": true
             },
             "data": {
@@ -182,12 +171,7 @@
                     "self": {
                         "height": "auto",
                         "width": "wide",
-                        "padding": [
-                            "pt-16",
-                            "pb-20",
-                            "pl-4",
-                            "pr-4"
-                        ],
+                        "padding": ["pt-16", "pb-20", "pl-4", "pr-4"],
                         "alignItems": "center",
                         "justifyContent": "center",
                         "flexDirection": "row"
