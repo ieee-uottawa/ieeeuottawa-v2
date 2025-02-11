@@ -105,7 +105,7 @@ sections:
             showIcon: true
             icon: arrowRight
             url: >-
-              https://docs.google.com/spreadsheets/d/1-hwtZ93w_jqr7uxFZoPmEfSnDSbyeMKMenb6FtA1KpI/edit?gid=0#gid=0
+              https://docs.google.com/spreadsheets/d/1-hwtZ93w_jqr7uxFZoPmEfSnDSbyeMKMenb6FtA1KpI/edit?gid=1223931789#gid=1223931789
             style: secondary
         styles:
           self:
