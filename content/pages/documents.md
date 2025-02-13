@@ -212,6 +212,32 @@ sections:
             textAlign: left
       - type: FeaturedItem
         elementId: ''
+        title: IEEE AGM Fall 2024
+        titleFr: Comptes rendus de la réunion exécutive
+        subtitle: '2024-12-19'
+        subtitleFr: 19-12-2024
+        text: null
+        textFr: null
+        isIcon: false
+        featuredImage: null
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - label: View
+            altText: ''
+            url: /files/Exec_Meeting_12-19-2024.pdf
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+            type: Button
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
         title: IEEE Executive Meeting Minutes
         titleFr: Comptes rendus de la réunion exécutive
         subtitle: '2024-11-23'
@@ -418,6 +444,32 @@ sections:
         styles:
           self:
             textAlign: left
+      - type: FeaturedItem
+        elementId: ''
+        title: IEEE AGM Winter 2024 Part 2
+        titleFr: IEEE AGM Hiver 2024 Partie 2
+        subtitle: '2024-06-23'
+        subtitleFr: 06-23-2024
+        text: null
+        textFr: null
+        isIcon: false
+        featuredImage: null
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - label: View
+            altText: ''
+            url: /files/IEEE_Executive_Meeting_Minutes_2024-06-23.pdf
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+            type: Button
+        styles:
+          self:
+            textAlign: left
           actions: []
     columns: 2
     spacingX: 28
@@ -453,87 +505,10 @@ sections:
     items:
       - type: FeaturedItem
         elementId: ''
-        title: IEEE Annual General Meeting Part 1
-        subtitle: '2023-04-29'
-        subtitleFr: 29-04-2023
-        isIcon: false
-        featuredIcon:
-          label: Apple
-          value: apple
-        actions:
-          - type: Button
-            label: View
-            altText: ''
-            url: /files/IEEE_uOttawa_AGM_2023_-_Agenda_and_Meeting_Minutes.pdf
-            showIcon: true
-            icon: arrowRight
-            iconPosition: right
-            style: primary
-            elementId: ''
-        styles:
-          self:
-            textAlign: left
-        titleFr: "Assemblée générale annuelle de l'IEEE, partie 1"
-      - type: FeaturedItem
-        elementId: ''
-        title: IEEE Annual General Meeting Part 2
-        titleFr: "Assemblée générale annuelle de l'IEEE, partie 2"
-        subtitle: '2023-08-16'
-        subtitleFr: 16-08-2023
-        text: null
-        textFr: null
-        isIcon: false
-        featuredImage: null
-        featuredIcon:
-          label: Apple
-          value: apple
-        actions:
-          - label: View
-            altText: ''
-            url: >-
-              /files/IEEE_uOttawa_AGM_2023_Part_2_-_Agenda_and_Meeting_Minutes.pdf
-            showIcon: true
-            icon: arrowRight
-            iconPosition: right
-            style: primary
-            elementId: ''
-            type: Button
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        elementId: ''
-        title: IEEE Annual General Meeting Part 3
-        titleFr: "Assemblée générale annuelle de l'IEEE, partie 3"
-        subtitle: '2023-10-14'
-        subtitleFr: 14-10-2023
-        text: null
-        textFr: null
-        isIcon: false
-        featuredImage: null
-        featuredIcon:
-          label: Apple
-          value: apple
-        actions:
-          - label: View
-            altText: ''
-            url: >-
-              /files/IEEE_uOttawa_AGM_2023_Part_3.pdf
-            showIcon: true
-            icon: arrowRight
-            iconPosition: right
-            style: primary
-            elementId: ''
-            type: Button
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        elementId: ''
         title: IEEE Executive Meeting Minutes
         titleFr: Comptes rendus de la réunion exécutive
-        subtitle: '2023-09-16'
-        subtitleFr: 16-09-2023
+        subtitle: '2024-03-26'
+        subtitleFr: 03-26-2024
         text: null
         textFr: null
         isIcon: false
@@ -544,241 +519,7 @@ sections:
         actions:
           - label: View
             altText: ''
-            url: /files/IEEE_Executive_Meeting_Minutes_2023-09-16.pdf
-            showIcon: true
-            icon: arrowRight
-            iconPosition: right
-            style: primary
-            elementId: ''
-            type: Button
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        elementId: ''
-        title: IEEE Executive Meeting Minutes
-        titleFr: Comptes rendus de la réunion exécutive
-        subtitle: '2023-09-29'
-        subtitleFr: 29-09-2023
-        text: null
-        textFr: null
-        isIcon: false
-        featuredImage: null
-        featuredIcon:
-          label: Apple
-          value: apple
-        actions:
-          - label: View
-            altText: ''
-            url: /files/IEEE_Executive_Meeting_Minutes_2023-09-29.pdf
-            showIcon: true
-            icon: arrowRight
-            iconPosition: right
-            style: primary
-            elementId: ''
-            type: Button
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        elementId: ''
-        title: IEEE Executive Meeting Minutes
-        titleFr: Comptes rendus de la réunion exécutive
-        subtitle: '2023-11-03'
-        subtitleFr: 03-11-2023
-        text: null
-        textFr: null
-        isIcon: false
-        featuredImage: null
-        featuredIcon:
-          label: Apple
-          value: apple
-        actions:
-          - label: View
-            altText: ''
-            url: /files/IEEE_Executive_Meeting_Minutes_11-03-2023.pdf
-            showIcon: true
-            icon: arrowRight
-            iconPosition: right
-            style: primary
-            elementId: ''
-            type: Button
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        elementId: ''
-        title: IEEE Executive Meeting Minutes
-        titleFr: Comptes rendus de la réunion exécutive
-        subtitle: '2023-09-16'
-        subtitleFr: 16-09-2023
-        text: null
-        textFr: null
-        isIcon: false
-        featuredImage: null
-        featuredIcon:
-          label: Apple
-          value: apple
-        actions:
-          - label: View
-            altText: ''
-            url: /files/IEEE_Executive_Meeting_Minutes_2023-09-16.pdf
-            showIcon: true
-            icon: arrowRight
-            iconPosition: right
-            style: primary
-            elementId: ''
-            type: Button
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        elementId: ''
-        title: IEEE Executive Meeting Minutes
-        titleFr: Comptes rendus de la réunion exécutive
-        subtitle: '2023-11-18'
-        subtitleFr: 18-11-2023
-        text: null
-        textFr: null
-        isIcon: false
-        featuredImage: null
-        featuredIcon:
-          label: Apple
-          value: apple
-        actions:
-          - label: View
-            altText: ''
-            url: /files/IEEE_Executive_Meeting_Minutes_11-18-2023.pdf
-            showIcon: true
-            icon: arrowRight
-            iconPosition: right
-            style: primary
-            elementId: ''
-            type: Button
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        elementId: ''
-        title: IEEE Executive Meeting Minutes
-        titleFr: Comptes rendus de la réunion exécutive
-        subtitle: '2023-01-12'
-        subtitleFr: 01-12-2023
-        text: null
-        textFr: null
-        isIcon: false
-        featuredImage: null
-        featuredIcon:
-          label: Apple
-          value: apple
-        actions:
-          - label: View
-            altText: ''
-            url: /files/IEEE_Executive_Meeting_Minutes_2023-12-01.pdf
-            showIcon: true
-            icon: arrowRight
-            iconPosition: right
-            style: primary
-            elementId: ''
-            type: Button
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        elementId: ''
-        title: IEEE Executive Meeting Minutes
-        titleFr: Comptes rendus de la réunion exécutive
-        subtitle: '2024-01-15'
-        subtitleFr: 16-01-2024
-        text: null
-        textFr: null
-        isIcon: false
-        featuredImage: null
-        featuredIcon:
-          label: Apple
-          value: apple
-        actions:
-          - label: View
-            altText: ''
-            url: /files/IEEE_Executive_Meeting_Minutes_01-16-2024.pdf
-            showIcon: true
-            icon: arrowRight
-            iconPosition: right
-            style: primary
-            elementId: ''
-            type: Button
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        elementId: ''
-        title: IEEE Executive Meeting Minutes
-        titleFr: Comptes rendus de la réunion exécutive
-        subtitle: '2024-01-23'
-        subtitleFr: 23-01-2024
-        text: null
-        textFr: null
-        isIcon: false
-        featuredImage: null
-        featuredIcon:
-          label: Apple
-          value: apple
-        actions:
-          - label: View
-            altText: ''
-            url: /files/IEEE_Executive_Meeting_Minutes_01-23-2024.pdf
-            showIcon: true
-            icon: arrowRight
-            iconPosition: right
-            style: primary
-            elementId: ''
-            type: Button
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        elementId: ''
-        title: IEEE Executive Meeting Minutes
-        titleFr: Comptes rendus de la réunion exécutive
-        subtitle: '2024-02-06'
-        subtitleFr: 06-02-2024
-        text: null
-        textFr: null
-        isIcon: false
-        featuredImage: null
-        featuredIcon:
-          label: Apple
-          value: apple
-        actions:
-          - label: View
-            altText: ''
-            url: /files/IEEE_Executive_Meeting_Minutes_02-06-2024.pdf
-            showIcon: true
-            icon: arrowRight
-            iconPosition: right
-            style: primary
-            elementId: ''
-            type: Button
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        elementId: ''
-        title: IEEE Executive Meeting Minutes
-        titleFr: Comptes rendus de la réunion exécutive
-        subtitle: '2024-02-27'
-        subtitleFr: 27-02-2024
-        text: null
-        textFr: null
-        isIcon: false
-        featuredImage: null
-        featuredIcon:
-          label: Apple
-          value: apple
-        actions:
-          - label: View
-            altText: ''
-            url: /files/IEEE_Executive_Meeting_Minutes_02-27-2024.pdf
+            url: /files/IEEE_Executive_Meeting_Minutes_03-26-2024.pdf
             showIcon: true
             icon: arrowRight
             iconPosition: right
@@ -818,8 +559,34 @@ sections:
         elementId: ''
         title: IEEE Executive Meeting Minutes
         titleFr: Comptes rendus de la réunion exécutive
+        subtitle: '2024-02-27'
+        subtitleFr: 27-02-2024
+        text: null
+        textFr: null
+        isIcon: false
+        featuredImage: null
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - label: View
+            altText: ''
+            url: /files/IEEE_Executive_Meeting_Minutes_02-27-2024.pdf
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+            type: Button
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
+        title: IEEE Executive Meeting Minutes
+        titleFr: Comptes rendus de la réunion exécutive
         subtitle: '2024-02-06'
-        subtitleFr: 02-06-2024
+        subtitleFr: 06-02-2024
         text: null
         textFr: null
         isIcon: false
@@ -844,8 +611,8 @@ sections:
         elementId: ''
         title: IEEE Executive Meeting Minutes
         titleFr: Comptes rendus de la réunion exécutive
-        subtitle: '2024-03-26'
-        subtitleFr: 03-26-2024
+        subtitle: '2024-01-23'
+        subtitleFr: 23-01-2024
         text: null
         textFr: null
         isIcon: false
@@ -856,13 +623,220 @@ sections:
         actions:
           - label: View
             altText: ''
-            url: /files/IEEE_Executive_Meeting_Minutes_03-26-2024.pdf
+            url: /files/IEEE_Executive_Meeting_Minutes_01-23-2024.pdf
             showIcon: true
             icon: arrowRight
             iconPosition: right
             style: primary
             elementId: ''
             type: Button
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
+        title: IEEE Executive Meeting Minutes
+        titleFr: Comptes rendus de la réunion exécutive
+        subtitle: '2024-01-16'
+        subtitleFr: 16-01-2024
+        text: null
+        textFr: null
+        isIcon: false
+        featuredImage: null
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - label: View
+            altText: ''
+            url: /files/IEEE_Executive_Meeting_Minutes_01-16-2024.pdf
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+            type: Button
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
+        title: IEEE Executive Meeting Minutes
+        titleFr: Comptes rendus de la réunion exécutive
+        subtitle: '2023-11-18'
+        subtitleFr: 18-11-2023
+        text: null
+        textFr: null
+        isIcon: false
+        featuredImage: null
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - label: View
+            altText: ''
+            url: /files/IEEE_Executive_Meeting_Minutes_11-18-2023.pdf
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+            type: Button
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
+        title: IEEE Executive Meeting Minutes
+        titleFr: Comptes rendus de la réunion exécutive
+        subtitle: '2023-11-03'
+        subtitleFr: 03-11-2023
+        text: null
+        textFr: null
+        isIcon: false
+        featuredImage: null
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - label: View
+            altText: ''
+            url: /files/IEEE_Executive_Meeting_Minutes_2023-11-03.pdf
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+            type: Button
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
+        title: IEEE AGM 2023 Part 3
+        titleFr: "Assemblée générale annuelle de l'IEEE, partie 3"
+        subtitle: '2023-10-14'
+        subtitleFr: 14-10-2023
+        text: null
+        textFr: null
+        isIcon: false
+        featuredImage: null
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - label: View
+            altText: ''
+            url: >-
+              /files/IEEE_uOttawa_AGM_2023_Part_3.pdf
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+            type: Button
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
+        title: IEEE Executive Meeting Minutes
+        titleFr: Comptes rendus de la réunion exécutive
+        subtitle: '2023-09-29'
+        subtitleFr: 29-09-2023
+        text: null
+        textFr: null
+        isIcon: false
+        featuredImage: null
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - label: View
+            altText: ''
+            url: /files/IEEE_Executive_Meeting_Minutes_2023-09-29.pdf
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+            type: Button
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
+        title: IEEE Executive Meeting Minutes
+        titleFr: Comptes rendus de la réunion exécutive
+        subtitle: '2023-09-16'
+        subtitleFr: 16-09-2023
+        text: null
+        textFr: null
+        isIcon: false
+        featuredImage: null
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - label: View
+            altText: ''
+            url: /files/IEEE_Executive_Meeting_Minutes_2023-09-16.pdf
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+            type: Button
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
+        title: IEEE AGM 2023 Part 2
+        titleFr: "Assemblée générale annuelle de l'IEEE, partie 2"
+        subtitle: '2023-08-16'
+        subtitleFr: 16-08-2023
+        text: null
+        textFr: null
+        isIcon: false
+        featuredImage: null
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - label: View
+            altText: ''
+            url: >-
+              /files/IEEE_uOttawa_AGM_2023_Part_2_-_Agenda_and_Meeting_Minutes.pdf
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+            type: Button
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
+        title: IEEE AGM 2023 Part 1
+        titleFr: "Assemblée générale annuelle de l'IEEE, partie 1"
+        subtitle: '2023-04-29'
+        subtitleFr: 29-04-2023
+        isIcon: false
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - type: Button
+            label: View
+            altText: ''
+            url: /files/IEEE_uOttawa_AGM_2023_-_Agenda_and_Meeting_Minutes.pdf
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
         styles:
           self:
             textAlign: left
