@@ -531,6 +531,32 @@ sections:
     items:
       - type: FeaturedItem
         elementId: ''
+        title: IEEE AGM Winter 2024 Part 1
+        titleFr: IEEE AGM Hiver 2024 Partie 1
+        subtitle: '2024-04-28'
+        subtitleFr: 04-28-2024
+        text: null
+        textFr: null
+        isIcon: false
+        featuredImage: null
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - label: View
+            altText: ''
+            url: /files/IEEE_Executive_Meeting_Minutes_04-28-2024.pdf
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+            type: Button
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
         title: IEEE Executive Meeting Minutes
         titleFr: Comptes rendus de la réunion exécutive
         subtitle: '2024-03-26'
