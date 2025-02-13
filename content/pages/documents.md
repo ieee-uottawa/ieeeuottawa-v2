@@ -160,6 +160,32 @@ sections:
     items:
       - type: FeaturedItem
         elementId: ''
+        title: IEEE AGM Winter 2025
+        titleFr: IEEE AGM Hiver 2025
+        subtitle: '2025-02-10'
+        subtitleFr: 10-02-2025
+        text: null
+        textFr: null
+        isIcon: false
+        featuredImage: null
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - label: View
+            altText: ''
+            url: /files/Exec_Meeting_02-10-2025.pdf
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+            type: Button
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
         title: IEEE Executive Meeting Minutes
         titleFr: Comptes rendus de la réunion exécutive
         subtitle: '2025-01-27'
