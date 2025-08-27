@@ -1,0 +1,20 @@
+{
+    "type": "Person",
+    "firstName": "Rory",
+    "lastName": "McCulloch",
+    "image": {
+        "url": "/images/team/rory-mcculloch.jpg",
+        "altText": "Rory McCulloch"
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "LinkedIn",
+            "altText": "",
+            "url": "https://www.linkedin.com/in/rory-mcculloch/",
+            "icon": "linkedin",
+            "style": "link",
+            "elementId": ""
+        }
+    ]
+}

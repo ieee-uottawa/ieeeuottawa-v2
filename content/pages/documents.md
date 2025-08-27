@@ -45,8 +45,9 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
+  #General Documents
   - type: FeaturedItemsSection
-    colors: colors-d
+    colors: colors-c
     elementId: ''
     title: General Documents
     titleFr: Documents généraux
@@ -111,6 +112,25 @@ sections:
           self:
             textAlign: left
       - type: FeaturedItem
+        title: French Constitution
+        titleFr: Constitution Française
+        text: >
+          The constitution defines the rules and policies that govern the
+          branch's operations.
+        textFr: >
+          La constitution définit les règles et les politiques qui régissent les
+          opérations de la branche.
+        actions:
+          - type: Button
+            label: View
+            showIcon: true
+            icon: arrowRight
+            url: /files/IEEE_uOttawa_Constitution_Francais_2024.pdf
+            style: secondary
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
         title: 2023-2024 Election Guidelines
         titleFr: Directives électorales 2023-2024
         text: |
@@ -149,6 +169,66 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
+  #2025-2026
+  - type: FeaturedItemsSection
+    colors: colors-d
+    elementId: ''
+    title: 2025-2026 Meeting Minutes
+    titleFr: Comptes rendus des réunions 2025-2026
+    subtitle: >-
+      Check out the Internal meeting minutes to catch a glimpse of the
+      discussions that drive what we do.
+    items:
+      - type: FeaturedItem
+        elementId: ''
+        title: IEEE Executive Meeting Minutes
+        titleFr: Comptes rendus de la réunion exécutive
+        subtitle: '2025-06-18'
+        subtitleFr: 18-06-2025
+        text: null
+        textFr: null
+        isIcon: false
+        featuredImage: null
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - label: View
+            altText: ''
+            url: /files/meetings_2025-2026/18-06-2025.pdf
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+            type: Button
+        styles:
+          self:
+            textAlign: left
+    columns: 2
+    spacingX: 28
+    spacingY: 32
+    enableHover: false
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-32
+          - pb-32
+          - pl-4
+          - pr-4
+        justifyContent: center
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
+      actions:
+        justifyContent: flex-start
+    subtitleFr: >-
+      Consultez les comptes-rendus des réunions internes pour avoir un aperçu
+      des discussions qui motivent nos actions.
+  #2024-2025
   - type: FeaturedItemsSection
     colors: colors-c
     elementId: ''
@@ -520,6 +600,7 @@ sections:
     subtitleFr: >-
       Consultez les comptes-rendus des réunions internes pour avoir un aperçu
       des discussions qui motivent nos actions.
+  #2023-2024
   - type: FeaturedItemsSection
     colors: colors-d
     elementId: ''
@@ -916,6 +997,7 @@ sections:
     subtitleFr: >-
       Consultez les comptes-rendus des réunions internes pour avoir un aperçu
       des discussions qui motivent nos actions.
+  #2022-2023
   - type: FeaturedItemsSection
     colors: colors-c
     elementId: ''
