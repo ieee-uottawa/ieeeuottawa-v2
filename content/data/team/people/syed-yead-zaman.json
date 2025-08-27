@@ -1,0 +1,20 @@
+{
+    "type": "Person",
+    "firstName": "Syed Yead",
+    "lastName": "Zaman",
+    "image": {
+        "url": "/images/team/syed-yead-zaman.jpg",
+        "altText": "Syed Yead Zaman"
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "LinkedIn",
+            "altText": "",
+            "url": "https://www.linkedin.com/in/syed-yead-zaman-410778220/",
+            "icon": "linkedin",
+            "style": "link",
+            "elementId": ""
+        }
+    ]
+}

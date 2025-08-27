@@ -1,0 +1,20 @@
+{
+    "type": "Person",
+    "firstName": "Pronoy",
+    "lastName": "Fuad",
+    "image": {
+        "url": "/images/team/pronoy-fuad.png",
+        "altText": "Pronoy Fuad"
+    },
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "LinkedIn",
+            "altText": "",
+            "url": "https://www.linkedin.com/in/pronoy-fuad-0ba157210/",
+            "icon": "linkedin",
+            "style": "link",
+            "elementId": ""
+        }
+    ]
+}

@@ -53,6 +53,16 @@
                 "dropdownLinks": [
                     {
                         "type": "Link",
+                        "label": "2025-2026",
+                        "altText": "Link to 2025-2026 team's page",
+                        "url": "/execs-2025-2026",
+                        "showIcon": false,
+                        "icon": "arrowRight",
+                        "iconPosition": "right",
+                        "elementId": ""
+                    },
+                    {
+                        "type": "Link",
                         "label": "2024-2025",
                         "altText": "Link to 2024-2025 team's page",
                         "url": "/execs-2024-2025",
