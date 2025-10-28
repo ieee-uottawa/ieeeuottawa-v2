@@ -1,0 +1,20 @@
+{
+    "type": "Person",
+    "firstName": "Jayden-Dale",
+    "lastName": "Ireland",
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "LinkedIn",
+            "altText": "",
+            "url": "https://www.linkedin.com/in/jayden-dale-ireland-7a3482241/",
+            "icon": "linkedin",
+            "style": "link",
+            "elementId": ""
+        }
+    ],
+    "image": {
+        "url": "/images/team/jayden-ireland.jpg",
+        "altText": "Jayden Ireland photo"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "type": "Person",
+    "firstName": "Casper",
+    "lastName": "Casey",
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "LinkedIn",
+            "altText": "",
+            "url": "https://www.linkedin.com/in/casper-casey/",
+            "icon": "linkedin",
+            "style": "link",
+            "elementId": ""
+        }
+    ],
+    "image": {
+        "url": "/images/team/casper-casey.jpg",
+        "altText": "Casper Casey photo"
+    }
+}

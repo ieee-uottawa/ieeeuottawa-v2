@@ -1,0 +1,20 @@
+{
+    "type": "Person",
+    "firstName": "Aparna",
+    "lastName": "Balaji",
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "LinkedIn",
+            "altText": "",
+            "url": "https://www.linkedin.com/in/aparna-balaji07/",
+            "icon": "linkedin",
+            "style": "link",
+            "elementId": ""
+        }
+    ],
+    "image": {
+        "url": "/images/team/aparna-balaji.jpg",
+        "altText": "Aparna Balaji photo"
+    }
+}

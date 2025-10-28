@@ -42,10 +42,11 @@ sections:
         elementId: ''
     backgroundImage:
       type: BackgroundImage
-      url: /images/team2024-25.jpg
+      url: /images/team2025-26.jpg
       backgroundSize: cover
-      backgroundPosition: center
+      backgroundPosition: top
       backgroundRepeat: no-repeat
+      className: 'scale-150'
       opacity: 15
     styles:
       self:
@@ -63,7 +64,7 @@ sections:
       actions:
         justifyContent: flex-start
     text: |
-      The new team of execs for the 2024-2025 school year has been elected!
+      Dive into an exciting year filled with events, workshops, and opportunities to connect with fellow EECS students.
     textFr: >
       La nouvelle équipe d'exécutifs pour l'année scolaire 2024-2025 a été élue !
   - type: TestimonialsSection
@@ -236,6 +237,12 @@ sections:
         icon: arrowRight
         style: primary
         url: 'https://www.instagram.com/ieeeuottawa/'
+      # - type: Button
+      #   label: Store
+      #   showIcon: true
+      #   icon: arrowRight
+      #   style: primary
+      #   url: 'https://ieee-uottawa.square.site/'
     backgroundImage:
       type: BackgroundImage
       url: /images/gridgallery.png

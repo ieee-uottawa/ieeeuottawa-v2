@@ -1,0 +1,20 @@
+{
+    "type": "Person",
+    "firstName": "Mohamed",
+    "lastName": "Boustta",
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "LinkedIn",
+            "altText": "",
+            "url": "https://www.linkedin.com/in/mohamed-boustta/",
+            "icon": "linkedin",
+            "style": "link",
+            "elementId": ""
+        }
+    ],
+    "image": {
+        "url": "/images/team/mohamed-boustta.jpg",
+        "altText": "Mohamed Boustta photo"
+    }
+}

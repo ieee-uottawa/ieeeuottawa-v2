@@ -1,0 +1,20 @@
+{
+    "type": "Person",
+    "firstName": "Adam",
+    "lastName": "Dia",
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "LinkedIn",
+            "altText": "",
+            "url": "https://www.linkedin.com/in/adambilaldia/",
+            "icon": "linkedin",
+            "style": "link",
+            "elementId": ""
+        }
+    ],
+    "image": {
+        "url": "/images/team/adam-dia.jpg",
+        "altText": "Adam Dia photo"
+    }
+}

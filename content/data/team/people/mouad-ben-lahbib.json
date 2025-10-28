@@ -1,0 +1,20 @@
+{
+    "type": "Person",
+    "firstName": "Mouad Ben",
+    "lastName": "Lahbib",
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "LinkedIn",
+            "altText": "",
+            "url": "https://www.linkedin.com/in/mouadbenlahbib/",
+            "icon": "linkedin",
+            "style": "link",
+            "elementId": ""
+        }
+    ],
+    "image": {
+        "url": "/images/team/mouad-ben-lahbib.jpg",
+        "altText": "Mouad Ben Lahbib photo"
+    }
+}

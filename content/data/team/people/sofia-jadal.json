@@ -1,0 +1,10 @@
+{
+    "type": "Person",
+    "firstName": "Sofia",
+    "lastName": "Jadal",
+    "socialLinks": [],
+    "image": {
+        "url": "/images/team/sofia-jadal.jpg",
+        "altText": "Sofia Jadal photo"
+    }
+}

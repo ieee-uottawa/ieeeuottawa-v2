@@ -1,0 +1,10 @@
+{
+    "type": "Person",
+    "firstName": "Renato",
+    "lastName": "Chea",
+    "socialLinks": [],
+    "image": {
+        "url": "/images/team/renato-chea.jpg",
+        "altText": "Renato Chea photo"
+    }
+}
