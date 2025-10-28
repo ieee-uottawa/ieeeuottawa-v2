@@ -127,8 +127,28 @@ export const translatedRoles = {
         en: 'WIE Design',
         fr: 'Design WIE'
     },
+    'wie-finance': {
+        en: 'WIE Finance',
+        fr: 'Finance WIE'
+    },
     'equity-commissioner': {
         en: 'Equity Commissioner',
         fr: "Commissionnaire d'équité"
+    },
+    'media-coordinator': {
+        en: 'Media Coordinator',
+        fr: "Coordinateur de médias"
+    },
+    'technical-coordinator': {
+        en: 'Technical Coordinator',
+        fr: "Coordinateur technique"
+    },
+    'industry-coordinator': {
+        en: 'Industry Coordinator',
+        fr: "Coordinateur industriel"
+    },
+    'first-year-coordinator': {
+        en: 'First-Year Coordinator',
+        fr: "Coordinateur de première année"
     }
 };

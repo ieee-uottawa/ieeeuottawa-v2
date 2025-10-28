@@ -1,0 +1,10 @@
+{
+    "type": "Person",
+    "firstName": "Meltem",
+    "lastName": "Selin",
+    "socialLinks": [],
+    "image": {
+        "url": "/images/team/meltem-selin.jpg",
+        "altText": "Meltem Selin photo"
+    }
+}

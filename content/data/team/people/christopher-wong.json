@@ -1,0 +1,20 @@
+{
+    "type": "Person",
+    "firstName": "Christopher",
+    "lastName": "Wong",
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "LinkedIn",
+            "altText": "",
+            "url": "https://www.linkedin.com/in/christopher-wong-piu-piu/",
+            "icon": "linkedin",
+            "style": "link",
+            "elementId": ""
+        }
+    ],
+    "image": {
+        "url": "/images/team/christopher-wong.jpg",
+        "altText": "Christopher Wong photo"
+    }
+}

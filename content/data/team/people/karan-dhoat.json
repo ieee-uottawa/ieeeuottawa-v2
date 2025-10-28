@@ -1,0 +1,20 @@
+{
+    "type": "Person",
+    "firstName": "Karan",
+    "lastName": "Dhoat",
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "LinkedIn",
+            "altText": "",
+            "url": "https://www.linkedin.com/in/karandhoat/",
+            "icon": "linkedin",
+            "style": "link",
+            "elementId": ""
+        }
+    ],
+    "image": {
+        "url": "/images/team/karan-dhoat.jpg",
+        "altText": "Karan Dhoat photo"
+    }
+}

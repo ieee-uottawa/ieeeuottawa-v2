@@ -1,0 +1,20 @@
+{
+    "type": "Person",
+    "firstName": "Chloe",
+    "lastName": "Dupont",
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "LinkedIn",
+            "altText": "",
+            "url": "https://www.linkedin.com/in/chloe-dupont-12b637267/",
+            "icon": "linkedin",
+            "style": "link",
+            "elementId": ""
+        }
+    ],
+    "image": {
+        "url": "/images/team/chloe-dupont.jpg",
+        "altText": "Chloe Dupont photo"
+    }
+}

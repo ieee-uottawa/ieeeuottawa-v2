@@ -153,16 +153,28 @@
         ],
         "secondaryLinks": [
             {
-                "type": "Button",
-                "label": "Instagram - ",
+                "type": "Icon",
+                "label": "Instagram",
                 "altText": "Instagram",
-                "style": "secondary",
+                "style": "primary",
                 "url": "https://www.instagram.com/ieeeuottawa/",
                 "showIcon": true,
                 "icon": "instagram",
-                "iconPosition": "right",
+                "iconPosition": "left",
+                "elementId": ""
+            },
+            {
+                "type": "Icon",
+                "label": "Store",
+                "altText": "Store",
+                "style": "secondary",
+                "url": "https://ieee-uottawa.square.site/",
+                "showIcon": true,
+                "icon": "cart",
+                "iconPosition": "left",
                 "elementId": ""
             }
+
         ],
         "styles": {
             "self": {

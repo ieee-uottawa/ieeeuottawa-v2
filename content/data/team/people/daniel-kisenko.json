@@ -1,0 +1,20 @@
+{
+    "type": "Person",
+    "firstName": "Daniel",
+    "lastName": "Kisenko",
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "LinkedIn",
+            "altText": "",
+            "url": "https://www.linkedin.com/in/danielkisenko/",
+            "icon": "linkedin",
+            "style": "link",
+            "elementId": ""
+        }
+    ],
+    "image": {
+        "url": "/images/team/daniel-kisenko.jpg",
+        "altText": "Daniel Kisenko photo"
+    }
+}

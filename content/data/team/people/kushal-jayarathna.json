@@ -1,0 +1,20 @@
+{
+    "type": "Person",
+    "firstName": "Kushal",
+    "lastName": "Jayarathna",
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "LinkedIn",
+            "altText": "",
+            "url": "https://www.linkedin.com/in/kushaljay/",
+            "icon": "linkedin",
+            "style": "link",
+            "elementId": ""
+        }
+    ],
+    "image": {
+        "url": "/images/team/kushal-jayarathna.jpg",
+        "altText": "Kushal Jayarathna photo"
+    }
+}
