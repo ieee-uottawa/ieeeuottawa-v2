@@ -1,0 +1,20 @@
+{
+    "type": "Person",
+    "firstName": "Luke",
+    "lastName": "Irvine",
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "LinkedIn",
+            "altText": "",
+            "url": "https://www.linkedin.com/in/luke-irvine-05b0762b2/",
+            "icon": "linkedin",
+            "style": "link",
+            "elementId": ""
+        }
+    ],
+    "image": {
+        "url": "/images/team/luke-irvine.jpg",
+        "altText": "Luke Irvine photo"
+    }
+}

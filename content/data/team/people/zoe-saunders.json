@@ -1,0 +1,20 @@
+{
+    "type": "Person",
+    "firstName": "Zoe",
+    "lastName": "Saunders",
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "LinkedIn",
+            "altText": "",
+            "url": "https://www.linkedin.com/in/zoe-saunders-941085265/",
+            "icon": "linkedin",
+            "style": "link",
+            "elementId": ""
+        }
+    ],
+    "image": {
+        "url": "/images/team/zoe-saunders.jpg",
+        "altText": "Zoe Saunders photo"
+    }
+}

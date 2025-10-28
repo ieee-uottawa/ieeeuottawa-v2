@@ -1,0 +1,20 @@
+{
+    "type": "Person",
+    "firstName": "Marina",
+    "lastName": "Pedrosa",
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "LinkedIn",
+            "altText": "",
+            "url": "https://www.linkedin.com/in/marina-pedrosa-33216924b/",
+            "icon": "linkedin",
+            "style": "link",
+            "elementId": ""
+        }
+    ],
+    "image": {
+        "url": "/images/team/marina-pedrosa.jpg",
+        "altText": "Marina Pedrosa photo"
+    }
+}

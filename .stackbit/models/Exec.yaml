@@ -60,6 +60,8 @@ fields:
         value: translations-commissioner
       - label: WIE Treasurer
         value: wie-treasurer
+      - label: WIE Finance
+        value: wie-finance
       - label: WIE Design
         value: wie-design
       - label: Equity Comissioner
@@ -70,6 +72,10 @@ fields:
         value: ceg-rep
       - label: 1st Year SEG Rep
         value: seg-rep
+      - label: Industry Coordinator
+        value: industry-coordinator
+      - label: First Year Coordinator
+        value: first-year-coordinator
     default: cover
     required: true
   - type: reference

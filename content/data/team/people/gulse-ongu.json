@@ -1,0 +1,20 @@
+{
+    "type": "Person",
+    "firstName": "Gülse",
+    "lastName": "Öngü",
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "LinkedIn",
+            "altText": "",
+            "url": "https://www.linkedin.com/in/gulse-ongu-9355b9331/",
+            "icon": "linkedin",
+            "style": "link",
+            "elementId": ""
+        }
+    ],
+    "image": {
+        "url": "/images/team/gulse-ongu.jpg",
+        "altText": "Gulse Ongu photo"
+    }
+}
