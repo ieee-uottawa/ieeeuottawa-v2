@@ -2,7 +2,15 @@
     "type": "Person",
     "firstName": "Renato",
     "lastName": "Chea",
-    "socialLinks": [],
+    "socialLinks": [        {
+            "type": "Social",
+            "label": "LinkedIn",
+            "altText": "",
+            "url": "https://ca.linkedin.com/in/renato-chea-5983672b7",
+            "icon": "linkedin",
+            "style": "link",
+            "elementId": ""
+        }],
     "image": {
         "url": "/images/team/renato-chea.jpg",
         "altText": "Renato Chea photo"
