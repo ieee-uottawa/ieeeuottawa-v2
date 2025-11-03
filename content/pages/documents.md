@@ -183,6 +183,214 @@ sections:
         elementId: ''
         title: IEEE Executive Meeting Minutes
         titleFr: Comptes rendus de la réunion exécutive
+        subtitle: '2025-11-01'
+        subtitleFr: 01-11-2025
+        text: null
+        textFr: null
+        isIcon: false
+        featuredImage: null
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - label: View
+            altText: ''
+            url: https://docs.google.com/document/d/1OvAmb7Q77MEEAfsTvgMEizohptFltq4IxfWBl6ZejD8/edit?tab=t.0
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+            type: Button
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
+        title: IEEE Executive Meeting Minutes
+        titleFr: Comptes rendus de la réunion exécutive
+        subtitle: '2025-10-25'
+        subtitleFr: 25-10-2025
+        text: null
+        textFr: null
+        isIcon: false
+        featuredImage: null
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - label: View
+            altText: ''
+            url: https://docs.google.com/document/d/1JS-aF6x_Q5XuwcOnLPhISoyYxuK0BP0hNglo_VrPW34/edit?tab=t.0
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+            type: Button
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
+        title: IEEE Executive Meeting Minutes
+        titleFr: Comptes rendus de la réunion exécutive
+        subtitle: '2025-10-18'
+        subtitleFr: 18-10-2025
+        text: null
+        textFr: null
+        isIcon: false
+        featuredImage: null
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - label: View
+            altText: ''
+            url: https://docs.google.com/document/d/1Cn1OvWpaKB8NQsa-3_t1QjnLeLyn6_nDPcF_s1wEiv4/edit?tab=t.0#heading=h.rcb5vnz97qck
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+            type: Button
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
+        title: IEEE Executive Meeting Minutes
+        titleFr: Comptes rendus de la réunion exécutive
+        subtitle: '2025-10-04'
+        subtitleFr: 04-10-2025
+        text: null
+        textFr: null
+        isIcon: false
+        featuredImage: null
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - label: View
+            altText: ''
+            url: https://docs.google.com/document/d/1CteaZOGLP_hXXYvMbTggJbKfSvrJpwV9z_lNe3u5iMw/edit?tab=t.0#heading=h.rcb5vnz97qck
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+            type: Button
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
+        title: IEEE Executive Meeting Minutes
+        titleFr: Comptes rendus de la réunion exécutive
+        subtitle: '2025-09-27'
+        subtitleFr: 27-09-2025
+        text: null
+        textFr: null
+        isIcon: false
+        featuredImage: null
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - label: View
+            altText: ''
+            url: https://docs.google.com/document/d/1CaKBj0ZxbzssVHDovVyur7a2ZgygR12QQz1Y2Ehx2cQ/edit?usp=sharing
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+            type: Button
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
+        title: IEEE Executive Meeting Minutes
+        titleFr: Comptes rendus de la réunion exécutive
+        subtitle: '2025-09-20'
+        subtitleFr: 20-09-2025
+        text: null
+        textFr: null
+        isIcon: false
+        featuredImage: null
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - label: View
+            altText: ''
+            url: https://docs.google.com/document/d/19bwDsAMbA2JkqVoRmFA46jzv32IUw0Hg_LNA0Ela5vo/edit?usp=sharing
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+            type: Button
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
+        title: IEEE Executive Meeting Minutes
+        titleFr: Comptes rendus de la réunion exécutive
+        subtitle: '2025-09-10'
+        subtitleFr: 10-09-2025
+        text: null
+        textFr: null
+        isIcon: false
+        featuredImage: null
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - label: View
+            altText: ''
+            url: https://docs.google.com/document/d/1YdzL0HHtg4J8t8yVBbTQaVkfU463gU8U/edit#heading=h.z4y1i8uasezn
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+            type: Button
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
+        title: IEEE AGM Fall 2025
+        titleFr: IEEE AGM Automne 2025
+        subtitle: '2025-09-03'
+        subtitleFr: 03-09-2025
+        text: null
+        textFr: null
+        isIcon: false
+        featuredImage: null
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - label: View
+            altText: ''
+            url: https://docs.google.com/document/d/1GdSVCeNDj4r-jcRidmp4w4bPLzKjj1rfmdI6ZnwRETQ/edit?tab=t.0
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+            type: Button
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
+        title: IEEE Executive Meeting Minutes
+        titleFr: Comptes rendus de la réunion exécutive
         subtitle: '2025-06-18'
         subtitleFr: 18-06-2025
         text: null
@@ -195,7 +403,7 @@ sections:
         actions:
           - label: View
             altText: ''
-            url: /files/meetings_2025-2026/18-06-2025.pdf
+            url: https://docs.google.com/document/d/1diFtUvu_YIkkKtd21Wwb9OGPkgGzeI3xPfODSEzovPU/edit?usp=sharing
             showIcon: true
             icon: arrowRight
             iconPosition: right
