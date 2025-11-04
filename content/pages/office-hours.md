@@ -20,7 +20,7 @@ sections:
         url: mailto:communications@ieeeuottawa.ca
     media:
       type: ImageBlock
-      url: /images/office-hours-w2023.jpeg
+      url: /images/office-hours-f2025.png
       altText: Office Hours Graphic
       height: 1000
       width: 800
@@ -62,5 +62,5 @@ metaTags:
     property: 'twitter:site'
     content: '@ieeeuottawa'
 metaTitle: Office Hours
-socialImage: /images/office-hours-w2024.png
+socialImage: /images/office-hours-f2025.png
 ---
