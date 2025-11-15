@@ -66,7 +66,7 @@ sections:
             label: View
             showIcon: true
             icon: arrowRight
-            url: /files/IEEE_uOttawa_Constitution_2025.pdf
+            url: https://docs.google.com/document/d/1Yt444tCcwp_Kr5NWvPsj9ll6g5kePuv8/edit?usp=sharing&ouid=109534100226615671344&rtpof=true&sd=true
             style: secondary
         styles:
           self:
@@ -179,6 +179,58 @@ sections:
       Check out the Internal meeting minutes to catch a glimpse of the
       discussions that drive what we do.
     items:
+      - type: FeaturedItem
+        elementId: ''
+        title: IEEE Fall SGM 2025
+        titleFr: IEEE SGM Automne 2025
+        subtitle: '2025-11-15'
+        subtitleFr: 15-11-2025
+        text: null
+        textFr: null
+        isIcon: false
+        featuredImage: null
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - label: View
+            altText: ''
+            url: https://docs.google.com/document/d/15Nb1hJmojdXAavj5clYr4OIX-U5V8gCMgYDpW7K-7HM/edit?tab=t.0#heading=h.i4tsliihf8rn
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+            type: Button
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        elementId: ''
+        title: IEEE Executive Meeting Minutes
+        titleFr: Comptes rendus de la réunion exécutive
+        subtitle: '2025-11-09'
+        subtitleFr: 09-11-2025
+        text: null
+        textFr: null
+        isIcon: false
+        featuredImage: null
+        featuredIcon:
+          label: Apple
+          value: apple
+        actions:
+          - label: View
+            altText: ''
+            url: https://docs.google.com/document/d/18Db8jkmP7UIL75WoWcFRQmChKZzZgGNAzQ-og_9E5Do/edit?tab=t.0#heading=h.rcb5vnz97qck
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+            type: Button
+        styles:
+          self:
+            textAlign: left
       - type: FeaturedItem
         elementId: ''
         title: IEEE Executive Meeting Minutes
