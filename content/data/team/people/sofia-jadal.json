@@ -2,7 +2,17 @@
     "type": "Person",
     "firstName": "Sofia",
     "lastName": "Jadal",
-    "socialLinks": [],
+    "socialLinks": [
+                {
+            "type": "Social",
+            "label": "LinkedIn",
+            "altText": "",
+            "url": "https://ca.linkedin.com/in/sofia-jadal-361512391",
+            "icon": "linkedin",
+            "style": "link",
+            "elementId": ""
+        }
+    ],
     "image": {
         "url": "/images/team/sofia-jadal.jpg",
         "altText": "Sofia Jadal photo"

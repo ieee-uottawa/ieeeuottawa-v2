@@ -1,6 +1,6 @@
 {
     "type": "Person",
-    "firstName": "Abigail",
+    "firstName": "Abby",
     "lastName": "Wilson",
     "socialLinks": [
         {
@@ -15,6 +15,6 @@
     ],
     "image": {
         "url": "/images/team/abigail-wilson.jpeg",
-        "altText": "Abigail Wilson photo"
+        "altText": "Abby Wilson photo"
     }
 }
