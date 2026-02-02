@@ -2,9 +2,19 @@
     "type": "Person",
     "firstName": "Saifdine",
     "lastName": "Sahbani",
-    "socialLinks": [],
+    "socialLinks": [
+        {
+            "type": "Social",
+            "label": "LinkedIn",
+            "altText": "",
+            "url": "https://www.linkedin.com/in/saif-dine/",
+            "icon": "linkedin",
+            "style": "link",
+            "elementId": ""
+        }
+    ],
     "image": {
-        "url": "/images/team/placeholder.jpeg",
+        "url": "/images/team/saif-sahbani.jpg",
         "altText": "Saifdine Sahbani"
     }
 }
